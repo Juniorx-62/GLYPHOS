@@ -6,10 +6,8 @@
 -->
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="brand/logo/glyphos-wordmark-inverse.svg">
-    <img src="brand/logo/glyphos-wordmark.svg" alt="GLYPHOS" width="320">
-  </picture>
+  <img src="brand/logo/glyphos-wordmark.svg#gh-light-mode-only" alt="GLYPHOS" width="320">
+  <img src="brand/logo/glyphos-wordmark-inverse.svg#gh-dark-mode-only" alt="GLYPHOS" width="320">
 </p>
 
 <p align="center">
