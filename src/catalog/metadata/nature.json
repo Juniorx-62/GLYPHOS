@@ -1,0 +1,1485 @@
+[
+  {
+    "id": "g1tn2gs5",
+    "slug": "acorn",
+    "name": {
+      "pt": "Bolota",
+      "en": "Acorn"
+    },
+    "subcategory": "plants",
+    "synonyms": {
+      "pt": ["fruto do carvalho", "glande"],
+      "en": ["oak nut"]
+    },
+    "tags": {
+      "pt": ["outono", "floresta", "esquilo", "semente"],
+      "en": ["autumn", "forest", "squirrel", "seed"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkhskmp2",
+    "slug": "bamboo",
+    "name": {
+      "pt": "Bambu",
+      "en": "Bamboo"
+    },
+    "subcategory": "plants",
+    "synonyms": {
+      "pt": ["taquara", "caule de bambu"],
+      "en": ["cane", "bamboo stalk"]
+    },
+    "tags": {
+      "pt": ["ásia", "zen", "natureza", "panda"],
+      "en": ["asia", "zen", "nature", "panda"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gxj4b4zt",
+    "slug": "bonsai",
+    "name": {
+      "pt": "Bonsai",
+      "en": "Bonsai"
+    },
+    "subcategory": "plants",
+    "family": "tree",
+    "synonyms": {
+      "pt": ["árvore em miniatura", "planta ornamental"],
+      "en": ["miniature tree", "ornamental tree"]
+    },
+    "tags": {
+      "pt": ["japonês", "zen", "jardinagem", "vaso"],
+      "en": ["japanese", "zen", "gardening", "pot"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnnh3780",
+    "slug": "cactus",
+    "name": {
+      "pt": "Cacto",
+      "en": "Cactus"
+    },
+    "subcategory": "plants",
+    "synonyms": {
+      "pt": ["cactos", "mandacaru", "suculenta"],
+      "en": ["cacti", "succulent"]
+    },
+    "tags": {
+      "pt": ["deserto", "planta", "seca", "espinhos"],
+      "en": ["desert", "plant", "dry", "spines"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gycxjvxa",
+    "slug": "canyon",
+    "name": {
+      "pt": "Cânion",
+      "en": "Canyon"
+    },
+    "subcategory": "landscape",
+    "family": "mountain",
+    "synonyms": {
+      "pt": ["desfiladeiro", "garganta", "vale"],
+      "en": ["gorge", "ravine", "valley"]
+    },
+    "tags": {
+      "pt": ["rochas", "deserto", "rio", "paisagem"],
+      "en": ["cliffs", "desert", "river", "landscape"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqrzv7yr",
+    "slug": "carbon-footprint",
+    "name": {
+      "pt": "Pegada de carbono",
+      "en": "Carbon footprint"
+    },
+    "subcategory": "ecology",
+    "synonyms": {
+      "pt": ["pegada ecológica", "emissões"],
+      "en": ["ecological footprint", "emissions"]
+    },
+    "tags": {
+      "pt": ["CO2", "sustentabilidade", "impacto ambiental"],
+      "en": ["CO2", "sustainability", "environmental impact"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gr014sna",
+    "slug": "cave",
+    "name": {
+      "pt": "Caverna",
+      "en": "Cave"
+    },
+    "subcategory": "landscape",
+    "family": "mountain",
+    "synonyms": {
+      "pt": ["gruta", "toca"],
+      "en": ["cavern", "grotto"]
+    },
+    "tags": {
+      "pt": ["espeleologia", "rocha", "abrigo", "montanha"],
+      "en": ["caving", "rock", "shelter", "mountain"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gg5ctcha",
+    "slug": "clover",
+    "name": {
+      "pt": "Trevo",
+      "en": "Clover"
+    },
+    "subcategory": "plants",
+    "family": "clover",
+    "synonyms": {
+      "pt": ["trevo de três folhas", "trifólio"],
+      "en": ["shamrock", "trefoil"]
+    },
+    "tags": {
+      "pt": ["sorte", "irlanda", "natureza", "campo"],
+      "en": ["luck", "irish", "nature", "field"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gjtt15qd",
+    "slug": "clover-four",
+    "name": {
+      "pt": "Trevo de quatro folhas",
+      "en": "Four-leaf clover"
+    },
+    "subcategory": "plants",
+    "family": "clover",
+    "synonyms": {
+      "pt": ["trevo da sorte"],
+      "en": ["lucky clover"]
+    },
+    "tags": {
+      "pt": ["sorte", "boa sorte", "superstição", "natureza"],
+      "en": ["luck", "good luck", "fortune", "nature"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpyxmsgw",
+    "slug": "compost",
+    "name": {
+      "pt": "Compostagem",
+      "en": "Compost"
+    },
+    "subcategory": "ecology",
+    "family": "recycle",
+    "synonyms": {
+      "pt": ["composteira", "lixo orgânico", "adubo"],
+      "en": ["compost bin", "organic waste", "fertilizer"]
+    },
+    "tags": {
+      "pt": ["resíduo orgânico", "reciclagem", "jardinagem"],
+      "en": ["food waste", "recycling", "gardening"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5bf1692",
+    "slug": "dandelion",
+    "name": {
+      "pt": "Dente-de-leão",
+      "en": "Dandelion"
+    },
+    "subcategory": "plants",
+    "synonyms": {
+      "pt": ["flor de vento", "taraxaco"],
+      "en": ["puffball", "blowball"]
+    },
+    "tags": {
+      "pt": ["desejo", "primavera", "campo", "sementes"],
+      "en": ["wish", "spring", "meadow", "seeds"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7q59cyx",
+    "slug": "desert",
+    "name": {
+      "pt": "Deserto",
+      "en": "Desert"
+    },
+    "subcategory": "landscape",
+    "synonyms": {
+      "pt": ["dunas", "areia"],
+      "en": ["dunes", "sand"]
+    },
+    "tags": {
+      "pt": ["calor", "seca", "saara", "paisagem"],
+      "en": ["heat", "dry", "sahara", "landscape"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gvswy403",
+    "slug": "droplet",
+    "name": {
+      "pt": "Pingo",
+      "en": "Droplet"
+    },
+    "subcategory": "ecology",
+    "family": "water-drop",
+    "synonyms": {
+      "pt": ["gotejamento", "goteira"],
+      "en": ["drip", "dripping"]
+    },
+    "tags": {
+      "pt": ["água", "vazamento", "respingo", "ondulação"],
+      "en": ["water", "leak", "splash", "ripple"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gstzt3k3",
+    "slug": "droplets",
+    "name": {
+      "pt": "Gotas",
+      "en": "Droplets"
+    },
+    "subcategory": "ecology",
+    "family": "water-drop",
+    "synonyms": {
+      "pt": ["pingos", "gotículas"],
+      "en": ["drops", "drips"]
+    },
+    "tags": {
+      "pt": ["água", "umidade", "chuva", "líquido"],
+      "en": ["water", "moisture", "rain", "liquid"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g17rfef7",
+    "slug": "earth",
+    "name": {
+      "pt": "Planeta Terra",
+      "en": "Earth"
+    },
+    "subcategory": "landscape",
+    "family": "earth",
+    "synonyms": {
+      "pt": ["mundo", "terra"],
+      "en": ["planet earth", "world"]
+    },
+    "tags": {
+      "pt": ["meio ambiente", "planeta", "global", "sustentabilidade"],
+      "en": ["environment", "planet", "global", "sustainability"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g88wp5ts",
+    "slug": "ecology-cycle",
+    "name": {
+      "pt": "Ciclo ecológico",
+      "en": "Eco cycle"
+    },
+    "subcategory": "ecology",
+    "family": "recycle",
+    "synonyms": {
+      "pt": ["sustentabilidade", "economia circular"],
+      "en": ["sustainability", "circular economy"]
+    },
+    "tags": {
+      "pt": ["reciclagem", "folha", "renovável", "meio ambiente"],
+      "en": ["recycling", "leaf", "renewable", "environment"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3g2aqzz",
+    "slug": "fallen-leaf",
+    "name": {
+      "pt": "Folha caindo",
+      "en": "Fallen leaf"
+    },
+    "subcategory": "plants",
+    "family": "leaf",
+    "synonyms": {
+      "pt": ["folha seca", "folha de outono"],
+      "en": ["falling leaf", "autumn leaf"]
+    },
+    "tags": {
+      "pt": ["outono", "queda", "estação", "vento"],
+      "en": ["autumn", "fall", "season", "wind"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gxt0tfvn",
+    "slug": "fern",
+    "name": {
+      "pt": "Samambaia",
+      "en": "Fern"
+    },
+    "subcategory": "plants",
+    "family": "leaf",
+    "synonyms": {
+      "pt": ["feto", "avenca"],
+      "en": ["frond", "bracken"]
+    },
+    "tags": {
+      "pt": ["floresta", "sombra", "planta", "verde"],
+      "en": ["forest", "shade", "plant", "green"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g79jj0br",
+    "slug": "field",
+    "name": {
+      "pt": "Campo",
+      "en": "Field"
+    },
+    "subcategory": "landscape",
+    "synonyms": {
+      "pt": ["plantação", "lavoura", "fazenda"],
+      "en": ["farmland", "crops", "farm"]
+    },
+    "tags": {
+      "pt": ["agricultura", "cultivo", "interior", "horizonte"],
+      "en": ["agriculture", "cultivation", "countryside", "horizon"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gb5ca5tn",
+    "slug": "fire",
+    "name": {
+      "pt": "Fogo",
+      "en": "Fire"
+    },
+    "subcategory": "ecology",
+    "family": "fire",
+    "synonyms": {
+      "pt": ["chamas", "incêndio", "fogueira"],
+      "en": ["flames", "blaze"]
+    },
+    "tags": {
+      "pt": ["quente", "queimar", "perigo", "em alta"],
+      "en": ["hot", "burn", "danger", "trending"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g09709sw",
+    "slug": "flame",
+    "name": {
+      "pt": "Chama",
+      "en": "Flame"
+    },
+    "subcategory": "ecology",
+    "family": "fire",
+    "synonyms": {
+      "pt": ["labareda", "lume"],
+      "en": ["blaze", "flare"]
+    },
+    "tags": {
+      "pt": ["fogo", "calor", "gás", "energia"],
+      "en": ["fire", "heat", "gas", "energy"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grd52xmb",
+    "slug": "flower",
+    "name": {
+      "pt": "Flor",
+      "en": "Flower"
+    },
+    "subcategory": "plants",
+    "family": "flower",
+    "synonyms": {
+      "pt": ["margarida", "florzinha"],
+      "en": ["daisy", "blossom"]
+    },
+    "tags": {
+      "pt": ["jardim", "primavera", "natureza", "presente"],
+      "en": ["garden", "spring", "nature", "gift"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gp1dfvev",
+    "slug": "flower-tulip",
+    "name": {
+      "pt": "Tulipa",
+      "en": "Tulip"
+    },
+    "subcategory": "plants",
+    "family": "flower",
+    "synonyms": {
+      "pt": ["flor de tulipa"],
+      "en": ["tulip flower"]
+    },
+    "tags": {
+      "pt": ["jardim", "primavera", "buquê", "holanda"],
+      "en": ["garden", "spring", "bouquet", "bloom"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0rjwb5x",
+    "slug": "forest",
+    "name": {
+      "pt": "Floresta",
+      "en": "Forest"
+    },
+    "subcategory": "landscape",
+    "family": "tree",
+    "synonyms": {
+      "pt": ["mata", "bosque", "árvores"],
+      "en": ["woods", "woodland", "trees"]
+    },
+    "tags": {
+      "pt": ["natureza", "parque", "ecologia", "trilha"],
+      "en": ["nature", "park", "ecology", "hiking"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "geez77h8",
+    "slug": "glacier",
+    "name": {
+      "pt": "Geleira",
+      "en": "Glacier"
+    },
+    "subcategory": "landscape",
+    "family": "mountain",
+    "synonyms": {
+      "pt": ["glaciar", "gelo eterno"],
+      "en": ["ice sheet", "ice field"]
+    },
+    "tags": {
+      "pt": ["gelo", "polo", "frio", "degelo"],
+      "en": ["ice", "polar", "cold", "melting"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gsek4dan",
+    "slug": "global-warming",
+    "name": {
+      "pt": "Aquecimento global",
+      "en": "Global warming"
+    },
+    "subcategory": "ecology",
+    "family": "earth",
+    "synonyms": {
+      "pt": ["mudança climática", "efeito estufa"],
+      "en": ["climate change", "greenhouse effect"]
+    },
+    "tags": {
+      "pt": ["planeta", "temperatura", "clima", "crise climática"],
+      "en": ["planet", "temperature", "climate crisis"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1wm9vtn",
+    "slug": "grass",
+    "name": {
+      "pt": "Grama",
+      "en": "Grass"
+    },
+    "subcategory": "plants",
+    "synonyms": {
+      "pt": ["capim", "relva", "gramado"],
+      "en": ["lawn", "turf", "meadow"]
+    },
+    "tags": {
+      "pt": ["jardim", "campo", "natureza", "verde"],
+      "en": ["garden", "field", "nature", "green"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpwcbv7c",
+    "slug": "herb",
+    "name": {
+      "pt": "Erva",
+      "en": "Herb"
+    },
+    "subcategory": "plants",
+    "family": "leaf",
+    "synonyms": {
+      "pt": ["raminho", "alecrim", "manjericão"],
+      "en": ["sprig", "rosemary", "basil"]
+    },
+    "tags": {
+      "pt": ["tempero", "chá", "cozinha", "natural"],
+      "en": ["seasoning", "tea", "cooking", "natural"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gem37zd7",
+    "slug": "hill",
+    "name": {
+      "pt": "Colina",
+      "en": "Hill"
+    },
+    "subcategory": "landscape",
+    "family": "mountain",
+    "synonyms": {
+      "pt": ["morro", "outeiro", "coxilha"],
+      "en": ["knoll", "rolling hills"]
+    },
+    "tags": {
+      "pt": ["paisagem", "campo", "relevo", "natureza"],
+      "en": ["landscape", "countryside", "terrain", "nature"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gj3gybse",
+    "slug": "horizon",
+    "name": {
+      "pt": "Horizonte",
+      "en": "Horizon"
+    },
+    "subcategory": "landscape",
+    "family": "water",
+    "synonyms": {
+      "pt": ["linha do horizonte", "mar"],
+      "en": ["skyline", "seascape"]
+    },
+    "tags": {
+      "pt": ["paisagem", "sol", "oceano", "perspectiva"],
+      "en": ["landscape", "sun", "ocean", "perspective"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdd572z9",
+    "slug": "iceberg",
+    "name": {
+      "pt": "Iceberg",
+      "en": "Iceberg"
+    },
+    "subcategory": "landscape",
+    "family": "mountain",
+    "synonyms": {
+      "pt": ["bloco de gelo", "montanha de gelo"],
+      "en": ["ice floe", "berg"]
+    },
+    "tags": {
+      "pt": ["oceano", "polo", "gelo", "risco oculto"],
+      "en": ["ocean", "polar", "ice", "hidden risk"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0zez6xd",
+    "slug": "island",
+    "name": {
+      "pt": "Ilha",
+      "en": "Island"
+    },
+    "subcategory": "landscape",
+    "synonyms": {
+      "pt": ["ilhota", "ilha deserta"],
+      "en": ["islet", "desert island"]
+    },
+    "tags": {
+      "pt": ["praia", "mar", "palmeira", "férias"],
+      "en": ["beach", "sea", "palm tree", "vacation"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gycbyd7n",
+    "slug": "lake",
+    "name": {
+      "pt": "Lago",
+      "en": "Lake"
+    },
+    "subcategory": "landscape",
+    "family": "water",
+    "synonyms": {
+      "pt": ["lagoa", "represa"],
+      "en": ["pond", "lagoon"]
+    },
+    "tags": {
+      "pt": ["água", "paisagem", "natureza", "pesca"],
+      "en": ["water", "landscape", "nature", "fishing"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4n6dtw3",
+    "slug": "leaf",
+    "name": {
+      "pt": "Folha",
+      "en": "Leaf"
+    },
+    "subcategory": "plants",
+    "family": "leaf",
+    "synonyms": {
+      "pt": ["folhagem", "planta"],
+      "en": ["foliage", "plant"]
+    },
+    "tags": {
+      "pt": ["natureza", "ecologia", "sustentável", "verde", "orgânico"],
+      "en": ["nature", "eco", "sustainable", "green", "organic"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gv50qn17",
+    "slug": "leaf-maple",
+    "name": {
+      "pt": "Folha de bordo",
+      "en": "Maple leaf"
+    },
+    "subcategory": "plants",
+    "family": "leaf",
+    "synonyms": {
+      "pt": ["folha de plátano", "maple"],
+      "en": ["maple"]
+    },
+    "tags": {
+      "pt": ["outono", "canadá", "natureza", "estação"],
+      "en": ["autumn", "fall", "canada", "nature"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g6gvz28a",
+    "slug": "leaves",
+    "name": {
+      "pt": "Folhas",
+      "en": "Leaves"
+    },
+    "subcategory": "plants",
+    "family": "leaf",
+    "synonyms": {
+      "pt": ["ramo", "galho com folhas"],
+      "en": ["twig", "sprig"]
+    },
+    "tags": {
+      "pt": ["natureza", "planta", "folhagem", "verde"],
+      "en": ["nature", "plant", "foliage", "green"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g78at4dg",
+    "slug": "log",
+    "name": {
+      "pt": "Tora de madeira",
+      "en": "Log"
+    },
+    "subcategory": "plants",
+    "family": "tree",
+    "synonyms": {
+      "pt": ["lenha", "tronco", "madeira"],
+      "en": ["firewood", "timber", "wood"]
+    },
+    "tags": {
+      "pt": ["lareira", "floresta", "corte", "combustível"],
+      "en": ["fireplace", "forest", "lumber", "fuel"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gje06p6x",
+    "slug": "mountain",
+    "name": {
+      "pt": "Montanha",
+      "en": "Mountain"
+    },
+    "subcategory": "landscape",
+    "family": "mountain",
+    "synonyms": {
+      "pt": ["monte", "pico"],
+      "en": ["peak", "summit"]
+    },
+    "tags": {
+      "pt": ["paisagem", "trilha", "aventura", "natureza", "neve"],
+      "en": ["landscape", "hiking", "adventure", "nature", "snow"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3tnrq8q",
+    "slug": "mountains",
+    "name": {
+      "pt": "Montanhas",
+      "en": "Mountains"
+    },
+    "subcategory": "landscape",
+    "family": "mountain",
+    "synonyms": {
+      "pt": ["cordilheira", "serra", "picos"],
+      "en": ["mountain range", "peaks"]
+    },
+    "tags": {
+      "pt": ["paisagem", "natureza", "trilha", "relevo"],
+      "en": ["landscape", "nature", "hiking", "terrain"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gfmgx6v9",
+    "slug": "mushroom",
+    "name": {
+      "pt": "Cogumelo",
+      "en": "Mushroom"
+    },
+    "subcategory": "plants",
+    "synonyms": {
+      "pt": ["fungo", "champignon"],
+      "en": ["fungus", "toadstool"]
+    },
+    "tags": {
+      "pt": ["floresta", "natureza", "outono", "cogumelos"],
+      "en": ["forest", "nature", "autumn", "fungi"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gt5b39rs",
+    "slug": "pinecone",
+    "name": {
+      "pt": "Pinha",
+      "en": "Pinecone"
+    },
+    "subcategory": "plants",
+    "synonyms": {
+      "pt": ["cone de pinheiro", "estróbilo"],
+      "en": ["pine cone", "conifer cone"]
+    },
+    "tags": {
+      "pt": ["outono", "floresta", "natal", "semente"],
+      "en": ["autumn", "forest", "christmas", "seed"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g87ps516",
+    "slug": "plant-energy",
+    "name": {
+      "pt": "Energia verde",
+      "en": "Green energy"
+    },
+    "subcategory": "ecology",
+    "family": "energy",
+    "synonyms": {
+      "pt": ["bioenergia", "energia renovável"],
+      "en": ["bioenergy", "renewable energy"]
+    },
+    "tags": {
+      "pt": ["folha", "raio", "sustentável", "biocombustível"],
+      "en": ["leaf", "bolt", "sustainable", "biofuel"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gshv24yr",
+    "slug": "potted-plant",
+    "name": {
+      "pt": "Vaso de planta",
+      "en": "Potted plant"
+    },
+    "subcategory": "plants",
+    "family": "sprout",
+    "synonyms": {
+      "pt": ["planta de vaso", "planta de interior"],
+      "en": ["houseplant", "plant pot"]
+    },
+    "tags": {
+      "pt": ["decoração", "casa", "jardinagem", "escritório"],
+      "en": ["decor", "home", "gardening", "office"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwmx63yb",
+    "slug": "recycle",
+    "name": {
+      "pt": "Reciclar",
+      "en": "Recycle"
+    },
+    "subcategory": "ecology",
+    "synonyms": {
+      "pt": ["reciclagem", "reutilizar"],
+      "en": ["recycling", "reuse"]
+    },
+    "tags": {
+      "pt": ["sustentável", "lixo reciclável", "meio ambiente", "ecologia"],
+      "en": ["sustainable", "recyclable", "environment", "eco"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnewr9pr",
+    "slug": "river",
+    "name": {
+      "pt": "Rio",
+      "en": "River"
+    },
+    "subcategory": "landscape",
+    "family": "water",
+    "synonyms": {
+      "pt": ["córrego", "riacho", "curso de água"],
+      "en": ["stream", "creek", "waterway"]
+    },
+    "tags": {
+      "pt": ["água doce", "paisagem", "natureza"],
+      "en": ["freshwater", "landscape", "nature"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkq8gg19",
+    "slug": "rose",
+    "name": {
+      "pt": "Rosa",
+      "en": "Rose"
+    },
+    "subcategory": "plants",
+    "family": "flower",
+    "synonyms": {
+      "pt": ["flor", "botão de rosa"],
+      "en": ["flower", "rosebud"]
+    },
+    "tags": {
+      "pt": ["amor", "romance", "namorados", "jardim"],
+      "en": ["love", "romance", "valentine", "garden"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gw7gr9y2",
+    "slug": "save-water",
+    "name": {
+      "pt": "Economizar água",
+      "en": "Save water"
+    },
+    "subcategory": "ecology",
+    "family": "water-drop",
+    "synonyms": {
+      "pt": ["poupar água", "consumo consciente"],
+      "en": ["water saving", "conserve water"]
+    },
+    "tags": {
+      "pt": ["gota", "mão", "sustentabilidade", "recurso hídrico"],
+      "en": ["drop", "hand", "sustainability", "water resource"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmtm0f3t",
+    "slug": "seedling",
+    "name": {
+      "pt": "Plantinha",
+      "en": "Seedling"
+    },
+    "subcategory": "plants",
+    "family": "sprout",
+    "synonyms": {
+      "pt": ["muda", "plântula", "semeadura"],
+      "en": ["young plant", "seed sprout"]
+    },
+    "tags": {
+      "pt": ["plantar", "cultivo", "jardinagem", "crescimento"],
+      "en": ["planting", "gardening", "cultivation", "growth"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gsraq592",
+    "slug": "solar-panel",
+    "name": {
+      "pt": "Painel solar",
+      "en": "Solar panel"
+    },
+    "subcategory": "ecology",
+    "family": "energy",
+    "synonyms": {
+      "pt": ["placa solar", "energia solar", "fotovoltaico"],
+      "en": ["solar energy", "photovoltaic"]
+    },
+    "tags": {
+      "pt": ["energia limpa", "renovável", "sustentável"],
+      "en": ["clean energy", "renewable", "sustainable"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gv69yxwm",
+    "slug": "sprout",
+    "name": {
+      "pt": "Broto",
+      "en": "Sprout"
+    },
+    "subcategory": "plants",
+    "family": "sprout",
+    "synonyms": {
+      "pt": ["muda", "brotinho", "germinar"],
+      "en": ["shoot", "germinate"]
+    },
+    "tags": {
+      "pt": ["crescimento", "planta", "natureza", "começo"],
+      "en": ["growth", "plant", "nature", "start"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gm4cwq4h",
+    "slug": "stone",
+    "name": {
+      "pt": "Pedra",
+      "en": "Stone"
+    },
+    "subcategory": "landscape",
+    "synonyms": {
+      "pt": ["rocha", "seixo", "pedregulho"],
+      "en": ["rock", "pebble", "boulder"]
+    },
+    "tags": {
+      "pt": ["mineral", "geologia", "natureza", "cascalho"],
+      "en": ["mineral", "geology", "nature", "gravel"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g85xkhqg",
+    "slug": "sunflower",
+    "name": {
+      "pt": "Girassol",
+      "en": "Sunflower"
+    },
+    "subcategory": "plants",
+    "family": "flower",
+    "synonyms": {
+      "pt": ["flor amarela"],
+      "en": ["yellow flower"]
+    },
+    "tags": {
+      "pt": ["verão", "campo", "sol", "jardim"],
+      "en": ["summer", "field", "sun", "garden"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4s3c1m8",
+    "slug": "tree",
+    "name": {
+      "pt": "Árvore",
+      "en": "Tree"
+    },
+    "subcategory": "plants",
+    "family": "tree",
+    "synonyms": {
+      "pt": ["arvoredo", "planta"],
+      "en": ["plant", "shade tree"]
+    },
+    "tags": {
+      "pt": ["natureza", "parque", "floresta", "meio ambiente"],
+      "en": ["nature", "park", "forest", "environment"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8ntsng3",
+    "slug": "tree-bare",
+    "name": {
+      "pt": "Árvore sem folhas",
+      "en": "Bare tree"
+    },
+    "subcategory": "plants",
+    "family": "tree",
+    "synonyms": {
+      "pt": ["árvore seca", "galhos"],
+      "en": ["leafless tree", "dead tree"]
+    },
+    "tags": {
+      "pt": ["inverno", "outono", "seca", "desmatamento"],
+      "en": ["winter", "autumn", "drought", "branches"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1s30bc7",
+    "slug": "tree-deciduous",
+    "name": {
+      "pt": "Árvore frondosa",
+      "en": "Deciduous tree"
+    },
+    "subcategory": "plants",
+    "family": "tree",
+    "synonyms": {
+      "pt": ["carvalho", "árvore de copa"],
+      "en": ["oak tree", "broadleaf"]
+    },
+    "tags": {
+      "pt": ["natureza", "parque", "folhas", "sombra"],
+      "en": ["nature", "park", "foliage", "shade"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gww92s9y",
+    "slug": "tree-palm",
+    "name": {
+      "pt": "Palmeira",
+      "en": "Palm tree"
+    },
+    "subcategory": "plants",
+    "family": "tree",
+    "synonyms": {
+      "pt": ["coqueiro"],
+      "en": ["coconut tree"]
+    },
+    "tags": {
+      "pt": ["praia", "trópico", "verão", "férias"],
+      "en": ["beach", "tropical", "summer", "vacation"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5fr3stq",
+    "slug": "tree-pine",
+    "name": {
+      "pt": "Pinheiro",
+      "en": "Pine tree"
+    },
+    "subcategory": "plants",
+    "family": "tree",
+    "synonyms": {
+      "pt": ["conífera", "pinho"],
+      "en": ["conifer", "evergreen", "fir"]
+    },
+    "tags": {
+      "pt": ["árvore de natal", "floresta", "inverno", "natureza"],
+      "en": ["christmas tree", "forest", "winter", "nature"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnptxx11",
+    "slug": "tree-planting",
+    "name": {
+      "pt": "Plantar árvore",
+      "en": "Plant a tree"
+    },
+    "subcategory": "ecology",
+    "family": "tree",
+    "variantOf": "tree",
+    "synonyms": {
+      "pt": ["reflorestamento", "plantio"],
+      "en": ["reforestation", "tree planting"]
+    },
+    "tags": {
+      "pt": ["sustentabilidade", "ecologia", "muda", "adicionar"],
+      "en": ["sustainability", "ecology", "sapling", "add"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5d6yxc8",
+    "slug": "tree-stump",
+    "name": {
+      "pt": "Toco de árvore",
+      "en": "Tree stump"
+    },
+    "subcategory": "plants",
+    "family": "tree",
+    "synonyms": {
+      "pt": ["cepo", "tronco cortado"],
+      "en": ["stump", "felled tree"]
+    },
+    "tags": {
+      "pt": ["desmatamento", "madeira", "floresta", "corte"],
+      "en": ["deforestation", "wood", "forest", "logging"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g05mjt3g",
+    "slug": "volcano",
+    "name": {
+      "pt": "Vulcão",
+      "en": "Volcano"
+    },
+    "subcategory": "landscape",
+    "family": "mountain",
+    "synonyms": {
+      "pt": ["erupção", "cratera"],
+      "en": ["eruption", "crater"]
+    },
+    "tags": {
+      "pt": ["lava", "magma", "desastre natural", "montanha"],
+      "en": ["lava", "magma", "natural disaster", "mountain"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3xm422q",
+    "slug": "water-drop",
+    "name": {
+      "pt": "Gota d’água",
+      "en": "Water drop"
+    },
+    "subcategory": "ecology",
+    "family": "water-drop",
+    "synonyms": {
+      "pt": ["gota", "pingo"],
+      "en": ["drop", "droplet"]
+    },
+    "tags": {
+      "pt": ["água", "líquido", "hidratação", "economia de água"],
+      "en": ["water", "liquid", "hydration", "fluid"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggyj292v",
+    "slug": "waterfall",
+    "name": {
+      "pt": "Cachoeira",
+      "en": "Waterfall"
+    },
+    "subcategory": "landscape",
+    "family": "water",
+    "synonyms": {
+      "pt": ["cascata", "queda d’água"],
+      "en": ["cascade", "falls"]
+    },
+    "tags": {
+      "pt": ["rio", "natureza", "trilha", "água"],
+      "en": ["river", "nature", "hiking", "water"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmc470bn",
+    "slug": "waves",
+    "name": {
+      "pt": "Ondas",
+      "en": "Waves"
+    },
+    "subcategory": "landscape",
+    "family": "water",
+    "synonyms": {
+      "pt": ["ondulação", "mar", "maré"],
+      "en": ["ripples", "sea", "tide"]
+    },
+    "tags": {
+      "pt": ["oceano", "água", "praia", "surfe"],
+      "en": ["ocean", "water", "beach", "surf"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzqb8v2e",
+    "slug": "wheat",
+    "name": {
+      "pt": "Trigo",
+      "en": "Wheat"
+    },
+    "subcategory": "plants",
+    "family": "wheat",
+    "synonyms": {
+      "pt": ["espiga", "cereal", "grão"],
+      "en": ["grain", "cereal", "ear of wheat"]
+    },
+    "tags": {
+      "pt": ["colheita", "agricultura", "glúten", "pão"],
+      "en": ["harvest", "agriculture", "gluten", "bread"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g79eq5pj",
+    "slug": "wind-turbine",
+    "name": {
+      "pt": "Turbina eólica",
+      "en": "Wind turbine"
+    },
+    "subcategory": "ecology",
+    "family": "energy",
+    "synonyms": {
+      "pt": ["aerogerador", "energia eólica", "cata-vento"],
+      "en": ["wind power", "windmill"]
+    },
+    "tags": {
+      "pt": ["energia limpa", "renovável", "vento"],
+      "en": ["clean energy", "renewable", "wind"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  }
+]

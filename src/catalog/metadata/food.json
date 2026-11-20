@@ -1,0 +1,1924 @@
+[
+  {
+    "id": "grgrjk7m",
+    "slug": "apple",
+    "name": {
+      "pt": "Maçã",
+      "en": "Apple"
+    },
+    "subcategory": "produce",
+    "synonyms": {
+      "pt": ["fruta", "maçã vermelha"],
+      "en": ["fruit", "red apple"]
+    },
+    "tags": {
+      "pt": ["alimentação saudável", "lanche", "pomar", "nutrição"],
+      "en": ["healthy food", "snack", "orchard", "nutrition"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g29q0m8h",
+    "slug": "apron",
+    "name": {
+      "pt": "Avental",
+      "en": "Apron"
+    },
+    "subcategory": "kitchen",
+    "synonyms": {
+      "pt": ["avental de cozinha"],
+      "en": ["kitchen apron", "pinafore"]
+    },
+    "tags": {
+      "pt": ["cozinha", "chef", "cozinhar", "churrasco"],
+      "en": ["kitchen", "chef", "cooking", "barbecue"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gadma1hw",
+    "slug": "avocado",
+    "name": {
+      "pt": "Abacate",
+      "en": "Avocado"
+    },
+    "subcategory": "produce",
+    "synonyms": {
+      "pt": ["avocado"],
+      "en": ["avocado half"]
+    },
+    "tags": {
+      "pt": ["guacamole", "saudável", "gordura boa", "fruta"],
+      "en": ["guacamole", "healthy", "healthy fat", "fruit"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3k4018w",
+    "slug": "banana",
+    "name": {
+      "pt": "Banana",
+      "en": "Banana"
+    },
+    "subcategory": "produce",
+    "synonyms": {
+      "pt": ["fruta", "cacho"],
+      "en": ["fruit", "plantain"]
+    },
+    "tags": {
+      "pt": ["potássio", "lanche", "fruta tropical", "energia"],
+      "en": ["potassium", "snack", "tropical fruit", "energy"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gycgqken",
+    "slug": "beer",
+    "name": {
+      "pt": "Cerveja",
+      "en": "Beer"
+    },
+    "subcategory": "drinks",
+    "synonyms": {
+      "pt": ["chope", "caneca de cerveja"],
+      "en": ["draft beer", "beer mug"]
+    },
+    "tags": {
+      "pt": ["bar", "bebida alcoólica", "happy hour", "espuma"],
+      "en": ["bar", "alcohol", "happy hour", "pub"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0y5p01c",
+    "slug": "blender",
+    "name": {
+      "pt": "Liquidificador",
+      "en": "Blender"
+    },
+    "subcategory": "kitchen",
+    "synonyms": {
+      "pt": ["mixer", "batedeira"],
+      "en": ["mixer", "smoothie maker"]
+    },
+    "tags": {
+      "pt": ["vitamina", "suco", "cozinha", "eletrodoméstico"],
+      "en": ["smoothie", "juice", "kitchen", "appliance"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gd7jk4r5",
+    "slug": "bowl",
+    "name": {
+      "pt": "Tigela",
+      "en": "Bowl"
+    },
+    "subcategory": "kitchen",
+    "family": "bowl",
+    "synonyms": {
+      "pt": ["cumbuca", "vasilha"],
+      "en": ["dish", "basin"]
+    },
+    "tags": {
+      "pt": ["prato fundo", "refeição", "cereal", "cozinha"],
+      "en": ["deep plate", "meal", "cereal", "kitchen"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gxa7z38r",
+    "slug": "bread",
+    "name": {
+      "pt": "Pão",
+      "en": "Bread"
+    },
+    "subcategory": "meals",
+    "synonyms": {
+      "pt": ["pão de forma", "filão"],
+      "en": ["loaf", "baguette"]
+    },
+    "tags": {
+      "pt": ["padaria", "café da manhã", "trigo", "fermentação"],
+      "en": ["bakery", "breakfast", "wheat", "sourdough"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4vjvqk6",
+    "slug": "broccoli",
+    "name": {
+      "pt": "Brócolis",
+      "en": "Broccoli"
+    },
+    "subcategory": "produce",
+    "synonyms": {
+      "pt": ["brócolo", "verdura"],
+      "en": ["greens", "vegetable"]
+    },
+    "tags": {
+      "pt": ["vegetal", "saudável", "verde", "dieta"],
+      "en": ["veggie", "healthy", "green", "diet"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gyr6gpre",
+    "slug": "bubble-tea",
+    "name": {
+      "pt": "Chá de bolhas",
+      "en": "Bubble tea"
+    },
+    "subcategory": "drinks",
+    "synonyms": {
+      "pt": ["bubble tea", "chá com pérolas"],
+      "en": ["boba tea", "pearl milk tea"]
+    },
+    "tags": {
+      "pt": ["bebida", "tapioca", "chá gelado", "boba"],
+      "en": ["drink", "tapioca", "iced tea", "boba"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4t0c1zk",
+    "slug": "burger",
+    "name": {
+      "pt": "Hambúrguer",
+      "en": "Burger"
+    },
+    "subcategory": "meals",
+    "synonyms": {
+      "pt": ["sanduíche", "x-burger"],
+      "en": ["hamburger", "cheeseburger"]
+    },
+    "tags": {
+      "pt": ["fast food", "lanche", "lanchonete", "delivery"],
+      "en": ["fast food", "snack", "diner", "delivery"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gk6vaf0x",
+    "slug": "cake",
+    "name": {
+      "pt": "Bolo",
+      "en": "Cake"
+    },
+    "subcategory": "meals",
+    "synonyms": {
+      "pt": ["bolo de aniversário", "torta"],
+      "en": ["birthday cake", "layer cake"]
+    },
+    "tags": {
+      "pt": ["aniversário", "festa", "confeitaria", "comemoração"],
+      "en": ["birthday", "party", "bakery", "celebration"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "getpn509",
+    "slug": "candy",
+    "name": {
+      "pt": "Bala",
+      "en": "Candy"
+    },
+    "subcategory": "meals",
+    "synonyms": {
+      "pt": ["doce", "bombom"],
+      "en": ["sweet", "bonbon"]
+    },
+    "tags": {
+      "pt": ["guloseima", "açúcar", "halloween", "confeito"],
+      "en": ["sweets", "sugar", "halloween", "treat"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwyttzth",
+    "slug": "carrot",
+    "name": {
+      "pt": "Cenoura",
+      "en": "Carrot"
+    },
+    "subcategory": "produce",
+    "synonyms": {
+      "pt": ["legume", "raiz"],
+      "en": ["vegetable", "root"]
+    },
+    "tags": {
+      "pt": ["vegetal", "horta", "vitamina A", "coelho"],
+      "en": ["veggie", "garden", "vitamin A", "rabbit"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gz9mtb12",
+    "slug": "champagne",
+    "name": {
+      "pt": "Champanhe",
+      "en": "Champagne"
+    },
+    "subcategory": "drinks",
+    "synonyms": {
+      "pt": ["espumante", "brinde"],
+      "en": ["sparkling wine", "toast"]
+    },
+    "tags": {
+      "pt": ["comemoração", "festa", "ano-novo", "celebração"],
+      "en": ["celebration", "party", "new year", "cheers"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gtgw08zk",
+    "slug": "cheese",
+    "name": {
+      "pt": "Queijo",
+      "en": "Cheese"
+    },
+    "subcategory": "meals",
+    "synonyms": {
+      "pt": ["fatia de queijo", "queijo suíço"],
+      "en": ["cheese wedge", "swiss cheese"]
+    },
+    "tags": {
+      "pt": ["laticínio", "lanche", "fondue", "queijaria"],
+      "en": ["dairy", "snack", "fondue", "cheddar"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzf02nym",
+    "slug": "chef-hat",
+    "name": {
+      "pt": "Chapéu de chef",
+      "en": "Chef hat"
+    },
+    "subcategory": "kitchen",
+    "synonyms": {
+      "pt": ["touca de cozinheiro", "chef"],
+      "en": ["toque", "chef"]
+    },
+    "tags": {
+      "pt": ["cozinha", "culinária", "restaurante", "gastronomia"],
+      "en": ["kitchen", "cooking", "restaurant", "gastronomy"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gvmyqy5p",
+    "slug": "cherry",
+    "name": {
+      "pt": "Cereja",
+      "en": "Cherry"
+    },
+    "subcategory": "produce",
+    "synonyms": {
+      "pt": ["cerejas", "fruta vermelha"],
+      "en": ["cherries", "red fruit"]
+    },
+    "tags": {
+      "pt": ["sobremesa", "doce", "verão", "fruta"],
+      "en": ["dessert", "sweet", "summer", "fruit"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gh3gxwrf",
+    "slug": "chocolate",
+    "name": {
+      "pt": "Chocolate",
+      "en": "Chocolate"
+    },
+    "subcategory": "meals",
+    "synonyms": {
+      "pt": ["barra de chocolate", "tablete"],
+      "en": ["chocolate bar", "candy bar"]
+    },
+    "tags": {
+      "pt": ["doce", "cacau", "sobremesa", "guloseima"],
+      "en": ["sweet", "cocoa", "dessert", "treat"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gc7p3gsp",
+    "slug": "cocktail",
+    "name": {
+      "pt": "Coquetel",
+      "en": "Cocktail"
+    },
+    "subcategory": "drinks",
+    "synonyms": {
+      "pt": ["drinque", "caipirinha"],
+      "en": ["mixed drink", "highball"]
+    },
+    "tags": {
+      "pt": ["bar", "bebida", "festa", "happy hour"],
+      "en": ["bar", "beverage", "party", "happy hour"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g2q3b8ty",
+    "slug": "coffee",
+    "name": {
+      "pt": "Café",
+      "en": "Coffee"
+    },
+    "subcategory": "drinks",
+    "synonyms": {
+      "pt": ["xícara de café", "cafezinho"],
+      "en": ["coffee cup", "espresso"]
+    },
+    "tags": {
+      "pt": ["cafeteria", "café da manhã", "bebida quente", "expresso"],
+      "en": ["cafe", "breakfast", "hot drink", "coffee shop"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqtks2aj",
+    "slug": "cookie",
+    "name": {
+      "pt": "Biscoito",
+      "en": "Cookie"
+    },
+    "subcategory": "meals",
+    "synonyms": {
+      "pt": ["cookie", "bolacha"],
+      "en": ["biscuit", "chocolate chip cookie"]
+    },
+    "tags": {
+      "pt": ["doce", "lanche", "gotas de chocolate", "padaria"],
+      "en": ["sweet", "snack", "chocolate chips", "bakery"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gw2e9cdm",
+    "slug": "cooking-pot",
+    "name": {
+      "pt": "Panela",
+      "en": "Cooking pot"
+    },
+    "subcategory": "kitchen",
+    "synonyms": {
+      "pt": ["caçarola", "panela com tampa"],
+      "en": ["pot", "saucepan"]
+    },
+    "tags": {
+      "pt": ["cozinhar", "cozinha", "ensopado", "receita"],
+      "en": ["cooking", "kitchen", "stew", "recipe"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzt0ezm8",
+    "slug": "corn",
+    "name": {
+      "pt": "Milho",
+      "en": "Corn"
+    },
+    "subcategory": "produce",
+    "synonyms": {
+      "pt": ["espiga de milho"],
+      "en": ["corn cob", "maize"]
+    },
+    "tags": {
+      "pt": ["vegetal", "pipoca", "festa junina", "grão"],
+      "en": ["vegetable", "popcorn", "grain", "harvest"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grx6k60v",
+    "slug": "croissant",
+    "name": {
+      "pt": "Croissant",
+      "en": "Croissant"
+    },
+    "subcategory": "meals",
+    "synonyms": {
+      "pt": ["pão folhado"],
+      "en": ["crescent roll"]
+    },
+    "tags": {
+      "pt": ["padaria", "café da manhã", "francês", "confeitaria"],
+      "en": ["bakery", "breakfast", "french", "pastry"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzc29wad",
+    "slug": "cupcake",
+    "name": {
+      "pt": "Cupcake",
+      "en": "Cupcake"
+    },
+    "subcategory": "meals",
+    "synonyms": {
+      "pt": ["bolinho", "muffin"],
+      "en": ["muffin", "fairy cake"]
+    },
+    "tags": {
+      "pt": ["doce", "confeitaria", "festa", "sobremesa"],
+      "en": ["sweet", "bakery", "party", "dessert"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gef02n34",
+    "slug": "cutting-board",
+    "name": {
+      "pt": "Tábua de cortar",
+      "en": "Cutting board"
+    },
+    "subcategory": "kitchen",
+    "synonyms": {
+      "pt": ["tábua de cozinha", "tábua de corte"],
+      "en": ["chopping board", "bread board"]
+    },
+    "tags": {
+      "pt": ["cozinha", "picar", "cortar", "madeira"],
+      "en": ["kitchen", "chop", "slice", "wooden board"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4ngs3kq",
+    "slug": "donut",
+    "name": {
+      "pt": "Rosquinha",
+      "en": "Donut"
+    },
+    "subcategory": "meals",
+    "synonyms": {
+      "pt": ["donut", "sonho"],
+      "en": ["doughnut", "ring donut"]
+    },
+    "tags": {
+      "pt": ["doce", "confeitaria", "café", "cobertura"],
+      "en": ["sweet", "bakery", "coffee", "frosting"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "geep05d8",
+    "slug": "drumstick",
+    "name": {
+      "pt": "Coxa de frango",
+      "en": "Drumstick"
+    },
+    "subcategory": "meals",
+    "synonyms": {
+      "pt": ["frango", "coxinha da asa"],
+      "en": ["chicken leg", "poultry"]
+    },
+    "tags": {
+      "pt": ["frango frito", "carne", "assado", "churrasco"],
+      "en": ["fried chicken", "meat", "roast", "barbecue"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqjprx41",
+    "slug": "egg-fried",
+    "name": {
+      "pt": "Ovo frito",
+      "en": "Fried egg"
+    },
+    "subcategory": "meals",
+    "synonyms": {
+      "pt": ["ovo estrelado", "ovo"],
+      "en": ["sunny side up", "egg"]
+    },
+    "tags": {
+      "pt": ["café da manhã", "gema", "frigideira", "proteína"],
+      "en": ["breakfast", "yolk", "frying pan", "protein"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gm6zk07s",
+    "slug": "eggplant",
+    "name": {
+      "pt": "Berinjela",
+      "en": "Eggplant"
+    },
+    "subcategory": "produce",
+    "synonyms": {
+      "pt": ["legume roxo"],
+      "en": ["aubergine", "brinjal"]
+    },
+    "tags": {
+      "pt": ["vegetal", "horta", "cozinha", "assado"],
+      "en": ["vegetable", "garden", "cooking", "veggie"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gb8f00h5",
+    "slug": "fork-knife",
+    "name": {
+      "pt": "Garfo e faca",
+      "en": "Fork and knife"
+    },
+    "subcategory": "kitchen",
+    "synonyms": {
+      "pt": ["talheres", "refeição"],
+      "en": ["cutlery", "silverware"]
+    },
+    "tags": {
+      "pt": ["restaurante", "comida", "almoço", "jantar"],
+      "en": ["restaurant", "food", "lunch", "dinner"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0fvya4m",
+    "slug": "fries",
+    "name": {
+      "pt": "Batata frita",
+      "en": "French fries"
+    },
+    "subcategory": "meals",
+    "synonyms": {
+      "pt": ["fritas", "porção de fritas"],
+      "en": ["fries", "chips"]
+    },
+    "tags": {
+      "pt": ["fast food", "lanche", "acompanhamento", "lanchonete"],
+      "en": ["fast food", "snack", "side dish", "diner"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gxwq99cq",
+    "slug": "frying-pan",
+    "name": {
+      "pt": "Frigideira",
+      "en": "Frying pan"
+    },
+    "subcategory": "kitchen",
+    "synonyms": {
+      "pt": ["frigideira de cabo", "chapa"],
+      "en": ["skillet", "pan"]
+    },
+    "tags": {
+      "pt": ["fritar", "cozinha", "cozinhar", "refogar"],
+      "en": ["fry", "kitchen", "cooking", "saute"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ganxxd9r",
+    "slug": "garlic",
+    "name": {
+      "pt": "Alho",
+      "en": "Garlic"
+    },
+    "subcategory": "produce",
+    "synonyms": {
+      "pt": ["dente de alho", "cabeça de alho"],
+      "en": ["garlic bulb", "clove"]
+    },
+    "tags": {
+      "pt": ["tempero", "cozinha", "refogado", "condimento"],
+      "en": ["seasoning", "cooking", "spice", "allium"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gchkvxc3",
+    "slug": "glass-water",
+    "name": {
+      "pt": "Copo de água",
+      "en": "Glass of water"
+    },
+    "subcategory": "drinks",
+    "synonyms": {
+      "pt": ["copo", "água"],
+      "en": ["water glass", "tumbler"]
+    },
+    "tags": {
+      "pt": ["hidratação", "bebida", "beber", "sede"],
+      "en": ["hydration", "drink", "beverage", "thirst"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3fh1zhc",
+    "slug": "grape",
+    "name": {
+      "pt": "Uva",
+      "en": "Grapes"
+    },
+    "subcategory": "produce",
+    "synonyms": {
+      "pt": ["cacho de uva", "uvas"],
+      "en": ["grape bunch", "grape"]
+    },
+    "tags": {
+      "pt": ["vinho", "fruta", "vinícola", "parreira"],
+      "en": ["wine", "fruit", "vineyard", "vine"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gttbcb3z",
+    "slug": "grill",
+    "name": {
+      "pt": "Churrasqueira",
+      "en": "Grill"
+    },
+    "subcategory": "kitchen",
+    "synonyms": {
+      "pt": ["grelha", "barbecue"],
+      "en": ["barbecue", "BBQ"]
+    },
+    "tags": {
+      "pt": ["churrasco", "carne", "assar", "quintal"],
+      "en": ["cookout", "meat", "grilling", "backyard"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gp0n8s6a",
+    "slug": "hot-dog",
+    "name": {
+      "pt": "Cachorro-quente",
+      "en": "Hot dog"
+    },
+    "subcategory": "meals",
+    "synonyms": {
+      "pt": ["hot dog", "salsicha"],
+      "en": ["sausage", "frankfurter"]
+    },
+    "tags": {
+      "pt": ["fast food", "lanche", "mostarda", "lanchonete"],
+      "en": ["fast food", "snack", "mustard", "diner"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grbffmdy",
+    "slug": "ice-cream",
+    "name": {
+      "pt": "Sorvete",
+      "en": "Ice cream"
+    },
+    "subcategory": "meals",
+    "family": "ice-cream",
+    "synonyms": {
+      "pt": ["taça de sorvete", "sundae"],
+      "en": ["sundae", "ice cream cup"]
+    },
+    "tags": {
+      "pt": ["sobremesa", "gelado", "verão", "doce"],
+      "en": ["dessert", "frozen", "summer", "sweet"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gp04789y",
+    "slug": "ice-cream-cone",
+    "name": {
+      "pt": "Casquinha de sorvete",
+      "en": "Ice cream cone"
+    },
+    "subcategory": "meals",
+    "family": "ice-cream",
+    "synonyms": {
+      "pt": ["sorvete de casquinha", "cone"],
+      "en": ["cone", "scoop"]
+    },
+    "tags": {
+      "pt": ["sobremesa", "gelado", "verão", "sorveteria"],
+      "en": ["dessert", "frozen", "summer", "gelato"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gjf28qm1",
+    "slug": "juice",
+    "name": {
+      "pt": "Suco",
+      "en": "Juice"
+    },
+    "subcategory": "drinks",
+    "synonyms": {
+      "pt": ["caixinha de suco", "néctar"],
+      "en": ["juice box", "fruit juice"]
+    },
+    "tags": {
+      "pt": ["bebida", "fruta", "laranja", "lancheira"],
+      "en": ["drink", "fruit", "orange", "lunchbox"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gr8ap8y7",
+    "slug": "kettle",
+    "name": {
+      "pt": "Chaleira",
+      "en": "Kettle"
+    },
+    "subcategory": "kitchen",
+    "synonyms": {
+      "pt": ["bule", "chaleira elétrica"],
+      "en": ["teakettle", "electric kettle"]
+    },
+    "tags": {
+      "pt": ["água quente", "chá", "cozinha", "ferver"],
+      "en": ["hot water", "tea", "kitchen", "boil"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g9ywacys",
+    "slug": "knife-kitchen",
+    "name": {
+      "pt": "Faca de cozinha",
+      "en": "Kitchen knife"
+    },
+    "subcategory": "kitchen",
+    "synonyms": {
+      "pt": ["faca do chef", "cutelo"],
+      "en": ["chef's knife", "cleaver"]
+    },
+    "tags": {
+      "pt": ["cortar", "cozinha", "picar", "utensílio"],
+      "en": ["cut", "kitchen", "chop", "utensil"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gfk06bm7",
+    "slug": "ladle",
+    "name": {
+      "pt": "Concha de cozinha",
+      "en": "Ladle"
+    },
+    "subcategory": "kitchen",
+    "synonyms": {
+      "pt": ["concha", "concha de sopa", "colher grande"],
+      "en": ["soup ladle", "serving spoon"]
+    },
+    "tags": {
+      "pt": ["sopa", "servir", "cozinha", "utensílio"],
+      "en": ["soup", "serving", "kitchen", "utensil"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1ap4gcz",
+    "slug": "lemon",
+    "name": {
+      "pt": "Limão",
+      "en": "Lemon"
+    },
+    "subcategory": "produce",
+    "synonyms": {
+      "pt": ["lima", "siciliano"],
+      "en": ["lime", "citrus"]
+    },
+    "tags": {
+      "pt": ["cítrico", "azedo", "suco", "vitamina C"],
+      "en": ["sour", "juice", "vitamin C", "zest"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g9jfwwt9",
+    "slug": "lettuce",
+    "name": {
+      "pt": "Alface",
+      "en": "Lettuce"
+    },
+    "subcategory": "produce",
+    "synonyms": {
+      "pt": ["verdura", "folhas"],
+      "en": ["leafy greens", "salad leaves"]
+    },
+    "tags": {
+      "pt": ["salada", "vegetal", "verde", "saudável"],
+      "en": ["salad", "vegetable", "green", "healthy"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmb2ej8n",
+    "slug": "lollipop",
+    "name": {
+      "pt": "Pirulito",
+      "en": "Lollipop"
+    },
+    "subcategory": "meals",
+    "synonyms": {
+      "pt": ["doce", "chupa-chupa"],
+      "en": ["sucker", "candy"]
+    },
+    "tags": {
+      "pt": ["guloseima", "açúcar", "criança", "festa"],
+      "en": ["sweets", "sugar", "kids", "party"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gr64rp19",
+    "slug": "lunch-box",
+    "name": {
+      "pt": "Lancheira",
+      "en": "Lunch box"
+    },
+    "subcategory": "kitchen",
+    "synonyms": {
+      "pt": ["marmita", "caixa de lanche"],
+      "en": ["lunchbox", "bento box"]
+    },
+    "tags": {
+      "pt": ["almoço", "escola", "refeição", "lanche"],
+      "en": ["lunch", "school", "meal", "packed lunch"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4apsge6",
+    "slug": "martini",
+    "name": {
+      "pt": "Martíni",
+      "en": "Martini"
+    },
+    "subcategory": "drinks",
+    "synonyms": {
+      "pt": ["taça de martíni", "coquetel com azeitona"],
+      "en": ["cocktail glass", "martini glass"]
+    },
+    "tags": {
+      "pt": ["bar", "drinque", "bebida alcoólica", "festa"],
+      "en": ["bar", "drink", "alcohol", "party"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gt7rjn79",
+    "slug": "menu-food",
+    "name": {
+      "pt": "Cardápio",
+      "en": "Menu"
+    },
+    "subcategory": "kitchen",
+    "synonyms": {
+      "pt": ["menu", "carta"],
+      "en": ["food menu", "bill of fare"]
+    },
+    "tags": {
+      "pt": ["restaurante", "pedido", "pratos", "garçom"],
+      "en": ["restaurant", "order", "dishes", "waiter"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gfkjp44t",
+    "slug": "milk",
+    "name": {
+      "pt": "Leite",
+      "en": "Milk"
+    },
+    "subcategory": "drinks",
+    "synonyms": {
+      "pt": ["caixa de leite", "laticínio"],
+      "en": ["milk carton", "dairy"]
+    },
+    "tags": {
+      "pt": ["café da manhã", "bebida", "cálcio", "mercado"],
+      "en": ["breakfast", "drink", "calcium", "grocery"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ghnybvq1",
+    "slug": "mug",
+    "name": {
+      "pt": "Caneca",
+      "en": "Mug"
+    },
+    "subcategory": "drinks",
+    "synonyms": {
+      "pt": ["caneca de café", "xícara grande"],
+      "en": ["coffee mug", "cup"]
+    },
+    "tags": {
+      "pt": ["café", "chocolate quente", "bebida", "escritório"],
+      "en": ["coffee", "hot chocolate", "drink", "office"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grx38j07",
+    "slug": "noodles",
+    "name": {
+      "pt": "Macarrão",
+      "en": "Noodles"
+    },
+    "subcategory": "meals",
+    "family": "bowl",
+    "synonyms": {
+      "pt": ["lámen", "miojo", "ramen"],
+      "en": ["ramen", "pasta"]
+    },
+    "tags": {
+      "pt": ["massa", "comida japonesa", "hashi", "tigela"],
+      "en": ["noodle bowl", "japanese food", "chopsticks", "asian food"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gg979d2n",
+    "slug": "onion",
+    "name": {
+      "pt": "Cebola",
+      "en": "Onion"
+    },
+    "subcategory": "produce",
+    "synonyms": {
+      "pt": ["bulbo"],
+      "en": ["bulb"]
+    },
+    "tags": {
+      "pt": ["tempero", "cozinha", "legume", "refogado"],
+      "en": ["seasoning", "cooking", "vegetable", "allium"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqyy2ref",
+    "slug": "orange-fruit",
+    "name": {
+      "pt": "Laranja",
+      "en": "Orange"
+    },
+    "subcategory": "produce",
+    "synonyms": {
+      "pt": ["fruta cítrica", "tangerina"],
+      "en": ["citrus fruit", "tangerine"]
+    },
+    "tags": {
+      "pt": ["suco", "vitamina C", "cítrico", "fruta"],
+      "en": ["juice", "vitamin C", "citrus", "fruit"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5cfrjde",
+    "slug": "peach",
+    "name": {
+      "pt": "Pêssego",
+      "en": "Peach"
+    },
+    "subcategory": "produce",
+    "synonyms": {
+      "pt": ["fruta", "nectarina"],
+      "en": ["fruit", "nectarine"]
+    },
+    "tags": {
+      "pt": ["doce", "verão", "pomar", "suco"],
+      "en": ["sweet", "summer", "orchard", "juice"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gtvry6dc",
+    "slug": "pear",
+    "name": {
+      "pt": "Pera",
+      "en": "Pear"
+    },
+    "subcategory": "produce",
+    "synonyms": {
+      "pt": ["fruta"],
+      "en": ["fruit"]
+    },
+    "tags": {
+      "pt": ["pomar", "lanche", "saudável", "outono"],
+      "en": ["orchard", "snack", "healthy", "autumn"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gb5r5fhd",
+    "slug": "pepper-chili",
+    "name": {
+      "pt": "Pimenta",
+      "en": "Chili pepper"
+    },
+    "subcategory": "produce",
+    "synonyms": {
+      "pt": ["pimenta-malagueta", "chili"],
+      "en": ["hot pepper", "chili"]
+    },
+    "tags": {
+      "pt": ["picante", "ardido", "tempero", "comida mexicana"],
+      "en": ["spicy", "hot", "seasoning", "mexican food"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g415m6bn",
+    "slug": "pie",
+    "name": {
+      "pt": "Torta",
+      "en": "Pie"
+    },
+    "subcategory": "meals",
+    "synonyms": {
+      "pt": ["fatia de torta", "empadão"],
+      "en": ["pie slice", "tart"]
+    },
+    "tags": {
+      "pt": ["sobremesa", "confeitaria", "assado", "doce"],
+      "en": ["dessert", "bakery", "baked", "sweet"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnvzrmg3",
+    "slug": "pineapple",
+    "name": {
+      "pt": "Abacaxi",
+      "en": "Pineapple"
+    },
+    "subcategory": "produce",
+    "synonyms": {
+      "pt": ["ananás"],
+      "en": ["ananas"]
+    },
+    "tags": {
+      "pt": ["fruta tropical", "verão", "suco", "doce"],
+      "en": ["tropical fruit", "summer", "juice", "sweet"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g58y7g4n",
+    "slug": "pizza",
+    "name": {
+      "pt": "Pizza",
+      "en": "Pizza"
+    },
+    "subcategory": "meals",
+    "synonyms": {
+      "pt": ["fatia de pizza", "pizzaria"],
+      "en": ["pizza slice", "pizzeria"]
+    },
+    "tags": {
+      "pt": ["delivery", "fast food", "italiana", "lanche"],
+      "en": ["delivery", "fast food", "italian", "snack"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g9gxt2zy",
+    "slug": "plate",
+    "name": {
+      "pt": "Prato",
+      "en": "Plate"
+    },
+    "subcategory": "kitchen",
+    "synonyms": {
+      "pt": ["prato raso", "louça"],
+      "en": ["dinner plate", "dish"]
+    },
+    "tags": {
+      "pt": ["refeição", "mesa", "jantar", "restaurante"],
+      "en": ["meal", "table", "dinner", "restaurant"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnm84xw6",
+    "slug": "popcorn",
+    "name": {
+      "pt": "Pipoca",
+      "en": "Popcorn"
+    },
+    "subcategory": "meals",
+    "synonyms": {
+      "pt": ["balde de pipoca"],
+      "en": ["popcorn bucket"]
+    },
+    "tags": {
+      "pt": ["cinema", "filme", "lanche", "milho"],
+      "en": ["cinema", "movie", "snack", "corn"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8xxd4ge",
+    "slug": "popsicle",
+    "name": {
+      "pt": "Picolé",
+      "en": "Popsicle"
+    },
+    "subcategory": "meals",
+    "family": "ice-cream",
+    "synonyms": {
+      "pt": ["sorvete de palito", "geladinho"],
+      "en": ["ice pop", "ice lolly"]
+    },
+    "tags": {
+      "pt": ["sobremesa", "gelado", "verão", "doce"],
+      "en": ["dessert", "frozen", "summer", "sweet"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gj7bcqm8",
+    "slug": "potato",
+    "name": {
+      "pt": "Batata",
+      "en": "Potato"
+    },
+    "subcategory": "produce",
+    "synonyms": {
+      "pt": ["tubérculo"],
+      "en": ["tuber", "spud"]
+    },
+    "tags": {
+      "pt": ["batata frita", "purê", "legume", "cozinha"],
+      "en": ["fries", "mashed", "vegetable", "cooking"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gq1g7s02",
+    "slug": "recipe",
+    "name": {
+      "pt": "Receita",
+      "en": "Recipe"
+    },
+    "subcategory": "kitchen",
+    "synonyms": {
+      "pt": ["livro de receitas", "caderno de receitas"],
+      "en": ["cookbook", "recipe book"]
+    },
+    "tags": {
+      "pt": ["culinária", "cozinhar", "ingredientes", "preparo"],
+      "en": ["cooking", "culinary", "ingredients", "instructions"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ghf3crqe",
+    "slug": "rice-bowl",
+    "name": {
+      "pt": "Tigela de arroz",
+      "en": "Rice bowl"
+    },
+    "subcategory": "meals",
+    "family": "bowl",
+    "synonyms": {
+      "pt": ["arroz", "cumbuca"],
+      "en": ["rice", "bowl of rice"]
+    },
+    "tags": {
+      "pt": ["refeição", "comida asiática", "almoço", "grão"],
+      "en": ["meal", "asian food", "lunch", "grain"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpw0h0ha",
+    "slug": "rolling-pin",
+    "name": {
+      "pt": "Rolo de massa",
+      "en": "Rolling pin"
+    },
+    "subcategory": "kitchen",
+    "synonyms": {
+      "pt": ["rolo de macarrão"],
+      "en": ["dough roller"]
+    },
+    "tags": {
+      "pt": ["confeitaria", "massa", "padaria", "cozinha"],
+      "en": ["baking", "dough", "pastry", "kitchen"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g946fd8t",
+    "slug": "salad",
+    "name": {
+      "pt": "Salada",
+      "en": "Salad"
+    },
+    "subcategory": "meals",
+    "family": "bowl",
+    "synonyms": {
+      "pt": ["tigela de salada", "saladeira"],
+      "en": ["salad bowl", "greens"]
+    },
+    "tags": {
+      "pt": ["saudável", "vegetariano", "folhas", "dieta"],
+      "en": ["healthy", "vegetarian", "leaves", "diet"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5jy8cjw",
+    "slug": "salt-shaker",
+    "name": {
+      "pt": "Saleiro",
+      "en": "Salt shaker"
+    },
+    "subcategory": "kitchen",
+    "synonyms": {
+      "pt": ["sal", "pimenteiro"],
+      "en": ["salt", "pepper shaker"]
+    },
+    "tags": {
+      "pt": ["tempero", "mesa", "cozinha", "condimento"],
+      "en": ["seasoning", "table", "kitchen", "condiment"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g00mrxw1",
+    "slug": "sandwich",
+    "name": {
+      "pt": "Sanduíche",
+      "en": "Sandwich"
+    },
+    "subcategory": "meals",
+    "synonyms": {
+      "pt": ["misto", "sanduíche natural"],
+      "en": ["club sandwich", "sub"]
+    },
+    "tags": {
+      "pt": ["lanche", "pão", "café da manhã", "almoço"],
+      "en": ["snack", "bread", "breakfast", "lunch"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkq7kkjq",
+    "slug": "soda",
+    "name": {
+      "pt": "Refrigerante",
+      "en": "Soda"
+    },
+    "subcategory": "drinks",
+    "synonyms": {
+      "pt": ["lata de refrigerante", "latinha"],
+      "en": ["soda can", "soft drink"]
+    },
+    "tags": {
+      "pt": ["bebida gaseificada", "soda", "lanche", "refresco"],
+      "en": ["fizzy drink", "pop", "cola", "refreshment"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpwbm8yk",
+    "slug": "soup",
+    "name": {
+      "pt": "Sopa",
+      "en": "Soup"
+    },
+    "subcategory": "meals",
+    "family": "bowl",
+    "synonyms": {
+      "pt": ["caldo", "tigela de sopa"],
+      "en": ["broth", "soup bowl"]
+    },
+    "tags": {
+      "pt": ["refeição quente", "jantar", "inverno", "ensopado"],
+      "en": ["hot meal", "dinner", "winter", "stew"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbsn0adh",
+    "slug": "spatula",
+    "name": {
+      "pt": "Espátula",
+      "en": "Spatula"
+    },
+    "subcategory": "kitchen",
+    "synonyms": {
+      "pt": ["pegador", "virador"],
+      "en": ["turner", "flipper"]
+    },
+    "tags": {
+      "pt": ["cozinha", "fritar", "utensílio", "panqueca"],
+      "en": ["kitchen", "frying", "utensil", "pancake"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gd934pk8",
+    "slug": "steak",
+    "name": {
+      "pt": "Bife",
+      "en": "Steak"
+    },
+    "subcategory": "meals",
+    "synonyms": {
+      "pt": ["carne", "filé"],
+      "en": ["beef", "meat"]
+    },
+    "tags": {
+      "pt": ["churrasco", "carne vermelha", "jantar", "grelhado"],
+      "en": ["barbecue", "red meat", "dinner", "grilled"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g72qpd0b",
+    "slug": "strawberry",
+    "name": {
+      "pt": "Morango",
+      "en": "Strawberry"
+    },
+    "subcategory": "produce",
+    "synonyms": {
+      "pt": ["fruta vermelha"],
+      "en": ["berry", "red fruit"]
+    },
+    "tags": {
+      "pt": ["sobremesa", "doce", "vitamina", "verão"],
+      "en": ["dessert", "sweet", "vitamin", "summer"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g24w1qr3",
+    "slug": "sushi",
+    "name": {
+      "pt": "Sushi",
+      "en": "Sushi"
+    },
+    "subcategory": "meals",
+    "synonyms": {
+      "pt": ["niguiri", "comida japonesa"],
+      "en": ["nigiri", "japanese food"]
+    },
+    "tags": {
+      "pt": ["japonês", "peixe", "arroz", "restaurante"],
+      "en": ["japanese", "fish", "rice", "restaurant"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwsxan58",
+    "slug": "taco",
+    "name": {
+      "pt": "Taco",
+      "en": "Taco"
+    },
+    "subcategory": "meals",
+    "synonyms": {
+      "pt": ["comida mexicana", "tortilha"],
+      "en": ["mexican food", "tortilla"]
+    },
+    "tags": {
+      "pt": ["mexicano", "lanche", "recheio", "delivery"],
+      "en": ["mexican", "snack", "filling", "delivery"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g720r320",
+    "slug": "take-away",
+    "name": {
+      "pt": "Para viagem",
+      "en": "Takeaway"
+    },
+    "subcategory": "kitchen",
+    "synonyms": {
+      "pt": ["comida para levar", "delivery"],
+      "en": ["takeout", "to go"]
+    },
+    "tags": {
+      "pt": ["embalagem", "viagem", "pedido", "comida chinesa"],
+      "en": ["food box", "delivery", "order", "chinese food"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggz0jsgz",
+    "slug": "tea",
+    "name": {
+      "pt": "Chá",
+      "en": "Tea"
+    },
+    "subcategory": "drinks",
+    "synonyms": {
+      "pt": ["xícara de chá", "saquinho de chá"],
+      "en": ["cup of tea", "tea bag"]
+    },
+    "tags": {
+      "pt": ["bebida quente", "infusão", "chá da tarde", "erva"],
+      "en": ["hot drink", "infusion", "tea time", "herbal"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gsqfrgjn",
+    "slug": "tomato",
+    "name": {
+      "pt": "Tomate",
+      "en": "Tomato"
+    },
+    "subcategory": "produce",
+    "synonyms": {
+      "pt": ["fruto", "legume"],
+      "en": ["vegetable", "fruit"]
+    },
+    "tags": {
+      "pt": ["salada", "molho", "horta", "vegetal"],
+      "en": ["salad", "sauce", "garden", "veggie"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1vcyev6",
+    "slug": "utensils",
+    "name": {
+      "pt": "Talheres",
+      "en": "Utensils"
+    },
+    "subcategory": "kitchen",
+    "synonyms": {
+      "pt": ["garfo e colher", "utensílios"],
+      "en": ["fork and spoon", "cutlery"]
+    },
+    "tags": {
+      "pt": ["restaurante", "comida", "refeição", "cozinha"],
+      "en": ["restaurant", "food", "meal", "dining"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdk2gsjh",
+    "slug": "water-bottle",
+    "name": {
+      "pt": "Garrafa de água",
+      "en": "Water bottle"
+    },
+    "subcategory": "drinks",
+    "synonyms": {
+      "pt": ["água mineral", "garrafinha"],
+      "en": ["bottled water", "mineral water"]
+    },
+    "tags": {
+      "pt": ["hidratação", "beber água", "bebida", "academia"],
+      "en": ["hydration", "drink water", "beverage", "gym"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g56vtd5c",
+    "slug": "watermelon",
+    "name": {
+      "pt": "Melancia",
+      "en": "Watermelon"
+    },
+    "subcategory": "produce",
+    "synonyms": {
+      "pt": ["fatia de melancia"],
+      "en": ["watermelon slice"]
+    },
+    "tags": {
+      "pt": ["fruta", "verão", "refrescante", "piquenique"],
+      "en": ["fruit", "summer", "refreshing", "picnic"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwpz22g2",
+    "slug": "whisk",
+    "name": {
+      "pt": "Batedor",
+      "en": "Whisk"
+    },
+    "subcategory": "kitchen",
+    "synonyms": {
+      "pt": ["fouet", "batedor de ovos"],
+      "en": ["egg beater", "balloon whisk"]
+    },
+    "tags": {
+      "pt": ["confeitaria", "bater", "cozinha", "receita"],
+      "en": ["baking", "whipping", "kitchen", "recipe"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ga6zxk8v",
+    "slug": "wine",
+    "name": {
+      "pt": "Vinho",
+      "en": "Wine"
+    },
+    "subcategory": "drinks",
+    "synonyms": {
+      "pt": ["taça de vinho", "taça"],
+      "en": ["wine glass", "glass of wine"]
+    },
+    "tags": {
+      "pt": ["bebida alcoólica", "adega", "jantar", "uva"],
+      "en": ["alcohol", "winery", "dinner", "grape"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  }
+]

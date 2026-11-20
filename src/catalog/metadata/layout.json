@@ -1,0 +1,1309 @@
+[
+  {
+    "id": "gwtz5z34",
+    "slug": "align-bottom",
+    "name": {
+      "pt": "Alinhar à base",
+      "en": "Align bottom"
+    },
+    "subcategory": "arrange",
+    "family": "align-objects",
+    "synonyms": {
+      "pt": ["alinhar embaixo", "base"],
+      "en": ["bottom align", "align to bottom edge"]
+    },
+    "tags": {
+      "pt": ["organizar", "objetos", "alinhamento"],
+      "en": ["arrange", "objects", "alignment"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gp7jj0ph",
+    "slug": "align-center-horizontal",
+    "name": {
+      "pt": "Centralizar na horizontal",
+      "en": "Align center horizontal"
+    },
+    "subcategory": "arrange",
+    "family": "align-objects",
+    "synonyms": {
+      "pt": ["alinhar ao centro", "eixo central"],
+      "en": ["horizontal center", "center axis"]
+    },
+    "tags": {
+      "pt": ["organizar", "objetos", "alinhamento"],
+      "en": ["arrange", "objects", "alignment"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gyev605n",
+    "slug": "align-left-edge",
+    "name": {
+      "pt": "Alinhar pela esquerda",
+      "en": "Align left edge"
+    },
+    "subcategory": "arrange",
+    "family": "align-objects",
+    "synonyms": {
+      "pt": ["borda esquerda", "alinhar objetos à esquerda"],
+      "en": ["left edge", "align objects left"]
+    },
+    "tags": {
+      "pt": ["organizar", "objetos", "alinhamento"],
+      "en": ["arrange", "objects", "alignment"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gk9cpfb7",
+    "slug": "align-middle",
+    "name": {
+      "pt": "Alinhar ao meio",
+      "en": "Align middle"
+    },
+    "subcategory": "arrange",
+    "family": "align-objects",
+    "synonyms": {
+      "pt": ["centralizar na vertical", "meio"],
+      "en": ["vertical center", "center vertically"]
+    },
+    "tags": {
+      "pt": ["organizar", "objetos", "alinhamento"],
+      "en": ["arrange", "objects", "alignment"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggg5tnyx",
+    "slug": "align-right-edge",
+    "name": {
+      "pt": "Alinhar pela direita",
+      "en": "Align right edge"
+    },
+    "subcategory": "arrange",
+    "family": "align-objects",
+    "synonyms": {
+      "pt": ["borda direita", "alinhar objetos à direita"],
+      "en": ["right edge", "align objects right"]
+    },
+    "tags": {
+      "pt": ["organizar", "objetos", "alinhamento"],
+      "en": ["arrange", "objects", "alignment"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gctpd2kn",
+    "slug": "align-top",
+    "name": {
+      "pt": "Alinhar ao topo",
+      "en": "Align top"
+    },
+    "subcategory": "arrange",
+    "family": "align-objects",
+    "synonyms": {
+      "pt": ["alinhar em cima", "topo"],
+      "en": ["top align", "align to top edge"]
+    },
+    "tags": {
+      "pt": ["organizar", "objetos", "alinhamento"],
+      "en": ["arrange", "objects", "alignment"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gejd5bca",
+    "slug": "app-window",
+    "name": {
+      "pt": "Janela de aplicativo",
+      "en": "App window"
+    },
+    "subcategory": "panels",
+    "family": "window",
+    "synonyms": {
+      "pt": ["janela", "aplicativo"],
+      "en": ["window", "application"]
+    },
+    "tags": {
+      "pt": ["programa", "desktop", "app", "tela"],
+      "en": ["program", "desktop", "app", "screen"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grtg6hb7",
+    "slug": "bento-grid",
+    "name": {
+      "pt": "Grade bento",
+      "en": "Bento grid"
+    },
+    "subcategory": "grids",
+    "family": "layout-view",
+    "synonyms": {
+      "pt": ["blocos variados", "mosaico"],
+      "en": ["bento box", "mixed blocks"]
+    },
+    "tags": {
+      "pt": ["grade", "layout moderno", "cartões", "seções"],
+      "en": ["grid", "modern layout", "cards", "sections"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gyvv3rp9",
+    "slug": "bring-forward",
+    "name": {
+      "pt": "Trazer para frente",
+      "en": "Bring forward"
+    },
+    "subcategory": "arrange",
+    "family": "layer-order",
+    "synonyms": {
+      "pt": ["avançar camada", "subir um nível"],
+      "en": ["move forward", "up one layer"]
+    },
+    "tags": {
+      "pt": ["ordem", "camadas", "sobrepor", "organizar"],
+      "en": ["order", "layers", "overlap", "arrange"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grbbece7",
+    "slug": "bring-to-front",
+    "name": {
+      "pt": "Trazer para o primeiro plano",
+      "en": "Bring to front"
+    },
+    "subcategory": "arrange",
+    "family": "layer-order",
+    "synonyms": {
+      "pt": ["trazer para a frente de tudo", "topo"],
+      "en": ["bring to top", "front layer"]
+    },
+    "tags": {
+      "pt": ["ordem", "camadas", "primeiro plano"],
+      "en": ["order", "layers", "foreground"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gecya6jm",
+    "slug": "browser-window",
+    "name": {
+      "pt": "Janela do navegador",
+      "en": "Browser window"
+    },
+    "subcategory": "panels",
+    "family": "window",
+    "synonyms": {
+      "pt": ["navegador", "browser"],
+      "en": ["browser", "web browser"]
+    },
+    "tags": {
+      "pt": ["site", "web", "página", "internet"],
+      "en": ["website", "web", "page", "internet"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkfwy0fy",
+    "slug": "card-layout",
+    "name": {
+      "pt": "Cartão",
+      "en": "Card layout"
+    },
+    "subcategory": "panels",
+    "synonyms": {
+      "pt": ["card", "componente cartão"],
+      "en": ["card", "card component"]
+    },
+    "tags": {
+      "pt": ["imagem e texto", "item", "post", "layout"],
+      "en": ["image and text", "item", "post", "tile"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdryn8py",
+    "slug": "columns-2",
+    "name": {
+      "pt": "Duas colunas",
+      "en": "Two columns"
+    },
+    "subcategory": "grids",
+    "family": "columns",
+    "synonyms": {
+      "pt": ["2 colunas", "divisão vertical"],
+      "en": ["2 columns", "vertical split"]
+    },
+    "tags": {
+      "pt": ["colunas", "meio a meio", "layout"],
+      "en": ["columns", "half and half", "layout"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gtfcbr70",
+    "slug": "columns-3",
+    "name": {
+      "pt": "Três colunas",
+      "en": "Three columns"
+    },
+    "subcategory": "grids",
+    "family": "columns",
+    "synonyms": {
+      "pt": ["3 colunas", "terços"],
+      "en": ["3 columns", "thirds"]
+    },
+    "tags": {
+      "pt": ["colunas", "divisão vertical", "layout"],
+      "en": ["columns", "vertical split", "layout"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gswwph1d",
+    "slug": "distribute-horizontal",
+    "name": {
+      "pt": "Distribuir na horizontal",
+      "en": "Distribute horizontal"
+    },
+    "subcategory": "arrange",
+    "family": "distribute",
+    "synonyms": {
+      "pt": ["espaçar igualmente", "distribuir lado a lado"],
+      "en": ["space evenly", "horizontal distribution"]
+    },
+    "tags": {
+      "pt": ["organizar", "objetos", "espaçamento"],
+      "en": ["arrange", "objects", "spacing"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5q8avc2",
+    "slug": "distribute-vertical",
+    "name": {
+      "pt": "Distribuir na vertical",
+      "en": "Distribute vertical"
+    },
+    "subcategory": "arrange",
+    "family": "distribute",
+    "synonyms": {
+      "pt": ["espaçar igualmente", "distribuir em coluna"],
+      "en": ["space evenly", "vertical distribution"]
+    },
+    "tags": {
+      "pt": ["organizar", "objetos", "espaçamento"],
+      "en": ["arrange", "objects", "spacing"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ge8t5h01",
+    "slug": "drawer-bottom",
+    "name": {
+      "pt": "Gaveta inferior",
+      "en": "Bottom drawer"
+    },
+    "subcategory": "panels",
+    "family": "window",
+    "synonyms": {
+      "pt": ["painel deslizante", "bottom sheet"],
+      "en": ["bottom sheet", "slide-up panel"]
+    },
+    "tags": {
+      "pt": ["folha inferior", "menu de baixo", "mobile"],
+      "en": ["sheet", "bottom menu", "mobile"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggjp23am",
+    "slug": "flip-horizontal",
+    "name": {
+      "pt": "Espelhar na horizontal",
+      "en": "Flip horizontal"
+    },
+    "subcategory": "arrange",
+    "family": "flip",
+    "synonyms": {
+      "pt": ["inverter horizontalmente", "refletir"],
+      "en": ["mirror horizontally", "reflect"]
+    },
+    "tags": {
+      "pt": ["espelho", "virar", "simetria"],
+      "en": ["mirror", "flip", "symmetry"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpf2pq0w",
+    "slug": "flip-vertical",
+    "name": {
+      "pt": "Espelhar na vertical",
+      "en": "Flip vertical"
+    },
+    "subcategory": "arrange",
+    "family": "flip",
+    "synonyms": {
+      "pt": ["inverter verticalmente", "refletir"],
+      "en": ["mirror vertically", "reflect"]
+    },
+    "tags": {
+      "pt": ["espelho", "virar", "simetria"],
+      "en": ["mirror", "flip upside down", "symmetry"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gyvwf7fz",
+    "slug": "footer-layout",
+    "name": {
+      "pt": "Layout com rodapé",
+      "en": "Footer layout"
+    },
+    "subcategory": "panels",
+    "family": "panel",
+    "synonyms": {
+      "pt": ["rodapé de página", "base"],
+      "en": ["page footer", "bottom section"]
+    },
+    "tags": {
+      "pt": ["footer", "página", "seção inferior"],
+      "en": ["footer", "page", "bottom"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkmyyf38",
+    "slug": "frame",
+    "name": {
+      "pt": "Quadro",
+      "en": "Frame"
+    },
+    "subcategory": "arrange",
+    "synonyms": {
+      "pt": ["moldura", "ferramenta quadro", "prancheta"],
+      "en": ["frame tool", "artboard"]
+    },
+    "tags": {
+      "pt": ["artboard", "área de trabalho", "design"],
+      "en": ["canvas", "workspace", "design"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gh8ktdy2",
+    "slug": "grid-2x2",
+    "name": {
+      "pt": "Grade 2 por 2",
+      "en": "Grid 2x2"
+    },
+    "subcategory": "grids",
+    "family": "grid",
+    "synonyms": {
+      "pt": ["quatro quadrantes", "grade de quatro"],
+      "en": ["four quadrants", "quad grid"]
+    },
+    "tags": {
+      "pt": ["quadrantes", "células", "layout"],
+      "en": ["quadrants", "cells", "layout"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g6h3p2cz",
+    "slug": "grid-3x3",
+    "name": {
+      "pt": "Grade 3 por 3",
+      "en": "Grid 3x3"
+    },
+    "subcategory": "grids",
+    "family": "grid",
+    "synonyms": {
+      "pt": ["nove células", "quadriculado"],
+      "en": ["nine cells", "tic tac toe grid"]
+    },
+    "tags": {
+      "pt": ["grade", "células", "regra dos terços"],
+      "en": ["grid", "cells", "rule of thirds"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ghyxp14j",
+    "slug": "grid-masonry",
+    "name": {
+      "pt": "Grade alvenaria",
+      "en": "Masonry grid"
+    },
+    "subcategory": "grids",
+    "family": "layout-view",
+    "synonyms": {
+      "pt": ["masonry", "mural", "pinterest"],
+      "en": ["masonry", "pinboard"]
+    },
+    "tags": {
+      "pt": ["galeria", "blocos irregulares", "colunas", "mosaico"],
+      "en": ["gallery", "uneven blocks", "columns", "mosaic"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g6fmdpfp",
+    "slug": "group",
+    "name": {
+      "pt": "Agrupar",
+      "en": "Group"
+    },
+    "subcategory": "arrange",
+    "family": "group",
+    "synonyms": {
+      "pt": ["grupo", "juntar objetos"],
+      "en": ["grouping", "combine objects"]
+    },
+    "tags": {
+      "pt": ["selecionar", "combinar", "organizar", "camadas"],
+      "en": ["select", "combine", "arrange", "layers"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1p7e571",
+    "slug": "header-layout",
+    "name": {
+      "pt": "Layout com cabeçalho",
+      "en": "Header layout"
+    },
+    "subcategory": "panels",
+    "family": "panel",
+    "synonyms": {
+      "pt": ["cabeçalho de página", "topo"],
+      "en": ["page header", "top section"]
+    },
+    "tags": {
+      "pt": ["header", "página", "seção superior"],
+      "en": ["header", "page", "hero"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwydc8c1",
+    "slug": "layers",
+    "name": {
+      "pt": "Camadas",
+      "en": "Layers"
+    },
+    "subcategory": "arrange",
+    "synonyms": {
+      "pt": ["pilha", "níveis"],
+      "en": ["stack", "levels"]
+    },
+    "tags": {
+      "pt": ["sobreposição", "empilhar", "ordem"],
+      "en": ["overlap", "arrange", "order"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gv079ftz",
+    "slug": "layout-columns",
+    "name": {
+      "pt": "Layout em colunas",
+      "en": "Layout columns"
+    },
+    "subcategory": "grids",
+    "family": "layout-view",
+    "synonyms": {
+      "pt": ["colunas separadas", "quadro kanban"],
+      "en": ["separate columns", "kanban board"]
+    },
+    "tags": {
+      "pt": ["colunas", "divisão vertical", "kanban"],
+      "en": ["columns", "vertical split", "board"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g6kseccr",
+    "slug": "layout-dashboard",
+    "name": {
+      "pt": "Painel de controle",
+      "en": "Layout dashboard"
+    },
+    "subcategory": "grids",
+    "family": "layout-view",
+    "synonyms": {
+      "pt": ["dashboard", "blocos"],
+      "en": ["dashboard", "blocks"]
+    },
+    "tags": {
+      "pt": ["visão geral", "widgets", "cartões", "layout"],
+      "en": ["overview", "widgets", "cards", "panels"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gva4rrzj",
+    "slug": "layout-grid",
+    "name": {
+      "pt": "Grade",
+      "en": "Layout grid"
+    },
+    "subcategory": "grids",
+    "synonyms": {
+      "pt": ["grade de quadrados", "mosaico"],
+      "en": ["grid", "tiles"]
+    },
+    "tags": {
+      "pt": ["layout", "galeria", "painel", "blocos"],
+      "en": ["gallery", "dashboard", "blocks"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwpqmvc0",
+    "slug": "layout-list",
+    "name": {
+      "pt": "Layout em lista",
+      "en": "Layout list"
+    },
+    "subcategory": "grids",
+    "family": "layout-view",
+    "synonyms": {
+      "pt": ["visualização em lista", "lista com miniaturas"],
+      "en": ["list view", "thumbnail list"]
+    },
+    "tags": {
+      "pt": ["linhas", "itens", "modo lista"],
+      "en": ["rows", "items", "list mode"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gb5crj1f",
+    "slug": "layout-rows",
+    "name": {
+      "pt": "Layout em linhas",
+      "en": "Layout rows"
+    },
+    "subcategory": "grids",
+    "family": "layout-view",
+    "synonyms": {
+      "pt": ["linhas separadas", "faixas"],
+      "en": ["separate rows", "stripes"]
+    },
+    "tags": {
+      "pt": ["linhas", "divisão horizontal", "seções"],
+      "en": ["rows", "horizontal split", "sections"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ge8q0xjh",
+    "slug": "modal-window",
+    "name": {
+      "pt": "Janela modal",
+      "en": "Modal window"
+    },
+    "subcategory": "panels",
+    "family": "window",
+    "synonyms": {
+      "pt": ["diálogo", "caixa de diálogo", "pop-up"],
+      "en": ["dialog", "dialog box", "popup"]
+    },
+    "tags": {
+      "pt": ["modal", "sobreposição", "aviso", "lightbox"],
+      "en": ["modal", "overlay", "lightbox"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1d8nny2",
+    "slug": "panel-bottom",
+    "name": {
+      "pt": "Painel inferior",
+      "en": "Panel bottom"
+    },
+    "subcategory": "panels",
+    "family": "panel",
+    "synonyms": {
+      "pt": ["barra inferior", "faixa de baixo"],
+      "en": ["bottom bar", "bottom strip"]
+    },
+    "tags": {
+      "pt": ["rodapé", "console", "terminal", "layout"],
+      "en": ["footer", "console", "terminal", "layout"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gg3vj0p8",
+    "slug": "panel-left",
+    "name": {
+      "pt": "Painel esquerdo",
+      "en": "Panel left"
+    },
+    "subcategory": "panels",
+    "family": "panel",
+    "synonyms": {
+      "pt": ["barra lateral esquerda", "coluna lateral"],
+      "en": ["left sidebar", "side column"]
+    },
+    "tags": {
+      "pt": ["menu lateral", "navegação", "layout"],
+      "en": ["side menu", "navigation", "layout"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gs22h0as",
+    "slug": "panel-left-close",
+    "name": {
+      "pt": "Fechar painel esquerdo",
+      "en": "Panel left close"
+    },
+    "subcategory": "panels",
+    "family": "panel",
+    "synonyms": {
+      "pt": ["recolher barra lateral", "ocultar menu"],
+      "en": ["collapse sidebar", "hide menu"]
+    },
+    "tags": {
+      "pt": ["fechar sidebar", "navegação"],
+      "en": ["close sidebar", "navigation"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gd4yvk6w",
+    "slug": "panel-left-open",
+    "name": {
+      "pt": "Abrir painel esquerdo",
+      "en": "Panel left open"
+    },
+    "subcategory": "panels",
+    "family": "panel",
+    "synonyms": {
+      "pt": ["expandir barra lateral", "mostrar menu"],
+      "en": ["expand sidebar", "show menu"]
+    },
+    "tags": {
+      "pt": ["abrir sidebar", "navegação"],
+      "en": ["open sidebar", "navigation"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmwzakw2",
+    "slug": "panel-right",
+    "name": {
+      "pt": "Painel direito",
+      "en": "Panel right"
+    },
+    "subcategory": "panels",
+    "family": "panel",
+    "synonyms": {
+      "pt": ["barra lateral direita", "inspetor"],
+      "en": ["right sidebar", "inspector"]
+    },
+    "tags": {
+      "pt": ["propriedades", "detalhes", "layout"],
+      "en": ["properties", "details", "layout"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0g65b4f",
+    "slug": "panel-right-close",
+    "name": {
+      "pt": "Fechar painel direito",
+      "en": "Panel right close"
+    },
+    "subcategory": "panels",
+    "family": "panel",
+    "synonyms": {
+      "pt": ["recolher inspetor", "ocultar detalhes"],
+      "en": ["collapse inspector", "hide details"]
+    },
+    "tags": {
+      "pt": ["fechar sidebar", "propriedades"],
+      "en": ["close sidebar", "properties"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4cf0bs7",
+    "slug": "panel-right-open",
+    "name": {
+      "pt": "Abrir painel direito",
+      "en": "Panel right open"
+    },
+    "subcategory": "panels",
+    "family": "panel",
+    "synonyms": {
+      "pt": ["expandir inspetor", "mostrar detalhes"],
+      "en": ["expand inspector", "show details"]
+    },
+    "tags": {
+      "pt": ["abrir sidebar", "propriedades"],
+      "en": ["open sidebar", "properties"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gztcntq7",
+    "slug": "panel-top",
+    "name": {
+      "pt": "Painel superior",
+      "en": "Panel top"
+    },
+    "subcategory": "panels",
+    "family": "panel",
+    "synonyms": {
+      "pt": ["barra superior", "faixa de cima"],
+      "en": ["top bar", "top strip"]
+    },
+    "tags": {
+      "pt": ["cabeçalho", "barra de ferramentas", "layout"],
+      "en": ["header", "toolbar", "layout"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gd0d35wy",
+    "slug": "rows-2",
+    "name": {
+      "pt": "Duas linhas",
+      "en": "Two rows"
+    },
+    "subcategory": "grids",
+    "family": "rows",
+    "synonyms": {
+      "pt": ["2 linhas", "divisão horizontal"],
+      "en": ["2 rows", "horizontal split"]
+    },
+    "tags": {
+      "pt": ["linhas", "metade", "layout"],
+      "en": ["rows", "halves", "layout"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gt4hzfhp",
+    "slug": "rows-3",
+    "name": {
+      "pt": "Três linhas",
+      "en": "Three rows"
+    },
+    "subcategory": "grids",
+    "family": "rows",
+    "synonyms": {
+      "pt": ["3 linhas", "terços horizontais"],
+      "en": ["3 rows", "horizontal thirds"]
+    },
+    "tags": {
+      "pt": ["linhas", "divisão horizontal", "layout"],
+      "en": ["rows", "horizontal split", "layout"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmjaxd0t",
+    "slug": "send-backward",
+    "name": {
+      "pt": "Enviar para trás",
+      "en": "Send backward"
+    },
+    "subcategory": "arrange",
+    "family": "layer-order",
+    "synonyms": {
+      "pt": ["recuar camada", "descer um nível"],
+      "en": ["move backward", "down one layer"]
+    },
+    "tags": {
+      "pt": ["ordem", "camadas", "sobrepor", "organizar"],
+      "en": ["order", "layers", "overlap", "arrange"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g2cnb3bw",
+    "slug": "send-to-back",
+    "name": {
+      "pt": "Enviar para o fundo",
+      "en": "Send to back"
+    },
+    "subcategory": "arrange",
+    "family": "layer-order",
+    "synonyms": {
+      "pt": ["enviar para trás de tudo", "último plano"],
+      "en": ["send to bottom", "back layer"]
+    },
+    "tags": {
+      "pt": ["ordem", "camadas", "plano de fundo"],
+      "en": ["order", "layers", "background"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gjqmq8hs",
+    "slug": "sidebar",
+    "name": {
+      "pt": "Barra lateral",
+      "en": "Sidebar"
+    },
+    "subcategory": "panels",
+    "family": "panel",
+    "synonyms": {
+      "pt": ["sidebar", "menu lateral"],
+      "en": ["side menu", "side nav"]
+    },
+    "tags": {
+      "pt": ["navegação", "painel", "menu de itens"],
+      "en": ["navigation", "panel", "menu items"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gvx40bvj",
+    "slug": "sidebar-right",
+    "name": {
+      "pt": "Barra lateral direita",
+      "en": "Sidebar right"
+    },
+    "subcategory": "panels",
+    "family": "panel",
+    "synonyms": {
+      "pt": ["sidebar direita", "menu à direita"],
+      "en": ["right sidebar", "right menu"]
+    },
+    "tags": {
+      "pt": ["navegação", "painel", "inspetor"],
+      "en": ["navigation", "panel", "inspector"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g40xwvec",
+    "slug": "spacing-horizontal",
+    "name": {
+      "pt": "Espaçamento horizontal",
+      "en": "Horizontal spacing"
+    },
+    "subcategory": "arrange",
+    "family": "spacing",
+    "synonyms": {
+      "pt": ["distância horizontal", "margem lateral"],
+      "en": ["horizontal gap", "side margin"]
+    },
+    "tags": {
+      "pt": ["espaço entre", "gap", "medida"],
+      "en": ["space between", "gap", "measure"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g9hs8gcs",
+    "slug": "spacing-vertical",
+    "name": {
+      "pt": "Espaçamento vertical",
+      "en": "Vertical spacing"
+    },
+    "subcategory": "arrange",
+    "family": "spacing",
+    "synonyms": {
+      "pt": ["distância vertical", "entrelinha de blocos"],
+      "en": ["vertical gap", "block spacing"]
+    },
+    "tags": {
+      "pt": ["espaço entre", "gap", "medida"],
+      "en": ["space between", "gap", "measure"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5eengbp",
+    "slug": "split-horizontal",
+    "name": {
+      "pt": "Divisão horizontal",
+      "en": "Split horizontal"
+    },
+    "subcategory": "panels",
+    "family": "split",
+    "synonyms": {
+      "pt": ["dividir em cima e embaixo", "dois blocos"],
+      "en": ["top and bottom split", "two blocks"]
+    },
+    "tags": {
+      "pt": ["tela dividida", "painéis", "separar"],
+      "en": ["split screen", "panes", "divide"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gb1b8m78",
+    "slug": "split-vertical",
+    "name": {
+      "pt": "Divisão vertical",
+      "en": "Split vertical"
+    },
+    "subcategory": "panels",
+    "family": "split",
+    "synonyms": {
+      "pt": ["dividir lado a lado", "dois blocos"],
+      "en": ["side by side split", "two blocks"]
+    },
+    "tags": {
+      "pt": ["tela dividida", "painéis", "separar"],
+      "en": ["split screen", "panes", "divide"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g234nz0g",
+    "slug": "stretch-horizontal",
+    "name": {
+      "pt": "Esticar na horizontal",
+      "en": "Stretch horizontal"
+    },
+    "subcategory": "arrange",
+    "family": "stretch",
+    "synonyms": {
+      "pt": ["estender largura", "preencher largura"],
+      "en": ["fill width", "extend width"]
+    },
+    "tags": {
+      "pt": ["redimensionar", "largura total", "expandir"],
+      "en": ["resize", "full width", "expand"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gt0t40e4",
+    "slug": "stretch-vertical",
+    "name": {
+      "pt": "Esticar na vertical",
+      "en": "Stretch vertical"
+    },
+    "subcategory": "arrange",
+    "family": "stretch",
+    "synonyms": {
+      "pt": ["estender altura", "preencher altura"],
+      "en": ["fill height", "extend height"]
+    },
+    "tags": {
+      "pt": ["redimensionar", "altura total", "expandir"],
+      "en": ["resize", "full height", "expand"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggpk8ndf",
+    "slug": "tabs-window",
+    "name": {
+      "pt": "Janela com abas",
+      "en": "Tabs window"
+    },
+    "subcategory": "panels",
+    "family": "window",
+    "synonyms": {
+      "pt": ["abas", "guias"],
+      "en": ["tabs", "tabbed window"]
+    },
+    "tags": {
+      "pt": ["navegação por abas", "separadores", "navegador"],
+      "en": ["tab bar", "browser tabs", "sections"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmq062zt",
+    "slug": "ungroup",
+    "name": {
+      "pt": "Desagrupar",
+      "en": "Ungroup"
+    },
+    "subcategory": "arrange",
+    "family": "group",
+    "synonyms": {
+      "pt": ["separar grupo", "desfazer grupo"],
+      "en": ["split group", "break apart"]
+    },
+    "tags": {
+      "pt": ["separar objetos", "organizar", "camadas"],
+      "en": ["separate objects", "arrange", "layers"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpe5d3mq",
+    "slug": "window-split",
+    "name": {
+      "pt": "Janela dividida",
+      "en": "Window split"
+    },
+    "subcategory": "panels",
+    "family": "window",
+    "synonyms": {
+      "pt": ["tela dividida", "lado a lado"],
+      "en": ["split screen", "side by side"]
+    },
+    "tags": {
+      "pt": ["dois painéis", "split view", "comparar"],
+      "en": ["two panes", "split view", "compare"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g909dvpv",
+    "slug": "window-stack",
+    "name": {
+      "pt": "Janelas empilhadas",
+      "en": "Window stack"
+    },
+    "subcategory": "panels",
+    "family": "window",
+    "synonyms": {
+      "pt": ["várias janelas", "janelas sobrepostas"],
+      "en": ["multiple windows", "stacked windows"]
+    },
+    "tags": {
+      "pt": ["multitarefa", "abas", "cascata"],
+      "en": ["multitasking", "cascade", "overlap"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  }
+]

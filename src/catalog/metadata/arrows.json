@@ -1,0 +1,1982 @@
+[
+  {
+    "id": "g16tdrqr",
+    "slug": "arrow-big-down",
+    "name": {
+      "pt": "Seta grossa para baixo",
+      "en": "Arrow big down"
+    },
+    "subcategory": "arrows",
+    "family": "arrow-big",
+    "synonyms": {
+      "pt": ["seta cheia", "seta em bloco"],
+      "en": ["bold arrow", "block arrow"]
+    },
+    "tags": {
+      "pt": ["descer", "votar contra", "diminuir"],
+      "en": ["downvote", "decrease", "lower"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gn27epm4",
+    "slug": "arrow-big-left",
+    "name": {
+      "pt": "Seta grossa para a esquerda",
+      "en": "Arrow big left"
+    },
+    "subcategory": "arrows",
+    "family": "arrow-big",
+    "synonyms": {
+      "pt": ["seta cheia", "seta em bloco"],
+      "en": ["bold arrow", "block arrow"]
+    },
+    "tags": {
+      "pt": ["voltar", "anterior", "direção"],
+      "en": ["back", "previous", "direction"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzzgt4kf",
+    "slug": "arrow-big-right",
+    "name": {
+      "pt": "Seta grossa para a direita",
+      "en": "Arrow big right"
+    },
+    "subcategory": "arrows",
+    "family": "arrow-big",
+    "synonyms": {
+      "pt": ["seta cheia", "seta em bloco"],
+      "en": ["bold arrow", "block arrow"]
+    },
+    "tags": {
+      "pt": ["avançar", "próximo", "direção"],
+      "en": ["forward", "next", "direction"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gj85pqmz",
+    "slug": "arrow-big-up",
+    "name": {
+      "pt": "Seta grossa para cima",
+      "en": "Arrow big up"
+    },
+    "subcategory": "arrows",
+    "family": "arrow-big",
+    "synonyms": {
+      "pt": ["seta cheia", "seta em bloco"],
+      "en": ["bold arrow", "block arrow"]
+    },
+    "tags": {
+      "pt": ["subir", "votar a favor", "aumentar", "tecla shift"],
+      "en": ["upvote", "increase", "raise", "shift key"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gh0gzhe2",
+    "slug": "arrow-bounce",
+    "name": {
+      "pt": "Seta quicando",
+      "en": "Arrow bounce"
+    },
+    "subcategory": "flow",
+    "synonyms": {
+      "pt": ["ricochete", "rebater"],
+      "en": ["rebound", "ricochet"]
+    },
+    "tags": {
+      "pt": ["refletir", "voltar", "quique"],
+      "en": ["reflect", "bounce back"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g72hpwax",
+    "slug": "arrow-circle-down",
+    "name": {
+      "pt": "Seta para baixo no círculo",
+      "en": "Arrow circle down"
+    },
+    "subcategory": "arrows",
+    "family": "arrow-circle",
+    "synonyms": {
+      "pt": ["botão descer", "baixar"],
+      "en": ["down button"]
+    },
+    "tags": {
+      "pt": ["download", "diminuir", "rolar"],
+      "en": ["download", "decrease", "scroll down"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gg11fr5t",
+    "slug": "arrow-circle-left",
+    "name": {
+      "pt": "Seta para a esquerda no círculo",
+      "en": "Arrow circle left"
+    },
+    "subcategory": "arrows",
+    "family": "arrow-circle",
+    "synonyms": {
+      "pt": ["botão voltar", "anterior"],
+      "en": ["back button", "previous"]
+    },
+    "tags": {
+      "pt": ["retornar", "recuar"],
+      "en": ["return", "go back"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gv0029ab",
+    "slug": "arrow-circle-right",
+    "name": {
+      "pt": "Seta para a direita no círculo",
+      "en": "Arrow circle right"
+    },
+    "subcategory": "arrows",
+    "family": "arrow-circle",
+    "synonyms": {
+      "pt": ["botão avançar", "próximo"],
+      "en": ["forward button", "next"]
+    },
+    "tags": {
+      "pt": ["seguir", "ir", "continuar"],
+      "en": ["go", "continue", "proceed"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gf3a3nmz",
+    "slug": "arrow-circle-up",
+    "name": {
+      "pt": "Seta para cima no círculo",
+      "en": "Arrow circle up"
+    },
+    "subcategory": "arrows",
+    "family": "arrow-circle",
+    "synonyms": {
+      "pt": ["botão subir", "enviar"],
+      "en": ["up button", "send"]
+    },
+    "tags": {
+      "pt": ["topo", "aumentar", "upload"],
+      "en": ["top", "increase", "upload"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gv4ybww8",
+    "slug": "arrow-down",
+    "name": {
+      "pt": "Seta para baixo",
+      "en": "Arrow down"
+    },
+    "subcategory": "arrows",
+    "family": "arrow",
+    "synonyms": {
+      "pt": ["descer", "abaixo"],
+      "en": ["down", "bottom"]
+    },
+    "tags": {
+      "pt": ["baixar", "diminuir"],
+      "en": ["decrease", "lower"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gfqgh5v7",
+    "slug": "arrow-down-left",
+    "name": {
+      "pt": "Seta para baixo e à esquerda",
+      "en": "Arrow down left"
+    },
+    "subcategory": "arrows",
+    "family": "arrow",
+    "synonyms": {
+      "pt": ["seta diagonal", "sudoeste"],
+      "en": ["diagonal arrow", "southwest"]
+    },
+    "tags": {
+      "pt": ["entrada", "recebido", "direção"],
+      "en": ["incoming", "received", "direction"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gtxw53cq",
+    "slug": "arrow-down-right",
+    "name": {
+      "pt": "Seta para baixo e à direita",
+      "en": "Arrow down right"
+    },
+    "subcategory": "arrows",
+    "family": "arrow",
+    "synonyms": {
+      "pt": ["seta diagonal", "sudeste"],
+      "en": ["diagonal arrow", "southeast"]
+    },
+    "tags": {
+      "pt": ["queda", "direção", "canto inferior"],
+      "en": ["decline", "direction", "bottom corner"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gtbjqk8k",
+    "slug": "arrow-down-to-line",
+    "name": {
+      "pt": "Seta até a linha abaixo",
+      "en": "Arrow down to line"
+    },
+    "subcategory": "arrows",
+    "family": "arrow-to-line",
+    "synonyms": {
+      "pt": ["ir para o fim", "rolar até o fim"],
+      "en": ["go to bottom", "scroll to bottom"]
+    },
+    "tags": {
+      "pt": ["rodapé", "final", "limite"],
+      "en": ["bottom", "end", "limit"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbhdzbyn",
+    "slug": "arrow-left",
+    "name": {
+      "pt": "Seta para a esquerda",
+      "en": "Arrow left"
+    },
+    "subcategory": "arrows",
+    "family": "arrow",
+    "synonyms": {
+      "pt": ["voltar", "anterior"],
+      "en": ["back", "previous"]
+    },
+    "tags": {
+      "pt": ["retornar", "recuar", "direção"],
+      "en": ["return", "direction"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gvh1b8y6",
+    "slug": "arrow-left-from-line",
+    "name": {
+      "pt": "Seta saindo da linha para a esquerda",
+      "en": "Arrow left from line"
+    },
+    "subcategory": "arrows",
+    "family": "arrow-to-line",
+    "synonyms": {
+      "pt": ["partir", "sair da borda"],
+      "en": ["depart", "move away"]
+    },
+    "tags": {
+      "pt": ["recolher", "deslocar", "voltar"],
+      "en": ["collapse", "shift", "back"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g39bamk1",
+    "slug": "arrow-left-to-line",
+    "name": {
+      "pt": "Seta até a linha à esquerda",
+      "en": "Arrow left to line"
+    },
+    "subcategory": "arrows",
+    "family": "arrow-to-line",
+    "synonyms": {
+      "pt": ["ir para o início", "primeiro"],
+      "en": ["go to start", "first"]
+    },
+    "tags": {
+      "pt": ["começo", "limite", "encostar à esquerda"],
+      "en": ["beginning", "limit", "align left"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1bzx6t9",
+    "slug": "arrow-long-left",
+    "name": {
+      "pt": "Seta longa para a esquerda",
+      "en": "Arrow long left"
+    },
+    "subcategory": "arrows",
+    "family": "arrow",
+    "synonyms": {
+      "pt": ["seta comprida", "voltar"],
+      "en": ["long arrow", "back"]
+    },
+    "tags": {
+      "pt": ["anterior", "retornar"],
+      "en": ["previous", "return"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gsdwpfw7",
+    "slug": "arrow-long-right",
+    "name": {
+      "pt": "Seta longa para a direita",
+      "en": "Arrow long right"
+    },
+    "subcategory": "arrows",
+    "family": "arrow",
+    "synonyms": {
+      "pt": ["seta comprida", "avançar"],
+      "en": ["long arrow", "forward"]
+    },
+    "tags": {
+      "pt": ["próximo", "continuar", "ler mais"],
+      "en": ["next", "continue", "read more"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqx221p8",
+    "slug": "arrow-loop-left",
+    "name": {
+      "pt": "Seta com laço para a esquerda",
+      "en": "Arrow loop left"
+    },
+    "subcategory": "flow",
+    "family": "arrow-loop",
+    "synonyms": {
+      "pt": ["volta", "looping"],
+      "en": ["loop", "loopback"]
+    },
+    "tags": {
+      "pt": ["repetir e voltar", "desvio", "contornar"],
+      "en": ["repeat and return", "detour", "roundabout"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ge35ktvx",
+    "slug": "arrow-loop-right",
+    "name": {
+      "pt": "Seta com laço para a direita",
+      "en": "Arrow loop right"
+    },
+    "subcategory": "flow",
+    "family": "arrow-loop",
+    "synonyms": {
+      "pt": ["volta", "looping"],
+      "en": ["loop", "loopback"]
+    },
+    "tags": {
+      "pt": ["repetir e seguir", "desvio", "contornar"],
+      "en": ["repeat and continue", "detour", "roundabout"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmyxra49",
+    "slug": "arrow-right",
+    "name": {
+      "pt": "Seta para a direita",
+      "en": "Arrow right"
+    },
+    "subcategory": "arrows",
+    "family": "arrow",
+    "synonyms": {
+      "pt": ["avançar", "próximo"],
+      "en": ["forward", "next"]
+    },
+    "tags": {
+      "pt": ["seguir", "ir", "continuar", "direção"],
+      "en": ["go", "continue", "direction"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdy8k041",
+    "slug": "arrow-right-from-line",
+    "name": {
+      "pt": "Seta saindo da linha para a direita",
+      "en": "Arrow right from line"
+    },
+    "subcategory": "arrows",
+    "family": "arrow-to-line",
+    "synonyms": {
+      "pt": ["partir", "sair da borda"],
+      "en": ["depart", "move away"]
+    },
+    "tags": {
+      "pt": ["iniciar", "recuar margem", "deslocar"],
+      "en": ["start", "outdent", "shift"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gp1fw4g1",
+    "slug": "arrow-right-to-line",
+    "name": {
+      "pt": "Seta até a linha à direita",
+      "en": "Arrow right to line"
+    },
+    "subcategory": "arrows",
+    "family": "arrow-to-line",
+    "synonyms": {
+      "pt": ["ir para o fim", "último"],
+      "en": ["go to end", "last"]
+    },
+    "tags": {
+      "pt": ["final", "limite", "encostar à direita", "tecla tab"],
+      "en": ["end", "limit", "align right", "tab key"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbs2m0a3",
+    "slug": "arrow-square-right",
+    "name": {
+      "pt": "Seta para a direita no quadrado",
+      "en": "Arrow square right"
+    },
+    "subcategory": "arrows",
+    "family": "arrow-square",
+    "synonyms": {
+      "pt": ["botão avançar", "próximo"],
+      "en": ["forward button", "next"]
+    },
+    "tags": {
+      "pt": ["seguir", "ir", "tecla de seta"],
+      "en": ["go", "proceed", "arrow key"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3qywd0e",
+    "slug": "arrow-square-up",
+    "name": {
+      "pt": "Seta para cima no quadrado",
+      "en": "Arrow square up"
+    },
+    "subcategory": "arrows",
+    "family": "arrow-square",
+    "synonyms": {
+      "pt": ["botão subir", "enviar"],
+      "en": ["up button", "send"]
+    },
+    "tags": {
+      "pt": ["topo", "upload", "tecla de seta"],
+      "en": ["top", "upload", "arrow key"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grqpppav",
+    "slug": "arrow-up",
+    "name": {
+      "pt": "Seta para cima",
+      "en": "Arrow up"
+    },
+    "subcategory": "arrows",
+    "family": "arrow",
+    "synonyms": {
+      "pt": ["subir", "acima"],
+      "en": ["up", "top"]
+    },
+    "tags": {
+      "pt": ["topo", "enviar", "aumentar"],
+      "en": ["increase", "raise"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkvn668k",
+    "slug": "arrow-up-down-split",
+    "name": {
+      "pt": "Separar na vertical",
+      "en": "Arrow up down split"
+    },
+    "subcategory": "flow",
+    "synonyms": {
+      "pt": ["afastar", "dividir para cima e para baixo"],
+      "en": ["separate", "push apart"]
+    },
+    "tags": {
+      "pt": ["espaçamento", "distanciar", "expandir"],
+      "en": ["spacing", "distance", "expand"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "geem2d23",
+    "slug": "arrow-up-left",
+    "name": {
+      "pt": "Seta para cima e à esquerda",
+      "en": "Arrow up left"
+    },
+    "subcategory": "arrows",
+    "family": "arrow",
+    "synonyms": {
+      "pt": ["seta diagonal", "noroeste"],
+      "en": ["diagonal arrow", "northwest"]
+    },
+    "tags": {
+      "pt": ["voltar", "direção", "canto superior"],
+      "en": ["direction", "back", "top corner"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdgn561m",
+    "slug": "arrow-up-right",
+    "name": {
+      "pt": "Seta diagonal",
+      "en": "Arrow up right"
+    },
+    "subcategory": "arrows",
+    "family": "arrow",
+    "synonyms": {
+      "pt": ["subir à direita", "abrir"],
+      "en": ["diagonal", "outward"]
+    },
+    "tags": {
+      "pt": ["link", "saída", "crescimento"],
+      "en": ["link", "open", "growth"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g921bg8q",
+    "slug": "arrow-up-to-line",
+    "name": {
+      "pt": "Seta até a linha acima",
+      "en": "Arrow up to line"
+    },
+    "subcategory": "arrows",
+    "family": "arrow-to-line",
+    "synonyms": {
+      "pt": ["ir para o topo", "subir ao início"],
+      "en": ["go to top", "scroll to top"]
+    },
+    "tags": {
+      "pt": ["topo", "voltar ao topo", "limite"],
+      "en": ["top", "back to top", "limit"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gy2p9h6p",
+    "slug": "arrows-in",
+    "name": {
+      "pt": "Setas para dentro",
+      "en": "Arrows in"
+    },
+    "subcategory": "flow",
+    "family": "arrows-in",
+    "synonyms": {
+      "pt": ["convergir", "concentrar"],
+      "en": ["converge", "gather"]
+    },
+    "tags": {
+      "pt": ["centralizar", "reunir", "foco"],
+      "en": ["center", "collapse", "focus"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1w31v77",
+    "slug": "arrows-left-right",
+    "name": {
+      "pt": "Setas para a esquerda e para a direita",
+      "en": "Arrows left right"
+    },
+    "subcategory": "flow",
+    "family": "arrows-pair",
+    "synonyms": {
+      "pt": ["trocar", "inverter"],
+      "en": ["swap", "exchange"]
+    },
+    "tags": {
+      "pt": ["transferir", "alternar", "ida e volta", "câmbio"],
+      "en": ["transfer", "toggle", "back and forth", "convert"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmr3347d",
+    "slug": "arrows-out",
+    "name": {
+      "pt": "Setas para fora",
+      "en": "Arrows out"
+    },
+    "subcategory": "flow",
+    "family": "arrows-in",
+    "synonyms": {
+      "pt": ["espalhar", "irradiar"],
+      "en": ["spread", "radiate"]
+    },
+    "tags": {
+      "pt": ["distribuir", "expandir", "dispersar"],
+      "en": ["distribute", "expand", "scatter"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkndx2e1",
+    "slug": "arrows-up-down",
+    "name": {
+      "pt": "Ordenar",
+      "en": "Arrows up down"
+    },
+    "subcategory": "flow",
+    "synonyms": {
+      "pt": ["setas para cima e para baixo", "inverter ordem"],
+      "en": ["sort", "reorder"]
+    },
+    "tags": {
+      "pt": ["classificar", "ordem", "trocar"],
+      "en": ["order", "swap", "arrange"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3pcxa8y",
+    "slug": "caret-down",
+    "name": {
+      "pt": "Triângulo para baixo",
+      "en": "Caret down"
+    },
+    "subcategory": "chevrons",
+    "family": "caret",
+    "synonyms": {
+      "pt": ["seta cheia", "caret"],
+      "en": ["triangle down", "filled arrow"]
+    },
+    "tags": {
+      "pt": ["dropdown", "abrir menu", "expandir", "ordenar"],
+      "en": ["dropdown", "open menu", "expand", "sort"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g9jcvm76",
+    "slug": "caret-right",
+    "name": {
+      "pt": "Triângulo para a direita",
+      "en": "Caret right"
+    },
+    "subcategory": "chevrons",
+    "family": "caret",
+    "synonyms": {
+      "pt": ["seta cheia", "caret"],
+      "en": ["triangle right", "filled arrow"]
+    },
+    "tags": {
+      "pt": ["expandir item", "árvore", "reproduzir"],
+      "en": ["expand item", "tree", "disclosure"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gsrfym7z",
+    "slug": "caret-up-down",
+    "name": {
+      "pt": "Triângulos para cima e para baixo",
+      "en": "Caret up down"
+    },
+    "subcategory": "chevrons",
+    "family": "caret",
+    "synonyms": {
+      "pt": ["ordenar", "seta de ordenação"],
+      "en": ["sort", "sort arrows"]
+    },
+    "tags": {
+      "pt": ["classificar coluna", "tabela", "seletor"],
+      "en": ["sort column", "table", "selector"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4n4kmrb",
+    "slug": "chevron-circle-down",
+    "name": {
+      "pt": "Chevron para baixo no círculo",
+      "en": "Chevron circle down"
+    },
+    "subcategory": "chevrons",
+    "family": "chevron",
+    "synonyms": {
+      "pt": ["botão expandir", "abrir"],
+      "en": ["expand button", "open"]
+    },
+    "tags": {
+      "pt": ["dropdown", "mostrar mais", "descer"],
+      "en": ["dropdown", "show more", "down"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gahwaz9x",
+    "slug": "chevron-circle-right",
+    "name": {
+      "pt": "Chevron para a direita no círculo",
+      "en": "Chevron circle right"
+    },
+    "subcategory": "chevrons",
+    "family": "chevron",
+    "synonyms": {
+      "pt": ["botão próximo", "avançar"],
+      "en": ["next button", "forward"]
+    },
+    "tags": {
+      "pt": ["seguir", "continuar", "ir"],
+      "en": ["continue", "go", "proceed"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gcxmv0g1",
+    "slug": "chevron-down",
+    "name": {
+      "pt": "Para baixo",
+      "en": "Chevron down"
+    },
+    "subcategory": "chevrons",
+    "family": "chevron",
+    "synonyms": {
+      "pt": ["seta pequena", "expandir", "abrir"],
+      "en": ["caret", "expand"]
+    },
+    "tags": {
+      "pt": ["dropdown", "menu", "mostrar mais"],
+      "en": ["dropdown", "open", "more"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g80kh7ay",
+    "slug": "chevron-first",
+    "name": {
+      "pt": "Primeiro",
+      "en": "Chevron first"
+    },
+    "subcategory": "chevrons",
+    "family": "chevron",
+    "synonyms": {
+      "pt": ["início", "voltar ao começo"],
+      "en": ["first", "go to start"]
+    },
+    "tags": {
+      "pt": ["paginação", "primeira página", "retroceder"],
+      "en": ["pagination", "first page", "skip back"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpr6jf7q",
+    "slug": "chevron-last",
+    "name": {
+      "pt": "Último",
+      "en": "Chevron last"
+    },
+    "subcategory": "chevrons",
+    "family": "chevron",
+    "synonyms": {
+      "pt": ["fim", "ir para o final"],
+      "en": ["last", "go to end"]
+    },
+    "tags": {
+      "pt": ["paginação", "última página", "pular"],
+      "en": ["pagination", "last page", "skip forward"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g256v372",
+    "slug": "chevron-left",
+    "name": {
+      "pt": "Para a esquerda",
+      "en": "Chevron left"
+    },
+    "subcategory": "chevrons",
+    "family": "chevron",
+    "synonyms": {
+      "pt": ["seta pequena", "voltar", "anterior"],
+      "en": ["caret", "back", "previous"]
+    },
+    "tags": {
+      "pt": ["retornar", "recuar"],
+      "en": ["return"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1g3eba0",
+    "slug": "chevron-right",
+    "name": {
+      "pt": "Para a direita",
+      "en": "Chevron right"
+    },
+    "subcategory": "chevrons",
+    "family": "chevron",
+    "synonyms": {
+      "pt": ["seta pequena", "avançar", "próximo"],
+      "en": ["caret", "forward", "next"]
+    },
+    "tags": {
+      "pt": ["seguir", "continuar"],
+      "en": ["continue"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gjzz26dh",
+    "slug": "chevron-up",
+    "name": {
+      "pt": "Para cima",
+      "en": "Chevron up"
+    },
+    "subcategory": "chevrons",
+    "family": "chevron",
+    "synonyms": {
+      "pt": ["seta pequena", "recolher"],
+      "en": ["caret", "collapse"]
+    },
+    "tags": {
+      "pt": ["fechar", "subir", "mostrar menos"],
+      "en": ["close", "less"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzz6f25d",
+    "slug": "chevrons-down",
+    "name": {
+      "pt": "Chevrons para baixo",
+      "en": "Chevrons down"
+    },
+    "subcategory": "chevrons",
+    "family": "chevrons",
+    "synonyms": {
+      "pt": ["seta dupla para baixo", "descer tudo"],
+      "en": ["double chevron down", "double caret"]
+    },
+    "tags": {
+      "pt": ["expandir", "rolar para baixo", "mais"],
+      "en": ["expand", "scroll down", "more"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmjjxbyz",
+    "slug": "chevrons-left",
+    "name": {
+      "pt": "Chevrons para a esquerda",
+      "en": "Chevrons left"
+    },
+    "subcategory": "chevrons",
+    "family": "chevrons",
+    "synonyms": {
+      "pt": ["seta dupla para a esquerda", "retroceder"],
+      "en": ["double chevron left", "rewind"]
+    },
+    "tags": {
+      "pt": ["voltar", "início", "recolher painel"],
+      "en": ["back", "first", "collapse panel"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gc42wwn2",
+    "slug": "chevrons-left-right",
+    "name": {
+      "pt": "Chevrons para os lados",
+      "en": "Chevrons left right"
+    },
+    "subcategory": "chevrons",
+    "family": "chevrons",
+    "synonyms": {
+      "pt": ["ajustar largura", "redimensionar coluna"],
+      "en": ["resize column", "adjust width"]
+    },
+    "tags": {
+      "pt": ["arrastar", "divisor", "expandir na horizontal"],
+      "en": ["drag", "divider", "expand horizontally"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbq4x1z7",
+    "slug": "chevrons-right",
+    "name": {
+      "pt": "Chevrons para a direita",
+      "en": "Chevrons right"
+    },
+    "subcategory": "chevrons",
+    "family": "chevrons",
+    "synonyms": {
+      "pt": ["seta dupla para a direita", "avançar rápido"],
+      "en": ["double chevron right", "fast forward"]
+    },
+    "tags": {
+      "pt": ["próximo", "fim", "expandir painel"],
+      "en": ["next", "last", "expand panel"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g32g8pqg",
+    "slug": "chevrons-up",
+    "name": {
+      "pt": "Chevrons para cima",
+      "en": "Chevrons up"
+    },
+    "subcategory": "chevrons",
+    "family": "chevrons",
+    "synonyms": {
+      "pt": ["seta dupla para cima", "subir tudo"],
+      "en": ["double chevron up", "double caret"]
+    },
+    "tags": {
+      "pt": ["recolher", "voltar ao topo", "prioridade alta"],
+      "en": ["collapse", "back to top", "high priority"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gaea469s",
+    "slug": "chevrons-up-down",
+    "name": {
+      "pt": "Chevrons para cima e para baixo",
+      "en": "Chevrons up down"
+    },
+    "subcategory": "chevrons",
+    "family": "chevrons",
+    "synonyms": {
+      "pt": ["seletor", "abrir lista"],
+      "en": ["selector", "select arrows"]
+    },
+    "tags": {
+      "pt": ["dropdown", "select", "ordenar", "expandir"],
+      "en": ["dropdown", "combobox", "sort", "expand"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gytpbhrm",
+    "slug": "corner-down-left",
+    "name": {
+      "pt": "Virar para baixo e à esquerda",
+      "en": "Corner down left"
+    },
+    "subcategory": "arrows",
+    "family": "corner",
+    "synonyms": {
+      "pt": ["seta de retorno", "enter"],
+      "en": ["return arrow", "enter"]
+    },
+    "tags": {
+      "pt": ["quebra de linha", "confirmar", "voltar", "tecla enter"],
+      "en": ["line break", "confirm", "back", "return key"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gddse8r0",
+    "slug": "corner-down-right",
+    "name": {
+      "pt": "Virar para baixo e à direita",
+      "en": "Corner down right"
+    },
+    "subcategory": "arrows",
+    "family": "corner",
+    "synonyms": {
+      "pt": ["seta em curva", "sub-item"],
+      "en": ["turn arrow", "sub item"]
+    },
+    "tags": {
+      "pt": ["resposta", "recuo", "encaminhar"],
+      "en": ["reply", "indent", "forward"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4reyzpr",
+    "slug": "corner-left-down",
+    "name": {
+      "pt": "Virar à esquerda e para baixo",
+      "en": "Corner left down"
+    },
+    "subcategory": "arrows",
+    "family": "corner",
+    "synonyms": {
+      "pt": ["seta em curva", "descer"],
+      "en": ["turn arrow", "bend down"]
+    },
+    "tags": {
+      "pt": ["desvio", "cair", "mudar de nível"],
+      "en": ["detour", "drop", "level down"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g893n6xt",
+    "slug": "corner-right-up",
+    "name": {
+      "pt": "Virar à direita e para cima",
+      "en": "Corner right up"
+    },
+    "subcategory": "arrows",
+    "family": "corner",
+    "synonyms": {
+      "pt": ["seta em curva", "subir"],
+      "en": ["turn arrow", "bend up"]
+    },
+    "tags": {
+      "pt": ["desvio", "crescer", "mudar de nível"],
+      "en": ["detour", "rise", "level up"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3n38r1b",
+    "slug": "corner-up-left",
+    "name": {
+      "pt": "Virar para cima e à esquerda",
+      "en": "Corner up left"
+    },
+    "subcategory": "arrows",
+    "family": "corner",
+    "synonyms": {
+      "pt": ["seta em curva", "contornar"],
+      "en": ["turn arrow", "bend"]
+    },
+    "tags": {
+      "pt": ["voltar", "retornar", "desvio"],
+      "en": ["back", "return", "detour"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwr0d1ee",
+    "slug": "corner-up-right",
+    "name": {
+      "pt": "Virar para cima e à direita",
+      "en": "Corner up right"
+    },
+    "subcategory": "arrows",
+    "family": "corner",
+    "synonyms": {
+      "pt": ["seta em curva", "contornar"],
+      "en": ["turn arrow", "bend"]
+    },
+    "tags": {
+      "pt": ["encaminhar", "seguir", "desvio"],
+      "en": ["forward", "redirect", "detour"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3zey95t",
+    "slug": "expand",
+    "name": {
+      "pt": "Expandir",
+      "en": "Expand"
+    },
+    "subcategory": "flow",
+    "family": "expand",
+    "synonyms": {
+      "pt": ["ampliar", "aumentar em todas as direções"],
+      "en": ["enlarge", "grow"]
+    },
+    "tags": {
+      "pt": ["tela cheia", "crescer", "escalar"],
+      "en": ["fullscreen", "scale up", "spread"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gw4vjzep",
+    "slug": "export-arrow",
+    "name": {
+      "pt": "Exportar",
+      "en": "Export"
+    },
+    "subcategory": "flow",
+    "family": "import-export",
+    "synonyms": {
+      "pt": ["enviar para fora", "extrair"],
+      "en": ["send out", "extract"]
+    },
+    "tags": {
+      "pt": ["saída", "salvar como", "compartilhar dados"],
+      "en": ["output", "save as", "share data"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqvgc1f9",
+    "slug": "fork-arrows",
+    "name": {
+      "pt": "Bifurcação",
+      "en": "Fork arrows"
+    },
+    "subcategory": "flow",
+    "synonyms": {
+      "pt": ["ramificação", "desvio"],
+      "en": ["branch", "fork"]
+    },
+    "tags": {
+      "pt": ["caminho alternativo", "derivar", "opção"],
+      "en": ["alternative path", "diverge", "option"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1a9myke",
+    "slug": "import-arrow",
+    "name": {
+      "pt": "Seta de importação",
+      "en": "Import"
+    },
+    "subcategory": "flow",
+    "family": "import-export",
+    "synonyms": {
+      "pt": ["importar", "trazer", "carregar para dentro"],
+      "en": ["bring in", "load"]
+    },
+    "tags": {
+      "pt": ["entrada", "inserir", "receber dados"],
+      "en": ["input", "insert", "receive data"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gt3p23q8",
+    "slug": "iteration-ccw",
+    "name": {
+      "pt": "Iteração no sentido anti-horário",
+      "en": "Iteration counterclockwise"
+    },
+    "subcategory": "rotation",
+    "family": "iteration",
+    "synonyms": {
+      "pt": ["ciclo", "laço"],
+      "en": ["cycle", "loop"]
+    },
+    "tags": {
+      "pt": ["loop", "repetir etapa", "processo"],
+      "en": ["repeat step", "process"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g11jhxjs",
+    "slug": "iteration-cw",
+    "name": {
+      "pt": "Iteração no sentido horário",
+      "en": "Iteration clockwise"
+    },
+    "subcategory": "rotation",
+    "family": "iteration",
+    "synonyms": {
+      "pt": ["ciclo", "laço"],
+      "en": ["cycle", "loop"]
+    },
+    "tags": {
+      "pt": ["loop", "repetir etapa", "processo", "sprint"],
+      "en": ["repeat step", "process", "sprint"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3nvw1bq",
+    "slug": "merge",
+    "name": {
+      "pt": "Mesclar",
+      "en": "Merge"
+    },
+    "subcategory": "flow",
+    "synonyms": {
+      "pt": ["juntar", "unir caminhos"],
+      "en": ["join", "combine"]
+    },
+    "tags": {
+      "pt": ["combinar", "convergir", "integrar", "fusão"],
+      "en": ["converge", "integrate", "unite"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7x3sg99",
+    "slug": "move",
+    "name": {
+      "pt": "Mover",
+      "en": "Move"
+    },
+    "subcategory": "arrows",
+    "family": "move",
+    "synonyms": {
+      "pt": ["arrastar", "deslocar", "quatro setas"],
+      "en": ["drag", "four arrows", "reposition"]
+    },
+    "tags": {
+      "pt": ["reposicionar", "mover em todas as direções", "pan"],
+      "en": ["pan", "all directions", "relocate"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7rwyj0p",
+    "slug": "move-diagonal",
+    "name": {
+      "pt": "Mover na diagonal",
+      "en": "Move diagonal"
+    },
+    "subcategory": "arrows",
+    "family": "move",
+    "synonyms": {
+      "pt": ["seta dupla diagonal"],
+      "en": ["diagonal double arrow"]
+    },
+    "tags": {
+      "pt": ["redimensionar", "arrastar canto", "escalar"],
+      "en": ["resize", "drag corner", "scale"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g45db0g0",
+    "slug": "move-horizontal",
+    "name": {
+      "pt": "Mover na horizontal",
+      "en": "Move horizontal"
+    },
+    "subcategory": "arrows",
+    "family": "move",
+    "synonyms": {
+      "pt": ["seta dupla horizontal", "esquerda e direita"],
+      "en": ["left right arrow", "double arrow"]
+    },
+    "tags": {
+      "pt": ["arrastar para os lados", "largura", "redimensionar"],
+      "en": ["drag sideways", "width", "resize"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g6vwkpcy",
+    "slug": "move-vertical",
+    "name": {
+      "pt": "Mover na vertical",
+      "en": "Move vertical"
+    },
+    "subcategory": "arrows",
+    "family": "move",
+    "synonyms": {
+      "pt": ["seta dupla vertical", "para cima e para baixo"],
+      "en": ["up down arrow", "double arrow"]
+    },
+    "tags": {
+      "pt": ["arrastar", "altura", "redimensionar"],
+      "en": ["drag", "height", "resize"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g755vqvx",
+    "slug": "redo",
+    "name": {
+      "pt": "Refazer",
+      "en": "Redo"
+    },
+    "subcategory": "rotation",
+    "family": "redo",
+    "synonyms": {
+      "pt": ["repetir ação", "ctrl y"],
+      "en": ["repeat action", "step forward"]
+    },
+    "tags": {
+      "pt": ["avançar", "reaplicar", "histórico"],
+      "en": ["ctrl y", "reapply", "history"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gczeb5mj",
+    "slug": "redo-dot",
+    "name": {
+      "pt": "Refazer até o ponto",
+      "en": "Redo dot"
+    },
+    "subcategory": "rotation",
+    "family": "redo",
+    "variantOf": "redo",
+    "synonyms": {
+      "pt": ["avançar ao marco"],
+      "en": ["redo to point"]
+    },
+    "tags": {
+      "pt": ["reaplicar", "histórico", "versão"],
+      "en": ["reapply", "history", "checkpoint"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggf5f3dq",
+    "slug": "refresh-ccw",
+    "name": {
+      "pt": "Atualizar no sentido anti-horário",
+      "en": "Refresh counterclockwise"
+    },
+    "subcategory": "rotation",
+    "family": "refresh",
+    "synonyms": {
+      "pt": ["recarregar", "sincronizar"],
+      "en": ["reload", "sync"]
+    },
+    "tags": {
+      "pt": ["setas circulares", "restaurar", "reverter"],
+      "en": ["circular arrows", "restore", "revert"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gb1cfe32",
+    "slug": "refresh-cw",
+    "name": {
+      "pt": "Atualizar",
+      "en": "Refresh"
+    },
+    "subcategory": "rotation",
+    "family": "refresh",
+    "synonyms": {
+      "pt": ["recarregar", "sincronizar"],
+      "en": ["reload", "sync"]
+    },
+    "tags": {
+      "pt": ["setas circulares", "renovar", "girar"],
+      "en": ["circular arrows", "renew", "update"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gvqjsn34",
+    "slug": "reload-dashed",
+    "name": {
+      "pt": "Recarregando",
+      "en": "Reload dashed"
+    },
+    "subcategory": "rotation",
+    "family": "rotate",
+    "synonyms": {
+      "pt": ["atualização pendente", "sincronizando"],
+      "en": ["pending refresh", "syncing"]
+    },
+    "tags": {
+      "pt": ["carregando", "processando", "em andamento"],
+      "en": ["loading", "processing", "in progress"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5p7xr2x",
+    "slug": "repeat",
+    "name": {
+      "pt": "Repetir",
+      "en": "Repeat"
+    },
+    "subcategory": "rotation",
+    "family": "repeat",
+    "synonyms": {
+      "pt": ["repetição", "loop"],
+      "en": ["loop", "replay"]
+    },
+    "tags": {
+      "pt": ["reproduzir de novo", "ciclo", "playlist"],
+      "en": ["cycle", "playlist", "again"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnynv662",
+    "slug": "repeat-once",
+    "name": {
+      "pt": "Repetir uma vez",
+      "en": "Repeat once"
+    },
+    "subcategory": "rotation",
+    "family": "repeat",
+    "variantOf": "repeat",
+    "synonyms": {
+      "pt": ["repetir faixa", "loop único"],
+      "en": ["repeat one", "single loop"]
+    },
+    "tags": {
+      "pt": ["reproduzir de novo", "música", "playlist"],
+      "en": ["replay", "track", "playlist"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g6z8s42m",
+    "slug": "rotate-3d",
+    "name": {
+      "pt": "Girar em 3D",
+      "en": "Rotate 3D"
+    },
+    "subcategory": "rotation",
+    "synonyms": {
+      "pt": ["rotação 3D", "órbita"],
+      "en": ["3D rotation", "orbit"]
+    },
+    "tags": {
+      "pt": ["eixo", "visualizar 360", "modelo"],
+      "en": ["axis", "360 view", "model"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gw4rxyjf",
+    "slug": "rotate-ccw",
+    "name": {
+      "pt": "Girar no sentido anti-horário",
+      "en": "Rotate counterclockwise"
+    },
+    "subcategory": "rotation",
+    "family": "rotate",
+    "synonyms": {
+      "pt": ["desfazer", "voltar"],
+      "en": ["rotate left", "undo"]
+    },
+    "tags": {
+      "pt": ["rotação", "atualizar", "recarregar"],
+      "en": ["rotation", "reset", "reload"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3kqefhb",
+    "slug": "rotate-cw",
+    "name": {
+      "pt": "Girar no sentido horário",
+      "en": "Rotate clockwise"
+    },
+    "subcategory": "rotation",
+    "synonyms": {
+      "pt": ["atualizar", "recarregar"],
+      "en": ["refresh", "reload"]
+    },
+    "tags": {
+      "pt": ["rotação", "refazer", "repetir"],
+      "en": ["redo", "repeat", "rotation"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ghjh7we3",
+    "slug": "shrink",
+    "name": {
+      "pt": "Encolher",
+      "en": "Shrink"
+    },
+    "subcategory": "flow",
+    "family": "expand",
+    "synonyms": {
+      "pt": ["reduzir", "contrair"],
+      "en": ["reduce", "contract"]
+    },
+    "tags": {
+      "pt": ["sair da tela cheia", "diminuir", "compactar"],
+      "en": ["exit fullscreen", "scale down", "compact"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggjhvdhp",
+    "slug": "shuffle",
+    "name": {
+      "pt": "Aleatório",
+      "en": "Shuffle"
+    },
+    "subcategory": "rotation",
+    "synonyms": {
+      "pt": ["embaralhar", "ordem aleatória"],
+      "en": ["random", "randomize"]
+    },
+    "tags": {
+      "pt": ["misturar", "sortear", "música", "playlist"],
+      "en": ["mix", "playlist", "music"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g6wp2y5g",
+    "slug": "split",
+    "name": {
+      "pt": "Dividir caminho",
+      "en": "Split"
+    },
+    "subcategory": "flow",
+    "synonyms": {
+      "pt": ["dividir", "separar", "bifurcar"],
+      "en": ["divide", "branch"]
+    },
+    "tags": {
+      "pt": ["ramificar", "divergir", "caminhos", "separação"],
+      "en": ["diverge", "paths", "separate"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8hr48gd",
+    "slug": "swap-horizontal",
+    "name": {
+      "pt": "Trocar de lugar",
+      "en": "Swap horizontal"
+    },
+    "subcategory": "flow",
+    "family": "swap",
+    "synonyms": {
+      "pt": ["permutar", "inverter posição"],
+      "en": ["switch places", "interchange"]
+    },
+    "tags": {
+      "pt": ["alternar", "substituir", "horizontal"],
+      "en": ["exchange", "replace", "horizontal"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4y0vt72",
+    "slug": "swap-vertical",
+    "name": {
+      "pt": "Trocar na vertical",
+      "en": "Swap vertical"
+    },
+    "subcategory": "flow",
+    "family": "swap",
+    "synonyms": {
+      "pt": ["permutar", "inverter posição"],
+      "en": ["switch places", "interchange"]
+    },
+    "tags": {
+      "pt": ["alternar", "substituir", "reordenar"],
+      "en": ["exchange", "replace", "reorder"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwrwg559",
+    "slug": "undo",
+    "name": {
+      "pt": "Desfazer",
+      "en": "Undo"
+    },
+    "subcategory": "rotation",
+    "family": "undo",
+    "synonyms": {
+      "pt": ["voltar ação", "ctrl z"],
+      "en": ["revert", "step back"]
+    },
+    "tags": {
+      "pt": ["reverter", "cancelar", "histórico"],
+      "en": ["ctrl z", "cancel", "history"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gx3xz8f7",
+    "slug": "undo-dot",
+    "name": {
+      "pt": "Desfazer até o ponto",
+      "en": "Undo dot"
+    },
+    "subcategory": "rotation",
+    "family": "undo",
+    "variantOf": "undo",
+    "synonyms": {
+      "pt": ["voltar ao marco", "restaurar ponto"],
+      "en": ["undo to point", "restore point"]
+    },
+    "tags": {
+      "pt": ["reverter", "histórico", "versão"],
+      "en": ["revert", "history", "checkpoint"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  }
+]

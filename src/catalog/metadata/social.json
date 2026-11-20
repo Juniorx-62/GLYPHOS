@@ -1,0 +1,1188 @@
+[
+  {
+    "id": "g7vq6nvs",
+    "slug": "ballot-box",
+    "name": {
+      "pt": "Urna",
+      "en": "Ballot box"
+    },
+    "subcategory": "content",
+    "synonyms": {
+      "pt": ["votação", "eleição"],
+      "en": ["voting", "election"]
+    },
+    "tags": {
+      "pt": ["votar", "voto", "cédula", "democracia", "enquete"],
+      "en": ["vote", "ballot", "democracy", "poll"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g2z1xzkn",
+    "slug": "blog",
+    "name": {
+      "pt": "Blog",
+      "en": "Blog"
+    },
+    "subcategory": "content",
+    "synonyms": {
+      "pt": ["artigo", "publicação escrita"],
+      "en": ["article", "blog post"]
+    },
+    "tags": {
+      "pt": ["escrever", "postagem", "conteúdo", "editar texto"],
+      "en": ["write", "writing", "content", "editorial"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g2qt8qdz",
+    "slug": "clap",
+    "name": {
+      "pt": "Aplausos",
+      "en": "Clap"
+    },
+    "subcategory": "reactions",
+    "synonyms": {
+      "pt": ["palmas", "bater palmas"],
+      "en": ["applause", "clapping hands"]
+    },
+    "tags": {
+      "pt": ["parabéns", "aplaudir", "bravo", "reação"],
+      "en": ["congrats", "bravo", "reaction", "well done"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdppjf2b",
+    "slug": "comment",
+    "name": {
+      "pt": "Comentar",
+      "en": "Comment"
+    },
+    "subcategory": "interactions",
+    "family": "comment",
+    "synonyms": {
+      "pt": ["comentário", "balão"],
+      "en": ["speech bubble", "remark"]
+    },
+    "tags": {
+      "pt": ["responder", "opinião", "conversa", "discussão"],
+      "en": ["reply", "feedback", "discussion"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gtwa6szm",
+    "slug": "comment-check",
+    "name": {
+      "pt": "Comentário resolvido",
+      "en": "Comment check"
+    },
+    "subcategory": "interactions",
+    "family": "comment",
+    "variantOf": "comment",
+    "synonyms": {
+      "pt": ["resolver comentário", "comentário aprovado"],
+      "en": ["resolve comment", "approved comment"]
+    },
+    "tags": {
+      "pt": ["resolvido", "revisão", "concluído", "aprovar"],
+      "en": ["resolved", "review", "done", "approve"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7a3z5qe",
+    "slug": "comment-dots",
+    "name": {
+      "pt": "Comentando",
+      "en": "Comment dots"
+    },
+    "subcategory": "interactions",
+    "family": "comment",
+    "variantOf": "comment",
+    "synonyms": {
+      "pt": ["comentário com reticências", "digitando comentário"],
+      "en": ["typing comment", "comment ellipsis"]
+    },
+    "tags": {
+      "pt": ["responder", "conversa", "discussão"],
+      "en": ["reply", "chat", "discussion"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g9f6bwxp",
+    "slug": "comment-flag",
+    "name": {
+      "pt": "Denunciar comentário",
+      "en": "Report comment"
+    },
+    "subcategory": "interactions",
+    "family": "comment",
+    "variantOf": "comment",
+    "synonyms": {
+      "pt": ["reportar", "sinalizar comentário"],
+      "en": ["flag comment", "report"]
+    },
+    "tags": {
+      "pt": ["moderação", "denúncia", "abuso", "spam"],
+      "en": ["moderation", "abuse", "spam", "flagged"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwn1hxva",
+    "slug": "comment-heart",
+    "name": {
+      "pt": "Comentário curtido",
+      "en": "Comment heart"
+    },
+    "subcategory": "interactions",
+    "family": "comment",
+    "variantOf": "comment",
+    "synonyms": {
+      "pt": ["amei o comentário", "reação ao comentário"],
+      "en": ["liked comment", "comment reaction"]
+    },
+    "tags": {
+      "pt": ["coração", "curtir resposta", "carinho"],
+      "en": ["heart", "love reply", "appreciation"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gh2p3jwp",
+    "slug": "comment-off",
+    "name": {
+      "pt": "Comentários desativados",
+      "en": "Comments off"
+    },
+    "subcategory": "interactions",
+    "family": "comment",
+    "variantOf": "comment",
+    "synonyms": {
+      "pt": ["sem comentários", "desligar comentários"],
+      "en": ["comments disabled", "no comments"]
+    },
+    "tags": {
+      "pt": ["bloquear comentários", "silenciar", "moderação"],
+      "en": ["turn off comments", "mute", "moderation"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ge8kr2xv",
+    "slug": "comment-plus",
+    "name": {
+      "pt": "Adicionar comentário",
+      "en": "Comment plus"
+    },
+    "subcategory": "interactions",
+    "family": "comment",
+    "variantOf": "comment",
+    "synonyms": {
+      "pt": ["novo comentário", "comentar"],
+      "en": ["add comment", "new comment"]
+    },
+    "tags": {
+      "pt": ["escrever", "responder", "opinar"],
+      "en": ["write", "reply", "give feedback"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggy47mxe",
+    "slug": "comment-question",
+    "name": {
+      "pt": "Pergunta",
+      "en": "Comment question"
+    },
+    "subcategory": "interactions",
+    "family": "comment",
+    "variantOf": "comment",
+    "synonyms": {
+      "pt": ["dúvida", "perguntas e respostas"],
+      "en": ["question", "Q&A"]
+    },
+    "tags": {
+      "pt": ["ajuda", "FAQ", "Q&A", "perguntar"],
+      "en": ["help", "FAQ", "ask", "ask me anything"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbd2p39b",
+    "slug": "comments",
+    "name": {
+      "pt": "Comentários",
+      "en": "Comments"
+    },
+    "subcategory": "interactions",
+    "family": "comment",
+    "synonyms": {
+      "pt": ["discussão", "vários comentários"],
+      "en": ["discussion", "thread"]
+    },
+    "tags": {
+      "pt": ["conversa", "respostas", "debate", "fórum"],
+      "en": ["conversation", "replies", "debate", "forum"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gps92ntr",
+    "slug": "community",
+    "name": {
+      "pt": "Comunidade",
+      "en": "Community"
+    },
+    "subcategory": "content",
+    "synonyms": {
+      "pt": ["grupo", "rede de pessoas"],
+      "en": ["group", "network of people"]
+    },
+    "tags": {
+      "pt": ["membros", "participantes", "coletivo", "seguidores"],
+      "en": ["members", "participants", "followers", "collective"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g10xrp1x",
+    "slug": "confetti",
+    "name": {
+      "pt": "Confete",
+      "en": "Confetti"
+    },
+    "subcategory": "reactions",
+    "synonyms": {
+      "pt": ["festa", "papel picado"],
+      "en": ["party", "sprinkles"]
+    },
+    "tags": {
+      "pt": ["celebração", "comemorar", "carnaval", "parabéns"],
+      "en": ["celebration", "celebrate", "festive", "congrats"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gy27mxs9",
+    "slug": "feed",
+    "name": {
+      "pt": "Feed",
+      "en": "Feed"
+    },
+    "subcategory": "content",
+    "synonyms": {
+      "pt": ["linha do tempo", "publicações"],
+      "en": ["timeline", "posts"]
+    },
+    "tags": {
+      "pt": ["timeline", "notícias", "mural", "rolagem"],
+      "en": ["news feed", "wall", "scroll", "updates"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8fr94wq",
+    "slug": "forum",
+    "name": {
+      "pt": "Fórum",
+      "en": "Forum"
+    },
+    "subcategory": "content",
+    "family": "comment",
+    "synonyms": {
+      "pt": ["discussão", "tópicos"],
+      "en": ["discussion board", "threads"]
+    },
+    "tags": {
+      "pt": ["comunidade", "perguntas", "debate", "grupo de discussão"],
+      "en": ["community", "questions", "debate", "message board"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmyfjf9a",
+    "slug": "gallery-post",
+    "name": {
+      "pt": "Carrossel de fotos",
+      "en": "Gallery post"
+    },
+    "subcategory": "content",
+    "synonyms": {
+      "pt": ["álbum", "várias imagens"],
+      "en": ["carousel", "album"]
+    },
+    "tags": {
+      "pt": ["galeria", "publicação com fotos", "slides"],
+      "en": ["multiple photos", "gallery", "slides"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzd3zey0",
+    "slug": "gif",
+    "name": {
+      "pt": "GIF",
+      "en": "GIF"
+    },
+    "subcategory": "content",
+    "synonyms": {
+      "pt": ["animação", "gif animado"],
+      "en": ["animation", "animated gif"]
+    },
+    "tags": {
+      "pt": ["figurinha", "meme", "imagem animada", "reação"],
+      "en": ["sticker", "meme", "animated image", "reaction"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grrvmrxn",
+    "slug": "go-live",
+    "name": {
+      "pt": "Entrar ao vivo",
+      "en": "Go live"
+    },
+    "subcategory": "content",
+    "family": "live",
+    "synonyms": {
+      "pt": ["iniciar live", "selo ao vivo"],
+      "en": ["start live", "live badge"]
+    },
+    "tags": {
+      "pt": ["transmissão", "gravar", "no ar", "botão ao vivo"],
+      "en": ["broadcast", "on air", "live button"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnks3cy4",
+    "slug": "live-stream",
+    "name": {
+      "pt": "Transmissão ao vivo",
+      "en": "Live stream"
+    },
+    "subcategory": "content",
+    "family": "live",
+    "synonyms": {
+      "pt": ["ao vivo", "live"],
+      "en": ["live", "broadcasting"]
+    },
+    "tags": {
+      "pt": ["transmitir", "streaming", "sinal", "broadcast"],
+      "en": ["streaming", "on air", "broadcast", "signal"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8fz18bh",
+    "slug": "mention",
+    "name": {
+      "pt": "Menção",
+      "en": "Mention"
+    },
+    "subcategory": "interactions",
+    "family": "comment",
+    "synonyms": {
+      "pt": ["marcar alguém", "arroba"],
+      "en": ["tag someone", "at mention"]
+    },
+    "tags": {
+      "pt": ["citar", "notificação", "comentário", "@"],
+      "en": ["cite", "notify", "comment", "@"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ghe76evt",
+    "slug": "party-popper",
+    "name": {
+      "pt": "Lança-confete",
+      "en": "Party popper"
+    },
+    "subcategory": "reactions",
+    "synonyms": {
+      "pt": ["festa", "comemoração"],
+      "en": ["celebration", "party"]
+    },
+    "tags": {
+      "pt": ["parabéns", "celebrar", "aniversário", "conquista"],
+      "en": ["congrats", "celebrate", "birthday", "tada"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g769ws92",
+    "slug": "podcast",
+    "name": {
+      "pt": "Podcast",
+      "en": "Podcast"
+    },
+    "subcategory": "content",
+    "synonyms": {
+      "pt": ["programa de áudio", "episódio"],
+      "en": ["audio show", "episode"]
+    },
+    "tags": {
+      "pt": ["áudio", "transmissão", "ouvir", "microfone"],
+      "en": ["audio", "broadcast", "listen", "microphone"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzkc3s8a",
+    "slug": "poll",
+    "name": {
+      "pt": "Enquete",
+      "en": "Poll"
+    },
+    "subcategory": "content",
+    "synonyms": {
+      "pt": ["votação", "pesquisa de opinião"],
+      "en": ["vote", "survey"]
+    },
+    "tags": {
+      "pt": ["votar", "opções", "questionário", "resultado"],
+      "en": ["voting", "options", "results", "questionnaire"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ga8bbsbs",
+    "slug": "post",
+    "name": {
+      "pt": "Publicação",
+      "en": "Post"
+    },
+    "subcategory": "content",
+    "synonyms": {
+      "pt": ["post", "postagem"],
+      "en": ["publication", "update"]
+    },
+    "tags": {
+      "pt": ["conteúdo", "foto publicada", "mural", "card"],
+      "en": ["content", "photo post", "card", "entry"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gx52y9av",
+    "slug": "post-plus",
+    "name": {
+      "pt": "Nova publicação",
+      "en": "New post"
+    },
+    "subcategory": "content",
+    "family": "post",
+    "variantOf": "post",
+    "synonyms": {
+      "pt": ["criar post", "publicar"],
+      "en": ["create post", "add post"]
+    },
+    "tags": {
+      "pt": ["postar", "compor", "novo post", "adicionar"],
+      "en": ["publish", "compose", "new", "add"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnkqmf27",
+    "slug": "post-schedule",
+    "name": {
+      "pt": "Agendar publicação",
+      "en": "Scheduled post"
+    },
+    "subcategory": "content",
+    "family": "post",
+    "variantOf": "post",
+    "synonyms": {
+      "pt": ["post agendado", "programar post"],
+      "en": ["schedule post", "queued post"]
+    },
+    "tags": {
+      "pt": ["agendamento", "calendário editorial", "horário", "redes sociais"],
+      "en": ["scheduling", "content calendar", "timing", "social media"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzhyf6y5",
+    "slug": "post-thread",
+    "name": {
+      "pt": "Fio de publicações",
+      "en": "Post thread"
+    },
+    "subcategory": "content",
+    "synonyms": {
+      "pt": ["thread", "sequência de posts"],
+      "en": ["thread", "threaded posts"]
+    },
+    "tags": {
+      "pt": ["conversa", "respostas", "discussão", "encadeado"],
+      "en": ["conversation", "replies", "discussion", "chain"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1qp6sc0",
+    "slug": "quote-post",
+    "name": {
+      "pt": "Citar publicação",
+      "en": "Quote post"
+    },
+    "subcategory": "interactions",
+    "synonyms": {
+      "pt": ["citação", "repostar com comentário"],
+      "en": ["quote", "repost with comment"]
+    },
+    "tags": {
+      "pt": ["aspas", "depoimento", "citar post"],
+      "en": ["quotation marks", "testimonial", "quote tweet"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gjnz45g6",
+    "slug": "reaction-angry",
+    "name": {
+      "pt": "Reação grr",
+      "en": "Reaction angry"
+    },
+    "subcategory": "reactions",
+    "family": "reaction",
+    "synonyms": {
+      "pt": ["furioso", "irritado"],
+      "en": ["grr", "furious"]
+    },
+    "tags": {
+      "pt": ["reação", "raiva", "emoji", "bravo"],
+      "en": ["reaction", "rage", "emoji", "mad"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gw3mjjn4",
+    "slug": "reaction-laugh",
+    "name": {
+      "pt": "Reação haha",
+      "en": "Reaction laugh"
+    },
+    "subcategory": "reactions",
+    "family": "reaction",
+    "synonyms": {
+      "pt": ["rindo muito", "morrendo de rir"],
+      "en": ["haha", "lol"]
+    },
+    "tags": {
+      "pt": ["reação", "engraçado", "kkk", "emoji"],
+      "en": ["reaction", "funny", "emoji", "hilarious"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gcc6h1vs",
+    "slug": "reaction-love",
+    "name": {
+      "pt": "Reação amei",
+      "en": "Reaction love"
+    },
+    "subcategory": "reactions",
+    "family": "reaction",
+    "synonyms": {
+      "pt": ["amei", "coração no círculo"],
+      "en": ["love reaction", "heart badge"]
+    },
+    "tags": {
+      "pt": ["reação", "curtir", "amor", "favorito"],
+      "en": ["reaction", "like", "favorite"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8njkafk",
+    "slug": "reaction-plus",
+    "name": {
+      "pt": "Adicionar reação",
+      "en": "Reaction plus"
+    },
+    "subcategory": "reactions",
+    "family": "reaction",
+    "synonyms": {
+      "pt": ["escolher emoji", "reagir"],
+      "en": ["add reaction", "emoji picker"]
+    },
+    "tags": {
+      "pt": ["emoji", "figurinha", "reação", "carinha com mais"],
+      "en": ["emoji", "react", "smiley plus"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gxrk2bsf",
+    "slug": "reaction-sad",
+    "name": {
+      "pt": "Reação triste",
+      "en": "Reaction sad"
+    },
+    "subcategory": "reactions",
+    "family": "reaction",
+    "synonyms": {
+      "pt": ["chorando", "lágrima"],
+      "en": ["crying", "tear"]
+    },
+    "tags": {
+      "pt": ["reação", "tristeza", "emoji", "que pena"],
+      "en": ["reaction", "sadness", "emoji", "sorry"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g05fehha",
+    "slug": "reaction-wow",
+    "name": {
+      "pt": "Reação uau",
+      "en": "Reaction wow"
+    },
+    "subcategory": "reactions",
+    "family": "reaction",
+    "synonyms": {
+      "pt": ["impressionado", "surpreso"],
+      "en": ["wow", "amazed"]
+    },
+    "tags": {
+      "pt": ["reação", "espanto", "nossa", "emoji"],
+      "en": ["reaction", "astonished", "omg", "emoji"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gfb7mq3t",
+    "slug": "reel",
+    "name": {
+      "pt": "Vídeo curto",
+      "en": "Reel"
+    },
+    "subcategory": "content",
+    "synonyms": {
+      "pt": ["reels", "vídeo vertical"],
+      "en": ["short video", "vertical video"]
+    },
+    "tags": {
+      "pt": ["shorts", "clipe", "rolagem infinita", "tiktok"],
+      "en": ["shorts", "clip", "short-form"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8ez849q",
+    "slug": "reply",
+    "name": {
+      "pt": "Responder",
+      "en": "Reply"
+    },
+    "subcategory": "interactions",
+    "synonyms": {
+      "pt": ["resposta", "seta de resposta"],
+      "en": ["respond", "reply arrow"]
+    },
+    "tags": {
+      "pt": ["réplica", "retornar", "voltar", "comentar"],
+      "en": ["answer", "back", "comment"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gyrrghxy",
+    "slug": "reply-all",
+    "name": {
+      "pt": "Responder a todos",
+      "en": "Reply all"
+    },
+    "subcategory": "interactions",
+    "family": "reply",
+    "variantOf": "reply",
+    "synonyms": {
+      "pt": ["resposta a todos"],
+      "en": ["respond to all"]
+    },
+    "tags": {
+      "pt": ["responder", "e-mail", "conversa", "grupo"],
+      "en": ["reply", "email", "conversation", "group"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gvmkm2c9",
+    "slug": "repost",
+    "name": {
+      "pt": "Republicar",
+      "en": "Repost"
+    },
+    "subcategory": "interactions",
+    "synonyms": {
+      "pt": ["repostar", "compartilhar de novo"],
+      "en": ["reshare", "retweet"]
+    },
+    "tags": {
+      "pt": ["retuitar", "repetir", "recompartilhar", "setas"],
+      "en": ["share again", "boost", "loop arrows"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gtxq2pvq",
+    "slug": "rss",
+    "name": {
+      "pt": "RSS",
+      "en": "RSS"
+    },
+    "subcategory": "content",
+    "synonyms": {
+      "pt": ["feed RSS", "assinatura de conteúdo"],
+      "en": ["rss feed", "web feed"]
+    },
+    "tags": {
+      "pt": ["blog", "notícias", "atualizações", "podcast"],
+      "en": ["blog", "news", "updates", "syndication"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gc86z3j0",
+    "slug": "save-post",
+    "name": {
+      "pt": "Salvar publicação",
+      "en": "Save post"
+    },
+    "subcategory": "interactions",
+    "synonyms": {
+      "pt": ["guardar post", "salvos"],
+      "en": ["saved posts", "save for later"]
+    },
+    "tags": {
+      "pt": ["marcador", "coleção", "ver depois", "favoritos"],
+      "en": ["bookmark", "collection", "favorites"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g91272wz",
+    "slug": "send-dm",
+    "name": {
+      "pt": "Mensagem direta",
+      "en": "Send DM"
+    },
+    "subcategory": "interactions",
+    "synonyms": {
+      "pt": ["enviar mensagem privada", "DM"],
+      "en": ["direct message", "private message"]
+    },
+    "tags": {
+      "pt": ["inbox", "chat privado", "direct", "conversa"],
+      "en": ["inbox", "private chat", "direct"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g89xybgz",
+    "slug": "share",
+    "name": {
+      "pt": "Compartilhar",
+      "en": "Share"
+    },
+    "subcategory": "interactions",
+    "synonyms": {
+      "pt": ["partilhar", "rede"],
+      "en": ["network", "send"]
+    },
+    "tags": {
+      "pt": ["enviar", "divulgar", "conectar"],
+      "en": ["spread", "connect"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gz9ysf5d",
+    "slug": "share-2",
+    "name": {
+      "pt": "Menu de compartilhamento",
+      "en": "Share 2"
+    },
+    "subcategory": "interactions",
+    "family": "share",
+    "synonyms": {
+      "pt": ["exportar", "caixa com seta"],
+      "en": ["share sheet", "export"]
+    },
+    "tags": {
+      "pt": ["enviar para", "partilhar", "publicar", "abrir com"],
+      "en": ["send to", "share out", "open in", "publish"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzx3h302",
+    "slug": "sticker",
+    "name": {
+      "pt": "Figurinha",
+      "en": "Sticker"
+    },
+    "subcategory": "content",
+    "synonyms": {
+      "pt": ["adesivo", "sticker"],
+      "en": ["decal", "sticker pack"]
+    },
+    "tags": {
+      "pt": ["emoji", "reação", "chat", "divertido"],
+      "en": ["emoji", "reaction", "chat", "fun"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gr2he8b4",
+    "slug": "story",
+    "name": {
+      "pt": "Story",
+      "en": "Story"
+    },
+    "subcategory": "content",
+    "family": "story",
+    "synonyms": {
+      "pt": ["stories", "história"],
+      "en": ["stories", "status"]
+    },
+    "tags": {
+      "pt": ["status", "conteúdo temporário", "24 horas", "círculo de story"],
+      "en": ["temporary content", "24 hours", "story ring"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g75e9fbz",
+    "slug": "story-plus",
+    "name": {
+      "pt": "Novo story",
+      "en": "Story plus"
+    },
+    "subcategory": "content",
+    "family": "story",
+    "variantOf": "story",
+    "synonyms": {
+      "pt": ["adicionar story", "criar status"],
+      "en": ["add story", "new status"]
+    },
+    "tags": {
+      "pt": ["publicar story", "postar momento"],
+      "en": ["post story", "share moment"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnrxrtdy",
+    "slug": "subscribe",
+    "name": {
+      "pt": "Inscrever-se",
+      "en": "Subscribe"
+    },
+    "subcategory": "interactions",
+    "family": "subscribe",
+    "synonyms": {
+      "pt": ["assinar canal", "seguir canal"],
+      "en": ["subscribe to channel", "follow channel"]
+    },
+    "tags": {
+      "pt": ["inscrição", "assinatura", "canal", "vídeos"],
+      "en": ["subscription", "channel", "videos"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnrgzjde",
+    "slug": "tag-user",
+    "name": {
+      "pt": "Marcar pessoa",
+      "en": "Tag user"
+    },
+    "subcategory": "interactions",
+    "synonyms": {
+      "pt": ["marcar amigo", "identificar pessoa"],
+      "en": ["tag people", "tag a friend"]
+    },
+    "tags": {
+      "pt": ["marcação", "foto", "menção", "perfil"],
+      "en": ["tagging", "photo", "mention", "profile"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8dr2c31",
+    "slug": "thumbs-down",
+    "name": {
+      "pt": "Não curtir",
+      "en": "Thumbs down"
+    },
+    "subcategory": "interactions",
+    "family": "thumbs",
+    "synonyms": {
+      "pt": ["polegar para baixo", "deslike"],
+      "en": ["dislike", "disapprove"]
+    },
+    "tags": {
+      "pt": ["não gostei", "reprovar", "negativo", "ruim"],
+      "en": ["downvote", "bad", "negative"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0dxc0te",
+    "slug": "thumbs-up",
+    "name": {
+      "pt": "Curtir",
+      "en": "Thumbs up"
+    },
+    "subcategory": "interactions",
+    "family": "thumbs",
+    "synonyms": {
+      "pt": ["joinha", "polegar para cima", "like"],
+      "en": ["like", "approve"]
+    },
+    "tags": {
+      "pt": ["gostei", "aprovar", "positivo", "recomendar"],
+      "en": ["upvote", "good", "positive", "recommend"]
+    },
+    "popularity": 5,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gg14yafp",
+    "slug": "unsubscribe",
+    "name": {
+      "pt": "Cancelar inscrição",
+      "en": "Unsubscribe"
+    },
+    "subcategory": "interactions",
+    "family": "subscribe",
+    "variantOf": "subscribe",
+    "synonyms": {
+      "pt": ["deixar de seguir canal", "cancelar assinatura"],
+      "en": ["unfollow channel", "cancel subscription"]
+    },
+    "tags": {
+      "pt": ["sair do canal", "desinscrever"],
+      "en": ["leave channel", "opt out"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  }
+]

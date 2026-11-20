@@ -1,0 +1,1665 @@
+[
+  {
+    "id": "gtv2jgky",
+    "slug": "allergy",
+    "name": {
+      "pt": "Alergia",
+      "en": "Allergy"
+    },
+    "subcategory": "wellness",
+    "synonyms": {
+      "pt": ["pólen", "alérgeno"],
+      "en": ["pollen", "allergen"]
+    },
+    "tags": {
+      "pt": ["rinite", "espirro", "flor", "primavera"],
+      "en": ["hay fever", "sneeze", "flower", "spring"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gjaavasg",
+    "slug": "bacteria",
+    "name": {
+      "pt": "Bactéria",
+      "en": "Bacteria"
+    },
+    "subcategory": "medical",
+    "synonyms": {
+      "pt": ["micróbio", "germe", "bacilo"],
+      "en": ["microbe", "germ", "bacillus"]
+    },
+    "tags": {
+      "pt": ["infecção", "microbiologia", "doença", "higiene"],
+      "en": ["infection", "microbiology", "disease", "hygiene"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gk3tj26e",
+    "slug": "bandage",
+    "name": {
+      "pt": "Curativo",
+      "en": "Bandage"
+    },
+    "subcategory": "medical",
+    "synonyms": {
+      "pt": ["band-aid", "esparadrapo"],
+      "en": ["adhesive bandage", "plaster"]
+    },
+    "tags": {
+      "pt": ["ferimento", "machucado", "primeiros socorros", "adesivo"],
+      "en": ["wound", "injury", "first aid", "band aid"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g2xfzbq3",
+    "slug": "blood-bag",
+    "name": {
+      "pt": "Bolsa de sangue",
+      "en": "Blood bag"
+    },
+    "subcategory": "medical",
+    "synonyms": {
+      "pt": ["bolsa de transfusão"],
+      "en": ["transfusion bag"]
+    },
+    "tags": {
+      "pt": ["doação de sangue", "transfusão", "hemocentro", "doador"],
+      "en": ["blood donation", "transfusion", "blood bank", "donor"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ge3xa3se",
+    "slug": "blood-drop",
+    "name": {
+      "pt": "Gota de sangue",
+      "en": "Blood drop"
+    },
+    "subcategory": "medical",
+    "synonyms": {
+      "pt": ["sangue", "gota"],
+      "en": ["blood", "drop"]
+    },
+    "tags": {
+      "pt": ["doação de sangue", "hemograma", "exame de sangue", "tipo sanguíneo"],
+      "en": ["blood donation", "blood test", "blood type", "hematology"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g993yn7j",
+    "slug": "blood-pressure",
+    "name": {
+      "pt": "Pressão arterial",
+      "en": "Blood pressure"
+    },
+    "subcategory": "body",
+    "synonyms": {
+      "pt": ["esfigmomanômetro", "medidor de pressão"],
+      "en": ["sphygmomanometer", "BP monitor"]
+    },
+    "tags": {
+      "pt": ["hipertensão", "aferir pressão", "cardiologia", "exame"],
+      "en": ["hypertension", "pressure gauge", "cardiology", "checkup"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g42hwhr3",
+    "slug": "blood-test",
+    "name": {
+      "pt": "Exame de sangue",
+      "en": "Blood test"
+    },
+    "subcategory": "medical",
+    "synonyms": {
+      "pt": ["coleta de sangue", "hemograma"],
+      "en": ["blood sample", "blood work"]
+    },
+    "tags": {
+      "pt": ["laboratório", "análise", "amostra", "tubo de ensaio"],
+      "en": ["laboratory", "analysis", "sample", "test tube"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g74jj7fr",
+    "slug": "bmi",
+    "name": {
+      "pt": "IMC",
+      "en": "BMI"
+    },
+    "subcategory": "body",
+    "synonyms": {
+      "pt": ["índice de massa corporal", "medida corporal"],
+      "en": ["body mass index", "body measurement"]
+    },
+    "tags": {
+      "pt": ["peso", "obesidade", "saúde", "corpo"],
+      "en": ["weight", "obesity", "health", "body"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3v6d9s2",
+    "slug": "bone-fracture",
+    "name": {
+      "pt": "Fratura",
+      "en": "Bone fracture"
+    },
+    "subcategory": "body",
+    "synonyms": {
+      "pt": ["osso quebrado", "osso fraturado"],
+      "en": ["broken bone", "fracture"]
+    },
+    "tags": {
+      "pt": ["ortopedia", "lesão", "raio-x", "gesso", "acidente"],
+      "en": ["orthopedics", "injury", "x-ray", "cast", "accident"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1xqjpsv",
+    "slug": "brain",
+    "name": {
+      "pt": "Cérebro",
+      "en": "Brain"
+    },
+    "subcategory": "body",
+    "synonyms": {
+      "pt": ["mente", "encéfalo"],
+      "en": ["mind", "cerebrum"]
+    },
+    "tags": {
+      "pt": ["inteligência", "neurologia", "pensamento", "memória"],
+      "en": ["intelligence", "neurology", "thinking", "memory"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gcy83gy2",
+    "slug": "calories",
+    "name": {
+      "pt": "Calorias",
+      "en": "Calories"
+    },
+    "subcategory": "wellness",
+    "synonyms": {
+      "pt": ["queima de calorias", "energia"],
+      "en": ["calorie burn", "energy"]
+    },
+    "tags": {
+      "pt": ["dieta", "metabolismo", "kcal", "exercício"],
+      "en": ["diet", "metabolism", "kcal", "workout"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g66fdexa",
+    "slug": "capsule",
+    "name": {
+      "pt": "Cápsula",
+      "en": "Capsule"
+    },
+    "subcategory": "medical",
+    "family": "pill",
+    "synonyms": {
+      "pt": ["cápsula de remédio", "pílula bicolor"],
+      "en": ["two-tone capsule", "gel cap"]
+    },
+    "tags": {
+      "pt": ["medicamento", "farmácia", "vitamina", "suplemento"],
+      "en": ["medication", "pharmacy", "vitamin", "supplement"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g9h7jzvg",
+    "slug": "clipboard-medical",
+    "name": {
+      "pt": "Prontuário",
+      "en": "Medical record"
+    },
+    "subcategory": "medical",
+    "synonyms": {
+      "pt": ["ficha médica", "histórico clínico"],
+      "en": ["medical chart", "patient chart"]
+    },
+    "tags": {
+      "pt": ["prancheta", "paciente", "laudo", "consulta"],
+      "en": ["clipboard", "patient", "report", "checkup"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gvfk8zqk",
+    "slug": "crutches",
+    "name": {
+      "pt": "Muleta",
+      "en": "Crutch"
+    },
+    "subcategory": "medical",
+    "synonyms": {
+      "pt": ["muletas", "apoio"],
+      "en": ["crutches", "walking aid"]
+    },
+    "tags": {
+      "pt": ["lesão", "fratura", "reabilitação", "mobilidade"],
+      "en": ["injury", "fracture", "rehabilitation", "mobility"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqwhavqt",
+    "slug": "defibrillator",
+    "name": {
+      "pt": "Desfibrilador",
+      "en": "Defibrillator"
+    },
+    "subcategory": "medical",
+    "synonyms": {
+      "pt": ["DEA", "desfibrilador externo"],
+      "en": ["AED", "external defibrillator"]
+    },
+    "tags": {
+      "pt": ["emergência", "parada cardíaca", "choque", "primeiros socorros"],
+      "en": ["emergency", "cardiac arrest", "shock", "first aid"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gb5fwcj2",
+    "slug": "dental",
+    "name": {
+      "pt": "Odontologia",
+      "en": "Dental care"
+    },
+    "subcategory": "medical",
+    "family": "tooth",
+    "synonyms": {
+      "pt": ["dentista", "consultório odontológico"],
+      "en": ["dentist", "dental clinic"]
+    },
+    "tags": {
+      "pt": ["dente", "clínica dentária", "saúde bucal", "tratamento"],
+      "en": ["tooth", "dentistry", "oral care", "treatment"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g85hgr02",
+    "slug": "doctor",
+    "name": {
+      "pt": "Médico",
+      "en": "Doctor"
+    },
+    "subcategory": "medical",
+    "family": "doctor",
+    "synonyms": {
+      "pt": ["médica", "doutor", "profissional de saúde"],
+      "en": ["physician", "medic"]
+    },
+    "tags": {
+      "pt": ["consulta", "clínico", "atendimento", "estetoscópio"],
+      "en": ["consultation", "healthcare", "practitioner", "stethoscope"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnrc1hff",
+    "slug": "dropper",
+    "name": {
+      "pt": "Conta-gotas",
+      "en": "Dropper"
+    },
+    "subcategory": "medical",
+    "synonyms": {
+      "pt": ["pipeta", "gotas"],
+      "en": ["pipette", "drops"]
+    },
+    "tags": {
+      "pt": ["colírio", "remédio", "dosagem", "laboratório"],
+      "en": ["eye drops", "medicine", "dosage", "laboratory"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gh9b47dp",
+    "slug": "first-aid",
+    "name": {
+      "pt": "Kit de primeiros socorros",
+      "en": "First aid kit"
+    },
+    "subcategory": "medical",
+    "synonyms": {
+      "pt": ["caixa de primeiros socorros", "maleta médica"],
+      "en": ["first aid box", "medical kit"]
+    },
+    "tags": {
+      "pt": ["emergência", "socorro", "saúde", "curativo"],
+      "en": ["emergency", "help", "health", "aid"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ghpfzjss",
+    "slug": "glucose-meter",
+    "name": {
+      "pt": "Glicosímetro",
+      "en": "Glucose meter"
+    },
+    "subcategory": "medical",
+    "synonyms": {
+      "pt": ["medidor de glicose", "monitor de glicemia"],
+      "en": ["blood glucose monitor", "glucometer"]
+    },
+    "tags": {
+      "pt": ["diabetes", "açúcar no sangue", "insulina", "teste"],
+      "en": ["diabetes", "blood sugar", "insulin", "test"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbrvjqmz",
+    "slug": "hand-sanitizer",
+    "name": {
+      "pt": "Álcool em gel",
+      "en": "Hand sanitizer"
+    },
+    "subcategory": "wellness",
+    "synonyms": {
+      "pt": ["higienizador", "desinfetante de mãos"],
+      "en": ["sanitizer", "hand gel"]
+    },
+    "tags": {
+      "pt": ["higiene", "limpeza", "prevenção", "bactérias"],
+      "en": ["hygiene", "cleaning", "prevention", "germs"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmfdpk2g",
+    "slug": "hearing-aid",
+    "name": {
+      "pt": "Aparelho auditivo",
+      "en": "Hearing aid"
+    },
+    "subcategory": "medical",
+    "synonyms": {
+      "pt": ["prótese auditiva", "aparelho de surdez"],
+      "en": ["hearing device", "ear aid"]
+    },
+    "tags": {
+      "pt": ["audição", "surdez", "audiologia", "acessibilidade"],
+      "en": ["hearing", "deafness", "audiology", "accessibility"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gjas5nk5",
+    "slug": "heart-organ",
+    "name": {
+      "pt": "Coração anatômico",
+      "en": "Anatomical heart"
+    },
+    "subcategory": "body",
+    "synonyms": {
+      "pt": ["coração humano", "órgão"],
+      "en": ["human heart", "organ"]
+    },
+    "tags": {
+      "pt": ["cardiologia", "cardíaco", "anatomia", "circulação"],
+      "en": ["cardiology", "cardiac", "anatomy", "circulation"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gk5dgzs3",
+    "slug": "heart-pulse",
+    "name": {
+      "pt": "Batimentos cardíacos",
+      "en": "Heart pulse"
+    },
+    "subcategory": "medical",
+    "synonyms": {
+      "pt": ["coração com pulso", "eletrocardiograma"],
+      "en": ["heartbeat", "heart rate"]
+    },
+    "tags": {
+      "pt": ["frequência cardíaca", "saúde", "cardiologia", "vida"],
+      "en": ["ECG", "health", "cardiology", "vital signs"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gd3525zq",
+    "slug": "hospital",
+    "name": {
+      "pt": "Hospital",
+      "en": "Hospital"
+    },
+    "subcategory": "medical",
+    "synonyms": {
+      "pt": ["pronto-socorro", "clínica"],
+      "en": ["clinic", "medical center"]
+    },
+    "tags": {
+      "pt": ["saúde", "emergência", "internação", "prédio"],
+      "en": ["health", "emergency", "building", "care"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gds03tsn",
+    "slug": "hospital-bed",
+    "name": {
+      "pt": "Leito hospitalar",
+      "en": "Hospital bed"
+    },
+    "subcategory": "medical",
+    "synonyms": {
+      "pt": ["cama de hospital", "maca"],
+      "en": ["patient bed", "ward bed"]
+    },
+    "tags": {
+      "pt": ["internação", "paciente", "enfermaria", "repouso"],
+      "en": ["inpatient", "patient", "ward", "admission"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gezs1be4",
+    "slug": "hospital-sign",
+    "name": {
+      "pt": "Placa de hospital",
+      "en": "Hospital sign"
+    },
+    "subcategory": "medical",
+    "synonyms": {
+      "pt": ["sinal de hospital", "letra H"],
+      "en": ["H sign", "hospital symbol"]
+    },
+    "tags": {
+      "pt": ["hospital", "pronto-socorro", "emergência", "saúde", "mapa"],
+      "en": ["hospital", "emergency room", "clinic", "health", "map"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gctq0ssg",
+    "slug": "inhaler",
+    "name": {
+      "pt": "Inalador",
+      "en": "Inhaler"
+    },
+    "subcategory": "medical",
+    "synonyms": {
+      "pt": ["bombinha de asma", "aerossol"],
+      "en": ["asthma inhaler", "puffer"]
+    },
+    "tags": {
+      "pt": ["asma", "respiração", "bronquite", "medicamento"],
+      "en": ["asthma", "breathing", "bronchitis", "medication"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7kpjbtn",
+    "slug": "iv-drip",
+    "name": {
+      "pt": "Soro",
+      "en": "IV drip"
+    },
+    "subcategory": "medical",
+    "synonyms": {
+      "pt": ["gotejamento intravenoso", "bolsa de soro"],
+      "en": ["intravenous drip", "infusion"]
+    },
+    "tags": {
+      "pt": ["hospital", "infusão", "medicação", "internação"],
+      "en": ["hospital", "medication", "saline", "drip bag"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g637nart",
+    "slug": "kidney",
+    "name": {
+      "pt": "Rim",
+      "en": "Kidney"
+    },
+    "subcategory": "body",
+    "synonyms": {
+      "pt": ["rins", "órgão renal"],
+      "en": ["kidneys", "renal organ"]
+    },
+    "tags": {
+      "pt": ["nefrologia", "urina", "anatomia", "sistema urinário"],
+      "en": ["nephrology", "urine", "anatomy", "urinary system"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gf8c9621",
+    "slug": "liver",
+    "name": {
+      "pt": "Fígado",
+      "en": "Liver"
+    },
+    "subcategory": "body",
+    "synonyms": {
+      "pt": ["órgão hepático"],
+      "en": ["hepatic organ"]
+    },
+    "tags": {
+      "pt": ["hepatologia", "digestão", "anatomia", "metabolismo"],
+      "en": ["hepatology", "digestion", "anatomy", "metabolism"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqhydxvr",
+    "slug": "lungs",
+    "name": {
+      "pt": "Pulmões",
+      "en": "Lungs"
+    },
+    "subcategory": "body",
+    "synonyms": {
+      "pt": ["pulmão", "sistema respiratório"],
+      "en": ["lung", "respiratory system"]
+    },
+    "tags": {
+      "pt": ["respiração", "pneumologia", "ar", "fôlego"],
+      "en": ["breathing", "pulmonology", "air", "breath"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdx48g39",
+    "slug": "mask-medical",
+    "name": {
+      "pt": "Máscara médica",
+      "en": "Medical mask"
+    },
+    "subcategory": "medical",
+    "synonyms": {
+      "pt": ["máscara cirúrgica", "máscara facial"],
+      "en": ["face mask", "surgical mask"]
+    },
+    "tags": {
+      "pt": ["proteção", "higiene", "prevenção", "pandemia"],
+      "en": ["protection", "hygiene", "prevention", "pandemic"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdst33yq",
+    "slug": "massage",
+    "name": {
+      "pt": "Massagem",
+      "en": "Massage"
+    },
+    "subcategory": "wellness",
+    "synonyms": {
+      "pt": ["massoterapia", "terapia corporal"],
+      "en": ["massage therapy", "bodywork"]
+    },
+    "tags": {
+      "pt": ["relaxamento", "spa", "alívio", "bem-estar"],
+      "en": ["relaxation", "spa", "relief", "wellness"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gb06hdmm",
+    "slug": "medical-bag",
+    "name": {
+      "pt": "Maleta médica",
+      "en": "Medical bag"
+    },
+    "subcategory": "medical",
+    "synonyms": {
+      "pt": ["bolsa de médico", "valise"],
+      "en": ["doctor's bag", "physician bag"]
+    },
+    "tags": {
+      "pt": ["visita domiciliar", "médico", "atendimento", "emergência"],
+      "en": ["house call", "doctor", "care", "emergency"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ge4ckcx7",
+    "slug": "medical-cross",
+    "name": {
+      "pt": "Cruz médica",
+      "en": "Medical cross"
+    },
+    "subcategory": "medical",
+    "synonyms": {
+      "pt": ["cruz da saúde", "símbolo médico"],
+      "en": ["health cross", "medical sign"]
+    },
+    "tags": {
+      "pt": ["saúde", "farmácia", "hospital", "emergência"],
+      "en": ["health", "pharmacy", "hospital", "emergency"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5a8btz1",
+    "slug": "meditation",
+    "name": {
+      "pt": "Meditação",
+      "en": "Meditation"
+    },
+    "subcategory": "wellness",
+    "synonyms": {
+      "pt": ["postura de lótus", "mindfulness"],
+      "en": ["lotus position", "mindfulness"]
+    },
+    "tags": {
+      "pt": ["calma", "relaxamento", "respiração", "zen"],
+      "en": ["calm", "relaxation", "breathing", "zen"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g6c8jeva",
+    "slug": "mental-health",
+    "name": {
+      "pt": "Saúde mental",
+      "en": "Mental health"
+    },
+    "subcategory": "wellness",
+    "synonyms": {
+      "pt": ["bem-estar emocional", "psicologia"],
+      "en": ["emotional wellbeing", "psychology"]
+    },
+    "tags": {
+      "pt": ["mente", "emoções", "terapia", "autocuidado"],
+      "en": ["mind", "emotions", "therapy", "self-care"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grssn5cg",
+    "slug": "mortar-pestle",
+    "name": {
+      "pt": "Pilão",
+      "en": "Mortar and pestle"
+    },
+    "subcategory": "medical",
+    "synonyms": {
+      "pt": ["almofariz", "farmácia de manipulação"],
+      "en": ["pharmacy mortar", "apothecary"]
+    },
+    "tags": {
+      "pt": ["farmácia", "remédio", "manipulação", "ervas"],
+      "en": ["pharmacy", "compounding", "medicine", "herbs"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g11fk2j4",
+    "slug": "muscle",
+    "name": {
+      "pt": "Músculo",
+      "en": "Muscle"
+    },
+    "subcategory": "body",
+    "synonyms": {
+      "pt": ["bíceps", "braço forte"],
+      "en": ["biceps", "flexed arm"]
+    },
+    "tags": {
+      "pt": ["força", "academia", "musculação", "saúde física"],
+      "en": ["strength", "gym", "fitness", "strong"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g6x5ps33",
+    "slug": "neuron",
+    "name": {
+      "pt": "Neurônio",
+      "en": "Neuron"
+    },
+    "subcategory": "body",
+    "synonyms": {
+      "pt": ["célula nervosa", "sinapse"],
+      "en": ["nerve cell", "synapse"]
+    },
+    "tags": {
+      "pt": ["neurologia", "nervo", "cérebro", "sistema nervoso"],
+      "en": ["neurology", "nerve", "brain", "nervous system"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g6gx1fdz",
+    "slug": "nurse",
+    "name": {
+      "pt": "Enfermeira",
+      "en": "Nurse"
+    },
+    "subcategory": "medical",
+    "family": "doctor",
+    "synonyms": {
+      "pt": ["enfermeiro", "enfermagem"],
+      "en": ["nursing", "caregiver"]
+    },
+    "tags": {
+      "pt": ["hospital", "cuidado", "atendimento", "profissional de saúde"],
+      "en": ["hospital", "care", "healthcare", "staff"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gq16p17e",
+    "slug": "ointment",
+    "name": {
+      "pt": "Pomada",
+      "en": "Ointment"
+    },
+    "subcategory": "medical",
+    "synonyms": {
+      "pt": ["creme", "bisnaga", "gel"],
+      "en": ["cream tube", "gel", "salve"]
+    },
+    "tags": {
+      "pt": ["remédio", "pele", "dermatologia", "tratamento"],
+      "en": ["medication", "skin", "dermatology", "treatment"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gd9yr9nk",
+    "slug": "oxygen-tank",
+    "name": {
+      "pt": "Cilindro de oxigênio",
+      "en": "Oxygen tank"
+    },
+    "subcategory": "medical",
+    "synonyms": {
+      "pt": ["tanque de oxigênio", "balão de oxigênio"],
+      "en": ["oxygen cylinder", "O2 tank"]
+    },
+    "tags": {
+      "pt": ["respiração", "oxigenoterapia", "hospital", "UTI"],
+      "en": ["breathing", "oxygen therapy", "hospital", "ICU"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gd6kbs9r",
+    "slug": "patient-monitor",
+    "name": {
+      "pt": "Monitor cardíaco",
+      "en": "Patient monitor"
+    },
+    "subcategory": "medical",
+    "synonyms": {
+      "pt": ["monitor de paciente", "eletrocardiograma"],
+      "en": ["heart monitor", "ECG monitor"]
+    },
+    "tags": {
+      "pt": ["batimentos", "UTI", "sinais vitais", "ECG", "hospital"],
+      "en": ["heartbeat", "ICU", "vital signs", "EKG", "hospital"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gd05z795",
+    "slug": "pill",
+    "name": {
+      "pt": "Comprimido",
+      "en": "Pill"
+    },
+    "subcategory": "medical",
+    "family": "pill",
+    "synonyms": {
+      "pt": ["remédio", "pílula", "cápsula"],
+      "en": ["medicine", "tablet", "capsule"]
+    },
+    "tags": {
+      "pt": ["medicamento", "farmácia", "dose", "tratamento"],
+      "en": ["medication", "pharmacy", "dose", "treatment"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5yyamwj",
+    "slug": "pill-bottle",
+    "name": {
+      "pt": "Frasco de remédio",
+      "en": "Pill bottle"
+    },
+    "subcategory": "medical",
+    "synonyms": {
+      "pt": ["pote de comprimidos", "frasco de medicamento"],
+      "en": ["medicine bottle", "pill container"]
+    },
+    "tags": {
+      "pt": ["farmácia", "remédio", "medicação", "receita"],
+      "en": ["pharmacy", "medication", "drugs", "prescription"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gttgcq85",
+    "slug": "pills",
+    "name": {
+      "pt": "Remédios",
+      "en": "Pills"
+    },
+    "subcategory": "medical",
+    "family": "pill",
+    "synonyms": {
+      "pt": ["comprimidos", "pílulas"],
+      "en": ["tablets", "medicines"]
+    },
+    "tags": {
+      "pt": ["medicamentos", "farmácia", "tratamento", "dosagem"],
+      "en": ["medication", "pharmacy", "treatment", "dosage"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g2rw2569",
+    "slug": "pregnancy",
+    "name": {
+      "pt": "Gravidez",
+      "en": "Pregnancy"
+    },
+    "subcategory": "wellness",
+    "synonyms": {
+      "pt": ["gestante", "grávida"],
+      "en": ["pregnant woman", "expecting mother"]
+    },
+    "tags": {
+      "pt": ["gestação", "maternidade", "bebê", "pré-natal"],
+      "en": ["gestation", "maternity", "baby", "prenatal"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpgcd05s",
+    "slug": "prescription",
+    "name": {
+      "pt": "Receita médica",
+      "en": "Prescription"
+    },
+    "subcategory": "medical",
+    "synonyms": {
+      "pt": ["prescrição", "receituário"],
+      "en": ["Rx", "medical prescription"]
+    },
+    "tags": {
+      "pt": ["remédio", "médico", "farmácia", "Rx"],
+      "en": ["medicine", "doctor", "pharmacy", "drugs"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzkcqk5j",
+    "slug": "rapid-test",
+    "name": {
+      "pt": "Teste rápido",
+      "en": "Rapid test"
+    },
+    "subcategory": "medical",
+    "synonyms": {
+      "pt": ["autoteste", "teste de antígeno"],
+      "en": ["self test", "antigen test", "test kit"]
+    },
+    "tags": {
+      "pt": ["diagnóstico", "resultado", "exame", "positivo", "negativo"],
+      "en": ["diagnosis", "result", "exam", "positive", "negative"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkfvx0af",
+    "slug": "scalpel",
+    "name": {
+      "pt": "Bisturi",
+      "en": "Scalpel"
+    },
+    "subcategory": "medical",
+    "synonyms": {
+      "pt": ["lâmina cirúrgica"],
+      "en": ["surgical blade", "lancet"]
+    },
+    "tags": {
+      "pt": ["cirurgia", "operação", "corte", "cirurgião"],
+      "en": ["surgery", "operation", "incision", "surgeon"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4wtgcw2",
+    "slug": "self-care",
+    "name": {
+      "pt": "Autocuidado",
+      "en": "Self-care"
+    },
+    "subcategory": "wellness",
+    "synonyms": {
+      "pt": ["cuidar de si", "mão com coração"],
+      "en": ["caring hand", "hand with heart"]
+    },
+    "tags": {
+      "pt": ["bem-estar", "carinho", "saúde", "amor-próprio"],
+      "en": ["wellbeing", "care", "health", "self-love"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gafy5prj",
+    "slug": "sleep",
+    "name": {
+      "pt": "Sono",
+      "en": "Sleep"
+    },
+    "subcategory": "wellness",
+    "synonyms": {
+      "pt": ["dormir", "descanso"],
+      "en": ["sleeping", "rest"]
+    },
+    "tags": {
+      "pt": ["noite", "insônia", "cochilo", "zzz"],
+      "en": ["night", "insomnia", "nap", "zzz"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbv7pd1s",
+    "slug": "smoking",
+    "name": {
+      "pt": "Fumante",
+      "en": "Smoking"
+    },
+    "subcategory": "wellness",
+    "family": "smoking",
+    "synonyms": {
+      "pt": ["cigarro", "fumar"],
+      "en": ["cigarette", "smoke"]
+    },
+    "tags": {
+      "pt": ["tabaco", "área de fumantes", "fumaça", "vício"],
+      "en": ["tobacco", "smoking area", "nicotine", "addiction"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gprw97t0",
+    "slug": "smoking-off",
+    "name": {
+      "pt": "Proibido fumar",
+      "en": "No smoking"
+    },
+    "subcategory": "wellness",
+    "family": "smoking",
+    "variantOf": "smoking",
+    "synonyms": {
+      "pt": ["não fumar", "sem cigarro"],
+      "en": ["smoke free", "no cigarettes"]
+    },
+    "tags": {
+      "pt": ["antitabagismo", "área livre de fumo", "parar de fumar", "proibido"],
+      "en": ["quit smoking", "non-smoking", "tobacco free", "prohibited"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gcdcrdq9",
+    "slug": "soap",
+    "name": {
+      "pt": "Sabonete",
+      "en": "Soap"
+    },
+    "subcategory": "wellness",
+    "synonyms": {
+      "pt": ["sabão", "barra de sabão"],
+      "en": ["soap bar", "bar soap"]
+    },
+    "tags": {
+      "pt": ["higiene", "banho", "lavar as mãos", "espuma"],
+      "en": ["hygiene", "bath", "hand washing", "bubbles"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g9cbrsk4",
+    "slug": "spa",
+    "name": {
+      "pt": "Spa",
+      "en": "Spa"
+    },
+    "subcategory": "wellness",
+    "synonyms": {
+      "pt": ["pedras zen", "pedras empilhadas"],
+      "en": ["zen stones", "stacked stones"]
+    },
+    "tags": {
+      "pt": ["relaxamento", "bem-estar", "equilíbrio", "terapia"],
+      "en": ["relaxation", "wellness", "balance", "therapy"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqcn769a",
+    "slug": "spine",
+    "name": {
+      "pt": "Coluna vertebral",
+      "en": "Spine"
+    },
+    "subcategory": "body",
+    "synonyms": {
+      "pt": ["espinha", "vértebras"],
+      "en": ["backbone", "vertebrae"]
+    },
+    "tags": {
+      "pt": ["ortopedia", "costas", "postura", "esqueleto", "quiropraxia"],
+      "en": ["orthopedics", "back", "posture", "skeleton", "chiropractic"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpca2p65",
+    "slug": "stethoscope",
+    "name": {
+      "pt": "Estetoscópio",
+      "en": "Stethoscope"
+    },
+    "subcategory": "medical",
+    "synonyms": {
+      "pt": ["auscultador"],
+      "en": ["doctor's stethoscope"]
+    },
+    "tags": {
+      "pt": ["médico", "consulta", "saúde", "clínica", "exame"],
+      "en": ["doctor", "checkup", "health", "clinic", "medical"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmtx8jvh",
+    "slug": "stomach",
+    "name": {
+      "pt": "Estômago",
+      "en": "Stomach"
+    },
+    "subcategory": "body",
+    "synonyms": {
+      "pt": ["sistema digestivo", "órgão"],
+      "en": ["digestive system", "organ"]
+    },
+    "tags": {
+      "pt": ["digestão", "gastroenterologia", "barriga", "anatomia"],
+      "en": ["digestion", "gastroenterology", "belly", "anatomy"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqw80bbr",
+    "slug": "sunscreen",
+    "name": {
+      "pt": "Protetor solar",
+      "en": "Sunscreen"
+    },
+    "subcategory": "wellness",
+    "synonyms": {
+      "pt": ["filtro solar", "bloqueador"],
+      "en": ["sunblock", "sun cream"]
+    },
+    "tags": {
+      "pt": ["sol", "praia", "pele", "proteção UV", "verão"],
+      "en": ["sun", "beach", "skin", "UV protection", "summer"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqkht9sj",
+    "slug": "syringe",
+    "name": {
+      "pt": "Seringa",
+      "en": "Syringe"
+    },
+    "subcategory": "medical",
+    "synonyms": {
+      "pt": ["injeção", "agulha"],
+      "en": ["injection", "needle"]
+    },
+    "tags": {
+      "pt": ["vacina", "aplicação", "medicamento", "dose"],
+      "en": ["vaccine", "shot", "medicine", "dose"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ge14dbwk",
+    "slug": "syrup",
+    "name": {
+      "pt": "Xarope",
+      "en": "Syrup"
+    },
+    "subcategory": "medical",
+    "synonyms": {
+      "pt": ["remédio líquido", "frasco e colher"],
+      "en": ["liquid medicine", "cough syrup"]
+    },
+    "tags": {
+      "pt": ["tosse", "dose", "medicamento", "farmácia"],
+      "en": ["cough", "dose", "medication", "pharmacy"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnxeteqn",
+    "slug": "telemedicine",
+    "name": {
+      "pt": "Telemedicina",
+      "en": "Telemedicine"
+    },
+    "subcategory": "medical",
+    "synonyms": {
+      "pt": ["consulta online", "teleconsulta"],
+      "en": ["telehealth", "online consultation"]
+    },
+    "tags": {
+      "pt": ["médico online", "saúde digital", "videochamada", "atendimento remoto"],
+      "en": ["virtual doctor", "digital health", "video visit", "remote care"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gfh5wecp",
+    "slug": "tooth",
+    "name": {
+      "pt": "Dente",
+      "en": "Tooth"
+    },
+    "subcategory": "medical",
+    "family": "tooth",
+    "synonyms": {
+      "pt": ["molar", "dentição"],
+      "en": ["molar", "teeth"]
+    },
+    "tags": {
+      "pt": ["dentista", "odontologia", "saúde bucal", "sorriso"],
+      "en": ["dentist", "dental", "oral health", "smile"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gcpg4syp",
+    "slug": "toothbrush",
+    "name": {
+      "pt": "Escova de dentes",
+      "en": "Toothbrush"
+    },
+    "subcategory": "wellness",
+    "synonyms": {
+      "pt": ["escova dental"],
+      "en": ["tooth brush"]
+    },
+    "tags": {
+      "pt": ["higiene bucal", "dentes", "escovar", "dentista"],
+      "en": ["oral hygiene", "teeth", "brushing", "dentist"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwwa1bky",
+    "slug": "uterus",
+    "name": {
+      "pt": "Útero",
+      "en": "Uterus"
+    },
+    "subcategory": "body",
+    "synonyms": {
+      "pt": ["sistema reprodutor feminino", "ovários"],
+      "en": ["womb", "female reproductive system"]
+    },
+    "tags": {
+      "pt": ["ginecologia", "saúde da mulher", "fertilidade", "anatomia"],
+      "en": ["gynecology", "women's health", "fertility", "anatomy"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gvk8dq5m",
+    "slug": "vaccine",
+    "name": {
+      "pt": "Vacina",
+      "en": "Vaccine"
+    },
+    "subcategory": "medical",
+    "synonyms": {
+      "pt": ["frasco de vacina", "imunizante"],
+      "en": ["vaccine vial", "vial"]
+    },
+    "tags": {
+      "pt": ["vacinação", "imunização", "dose", "ampola"],
+      "en": ["vaccination", "immunization", "dose", "ampoule"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0peeafs",
+    "slug": "walking-cane",
+    "name": {
+      "pt": "Bengala",
+      "en": "Walking cane"
+    },
+    "subcategory": "medical",
+    "synonyms": {
+      "pt": ["bengala de apoio", "cajado"],
+      "en": ["cane", "walking stick"]
+    },
+    "tags": {
+      "pt": ["mobilidade", "idoso", "apoio", "caminhar"],
+      "en": ["mobility", "elderly", "support", "walking"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gy2vf8ct",
+    "slug": "walking-frame",
+    "name": {
+      "pt": "Andador",
+      "en": "Walking frame"
+    },
+    "subcategory": "medical",
+    "synonyms": {
+      "pt": ["andador ortopédico", "andador com rodas"],
+      "en": ["walker", "rollator"]
+    },
+    "tags": {
+      "pt": ["mobilidade", "idoso", "reabilitação", "apoio"],
+      "en": ["mobility", "elderly", "rehabilitation", "support"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gm85ya1g",
+    "slug": "weight-scale",
+    "name": {
+      "pt": "Balança",
+      "en": "Weight scale"
+    },
+    "subcategory": "body",
+    "synonyms": {
+      "pt": ["balança de banheiro", "pesagem"],
+      "en": ["bathroom scale", "scales"]
+    },
+    "tags": {
+      "pt": ["peso", "emagrecer", "dieta", "massa corporal"],
+      "en": ["weight", "weight loss", "diet", "body mass"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gm5n03sb",
+    "slug": "x-ray",
+    "name": {
+      "pt": "Raio-X",
+      "en": "X-ray"
+    },
+    "subcategory": "medical",
+    "synonyms": {
+      "pt": ["radiografia", "chapa"],
+      "en": ["radiograph", "x-ray film"]
+    },
+    "tags": {
+      "pt": ["exame", "tórax", "costelas", "radiologia"],
+      "en": ["scan", "chest", "ribs", "radiology"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzw0ze6k",
+    "slug": "yoga",
+    "name": {
+      "pt": "Ioga",
+      "en": "Yoga"
+    },
+    "subcategory": "wellness",
+    "synonyms": {
+      "pt": ["yoga", "postura da árvore"],
+      "en": ["tree pose", "asana"]
+    },
+    "tags": {
+      "pt": ["alongamento", "equilíbrio", "exercício", "relaxamento"],
+      "en": ["stretching", "balance", "exercise", "relaxation"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  }
+]

@@ -1,0 +1,1517 @@
+[
+  {
+    "id": "ges6pkr2",
+    "slug": "accessibility",
+    "name": {
+      "pt": "Acessibilidade",
+      "en": "Accessibility"
+    },
+    "subcategory": "body",
+    "synonyms": {
+      "pt": ["acesso universal", "inclusão"],
+      "en": ["universal access", "inclusion"]
+    },
+    "tags": {
+      "pt": ["deficiência", "a11y", "pessoa com deficiência", "acessível"],
+      "en": ["disability", "a11y", "accessible"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmsyxg55",
+    "slug": "baby",
+    "name": {
+      "pt": "Bebê",
+      "en": "Baby"
+    },
+    "subcategory": "groups",
+    "synonyms": {
+      "pt": ["neném", "recém-nascido"],
+      "en": ["infant", "newborn"]
+    },
+    "tags": {
+      "pt": ["criança", "infantil", "maternidade", "berçário"],
+      "en": ["child", "kids", "nursery", "maternity"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7gwfm39",
+    "slug": "child",
+    "name": {
+      "pt": "Criança",
+      "en": "Child"
+    },
+    "subcategory": "groups",
+    "synonyms": {
+      "pt": ["menino", "menina", "filho"],
+      "en": ["kid", "boy", "girl"]
+    },
+    "tags": {
+      "pt": ["infantil", "kids", "jovem", "dependente"],
+      "en": ["children", "young", "minor", "dependent"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gp3d8hkw",
+    "slug": "contact-card",
+    "name": {
+      "pt": "Cartão de contato",
+      "en": "Contact card"
+    },
+    "subcategory": "users",
+    "synonyms": {
+      "pt": ["cartão de visita", "vcard"],
+      "en": ["business card", "vcard"]
+    },
+    "tags": {
+      "pt": ["contato", "perfil", "identificação", "dados pessoais"],
+      "en": ["contact", "profile", "identification", "details"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gz9ymype",
+    "slug": "ear",
+    "name": {
+      "pt": "Orelha",
+      "en": "Ear"
+    },
+    "subcategory": "body",
+    "synonyms": {
+      "pt": ["ouvido", "audição"],
+      "en": ["hearing", "listen"]
+    },
+    "tags": {
+      "pt": ["ouvir", "escutar", "som", "surdez"],
+      "en": ["sound", "deaf", "audio"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwe3dp1j",
+    "slug": "ear-off",
+    "name": {
+      "pt": "Surdez",
+      "en": "Ear off"
+    },
+    "subcategory": "body",
+    "family": "ear",
+    "variantOf": "ear",
+    "synonyms": {
+      "pt": ["ouvido cortado", "sem audição"],
+      "en": ["deaf", "hearing loss"]
+    },
+    "tags": {
+      "pt": ["deficiência auditiva", "surdo", "acessibilidade", "mudo"],
+      "en": ["hearing impaired", "deafness", "accessibility", "muted"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpcbg2j1",
+    "slug": "elder",
+    "name": {
+      "pt": "Idoso",
+      "en": "Elder"
+    },
+    "subcategory": "groups",
+    "synonyms": {
+      "pt": ["pessoa idosa", "terceira idade"],
+      "en": ["elderly person", "senior"]
+    },
+    "tags": {
+      "pt": ["bengala", "prioridade", "aposentado", "avô"],
+      "en": ["cane", "priority", "retired", "grandparent"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpm20scs",
+    "slug": "face-angry",
+    "name": {
+      "pt": "Rosto bravo",
+      "en": "Face angry"
+    },
+    "subcategory": "body",
+    "family": "face",
+    "synonyms": {
+      "pt": ["raiva", "carinha irritada"],
+      "en": ["angry face", "mad"]
+    },
+    "tags": {
+      "pt": ["emoji", "zangado", "furioso", "nervoso"],
+      "en": ["emoji", "furious", "annoyed", "rage"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ghz406ak",
+    "slug": "face-cool",
+    "name": {
+      "pt": "Rosto descolado",
+      "en": "Face cool"
+    },
+    "subcategory": "body",
+    "family": "face",
+    "synonyms": {
+      "pt": ["óculos escuros", "carinha estilosa"],
+      "en": ["sunglasses face", "cool smiley"]
+    },
+    "tags": {
+      "pt": ["emoji", "legal", "confiante", "verão"],
+      "en": ["emoji", "confident", "chill", "summer"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gsp26bd1",
+    "slug": "face-neutral",
+    "name": {
+      "pt": "Rosto neutro",
+      "en": "Face neutral"
+    },
+    "subcategory": "body",
+    "family": "face",
+    "synonyms": {
+      "pt": ["carinha séria", "sem expressão"],
+      "en": ["neutral face", "expressionless"]
+    },
+    "tags": {
+      "pt": ["emoji", "neutro", "normal", "avaliação"],
+      "en": ["emoji", "neutral", "okay", "rating"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g9gj5rhb",
+    "slug": "face-sad",
+    "name": {
+      "pt": "Rosto triste",
+      "en": "Face sad"
+    },
+    "subcategory": "body",
+    "family": "face",
+    "synonyms": {
+      "pt": ["tristeza", "carinha abatida"],
+      "en": ["sad face", "sorrow"]
+    },
+    "tags": {
+      "pt": ["emoji", "desapontado", "chateado", "lamento"],
+      "en": ["emoji", "disappointed", "upset", "sorry"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gq3x4j6c",
+    "slug": "face-surprised",
+    "name": {
+      "pt": "Rosto surpreso",
+      "en": "Face surprised"
+    },
+    "subcategory": "body",
+    "family": "face",
+    "synonyms": {
+      "pt": ["espanto", "carinha assustada"],
+      "en": ["astonished face", "shocked"]
+    },
+    "tags": {
+      "pt": ["emoji", "uau", "susto", "chocado"],
+      "en": ["emoji", "wow", "amazed", "startled"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ge6r2n6j",
+    "slug": "face-wink",
+    "name": {
+      "pt": "Piscadela",
+      "en": "Face wink"
+    },
+    "subcategory": "body",
+    "family": "face",
+    "synonyms": {
+      "pt": ["rosto piscando", "piscar"],
+      "en": ["winking face", "wink"]
+    },
+    "tags": {
+      "pt": ["emoji", "brincadeira", "cumplicidade", "flerte"],
+      "en": ["emoji", "joke", "playful", "flirt"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqgss187",
+    "slug": "fist",
+    "name": {
+      "pt": "Punho",
+      "en": "Fist"
+    },
+    "subcategory": "body",
+    "family": "hand",
+    "synonyms": {
+      "pt": ["punho fechado", "soco"],
+      "en": ["closed fist", "punch"]
+    },
+    "tags": {
+      "pt": ["força", "luta", "poder", "resistência", "união"],
+      "en": ["strength", "fight", "power", "solidarity"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gj63m256",
+    "slug": "footprints",
+    "name": {
+      "pt": "Pegadas",
+      "en": "Footprints"
+    },
+    "subcategory": "body",
+    "synonyms": {
+      "pt": ["passos", "rastro"],
+      "en": ["steps", "tracks"]
+    },
+    "tags": {
+      "pt": ["caminhar", "trilha", "pisada", "andar"],
+      "en": ["walk", "trail", "footsteps"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmjjnc8z",
+    "slug": "frown",
+    "name": {
+      "pt": "Rosto descontente",
+      "en": "Frown"
+    },
+    "subcategory": "body",
+    "family": "face",
+    "synonyms": {
+      "pt": ["carinha triste", "cara fechada"],
+      "en": ["unhappy face", "sad smiley"]
+    },
+    "tags": {
+      "pt": ["emoji", "insatisfeito", "chateado", "ruim"],
+      "en": ["emoji", "dissatisfied", "upset", "bad"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gsh3sm10",
+    "slug": "guest-user",
+    "name": {
+      "pt": "Visitante",
+      "en": "Guest user"
+    },
+    "subcategory": "roles",
+    "family": "user",
+    "synonyms": {
+      "pt": ["convidado", "usuário sem conta"],
+      "en": ["guest", "visitor"]
+    },
+    "tags": {
+      "pt": ["anônimo", "acesso de convidado", "não cadastrado"],
+      "en": ["anonymous", "guest access", "unregistered"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1bvsws8",
+    "slug": "hand",
+    "name": {
+      "pt": "Mão",
+      "en": "Hand"
+    },
+    "subcategory": "body",
+    "family": "hand",
+    "synonyms": {
+      "pt": ["palma", "mão aberta", "mão levantada"],
+      "en": ["palm", "open hand", "raised hand"]
+    },
+    "tags": {
+      "pt": ["parar", "pare", "levantar a mão", "gesto", "toque"],
+      "en": ["stop", "raise hand", "gesture", "high five"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gjf9kjjv",
+    "slug": "hand-grab",
+    "name": {
+      "pt": "Mão fechada",
+      "en": "Hand grab"
+    },
+    "subcategory": "body",
+    "family": "hand",
+    "synonyms": {
+      "pt": ["agarrar", "pegar", "arrastar"],
+      "en": ["grab", "grip", "drag"]
+    },
+    "tags": {
+      "pt": ["cursor de arrastar", "segurar", "mover"],
+      "en": ["drag cursor", "hold", "move", "grabbing"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwgrdb0e",
+    "slug": "hand-peace",
+    "name": {
+      "pt": "Mão de paz",
+      "en": "Peace hand"
+    },
+    "subcategory": "body",
+    "synonyms": {
+      "pt": ["sinal de vitória", "dois dedos"],
+      "en": ["victory sign", "v sign"]
+    },
+    "tags": {
+      "pt": ["paz e amor", "vitória", "tchau", "foto"],
+      "en": ["peace", "victory", "bye", "selfie"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g2sqsj1d",
+    "slug": "hand-pointer",
+    "name": {
+      "pt": "Mão apontando",
+      "en": "Hand pointer"
+    },
+    "subcategory": "body",
+    "family": "hand",
+    "synonyms": {
+      "pt": ["dedo indicador", "cursor de mão"],
+      "en": ["pointing finger", "hand cursor"]
+    },
+    "tags": {
+      "pt": ["clicar", "tocar", "link", "selecionar", "apontar"],
+      "en": ["click", "tap", "link", "select", "point"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5k2nq5j",
+    "slug": "hand-swipe",
+    "name": {
+      "pt": "Deslizar",
+      "en": "Hand swipe"
+    },
+    "subcategory": "body",
+    "family": "hand-pointer",
+    "synonyms": {
+      "pt": ["gesto de deslizar", "arrastar o dedo"],
+      "en": ["swipe gesture", "finger swipe"]
+    },
+    "tags": {
+      "pt": ["tela sensível ao toque", "swipe", "navegação", "gesto"],
+      "en": ["touchscreen", "slide", "navigation", "gesture"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkz8m52v",
+    "slug": "hand-tap",
+    "name": {
+      "pt": "Tocar",
+      "en": "Hand tap"
+    },
+    "subcategory": "body",
+    "family": "hand-pointer",
+    "synonyms": {
+      "pt": ["toque na tela", "clique com o dedo"],
+      "en": ["tap gesture", "finger tap"]
+    },
+    "tags": {
+      "pt": ["tela sensível ao toque", "tap", "pressionar", "gesto"],
+      "en": ["touchscreen", "press", "touch", "gesture"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4kpmcbb",
+    "slug": "hand-wave",
+    "name": {
+      "pt": "Aceno",
+      "en": "Hand wave"
+    },
+    "subcategory": "body",
+    "family": "hand",
+    "synonyms": {
+      "pt": ["mão acenando", "tchau", "olá"],
+      "en": ["waving hand", "hello", "bye"]
+    },
+    "tags": {
+      "pt": ["cumprimento", "saudação", "oi", "boas-vindas"],
+      "en": ["greeting", "hi", "welcome"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gh98qfnb",
+    "slug": "handshake",
+    "name": {
+      "pt": "Aperto de mão",
+      "en": "Handshake"
+    },
+    "subcategory": "body",
+    "synonyms": {
+      "pt": ["cumprimento", "acordo"],
+      "en": ["agreement", "deal"]
+    },
+    "tags": {
+      "pt": ["parceria", "negócio fechado", "acordo comercial", "confiança"],
+      "en": ["partnership", "greeting", "trust", "cooperation"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g25tj4gq",
+    "slug": "id-badge",
+    "name": {
+      "pt": "Crachá",
+      "en": "ID badge"
+    },
+    "subcategory": "users",
+    "synonyms": {
+      "pt": ["identificação", "credencial"],
+      "en": ["badge", "credential"]
+    },
+    "tags": {
+      "pt": ["funcionário", "acesso", "cartão de identificação", "evento"],
+      "en": ["employee", "access", "identification", "event pass"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gssny494",
+    "slug": "incognito",
+    "name": {
+      "pt": "Anônimo",
+      "en": "Incognito"
+    },
+    "subcategory": "roles",
+    "synonyms": {
+      "pt": ["modo anônimo", "espião"],
+      "en": ["anonymous", "spy"]
+    },
+    "tags": {
+      "pt": ["privado", "navegação anônima", "disfarce", "incógnito"],
+      "en": ["private browsing", "disguise", "hidden identity"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqp6p6fp",
+    "slug": "laugh",
+    "name": {
+      "pt": "Risada",
+      "en": "Laugh"
+    },
+    "subcategory": "body",
+    "family": "face",
+    "synonyms": {
+      "pt": ["rosto rindo", "gargalhada"],
+      "en": ["laughing face", "grin"]
+    },
+    "tags": {
+      "pt": ["emoji", "engraçado", "alegria", "muito feliz"],
+      "en": ["emoji", "funny", "joy", "very happy"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3jxedp4",
+    "slug": "meh",
+    "name": {
+      "pt": "Rosto indiferente",
+      "en": "Meh"
+    },
+    "subcategory": "body",
+    "family": "face",
+    "synonyms": {
+      "pt": ["carinha desconfiada", "mais ou menos"],
+      "en": ["indifferent face", "so-so"]
+    },
+    "tags": {
+      "pt": ["emoji", "tanto faz", "regular", "dúvida"],
+      "en": ["emoji", "whatever", "average", "skeptical"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5pxcss3",
+    "slug": "person-arms-up",
+    "name": {
+      "pt": "Pessoa comemorando",
+      "en": "Person arms up"
+    },
+    "subcategory": "body",
+    "family": "person",
+    "synonyms": {
+      "pt": ["braços para cima", "vitória"],
+      "en": ["celebrating person", "victory"]
+    },
+    "tags": {
+      "pt": ["celebrar", "alegria", "conquista", "sucesso"],
+      "en": ["celebrate", "joy", "success", "cheer"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggk7kxvh",
+    "slug": "person-dancing",
+    "name": {
+      "pt": "Pessoa dançando",
+      "en": "Person dancing"
+    },
+    "subcategory": "body",
+    "synonyms": {
+      "pt": ["dança", "dançarino"],
+      "en": ["dance", "dancer"]
+    },
+    "tags": {
+      "pt": ["festa", "música", "balada", "movimento", "alegria"],
+      "en": ["party", "music", "club", "movement", "fun"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gs6eaxyh",
+    "slug": "person-falling",
+    "name": {
+      "pt": "Pessoa caindo",
+      "en": "Person falling"
+    },
+    "subcategory": "body",
+    "synonyms": {
+      "pt": ["queda", "tombo"],
+      "en": ["fall", "tumble"]
+    },
+    "tags": {
+      "pt": ["acidente", "escorregar", "detecção de queda", "idoso", "risco"],
+      "en": ["accident", "slip", "fall detection", "elderly", "hazard"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g02hbpdr",
+    "slug": "person-family",
+    "name": {
+      "pt": "Família",
+      "en": "Family"
+    },
+    "subcategory": "groups",
+    "synonyms": {
+      "pt": ["pais e filho", "família com criança"],
+      "en": ["parents and child", "family with kid"]
+    },
+    "tags": {
+      "pt": ["parentes", "casal", "filhos", "lar"],
+      "en": ["relatives", "couple", "children", "household"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g03g2tg6",
+    "slug": "person-raising-hand",
+    "name": {
+      "pt": "Pessoa levantando a mão",
+      "en": "Person raising hand"
+    },
+    "subcategory": "body",
+    "synonyms": {
+      "pt": ["mão levantada", "pedir a palavra"],
+      "en": ["raised hand", "hand up"]
+    },
+    "tags": {
+      "pt": ["pergunta", "voluntário", "participar", "votar", "aula"],
+      "en": ["question", "volunteer", "participate", "vote", "class"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gaqbep5d",
+    "slug": "person-running",
+    "name": {
+      "pt": "Pessoa correndo",
+      "en": "Person running"
+    },
+    "subcategory": "body",
+    "family": "person",
+    "synonyms": {
+      "pt": ["corrida", "corredor"],
+      "en": ["run", "runner"]
+    },
+    "tags": {
+      "pt": ["correr", "esporte", "pressa", "exercício"],
+      "en": ["running", "sport", "hurry", "exercise"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gjj496kn",
+    "slug": "person-sitting",
+    "name": {
+      "pt": "Pessoa sentada",
+      "en": "Person sitting"
+    },
+    "subcategory": "body",
+    "family": "person",
+    "synonyms": {
+      "pt": ["sentado", "assento"],
+      "en": ["seated person", "seat"]
+    },
+    "tags": {
+      "pt": ["cadeira", "descanso", "sala de espera", "lugar"],
+      "en": ["chair", "rest", "waiting room", "place"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g19hxny8",
+    "slug": "person-standing",
+    "name": {
+      "pt": "Pessoa em pé",
+      "en": "Person standing"
+    },
+    "subcategory": "body",
+    "family": "person",
+    "synonyms": {
+      "pt": ["figura humana", "boneco"],
+      "en": ["human figure", "stick figure"]
+    },
+    "tags": {
+      "pt": ["pessoa", "humano", "corpo", "indivíduo"],
+      "en": ["person", "human", "body", "individual"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7ccva0k",
+    "slug": "person-walking",
+    "name": {
+      "pt": "Pessoa caminhando",
+      "en": "Person walking"
+    },
+    "subcategory": "body",
+    "family": "person",
+    "synonyms": {
+      "pt": ["andar", "pedestre"],
+      "en": ["walk", "pedestrian"]
+    },
+    "tags": {
+      "pt": ["caminhada", "passeio", "a pé", "exercício"],
+      "en": ["walking", "stroll", "on foot", "exercise"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gtem72ba",
+    "slug": "smile",
+    "name": {
+      "pt": "Sorriso",
+      "en": "Smile"
+    },
+    "subcategory": "body",
+    "family": "face",
+    "synonyms": {
+      "pt": ["rosto feliz", "carinha sorridente"],
+      "en": ["happy face", "smiley"]
+    },
+    "tags": {
+      "pt": ["emoji", "alegre", "satisfeito", "feliz"],
+      "en": ["emoji", "happy", "satisfied", "glad"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4gq0s1w",
+    "slug": "student",
+    "name": {
+      "pt": "Estudante",
+      "en": "Student"
+    },
+    "subcategory": "roles",
+    "synonyms": {
+      "pt": ["aluno", "formando"],
+      "en": ["pupil", "graduate"]
+    },
+    "tags": {
+      "pt": ["escola", "faculdade", "universidade", "educação", "graduação"],
+      "en": ["school", "college", "university", "education", "graduation"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ge8jf69z",
+    "slug": "user",
+    "name": {
+      "pt": "Usuário",
+      "en": "User"
+    },
+    "subcategory": "users",
+    "family": "user",
+    "synonyms": {
+      "pt": ["pessoa", "perfil", "conta"],
+      "en": ["person", "profile", "account"]
+    },
+    "tags": {
+      "pt": ["avatar", "cliente", "membro"],
+      "en": ["avatar", "member"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gq6rezph",
+    "slug": "user-check",
+    "name": {
+      "pt": "Usuário verificado",
+      "en": "User check"
+    },
+    "subcategory": "users",
+    "family": "user",
+    "variantOf": "user",
+    "synonyms": {
+      "pt": ["usuário confirmado", "membro aprovado"],
+      "en": ["verified user", "approved member"]
+    },
+    "tags": {
+      "pt": ["seguindo", "conta verificada", "presença"],
+      "en": ["following", "verified account", "attendance"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gcrjbkzw",
+    "slug": "user-circle",
+    "name": {
+      "pt": "Usuário em círculo",
+      "en": "User circle"
+    },
+    "subcategory": "users",
+    "family": "user",
+    "synonyms": {
+      "pt": ["avatar", "foto de perfil"],
+      "en": ["avatar", "profile picture"]
+    },
+    "tags": {
+      "pt": ["conta", "login", "perfil", "minha conta"],
+      "en": ["account", "login", "profile", "my account"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwhwta0b",
+    "slug": "user-clock",
+    "name": {
+      "pt": "Usuário pendente",
+      "en": "User clock"
+    },
+    "subcategory": "users",
+    "family": "user",
+    "variantOf": "user",
+    "synonyms": {
+      "pt": ["aguardando aprovação", "horário do usuário"],
+      "en": ["pending user", "awaiting approval"]
+    },
+    "tags": {
+      "pt": ["relógio", "histórico", "turno", "presença"],
+      "en": ["clock", "history", "shift", "attendance"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4qn38m4",
+    "slug": "user-cog",
+    "name": {
+      "pt": "Configurações do usuário",
+      "en": "User cog"
+    },
+    "subcategory": "users",
+    "family": "user",
+    "variantOf": "user",
+    "synonyms": {
+      "pt": ["conta", "preferências do perfil"],
+      "en": ["account settings", "profile preferences"]
+    },
+    "tags": {
+      "pt": ["engrenagem", "ajustes da conta", "administrador"],
+      "en": ["gear", "account", "admin"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzvcze4h",
+    "slug": "user-heart",
+    "name": {
+      "pt": "Usuário favorito",
+      "en": "User heart"
+    },
+    "subcategory": "users",
+    "family": "user",
+    "variantOf": "user",
+    "synonyms": {
+      "pt": ["pessoa querida", "amigo"],
+      "en": ["favorite person", "friend"]
+    },
+    "tags": {
+      "pt": ["coração", "curtir perfil", "seguidor", "carinho"],
+      "en": ["heart", "liked profile", "follower", "care"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g58ypbkc",
+    "slug": "user-list",
+    "name": {
+      "pt": "Lista de usuários",
+      "en": "User list"
+    },
+    "subcategory": "users",
+    "family": "user",
+    "synonyms": {
+      "pt": ["membros", "participantes"],
+      "en": ["members", "participants"]
+    },
+    "tags": {
+      "pt": ["contatos", "equipe", "diretório", "pessoas"],
+      "en": ["contacts", "team", "directory", "people"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmx5pfgs",
+    "slug": "user-lock",
+    "name": {
+      "pt": "Usuário bloqueado",
+      "en": "User lock"
+    },
+    "subcategory": "users",
+    "family": "user",
+    "variantOf": "user",
+    "synonyms": {
+      "pt": ["conta trancada", "perfil privado"],
+      "en": ["locked account", "private profile"]
+    },
+    "tags": {
+      "pt": ["cadeado", "acesso restrito", "segurança da conta"],
+      "en": ["padlock", "restricted access", "account security"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gax47wzw",
+    "slug": "user-minus",
+    "name": {
+      "pt": "Remover usuário",
+      "en": "User minus"
+    },
+    "subcategory": "users",
+    "family": "user",
+    "variantOf": "user",
+    "synonyms": {
+      "pt": ["excluir membro", "desvincular"],
+      "en": ["remove user", "delete member"]
+    },
+    "tags": {
+      "pt": ["deixar de seguir", "remover contato", "expulsar"],
+      "en": ["unfollow", "remove contact", "kick"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwj4hgyg",
+    "slug": "user-off",
+    "name": {
+      "pt": "Usuário desativado",
+      "en": "User off"
+    },
+    "subcategory": "users",
+    "family": "user",
+    "variantOf": "user",
+    "synonyms": {
+      "pt": ["conta desativada", "sem usuário"],
+      "en": ["deactivated user", "disabled account"]
+    },
+    "tags": {
+      "pt": ["perfil inativo", "anônimo", "desconectado"],
+      "en": ["inactive profile", "anonymous", "signed out"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gs2f97t8",
+    "slug": "user-online",
+    "name": {
+      "pt": "Usuário online",
+      "en": "User online"
+    },
+    "subcategory": "users",
+    "family": "user",
+    "variantOf": "user",
+    "synonyms": {
+      "pt": ["disponível", "conectado"],
+      "en": ["available", "connected"]
+    },
+    "tags": {
+      "pt": ["status", "presença", "ativo agora", "avatar com ponto"],
+      "en": ["status", "presence", "active now", "online dot"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gt1djb5m",
+    "slug": "user-pen",
+    "name": {
+      "pt": "Editar perfil",
+      "en": "User pen"
+    },
+    "subcategory": "users",
+    "family": "user",
+    "variantOf": "user",
+    "synonyms": {
+      "pt": ["editar usuário", "alterar dados"],
+      "en": ["edit profile", "edit user"]
+    },
+    "tags": {
+      "pt": ["lápis", "conta", "atualizar cadastro"],
+      "en": ["pencil", "account", "update details"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gypj60qn",
+    "slug": "user-plus",
+    "name": {
+      "pt": "Adicionar usuário",
+      "en": "User plus"
+    },
+    "subcategory": "users",
+    "family": "user",
+    "variantOf": "user",
+    "synonyms": {
+      "pt": ["novo usuário", "convidar"],
+      "en": ["add user", "invite"]
+    },
+    "tags": {
+      "pt": ["cadastrar", "seguir", "novo membro", "adicionar contato"],
+      "en": ["sign up", "follow", "new member", "add contact"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gk6235nk",
+    "slug": "user-round",
+    "name": {
+      "pt": "Usuário arredondado",
+      "en": "User round"
+    },
+    "subcategory": "users",
+    "family": "user",
+    "synonyms": {
+      "pt": ["perfil", "pessoa"],
+      "en": ["profile", "person"]
+    },
+    "tags": {
+      "pt": ["conta", "avatar", "membro"],
+      "en": ["account", "avatar", "member"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g67kg50a",
+    "slug": "user-search",
+    "name": {
+      "pt": "Buscar usuário",
+      "en": "User search"
+    },
+    "subcategory": "users",
+    "family": "user",
+    "variantOf": "user",
+    "synonyms": {
+      "pt": ["procurar pessoa", "encontrar contato"],
+      "en": ["find user", "search people"]
+    },
+    "tags": {
+      "pt": ["pesquisar perfil", "lupa", "localizar membro"],
+      "en": ["lookup", "magnifier", "find contact"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g2ssq376",
+    "slug": "user-square",
+    "name": {
+      "pt": "Usuário em quadrado",
+      "en": "User square"
+    },
+    "subcategory": "users",
+    "family": "user",
+    "synonyms": {
+      "pt": ["avatar quadrado", "foto de perfil"],
+      "en": ["square avatar", "profile picture"]
+    },
+    "tags": {
+      "pt": ["conta", "perfil", "membro"],
+      "en": ["account", "profile", "member"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5a1kb94",
+    "slug": "user-star",
+    "name": {
+      "pt": "Usuário em destaque",
+      "en": "User star"
+    },
+    "subcategory": "users",
+    "family": "user",
+    "variantOf": "user",
+    "synonyms": {
+      "pt": ["membro VIP", "perfil premium"],
+      "en": ["favorite user", "VIP member"]
+    },
+    "tags": {
+      "pt": ["estrela", "premium", "especial", "avaliação"],
+      "en": ["star", "featured", "premium", "special"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gagnt3dm",
+    "slug": "user-switch",
+    "name": {
+      "pt": "Trocar de conta",
+      "en": "Switch user"
+    },
+    "subcategory": "users",
+    "family": "user",
+    "synonyms": {
+      "pt": ["alternar usuário", "trocar perfil"],
+      "en": ["switch account", "change profile"]
+    },
+    "tags": {
+      "pt": ["conta", "perfil", "login", "múltiplas contas"],
+      "en": ["account", "profile", "login", "multiple accounts"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7vh07wf",
+    "slug": "user-tie",
+    "name": {
+      "pt": "Executivo",
+      "en": "User tie"
+    },
+    "subcategory": "roles",
+    "family": "user",
+    "synonyms": {
+      "pt": ["pessoa de gravata", "profissional"],
+      "en": ["businessperson", "professional"]
+    },
+    "tags": {
+      "pt": ["empresário", "gerente", "negócios", "funcionário"],
+      "en": ["executive", "manager", "business", "employee"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gfpmnmaz",
+    "slug": "user-voice",
+    "name": {
+      "pt": "Pessoa falando",
+      "en": "User voice"
+    },
+    "subcategory": "users",
+    "family": "user",
+    "synonyms": {
+      "pt": ["voz", "orador"],
+      "en": ["speaking person", "speaker"]
+    },
+    "tags": {
+      "pt": ["falar", "discurso", "comando de voz", "áudio"],
+      "en": ["speak", "talk", "voice command", "audio"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g01q10z2",
+    "slug": "user-x",
+    "name": {
+      "pt": "Usuário removido",
+      "en": "User x"
+    },
+    "subcategory": "users",
+    "family": "user",
+    "variantOf": "user",
+    "synonyms": {
+      "pt": ["bloquear usuário", "recusar membro"],
+      "en": ["remove user", "block user"]
+    },
+    "tags": {
+      "pt": ["excluir conta", "banir", "rejeitar"],
+      "en": ["delete account", "ban", "reject"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g28jab3d",
+    "slug": "users",
+    "name": {
+      "pt": "Usuários",
+      "en": "Users"
+    },
+    "subcategory": "groups",
+    "family": "users",
+    "synonyms": {
+      "pt": ["pessoas", "grupo", "membros"],
+      "en": ["people", "group", "members"]
+    },
+    "tags": {
+      "pt": ["equipe", "comunidade", "contatos", "amigos"],
+      "en": ["team", "community", "contacts", "friends"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g24h5q3x",
+    "slug": "users-group",
+    "name": {
+      "pt": "Grupo de pessoas",
+      "en": "Users group"
+    },
+    "subcategory": "groups",
+    "family": "users",
+    "synonyms": {
+      "pt": ["equipe", "time"],
+      "en": ["team", "crew"]
+    },
+    "tags": {
+      "pt": ["comunidade", "turma", "membros", "organização"],
+      "en": ["community", "members", "organization"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqhshjn0",
+    "slug": "users-plus",
+    "name": {
+      "pt": "Adicionar pessoas",
+      "en": "Users plus"
+    },
+    "subcategory": "groups",
+    "family": "users",
+    "variantOf": "users",
+    "synonyms": {
+      "pt": ["convidar equipe", "novos membros"],
+      "en": ["add people", "invite team"]
+    },
+    "tags": {
+      "pt": ["convidar", "grupo", "time", "adicionar membro"],
+      "en": ["invite", "group", "team", "add member"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gaapkxec",
+    "slug": "wheelchair",
+    "name": {
+      "pt": "Cadeira de rodas",
+      "en": "Wheelchair"
+    },
+    "subcategory": "body",
+    "synonyms": {
+      "pt": ["cadeirante", "mobilidade reduzida"],
+      "en": ["wheelchair user", "reduced mobility"]
+    },
+    "tags": {
+      "pt": ["acessibilidade", "deficiência", "rampa", "prioridade"],
+      "en": ["accessibility", "disability", "ramp", "priority"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8v1qb6f",
+    "slug": "worker-helmet",
+    "name": {
+      "pt": "Trabalhador",
+      "en": "Worker helmet"
+    },
+    "subcategory": "roles",
+    "synonyms": {
+      "pt": ["operário", "capacete de obra"],
+      "en": ["worker", "hard hat"]
+    },
+    "tags": {
+      "pt": ["engenheiro", "construção", "segurança do trabalho", "técnico"],
+      "en": ["engineer", "construction", "safety", "technician"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  }
+]

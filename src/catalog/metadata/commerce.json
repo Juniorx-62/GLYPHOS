@@ -1,0 +1,1112 @@
+[
+  {
+    "id": "g52wxywh",
+    "slug": "bag-check",
+    "name": {
+      "pt": "Sacola confirmada",
+      "en": "Bag check"
+    },
+    "subcategory": "shopping",
+    "family": "shopping-bag",
+    "variantOf": "shopping-bag",
+    "synonyms": {
+      "pt": ["compra feita", "sacola com visto"],
+      "en": ["purchased", "bag done"]
+    },
+    "tags": {
+      "pt": ["pedido concluído", "comprado", "loja"],
+      "en": ["order complete", "bought", "store"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g46vax6v",
+    "slug": "bag-plus",
+    "name": {
+      "pt": "Adicionar à sacola",
+      "en": "Add to bag"
+    },
+    "subcategory": "shopping",
+    "family": "shopping-bag",
+    "variantOf": "shopping-bag",
+    "synonyms": {
+      "pt": ["sacola com mais", "incluir na sacola"],
+      "en": ["bag plus", "add item"]
+    },
+    "tags": {
+      "pt": ["comprar", "adicionar item", "loja"],
+      "en": ["buy", "shop", "store"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g736gzft",
+    "slug": "basket",
+    "name": {
+      "pt": "Cesta de compras",
+      "en": "Shopping basket"
+    },
+    "subcategory": "shopping",
+    "synonyms": {
+      "pt": ["cesto", "cestinha"],
+      "en": ["basket", "hamper"]
+    },
+    "tags": {
+      "pt": ["mercado", "supermercado", "feira", "compras"],
+      "en": ["grocery", "supermarket", "market", "shopping"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7r6r9ma",
+    "slug": "bill",
+    "name": {
+      "pt": "Boleto",
+      "en": "Bill"
+    },
+    "subcategory": "payments",
+    "synonyms": {
+      "pt": ["conta a pagar", "título"],
+      "en": ["payment slip", "bank slip"]
+    },
+    "tags": {
+      "pt": ["código de barras", "pagamento", "vencimento", "cobrança"],
+      "en": ["barcode", "payment", "due date", "charge"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gys58mwk",
+    "slug": "box-check",
+    "name": {
+      "pt": "Pacote entregue",
+      "en": "Package delivered"
+    },
+    "subcategory": "delivery",
+    "family": "parcel",
+    "variantOf": "parcel",
+    "synonyms": {
+      "pt": ["entrega confirmada", "caixa com visto"],
+      "en": ["box check", "delivery confirmed"]
+    },
+    "tags": {
+      "pt": ["pedido recebido", "entregue", "concluído"],
+      "en": ["order received", "delivered", "completed"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpf8swr2",
+    "slug": "box-open",
+    "name": {
+      "pt": "Caixa aberta",
+      "en": "Open box"
+    },
+    "subcategory": "delivery",
+    "family": "parcel",
+    "synonyms": {
+      "pt": ["pacote aberto", "desembalar"],
+      "en": ["opened package", "unbox"]
+    },
+    "tags": {
+      "pt": ["unboxing", "abrir encomenda", "recebido", "conteúdo"],
+      "en": ["unboxing", "open parcel", "received", "contents"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3ybtbam",
+    "slug": "box-x",
+    "name": {
+      "pt": "Pacote cancelado",
+      "en": "Package cancelled"
+    },
+    "subcategory": "delivery",
+    "family": "parcel",
+    "variantOf": "parcel",
+    "synonyms": {
+      "pt": ["entrega cancelada", "caixa com x"],
+      "en": ["box x", "delivery failed"]
+    },
+    "tags": {
+      "pt": ["pedido cancelado", "extraviado", "falha na entrega"],
+      "en": ["order cancelled", "lost package", "failed delivery"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gyv86sph",
+    "slug": "cart-check",
+    "name": {
+      "pt": "Carrinho confirmado",
+      "en": "Cart check"
+    },
+    "subcategory": "shopping",
+    "family": "shopping-cart",
+    "variantOf": "shopping-cart",
+    "synonyms": {
+      "pt": ["item no carrinho", "adicionado ao carrinho"],
+      "en": ["added to cart", "in cart"]
+    },
+    "tags": {
+      "pt": ["compra concluída", "pedido", "ecommerce"],
+      "en": ["purchase done", "order", "ecommerce"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gc24pt72",
+    "slug": "cart-minus",
+    "name": {
+      "pt": "Remover do carrinho",
+      "en": "Remove from cart"
+    },
+    "subcategory": "shopping",
+    "family": "shopping-cart",
+    "variantOf": "shopping-cart",
+    "synonyms": {
+      "pt": ["carrinho com menos", "tirar do carrinho"],
+      "en": ["cart minus", "remove item"]
+    },
+    "tags": {
+      "pt": ["diminuir quantidade", "retirar item", "ecommerce"],
+      "en": ["decrease quantity", "ecommerce", "store"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7srgtpe",
+    "slug": "cart-plus",
+    "name": {
+      "pt": "Adicionar ao carrinho",
+      "en": "Add to cart"
+    },
+    "subcategory": "shopping",
+    "family": "shopping-cart",
+    "variantOf": "shopping-cart",
+    "synonyms": {
+      "pt": ["carrinho com mais", "incluir no carrinho"],
+      "en": ["cart plus", "add item"]
+    },
+    "tags": {
+      "pt": ["comprar", "adicionar item", "ecommerce", "loja"],
+      "en": ["buy", "shop", "ecommerce", "store"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gy918x9s",
+    "slug": "cart-x",
+    "name": {
+      "pt": "Esvaziar carrinho",
+      "en": "Cart x"
+    },
+    "subcategory": "shopping",
+    "family": "shopping-cart",
+    "variantOf": "shopping-cart",
+    "synonyms": {
+      "pt": ["carrinho com x", "cancelar compra"],
+      "en": ["clear cart", "cancel purchase"]
+    },
+    "tags": {
+      "pt": ["remover", "limpar carrinho", "ecommerce"],
+      "en": ["remove", "empty cart", "ecommerce"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gp4svjd7",
+    "slug": "cash-register",
+    "name": {
+      "pt": "Caixa registradora",
+      "en": "Cash register"
+    },
+    "subcategory": "payments",
+    "synonyms": {
+      "pt": ["caixa", "registradora"],
+      "en": ["till", "register"]
+    },
+    "tags": {
+      "pt": ["ponto de venda", "pagamento", "loja", "frente de caixa"],
+      "en": ["point of sale", "checkout counter", "payment", "store"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gz0n2z7s",
+    "slug": "cashback",
+    "name": {
+      "pt": "Cashback",
+      "en": "Cashback"
+    },
+    "subcategory": "payments",
+    "synonyms": {
+      "pt": ["dinheiro de volta", "retorno em dinheiro"],
+      "en": ["cash back", "money back"]
+    },
+    "tags": {
+      "pt": ["recompensa", "desconto", "benefício", "crédito"],
+      "en": ["reward", "rebate", "benefit", "credit"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqbekj5r",
+    "slug": "checkout",
+    "name": {
+      "pt": "Finalizar compra",
+      "en": "Checkout"
+    },
+    "subcategory": "payments",
+    "family": "shopping-cart",
+    "synonyms": {
+      "pt": ["checkout", "fechar pedido"],
+      "en": ["proceed to checkout", "place order"]
+    },
+    "tags": {
+      "pt": ["pagar", "carrinho", "prosseguir", "ecommerce"],
+      "en": ["pay", "cart", "continue", "ecommerce"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnkqf80s",
+    "slug": "click-collect",
+    "name": {
+      "pt": "Retirar na loja",
+      "en": "Click and collect"
+    },
+    "subcategory": "delivery",
+    "synonyms": {
+      "pt": ["compre e retire", "clique e retire"],
+      "en": ["buy online pick up in store", "pickup"]
+    },
+    "tags": {
+      "pt": ["retirada", "pickup", "pedido online", "loja física"],
+      "en": ["store pickup", "online order", "collect"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmej5fb9",
+    "slug": "contactless",
+    "name": {
+      "pt": "Pagamento por aproximação",
+      "en": "Contactless payment"
+    },
+    "subcategory": "payments",
+    "synonyms": {
+      "pt": ["sem contato", "aproximação", "NFC"],
+      "en": ["contactless", "tap to pay", "NFC"]
+    },
+    "tags": {
+      "pt": ["pagar", "cartão", "celular", "maquininha"],
+      "en": ["pay", "card", "phone", "wireless"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0rg1zdg",
+    "slug": "coupon",
+    "name": {
+      "pt": "Cupom",
+      "en": "Coupon"
+    },
+    "subcategory": "shopping",
+    "synonyms": {
+      "pt": ["cupom de desconto", "vale"],
+      "en": ["voucher", "discount coupon"]
+    },
+    "tags": {
+      "pt": ["promoção", "código promocional", "oferta", "voucher"],
+      "en": ["promo code", "offer", "deal", "ticket"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gm7htyxe",
+    "slug": "courier",
+    "name": {
+      "pt": "Entregador",
+      "en": "Courier"
+    },
+    "subcategory": "delivery",
+    "synonyms": {
+      "pt": ["carteiro", "motoboy", "mensageiro"],
+      "en": ["delivery person", "messenger", "mail carrier"]
+    },
+    "tags": {
+      "pt": ["entrega", "encomenda", "delivery", "transportador"],
+      "en": ["delivery", "parcel", "deliveryman"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gsf4p7cw",
+    "slug": "discount",
+    "name": {
+      "pt": "Desconto",
+      "en": "Discount"
+    },
+    "subcategory": "shopping",
+    "family": "tag",
+    "synonyms": {
+      "pt": ["etiqueta de desconto", "abatimento"],
+      "en": ["discount tag", "markdown"]
+    },
+    "tags": {
+      "pt": ["promoção", "oferta", "liquidação", "porcentagem"],
+      "en": ["sale", "offer", "deal", "percent off"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggpexkj9",
+    "slug": "gift-card",
+    "name": {
+      "pt": "Cartão-presente",
+      "en": "Gift card"
+    },
+    "subcategory": "shopping",
+    "synonyms": {
+      "pt": ["vale-presente", "gift card"],
+      "en": ["gift voucher", "store credit"]
+    },
+    "tags": {
+      "pt": ["presente", "crédito na loja", "aniversário", "voucher"],
+      "en": ["present", "gift", "birthday", "voucher"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gb7yp2wm",
+    "slug": "hand-truck",
+    "name": {
+      "pt": "Carrinho de carga",
+      "en": "Hand truck"
+    },
+    "subcategory": "delivery",
+    "synonyms": {
+      "pt": ["carrinho de mão", "carrinho de entregas"],
+      "en": ["dolly", "sack truck"]
+    },
+    "tags": {
+      "pt": ["transporte de caixas", "mudança", "logística", "armazém"],
+      "en": ["moving boxes", "delivery", "logistics", "warehouse"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqjtzawn",
+    "slug": "installments",
+    "name": {
+      "pt": "Parcelamento",
+      "en": "Installments"
+    },
+    "subcategory": "payments",
+    "synonyms": {
+      "pt": ["parcelas", "pagamento parcelado"],
+      "en": ["installment plan", "split payments"]
+    },
+    "tags": {
+      "pt": ["prestações", "dividir", "crediário", "sem juros"],
+      "en": ["pay later", "monthly payments", "divide"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gx92k70s",
+    "slug": "inventory",
+    "name": {
+      "pt": "Estoque",
+      "en": "Inventory"
+    },
+    "subcategory": "delivery",
+    "synonyms": {
+      "pt": ["inventário", "prateleira"],
+      "en": ["stock", "shelves"]
+    },
+    "tags": {
+      "pt": ["armazenagem", "produtos", "mercadorias", "controle de estoque"],
+      "en": ["storage", "products", "goods", "stock control"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gx6ephx2",
+    "slug": "invoice",
+    "name": {
+      "pt": "Fatura",
+      "en": "Invoice"
+    },
+    "subcategory": "payments",
+    "synonyms": {
+      "pt": ["nota fiscal", "cobrança"],
+      "en": ["bill", "billing statement"]
+    },
+    "tags": {
+      "pt": ["conta", "valor", "pagamento", "documento fiscal"],
+      "en": ["amount due", "payment", "charge", "document"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gen43ntw",
+    "slug": "label-shipping",
+    "name": {
+      "pt": "Etiqueta de envio",
+      "en": "Shipping label"
+    },
+    "subcategory": "delivery",
+    "synonyms": {
+      "pt": ["etiqueta de remessa", "etiqueta de postagem"],
+      "en": ["postage label", "mailing label"]
+    },
+    "tags": {
+      "pt": ["endereço", "código de barras", "correio", "despacho"],
+      "en": ["address", "barcode", "mail", "dispatch"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gav6feb9",
+    "slug": "loyalty-card",
+    "name": {
+      "pt": "Cartão fidelidade",
+      "en": "Loyalty card"
+    },
+    "subcategory": "shopping",
+    "synonyms": {
+      "pt": ["cartão de pontos", "clube de vantagens"],
+      "en": ["rewards card", "membership card"]
+    },
+    "tags": {
+      "pt": ["recompensa", "fidelidade", "pontos", "benefícios"],
+      "en": ["rewards", "points", "perks", "member"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ghpw4xfe",
+    "slug": "package-location",
+    "name": {
+      "pt": "Local da encomenda",
+      "en": "Package location"
+    },
+    "subcategory": "delivery",
+    "family": "parcel",
+    "synonyms": {
+      "pt": ["pacote no mapa", "endereço de entrega"],
+      "en": ["parcel location", "delivery address"]
+    },
+    "tags": {
+      "pt": ["localização", "ponto de retirada", "destino"],
+      "en": ["location", "pickup point", "destination"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0n9jdn7",
+    "slug": "pallet",
+    "name": {
+      "pt": "Palete",
+      "en": "Pallet"
+    },
+    "subcategory": "delivery",
+    "synonyms": {
+      "pt": ["estrado", "palete com caixas"],
+      "en": ["skid", "loaded pallet"]
+    },
+    "tags": {
+      "pt": ["carga", "logística", "armazém", "empilhar"],
+      "en": ["cargo", "logistics", "warehouse", "stack"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpkfwbhh",
+    "slug": "parcel",
+    "name": {
+      "pt": "Encomenda",
+      "en": "Parcel"
+    },
+    "subcategory": "delivery",
+    "family": "parcel",
+    "synonyms": {
+      "pt": ["caixa", "pacote", "volume"],
+      "en": ["box", "package", "carton"]
+    },
+    "tags": {
+      "pt": ["entrega", "envio", "correio", "remessa", "frete"],
+      "en": ["delivery", "shipment", "mail", "shipping"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gt9ft54p",
+    "slug": "payment-check",
+    "name": {
+      "pt": "Pagamento aprovado",
+      "en": "Payment approved"
+    },
+    "subcategory": "payments",
+    "family": "credit-card",
+    "variantOf": "credit-card",
+    "synonyms": {
+      "pt": ["pagamento confirmado", "cartão aprovado"],
+      "en": ["payment success", "card approved"]
+    },
+    "tags": {
+      "pt": ["transação aprovada", "sucesso", "pago"],
+      "en": ["transaction approved", "paid", "success"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gngecn6s",
+    "slug": "payment-terminal",
+    "name": {
+      "pt": "Maquininha",
+      "en": "Payment terminal"
+    },
+    "subcategory": "payments",
+    "synonyms": {
+      "pt": ["terminal de pagamento", "máquina de cartão", "POS"],
+      "en": ["card machine", "POS terminal", "card reader"]
+    },
+    "tags": {
+      "pt": ["pagar com cartão", "débito", "crédito", "ponto de venda"],
+      "en": ["card payment", "debit", "credit", "point of sale"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gc7r87gm",
+    "slug": "payment-x",
+    "name": {
+      "pt": "Pagamento recusado",
+      "en": "Payment declined"
+    },
+    "subcategory": "payments",
+    "family": "credit-card",
+    "variantOf": "credit-card",
+    "synonyms": {
+      "pt": ["pagamento negado", "cartão recusado"],
+      "en": ["payment failed", "card declined"]
+    },
+    "tags": {
+      "pt": ["transação recusada", "falha", "erro no pagamento"],
+      "en": ["transaction declined", "error", "failure"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0qg9mf0",
+    "slug": "percent-badge",
+    "name": {
+      "pt": "Selo de desconto",
+      "en": "Percent badge"
+    },
+    "subcategory": "shopping",
+    "synonyms": {
+      "pt": ["selo de porcentagem", "selo de oferta"],
+      "en": ["discount badge", "sale badge"]
+    },
+    "tags": {
+      "pt": ["promoção", "liquidação", "oferta especial", "off"],
+      "en": ["promotion", "deal", "special offer", "percent off"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g20shtkn",
+    "slug": "qr-code-pay",
+    "name": {
+      "pt": "Pagar com QR code",
+      "en": "QR code payment"
+    },
+    "subcategory": "payments",
+    "synonyms": {
+      "pt": ["pagamento por QR code", "código QR"],
+      "en": ["pay with QR", "scan to pay"]
+    },
+    "tags": {
+      "pt": ["escanear", "pagamento instantâneo", "celular", "transferência"],
+      "en": ["scan", "instant payment", "mobile", "transfer"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3fw3ets",
+    "slug": "receipt",
+    "name": {
+      "pt": "Recibo",
+      "en": "Receipt"
+    },
+    "subcategory": "shopping",
+    "family": "receipt",
+    "synonyms": {
+      "pt": ["comprovante", "cupom fiscal", "nota"],
+      "en": ["proof of purchase", "sales slip"]
+    },
+    "tags": {
+      "pt": ["compra", "pagamento", "valor", "conta"],
+      "en": ["purchase", "payment", "amount", "bill"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpr700sq",
+    "slug": "receipt-text",
+    "name": {
+      "pt": "Recibo detalhado",
+      "en": "Itemized receipt"
+    },
+    "subcategory": "payments",
+    "family": "receipt",
+    "synonyms": {
+      "pt": ["comprovante com itens", "nota fiscal"],
+      "en": ["receipt text", "sales receipt"]
+    },
+    "tags": {
+      "pt": ["extrato", "itens da compra", "lista", "cupom"],
+      "en": ["itemized", "purchase list", "statement", "slip"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkbyaxef",
+    "slug": "refund",
+    "name": {
+      "pt": "Reembolso",
+      "en": "Refund"
+    },
+    "subcategory": "payments",
+    "synonyms": {
+      "pt": ["estorno", "devolução do dinheiro"],
+      "en": ["chargeback", "money back"]
+    },
+    "tags": {
+      "pt": ["dinheiro de volta", "cancelamento", "ressarcimento"],
+      "en": ["reimbursement", "return payment", "cancel"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ga869aqn",
+    "slug": "returns",
+    "name": {
+      "pt": "Devolução",
+      "en": "Returns"
+    },
+    "subcategory": "delivery",
+    "family": "parcel",
+    "synonyms": {
+      "pt": ["devolver", "troca"],
+      "en": ["return package", "send back"]
+    },
+    "tags": {
+      "pt": ["retorno de produto", "logística reversa", "reembolso"],
+      "en": ["product return", "reverse logistics", "exchange"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5pemyq8",
+    "slug": "sale-sign",
+    "name": {
+      "pt": "Placa de liquidação",
+      "en": "Sale sign"
+    },
+    "subcategory": "shopping",
+    "synonyms": {
+      "pt": ["placa de promoção", "cartaz de oferta"],
+      "en": ["hanging sign", "promo sign"]
+    },
+    "tags": {
+      "pt": ["liquidação", "saldão", "desconto", "vitrine"],
+      "en": ["clearance", "sale", "discount", "shop window"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gftm6eey",
+    "slug": "shipping",
+    "name": {
+      "pt": "Envio rápido",
+      "en": "Fast shipping"
+    },
+    "subcategory": "delivery",
+    "family": "parcel",
+    "synonyms": {
+      "pt": ["despacho", "expedição"],
+      "en": ["dispatch", "express shipping"]
+    },
+    "tags": {
+      "pt": ["entrega expressa", "frete", "encomenda a caminho"],
+      "en": ["express delivery", "freight", "on the way"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "geqpaaqj",
+    "slug": "shopping-bag",
+    "name": {
+      "pt": "Sacola de compras",
+      "en": "Shopping bag"
+    },
+    "subcategory": "shopping",
+    "family": "shopping-bag",
+    "synonyms": {
+      "pt": ["sacola", "bolsa de compras"],
+      "en": ["bag", "tote"]
+    },
+    "tags": {
+      "pt": ["comprar", "loja", "ecommerce", "moda", "pedido"],
+      "en": ["buy", "shop", "store", "ecommerce", "fashion"]
+    },
+    "popularity": 5,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggvntcz2",
+    "slug": "shopping-cart",
+    "name": {
+      "pt": "Carrinho de compras",
+      "en": "Shopping cart"
+    },
+    "subcategory": "shopping",
+    "family": "shopping-cart",
+    "synonyms": {
+      "pt": ["carrinho", "cesta"],
+      "en": ["cart", "basket", "trolley"]
+    },
+    "tags": {
+      "pt": ["comprar", "loja", "ecommerce", "checkout", "pedido"],
+      "en": ["buy", "shop", "ecommerce", "checkout"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5tspm07",
+    "slug": "store",
+    "name": {
+      "pt": "Loja",
+      "en": "Store"
+    },
+    "subcategory": "shopping",
+    "synonyms": {
+      "pt": ["comércio", "estabelecimento", "toldo"],
+      "en": ["shop", "retail store", "awning"]
+    },
+    "tags": {
+      "pt": ["varejo", "ponto de venda", "negócio local", "mercado"],
+      "en": ["retail", "point of sale", "local business", "market"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gva2gkqa",
+    "slug": "storefront",
+    "name": {
+      "pt": "Fachada da loja",
+      "en": "Storefront"
+    },
+    "subcategory": "shopping",
+    "synonyms": {
+      "pt": ["vitrine", "frente da loja"],
+      "en": ["shopfront", "shop window"]
+    },
+    "tags": {
+      "pt": ["comércio", "varejo", "loja física", "vitrine de loja"],
+      "en": ["commerce", "retail", "brick and mortar", "display window"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gj10g57r",
+    "slug": "tag",
+    "name": {
+      "pt": "Etiqueta",
+      "en": "Tag"
+    },
+    "subcategory": "shopping",
+    "synonyms": {
+      "pt": ["tag", "rótulo", "preço"],
+      "en": ["label", "price tag"]
+    },
+    "tags": {
+      "pt": ["categoria", "promoção", "desconto", "marcar"],
+      "en": ["category", "sale", "discount"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gndv4zfk",
+    "slug": "tags",
+    "name": {
+      "pt": "Etiquetas",
+      "en": "Tags"
+    },
+    "subcategory": "shopping",
+    "family": "tag",
+    "synonyms": {
+      "pt": ["tags", "rótulos", "várias etiquetas"],
+      "en": ["labels", "price tags"]
+    },
+    "tags": {
+      "pt": ["preços", "categorias", "marcadores", "promoção"],
+      "en": ["prices", "categories", "markers", "sale"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gjrtsep5",
+    "slug": "tracking",
+    "name": {
+      "pt": "Rastreamento",
+      "en": "Tracking"
+    },
+    "subcategory": "delivery",
+    "synonyms": {
+      "pt": ["rastrear pedido", "acompanhar entrega"],
+      "en": ["track order", "track package"]
+    },
+    "tags": {
+      "pt": ["localização", "status do pedido", "onde está"],
+      "en": ["location", "order status", "where is my order"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gyvhq7ps",
+    "slug": "truck-delivery",
+    "name": {
+      "pt": "Caminhão de entrega",
+      "en": "Delivery truck"
+    },
+    "subcategory": "delivery",
+    "synonyms": {
+      "pt": ["entrega", "transportadora"],
+      "en": ["delivery van", "carrier"]
+    },
+    "tags": {
+      "pt": ["frete", "envio", "logística", "a caminho"],
+      "en": ["freight", "shipping", "logistics", "on the way"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g6519zqd",
+    "slug": "warehouse",
+    "name": {
+      "pt": "Armazém",
+      "en": "Warehouse"
+    },
+    "subcategory": "delivery",
+    "synonyms": {
+      "pt": ["depósito", "galpão", "centro de distribuição"],
+      "en": ["depot", "storehouse", "distribution center"]
+    },
+    "tags": {
+      "pt": ["estoque", "logística", "armazenagem"],
+      "en": ["stock", "logistics", "storage"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  }
+]

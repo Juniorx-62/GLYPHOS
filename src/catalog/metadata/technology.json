@@ -1,0 +1,1727 @@
+[
+  {
+    "id": "gh6d7aqv",
+    "slug": "antenna",
+    "name": {
+      "pt": "Antena",
+      "en": "Antenna"
+    },
+    "subcategory": "connectivity",
+    "synonyms": {
+      "pt": ["torre de transmissão", "torre de rádio"],
+      "en": ["radio tower", "broadcast tower"]
+    },
+    "tags": {
+      "pt": ["transmissão", "sinal", "rádio", "telecomunicação"],
+      "en": ["broadcast", "signal", "radio", "telecom"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gry53nq2",
+    "slug": "barcode",
+    "name": {
+      "pt": "Código de barras",
+      "en": "Barcode"
+    },
+    "subcategory": "connectivity",
+    "synonyms": {
+      "pt": ["código", "EAN"],
+      "en": ["bar code", "upc", "ean"]
+    },
+    "tags": {
+      "pt": ["escanear", "produto", "leitura", "etiqueta"],
+      "en": ["scan", "product", "label"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g11ht4w4",
+    "slug": "battery",
+    "name": {
+      "pt": "Bateria",
+      "en": "Battery"
+    },
+    "subcategory": "power",
+    "family": "battery",
+    "synonyms": {
+      "pt": ["pilha", "carga"],
+      "en": ["cell", "charge"]
+    },
+    "tags": {
+      "pt": ["energia", "nível de bateria", "bateria vazia"],
+      "en": ["power", "battery level", "empty battery"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gd817dc7",
+    "slug": "battery-charging",
+    "name": {
+      "pt": "Bateria carregando",
+      "en": "Battery charging"
+    },
+    "subcategory": "power",
+    "family": "battery",
+    "variantOf": "battery",
+    "synonyms": {
+      "pt": ["carregando", "recarga"],
+      "en": ["charging", "recharging"]
+    },
+    "tags": {
+      "pt": ["energia", "carregador", "raio"],
+      "en": ["power", "charger", "bolt"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g62bhc94",
+    "slug": "battery-full",
+    "name": {
+      "pt": "Bateria cheia",
+      "en": "Battery full"
+    },
+    "subcategory": "power",
+    "family": "battery",
+    "variantOf": "battery",
+    "synonyms": {
+      "pt": ["carga completa", "100%"],
+      "en": ["full charge", "charged"]
+    },
+    "tags": {
+      "pt": ["energia", "carregado", "nível de bateria"],
+      "en": ["power", "battery level", "100 percent"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqbbbm98",
+    "slug": "battery-low",
+    "name": {
+      "pt": "Bateria fraca",
+      "en": "Battery low"
+    },
+    "subcategory": "power",
+    "family": "battery",
+    "variantOf": "battery",
+    "synonyms": {
+      "pt": ["pouca carga", "bateria baixa"],
+      "en": ["low charge", "weak battery"]
+    },
+    "tags": {
+      "pt": ["energia", "carregar", "nível de bateria"],
+      "en": ["power", "recharge", "battery level"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gs5wfw0z",
+    "slug": "battery-medium",
+    "name": {
+      "pt": "Bateria média",
+      "en": "Battery medium"
+    },
+    "subcategory": "power",
+    "family": "battery",
+    "variantOf": "battery",
+    "synonyms": {
+      "pt": ["meia carga", "50%"],
+      "en": ["half charge", "half battery"]
+    },
+    "tags": {
+      "pt": ["energia", "nível de bateria"],
+      "en": ["power", "battery level", "50 percent"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3nh11r1",
+    "slug": "battery-warning",
+    "name": {
+      "pt": "Alerta de bateria",
+      "en": "Battery warning"
+    },
+    "subcategory": "power",
+    "family": "battery",
+    "variantOf": "battery",
+    "synonyms": {
+      "pt": ["bateria crítica", "problema na bateria"],
+      "en": ["battery alert", "critical battery"]
+    },
+    "tags": {
+      "pt": ["aviso", "energia", "carga baixa"],
+      "en": ["warning", "power", "low charge"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0hnnvkf",
+    "slug": "bot",
+    "name": {
+      "pt": "Chatbot",
+      "en": "Bot"
+    },
+    "subcategory": "devices",
+    "synonyms": {
+      "pt": ["bot", "assistente virtual"],
+      "en": ["chatbot", "virtual assistant"]
+    },
+    "tags": {
+      "pt": ["atendimento automático", "IA", "conversa", "robô"],
+      "en": ["automated support", "ai", "chat", "robot"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpq99bkx",
+    "slug": "cable",
+    "name": {
+      "pt": "Cabo",
+      "en": "Cable"
+    },
+    "subcategory": "connectivity",
+    "synonyms": {
+      "pt": ["cabo USB", "fio", "conector"],
+      "en": ["usb cable", "cord", "wire"]
+    },
+    "tags": {
+      "pt": ["conectar", "carregar", "plugue", "ligação"],
+      "en": ["connect", "charge", "plug", "connector"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnh9vzq6",
+    "slug": "cast",
+    "name": {
+      "pt": "Transmitir para tela",
+      "en": "Cast"
+    },
+    "subcategory": "connectivity",
+    "synonyms": {
+      "pt": ["espelhar", "cast", "enviar para TV"],
+      "en": ["cast to screen", "cast to tv"]
+    },
+    "tags": {
+      "pt": ["transmissão", "tela", "TV", "chromecast"],
+      "en": ["stream", "screen", "tv", "mirroring"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gfvjfvhk",
+    "slug": "cd-disc",
+    "name": {
+      "pt": "CD",
+      "en": "CD"
+    },
+    "subcategory": "hardware",
+    "synonyms": {
+      "pt": ["disco", "DVD", "disco óptico"],
+      "en": ["disc", "dvd", "optical disc"]
+    },
+    "tags": {
+      "pt": ["mídia", "música", "gravar", "blu-ray"],
+      "en": ["media", "music", "burn", "blu-ray"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g59tgwvq",
+    "slug": "charger",
+    "name": {
+      "pt": "Carregador",
+      "en": "Charger"
+    },
+    "subcategory": "power",
+    "synonyms": {
+      "pt": ["fonte", "carregador de celular"],
+      "en": ["power adapter", "phone charger"]
+    },
+    "tags": {
+      "pt": ["carregar", "tomada", "cabo", "energia"],
+      "en": ["charge", "outlet", "cable", "power"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gk6ny5qz",
+    "slug": "chip",
+    "name": {
+      "pt": "Circuito integrado",
+      "en": "Chip"
+    },
+    "subcategory": "hardware",
+    "synonyms": {
+      "pt": ["chip", "CI", "componente eletrônico"],
+      "en": ["integrated circuit", "ic", "microchip"]
+    },
+    "tags": {
+      "pt": ["eletrônica", "hardware", "semicondutor"],
+      "en": ["electronics", "hardware", "semiconductor"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gccgh0h8",
+    "slug": "circuit-board",
+    "name": {
+      "pt": "Placa de circuito",
+      "en": "Circuit board"
+    },
+    "subcategory": "hardware",
+    "synonyms": {
+      "pt": ["circuito impresso", "PCB"],
+      "en": ["printed circuit board", "pcb"]
+    },
+    "tags": {
+      "pt": ["eletrônica", "trilhas", "hardware"],
+      "en": ["electronics", "traces", "hardware"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7zxkex0",
+    "slug": "command",
+    "name": {
+      "pt": "Comando",
+      "en": "Command"
+    },
+    "subcategory": "hardware",
+    "synonyms": {
+      "pt": ["tecla command", "cmd"],
+      "en": ["cmd key"]
+    },
+    "tags": {
+      "pt": ["atalho", "mac", "teclado"],
+      "en": ["shortcut", "mac", "keyboard"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gm1afspt",
+    "slug": "cpu",
+    "name": {
+      "pt": "Processador",
+      "en": "CPU"
+    },
+    "subcategory": "hardware",
+    "synonyms": {
+      "pt": ["CPU", "chip do processador"],
+      "en": ["processor", "central processing unit"]
+    },
+    "tags": {
+      "pt": ["hardware", "computação", "desempenho", "núcleo"],
+      "en": ["hardware", "computing", "performance", "core"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4md4h0b",
+    "slug": "desktop-tower",
+    "name": {
+      "pt": "Gabinete",
+      "en": "Desktop tower"
+    },
+    "subcategory": "devices",
+    "synonyms": {
+      "pt": ["torre", "CPU", "computador de mesa"],
+      "en": ["pc tower", "computer case"]
+    },
+    "tags": {
+      "pt": ["pc", "desktop", "hardware"],
+      "en": ["pc", "desktop", "hardware"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gb7a4zhn",
+    "slug": "devices",
+    "name": {
+      "pt": "Dispositivos",
+      "en": "Devices"
+    },
+    "subcategory": "devices",
+    "synonyms": {
+      "pt": ["tablet e celular", "aparelhos"],
+      "en": ["tablet and phone", "gadgets"]
+    },
+    "tags": {
+      "pt": ["multiplataforma", "sincronizar", "desktop e mobile"],
+      "en": ["cross-platform", "sync", "desktop and mobile"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g9c7b7j5",
+    "slug": "drone",
+    "name": {
+      "pt": "Drone",
+      "en": "Drone"
+    },
+    "subcategory": "devices",
+    "synonyms": {
+      "pt": ["quadricóptero", "VANT"],
+      "en": ["quadcopter", "uav"]
+    },
+    "tags": {
+      "pt": ["voar", "aéreo", "filmagem aérea", "controle remoto"],
+      "en": ["fly", "aerial", "aerial footage", "remote control"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gfsdrnxs",
+    "slug": "e-reader",
+    "name": {
+      "pt": "Leitor digital",
+      "en": "E-reader"
+    },
+    "subcategory": "devices",
+    "synonyms": {
+      "pt": ["e-reader", "leitor de livros digitais"],
+      "en": ["ebook reader", "e-book reader"]
+    },
+    "tags": {
+      "pt": ["ebook", "livro digital", "leitura"],
+      "en": ["ebook", "digital book", "reading"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gfqjs9tg",
+    "slug": "ethernet-port",
+    "name": {
+      "pt": "Porta de rede",
+      "en": "Ethernet port"
+    },
+    "subcategory": "connectivity",
+    "synonyms": {
+      "pt": ["porta ethernet", "RJ45", "conector de rede"],
+      "en": ["network port", "rj45", "lan port"]
+    },
+    "tags": {
+      "pt": ["cabo de rede", "LAN", "internet cabeada"],
+      "en": ["network cable", "lan", "wired internet"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkrh0aah",
+    "slug": "fan-cooler",
+    "name": {
+      "pt": "Cooler",
+      "en": "Fan cooler"
+    },
+    "subcategory": "hardware",
+    "synonyms": {
+      "pt": ["ventoinha", "ventilador do computador"],
+      "en": ["cooling fan", "case fan"]
+    },
+    "tags": {
+      "pt": ["resfriamento", "hardware", "temperatura", "refrigeração"],
+      "en": ["cooling", "hardware", "temperature", "airflow"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gp80jh0n",
+    "slug": "floppy-disk",
+    "name": {
+      "pt": "Disquete",
+      "en": "Floppy disk"
+    },
+    "subcategory": "hardware",
+    "synonyms": {
+      "pt": ["disco flexível"],
+      "en": ["diskette", "floppy"]
+    },
+    "tags": {
+      "pt": ["salvar", "gravar", "armazenamento", "retrô"],
+      "en": ["save", "storage", "retro"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ge5y13r8",
+    "slug": "game-controller",
+    "name": {
+      "pt": "Controle de videogame",
+      "en": "Game controller"
+    },
+    "subcategory": "devices",
+    "synonyms": {
+      "pt": ["joystick", "gamepad", "controle"],
+      "en": ["gamepad", "joypad", "controller"]
+    },
+    "tags": {
+      "pt": ["jogo", "game", "console", "jogar"],
+      "en": ["game", "gaming", "console", "play"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gph5w2sj",
+    "slug": "gpu",
+    "name": {
+      "pt": "Placa de vídeo",
+      "en": "GPU"
+    },
+    "subcategory": "hardware",
+    "synonyms": {
+      "pt": ["GPU", "placa gráfica"],
+      "en": ["graphics card", "video card"]
+    },
+    "tags": {
+      "pt": ["hardware", "jogos", "gráficos", "renderização"],
+      "en": ["hardware", "gaming", "graphics", "rendering"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g24pa2xs",
+    "slug": "hard-drive",
+    "name": {
+      "pt": "Disco rígido",
+      "en": "Hard drive"
+    },
+    "subcategory": "hardware",
+    "synonyms": {
+      "pt": ["HD", "HDD", "disco"],
+      "en": ["hdd", "hard disk"]
+    },
+    "tags": {
+      "pt": ["armazenamento", "hardware", "dados", "backup"],
+      "en": ["storage", "hardware", "data", "backup"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1j0qcmt",
+    "slug": "hotspot",
+    "name": {
+      "pt": "Roteador portátil",
+      "en": "Hotspot"
+    },
+    "subcategory": "connectivity",
+    "synonyms": {
+      "pt": ["hotspot", "ponto de acesso", "ancoragem"],
+      "en": ["mobile hotspot", "access point", "tethering"]
+    },
+    "tags": {
+      "pt": ["compartilhar internet", "wi-fi", "celular", "tethering"],
+      "en": ["share internet", "wifi", "phone"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggcrepxp",
+    "slug": "joystick",
+    "name": {
+      "pt": "Joystick",
+      "en": "Joystick"
+    },
+    "subcategory": "devices",
+    "synonyms": {
+      "pt": ["alavanca de jogo", "controle arcade"],
+      "en": ["arcade stick", "control stick"]
+    },
+    "tags": {
+      "pt": ["fliperama", "game", "jogo", "arcade"],
+      "en": ["arcade", "game", "gaming"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gc4z54he",
+    "slug": "keyboard",
+    "name": {
+      "pt": "Teclado",
+      "en": "Keyboard"
+    },
+    "subcategory": "hardware",
+    "synonyms": {
+      "pt": ["teclas", "digitação"],
+      "en": ["keys", "typing"]
+    },
+    "tags": {
+      "pt": ["atalhos", "digitar", "entrada"],
+      "en": ["shortcuts", "input"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmfqh6d8",
+    "slug": "laptop",
+    "name": {
+      "pt": "Notebook",
+      "en": "Laptop"
+    },
+    "subcategory": "devices",
+    "synonyms": {
+      "pt": ["laptop", "computador portátil"],
+      "en": ["notebook", "portable computer"]
+    },
+    "tags": {
+      "pt": ["computador", "trabalho remoto", "dispositivo", "tela"],
+      "en": ["computer", "device", "remote work", "screen"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwvbbc22",
+    "slug": "memory-stick",
+    "name": {
+      "pt": "Memória RAM",
+      "en": "Memory stick"
+    },
+    "subcategory": "hardware",
+    "synonyms": {
+      "pt": ["pente de memória", "módulo de memória"],
+      "en": ["ram", "memory module"]
+    },
+    "tags": {
+      "pt": ["hardware", "ram", "memória"],
+      "en": ["hardware", "memory", "dimm"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grvan3n3",
+    "slug": "microchip-ai",
+    "name": {
+      "pt": "Chip de IA",
+      "en": "AI chip"
+    },
+    "subcategory": "hardware",
+    "synonyms": {
+      "pt": ["processador de inteligência artificial", "NPU"],
+      "en": ["ai processor", "npu"]
+    },
+    "tags": {
+      "pt": ["inteligência artificial", "IA", "aprendizado de máquina", "neural"],
+      "en": ["artificial intelligence", "ai", "machine learning", "neural"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gt5j0760",
+    "slug": "monitor",
+    "name": {
+      "pt": "Monitor",
+      "en": "Monitor"
+    },
+    "subcategory": "devices",
+    "synonyms": {
+      "pt": ["tela", "computador", "desktop"],
+      "en": ["screen", "desktop", "display"]
+    },
+    "tags": {
+      "pt": ["tema do sistema", "display", "pc"],
+      "en": ["computer", "system theme"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g18mck5t",
+    "slug": "monitor-off",
+    "name": {
+      "pt": "Monitor desligado",
+      "en": "Monitor off"
+    },
+    "subcategory": "devices",
+    "family": "monitor",
+    "variantOf": "monitor",
+    "synonyms": {
+      "pt": ["tela desligada", "sem sinal"],
+      "en": ["screen off", "no signal"]
+    },
+    "tags": {
+      "pt": ["tela apagada", "desconectado", "sem vídeo"],
+      "en": ["blank screen", "disconnected", "no video"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gz2pq78r",
+    "slug": "monitor-smartphone",
+    "name": {
+      "pt": "Monitor e celular",
+      "en": "Monitor and smartphone"
+    },
+    "subcategory": "devices",
+    "synonyms": {
+      "pt": ["multiplataforma", "responsivo"],
+      "en": ["responsive", "cross-platform"]
+    },
+    "tags": {
+      "pt": ["dispositivos", "desktop e mobile", "design responsivo"],
+      "en": ["devices", "desktop and mobile", "responsive design"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5b6q8k8",
+    "slug": "motherboard",
+    "name": {
+      "pt": "Placa-mãe",
+      "en": "Motherboard"
+    },
+    "subcategory": "hardware",
+    "synonyms": {
+      "pt": ["placa mãe", "mainboard"],
+      "en": ["mainboard", "logic board"]
+    },
+    "tags": {
+      "pt": ["hardware", "computador", "componentes", "pc"],
+      "en": ["hardware", "computer", "components", "pc"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g59a9gsc",
+    "slug": "mouse",
+    "name": {
+      "pt": "Mouse",
+      "en": "Mouse"
+    },
+    "subcategory": "devices",
+    "synonyms": {
+      "pt": ["rato", "mouse de computador"],
+      "en": ["computer mouse"]
+    },
+    "tags": {
+      "pt": ["clique", "rolagem", "periférico"],
+      "en": ["click", "scroll", "peripheral"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gg9armt3",
+    "slug": "network",
+    "name": {
+      "pt": "Rede",
+      "en": "Network"
+    },
+    "subcategory": "connectivity",
+    "synonyms": {
+      "pt": ["rede local", "LAN", "topologia"],
+      "en": ["lan", "local network", "topology"]
+    },
+    "tags": {
+      "pt": ["conexão", "computadores", "servidor", "nós"],
+      "en": ["connection", "computers", "nodes"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggqqv9pn",
+    "slug": "nfc",
+    "name": {
+      "pt": "NFC",
+      "en": "NFC"
+    },
+    "subcategory": "connectivity",
+    "synonyms": {
+      "pt": ["aproximação", "comunicação por campo próximo"],
+      "en": ["near field communication", "tap"]
+    },
+    "tags": {
+      "pt": ["pagamento por aproximação", "sem contato", "tag", "celular"],
+      "en": ["contactless payment", "tap to pay", "tag", "phone"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0jtday3",
+    "slug": "outlet",
+    "name": {
+      "pt": "Tomada",
+      "en": "Outlet"
+    },
+    "subcategory": "power",
+    "synonyms": {
+      "pt": ["tomada de parede", "ponto de energia"],
+      "en": ["power outlet", "wall socket", "socket"]
+    },
+    "tags": {
+      "pt": ["eletricidade", "energia", "plugue", "soquete"],
+      "en": ["electricity", "power", "plug"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzay7ys4",
+    "slug": "plug",
+    "name": {
+      "pt": "Plugue",
+      "en": "Plug"
+    },
+    "subcategory": "power",
+    "family": "plug",
+    "synonyms": {
+      "pt": ["tomada macho", "pino", "conector"],
+      "en": ["power plug", "electric plug"]
+    },
+    "tags": {
+      "pt": ["energia", "elétrico", "conectar", "eletricidade"],
+      "en": ["power", "electric", "connect", "electricity"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5krda2g",
+    "slug": "plug-zap",
+    "name": {
+      "pt": "Plugue com energia",
+      "en": "Plug zap"
+    },
+    "subcategory": "power",
+    "family": "plug",
+    "variantOf": "plug",
+    "synonyms": {
+      "pt": ["plugue ligado", "carregando"],
+      "en": ["live plug", "plugged in"]
+    },
+    "tags": {
+      "pt": ["eletricidade", "energia", "conectado", "raio"],
+      "en": ["electricity", "power", "connected", "bolt"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gtn66fjr",
+    "slug": "power",
+    "name": {
+      "pt": "Liga/desliga",
+      "en": "Power"
+    },
+    "subcategory": "power",
+    "family": "power",
+    "synonyms": {
+      "pt": ["ligar", "desligar", "energia"],
+      "en": ["power button", "on off"]
+    },
+    "tags": {
+      "pt": ["botão de energia", "power", "iniciar", "encerrar"],
+      "en": ["turn on", "shut down", "switch", "start"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqsapz0n",
+    "slug": "power-off",
+    "name": {
+      "pt": "Desligado",
+      "en": "Power off"
+    },
+    "subcategory": "power",
+    "family": "power",
+    "variantOf": "power",
+    "synonyms": {
+      "pt": ["sem energia", "desligar"],
+      "en": ["turned off", "no power"]
+    },
+    "tags": {
+      "pt": ["power off", "desativado", "inativo"],
+      "en": ["shut down", "disabled", "inactive"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gatg66mk",
+    "slug": "printer",
+    "name": {
+      "pt": "Impressora",
+      "en": "Printer"
+    },
+    "subcategory": "devices",
+    "synonyms": {
+      "pt": ["imprimir", "impressão"],
+      "en": ["print", "printing"]
+    },
+    "tags": {
+      "pt": ["papel", "documento", "cópia"],
+      "en": ["paper", "document", "copy"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grcknkmq",
+    "slug": "projector",
+    "name": {
+      "pt": "Projetor",
+      "en": "Projector"
+    },
+    "subcategory": "devices",
+    "synonyms": {
+      "pt": ["datashow", "retroprojetor"],
+      "en": ["beamer"]
+    },
+    "tags": {
+      "pt": ["apresentação", "cinema", "slides", "tela de projeção"],
+      "en": ["presentation", "cinema", "slides"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwny6d8s",
+    "slug": "qr-code",
+    "name": {
+      "pt": "QR code",
+      "en": "QR code"
+    },
+    "subcategory": "connectivity",
+    "synonyms": {
+      "pt": ["código QR", "código de barras 2D"],
+      "en": ["qr", "2d barcode"]
+    },
+    "tags": {
+      "pt": ["escanear", "ler código", "pix", "link"],
+      "en": ["scan", "read code", "link"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g63x85fh",
+    "slug": "robot",
+    "name": {
+      "pt": "Robô",
+      "en": "Robot"
+    },
+    "subcategory": "devices",
+    "synonyms": {
+      "pt": ["androide", "autômato"],
+      "en": ["android", "automaton"]
+    },
+    "tags": {
+      "pt": ["automação", "inteligência artificial", "IA", "máquina"],
+      "en": ["automation", "artificial intelligence", "ai", "machine"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3zntbxy",
+    "slug": "router",
+    "name": {
+      "pt": "Roteador",
+      "en": "Router"
+    },
+    "subcategory": "connectivity",
+    "synonyms": {
+      "pt": ["modem", "roteador wi-fi"],
+      "en": ["modem", "wifi router"]
+    },
+    "tags": {
+      "pt": ["internet", "rede", "wi-fi", "conexão"],
+      "en": ["internet", "network", "wifi", "connection"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggg17awy",
+    "slug": "satellite",
+    "name": {
+      "pt": "Satélite",
+      "en": "Satellite"
+    },
+    "subcategory": "connectivity",
+    "synonyms": {
+      "pt": ["satélite artificial", "órbita"],
+      "en": ["orbiter"]
+    },
+    "tags": {
+      "pt": ["espaço", "comunicação", "GPS", "transmissão"],
+      "en": ["space", "communication", "gps", "broadcast"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g507623t",
+    "slug": "satellite-dish",
+    "name": {
+      "pt": "Antena parabólica",
+      "en": "Satellite dish"
+    },
+    "subcategory": "connectivity",
+    "synonyms": {
+      "pt": ["parabólica", "prato de satélite"],
+      "en": ["dish antenna", "parabolic antenna"]
+    },
+    "tags": {
+      "pt": ["sinal", "transmissão", "TV via satélite", "recepção"],
+      "en": ["signal", "broadcast", "satellite tv", "reception"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gevw9ahy",
+    "slug": "scanner",
+    "name": {
+      "pt": "Scanner",
+      "en": "Scanner"
+    },
+    "subcategory": "devices",
+    "synonyms": {
+      "pt": ["escâner", "digitalizador"],
+      "en": ["flatbed scanner", "digitizer"]
+    },
+    "tags": {
+      "pt": ["digitalizar", "escanear", "documento", "cópia"],
+      "en": ["scan", "document", "copy"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gaznjt4p",
+    "slug": "screen-mirror",
+    "name": {
+      "pt": "Espelhar tela",
+      "en": "Screen mirroring"
+    },
+    "subcategory": "connectivity",
+    "synonyms": {
+      "pt": ["espelhamento de tela", "transmitir tela"],
+      "en": ["mirror screen", "stream to screen"]
+    },
+    "tags": {
+      "pt": ["streaming", "TV", "projetar", "compartilhar tela"],
+      "en": ["streaming", "tv", "project", "share screen"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g6e9v2as",
+    "slug": "sd-card",
+    "name": {
+      "pt": "Cartão SD",
+      "en": "SD card"
+    },
+    "subcategory": "hardware",
+    "synonyms": {
+      "pt": ["cartão de memória", "micro SD"],
+      "en": ["memory card", "microsd"]
+    },
+    "tags": {
+      "pt": ["armazenamento", "câmera", "memória"],
+      "en": ["storage", "camera", "memory"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdqhj3jt",
+    "slug": "signal",
+    "name": {
+      "pt": "Sinal",
+      "en": "Signal"
+    },
+    "subcategory": "connectivity",
+    "family": "signal",
+    "synonyms": {
+      "pt": ["sinal de celular", "barras de sinal"],
+      "en": ["cell signal", "signal bars"]
+    },
+    "tags": {
+      "pt": ["rede móvel", "cobertura", "4g", "5g", "intensidade"],
+      "en": ["mobile network", "coverage", "reception", "strength"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0w1evf3",
+    "slug": "signal-high",
+    "name": {
+      "pt": "Sinal bom",
+      "en": "Signal high"
+    },
+    "subcategory": "connectivity",
+    "family": "signal",
+    "variantOf": "signal",
+    "synonyms": {
+      "pt": ["sinal alto", "sinal forte"],
+      "en": ["strong signal", "good reception"]
+    },
+    "tags": {
+      "pt": ["rede móvel", "cobertura", "intensidade"],
+      "en": ["mobile network", "coverage", "strength"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ghnf2ra5",
+    "slug": "signal-low",
+    "name": {
+      "pt": "Sinal fraco",
+      "en": "Signal low"
+    },
+    "subcategory": "connectivity",
+    "family": "signal",
+    "variantOf": "signal",
+    "synonyms": {
+      "pt": ["pouco sinal", "sinal baixo"],
+      "en": ["weak signal", "poor reception"]
+    },
+    "tags": {
+      "pt": ["rede móvel", "cobertura ruim", "intensidade"],
+      "en": ["mobile network", "bad coverage", "strength"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gezsjwcm",
+    "slug": "sim-card",
+    "name": {
+      "pt": "Chip de celular",
+      "en": "SIM card"
+    },
+    "subcategory": "hardware",
+    "synonyms": {
+      "pt": ["cartão SIM", "chip da operadora"],
+      "en": ["sim", "phone chip"]
+    },
+    "tags": {
+      "pt": ["operadora", "telefone", "eSIM", "rede móvel"],
+      "en": ["carrier", "phone", "esim", "mobile network"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g63gqjgt",
+    "slug": "smart-speaker",
+    "name": {
+      "pt": "Caixa de som inteligente",
+      "en": "Smart speaker"
+    },
+    "subcategory": "devices",
+    "synonyms": {
+      "pt": ["alto-falante inteligente", "assistente de voz"],
+      "en": ["voice assistant", "home speaker"]
+    },
+    "tags": {
+      "pt": ["voz", "casa inteligente", "smart home", "música"],
+      "en": ["voice", "smart home", "music"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grqpddf1",
+    "slug": "smartphone",
+    "name": {
+      "pt": "Celular",
+      "en": "Smartphone"
+    },
+    "subcategory": "devices",
+    "synonyms": {
+      "pt": ["smartphone", "telefone celular"],
+      "en": ["mobile phone", "cell phone"]
+    },
+    "tags": {
+      "pt": ["dispositivo móvel", "mobile", "aplicativo", "tela"],
+      "en": ["mobile", "device", "app", "screen"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ger8mxpn",
+    "slug": "smartwatch",
+    "name": {
+      "pt": "Relógio inteligente",
+      "en": "Smartwatch"
+    },
+    "subcategory": "devices",
+    "synonyms": {
+      "pt": ["smartwatch", "relógio digital"],
+      "en": ["smart watch", "digital watch"]
+    },
+    "tags": {
+      "pt": ["vestível", "pulso", "wearable", "fitness"],
+      "en": ["wearable", "wrist", "fitness"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbxzzmg9",
+    "slug": "ssd",
+    "name": {
+      "pt": "SSD",
+      "en": "SSD"
+    },
+    "subcategory": "hardware",
+    "synonyms": {
+      "pt": ["unidade de estado sólido", "M.2"],
+      "en": ["solid state drive", "m.2"]
+    },
+    "tags": {
+      "pt": ["armazenamento", "hardware", "disco", "nvme"],
+      "en": ["storage", "hardware", "drive", "nvme"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g02zynd7",
+    "slug": "stylus",
+    "name": {
+      "pt": "Caneta digital",
+      "en": "Stylus"
+    },
+    "subcategory": "devices",
+    "synonyms": {
+      "pt": ["stylus", "caneta touch"],
+      "en": ["digital pen", "pen tablet"]
+    },
+    "tags": {
+      "pt": ["desenhar", "escrever", "tablet", "ilustração"],
+      "en": ["draw", "write", "tablet", "illustration"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzn6gv3h",
+    "slug": "tablet",
+    "name": {
+      "pt": "Tablet",
+      "en": "Tablet"
+    },
+    "subcategory": "devices",
+    "synonyms": {
+      "pt": ["prancheta digital", "ipad"],
+      "en": ["slate", "pad"]
+    },
+    "tags": {
+      "pt": ["dispositivo móvel", "tela", "leitura"],
+      "en": ["mobile", "device", "screen", "reading"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g755gpfr",
+    "slug": "touchscreen",
+    "name": {
+      "pt": "Tela sensível ao toque",
+      "en": "Touchscreen"
+    },
+    "subcategory": "devices",
+    "synonyms": {
+      "pt": ["touchscreen", "tela touch"],
+      "en": ["touch screen"]
+    },
+    "tags": {
+      "pt": ["toque", "tocar", "gesto", "tap"],
+      "en": ["touch", "tap", "gesture"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gfh9xtbg",
+    "slug": "trackpad",
+    "name": {
+      "pt": "Trackpad",
+      "en": "Trackpad"
+    },
+    "subcategory": "devices",
+    "synonyms": {
+      "pt": ["touchpad", "mousepad do notebook"],
+      "en": ["touchpad"]
+    },
+    "tags": {
+      "pt": ["gesto", "clique", "periférico"],
+      "en": ["gesture", "click", "peripheral"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g17fe26b",
+    "slug": "tv",
+    "name": {
+      "pt": "Televisão",
+      "en": "TV"
+    },
+    "subcategory": "devices",
+    "synonyms": {
+      "pt": ["TV", "televisor"],
+      "en": ["television", "telly"]
+    },
+    "tags": {
+      "pt": ["tela", "assistir", "canal", "smart tv"],
+      "en": ["screen", "watch", "channel", "smart tv"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g61d6j9r",
+    "slug": "usb-drive",
+    "name": {
+      "pt": "Pen drive",
+      "en": "USB drive"
+    },
+    "subcategory": "hardware",
+    "synonyms": {
+      "pt": ["pendrive", "memória USB"],
+      "en": ["flash drive", "thumb drive", "pen drive"]
+    },
+    "tags": {
+      "pt": ["armazenamento", "usb", "portátil", "dados"],
+      "en": ["storage", "usb", "portable", "data"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkvke09a",
+    "slug": "usb-symbol",
+    "name": {
+      "pt": "Símbolo USB",
+      "en": "USB symbol"
+    },
+    "subcategory": "connectivity",
+    "synonyms": {
+      "pt": ["USB", "conexão USB"],
+      "en": ["usb", "usb icon"]
+    },
+    "tags": {
+      "pt": ["porta", "cabo", "conector", "periférico"],
+      "en": ["port", "cable", "connector", "peripheral"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gtmbr79z",
+    "slug": "vr-headset",
+    "name": {
+      "pt": "Óculos de realidade virtual",
+      "en": "VR headset"
+    },
+    "subcategory": "devices",
+    "synonyms": {
+      "pt": ["headset VR", "óculos VR"],
+      "en": ["virtual reality headset", "vr goggles"]
+    },
+    "tags": {
+      "pt": ["realidade virtual", "metaverso", "imersivo", "3d"],
+      "en": ["virtual reality", "metaverse", "immersive", "3d"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7cy9g0g",
+    "slug": "webcam",
+    "name": {
+      "pt": "Webcam",
+      "en": "Webcam"
+    },
+    "subcategory": "hardware",
+    "synonyms": {
+      "pt": ["câmera do computador", "câmera web"],
+      "en": ["web camera", "computer camera"]
+    },
+    "tags": {
+      "pt": ["videochamada", "vídeo", "reunião", "transmissão"],
+      "en": ["video call", "video", "meeting", "streaming"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gb7rwjkb",
+    "slug": "wifi",
+    "name": {
+      "pt": "Wi-Fi",
+      "en": "Wi-Fi"
+    },
+    "subcategory": "connectivity",
+    "family": "wifi",
+    "synonyms": {
+      "pt": ["rede sem fio", "wireless"],
+      "en": ["wireless", "wlan"]
+    },
+    "tags": {
+      "pt": ["internet", "conexão", "sinal", "rede"],
+      "en": ["internet", "connection", "signal", "network"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gr867532",
+    "slug": "wifi-high",
+    "name": {
+      "pt": "Wi-Fi médio",
+      "en": "Wi-Fi medium"
+    },
+    "subcategory": "connectivity",
+    "family": "wifi",
+    "variantOf": "wifi",
+    "synonyms": {
+      "pt": ["sinal médio", "wi-fi bom"],
+      "en": ["medium wifi", "good signal"]
+    },
+    "tags": {
+      "pt": ["conexão", "intensidade", "rede"],
+      "en": ["connection", "strength", "network"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkwnt769",
+    "slug": "wifi-low",
+    "name": {
+      "pt": "Wi-Fi fraco",
+      "en": "Wi-Fi low"
+    },
+    "subcategory": "connectivity",
+    "family": "wifi",
+    "variantOf": "wifi",
+    "synonyms": {
+      "pt": ["sinal fraco", "wi-fi baixo"],
+      "en": ["weak wifi", "low signal"]
+    },
+    "tags": {
+      "pt": ["conexão ruim", "rede fraca", "intensidade"],
+      "en": ["poor connection", "weak network", "strength"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gb2aaswc",
+    "slug": "wifi-off",
+    "name": {
+      "pt": "Wi-Fi desligado",
+      "en": "Wi-Fi off"
+    },
+    "subcategory": "connectivity",
+    "family": "wifi",
+    "variantOf": "wifi",
+    "synonyms": {
+      "pt": ["sem wi-fi", "sem conexão"],
+      "en": ["no wifi", "wireless off"]
+    },
+    "tags": {
+      "pt": ["offline", "desconectado", "sem internet", "sem sinal"],
+      "en": ["offline", "disconnected", "no internet", "no signal"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gtj31gqc",
+    "slug": "zap",
+    "name": {
+      "pt": "Raio",
+      "en": "Zap"
+    },
+    "subcategory": "power",
+    "synonyms": {
+      "pt": ["relâmpago", "energia"],
+      "en": ["lightning bolt", "bolt"]
+    },
+    "tags": {
+      "pt": ["eletricidade", "rápido", "flash", "instantâneo"],
+      "en": ["electricity", "energy", "fast", "flash", "instant"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  }
+]

@@ -1,0 +1,1145 @@
+[
+  {
+    "id": "gna8gbj8",
+    "slug": "agenda",
+    "name": {
+      "pt": "Agenda",
+      "en": "Agenda"
+    },
+    "subcategory": "calendar",
+    "synonyms": {
+      "pt": ["caderno de compromissos", "diário"],
+      "en": ["appointment book", "diary", "organizer"]
+    },
+    "tags": {
+      "pt": ["compromissos", "anotações", "planejamento", "organização"],
+      "en": ["appointments", "notes", "planning", "organization"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gk8zxpqv",
+    "slug": "alarm-check",
+    "name": {
+      "pt": "Alarme definido",
+      "en": "Alarm check"
+    },
+    "subcategory": "clocks",
+    "family": "alarm-clock",
+    "variantOf": "alarm-clock",
+    "synonyms": {
+      "pt": ["alarme ativado", "despertador confirmado"],
+      "en": ["alarm set", "alarm on"]
+    },
+    "tags": {
+      "pt": ["lembrete", "agendado", "ligado", "pronto"],
+      "en": ["reminder", "scheduled", "enabled", "ready"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gaqdf203",
+    "slug": "alarm-clock",
+    "name": {
+      "pt": "Despertador",
+      "en": "Alarm clock"
+    },
+    "subcategory": "clocks",
+    "family": "alarm-clock",
+    "synonyms": {
+      "pt": ["alarme", "relógio despertador"],
+      "en": ["alarm", "wake up clock"]
+    },
+    "tags": {
+      "pt": ["acordar", "lembrete", "manhã", "toque"],
+      "en": ["wake up", "reminder", "morning", "ring"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gp9wyyb7",
+    "slug": "alarm-clock-off",
+    "name": {
+      "pt": "Despertador desligado",
+      "en": "Alarm clock off"
+    },
+    "subcategory": "clocks",
+    "family": "alarm-clock",
+    "variantOf": "alarm-clock",
+    "synonyms": {
+      "pt": ["alarme desativado", "sem alarme"],
+      "en": ["alarm disabled", "no alarm"]
+    },
+    "tags": {
+      "pt": ["silenciar", "desligar", "cancelar alarme"],
+      "en": ["silence", "mute", "cancel alarm"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5cmbk5j",
+    "slug": "alarm-plus",
+    "name": {
+      "pt": "Novo alarme",
+      "en": "Add alarm"
+    },
+    "subcategory": "clocks",
+    "family": "alarm-clock",
+    "variantOf": "alarm-clock",
+    "synonyms": {
+      "pt": ["adicionar alarme", "criar alarme"],
+      "en": ["new alarm", "create alarm"]
+    },
+    "tags": {
+      "pt": ["despertador", "lembrete", "agendar"],
+      "en": ["alarm clock", "reminder", "schedule"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gs5fn6a8",
+    "slug": "calendar",
+    "name": {
+      "pt": "Calendário",
+      "en": "Calendar"
+    },
+    "subcategory": "calendar",
+    "family": "calendar",
+    "synonyms": {
+      "pt": ["agenda", "data", "folhinha"],
+      "en": ["date", "schedule", "planner"]
+    },
+    "tags": {
+      "pt": ["dia", "mês", "evento", "agendamento"],
+      "en": ["day", "month", "event", "appointment"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gx9fn6td",
+    "slug": "calendar-check",
+    "name": {
+      "pt": "Evento confirmado",
+      "en": "Calendar check"
+    },
+    "subcategory": "calendar",
+    "family": "calendar",
+    "variantOf": "calendar",
+    "synonyms": {
+      "pt": ["data confirmada", "calendário com visto"],
+      "en": ["event confirmed", "date confirmed"]
+    },
+    "tags": {
+      "pt": ["agendado", "presença", "reservado", "concluído"],
+      "en": ["scheduled", "attendance", "booked", "done"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1mmc44a",
+    "slug": "calendar-clock",
+    "name": {
+      "pt": "Data e hora",
+      "en": "Calendar clock"
+    },
+    "subcategory": "calendar",
+    "family": "calendar",
+    "variantOf": "calendar",
+    "synonyms": {
+      "pt": ["agendamento", "horário marcado", "calendário com relógio"],
+      "en": ["date and time", "scheduled time"]
+    },
+    "tags": {
+      "pt": ["compromisso", "lembrete", "programar"],
+      "en": ["appointment", "reminder", "schedule"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gek7wn7s",
+    "slug": "calendar-days",
+    "name": {
+      "pt": "Dias do calendário",
+      "en": "Calendar days"
+    },
+    "subcategory": "calendar",
+    "family": "calendar",
+    "synonyms": {
+      "pt": ["calendário com dias", "mês", "grade de dias"],
+      "en": ["month view", "day grid"]
+    },
+    "tags": {
+      "pt": ["data", "agenda", "eventos", "disponibilidade"],
+      "en": ["date", "schedule", "events", "availability"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grf5cpv0",
+    "slug": "calendar-edit",
+    "name": {
+      "pt": "Editar evento",
+      "en": "Calendar edit"
+    },
+    "subcategory": "calendar",
+    "family": "calendar",
+    "variantOf": "calendar",
+    "synonyms": {
+      "pt": ["alterar data", "calendário com lápis"],
+      "en": ["edit event", "change date", "calendar pencil"]
+    },
+    "tags": {
+      "pt": ["reagendar", "modificar", "ajustar", "compromisso"],
+      "en": ["reschedule", "modify", "adjust", "appointment"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwr5chxh",
+    "slug": "calendar-heart",
+    "name": {
+      "pt": "Data especial",
+      "en": "Calendar heart"
+    },
+    "subcategory": "calendar",
+    "family": "calendar",
+    "variantOf": "calendar",
+    "synonyms": {
+      "pt": ["calendário com coração", "data favorita"],
+      "en": ["special date", "favorite date"]
+    },
+    "tags": {
+      "pt": ["aniversário de namoro", "casamento", "encontro", "amor"],
+      "en": ["anniversary", "wedding", "date night", "love"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3bvg237",
+    "slug": "calendar-lock",
+    "name": {
+      "pt": "Calendário bloqueado",
+      "en": "Calendar lock"
+    },
+    "subcategory": "calendar",
+    "family": "calendar",
+    "variantOf": "calendar",
+    "synonyms": {
+      "pt": ["agenda privada", "data bloqueada"],
+      "en": ["locked calendar", "private schedule"]
+    },
+    "tags": {
+      "pt": ["privado", "restrito", "indisponível", "cadeado"],
+      "en": ["private", "restricted", "blocked date", "padlock"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gss54qdr",
+    "slug": "calendar-minus",
+    "name": {
+      "pt": "Remover evento",
+      "en": "Calendar minus"
+    },
+    "subcategory": "calendar",
+    "family": "calendar",
+    "variantOf": "calendar",
+    "synonyms": {
+      "pt": ["excluir evento", "calendário com menos"],
+      "en": ["remove event", "delete event"]
+    },
+    "tags": {
+      "pt": ["desmarcar", "cancelar compromisso", "retirar"],
+      "en": ["unschedule", "cancel appointment"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7qjtw3n",
+    "slug": "calendar-off",
+    "name": {
+      "pt": "Calendário desativado",
+      "en": "Calendar off"
+    },
+    "subcategory": "calendar",
+    "family": "calendar",
+    "variantOf": "calendar",
+    "synonyms": {
+      "pt": ["sem agenda", "sem data"],
+      "en": ["no calendar", "no date"]
+    },
+    "tags": {
+      "pt": ["indisponível", "desligado", "bloqueado"],
+      "en": ["unavailable", "disabled", "blocked"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gm85fhqb",
+    "slug": "calendar-plus",
+    "name": {
+      "pt": "Adicionar evento",
+      "en": "Calendar plus"
+    },
+    "subcategory": "calendar",
+    "family": "calendar",
+    "variantOf": "calendar",
+    "synonyms": {
+      "pt": ["novo evento", "agendar", "calendário com mais"],
+      "en": ["add event", "new event", "schedule"]
+    },
+    "tags": {
+      "pt": ["marcar", "criar compromisso", "reservar"],
+      "en": ["book", "create appointment", "reserve"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gtqwm7wn",
+    "slug": "calendar-range",
+    "name": {
+      "pt": "Período",
+      "en": "Date range"
+    },
+    "subcategory": "calendar",
+    "family": "calendar",
+    "synonyms": {
+      "pt": ["intervalo de datas", "de até", "seleção de datas"],
+      "en": ["date interval", "from to", "period"]
+    },
+    "tags": {
+      "pt": ["reserva", "estadia", "férias", "data inicial e final"],
+      "en": ["booking", "stay", "vacation", "start and end date"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g40wwhs1",
+    "slug": "calendar-search",
+    "name": {
+      "pt": "Buscar data",
+      "en": "Calendar search"
+    },
+    "subcategory": "calendar",
+    "family": "calendar",
+    "variantOf": "calendar",
+    "synonyms": {
+      "pt": ["procurar evento", "pesquisar agenda"],
+      "en": ["find date", "search events"]
+    },
+    "tags": {
+      "pt": ["encontrar", "consultar", "disponibilidade", "lupa"],
+      "en": ["lookup", "availability", "magnifier"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g98yes2p",
+    "slug": "calendar-star",
+    "name": {
+      "pt": "Evento importante",
+      "en": "Calendar star"
+    },
+    "subcategory": "calendar",
+    "family": "calendar",
+    "variantOf": "calendar",
+    "synonyms": {
+      "pt": ["data destacada", "calendário com estrela"],
+      "en": ["important event", "highlighted date"]
+    },
+    "tags": {
+      "pt": ["favorito", "destaque", "feriado", "especial"],
+      "en": ["favorite", "featured", "holiday", "special"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpm88esh",
+    "slug": "calendar-sync",
+    "name": {
+      "pt": "Sincronizar calendário",
+      "en": "Calendar sync"
+    },
+    "subcategory": "calendar",
+    "family": "calendar",
+    "variantOf": "calendar",
+    "synonyms": {
+      "pt": ["atualizar agenda", "calendário sincronizado"],
+      "en": ["sync calendar", "refresh schedule"]
+    },
+    "tags": {
+      "pt": ["integração", "nuvem", "importar", "conectar"],
+      "en": ["integration", "cloud", "import", "connect"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g41amkyr",
+    "slug": "calendar-week",
+    "name": {
+      "pt": "Semana",
+      "en": "Calendar week"
+    },
+    "subcategory": "calendar",
+    "family": "calendar",
+    "synonyms": {
+      "pt": ["visão semanal", "calendário semanal"],
+      "en": ["week view", "weekly calendar"]
+    },
+    "tags": {
+      "pt": ["sete dias", "agenda", "planejamento", "período"],
+      "en": ["seven days", "schedule", "planning"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwxyxrec",
+    "slug": "calendar-x",
+    "name": {
+      "pt": "Evento cancelado",
+      "en": "Calendar x"
+    },
+    "subcategory": "calendar",
+    "family": "calendar",
+    "variantOf": "calendar",
+    "synonyms": {
+      "pt": ["data cancelada", "calendário com x"],
+      "en": ["event cancelled", "date cancelled"]
+    },
+    "tags": {
+      "pt": ["desmarcado", "indisponível", "cancelar", "falta"],
+      "en": ["unavailable", "cancel", "missed", "remove"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gp75fx0w",
+    "slug": "clock",
+    "name": {
+      "pt": "Relógio",
+      "en": "Clock"
+    },
+    "subcategory": "clocks",
+    "family": "clock",
+    "synonyms": {
+      "pt": ["hora", "horário"],
+      "en": ["time", "hour"]
+    },
+    "tags": {
+      "pt": ["tempo", "pontualidade", "agenda"],
+      "en": ["schedule", "watch"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmt8cvnk",
+    "slug": "clock-1",
+    "name": {
+      "pt": "Uma hora",
+      "en": "One o'clock"
+    },
+    "subcategory": "clocks",
+    "family": "clock",
+    "synonyms": {
+      "pt": ["relógio 1h", "1 hora", "uma em ponto"],
+      "en": ["clock 1", "1 o'clock"]
+    },
+    "tags": {
+      "pt": ["horário", "ponteiros", "hora certa"],
+      "en": ["time", "hour", "hands"]
+    },
+    "popularity": 1,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g6cbpka9",
+    "slug": "clock-12",
+    "name": {
+      "pt": "Meio-dia",
+      "en": "Twelve o'clock"
+    },
+    "subcategory": "clocks",
+    "family": "clock",
+    "synonyms": {
+      "pt": ["relógio 12h", "meia-noite", "doze horas"],
+      "en": ["clock 12", "noon", "midnight"]
+    },
+    "tags": {
+      "pt": ["horário", "ponteiros", "hora certa"],
+      "en": ["time", "hour", "hands"]
+    },
+    "popularity": 1,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gx4891m4",
+    "slug": "clock-3",
+    "name": {
+      "pt": "Três horas",
+      "en": "Three o'clock"
+    },
+    "subcategory": "clocks",
+    "family": "clock",
+    "synonyms": {
+      "pt": ["relógio 3h", "3 horas", "três em ponto"],
+      "en": ["clock 3", "3 o'clock"]
+    },
+    "tags": {
+      "pt": ["horário", "ponteiros", "hora certa"],
+      "en": ["time", "hour", "hands"]
+    },
+    "popularity": 1,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzwmtzas",
+    "slug": "clock-9",
+    "name": {
+      "pt": "Nove horas",
+      "en": "Nine o'clock"
+    },
+    "subcategory": "clocks",
+    "family": "clock",
+    "synonyms": {
+      "pt": ["relógio 9h", "9 horas", "nove em ponto"],
+      "en": ["clock 9", "9 o'clock"]
+    },
+    "tags": {
+      "pt": ["horário", "ponteiros", "hora certa"],
+      "en": ["time", "hour", "hands"]
+    },
+    "popularity": 1,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpnh2bmq",
+    "slug": "clock-alert",
+    "name": {
+      "pt": "Alerta de horário",
+      "en": "Clock alert"
+    },
+    "subcategory": "clocks",
+    "family": "clock",
+    "synonyms": {
+      "pt": ["atraso", "relógio com aviso"],
+      "en": ["late", "overdue", "time warning"]
+    },
+    "tags": {
+      "pt": ["atrasado", "prazo", "urgente", "pendente"],
+      "en": ["delay", "deadline", "urgent", "pending"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1wktmq1",
+    "slug": "clock-check",
+    "name": {
+      "pt": "Horário confirmado",
+      "en": "Clock check"
+    },
+    "subcategory": "clocks",
+    "family": "clock",
+    "variantOf": "clock",
+    "synonyms": {
+      "pt": ["no horário", "pontual", "tempo concluído"],
+      "en": ["on time", "time confirmed", "completed"]
+    },
+    "tags": {
+      "pt": ["pontualidade", "aprovado", "feito", "presença"],
+      "en": ["punctual", "approved", "done", "attendance"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gn1zv7j1",
+    "slug": "clock-fast",
+    "name": {
+      "pt": "Relógio rápido",
+      "en": "Fast clock"
+    },
+    "subcategory": "clocks",
+    "family": "clock",
+    "synonyms": {
+      "pt": ["entrega rápida", "expresso", "agilidade"],
+      "en": ["quick delivery", "express", "fast time"]
+    },
+    "tags": {
+      "pt": ["velocidade", "pressa", "urgente", "rapidez"],
+      "en": ["speed", "hurry", "rush", "quick"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gn07ccv1",
+    "slug": "clock-plus",
+    "name": {
+      "pt": "Adicionar horário",
+      "en": "Clock plus"
+    },
+    "subcategory": "clocks",
+    "family": "clock",
+    "variantOf": "clock",
+    "synonyms": {
+      "pt": ["novo horário", "incluir tempo"],
+      "en": ["add time", "new time slot"]
+    },
+    "tags": {
+      "pt": ["agendar", "marcar", "registrar horas"],
+      "en": ["schedule", "book", "log hours"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1bzyrde",
+    "slug": "clock-x",
+    "name": {
+      "pt": "Horário cancelado",
+      "en": "Clock x"
+    },
+    "subcategory": "clocks",
+    "family": "clock",
+    "variantOf": "clock",
+    "synonyms": {
+      "pt": ["remover horário", "sem horário"],
+      "en": ["cancel time", "remove time slot"]
+    },
+    "tags": {
+      "pt": ["cancelar", "expirado", "indisponível", "excluir"],
+      "en": ["cancel", "expired", "unavailable", "delete"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gtygxr7k",
+    "slug": "countdown",
+    "name": {
+      "pt": "Contagem regressiva",
+      "en": "Countdown"
+    },
+    "subcategory": "timers",
+    "family": "timer",
+    "synonyms": {
+      "pt": ["regressiva", "tempo restante"],
+      "en": ["time left", "remaining time"]
+    },
+    "tags": {
+      "pt": ["prazo", "lançamento", "faltam", "cronômetro"],
+      "en": ["deadline", "launch", "timer", "remaining"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwfsmg33",
+    "slug": "deadline",
+    "name": {
+      "pt": "Prazo final",
+      "en": "Deadline"
+    },
+    "subcategory": "timers",
+    "family": "calendar",
+    "synonyms": {
+      "pt": ["data limite", "vencimento", "calendário com alerta"],
+      "en": ["due date", "cutoff date", "expiry"]
+    },
+    "tags": {
+      "pt": ["prazo", "entrega", "urgente", "expira"],
+      "en": ["due", "delivery", "urgent", "expires"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7pwbded",
+    "slug": "duration",
+    "name": {
+      "pt": "Duração",
+      "en": "Duration"
+    },
+    "subcategory": "timers",
+    "synonyms": {
+      "pt": ["intervalo de tempo", "período", "tempo total"],
+      "en": ["time span", "period", "elapsed time"]
+    },
+    "tags": {
+      "pt": ["medir", "extensão", "quanto tempo", "horas"],
+      "en": ["measure", "length", "how long", "hours"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gw4mp9gz",
+    "slug": "history",
+    "name": {
+      "pt": "Histórico",
+      "en": "History"
+    },
+    "subcategory": "clocks",
+    "synonyms": {
+      "pt": ["recentes", "anteriores", "voltar no tempo"],
+      "en": ["recent", "past"]
+    },
+    "tags": {
+      "pt": ["registro", "log", "passado"],
+      "en": ["log", "record", "rewind"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gt9x21fz",
+    "slug": "hourglass",
+    "name": {
+      "pt": "Ampulheta",
+      "en": "Hourglass"
+    },
+    "subcategory": "clocks",
+    "family": "hourglass",
+    "synonyms": {
+      "pt": ["relógio de areia"],
+      "en": ["sand timer", "sand glass"]
+    },
+    "tags": {
+      "pt": ["espera", "carregando", "tempo", "aguardar"],
+      "en": ["wait", "loading", "time", "pending"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g9m4vmje",
+    "slug": "hourglass-end",
+    "name": {
+      "pt": "Ampulheta vazia",
+      "en": "Hourglass end"
+    },
+    "subcategory": "clocks",
+    "family": "hourglass",
+    "variantOf": "hourglass",
+    "synonyms": {
+      "pt": ["fim do tempo", "areia embaixo"],
+      "en": ["empty hourglass", "time is up"]
+    },
+    "tags": {
+      "pt": ["terminado", "esgotado", "expirado", "tempo"],
+      "en": ["finished", "expired", "done", "time"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gad1ge1e",
+    "slug": "hourglass-start",
+    "name": {
+      "pt": "Ampulheta cheia",
+      "en": "Hourglass start"
+    },
+    "subcategory": "clocks",
+    "family": "hourglass",
+    "variantOf": "hourglass",
+    "synonyms": {
+      "pt": ["início da contagem", "areia em cima"],
+      "en": ["full hourglass", "timer start"]
+    },
+    "tags": {
+      "pt": ["começar", "espera", "carregando", "tempo"],
+      "en": ["begin", "wait", "loading", "time"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gc0h7gq1",
+    "slug": "planner",
+    "name": {
+      "pt": "Planejador",
+      "en": "Planner"
+    },
+    "subcategory": "calendar",
+    "family": "calendar",
+    "synonyms": {
+      "pt": ["planejamento", "cronograma", "agenda mensal"],
+      "en": ["planning", "timetable", "monthly planner"]
+    },
+    "tags": {
+      "pt": ["organização", "tarefas", "plano", "rotina"],
+      "en": ["organization", "tasks", "plan", "routine"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3wksdzf",
+    "slug": "pomodoro",
+    "name": {
+      "pt": "Pomodoro",
+      "en": "Pomodoro"
+    },
+    "subcategory": "timers",
+    "synonyms": {
+      "pt": ["tomate", "técnica pomodoro", "foco"],
+      "en": ["tomato timer", "focus timer"]
+    },
+    "tags": {
+      "pt": ["produtividade", "concentração", "intervalo", "estudo"],
+      "en": ["productivity", "focus", "break", "study"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gp0pahd6",
+    "slug": "recurring",
+    "name": {
+      "pt": "Recorrente",
+      "en": "Recurring"
+    },
+    "subcategory": "timers",
+    "synonyms": {
+      "pt": ["repetição", "periódico", "ciclo"],
+      "en": ["repeat", "periodic", "cycle"]
+    },
+    "tags": {
+      "pt": ["repetir", "rotina", "frequência", "agendamento"],
+      "en": ["routine", "frequency", "schedule", "repeating"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gj24eeez",
+    "slug": "snooze",
+    "name": {
+      "pt": "Soneca",
+      "en": "Snooze"
+    },
+    "subcategory": "timers",
+    "family": "alarm-clock",
+    "synonyms": {
+      "pt": ["adiar alarme", "cochilo", "mais cinco minutos"],
+      "en": ["delay alarm", "nap", "five more minutes"]
+    },
+    "tags": {
+      "pt": ["despertador", "dormir", "zzz", "sono"],
+      "en": ["alarm clock", "sleep", "zzz"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g9vmmx00",
+    "slug": "stopwatch",
+    "name": {
+      "pt": "Cronômetro",
+      "en": "Stopwatch"
+    },
+    "subcategory": "timers",
+    "family": "timer",
+    "synonyms": {
+      "pt": ["cronometrar", "marcar tempo"],
+      "en": ["chronometer", "lap timer"]
+    },
+    "tags": {
+      "pt": ["corrida", "volta", "medir tempo", "esporte"],
+      "en": ["race", "lap", "measure time", "sport"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gr01dp29",
+    "slug": "timer",
+    "name": {
+      "pt": "Temporizador",
+      "en": "Timer"
+    },
+    "subcategory": "timers",
+    "family": "timer",
+    "synonyms": {
+      "pt": ["timer", "contador de tempo"],
+      "en": ["countdown timer", "kitchen timer"]
+    },
+    "tags": {
+      "pt": ["contagem regressiva", "cozinha", "duração", "alarme"],
+      "en": ["countdown", "duration", "alarm"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnqs8dh4",
+    "slug": "timer-off",
+    "name": {
+      "pt": "Temporizador desligado",
+      "en": "Timer off"
+    },
+    "subcategory": "timers",
+    "family": "timer",
+    "variantOf": "timer",
+    "synonyms": {
+      "pt": ["timer desativado", "sem temporizador"],
+      "en": ["timer disabled", "no timer"]
+    },
+    "tags": {
+      "pt": ["parar", "cancelar", "pausar"],
+      "en": ["stop", "cancel", "pause"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gztphhht",
+    "slug": "timer-plus",
+    "name": {
+      "pt": "Adicionar tempo",
+      "en": "Timer plus"
+    },
+    "subcategory": "timers",
+    "family": "timer",
+    "variantOf": "timer",
+    "synonyms": {
+      "pt": ["mais tempo", "novo temporizador"],
+      "en": ["add time", "new timer"]
+    },
+    "tags": {
+      "pt": ["estender", "prorrogar", "incluir minutos"],
+      "en": ["extend", "more time", "add minutes"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ghzdnftn",
+    "slug": "timer-reset",
+    "name": {
+      "pt": "Reiniciar temporizador",
+      "en": "Timer reset"
+    },
+    "subcategory": "timers",
+    "family": "timer",
+    "synonyms": {
+      "pt": ["zerar timer", "recomeçar contagem"],
+      "en": ["reset timer", "restart countdown"]
+    },
+    "tags": {
+      "pt": ["resetar", "reiniciar", "voltar ao início"],
+      "en": ["restart", "reset", "start over"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpnw89f2",
+    "slug": "wall-clock",
+    "name": {
+      "pt": "Relógio de parede",
+      "en": "Wall clock"
+    },
+    "subcategory": "clocks",
+    "family": "clock",
+    "synonyms": {
+      "pt": ["relógio analógico", "mostrador"],
+      "en": ["analog clock", "clock face"]
+    },
+    "tags": {
+      "pt": ["hora", "horário", "ponteiros"],
+      "en": ["time", "hour", "hands"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gawxd2h0",
+    "slug": "watch",
+    "name": {
+      "pt": "Relógio de pulso",
+      "en": "Watch"
+    },
+    "subcategory": "clocks",
+    "synonyms": {
+      "pt": ["relógio de mão", "pulseira"],
+      "en": ["wristwatch", "wrist watch"]
+    },
+    "tags": {
+      "pt": ["hora", "acessório", "horário"],
+      "en": ["time", "accessory", "hour"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  }
+]

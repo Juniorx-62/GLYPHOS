@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="12" r="9" data-part="body"/>
+  <polygon points="12 8.8 15.04 11.01 13.88 14.59 10.12 14.59 8.96 11.01" fill="currentColor" data-part="cut"/>
+  <path d="M12 8.8L12 6M15.04 11.01L17.71 10.15M13.88 14.59L15.53 16.85M10.12 14.59L8.47 16.85M8.96 11.01L6.29 10.15" data-part="cut"/>
+  <path d="M9.04 4.3A8.25 8.25 0 0 1 14.96 4.3L12 6ZM18.41 6.81A8.25 8.25 0 0 1 20.24 12.43L17.71 10.15ZM18.92 16.49A8.25 8.25 0 0 1 14.14 19.97L15.53 16.85ZM9.86 19.97A8.25 8.25 0 0 1 5.08 16.49L8.47 16.85ZM3.76 12.43A8.25 8.25 0 0 1 5.59 6.81L6.29 10.15Z" fill="currentColor" data-part="cut"/>
+</svg>

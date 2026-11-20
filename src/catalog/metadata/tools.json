@@ -1,0 +1,1312 @@
+[
+  {
+    "id": "gfdgvwmv",
+    "slug": "3d-printer",
+    "name": {
+      "pt": "Impressora 3D",
+      "en": "3D printer"
+    },
+    "subcategory": "industry",
+    "synonyms": {
+      "pt": ["impressão 3D", "manufatura aditiva"],
+      "en": ["3D printing", "additive manufacturing"]
+    },
+    "tags": {
+      "pt": ["prototipagem", "maker", "filamento", "modelagem"],
+      "en": ["prototyping", "maker", "filament", "modeling"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpxw5ss7",
+    "slug": "allen-key",
+    "name": {
+      "pt": "Chave Allen",
+      "en": "Allen key"
+    },
+    "subcategory": "hand-tools",
+    "synonyms": {
+      "pt": ["chave sextavada", "chave hexagonal"],
+      "en": ["hex key", "allen wrench"]
+    },
+    "tags": {
+      "pt": ["montar móveis", "parafuso", "ferramenta"],
+      "en": ["furniture assembly", "screw", "tool"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4dmps9d",
+    "slug": "anvil",
+    "name": {
+      "pt": "Bigorna",
+      "en": "Anvil"
+    },
+    "subcategory": "hand-tools",
+    "synonyms": {
+      "pt": ["safra"],
+      "en": ["smithing anvil"]
+    },
+    "tags": {
+      "pt": ["ferreiro", "forja", "metal", "martelar"],
+      "en": ["blacksmith", "forge", "metal", "hammering"]
+    },
+    "popularity": 1,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1kz3j8k",
+    "slug": "axe",
+    "name": {
+      "pt": "Machado",
+      "en": "Axe"
+    },
+    "subcategory": "hand-tools",
+    "synonyms": {
+      "pt": ["machadinha", "cutelo"],
+      "en": ["hatchet", "ax"]
+    },
+    "tags": {
+      "pt": ["lenha", "cortar madeira", "acampamento", "lenhador"],
+      "en": ["firewood", "chop wood", "camping", "lumberjack"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gt45pt6a",
+    "slug": "barrel",
+    "name": {
+      "pt": "Barril",
+      "en": "Barrel"
+    },
+    "subcategory": "industry",
+    "family": "barrel",
+    "synonyms": {
+      "pt": ["tonel", "barrica", "pipa"],
+      "en": ["cask", "keg", "wooden barrel"]
+    },
+    "tags": {
+      "pt": ["vinho", "cerveja", "madeira", "armazenamento"],
+      "en": ["wine", "beer", "wood", "storage"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gy9j17bz",
+    "slug": "bolt",
+    "name": {
+      "pt": "Parafuso sextavado",
+      "en": "Bolt"
+    },
+    "subcategory": "hand-tools",
+    "synonyms": {
+      "pt": ["parafuso com porca", "cavilha"],
+      "en": ["hex bolt", "machine bolt"]
+    },
+    "tags": {
+      "pt": ["fixação", "ferragem", "rosca", "mecânica"],
+      "en": ["fastener", "hardware", "thread", "mechanics"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g6dbefz4",
+    "slug": "bucket",
+    "name": {
+      "pt": "Balde",
+      "en": "Bucket"
+    },
+    "subcategory": "maintenance",
+    "family": "bucket",
+    "synonyms": {
+      "pt": ["balde de limpeza", "tina"],
+      "en": ["pail", "cleaning bucket"]
+    },
+    "tags": {
+      "pt": ["limpeza", "água", "faxina", "carregar"],
+      "en": ["cleaning", "water", "housekeeping", "carry"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnr83xer",
+    "slug": "chisel",
+    "name": {
+      "pt": "Formão",
+      "en": "Chisel"
+    },
+    "subcategory": "hand-tools",
+    "synonyms": {
+      "pt": ["cinzel", "talhadeira"],
+      "en": ["wood chisel", "gouge"]
+    },
+    "tags": {
+      "pt": ["ferramenta", "marcenaria", "entalhar", "madeira"],
+      "en": ["tool", "woodworking", "carve", "wood"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g08sz0cb",
+    "slug": "circuit-breaker",
+    "name": {
+      "pt": "Disjuntor",
+      "en": "Circuit breaker"
+    },
+    "subcategory": "maintenance",
+    "synonyms": {
+      "pt": ["quadro de luz", "chave geral"],
+      "en": ["breaker panel", "fuse box"]
+    },
+    "tags": {
+      "pt": ["eletricidade", "energia", "quadro elétrico", "desligar"],
+      "en": ["electricity", "power", "electrical panel", "switch off"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g2wbyskq",
+    "slug": "clamp",
+    "name": {
+      "pt": "Grampo",
+      "en": "Clamp"
+    },
+    "subcategory": "hand-tools",
+    "synonyms": {
+      "pt": ["sargento", "grampo C"],
+      "en": ["C-clamp", "G-clamp"]
+    },
+    "tags": {
+      "pt": ["fixar", "prender", "marcenaria", "apertar"],
+      "en": ["fix", "hold", "woodworking", "tighten"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gazvdy2e",
+    "slug": "conveyor-belt",
+    "name": {
+      "pt": "Esteira industrial",
+      "en": "Conveyor belt"
+    },
+    "subcategory": "industry",
+    "synonyms": {
+      "pt": ["esteira", "esteira transportadora", "linha de montagem"],
+      "en": ["conveyor", "assembly line"]
+    },
+    "tags": {
+      "pt": ["logística", "produção", "armazém", "caixas"],
+      "en": ["logistics", "production", "warehouse", "boxes"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggdfzmr8",
+    "slug": "crane-hook",
+    "name": {
+      "pt": "Gancho de guindaste",
+      "en": "Crane hook"
+    },
+    "subcategory": "industry",
+    "synonyms": {
+      "pt": ["gancho", "moitão"],
+      "en": ["hook", "hoist hook"]
+    },
+    "tags": {
+      "pt": ["içar", "carga", "elevação", "guindaste"],
+      "en": ["lift", "load", "hoist", "crane"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7sy9ndw",
+    "slug": "crowbar",
+    "name": {
+      "pt": "Pé de cabra",
+      "en": "Crowbar"
+    },
+    "subcategory": "hand-tools",
+    "synonyms": {
+      "pt": ["alavanca", "pé-de-cabra"],
+      "en": ["pry bar", "wrecking bar"]
+    },
+    "tags": {
+      "pt": ["arrombar", "desmontar", "demolição", "ferramenta"],
+      "en": ["pry", "demolition", "lever", "tool"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3pz94tb",
+    "slug": "drill",
+    "name": {
+      "pt": "Furadeira",
+      "en": "Drill"
+    },
+    "subcategory": "hand-tools",
+    "synonyms": {
+      "pt": ["parafusadeira", "furadeira elétrica"],
+      "en": ["power drill", "cordless drill"]
+    },
+    "tags": {
+      "pt": ["furar", "perfurar", "ferramenta elétrica", "obra"],
+      "en": ["bore", "drilling", "power tool", "construction"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gps44dnr",
+    "slug": "extension-cord",
+    "name": {
+      "pt": "Extensão elétrica",
+      "en": "Extension cord"
+    },
+    "subcategory": "maintenance",
+    "synonyms": {
+      "pt": ["filtro de linha", "régua de tomadas"],
+      "en": ["power strip", "power bar"]
+    },
+    "tags": {
+      "pt": ["tomada", "energia", "elétrica", "benjamim"],
+      "en": ["outlet", "power", "electrical", "multi plug"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpq4nvvb",
+    "slug": "factory",
+    "name": {
+      "pt": "Fábrica",
+      "en": "Factory"
+    },
+    "subcategory": "industry",
+    "synonyms": {
+      "pt": ["indústria", "usina", "planta industrial"],
+      "en": ["industry", "plant", "manufacturing plant"]
+    },
+    "tags": {
+      "pt": ["produção", "manufatura", "chaminé", "galpão"],
+      "en": ["production", "manufacturing", "smokestack", "warehouse"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbwfr1ed",
+    "slug": "forklift",
+    "name": {
+      "pt": "Empilhadeira",
+      "en": "Forklift"
+    },
+    "subcategory": "industry",
+    "synonyms": {
+      "pt": ["paleteira", "carregadeira"],
+      "en": ["lift truck", "pallet truck"]
+    },
+    "tags": {
+      "pt": ["armazém", "logística", "carga", "estoque"],
+      "en": ["warehouse", "logistics", "cargo", "inventory"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpzfe232",
+    "slug": "fuse",
+    "name": {
+      "pt": "Fusível",
+      "en": "Fuse"
+    },
+    "subcategory": "maintenance",
+    "synonyms": {
+      "pt": ["fusível de cartucho", "proteção elétrica"],
+      "en": ["cartridge fuse", "electrical fuse"]
+    },
+    "tags": {
+      "pt": ["eletricidade", "curto-circuito", "quadro de luz", "energia"],
+      "en": ["electricity", "short circuit", "fuse box", "power"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g13w32c6",
+    "slug": "gears",
+    "name": {
+      "pt": "Engrenagens",
+      "en": "Gears"
+    },
+    "subcategory": "industry",
+    "synonyms": {
+      "pt": ["rodas dentadas", "mecanismo"],
+      "en": ["cogwheels", "mechanism"]
+    },
+    "tags": {
+      "pt": ["engenharia", "processo", "sistema", "automação", "mecânica"],
+      "en": ["engineering", "process", "system", "automation", "mechanics"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqhcjspa",
+    "slug": "gloves-work",
+    "name": {
+      "pt": "Luva de trabalho",
+      "en": "Work gloves"
+    },
+    "subcategory": "maintenance",
+    "synonyms": {
+      "pt": ["luva de proteção", "luva de segurança"],
+      "en": ["protective glove", "safety glove"]
+    },
+    "tags": {
+      "pt": ["EPI", "obra", "jardinagem", "proteção das mãos"],
+      "en": ["PPE", "construction", "gardening", "hand protection"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gxm5b768",
+    "slug": "hacksaw",
+    "name": {
+      "pt": "Arco de serra",
+      "en": "Hacksaw"
+    },
+    "subcategory": "hand-tools",
+    "family": "saw",
+    "synonyms": {
+      "pt": ["serra de arco", "serra para metal"],
+      "en": ["bow saw", "metal saw"]
+    },
+    "tags": {
+      "pt": ["cortar metal", "cano", "ferramenta", "serralheria"],
+      "en": ["cut metal", "pipe", "tool", "metalwork"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4hf5fz1",
+    "slug": "hammer",
+    "name": {
+      "pt": "Martelo",
+      "en": "Hammer"
+    },
+    "subcategory": "hand-tools",
+    "family": "hammer",
+    "synonyms": {
+      "pt": ["martelo de unha", "marreta"],
+      "en": ["claw hammer"]
+    },
+    "tags": {
+      "pt": ["ferramenta", "pregar", "construção", "consertar"],
+      "en": ["tool", "nail", "construction", "build", "fix"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gy1xrx3n",
+    "slug": "hard-hat",
+    "name": {
+      "pt": "Capacete de obra",
+      "en": "Hard hat"
+    },
+    "subcategory": "industry",
+    "synonyms": {
+      "pt": ["capacete de segurança", "capacete"],
+      "en": ["safety helmet", "construction helmet"]
+    },
+    "tags": {
+      "pt": ["EPI", "construção", "engenheiro", "segurança do trabalho"],
+      "en": ["PPE", "construction", "engineer", "workplace safety"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gvasvh4c",
+    "slug": "inspection",
+    "name": {
+      "pt": "Inspeção",
+      "en": "Inspection"
+    },
+    "subcategory": "maintenance",
+    "synonyms": {
+      "pt": ["vistoria", "verificação técnica"],
+      "en": ["survey", "technical check"]
+    },
+    "tags": {
+      "pt": ["controle de qualidade", "auditoria", "peça", "conferir"],
+      "en": ["quality control", "audit", "part", "examine"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g64haa68",
+    "slug": "level",
+    "name": {
+      "pt": "Nível",
+      "en": "Level"
+    },
+    "subcategory": "hand-tools",
+    "synonyms": {
+      "pt": ["nível de bolha", "nível de pedreiro"],
+      "en": ["spirit level", "bubble level"]
+    },
+    "tags": {
+      "pt": ["prumo", "alinhar", "horizontal", "construção"],
+      "en": ["plumb", "align", "horizontal", "construction"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g9a9ce47",
+    "slug": "machine",
+    "name": {
+      "pt": "Máquina",
+      "en": "Machine"
+    },
+    "subcategory": "industry",
+    "synonyms": {
+      "pt": ["maquinário", "equipamento industrial"],
+      "en": ["machinery", "industrial equipment"]
+    },
+    "tags": {
+      "pt": ["indústria", "produção", "painel de controle", "operação"],
+      "en": ["industry", "production", "control panel", "operation"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbr628cr",
+    "slug": "maintenance",
+    "name": {
+      "pt": "Manutenção",
+      "en": "Maintenance"
+    },
+    "subcategory": "maintenance",
+    "family": "wrench",
+    "synonyms": {
+      "pt": ["ferramentas", "serviço técnico"],
+      "en": ["tools", "service"]
+    },
+    "tags": {
+      "pt": ["consertar", "reparo", "suporte técnico", "assistência"],
+      "en": ["fix", "repair", "technical support", "servicing"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7b0rana",
+    "slug": "mallet",
+    "name": {
+      "pt": "Malho",
+      "en": "Mallet"
+    },
+    "subcategory": "hand-tools",
+    "family": "hammer",
+    "synonyms": {
+      "pt": ["maço", "martelo de borracha"],
+      "en": ["rubber mallet", "gavel"]
+    },
+    "tags": {
+      "pt": ["ferramenta", "carpintaria", "leilão", "juiz"],
+      "en": ["tool", "carpentry", "auction", "judge"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmpfeyqf",
+    "slug": "multimeter",
+    "name": {
+      "pt": "Multímetro",
+      "en": "Multimeter"
+    },
+    "subcategory": "maintenance",
+    "synonyms": {
+      "pt": ["voltímetro", "amperímetro"],
+      "en": ["voltmeter", "ammeter"]
+    },
+    "tags": {
+      "pt": ["medir tensão", "eletricista", "eletrônica", "teste"],
+      "en": ["measure voltage", "electrician", "electronics", "test"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gt2h6ch9",
+    "slug": "nail",
+    "name": {
+      "pt": "Prego",
+      "en": "Nail"
+    },
+    "subcategory": "hand-tools",
+    "synonyms": {
+      "pt": ["cravo", "tacha"],
+      "en": ["tack", "spike"]
+    },
+    "tags": {
+      "pt": ["martelo", "pregar", "marcenaria", "fixação"],
+      "en": ["hammer", "nailing", "carpentry", "fastener"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1xavbr4",
+    "slug": "nuclear",
+    "name": {
+      "pt": "Usina nuclear",
+      "en": "Nuclear plant"
+    },
+    "subcategory": "industry",
+    "synonyms": {
+      "pt": ["torre de resfriamento", "central nuclear"],
+      "en": ["cooling tower", "nuclear power station"]
+    },
+    "tags": {
+      "pt": ["energia nuclear", "usina", "vapor", "eletricidade"],
+      "en": ["nuclear power", "power plant", "steam", "electricity"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1qpq5v8",
+    "slug": "nut",
+    "name": {
+      "pt": "Porca",
+      "en": "Nut"
+    },
+    "subcategory": "hand-tools",
+    "synonyms": {
+      "pt": ["porca sextavada", "rosca"],
+      "en": ["hex nut", "screw nut"]
+    },
+    "tags": {
+      "pt": ["parafuso", "fixação", "ferragem", "mecânica"],
+      "en": ["bolt", "fastener", "hardware", "mechanics"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gxsbbfn8",
+    "slug": "oil-barrel",
+    "name": {
+      "pt": "Barril de petróleo",
+      "en": "Oil barrel"
+    },
+    "subcategory": "industry",
+    "family": "barrel",
+    "synonyms": {
+      "pt": ["tambor de óleo", "tonel"],
+      "en": ["oil drum", "drum"]
+    },
+    "tags": {
+      "pt": ["petróleo", "combustível", "óleo", "energia"],
+      "en": ["petroleum", "fuel", "crude oil", "energy"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzf3psgq",
+    "slug": "oil-can",
+    "name": {
+      "pt": "Almotolia",
+      "en": "Oil can"
+    },
+    "subcategory": "maintenance",
+    "synonyms": {
+      "pt": ["lata de óleo", "lubrificador"],
+      "en": ["oiler", "lubricator"]
+    },
+    "tags": {
+      "pt": ["lubrificar", "óleo", "mecânica", "engrenagem"],
+      "en": ["lubricate", "oil", "mechanics", "grease"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3dqera2",
+    "slug": "paint-bucket",
+    "name": {
+      "pt": "Lata de tinta",
+      "en": "Paint bucket"
+    },
+    "subcategory": "hand-tools",
+    "family": "bucket",
+    "synonyms": {
+      "pt": ["balde de tinta", "galão de tinta"],
+      "en": ["paint can", "paint tin"]
+    },
+    "tags": {
+      "pt": ["pintura", "reforma", "pintar parede", "cor"],
+      "en": ["painting", "renovation", "wall paint", "color"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gjh17kyz",
+    "slug": "pickaxe",
+    "name": {
+      "pt": "Picareta",
+      "en": "Pickaxe"
+    },
+    "subcategory": "hand-tools",
+    "synonyms": {
+      "pt": ["picão", "enxadão"],
+      "en": ["pick", "mattock"]
+    },
+    "tags": {
+      "pt": ["mineração", "escavar", "mina", "pedra"],
+      "en": ["mining", "dig", "mine", "rock"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gfjyye0z",
+    "slug": "pipe",
+    "name": {
+      "pt": "Cano",
+      "en": "Pipe"
+    },
+    "subcategory": "industry",
+    "synonyms": {
+      "pt": ["tubo", "tubulação", "joelho"],
+      "en": ["tube", "piping", "elbow"]
+    },
+    "tags": {
+      "pt": ["encanamento", "hidráulica", "encanador", "conexão"],
+      "en": ["plumbing", "hydraulics", "plumber", "fitting"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gc7qp46w",
+    "slug": "pliers",
+    "name": {
+      "pt": "Alicate",
+      "en": "Pliers"
+    },
+    "subcategory": "hand-tools",
+    "synonyms": {
+      "pt": ["alicate universal", "torquês"],
+      "en": ["pincers", "combination pliers"]
+    },
+    "tags": {
+      "pt": ["ferramenta", "cortar fio", "eletricista", "segurar"],
+      "en": ["tool", "cut wire", "electrician", "grip"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g98264mf",
+    "slug": "plunger",
+    "name": {
+      "pt": "Desentupidor",
+      "en": "Plunger"
+    },
+    "subcategory": "maintenance",
+    "synonyms": {
+      "pt": ["bombeador", "desentupidor de pia"],
+      "en": ["sink plunger", "toilet plunger"]
+    },
+    "tags": {
+      "pt": ["encanador", "vaso sanitário", "entupido", "banheiro"],
+      "en": ["plumber", "toilet", "clogged", "bathroom"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gm2ajtqw",
+    "slug": "rake",
+    "name": {
+      "pt": "Ancinho",
+      "en": "Rake"
+    },
+    "subcategory": "hand-tools",
+    "synonyms": {
+      "pt": ["rastelo", "rastelo de jardim"],
+      "en": ["garden rake", "leaf rake"]
+    },
+    "tags": {
+      "pt": ["jardinagem", "folhas", "quintal", "horta"],
+      "en": ["gardening", "leaves", "yard", "lawn"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzf03vp7",
+    "slug": "robot-arm",
+    "name": {
+      "pt": "Braço robótico",
+      "en": "Robot arm"
+    },
+    "subcategory": "industry",
+    "synonyms": {
+      "pt": ["robô industrial", "manipulador"],
+      "en": ["industrial robot", "robotic arm"]
+    },
+    "tags": {
+      "pt": ["automação", "indústria 4.0", "fabricação", "robótica"],
+      "en": ["automation", "industry 4.0", "manufacturing", "robotics"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gth90hjt",
+    "slug": "safety-goggles",
+    "name": {
+      "pt": "Óculos de proteção",
+      "en": "Safety goggles"
+    },
+    "subcategory": "maintenance",
+    "synonyms": {
+      "pt": ["óculos de segurança", "viseira"],
+      "en": ["protective goggles", "safety glasses"]
+    },
+    "tags": {
+      "pt": ["EPI", "laboratório", "oficina", "segurança do trabalho"],
+      "en": ["PPE", "lab", "workshop", "workplace safety"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnpfvste",
+    "slug": "safety-vest",
+    "name": {
+      "pt": "Colete refletivo",
+      "en": "Safety vest"
+    },
+    "subcategory": "industry",
+    "synonyms": {
+      "pt": ["colete de segurança", "colete"],
+      "en": ["hi-vis vest", "reflective vest"]
+    },
+    "tags": {
+      "pt": ["EPI", "segurança do trabalho", "obra", "trânsito"],
+      "en": ["PPE", "workplace safety", "construction", "traffic"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gthzpxe1",
+    "slug": "saw",
+    "name": {
+      "pt": "Serrote",
+      "en": "Saw"
+    },
+    "subcategory": "hand-tools",
+    "family": "saw",
+    "synonyms": {
+      "pt": ["serra", "serra manual"],
+      "en": ["hand saw", "handsaw"]
+    },
+    "tags": {
+      "pt": ["cortar madeira", "marcenaria", "carpintaria", "ferramenta"],
+      "en": ["cut wood", "woodworking", "carpentry", "tool"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3vhwey8",
+    "slug": "screw",
+    "name": {
+      "pt": "Parafuso",
+      "en": "Screw"
+    },
+    "subcategory": "hand-tools",
+    "synonyms": {
+      "pt": ["parafuso de rosca", "parafuso de madeira"],
+      "en": ["wood screw", "threaded screw"]
+    },
+    "tags": {
+      "pt": ["fixação", "ferragem", "marcenaria", "montar"],
+      "en": ["fastener", "hardware", "woodworking", "assemble"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grd8bt0z",
+    "slug": "screwdriver",
+    "name": {
+      "pt": "Chave de fenda",
+      "en": "Screwdriver"
+    },
+    "subcategory": "hand-tools",
+    "synonyms": {
+      "pt": ["chave Phillips", "chave de parafuso"],
+      "en": ["phillips screwdriver", "flathead"]
+    },
+    "tags": {
+      "pt": ["ferramenta", "parafusar", "consertar", "montar"],
+      "en": ["tool", "screw", "fix", "assemble"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gfb5gznf",
+    "slug": "shipping-container",
+    "name": {
+      "pt": "Contêiner de carga",
+      "en": "Shipping container"
+    },
+    "subcategory": "industry",
+    "synonyms": {
+      "pt": ["contêiner", "container de carga", "contêiner marítimo"],
+      "en": ["cargo container", "freight container"]
+    },
+    "tags": {
+      "pt": ["frete", "porto", "logística", "exportação"],
+      "en": ["freight", "port", "logistics", "export"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gn3wj8wy",
+    "slug": "silo",
+    "name": {
+      "pt": "Silo",
+      "en": "Silo"
+    },
+    "subcategory": "industry",
+    "synonyms": {
+      "pt": ["armazém de grãos", "celeiro"],
+      "en": ["grain silo", "grain storage"]
+    },
+    "tags": {
+      "pt": ["fazenda", "agricultura", "grãos", "armazenamento"],
+      "en": ["farm", "agriculture", "grain", "storage"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5fc6e8z",
+    "slug": "socket-wrench",
+    "name": {
+      "pt": "Chave catraca",
+      "en": "Socket wrench"
+    },
+    "subcategory": "hand-tools",
+    "family": "wrench",
+    "synonyms": {
+      "pt": ["chave de soquete", "catraca"],
+      "en": ["ratchet", "socket spanner"]
+    },
+    "tags": {
+      "pt": ["ferramenta", "mecânico", "porca", "oficina"],
+      "en": ["tool", "mechanic", "nut", "garage"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g174estz",
+    "slug": "soldering-iron",
+    "name": {
+      "pt": "Ferro de solda",
+      "en": "Soldering iron"
+    },
+    "subcategory": "maintenance",
+    "synonyms": {
+      "pt": ["soldador", "estação de solda"],
+      "en": ["soldering pen", "solder station"]
+    },
+    "tags": {
+      "pt": ["eletrônica", "soldar", "circuito", "reparo"],
+      "en": ["electronics", "solder", "circuit", "repair"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0akwvhh",
+    "slug": "spray-can",
+    "name": {
+      "pt": "Lata de spray",
+      "en": "Spray can"
+    },
+    "subcategory": "maintenance",
+    "synonyms": {
+      "pt": ["aerossol", "spray"],
+      "en": ["aerosol", "spray paint"]
+    },
+    "tags": {
+      "pt": ["tinta spray", "grafite", "pintura", "pulverizar"],
+      "en": ["graffiti", "painting", "street art"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gy79dk2p",
+    "slug": "tape-measure",
+    "name": {
+      "pt": "Trena",
+      "en": "Tape measure"
+    },
+    "subcategory": "hand-tools",
+    "synonyms": {
+      "pt": ["fita métrica", "metro"],
+      "en": ["measuring tape", "tape rule"]
+    },
+    "tags": {
+      "pt": ["medir", "medida", "comprimento", "construção"],
+      "en": ["measure", "measurement", "length", "construction"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdhbstb7",
+    "slug": "toolbox",
+    "name": {
+      "pt": "Caixa de ferramentas",
+      "en": "Toolbox"
+    },
+    "subcategory": "hand-tools",
+    "synonyms": {
+      "pt": ["maleta de ferramentas", "caixa de manutenção"],
+      "en": ["tool case", "tool kit"]
+    },
+    "tags": {
+      "pt": ["oficina", "kit", "reparo", "manutenção"],
+      "en": ["workshop", "kit", "repair", "maintenance"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwpcc4tq",
+    "slug": "tools-crossed",
+    "name": {
+      "pt": "Ferramentas cruzadas",
+      "en": "Crossed tools"
+    },
+    "subcategory": "maintenance",
+    "family": "wrench",
+    "synonyms": {
+      "pt": ["martelo e chave", "ferramentas"],
+      "en": ["hammer and wrench", "tools"]
+    },
+    "tags": {
+      "pt": ["oficina", "reparo", "conserto", "faça você mesmo"],
+      "en": ["workshop", "repair", "fix", "DIY", "handyman"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gsk1a18t",
+    "slug": "utility-knife",
+    "name": {
+      "pt": "Estilete",
+      "en": "Utility knife"
+    },
+    "subcategory": "hand-tools",
+    "synonyms": {
+      "pt": ["cortador", "faca retrátil"],
+      "en": ["box cutter", "retractable knife"]
+    },
+    "tags": {
+      "pt": ["cortar", "papelão", "lâmina", "ferramenta"],
+      "en": ["cut", "cardboard", "blade", "tool"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g6ye6fdt",
+    "slug": "valve",
+    "name": {
+      "pt": "Válvula",
+      "en": "Valve"
+    },
+    "subcategory": "industry",
+    "synonyms": {
+      "pt": ["registro", "registro industrial"],
+      "en": ["gate valve", "stopcock"]
+    },
+    "tags": {
+      "pt": ["encanamento", "tubulação", "fluxo", "gás"],
+      "en": ["plumbing", "piping", "flow", "gas"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzz97twc",
+    "slug": "vise",
+    "name": {
+      "pt": "Morsa",
+      "en": "Vise"
+    },
+    "subcategory": "hand-tools",
+    "synonyms": {
+      "pt": ["torno de bancada", "torno"],
+      "en": ["bench vise", "vice"]
+    },
+    "tags": {
+      "pt": ["fixar", "oficina", "bancada", "apertar"],
+      "en": ["hold", "workshop", "workbench", "clamp"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g2wx61ht",
+    "slug": "welding",
+    "name": {
+      "pt": "Solda",
+      "en": "Welding"
+    },
+    "subcategory": "industry",
+    "synonyms": {
+      "pt": ["maçarico", "soldagem"],
+      "en": ["welding torch", "blowtorch"]
+    },
+    "tags": {
+      "pt": ["soldador", "metal", "faísca", "serralheria"],
+      "en": ["welder", "metal", "sparks", "metalwork"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1njcfxb",
+    "slug": "wrench",
+    "name": {
+      "pt": "Chave inglesa",
+      "en": "Wrench"
+    },
+    "subcategory": "hand-tools",
+    "family": "wrench",
+    "synonyms": {
+      "pt": ["chave de boca", "chave fixa"],
+      "en": ["spanner", "open-end wrench"]
+    },
+    "tags": {
+      "pt": ["ferramenta", "consertar", "manutenção", "oficina", "mecânico"],
+      "en": ["tool", "fix", "repair", "maintenance", "mechanic"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  }
+]

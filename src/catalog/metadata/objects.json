@@ -1,0 +1,1427 @@
+[
+  {
+    "id": "gpc54zhv",
+    "slug": "baby-bottle",
+    "name": {
+      "pt": "Mamadeira",
+      "en": "Baby bottle"
+    },
+    "subcategory": "personal",
+    "synonyms": {
+      "pt": ["chuquinha", "mamadeira de bebê"],
+      "en": ["feeding bottle", "nursing bottle"]
+    },
+    "tags": {
+      "pt": ["bebê", "leite", "amamentação", "infantil"],
+      "en": ["baby", "milk", "feeding", "infant"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3es2xhy",
+    "slug": "balloon",
+    "name": {
+      "pt": "Balão",
+      "en": "Balloon"
+    },
+    "subcategory": "personal",
+    "synonyms": {
+      "pt": ["bexiga", "balão de festa"],
+      "en": ["party balloon"]
+    },
+    "tags": {
+      "pt": ["festa", "aniversário", "comemoração", "celebração"],
+      "en": ["party", "birthday", "celebration", "festive"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gcwmyg9f",
+    "slug": "beanie",
+    "name": {
+      "pt": "Gorro",
+      "en": "Beanie"
+    },
+    "subcategory": "clothing",
+    "family": "hat",
+    "synonyms": {
+      "pt": ["touca", "gorro de lã"],
+      "en": ["knit hat", "winter hat"]
+    },
+    "tags": {
+      "pt": ["inverno", "frio", "tricô", "acessório"],
+      "en": ["winter", "cold", "knitting", "accessory"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5syt303",
+    "slug": "belt",
+    "name": {
+      "pt": "Cinto",
+      "en": "Belt"
+    },
+    "subcategory": "clothing",
+    "synonyms": {
+      "pt": ["cinta", "correia"],
+      "en": ["waist belt", "strap"]
+    },
+    "tags": {
+      "pt": ["acessório", "moda", "calça", "fivela"],
+      "en": ["accessory", "fashion", "pants", "buckle"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gt3gadyj",
+    "slug": "boot",
+    "name": {
+      "pt": "Bota",
+      "en": "Boot"
+    },
+    "subcategory": "clothing",
+    "family": "shoe",
+    "synonyms": {
+      "pt": ["coturno", "botina"],
+      "en": ["ankle boot", "combat boot"]
+    },
+    "tags": {
+      "pt": ["calçado", "inverno", "trilha", "moda"],
+      "en": ["footwear", "winter", "hiking", "fashion"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g6fv0b05",
+    "slug": "bow-tie",
+    "name": {
+      "pt": "Gravata-borboleta",
+      "en": "Bow tie"
+    },
+    "subcategory": "clothing",
+    "synonyms": {
+      "pt": ["laço", "borboleta"],
+      "en": ["bowtie", "dicky bow"]
+    },
+    "tags": {
+      "pt": ["formal", "festa", "smoking", "casamento"],
+      "en": ["formal", "party", "tuxedo", "wedding"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gba7wsf4",
+    "slug": "candle",
+    "name": {
+      "pt": "Vela",
+      "en": "Candle"
+    },
+    "subcategory": "personal",
+    "synonyms": {
+      "pt": ["vela acesa", "círio"],
+      "en": ["lit candle", "taper"]
+    },
+    "tags": {
+      "pt": ["luz", "aniversário", "aromaterapia", "decoração"],
+      "en": ["light", "birthday", "aromatherapy", "decor"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gr6w94c9",
+    "slug": "cap",
+    "name": {
+      "pt": "Boné",
+      "en": "Cap"
+    },
+    "subcategory": "clothing",
+    "family": "hat",
+    "synonyms": {
+      "pt": ["boné de aba", "bonézinho"],
+      "en": ["baseball cap", "ball cap"]
+    },
+    "tags": {
+      "pt": ["esporte", "casual", "sol", "beisebol"],
+      "en": ["sport", "casual", "sun", "baseball"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gja4ka29",
+    "slug": "comb",
+    "name": {
+      "pt": "Pente",
+      "en": "Comb"
+    },
+    "subcategory": "personal",
+    "synonyms": {
+      "pt": ["pente de cabelo", "escova de dentes finos"],
+      "en": ["hair comb", "fine-tooth comb"]
+    },
+    "tags": {
+      "pt": ["cabelo", "cabeleireiro", "higiene", "beleza"],
+      "en": ["hair", "hairdresser", "grooming", "beauty"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g21q35yk",
+    "slug": "crown",
+    "name": {
+      "pt": "Coroa",
+      "en": "Crown"
+    },
+    "subcategory": "clothing",
+    "synonyms": {
+      "pt": ["tiara", "diadema"],
+      "en": ["tiara", "diadem"]
+    },
+    "tags": {
+      "pt": ["rei", "rainha", "realeza", "premium", "vencedor"],
+      "en": ["king", "queen", "royalty", "premium", "winner"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g2qdcgrr",
+    "slug": "diamond-ring",
+    "name": {
+      "pt": "Anel de diamante",
+      "en": "Ring"
+    },
+    "subcategory": "clothing",
+    "synonyms": {
+      "pt": ["anel", "aliança", "anel de noivado"],
+      "en": ["diamond ring", "wedding ring", "engagement ring"]
+    },
+    "tags": {
+      "pt": ["joia", "casamento", "noivado", "pedido"],
+      "en": ["jewelry", "wedding", "engagement", "proposal"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnh09972",
+    "slug": "dice",
+    "name": {
+      "pt": "Dado",
+      "en": "Dice"
+    },
+    "subcategory": "things",
+    "synonyms": {
+      "pt": ["dados", "cubo"],
+      "en": ["die", "cube"]
+    },
+    "tags": {
+      "pt": ["jogo", "sorte", "aleatório", "jogo de tabuleiro"],
+      "en": ["game", "luck", "random", "board game"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gn90md48",
+    "slug": "dress",
+    "name": {
+      "pt": "Vestido",
+      "en": "Dress"
+    },
+    "subcategory": "clothing",
+    "synonyms": {
+      "pt": ["traje", "roupa feminina"],
+      "en": ["gown", "frock"]
+    },
+    "tags": {
+      "pt": ["moda", "festa", "look", "vestuário"],
+      "en": ["fashion", "party", "outfit", "apparel"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpwqzy0p",
+    "slug": "earring",
+    "name": {
+      "pt": "Brinco",
+      "en": "Earring"
+    },
+    "subcategory": "clothing",
+    "synonyms": {
+      "pt": ["argola", "pingente"],
+      "en": ["stud", "drop earring"]
+    },
+    "tags": {
+      "pt": ["joia", "acessório", "orelha", "bijuteria"],
+      "en": ["jewelry", "accessory", "ear", "jewellery"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpcz2gv0",
+    "slug": "feather-pen",
+    "name": {
+      "pt": "Pena de escrever",
+      "en": "Feather pen"
+    },
+    "subcategory": "things",
+    "family": "quill",
+    "synonyms": {
+      "pt": ["caneta-pena", "pena"],
+      "en": ["quill pen", "plume"]
+    },
+    "tags": {
+      "pt": ["escrita", "assinatura", "poesia", "literatura"],
+      "en": ["writing", "signature", "poetry", "literature"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gxq6ke3b",
+    "slug": "flashlight",
+    "name": {
+      "pt": "Lanterna",
+      "en": "Flashlight"
+    },
+    "subcategory": "things",
+    "synonyms": {
+      "pt": ["lanterna de mão", "farolete"],
+      "en": ["torch", "hand light"]
+    },
+    "tags": {
+      "pt": ["luz", "iluminação", "escuro", "emergência"],
+      "en": ["light", "lighting", "dark", "emergency"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1p5zkba",
+    "slug": "frame-picture",
+    "name": {
+      "pt": "Porta-retrato",
+      "en": "Picture frame"
+    },
+    "subcategory": "things",
+    "synonyms": {
+      "pt": ["quadro", "moldura"],
+      "en": ["frame", "photo frame"]
+    },
+    "tags": {
+      "pt": ["parede", "decoração", "foto", "galeria"],
+      "en": ["wall", "decor", "photo", "gallery"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzjtc4s9",
+    "slug": "gift",
+    "name": {
+      "pt": "Presente",
+      "en": "Gift"
+    },
+    "subcategory": "personal",
+    "synonyms": {
+      "pt": ["caixa de presente", "mimo", "brinde"],
+      "en": ["present", "gift box"]
+    },
+    "tags": {
+      "pt": ["aniversário", "natal", "surpresa", "recompensa"],
+      "en": ["birthday", "christmas", "surprise", "reward"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpskya8h",
+    "slug": "glasses",
+    "name": {
+      "pt": "Óculos",
+      "en": "Glasses"
+    },
+    "subcategory": "clothing",
+    "family": "glasses",
+    "synonyms": {
+      "pt": ["óculos de grau", "armação"],
+      "en": ["eyeglasses", "spectacles"]
+    },
+    "tags": {
+      "pt": ["visão", "leitura", "ótica", "enxergar"],
+      "en": ["vision", "reading", "optician", "eyewear"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpv9cahp",
+    "slug": "glove",
+    "name": {
+      "pt": "Luva",
+      "en": "Glove"
+    },
+    "subcategory": "clothing",
+    "synonyms": {
+      "pt": ["luva de inverno", "mitene"],
+      "en": ["mitten", "winter glove"]
+    },
+    "tags": {
+      "pt": ["inverno", "frio", "mãos", "acessório"],
+      "en": ["winter", "cold", "hands", "accessory"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gk6mva2y",
+    "slug": "hairdryer",
+    "name": {
+      "pt": "Secador de cabelo",
+      "en": "Hair dryer"
+    },
+    "subcategory": "personal",
+    "synonyms": {
+      "pt": ["secador", "secador portátil"],
+      "en": ["hairdryer", "blow dryer"]
+    },
+    "tags": {
+      "pt": ["cabelo", "salão de beleza", "escova", "hotel"],
+      "en": ["hair", "beauty salon", "blowout", "hotel"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g57pgd4m",
+    "slug": "handbag",
+    "name": {
+      "pt": "Bolsa",
+      "en": "Handbag"
+    },
+    "subcategory": "clothing",
+    "synonyms": {
+      "pt": ["bolsa de mão", "carteira feminina"],
+      "en": ["purse", "clutch"]
+    },
+    "tags": {
+      "pt": ["moda", "acessório", "compras", "couro"],
+      "en": ["fashion", "accessory", "shopping", "leather"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5n5k30z",
+    "slug": "hanger",
+    "name": {
+      "pt": "Cabide",
+      "en": "Hanger"
+    },
+    "subcategory": "clothing",
+    "synonyms": {
+      "pt": ["pendurador", "cruzeta"],
+      "en": ["clothes hanger", "coat hanger"]
+    },
+    "tags": {
+      "pt": ["roupas", "guarda-roupa", "closet", "loja de roupas"],
+      "en": ["clothes", "wardrobe", "closet", "clothing store"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ghtd2xxa",
+    "slug": "hat",
+    "name": {
+      "pt": "Chapéu",
+      "en": "Hat"
+    },
+    "subcategory": "clothing",
+    "family": "hat",
+    "synonyms": {
+      "pt": ["chapéu de feltro", "fedora"],
+      "en": ["fedora", "trilby"]
+    },
+    "tags": {
+      "pt": ["moda", "acessório", "sol", "cavalheiro"],
+      "en": ["fashion", "accessory", "sun", "gentleman"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gfhkytb7",
+    "slug": "high-heel",
+    "name": {
+      "pt": "Salto alto",
+      "en": "High heel"
+    },
+    "subcategory": "clothing",
+    "family": "shoe",
+    "synonyms": {
+      "pt": ["sapato de salto", "scarpin"],
+      "en": ["stiletto", "pump"]
+    },
+    "tags": {
+      "pt": ["moda", "festa", "elegante", "calçado"],
+      "en": ["fashion", "party", "elegant", "footwear"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gxmrg2qy",
+    "slug": "hoodie",
+    "name": {
+      "pt": "Moletom com capuz",
+      "en": "Hoodie"
+    },
+    "subcategory": "clothing",
+    "synonyms": {
+      "pt": ["blusa de moletom", "casaco com capuz"],
+      "en": ["hooded sweatshirt", "sweatshirt"]
+    },
+    "tags": {
+      "pt": ["roupa", "frio", "casual", "inverno"],
+      "en": ["clothing", "cold", "casual", "winter"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqe4c9mr",
+    "slug": "iron",
+    "name": {
+      "pt": "Ferro de passar",
+      "en": "Iron"
+    },
+    "subcategory": "things",
+    "synonyms": {
+      "pt": ["ferro de passar roupa", "ferro a vapor"],
+      "en": ["clothes iron", "steam iron"]
+    },
+    "tags": {
+      "pt": ["passar roupa", "lavanderia", "roupas", "vapor"],
+      "en": ["ironing", "laundry", "clothes", "steam"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gvnc3rxk",
+    "slug": "jacket",
+    "name": {
+      "pt": "Jaqueta",
+      "en": "Jacket"
+    },
+    "subcategory": "clothing",
+    "synonyms": {
+      "pt": ["casaco", "blusão"],
+      "en": ["coat", "windbreaker"]
+    },
+    "tags": {
+      "pt": ["roupa", "inverno", "frio", "moda"],
+      "en": ["clothing", "winter", "cold", "fashion"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggfba1gs",
+    "slug": "keychain",
+    "name": {
+      "pt": "Chaveiro",
+      "en": "Keychain"
+    },
+    "subcategory": "personal",
+    "synonyms": {
+      "pt": ["argola de chaves", "porta-chaves"],
+      "en": ["key ring", "key fob"]
+    },
+    "tags": {
+      "pt": ["chaves", "acessório", "lembrança", "brinde"],
+      "en": ["keys", "accessory", "souvenir", "giveaway"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdkyqsbf",
+    "slug": "kite",
+    "name": {
+      "pt": "Pipa",
+      "en": "Kite"
+    },
+    "subcategory": "things",
+    "synonyms": {
+      "pt": ["papagaio", "pandorga", "arraia"],
+      "en": ["flying kite"]
+    },
+    "tags": {
+      "pt": ["brincadeira", "vento", "criança", "céu"],
+      "en": ["play", "wind", "kids", "sky"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g37c9aaw",
+    "slug": "lantern",
+    "name": {
+      "pt": "Lampião",
+      "en": "Lantern"
+    },
+    "subcategory": "things",
+    "synonyms": {
+      "pt": ["lanterna de camping", "candeeiro"],
+      "en": ["camping lantern", "oil lamp"]
+    },
+    "tags": {
+      "pt": ["acampamento", "luz", "iluminação", "camping"],
+      "en": ["camping", "light", "lighting", "outdoor"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g68c71yt",
+    "slug": "lightbulb",
+    "name": {
+      "pt": "Lâmpada",
+      "en": "Lightbulb"
+    },
+    "subcategory": "things",
+    "family": "lightbulb",
+    "synonyms": {
+      "pt": ["ideia", "luz"],
+      "en": ["idea", "light bulb"]
+    },
+    "tags": {
+      "pt": ["inspiração", "dica", "criatividade", "iluminação", "sugestão"],
+      "en": ["inspiration", "tip", "creativity", "lighting", "suggestion"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gq95xpv8",
+    "slug": "lightbulb-off",
+    "name": {
+      "pt": "Lâmpada apagada",
+      "en": "Lightbulb off"
+    },
+    "subcategory": "things",
+    "family": "lightbulb",
+    "variantOf": "lightbulb",
+    "synonyms": {
+      "pt": ["luz apagada", "sem ideia"],
+      "en": ["light off", "no idea"]
+    },
+    "tags": {
+      "pt": ["desligar luz", "economia de energia", "escuro"],
+      "en": ["turn off light", "energy saving", "dark"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gha8cz0q",
+    "slug": "lipstick",
+    "name": {
+      "pt": "Batom",
+      "en": "Lipstick"
+    },
+    "subcategory": "personal",
+    "synonyms": {
+      "pt": ["batom líquido", "maquiagem labial"],
+      "en": ["lip color", "lip balm"]
+    },
+    "tags": {
+      "pt": ["maquiagem", "beleza", "cosmético", "lábios"],
+      "en": ["makeup", "beauty", "cosmetics", "lips"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzknwk5p",
+    "slug": "makeup-brush",
+    "name": {
+      "pt": "Pincel de maquiagem",
+      "en": "Makeup brush"
+    },
+    "subcategory": "personal",
+    "synonyms": {
+      "pt": ["pincel de blush", "pincel de pó"],
+      "en": ["blush brush", "powder brush"]
+    },
+    "tags": {
+      "pt": ["maquiagem", "beleza", "cosmético", "blush"],
+      "en": ["makeup", "beauty", "cosmetics", "blush"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gammbt95",
+    "slug": "necklace",
+    "name": {
+      "pt": "Colar (joia)",
+      "en": "Necklace"
+    },
+    "subcategory": "clothing",
+    "synonyms": {
+      "pt": ["colar", "corrente", "gargantilha", "pingente"],
+      "en": ["chain", "pendant"]
+    },
+    "tags": {
+      "pt": ["joia", "acessório", "presente", "bijuteria"],
+      "en": ["jewelry", "accessory", "gift", "jewellery"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gq1peehp",
+    "slug": "painting",
+    "name": {
+      "pt": "Pintura",
+      "en": "Painting"
+    },
+    "subcategory": "things",
+    "synonyms": {
+      "pt": ["tela", "cavalete", "obra de arte"],
+      "en": ["canvas", "easel", "artwork"]
+    },
+    "tags": {
+      "pt": ["arte", "pintor", "artista", "quadro"],
+      "en": ["art", "painter", "artist", "picture"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gg4edytn",
+    "slug": "pants",
+    "name": {
+      "pt": "Calça",
+      "en": "Pants"
+    },
+    "subcategory": "clothing",
+    "synonyms": {
+      "pt": ["calça comprida", "jeans"],
+      "en": ["trousers", "jeans"]
+    },
+    "tags": {
+      "pt": ["roupa", "moda", "vestuário", "look"],
+      "en": ["clothing", "fashion", "apparel", "outfit"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g2zxg2vx",
+    "slug": "party-hat",
+    "name": {
+      "pt": "Chapéu de festa",
+      "en": "Party hat"
+    },
+    "subcategory": "personal",
+    "synonyms": {
+      "pt": ["chapeuzinho de aniversário"],
+      "en": ["birthday hat", "cone hat"]
+    },
+    "tags": {
+      "pt": ["festa", "aniversário", "comemoração", "carnaval"],
+      "en": ["party", "birthday", "celebration", "carnival"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gy5sna60",
+    "slug": "perfume",
+    "name": {
+      "pt": "Perfume",
+      "en": "Perfume"
+    },
+    "subcategory": "personal",
+    "synonyms": {
+      "pt": ["fragrância", "colônia", "frasco de perfume"],
+      "en": ["fragrance", "cologne", "scent"]
+    },
+    "tags": {
+      "pt": ["beleza", "cheiro", "cosmético", "presente"],
+      "en": ["beauty", "smell", "cosmetics", "gift"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggbnxnfv",
+    "slug": "playing-cards",
+    "name": {
+      "pt": "Cartas de baralho",
+      "en": "Playing cards"
+    },
+    "subcategory": "things",
+    "synonyms": {
+      "pt": ["baralho", "cartas"],
+      "en": ["card deck", "cards"]
+    },
+    "tags": {
+      "pt": ["jogo", "pôquer", "cassino", "truco"],
+      "en": ["game", "poker", "casino", "solitaire"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzq45sj4",
+    "slug": "quill",
+    "name": {
+      "pt": "Pena e tinteiro",
+      "en": "Quill and inkwell"
+    },
+    "subcategory": "things",
+    "family": "quill",
+    "synonyms": {
+      "pt": ["tinteiro", "pena de ganso"],
+      "en": ["inkwell", "quill"]
+    },
+    "tags": {
+      "pt": ["escrita", "caligrafia", "história", "escritor"],
+      "en": ["writing", "calligraphy", "history", "writer"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gasr5p9f",
+    "slug": "razor",
+    "name": {
+      "pt": "Barbeador",
+      "en": "Razor"
+    },
+    "subcategory": "personal",
+    "synonyms": {
+      "pt": ["aparelho de barbear", "gilete", "navalha"],
+      "en": ["safety razor", "shaver"]
+    },
+    "tags": {
+      "pt": ["barba", "barbearia", "higiene", "depilação"],
+      "en": ["beard", "barber", "grooming", "shaving"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1f5xksy",
+    "slug": "safety-pin",
+    "name": {
+      "pt": "Alfinete de segurança",
+      "en": "Safety pin"
+    },
+    "subcategory": "things",
+    "synonyms": {
+      "pt": ["alfinete de fralda", "alfinete"],
+      "en": ["diaper pin", "pin"]
+    },
+    "tags": {
+      "pt": ["costura", "prender", "fralda", "roupa"],
+      "en": ["sewing", "fasten", "diaper", "clothes"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gh6mkcx5",
+    "slug": "sandal",
+    "name": {
+      "pt": "Sandália",
+      "en": "Sandal"
+    },
+    "subcategory": "clothing",
+    "family": "shoe",
+    "synonyms": {
+      "pt": ["chinelo", "rasteirinha"],
+      "en": ["flip-flop", "slipper"]
+    },
+    "tags": {
+      "pt": ["praia", "verão", "calçado", "piscina"],
+      "en": ["beach", "summer", "footwear", "pool"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1bc76k3",
+    "slug": "scarf",
+    "name": {
+      "pt": "Cachecol",
+      "en": "Scarf"
+    },
+    "subcategory": "clothing",
+    "synonyms": {
+      "pt": ["echarpe", "lenço de pescoço"],
+      "en": ["muffler", "neck scarf"]
+    },
+    "tags": {
+      "pt": ["inverno", "frio", "acessório", "tricô"],
+      "en": ["winter", "cold", "accessory", "knitting"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8299g6f",
+    "slug": "sewing-needle",
+    "name": {
+      "pt": "Agulha de costura",
+      "en": "Sewing needle"
+    },
+    "subcategory": "things",
+    "synonyms": {
+      "pt": ["agulha", "agulha e linha"],
+      "en": ["needle", "needle and thread"]
+    },
+    "tags": {
+      "pt": ["costura", "costurar", "alfaiate", "artesanato"],
+      "en": ["sewing", "stitch", "tailor", "crafts"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8b3gzmc",
+    "slug": "shirt",
+    "name": {
+      "pt": "Camisa",
+      "en": "Shirt"
+    },
+    "subcategory": "clothing",
+    "family": "shirt",
+    "synonyms": {
+      "pt": ["camisa social", "camisa de botão"],
+      "en": ["dress shirt", "button-up shirt"]
+    },
+    "tags": {
+      "pt": ["roupa", "moda", "trabalho", "vestuário"],
+      "en": ["clothing", "fashion", "workwear", "apparel"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gfmmf0v9",
+    "slug": "shoe",
+    "name": {
+      "pt": "Sapato",
+      "en": "Shoe"
+    },
+    "subcategory": "clothing",
+    "family": "shoe",
+    "synonyms": {
+      "pt": ["sapato social", "calçado"],
+      "en": ["dress shoe", "oxford"]
+    },
+    "tags": {
+      "pt": ["moda", "formal", "couro", "mocassim"],
+      "en": ["fashion", "formal", "footwear", "leather shoe"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbm0xamf",
+    "slug": "shorts",
+    "name": {
+      "pt": "Bermuda",
+      "en": "Shorts"
+    },
+    "subcategory": "clothing",
+    "synonyms": {
+      "pt": ["short", "calção"],
+      "en": ["bermuda shorts", "trunks"]
+    },
+    "tags": {
+      "pt": ["roupa", "verão", "praia", "esporte"],
+      "en": ["clothing", "summer", "beach", "sportswear"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gs2s7pb4",
+    "slug": "skirt",
+    "name": {
+      "pt": "Saia",
+      "en": "Skirt"
+    },
+    "subcategory": "clothing",
+    "synonyms": {
+      "pt": ["saia plissada", "minissaia"],
+      "en": ["pleated skirt", "miniskirt"]
+    },
+    "tags": {
+      "pt": ["roupa", "moda", "roupa feminina", "look"],
+      "en": ["clothing", "fashion", "outfit", "apparel"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3b7nnxn",
+    "slug": "sneaker",
+    "name": {
+      "pt": "Tênis",
+      "en": "Sneaker"
+    },
+    "subcategory": "clothing",
+    "family": "shoe",
+    "synonyms": {
+      "pt": ["calçado esportivo", "sapatênis"],
+      "en": ["trainer", "running shoe"]
+    },
+    "tags": {
+      "pt": ["corrida", "esporte", "academia", "calçado"],
+      "en": ["running", "sport", "gym", "footwear"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gg33tjpd",
+    "slug": "socks",
+    "name": {
+      "pt": "Meia",
+      "en": "Socks"
+    },
+    "subcategory": "clothing",
+    "synonyms": {
+      "pt": ["meias", "soquete"],
+      "en": ["sock", "hosiery"]
+    },
+    "tags": {
+      "pt": ["roupa", "pés", "inverno", "conforto"],
+      "en": ["clothing", "feet", "winter", "comfort"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqhw5hf1",
+    "slug": "spool",
+    "name": {
+      "pt": "Carretel",
+      "en": "Spool"
+    },
+    "subcategory": "things",
+    "synonyms": {
+      "pt": ["carretel de linha", "bobina"],
+      "en": ["thread spool", "bobbin", "reel"]
+    },
+    "tags": {
+      "pt": ["costura", "linha", "alfaiataria", "artesanato"],
+      "en": ["sewing", "thread", "tailoring", "crafts"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gf9fdx7x",
+    "slug": "sunglasses",
+    "name": {
+      "pt": "Óculos de sol",
+      "en": "Sunglasses"
+    },
+    "subcategory": "clothing",
+    "family": "glasses",
+    "synonyms": {
+      "pt": ["óculos escuros", "óculos solar"],
+      "en": ["shades", "sun glasses"]
+    },
+    "tags": {
+      "pt": ["verão", "praia", "sol", "estilo"],
+      "en": ["summer", "beach", "sun", "style"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gtx7vgep",
+    "slug": "sweater",
+    "name": {
+      "pt": "Suéter",
+      "en": "Sweater"
+    },
+    "subcategory": "clothing",
+    "synonyms": {
+      "pt": ["blusa de lã", "pulôver", "malha"],
+      "en": ["jumper", "pullover", "knitwear"]
+    },
+    "tags": {
+      "pt": ["roupa", "inverno", "frio", "tricô"],
+      "en": ["clothing", "winter", "cold", "knitting"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gd6ew991",
+    "slug": "t-shirt",
+    "name": {
+      "pt": "Camiseta",
+      "en": "T-shirt"
+    },
+    "subcategory": "clothing",
+    "family": "shirt",
+    "synonyms": {
+      "pt": ["blusa", "camisa de manga curta"],
+      "en": ["tee", "top"]
+    },
+    "tags": {
+      "pt": ["roupa", "moda", "vestuário", "loja de roupas"],
+      "en": ["clothing", "fashion", "apparel", "clothes shop"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdcwr9w4",
+    "slug": "tape",
+    "name": {
+      "pt": "Fita adesiva",
+      "en": "Tape"
+    },
+    "subcategory": "things",
+    "synonyms": {
+      "pt": ["durex", "fita crepe", "rolo de fita"],
+      "en": ["adhesive tape", "sticky tape", "duct tape"]
+    },
+    "tags": {
+      "pt": ["colar", "embalar", "escritório", "reparo"],
+      "en": ["stick", "packing", "office", "repair"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0e13gkc",
+    "slug": "teddy-bear",
+    "name": {
+      "pt": "Ursinho de pelúcia",
+      "en": "Teddy bear"
+    },
+    "subcategory": "personal",
+    "synonyms": {
+      "pt": ["ursinho", "bicho de pelúcia"],
+      "en": ["stuffed animal", "plush toy"]
+    },
+    "tags": {
+      "pt": ["brinquedo", "criança", "bebê", "presente"],
+      "en": ["toy", "kids", "baby", "gift"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gsmg03zm",
+    "slug": "thread",
+    "name": {
+      "pt": "Novelo de lã",
+      "en": "Ball of yarn"
+    },
+    "subcategory": "things",
+    "synonyms": {
+      "pt": ["novelo", "fio de lã", "linha"],
+      "en": ["yarn", "wool", "thread"]
+    },
+    "tags": {
+      "pt": ["tricô", "crochê", "costura", "artesanato"],
+      "en": ["knitting", "crochet", "sewing", "crafts"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gshk9f6c",
+    "slug": "tie",
+    "name": {
+      "pt": "Gravata",
+      "en": "Tie"
+    },
+    "subcategory": "clothing",
+    "synonyms": {
+      "pt": ["gravata social"],
+      "en": ["necktie"]
+    },
+    "tags": {
+      "pt": ["terno", "formal", "trabalho", "negócios"],
+      "en": ["suit", "formal", "work", "business"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdxa5ysj",
+    "slug": "toy-blocks",
+    "name": {
+      "pt": "Blocos de brinquedo",
+      "en": "Toy blocks"
+    },
+    "subcategory": "personal",
+    "synonyms": {
+      "pt": ["cubos de montar", "blocos infantis"],
+      "en": ["building blocks", "baby blocks"]
+    },
+    "tags": {
+      "pt": ["brinquedo", "criança", "educação infantil", "jogo"],
+      "en": ["toy", "kids", "early learning", "play"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g2b49t90",
+    "slug": "umbrella",
+    "name": {
+      "pt": "Guarda-chuva",
+      "en": "Umbrella"
+    },
+    "subcategory": "clothing",
+    "synonyms": {
+      "pt": ["sombrinha", "guarda-sol"],
+      "en": ["parasol", "brolly"]
+    },
+    "tags": {
+      "pt": ["chuva", "proteção", "clima", "seguro"],
+      "en": ["rain", "protection", "weather", "insurance"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g084c1t8",
+    "slug": "vase",
+    "name": {
+      "pt": "Vaso",
+      "en": "Vase"
+    },
+    "subcategory": "things",
+    "synonyms": {
+      "pt": ["jarro", "ânfora"],
+      "en": ["jar", "urn"]
+    },
+    "tags": {
+      "pt": ["decoração", "flores", "cerâmica", "casa"],
+      "en": ["decor", "flowers", "ceramics", "home"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  }
+]

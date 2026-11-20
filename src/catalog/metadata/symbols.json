@@ -1,0 +1,1570 @@
+[
+  {
+    "id": "gf0bv6nh",
+    "slug": "ampersand",
+    "name": {
+      "pt": "E comercial",
+      "en": "Ampersand"
+    },
+    "subcategory": "math",
+    "synonyms": {
+      "pt": ["ampersand", "e"],
+      "en": ["and sign", "and"]
+    },
+    "tags": {
+      "pt": ["conjunção", "e também", "tipografia"],
+      "en": ["conjunction", "typography"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g2wx3dpe",
+    "slug": "angle",
+    "name": {
+      "pt": "Ângulo",
+      "en": "Angle"
+    },
+    "subcategory": "math",
+    "synonyms": {
+      "pt": ["abertura", "grau"],
+      "en": ["degree", "corner"]
+    },
+    "tags": {
+      "pt": ["geometria", "medir ângulo", "trigonometria"],
+      "en": ["geometry", "measure angle", "trigonometry"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8f0kbcb",
+    "slug": "ankh",
+    "name": {
+      "pt": "Ankh",
+      "en": "Ankh"
+    },
+    "subcategory": "marks",
+    "synonyms": {
+      "pt": ["cruz egípcia", "chave da vida"],
+      "en": ["egyptian cross", "key of life"]
+    },
+    "tags": {
+      "pt": ["egito", "vida", "símbolo antigo"],
+      "en": ["egypt", "life", "ancient symbol"]
+    },
+    "popularity": 1,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gt4dg0ff",
+    "slug": "approximately",
+    "name": {
+      "pt": "Aproximadamente",
+      "en": "Approximately"
+    },
+    "subcategory": "math",
+    "family": "equal",
+    "synonyms": {
+      "pt": ["quase igual", "aproximação"],
+      "en": ["almost equal", "approximation"]
+    },
+    "tags": {
+      "pt": ["matemática", "estimativa", "til duplo"],
+      "en": ["math", "estimate", "approx"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3b36w32",
+    "slug": "asterisk",
+    "name": {
+      "pt": "Asterisco",
+      "en": "Asterisk"
+    },
+    "subcategory": "math",
+    "synonyms": {
+      "pt": ["estrela de texto", "nota"],
+      "en": ["star sign", "footnote"]
+    },
+    "tags": {
+      "pt": ["obrigatório", "nota de rodapé", "curinga"],
+      "en": ["required", "wildcard", "note"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gp66c72y",
+    "slug": "at-sign",
+    "name": {
+      "pt": "Arroba",
+      "en": "At sign"
+    },
+    "subcategory": "math",
+    "synonyms": {
+      "pt": ["sinal de arroba", "menção"],
+      "en": ["at", "mention"]
+    },
+    "tags": {
+      "pt": ["e-mail", "endereço", "usuário"],
+      "en": ["email", "address", "username"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gd1z2gre",
+    "slug": "awareness-ribbon",
+    "name": {
+      "pt": "Laço de conscientização",
+      "en": "Awareness ribbon"
+    },
+    "subcategory": "marks",
+    "synonyms": {
+      "pt": ["fita solidária", "laço"],
+      "en": ["support ribbon", "cause ribbon"]
+    },
+    "tags": {
+      "pt": ["campanha", "causa", "apoio", "outubro rosa", "solidariedade"],
+      "en": ["campaign", "cause", "support", "solidarity"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkj5dfwz",
+    "slug": "backspace",
+    "name": {
+      "pt": "Apagar",
+      "en": "Backspace"
+    },
+    "subcategory": "signs",
+    "family": "backspace",
+    "synonyms": {
+      "pt": ["backspace", "retrocesso"],
+      "en": ["delete back", "erase"]
+    },
+    "tags": {
+      "pt": ["teclado", "excluir caractere", "deletar", "tecla"],
+      "en": ["keyboard", "delete character", "key"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gv4nadr6",
+    "slug": "badge",
+    "name": {
+      "pt": "Selo",
+      "en": "Badge"
+    },
+    "subcategory": "marks",
+    "family": "badge",
+    "synonyms": {
+      "pt": ["insígnia", "emblema"],
+      "en": ["seal", "emblem"]
+    },
+    "tags": {
+      "pt": ["distintivo", "certificado", "verificado", "conquista"],
+      "en": ["insignia", "certificate", "verified", "achievement"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gq1z0xk6",
+    "slug": "biohazard",
+    "name": {
+      "pt": "Risco biológico",
+      "en": "Biohazard"
+    },
+    "subcategory": "signs",
+    "synonyms": {
+      "pt": ["perigo biológico", "biorrisco"],
+      "en": ["biological hazard", "biohazard sign"]
+    },
+    "tags": {
+      "pt": ["contaminação", "vírus", "laboratório", "infeccioso"],
+      "en": ["contamination", "virus", "laboratory", "infectious"]
+    },
+    "popularity": 1,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gn9gpn4c",
+    "slug": "caps-lock",
+    "name": {
+      "pt": "Caps Lock",
+      "en": "Caps lock"
+    },
+    "subcategory": "signs",
+    "family": "arrow-big",
+    "synonyms": {
+      "pt": ["maiúsculas fixas", "fixar maiúsculas"],
+      "en": ["capitals lock", "uppercase lock"]
+    },
+    "tags": {
+      "pt": ["teclado", "tecla", "letras maiúsculas"],
+      "en": ["keyboard", "key", "uppercase"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gr97j8x2",
+    "slug": "club",
+    "name": {
+      "pt": "Paus",
+      "en": "Club"
+    },
+    "subcategory": "signs",
+    "family": "card-suit",
+    "synonyms": {
+      "pt": ["naipe de paus", "trevo"],
+      "en": ["clubs suit", "card"]
+    },
+    "tags": {
+      "pt": ["baralho", "jogo de cartas", "pôquer"],
+      "en": ["deck", "card game", "poker"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g37yrjsn",
+    "slug": "copyright",
+    "name": {
+      "pt": "Direitos autorais",
+      "en": "Copyright"
+    },
+    "subcategory": "signs",
+    "synonyms": {
+      "pt": ["copyright", "c no círculo"],
+      "en": ["copyright sign", "c in circle"]
+    },
+    "tags": {
+      "pt": ["licença", "propriedade intelectual", "autoria"],
+      "en": ["license", "intellectual property", "rights"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3v5sv5b",
+    "slug": "delete-key",
+    "name": {
+      "pt": "Tecla Delete",
+      "en": "Delete key"
+    },
+    "subcategory": "signs",
+    "family": "backspace",
+    "synonyms": {
+      "pt": ["excluir à frente", "del"],
+      "en": ["forward delete", "del"]
+    },
+    "tags": {
+      "pt": ["teclado", "apagar", "deletar", "tecla"],
+      "en": ["keyboard", "erase", "remove", "key"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g37a6npx",
+    "slug": "delta",
+    "name": {
+      "pt": "Delta",
+      "en": "Delta"
+    },
+    "subcategory": "math",
+    "synonyms": {
+      "pt": ["variação", "letra grega"],
+      "en": ["change", "greek letter"]
+    },
+    "tags": {
+      "pt": ["matemática", "diferença", "mudança", "física"],
+      "en": ["math", "difference", "variation", "physics"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0xzds1j",
+    "slug": "diamond",
+    "name": {
+      "pt": "Diamante",
+      "en": "Diamond"
+    },
+    "subcategory": "marks",
+    "synonyms": {
+      "pt": ["joia", "pedra preciosa", "gema"],
+      "en": ["gem", "jewel", "gemstone"]
+    },
+    "tags": {
+      "pt": ["premium", "valor", "luxo", "brilhante"],
+      "en": ["premium", "value", "luxury", "precious"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gxkkbfft",
+    "slug": "divide",
+    "name": {
+      "pt": "Dividir",
+      "en": "Divide"
+    },
+    "subcategory": "math",
+    "synonyms": {
+      "pt": ["divisão", "sinal de divisão"],
+      "en": ["division", "division sign"]
+    },
+    "tags": {
+      "pt": ["matemática", "calculadora", "operação"],
+      "en": ["math", "calculator", "operation"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g774s8h5",
+    "slug": "emergency-exit",
+    "name": {
+      "pt": "Saída de emergência",
+      "en": "Emergency exit"
+    },
+    "subcategory": "signs",
+    "synonyms": {
+      "pt": ["rota de fuga", "saída"],
+      "en": ["escape route", "exit"]
+    },
+    "tags": {
+      "pt": ["evacuação", "emergência", "incêndio", "sinalização"],
+      "en": ["evacuation", "emergency", "fire", "signage"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gfaw9z4w",
+    "slug": "equal",
+    "name": {
+      "pt": "Igual",
+      "en": "Equal"
+    },
+    "subcategory": "math",
+    "family": "equal",
+    "synonyms": {
+      "pt": ["sinal de igual", "igualdade"],
+      "en": ["equals sign", "equality"]
+    },
+    "tags": {
+      "pt": ["matemática", "resultado", "calcular"],
+      "en": ["math", "result", "calculate"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gv1s4vga",
+    "slug": "escape-key",
+    "name": {
+      "pt": "Tecla Esc",
+      "en": "Escape key"
+    },
+    "subcategory": "signs",
+    "family": "keyboard-key",
+    "synonyms": {
+      "pt": ["escape", "esc"],
+      "en": ["esc", "escape"]
+    },
+    "tags": {
+      "pt": ["teclado", "sair", "cancelar", "tecla"],
+      "en": ["keyboard", "exit", "cancel", "key"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gz1x00cf",
+    "slug": "exclamation-mark",
+    "name": {
+      "pt": "Ponto de exclamação",
+      "en": "Exclamation mark"
+    },
+    "subcategory": "signs",
+    "synonyms": {
+      "pt": ["exclamação", "atenção"],
+      "en": ["exclamation", "bang"]
+    },
+    "tags": {
+      "pt": ["alerta", "aviso", "importante", "urgente"],
+      "en": ["alert", "warning", "important", "urgent"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmm8pfgj",
+    "slug": "female",
+    "name": {
+      "pt": "Feminino",
+      "en": "Female"
+    },
+    "subcategory": "signs",
+    "family": "gender",
+    "synonyms": {
+      "pt": ["símbolo feminino", "mulher"],
+      "en": ["female sign", "woman"]
+    },
+    "tags": {
+      "pt": ["gênero", "sexo", "vênus"],
+      "en": ["gender", "sex", "venus"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqaq73ex",
+    "slug": "flammable",
+    "name": {
+      "pt": "Inflamável",
+      "en": "Flammable"
+    },
+    "subcategory": "signs",
+    "synonyms": {
+      "pt": ["perigo de fogo", "material inflamável"],
+      "en": ["fire hazard", "flammable material"]
+    },
+    "tags": {
+      "pt": ["fogo", "perigo", "combustível", "química", "segurança"],
+      "en": ["fire", "danger", "combustible", "chemical", "safety"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnebsfh9",
+    "slug": "fleur-de-lis",
+    "name": {
+      "pt": "Flor-de-lis",
+      "en": "Fleur-de-lis"
+    },
+    "subcategory": "marks",
+    "synonyms": {
+      "pt": ["lírio heráldico", "flor de lis"],
+      "en": ["heraldic lily", "fleur de lys"]
+    },
+    "tags": {
+      "pt": ["heráldica", "realeza", "escoteiro", "brasão"],
+      "en": ["heraldry", "royalty", "scouts", "crest"]
+    },
+    "popularity": 1,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grzmbsk6",
+    "slug": "fragile",
+    "name": {
+      "pt": "Frágil",
+      "en": "Fragile"
+    },
+    "subcategory": "signs",
+    "synonyms": {
+      "pt": ["cuidado frágil", "quebrável"],
+      "en": ["handle with care", "breakable"]
+    },
+    "tags": {
+      "pt": ["embalagem", "manuseio", "vidro", "entrega", "transporte"],
+      "en": ["packaging", "handling", "glass", "delivery", "shipping"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gq94dk1z",
+    "slug": "greater-equal",
+    "name": {
+      "pt": "Maior ou igual",
+      "en": "Greater or equal"
+    },
+    "subcategory": "math",
+    "family": "comparison",
+    "synonyms": {
+      "pt": ["maior ou igual a", "comparação"],
+      "en": ["greater than or equal", "comparison"]
+    },
+    "tags": {
+      "pt": ["matemática", "desigualdade", "mínimo"],
+      "en": ["math", "inequality", "minimum"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gh6wqke2",
+    "slug": "greater-than",
+    "name": {
+      "pt": "Maior que",
+      "en": "Greater than"
+    },
+    "subcategory": "math",
+    "family": "comparison",
+    "synonyms": {
+      "pt": ["sinal de maior", "comparação"],
+      "en": ["greater sign", "comparison"]
+    },
+    "tags": {
+      "pt": ["matemática", "desigualdade"],
+      "en": ["math", "inequality"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ghvbxnkx",
+    "slug": "hash",
+    "name": {
+      "pt": "Cerquilha",
+      "en": "Hash"
+    },
+    "subcategory": "math",
+    "synonyms": {
+      "pt": ["jogo da velha", "hashtag", "sustenido"],
+      "en": ["hashtag", "pound sign", "number sign"]
+    },
+    "tags": {
+      "pt": ["número", "canal", "marcador", "tag"],
+      "en": ["number", "channel", "tag", "sharp"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqr8xjwv",
+    "slug": "heart",
+    "name": {
+      "pt": "Coração",
+      "en": "Heart"
+    },
+    "subcategory": "marks",
+    "family": "heart",
+    "synonyms": {
+      "pt": ["amor", "favorito", "curtir"],
+      "en": ["love", "favorite", "like"]
+    },
+    "tags": {
+      "pt": ["gostar", "carinho", "saúde", "salvar"],
+      "en": ["care", "save"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gz8hbssh",
+    "slug": "heart-crack",
+    "name": {
+      "pt": "Coração partido",
+      "en": "Heart crack"
+    },
+    "subcategory": "signs",
+    "family": "heart",
+    "variantOf": "heart",
+    "synonyms": {
+      "pt": ["coração quebrado", "desilusão"],
+      "en": ["broken heart", "heartbreak"]
+    },
+    "tags": {
+      "pt": ["término", "tristeza", "amor perdido", "separação"],
+      "en": ["breakup", "sadness", "lost love"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gk304j8b",
+    "slug": "high-voltage",
+    "name": {
+      "pt": "Alta tensão",
+      "en": "High voltage"
+    },
+    "subcategory": "signs",
+    "synonyms": {
+      "pt": ["risco elétrico", "perigo de choque"],
+      "en": ["electrical hazard", "shock hazard"]
+    },
+    "tags": {
+      "pt": ["eletricidade", "choque", "perigo", "energia", "segurança"],
+      "en": ["electricity", "shock", "danger", "power", "safety"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grb3ky6t",
+    "slug": "infinity",
+    "name": {
+      "pt": "Infinito",
+      "en": "Infinity"
+    },
+    "subcategory": "math",
+    "synonyms": {
+      "pt": ["sem fim", "ilimitado"],
+      "en": ["endless", "unlimited"]
+    },
+    "tags": {
+      "pt": ["matemática", "eterno", "loop", "infinidade"],
+      "en": ["math", "forever", "loop", "infinite"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7xbnjq4",
+    "slug": "integral",
+    "name": {
+      "pt": "Integral",
+      "en": "Integral"
+    },
+    "subcategory": "math",
+    "synonyms": {
+      "pt": ["integração", "cálculo"],
+      "en": ["integration", "calculus"]
+    },
+    "tags": {
+      "pt": ["matemática", "área", "cálculo integral"],
+      "en": ["math", "area", "integral calculus"]
+    },
+    "popularity": 1,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gz46d9gp",
+    "slug": "keep-dry",
+    "name": {
+      "pt": "Manter seco",
+      "en": "Keep dry"
+    },
+    "subcategory": "signs",
+    "synonyms": {
+      "pt": ["proteger da umidade", "não molhar"],
+      "en": ["protect from moisture", "keep away from water"]
+    },
+    "tags": {
+      "pt": ["embalagem", "chuva", "umidade", "manuseio"],
+      "en": ["packaging", "rain", "moisture", "handling"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5fnf0j1",
+    "slug": "laurel-wreath",
+    "name": {
+      "pt": "Coroa de louros",
+      "en": "Laurel wreath"
+    },
+    "subcategory": "marks",
+    "synonyms": {
+      "pt": ["louro", "ramo de louros"],
+      "en": ["laurels", "victory wreath"]
+    },
+    "tags": {
+      "pt": ["vitória", "prêmio", "conquista", "campeão", "honra"],
+      "en": ["victory", "award", "achievement", "champion", "honor"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ger4awzv",
+    "slug": "less-equal",
+    "name": {
+      "pt": "Menor ou igual",
+      "en": "Less or equal"
+    },
+    "subcategory": "math",
+    "family": "comparison",
+    "synonyms": {
+      "pt": ["menor ou igual a", "comparação"],
+      "en": ["less than or equal", "comparison"]
+    },
+    "tags": {
+      "pt": ["matemática", "desigualdade", "máximo"],
+      "en": ["math", "inequality", "maximum"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4q0rfvp",
+    "slug": "less-than",
+    "name": {
+      "pt": "Menor que",
+      "en": "Less than"
+    },
+    "subcategory": "math",
+    "family": "comparison",
+    "synonyms": {
+      "pt": ["sinal de menor", "comparação"],
+      "en": ["less sign", "comparison"]
+    },
+    "tags": {
+      "pt": ["matemática", "desigualdade"],
+      "en": ["math", "inequality"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnr38g0d",
+    "slug": "lotus",
+    "name": {
+      "pt": "Lótus",
+      "en": "Lotus"
+    },
+    "subcategory": "marks",
+    "synonyms": {
+      "pt": ["flor de lótus", "nenúfar"],
+      "en": ["lotus flower", "water lily"]
+    },
+    "tags": {
+      "pt": ["meditação", "ioga", "zen", "bem-estar"],
+      "en": ["meditation", "yoga", "zen", "wellness"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5tk20sw",
+    "slug": "male",
+    "name": {
+      "pt": "Masculino",
+      "en": "Male"
+    },
+    "subcategory": "signs",
+    "family": "gender",
+    "synonyms": {
+      "pt": ["símbolo masculino", "homem"],
+      "en": ["male sign", "man"]
+    },
+    "tags": {
+      "pt": ["gênero", "sexo", "marte"],
+      "en": ["gender", "sex", "mars"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gp24bf5a",
+    "slug": "multiply",
+    "name": {
+      "pt": "Multiplicar",
+      "en": "Multiply"
+    },
+    "subcategory": "math",
+    "synonyms": {
+      "pt": ["multiplicação", "vezes"],
+      "en": ["multiplication", "times"]
+    },
+    "tags": {
+      "pt": ["matemática", "calculadora", "operação", "produto"],
+      "en": ["math", "calculator", "operation", "product"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0spbfag",
+    "slug": "no-entry",
+    "name": {
+      "pt": "Entrada proibida",
+      "en": "No entry"
+    },
+    "subcategory": "signs",
+    "synonyms": {
+      "pt": ["contramão", "acesso negado"],
+      "en": ["do not enter", "access denied"]
+    },
+    "tags": {
+      "pt": ["proibido", "bloqueado", "trânsito", "parar"],
+      "en": ["forbidden", "blocked", "traffic", "stop"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ge2emqcc",
+    "slug": "not-equal",
+    "name": {
+      "pt": "Diferente",
+      "en": "Not equal"
+    },
+    "subcategory": "math",
+    "family": "equal",
+    "variantOf": "equal",
+    "synonyms": {
+      "pt": ["sinal de diferente", "desigualdade"],
+      "en": ["not equal sign", "inequality"]
+    },
+    "tags": {
+      "pt": ["matemática", "comparação", "não igual"],
+      "en": ["math", "comparison", "different"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1s49kz1",
+    "slug": "omega",
+    "name": {
+      "pt": "Ômega",
+      "en": "Omega"
+    },
+    "subcategory": "math",
+    "synonyms": {
+      "pt": ["ohm", "letra grega"],
+      "en": ["ohm", "greek letter"]
+    },
+    "tags": {
+      "pt": ["física", "resistência", "eletricidade", "fim"],
+      "en": ["physics", "resistance", "electricity", "end"]
+    },
+    "popularity": 1,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gy1vfv4g",
+    "slug": "option-key",
+    "name": {
+      "pt": "Tecla Option",
+      "en": "Option key"
+    },
+    "subcategory": "signs",
+    "family": "keyboard-key",
+    "synonyms": {
+      "pt": ["alt", "opção"],
+      "en": ["alt", "option"]
+    },
+    "tags": {
+      "pt": ["teclado", "atalho", "mac", "modificador"],
+      "en": ["keyboard", "shortcut", "mac", "modifier"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8wj125j",
+    "slug": "ornament",
+    "name": {
+      "pt": "Ornamento",
+      "en": "Ornament"
+    },
+    "subcategory": "marks",
+    "synonyms": {
+      "pt": ["floreio", "vinheta"],
+      "en": ["flourish", "fleuron"]
+    },
+    "tags": {
+      "pt": ["decoração", "divisor", "tipografia", "enfeite"],
+      "en": ["decoration", "divider", "typography", "dingbat"]
+    },
+    "popularity": 1,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5x6np3w",
+    "slug": "peace",
+    "name": {
+      "pt": "Paz",
+      "en": "Peace"
+    },
+    "subcategory": "signs",
+    "synonyms": {
+      "pt": ["símbolo da paz", "paz e amor"],
+      "en": ["peace sign", "peace symbol"]
+    },
+    "tags": {
+      "pt": ["pacifismo", "harmonia", "hippie"],
+      "en": ["pacifism", "harmony", "hippie"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gcm7bzba",
+    "slug": "percent",
+    "name": {
+      "pt": "Porcentagem",
+      "en": "Percent"
+    },
+    "subcategory": "math",
+    "synonyms": {
+      "pt": ["percentual", "por cento"],
+      "en": ["percentage", "per cent"]
+    },
+    "tags": {
+      "pt": ["desconto", "taxa", "proporção", "matemática"],
+      "en": ["discount", "rate", "ratio", "math"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwm8e60y",
+    "slug": "perpendicular",
+    "name": {
+      "pt": "Perpendicular",
+      "en": "Perpendicular"
+    },
+    "subcategory": "math",
+    "synonyms": {
+      "pt": ["ângulo reto", "ortogonal"],
+      "en": ["right angle", "orthogonal"]
+    },
+    "tags": {
+      "pt": ["geometria", "90 graus", "vertical"],
+      "en": ["geometry", "90 degrees", "normal"]
+    },
+    "popularity": 1,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdmnpfhn",
+    "slug": "pi",
+    "name": {
+      "pt": "Pi",
+      "en": "Pi"
+    },
+    "subcategory": "math",
+    "synonyms": {
+      "pt": ["número pi", "letra grega"],
+      "en": ["pi number", "greek letter"]
+    },
+    "tags": {
+      "pt": ["matemática", "círculo", "geometria", "constante"],
+      "en": ["math", "circle", "geometry", "constant"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpc8hmbb",
+    "slug": "plus-minus",
+    "name": {
+      "pt": "Mais ou menos",
+      "en": "Plus minus"
+    },
+    "subcategory": "math",
+    "synonyms": {
+      "pt": ["mais-menos", "tolerância"],
+      "en": ["plus or minus", "tolerance"]
+    },
+    "tags": {
+      "pt": ["matemática", "margem de erro", "aproximado"],
+      "en": ["math", "margin of error", "approximate"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gekm6a2n",
+    "slug": "question-mark",
+    "name": {
+      "pt": "Ponto de interrogação",
+      "en": "Question mark"
+    },
+    "subcategory": "signs",
+    "synonyms": {
+      "pt": ["pergunta", "dúvida"],
+      "en": ["question", "query"]
+    },
+    "tags": {
+      "pt": ["ajuda", "faq", "desconhecido", "interrogação"],
+      "en": ["help", "faq", "unknown", "doubt"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnf5cmkk",
+    "slug": "radioactive",
+    "name": {
+      "pt": "Radioativo",
+      "en": "Radioactive"
+    },
+    "subcategory": "signs",
+    "synonyms": {
+      "pt": ["radiação", "nuclear"],
+      "en": ["radiation", "nuclear"]
+    },
+    "tags": {
+      "pt": ["perigo", "energia nuclear", "trifólio", "risco"],
+      "en": ["hazard", "nuclear energy", "trefoil", "danger"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gxd23603",
+    "slug": "registered",
+    "name": {
+      "pt": "Marca registrada",
+      "en": "Registered"
+    },
+    "subcategory": "signs",
+    "synonyms": {
+      "pt": ["r no círculo", "registrado"],
+      "en": ["registered trademark", "r in circle"]
+    },
+    "tags": {
+      "pt": ["marca", "propriedade", "legal"],
+      "en": ["brand", "legal", "property"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4pq8pqx",
+    "slug": "restroom",
+    "name": {
+      "pt": "Banheiro",
+      "en": "Restroom"
+    },
+    "subcategory": "signs",
+    "synonyms": {
+      "pt": ["sanitário", "toalete", "WC"],
+      "en": ["toilet sign", "WC", "bathroom"]
+    },
+    "tags": {
+      "pt": ["banheiro masculino", "banheiro feminino", "placa", "sinalização"],
+      "en": ["men", "women", "lavatory", "signage"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkpzkadv",
+    "slug": "scale-balance",
+    "name": {
+      "pt": "Balança da justiça",
+      "en": "Scale balance"
+    },
+    "subcategory": "marks",
+    "synonyms": {
+      "pt": ["balança de pratos", "equilíbrio"],
+      "en": ["scales of justice", "balance scale"]
+    },
+    "tags": {
+      "pt": ["justiça", "direito", "lei", "advogado", "igualdade", "comparar"],
+      "en": ["justice", "law", "legal", "lawyer", "equality", "compare"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4pgm38j",
+    "slug": "sigma",
+    "name": {
+      "pt": "Sigma",
+      "en": "Sigma"
+    },
+    "subcategory": "math",
+    "synonyms": {
+      "pt": ["somatório", "soma"],
+      "en": ["summation", "sum"]
+    },
+    "tags": {
+      "pt": ["matemática", "estatística", "letra grega", "total"],
+      "en": ["math", "statistics", "greek letter", "total"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gtfnzrgh",
+    "slug": "skull-crossbones",
+    "name": {
+      "pt": "Caveira com ossos",
+      "en": "Skull and crossbones"
+    },
+    "subcategory": "signs",
+    "synonyms": {
+      "pt": ["perigo de morte", "veneno"],
+      "en": ["poison", "deadly hazard"]
+    },
+    "tags": {
+      "pt": ["tóxico", "perigo", "pirata", "venenoso"],
+      "en": ["toxic", "danger", "pirate", "poisonous"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g2fy3sz8",
+    "slug": "space-key",
+    "name": {
+      "pt": "Barra de espaço",
+      "en": "Space key"
+    },
+    "subcategory": "signs",
+    "family": "keyboard-key",
+    "synonyms": {
+      "pt": ["espaço", "tecla de espaço"],
+      "en": ["spacebar", "space"]
+    },
+    "tags": {
+      "pt": ["teclado", "espaçamento", "tecla"],
+      "en": ["keyboard", "spacing", "key"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdbfz3w2",
+    "slug": "spade",
+    "name": {
+      "pt": "Espadas",
+      "en": "Spade"
+    },
+    "subcategory": "signs",
+    "family": "card-suit",
+    "synonyms": {
+      "pt": ["naipe de espadas", "carta"],
+      "en": ["spades suit", "card"]
+    },
+    "tags": {
+      "pt": ["baralho", "jogo de cartas", "pôquer"],
+      "en": ["deck", "card game", "poker"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0fgpdcw",
+    "slug": "sparkle",
+    "name": {
+      "pt": "Brilho",
+      "en": "Sparkle"
+    },
+    "subcategory": "signs",
+    "family": "sparkle",
+    "synonyms": {
+      "pt": ["cintilar", "faísca"],
+      "en": ["glint", "twinkle"]
+    },
+    "tags": {
+      "pt": ["novo", "destaque", "magia", "mágica"],
+      "en": ["new", "highlight", "magic", "shine"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gx4e8apy",
+    "slug": "sparkles",
+    "name": {
+      "pt": "Brilhos",
+      "en": "Sparkles"
+    },
+    "subcategory": "signs",
+    "family": "sparkle",
+    "synonyms": {
+      "pt": ["estrelinhas", "cintilantes"],
+      "en": ["glitter", "twinkles"]
+    },
+    "tags": {
+      "pt": ["inteligência artificial", "IA", "magia", "novo", "destaque"],
+      "en": ["AI", "artificial intelligence", "magic", "new", "highlight"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnxpmanf",
+    "slug": "square-root",
+    "name": {
+      "pt": "Raiz quadrada",
+      "en": "Square root"
+    },
+    "subcategory": "math",
+    "synonyms": {
+      "pt": ["radical", "raiz"],
+      "en": ["radical", "root"]
+    },
+    "tags": {
+      "pt": ["matemática", "cálculo", "operação"],
+      "en": ["math", "calculation", "operation"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gy2hkshn",
+    "slug": "star",
+    "name": {
+      "pt": "Estrela",
+      "en": "Star"
+    },
+    "subcategory": "marks",
+    "family": "star",
+    "synonyms": {
+      "pt": ["favorito", "destaque"],
+      "en": ["favorite", "featured"]
+    },
+    "tags": {
+      "pt": ["avaliação", "nota", "classificação", "preferido"],
+      "en": ["rating", "review", "bookmark"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0dakz4c",
+    "slug": "star-half",
+    "name": {
+      "pt": "Meia estrela",
+      "en": "Star half"
+    },
+    "subcategory": "signs",
+    "family": "star",
+    "variantOf": "star",
+    "synonyms": {
+      "pt": ["estrela pela metade", "meia nota"],
+      "en": ["half star", "half rating"]
+    },
+    "tags": {
+      "pt": ["avaliação", "classificação", "nota parcial"],
+      "en": ["rating", "review", "partial score"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gs2pk73p",
+    "slug": "tab-key",
+    "name": {
+      "pt": "Tecla Tab",
+      "en": "Tab key"
+    },
+    "subcategory": "signs",
+    "family": "keyboard-key",
+    "synonyms": {
+      "pt": ["tabulação", "tab"],
+      "en": ["tab", "tabulation"]
+    },
+    "tags": {
+      "pt": ["teclado", "avançar campo", "recuo", "tecla"],
+      "en": ["keyboard", "next field", "indent", "key"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4gg5w39",
+    "slug": "tally",
+    "name": {
+      "pt": "Contagem",
+      "en": "Tally"
+    },
+    "subcategory": "math",
+    "synonyms": {
+      "pt": ["marcas de contagem", "risquinhos"],
+      "en": ["tally marks", "count marks"]
+    },
+    "tags": {
+      "pt": ["contar", "contador", "placar", "cinco"],
+      "en": ["count", "counter", "score", "five"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdsjvbr9",
+    "slug": "therefore",
+    "name": {
+      "pt": "Portanto",
+      "en": "Therefore"
+    },
+    "subcategory": "math",
+    "synonyms": {
+      "pt": ["logo", "por conseguinte"],
+      "en": ["thus", "hence"]
+    },
+    "tags": {
+      "pt": ["lógica", "matemática", "conclusão", "três pontos"],
+      "en": ["logic", "math", "conclusion", "three dots"]
+    },
+    "popularity": 1,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gfp85dx0",
+    "slug": "this-side-up",
+    "name": {
+      "pt": "Este lado para cima",
+      "en": "This side up"
+    },
+    "subcategory": "signs",
+    "synonyms": {
+      "pt": ["posição vertical", "não virar"],
+      "en": ["keep upright", "do not invert"]
+    },
+    "tags": {
+      "pt": ["embalagem", "manuseio", "entrega", "caixa"],
+      "en": ["packaging", "handling", "delivery", "box"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3sekcy1",
+    "slug": "trademark",
+    "name": {
+      "pt": "Marca comercial",
+      "en": "Trademark"
+    },
+    "subcategory": "signs",
+    "synonyms": {
+      "pt": ["tm", "trademark"],
+      "en": ["tm", "trade mark"]
+    },
+    "tags": {
+      "pt": ["marca", "legal", "nome comercial"],
+      "en": ["brand", "legal", "brand name"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gb09sd26",
+    "slug": "yin-yang",
+    "name": {
+      "pt": "Yin-yang",
+      "en": "Yin yang"
+    },
+    "subcategory": "signs",
+    "synonyms": {
+      "pt": ["taijitu", "equilíbrio"],
+      "en": ["taijitu", "balance"]
+    },
+    "tags": {
+      "pt": ["harmonia", "dualidade", "opostos", "balanço"],
+      "en": ["harmony", "duality", "opposites"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  }
+]

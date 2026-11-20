@@ -1,0 +1,1194 @@
+[
+  {
+    "id": "g4b3953e",
+    "slug": "airport",
+    "name": {
+      "pt": "Aeroporto",
+      "en": "Airport"
+    },
+    "subcategory": "trip",
+    "synonyms": {
+      "pt": ["torre de controle", "terminal"],
+      "en": ["control tower", "terminal"]
+    },
+    "tags": {
+      "pt": ["voo", "avião", "embarque", "aviação"],
+      "en": ["flight", "plane", "boarding", "aviation"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1m5z9h6",
+    "slug": "aquarium",
+    "name": {
+      "pt": "Aquário",
+      "en": "Aquarium"
+    },
+    "subcategory": "leisure",
+    "synonyms": {
+      "pt": ["tanque de peixes", "oceanário"],
+      "en": ["fish tank", "oceanarium"]
+    },
+    "tags": {
+      "pt": ["peixes", "vida marinha", "passeio", "zoológico"],
+      "en": ["fish", "marine life", "attraction", "zoo"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g55hp2w8",
+    "slug": "backpack-travel",
+    "name": {
+      "pt": "Mochila de viagem",
+      "en": "Travel backpack"
+    },
+    "subcategory": "trip",
+    "synonyms": {
+      "pt": ["mochilão", "mochila de trilha"],
+      "en": ["hiking backpack", "rucksack"]
+    },
+    "tags": {
+      "pt": ["mochileiro", "trilha", "camping", "aventura", "viagem"],
+      "en": ["backpacker", "hiking", "camping", "adventure", "trip"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gk63j2bj",
+    "slug": "baggage-claim",
+    "name": {
+      "pt": "Restituição de bagagem",
+      "en": "Baggage claim"
+    },
+    "subcategory": "trip",
+    "synonyms": {
+      "pt": ["esteira de bagagem", "retirada de malas"],
+      "en": ["luggage carousel", "bag pickup"]
+    },
+    "tags": {
+      "pt": ["aeroporto", "desembarque", "mala", "chegada"],
+      "en": ["airport", "arrivals", "suitcase", "conveyor"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g17vetmh",
+    "slug": "beach",
+    "name": {
+      "pt": "Praia",
+      "en": "Beach"
+    },
+    "subcategory": "leisure",
+    "synonyms": {
+      "pt": ["litoral", "costa"],
+      "en": ["seaside", "coast", "shore"]
+    },
+    "tags": {
+      "pt": ["mar", "férias", "verão", "palmeira", "areia"],
+      "en": ["sea", "vacation", "summer", "palm tree", "sand"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gr0mpwtc",
+    "slug": "beach-umbrella",
+    "name": {
+      "pt": "Guarda-sol",
+      "en": "Beach umbrella"
+    },
+    "subcategory": "leisure",
+    "synonyms": {
+      "pt": ["sombrinha de praia", "ombrelone"],
+      "en": ["parasol", "sunshade"]
+    },
+    "tags": {
+      "pt": ["praia", "verão", "sol", "férias", "areia"],
+      "en": ["beach", "summer", "sun", "vacation", "sand"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gw29hnyq",
+    "slug": "binoculars",
+    "name": {
+      "pt": "Binóculo",
+      "en": "Binoculars"
+    },
+    "subcategory": "leisure",
+    "synonyms": {
+      "pt": ["luneta", "binóculos"],
+      "en": ["field glasses"]
+    },
+    "tags": {
+      "pt": ["observar", "explorar", "procurar", "turismo", "vista"],
+      "en": ["observe", "explore", "look", "sightseeing", "view"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzwr5f4c",
+    "slug": "boarding-pass",
+    "name": {
+      "pt": "Cartão de embarque",
+      "en": "Boarding pass"
+    },
+    "subcategory": "trip",
+    "synonyms": {
+      "pt": ["passagem aérea", "bilhete aéreo"],
+      "en": ["plane ticket", "flight ticket"]
+    },
+    "tags": {
+      "pt": ["voo", "aeroporto", "avião", "embarque", "check-in"],
+      "en": ["flight", "airport", "plane", "boarding", "check-in"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gg0kk6s9",
+    "slug": "campfire",
+    "name": {
+      "pt": "Fogueira",
+      "en": "Campfire"
+    },
+    "subcategory": "lodging",
+    "synonyms": {
+      "pt": ["fogo de chão", "lenha"],
+      "en": ["bonfire", "fire pit"]
+    },
+    "tags": {
+      "pt": ["camping", "acampamento", "calor", "luau"],
+      "en": ["camping", "fire", "warmth", "outdoors"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3mkvxbm",
+    "slug": "camping",
+    "name": {
+      "pt": "Área de camping",
+      "en": "Campsite"
+    },
+    "subcategory": "lodging",
+    "synonyms": {
+      "pt": ["acampamento", "camping"],
+      "en": ["camping", "campground"]
+    },
+    "tags": {
+      "pt": ["barraca", "árvore", "natureza", "ar livre"],
+      "en": ["tent", "tree", "nature", "outdoors"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5z3eyh6",
+    "slug": "carousel",
+    "name": {
+      "pt": "Carrossel",
+      "en": "Carousel"
+    },
+    "subcategory": "leisure",
+    "synonyms": {
+      "pt": ["gira-gira", "cavalinhos"],
+      "en": ["merry-go-round", "roundabout"]
+    },
+    "tags": {
+      "pt": ["parque de diversões", "infantil", "brinquedo", "diversão"],
+      "en": ["amusement park", "kids", "ride", "fun"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbzzrfh0",
+    "slug": "check-in",
+    "name": {
+      "pt": "Check-in",
+      "en": "Check-in"
+    },
+    "subcategory": "trip",
+    "family": "suitcase",
+    "synonyms": {
+      "pt": ["despacho de bagagem", "bagagem confirmada"],
+      "en": ["bag drop", "checked baggage"]
+    },
+    "tags": {
+      "pt": ["viagem", "aeroporto", "hotel", "embarque", "confirmado"],
+      "en": ["travel", "airport", "hotel", "boarding", "confirmed"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gyfbt0cx",
+    "slug": "circus-tent",
+    "name": {
+      "pt": "Circo",
+      "en": "Circus tent"
+    },
+    "subcategory": "leisure",
+    "synonyms": {
+      "pt": ["lona de circo", "tenda de circo"],
+      "en": ["big top", "circus"]
+    },
+    "tags": {
+      "pt": ["espetáculo", "palhaço", "show", "entretenimento"],
+      "en": ["show", "clown", "performance", "entertainment"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gd789qeh",
+    "slug": "concierge-bell",
+    "name": {
+      "pt": "Campainha de balcão",
+      "en": "Concierge bell"
+    },
+    "subcategory": "lodging",
+    "synonyms": {
+      "pt": ["sineta", "campainha de recepção"],
+      "en": ["service bell", "desk bell"]
+    },
+    "tags": {
+      "pt": ["hotel", "atendimento", "recepção", "concierge"],
+      "en": ["hotel", "service", "reception", "front desk"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpb4z1tq",
+    "slug": "cooler",
+    "name": {
+      "pt": "Caixa térmica",
+      "en": "Cooler"
+    },
+    "subcategory": "leisure",
+    "synonyms": {
+      "pt": ["cooler", "isopor"],
+      "en": ["ice chest", "cool box"]
+    },
+    "tags": {
+      "pt": ["piquenique", "bebidas geladas", "praia", "acampamento"],
+      "en": ["picnic", "cold drinks", "beach", "camping"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ga0mcqgr",
+    "slug": "customs",
+    "name": {
+      "pt": "Alfândega",
+      "en": "Customs"
+    },
+    "subcategory": "trip",
+    "synonyms": {
+      "pt": ["aduana", "controle de fronteira"],
+      "en": ["border control", "customs officer"]
+    },
+    "tags": {
+      "pt": ["imigração", "fiscal", "fronteira", "declaração", "viagem internacional"],
+      "en": ["immigration", "border", "declaration", "international travel"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbpwn09p",
+    "slug": "deck-chair",
+    "name": {
+      "pt": "Espreguiçadeira",
+      "en": "Deck chair"
+    },
+    "subcategory": "leisure",
+    "synonyms": {
+      "pt": ["cadeira de praia", "cadeira de sol"],
+      "en": ["sun lounger", "beach chair"]
+    },
+    "tags": {
+      "pt": ["praia", "piscina", "descanso", "férias", "verão"],
+      "en": ["beach", "pool", "relax", "vacation", "summer"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gaffmpah",
+    "slug": "do-not-disturb",
+    "name": {
+      "pt": "Não perturbe",
+      "en": "Do not disturb"
+    },
+    "subcategory": "lodging",
+    "synonyms": {
+      "pt": ["placa de porta", "aviso de porta"],
+      "en": ["door hanger", "dnd"]
+    },
+    "tags": {
+      "pt": ["hotel", "privacidade", "dormir", "silêncio", "quarto"],
+      "en": ["hotel", "privacy", "sleep", "quiet", "room"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gc62k0sb",
+    "slug": "ferris-wheel",
+    "name": {
+      "pt": "Roda-gigante",
+      "en": "Ferris wheel"
+    },
+    "subcategory": "leisure",
+    "synonyms": {
+      "pt": ["roda gigante"],
+      "en": ["big wheel", "observation wheel"]
+    },
+    "tags": {
+      "pt": ["parque de diversões", "atração", "passeio", "lazer"],
+      "en": ["amusement park", "attraction", "ride", "fun"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gjw5aqme",
+    "slug": "fireworks",
+    "name": {
+      "pt": "Fogos de artifício",
+      "en": "Fireworks"
+    },
+    "subcategory": "leisure",
+    "synonyms": {
+      "pt": ["queima de fogos", "rojão"],
+      "en": ["firework burst", "pyrotechnics"]
+    },
+    "tags": {
+      "pt": ["réveillon", "festa", "celebração", "ano novo"],
+      "en": ["new year", "party", "celebration", "festival"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gg9z655v",
+    "slug": "globe-plane",
+    "name": {
+      "pt": "Viagem internacional",
+      "en": "International travel"
+    },
+    "subcategory": "trip",
+    "synonyms": {
+      "pt": ["volta ao mundo", "voo internacional"],
+      "en": ["world travel", "international flight"]
+    },
+    "tags": {
+      "pt": ["globo", "avião", "exterior", "turismo", "mundo"],
+      "en": ["globe", "plane", "abroad", "tourism", "world"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g22tahxa",
+    "slug": "guidebook",
+    "name": {
+      "pt": "Guia de viagem",
+      "en": "Guidebook"
+    },
+    "subcategory": "leisure",
+    "synonyms": {
+      "pt": ["guia turístico", "roteiro"],
+      "en": ["travel guide", "tour guide book"]
+    },
+    "tags": {
+      "pt": ["livro", "viagem", "turismo", "dicas", "destino"],
+      "en": ["book", "travel", "tourism", "tips", "destination"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8epxjnp",
+    "slug": "hammock",
+    "name": {
+      "pt": "Rede de descanso",
+      "en": "Hammock"
+    },
+    "subcategory": "leisure",
+    "synonyms": {
+      "pt": ["rede", "balanço de rede"],
+      "en": ["hanging bed", "sling bed"]
+    },
+    "tags": {
+      "pt": ["relaxar", "férias", "descanso", "praia", "varanda"],
+      "en": ["relax", "vacation", "rest", "beach", "porch"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gh16swwb",
+    "slug": "hostel",
+    "name": {
+      "pt": "Albergue",
+      "en": "Hostel"
+    },
+    "subcategory": "lodging",
+    "synonyms": {
+      "pt": ["hostel", "beliche"],
+      "en": ["bunk bed", "youth hostel"]
+    },
+    "tags": {
+      "pt": ["hospedagem", "dormitório", "mochileiro", "quarto compartilhado"],
+      "en": ["accommodation", "dorm", "backpacker", "shared room"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gn5fc568",
+    "slug": "hot-air-balloon",
+    "name": {
+      "pt": "Balão de ar quente",
+      "en": "Hot air balloon"
+    },
+    "subcategory": "leisure",
+    "synonyms": {
+      "pt": ["balão", "balonismo"],
+      "en": ["balloon", "balloon ride"]
+    },
+    "tags": {
+      "pt": ["passeio", "voo", "aventura", "céu", "turismo"],
+      "en": ["ride", "flight", "adventure", "sky", "tourism"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gynn0rhb",
+    "slug": "hot-tub",
+    "name": {
+      "pt": "Banheira de hidromassagem",
+      "en": "Hot tub"
+    },
+    "subcategory": "lodging",
+    "synonyms": {
+      "pt": ["jacuzzi", "ofurô"],
+      "en": ["jacuzzi", "whirlpool"]
+    },
+    "tags": {
+      "pt": ["spa", "relaxar", "hotel", "piscina aquecida"],
+      "en": ["spa", "relax", "hotel", "heated pool"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gk7j3syv",
+    "slug": "hotel",
+    "name": {
+      "pt": "Hotel",
+      "en": "Hotel"
+    },
+    "subcategory": "lodging",
+    "synonyms": {
+      "pt": ["hospedagem", "pousada", "hospedaria"],
+      "en": ["accommodation", "lodging", "inn"]
+    },
+    "tags": {
+      "pt": ["reserva", "quarto", "estadia", "viagem", "diária"],
+      "en": ["booking", "room", "stay", "travel"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gaefea2q",
+    "slug": "itinerary",
+    "name": {
+      "pt": "Itinerário",
+      "en": "Itinerary"
+    },
+    "subcategory": "trip",
+    "synonyms": {
+      "pt": ["roteiro", "programação"],
+      "en": ["travel plan", "schedule"]
+    },
+    "tags": {
+      "pt": ["viagem", "paradas", "plano de viagem", "cronograma"],
+      "en": ["trip", "stops", "journey", "timeline"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gew8tw4t",
+    "slug": "key-card",
+    "name": {
+      "pt": "Cartão-chave",
+      "en": "Key card"
+    },
+    "subcategory": "lodging",
+    "synonyms": {
+      "pt": ["chave do quarto", "cartão do hotel"],
+      "en": ["room key", "hotel key card"]
+    },
+    "tags": {
+      "pt": ["hotel", "quarto", "acesso", "hospedagem"],
+      "en": ["hotel", "room", "access", "check-in"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gs946ty8",
+    "slug": "lifebuoy",
+    "name": {
+      "pt": "Boia salva-vidas",
+      "en": "Lifebuoy"
+    },
+    "subcategory": "leisure",
+    "synonyms": {
+      "pt": ["boia", "salva-vidas"],
+      "en": ["life ring", "life preserver"]
+    },
+    "tags": {
+      "pt": ["resgate", "segurança", "socorro", "praia", "ajuda", "suporte"],
+      "en": ["rescue", "safety", "help", "beach", "support"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g52rrba1",
+    "slug": "luggage",
+    "name": {
+      "pt": "Bagagem",
+      "en": "Luggage"
+    },
+    "subcategory": "trip",
+    "family": "suitcase",
+    "synonyms": {
+      "pt": ["malas", "bagagens"],
+      "en": ["baggage", "bags"]
+    },
+    "tags": {
+      "pt": ["viagem", "aeroporto", "hotel", "despachar", "embarque"],
+      "en": ["travel", "airport", "hotel", "check bags", "trip"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grm5wbtv",
+    "slug": "luggage-cart",
+    "name": {
+      "pt": "Carrinho de bagagem",
+      "en": "Luggage cart"
+    },
+    "subcategory": "trip",
+    "synonyms": {
+      "pt": ["carrinho de malas", "carrinho do aeroporto"],
+      "en": ["baggage trolley", "airport cart"]
+    },
+    "tags": {
+      "pt": ["aeroporto", "malas", "viagem", "hotel"],
+      "en": ["airport", "bags", "travel", "hotel"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gj5q3arc",
+    "slug": "luggage-tag",
+    "name": {
+      "pt": "Etiqueta de bagagem",
+      "en": "Luggage tag"
+    },
+    "subcategory": "trip",
+    "synonyms": {
+      "pt": ["tag de mala", "identificação de mala"],
+      "en": ["bag tag", "baggage label"]
+    },
+    "tags": {
+      "pt": ["mala", "aeroporto", "viagem", "nome", "endereço"],
+      "en": ["suitcase", "airport", "travel", "name", "address"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdx1zd05",
+    "slug": "museum",
+    "name": {
+      "pt": "Museu",
+      "en": "Museum"
+    },
+    "subcategory": "leisure",
+    "synonyms": {
+      "pt": ["galeria", "exposição"],
+      "en": ["gallery", "exhibition"]
+    },
+    "tags": {
+      "pt": ["arte", "cultura", "história", "turismo", "patrimônio"],
+      "en": ["art", "culture", "history", "tourism", "heritage"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gf8816cv",
+    "slug": "neck-pillow",
+    "name": {
+      "pt": "Travesseiro de pescoço",
+      "en": "Neck pillow"
+    },
+    "subcategory": "trip",
+    "synonyms": {
+      "pt": ["almofada de viagem", "apoio de pescoço"],
+      "en": ["travel pillow", "neck cushion"]
+    },
+    "tags": {
+      "pt": ["voo", "avião", "viagem longa", "conforto"],
+      "en": ["flight", "airplane", "long trip", "comfort"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g66hvn79",
+    "slug": "passport",
+    "name": {
+      "pt": "Passaporte",
+      "en": "Passport"
+    },
+    "subcategory": "trip",
+    "synonyms": {
+      "pt": ["documento de viagem"],
+      "en": ["travel document"]
+    },
+    "tags": {
+      "pt": ["viagem internacional", "imigração", "embarque", "visto", "identidade"],
+      "en": ["international travel", "immigration", "boarding", "visa", "id"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g11dphrb",
+    "slug": "picnic-table",
+    "name": {
+      "pt": "Mesa de piquenique",
+      "en": "Picnic table"
+    },
+    "subcategory": "leisure",
+    "synonyms": {
+      "pt": ["mesa de parque", "área de piquenique"],
+      "en": ["park table", "picnic area"]
+    },
+    "tags": {
+      "pt": ["piquenique", "parque", "acampamento", "ar livre"],
+      "en": ["picnic", "park", "campground", "outdoors"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gvf0d1rh",
+    "slug": "postcard",
+    "name": {
+      "pt": "Cartão-postal",
+      "en": "Postcard"
+    },
+    "subcategory": "leisure",
+    "synonyms": {
+      "pt": ["postal", "cartão de viagem"],
+      "en": ["postal card", "travel card"]
+    },
+    "tags": {
+      "pt": ["viagem", "correio", "lembrança", "selo", "turismo"],
+      "en": ["travel", "mail", "souvenir", "stamp", "tourism"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1dvhhtw",
+    "slug": "pyramid",
+    "name": {
+      "pt": "Pirâmide",
+      "en": "Pyramid"
+    },
+    "subcategory": "leisure",
+    "synonyms": {
+      "pt": ["pirâmides do egito"],
+      "en": ["pyramids", "giza"]
+    },
+    "tags": {
+      "pt": ["egito", "deserto", "história", "monumento", "turismo"],
+      "en": ["egypt", "desert", "history", "monument", "tourism"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g93fxrqy",
+    "slug": "reception",
+    "name": {
+      "pt": "Recepção",
+      "en": "Reception"
+    },
+    "subcategory": "lodging",
+    "synonyms": {
+      "pt": ["balcão", "atendimento"],
+      "en": ["front desk", "reception desk"]
+    },
+    "tags": {
+      "pt": ["hotel", "recepcionista", "check-in", "portaria"],
+      "en": ["hotel", "receptionist", "check-in", "lobby"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gp6psnkv",
+    "slug": "resort",
+    "name": {
+      "pt": "Resort",
+      "en": "Resort"
+    },
+    "subcategory": "lodging",
+    "synonyms": {
+      "pt": ["hotel de lazer", "clube"],
+      "en": ["holiday resort", "vacation club"]
+    },
+    "tags": {
+      "pt": ["férias", "palmeira", "piscina", "tropical", "all inclusive"],
+      "en": ["vacation", "palm tree", "pool", "tropical", "all inclusive"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzyth44y",
+    "slug": "roller-coaster",
+    "name": {
+      "pt": "Montanha-russa",
+      "en": "Roller coaster"
+    },
+    "subcategory": "leisure",
+    "synonyms": {
+      "pt": ["brinquedo radical"],
+      "en": ["coaster", "thrill ride"]
+    },
+    "tags": {
+      "pt": ["parque de diversões", "adrenalina", "atração", "diversão"],
+      "en": ["amusement park", "thrill", "attraction", "fun"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnq4d2n5",
+    "slug": "room-service",
+    "name": {
+      "pt": "Serviço de quarto",
+      "en": "Room service"
+    },
+    "subcategory": "lodging",
+    "synonyms": {
+      "pt": ["cloche", "prato coberto"],
+      "en": ["cloche", "covered dish"]
+    },
+    "tags": {
+      "pt": ["hotel", "refeição", "restaurante", "atendimento"],
+      "en": ["hotel", "meal", "restaurant", "service"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1cnhdzw",
+    "slug": "scuba-mask",
+    "name": {
+      "pt": "Máscara de mergulho",
+      "en": "Scuba mask"
+    },
+    "subcategory": "leisure",
+    "synonyms": {
+      "pt": ["mergulho autônomo", "máscara"],
+      "en": ["diving mask", "dive mask"]
+    },
+    "tags": {
+      "pt": ["mergulho", "mar", "oceano", "bolhas", "esporte aquático"],
+      "en": ["diving", "sea", "ocean", "bubbles", "water sports"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkdr2esv",
+    "slug": "sightseeing",
+    "name": {
+      "pt": "Passeio turístico",
+      "en": "Sightseeing"
+    },
+    "subcategory": "leisure",
+    "synonyms": {
+      "pt": ["ônibus de turismo", "city tour"],
+      "en": ["tour bus", "city tour"]
+    },
+    "tags": {
+      "pt": ["turismo", "excursão", "passeio", "dois andares"],
+      "en": ["tourism", "excursion", "tour", "double-decker"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gvgrc1s9",
+    "slug": "sleep-mask",
+    "name": {
+      "pt": "Máscara de dormir",
+      "en": "Sleep mask"
+    },
+    "subcategory": "trip",
+    "synonyms": {
+      "pt": ["tapa-olhos", "venda para dormir"],
+      "en": ["eye mask", "blindfold"]
+    },
+    "tags": {
+      "pt": ["voo", "descanso", "sono", "viagem", "hotel"],
+      "en": ["flight", "rest", "sleep", "travel", "hotel"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5fk86nk",
+    "slug": "snorkel",
+    "name": {
+      "pt": "Snorkel",
+      "en": "Snorkel"
+    },
+    "subcategory": "leisure",
+    "synonyms": {
+      "pt": ["máscara de mergulho com tubo", "respirador"],
+      "en": ["snorkeling mask", "snorkel tube"]
+    },
+    "tags": {
+      "pt": ["mergulho", "mar", "praia", "esporte aquático"],
+      "en": ["diving", "sea", "beach", "water sports"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbgc5vyw",
+    "slug": "souvenir",
+    "name": {
+      "pt": "Lembrancinha",
+      "en": "Souvenir"
+    },
+    "subcategory": "leisure",
+    "synonyms": {
+      "pt": ["suvenir", "globo de neve"],
+      "en": ["snow globe", "keepsake"]
+    },
+    "tags": {
+      "pt": ["presente", "viagem", "lembrança", "turismo"],
+      "en": ["gift", "travel", "memento", "tourism"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gvvpzzx1",
+    "slug": "suitcase",
+    "name": {
+      "pt": "Mala",
+      "en": "Suitcase"
+    },
+    "subcategory": "trip",
+    "family": "suitcase",
+    "synonyms": {
+      "pt": ["mala de viagem", "valise"],
+      "en": ["travel bag", "valise"]
+    },
+    "tags": {
+      "pt": ["viagem", "bagagem", "férias", "turismo"],
+      "en": ["travel", "baggage", "vacation", "trip"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5xyfp79",
+    "slug": "suitcase-rolling",
+    "name": {
+      "pt": "Mala de rodinhas",
+      "en": "Rolling suitcase"
+    },
+    "subcategory": "trip",
+    "family": "suitcase",
+    "synonyms": {
+      "pt": ["mala com rodas", "trolley"],
+      "en": ["trolley bag", "wheeled luggage"]
+    },
+    "tags": {
+      "pt": ["viagem", "aeroporto", "bagagem de mão", "embarque"],
+      "en": ["travel", "airport", "carry-on", "boarding"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqfnzjzd",
+    "slug": "swimming-pool",
+    "name": {
+      "pt": "Piscina",
+      "en": "Swimming pool"
+    },
+    "subcategory": "lodging",
+    "synonyms": {
+      "pt": ["escada da piscina"],
+      "en": ["pool", "pool ladder"]
+    },
+    "tags": {
+      "pt": ["natação", "nadar", "lazer", "hotel", "clube"],
+      "en": ["swimming", "swim", "leisure", "hotel", "club"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gch102h5",
+    "slug": "tent",
+    "name": {
+      "pt": "Barraca",
+      "en": "Tent"
+    },
+    "subcategory": "lodging",
+    "synonyms": {
+      "pt": ["tenda", "acampamento"],
+      "en": ["camping tent"]
+    },
+    "tags": {
+      "pt": ["camping", "acampar", "natureza", "aventura"],
+      "en": ["camping", "camp", "outdoors", "adventure"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gj8y8qcm",
+    "slug": "ticket",
+    "name": {
+      "pt": "Ingresso",
+      "en": "Ticket"
+    },
+    "subcategory": "trip",
+    "synonyms": {
+      "pt": ["bilhete", "entrada", "passagem"],
+      "en": ["admission", "pass", "voucher"]
+    },
+    "tags": {
+      "pt": ["evento", "show", "cinema", "viagem", "cupom"],
+      "en": ["event", "concert", "movie", "travel", "coupon"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0hqngyh",
+    "slug": "water-slide",
+    "name": {
+      "pt": "Tobogã",
+      "en": "Water slide"
+    },
+    "subcategory": "leisure",
+    "synonyms": {
+      "pt": ["escorregador aquático", "parque aquático"],
+      "en": ["waterslide", "water park"]
+    },
+    "tags": {
+      "pt": ["piscina", "diversão", "verão", "clube"],
+      "en": ["pool", "fun", "summer", "resort"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  }
+]

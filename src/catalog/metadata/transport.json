@@ -1,0 +1,1323 @@
+[
+  {
+    "id": "gzfmz14m",
+    "slug": "ambulance",
+    "name": {
+      "pt": "Ambulância",
+      "en": "Ambulance"
+    },
+    "subcategory": "road",
+    "synonyms": {
+      "pt": ["resgate", "socorro", "samu"],
+      "en": ["emergency vehicle", "paramedic"]
+    },
+    "tags": {
+      "pt": ["emergência", "hospital", "urgência", "saúde"],
+      "en": ["emergency", "hospital", "rescue", "health"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0evxm7s",
+    "slug": "anchor",
+    "name": {
+      "pt": "Âncora",
+      "en": "Anchor"
+    },
+    "subcategory": "rail-air-sea",
+    "synonyms": {
+      "pt": ["ferro", "fundeio"],
+      "en": ["mooring"]
+    },
+    "tags": {
+      "pt": ["porto", "marinheiro", "náutica", "ancorar", "mar"],
+      "en": ["port", "sailor", "nautical", "marine", "harbor"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gd082gb9",
+    "slug": "bicycle",
+    "name": {
+      "pt": "Bicicleta",
+      "en": "Bicycle"
+    },
+    "subcategory": "road",
+    "family": "bicycle",
+    "synonyms": {
+      "pt": ["bike", "magrela"],
+      "en": ["bike", "cycle"]
+    },
+    "tags": {
+      "pt": ["ciclismo", "pedalar", "ciclovia", "ciclista"],
+      "en": ["cycling", "cyclist", "bike lane", "pedal"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnxtv531",
+    "slug": "boat",
+    "name": {
+      "pt": "Barco",
+      "en": "Boat"
+    },
+    "subcategory": "rail-air-sea",
+    "synonyms": {
+      "pt": ["lancha", "embarcação"],
+      "en": ["motorboat", "vessel"]
+    },
+    "tags": {
+      "pt": ["mar", "rio", "pesca", "náutica", "passeio"],
+      "en": ["sea", "river", "fishing", "nautical", "marine"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g93cjbce",
+    "slug": "bus",
+    "name": {
+      "pt": "Ônibus",
+      "en": "Bus"
+    },
+    "subcategory": "road",
+    "family": "bus",
+    "synonyms": {
+      "pt": ["coletivo", "busão"],
+      "en": ["coach", "transit bus"]
+    },
+    "tags": {
+      "pt": ["transporte público", "ponto de ônibus", "viagem", "linha"],
+      "en": ["public transport", "bus stop", "transit", "commute"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzsfb0zy",
+    "slug": "bus-front",
+    "name": {
+      "pt": "Ônibus de frente",
+      "en": "Bus front"
+    },
+    "subcategory": "road",
+    "family": "bus",
+    "synonyms": {
+      "pt": ["ônibus", "coletivo"],
+      "en": ["bus", "coach"]
+    },
+    "tags": {
+      "pt": ["transporte público", "ponto de ônibus", "linha", "trânsito"],
+      "en": ["public transport", "bus stop", "transit", "commute"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0f96t7c",
+    "slug": "bus-stop",
+    "name": {
+      "pt": "Ponto de ônibus",
+      "en": "Bus stop"
+    },
+    "subcategory": "traffic",
+    "synonyms": {
+      "pt": ["parada de ônibus", "abrigo de ônibus"],
+      "en": ["bus shelter", "transit stop"]
+    },
+    "tags": {
+      "pt": ["transporte público", "esperar", "linha", "embarque"],
+      "en": ["public transport", "wait", "line", "boarding"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0tfj0ch",
+    "slug": "cable-car",
+    "name": {
+      "pt": "Teleférico",
+      "en": "Cable car"
+    },
+    "subcategory": "rail-air-sea",
+    "synonyms": {
+      "pt": ["bondinho", "gôndola"],
+      "en": ["gondola", "aerial tramway"]
+    },
+    "tags": {
+      "pt": ["montanha", "cabo", "turismo", "estação de esqui"],
+      "en": ["mountain", "cable", "ski lift", "tourism"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnzm1mnw",
+    "slug": "canoe",
+    "name": {
+      "pt": "Canoa",
+      "en": "Canoe"
+    },
+    "subcategory": "rail-air-sea",
+    "synonyms": {
+      "pt": ["caiaque", "bote"],
+      "en": ["kayak", "rowboat"]
+    },
+    "tags": {
+      "pt": ["remo", "rio", "remar", "aventura", "esporte aquático"],
+      "en": ["paddle", "river", "rowing", "adventure", "water sports"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzxr8kns",
+    "slug": "car",
+    "name": {
+      "pt": "Carro",
+      "en": "Car"
+    },
+    "subcategory": "road",
+    "family": "car",
+    "synonyms": {
+      "pt": ["automóvel", "veículo", "sedã"],
+      "en": ["automobile", "vehicle", "sedan"]
+    },
+    "tags": {
+      "pt": ["trânsito", "dirigir", "garagem", "estacionamento"],
+      "en": ["drive", "traffic", "auto"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gtwheh8s",
+    "slug": "car-battery",
+    "name": {
+      "pt": "Bateria do carro",
+      "en": "Car battery"
+    },
+    "subcategory": "traffic",
+    "synonyms": {
+      "pt": ["bateria automotiva", "acumulador"],
+      "en": ["vehicle battery", "accumulator"]
+    },
+    "tags": {
+      "pt": ["carro", "elétrica", "carga", "oficina", "positivo e negativo"],
+      "en": ["car", "electrical", "charge", "garage", "positive negative"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gtwtpf58",
+    "slug": "car-front",
+    "name": {
+      "pt": "Carro de frente",
+      "en": "Car front"
+    },
+    "subcategory": "road",
+    "family": "car",
+    "synonyms": {
+      "pt": ["carro", "automóvel", "veículo"],
+      "en": ["car", "automobile", "vehicle"]
+    },
+    "tags": {
+      "pt": ["trânsito", "dirigir", "garagem", "frente do carro"],
+      "en": ["drive", "traffic", "auto"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gxf20xpp",
+    "slug": "car-wash",
+    "name": {
+      "pt": "Lava-rápido",
+      "en": "Car wash"
+    },
+    "subcategory": "traffic",
+    "family": "car",
+    "synonyms": {
+      "pt": ["lava-jato", "lavagem de carro"],
+      "en": ["car cleaning", "auto wash"]
+    },
+    "tags": {
+      "pt": ["carro", "limpeza", "água", "lavar"],
+      "en": ["car", "cleaning", "water", "wash"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g6ee58s9",
+    "slug": "caravan",
+    "name": {
+      "pt": "Trailer",
+      "en": "Caravan"
+    },
+    "subcategory": "road",
+    "synonyms": {
+      "pt": ["caravana", "motorhome", "reboque"],
+      "en": ["trailer", "camper", "rv"]
+    },
+    "tags": {
+      "pt": ["camping", "viagem", "acampamento", "casa sobre rodas"],
+      "en": ["camping", "travel", "road trip", "motorhome"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gfj1ctm0",
+    "slug": "crossing",
+    "name": {
+      "pt": "Faixa de pedestres",
+      "en": "Crosswalk"
+    },
+    "subcategory": "traffic",
+    "synonyms": {
+      "pt": ["faixa", "travessia"],
+      "en": ["pedestrian crossing", "zebra crossing"]
+    },
+    "tags": {
+      "pt": ["pedestre", "atravessar", "rua", "trânsito", "zebra"],
+      "en": ["pedestrian", "cross", "street", "traffic"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggqgqsv7",
+    "slug": "cruise-ship",
+    "name": {
+      "pt": "Navio de cruzeiro",
+      "en": "Cruise ship"
+    },
+    "subcategory": "rail-air-sea",
+    "synonyms": {
+      "pt": ["transatlântico", "cruzeiro"],
+      "en": ["ocean liner", "cruise"]
+    },
+    "tags": {
+      "pt": ["viagem", "férias", "turismo", "mar", "porto"],
+      "en": ["travel", "vacation", "tourism", "sea", "port"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g52wtcwy",
+    "slug": "e-bike",
+    "name": {
+      "pt": "Bicicleta elétrica",
+      "en": "E-bike"
+    },
+    "subcategory": "road",
+    "family": "bicycle",
+    "synonyms": {
+      "pt": ["e-bike", "bike elétrica"],
+      "en": ["electric bike", "electric bicycle"]
+    },
+    "tags": {
+      "pt": ["ciclismo", "elétrico", "bateria", "mobilidade"],
+      "en": ["cycling", "electric", "battery", "micromobility"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ghgvskaz",
+    "slug": "electric-car",
+    "name": {
+      "pt": "Carro elétrico",
+      "en": "Electric car"
+    },
+    "subcategory": "road",
+    "family": "car",
+    "synonyms": {
+      "pt": ["veículo elétrico", "carro ev"],
+      "en": ["ev", "electric vehicle"]
+    },
+    "tags": {
+      "pt": ["elétrico", "sustentável", "recarga", "bateria", "energia limpa"],
+      "en": ["electric", "charging", "battery", "green energy"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdq2spja",
+    "slug": "engine",
+    "name": {
+      "pt": "Motor",
+      "en": "Engine"
+    },
+    "subcategory": "traffic",
+    "synonyms": {
+      "pt": ["motor do carro", "injeção"],
+      "en": ["car engine", "motor"]
+    },
+    "tags": {
+      "pt": ["oficina", "mecânica", "revisão", "luz do motor", "manutenção"],
+      "en": ["mechanic", "repair", "check engine", "service", "maintenance"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gemrpyha",
+    "slug": "ev-charger",
+    "name": {
+      "pt": "Carregador elétrico",
+      "en": "EV charger"
+    },
+    "subcategory": "traffic",
+    "synonyms": {
+      "pt": ["eletroposto", "estação de recarga", "ponto de recarga"],
+      "en": ["charging station", "electric vehicle charger"]
+    },
+    "tags": {
+      "pt": ["carro elétrico", "recarregar", "tomada", "energia"],
+      "en": ["electric car", "recharge", "plug", "power"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gyg8cwn9",
+    "slug": "ferry",
+    "name": {
+      "pt": "Balsa",
+      "en": "Ferry"
+    },
+    "subcategory": "rail-air-sea",
+    "synonyms": {
+      "pt": ["ferry", "barca", "travessia"],
+      "en": ["ferryboat", "car ferry"]
+    },
+    "tags": {
+      "pt": ["porto", "carros", "transporte aquático", "hidroviário"],
+      "en": ["port", "crossing", "water transport", "terminal"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnvx5mv5",
+    "slug": "fire-truck",
+    "name": {
+      "pt": "Caminhão de bombeiros",
+      "en": "Fire truck"
+    },
+    "subcategory": "road",
+    "family": "truck",
+    "synonyms": {
+      "pt": ["carro de bombeiro", "viatura de incêndio"],
+      "en": ["fire engine", "fire appliance"]
+    },
+    "tags": {
+      "pt": ["bombeiros", "incêndio", "emergência", "escada", "resgate"],
+      "en": ["firefighter", "fire", "emergency", "ladder", "rescue"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8d60z3x",
+    "slug": "fuel",
+    "name": {
+      "pt": "Combustível",
+      "en": "Fuel"
+    },
+    "subcategory": "traffic",
+    "synonyms": {
+      "pt": ["posto de gasolina", "bomba de combustível", "gasolina"],
+      "en": ["gas station", "gas pump", "petrol"]
+    },
+    "tags": {
+      "pt": ["abastecer", "posto", "álcool", "diesel", "etanol"],
+      "en": ["refuel", "gasoline", "diesel", "filling station"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g949htes",
+    "slug": "helicopter",
+    "name": {
+      "pt": "Helicóptero",
+      "en": "Helicopter"
+    },
+    "subcategory": "rail-air-sea",
+    "synonyms": {
+      "pt": ["heli", "aeronave"],
+      "en": ["chopper", "heli"]
+    },
+    "tags": {
+      "pt": ["voo", "resgate", "heliponto", "hélice"],
+      "en": ["flight", "rescue", "helipad", "rotor"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g9sbg12d",
+    "slug": "kick-scooter",
+    "name": {
+      "pt": "Patinete",
+      "en": "Kick scooter"
+    },
+    "subcategory": "road",
+    "synonyms": {
+      "pt": ["patinete elétrico", "trotinete"],
+      "en": ["e-scooter", "push scooter"]
+    },
+    "tags": {
+      "pt": ["mobilidade urbana", "cidade", "micromobilidade"],
+      "en": ["micromobility", "city", "urban mobility"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ghja7n69",
+    "slug": "license-plate",
+    "name": {
+      "pt": "Placa de carro",
+      "en": "License plate"
+    },
+    "subcategory": "traffic",
+    "synonyms": {
+      "pt": ["placa", "emplacamento"],
+      "en": ["number plate", "registration plate"]
+    },
+    "tags": {
+      "pt": ["veículo", "carro", "registro", "detran", "identificação"],
+      "en": ["vehicle", "car", "registration", "plate number"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gh9jtzsd",
+    "slug": "metro",
+    "name": {
+      "pt": "Metrô",
+      "en": "Metro"
+    },
+    "subcategory": "rail-air-sea",
+    "family": "train",
+    "synonyms": {
+      "pt": ["trem subterrâneo", "subway"],
+      "en": ["subway", "underground", "tube"]
+    },
+    "tags": {
+      "pt": ["estação", "túnel", "transporte público", "linha", "mobilidade urbana"],
+      "en": ["station", "tunnel", "public transport", "transit"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grkpvvs1",
+    "slug": "moped",
+    "name": {
+      "pt": "Ciclomotor",
+      "en": "Moped"
+    },
+    "subcategory": "road",
+    "family": "scooter",
+    "synonyms": {
+      "pt": ["mobilete", "moto de entrega", "cinquentinha"],
+      "en": ["delivery scooter", "delivery moped"]
+    },
+    "tags": {
+      "pt": ["entrega", "delivery", "motoboy", "baú"],
+      "en": ["delivery", "courier", "food delivery", "cargo box"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g23ckz75",
+    "slug": "motorcycle",
+    "name": {
+      "pt": "Moto",
+      "en": "Motorcycle"
+    },
+    "subcategory": "road",
+    "synonyms": {
+      "pt": ["motocicleta", "motoca"],
+      "en": ["motorbike", "bike"]
+    },
+    "tags": {
+      "pt": ["motoqueiro", "motoboy", "entrega", "duas rodas"],
+      "en": ["motorcyclist", "rider", "delivery", "two wheels"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1bsv8cg",
+    "slug": "parking",
+    "name": {
+      "pt": "Estacionamento",
+      "en": "Parking"
+    },
+    "subcategory": "traffic",
+    "synonyms": {
+      "pt": ["vaga", "parque", "zona azul"],
+      "en": ["parking lot", "car park", "parking space"]
+    },
+    "tags": {
+      "pt": ["carro", "estacionar", "garagem", "placa"],
+      "en": ["car", "park", "garage", "sign"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g00q658j",
+    "slug": "parking-garage",
+    "name": {
+      "pt": "Garagem de estacionamento",
+      "en": "Parking garage"
+    },
+    "subcategory": "traffic",
+    "synonyms": {
+      "pt": ["edifício-garagem", "estacionamento coberto"],
+      "en": ["parking structure", "multi-storey car park"]
+    },
+    "tags": {
+      "pt": ["carro", "estacionar", "vaga", "parque"],
+      "en": ["car", "park", "parking lot", "garage"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g84001c6",
+    "slug": "plane",
+    "name": {
+      "pt": "Avião",
+      "en": "Plane"
+    },
+    "subcategory": "rail-air-sea",
+    "family": "plane",
+    "synonyms": {
+      "pt": ["aeronave", "jato"],
+      "en": ["airplane", "aircraft", "jet"]
+    },
+    "tags": {
+      "pt": ["voo", "aeroporto", "viagem", "companhia aérea", "modo avião"],
+      "en": ["flight", "airport", "travel", "airline", "airplane mode"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdczd3h5",
+    "slug": "plane-landing",
+    "name": {
+      "pt": "Pouso",
+      "en": "Plane landing"
+    },
+    "subcategory": "rail-air-sea",
+    "family": "plane",
+    "synonyms": {
+      "pt": ["avião pousando", "aterrissagem", "chegada"],
+      "en": ["arrival", "landing"]
+    },
+    "tags": {
+      "pt": ["voo", "aeroporto", "desembarque", "chegadas"],
+      "en": ["flight", "airport", "arrivals", "touchdown"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g33x4ezb",
+    "slug": "plane-takeoff",
+    "name": {
+      "pt": "Decolagem",
+      "en": "Plane takeoff"
+    },
+    "subcategory": "rail-air-sea",
+    "family": "plane",
+    "synonyms": {
+      "pt": ["avião decolando", "partida"],
+      "en": ["departure", "takeoff"]
+    },
+    "tags": {
+      "pt": ["voo", "aeroporto", "embarque", "partidas"],
+      "en": ["flight", "airport", "departures", "boarding"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7ag2rrf",
+    "slug": "police-car",
+    "name": {
+      "pt": "Carro de polícia",
+      "en": "Police car"
+    },
+    "subcategory": "road",
+    "family": "car",
+    "synonyms": {
+      "pt": ["viatura", "radiopatrulha"],
+      "en": ["patrol car", "squad car", "cop car"]
+    },
+    "tags": {
+      "pt": ["polícia", "sirene", "emergência", "segurança"],
+      "en": ["police", "siren", "emergency", "law enforcement"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdwd2pf2",
+    "slug": "race-car",
+    "name": {
+      "pt": "Carro de corrida",
+      "en": "Race car"
+    },
+    "subcategory": "road",
+    "family": "car",
+    "synonyms": {
+      "pt": ["carro esportivo", "bólido"],
+      "en": ["sports car", "racing car"]
+    },
+    "tags": {
+      "pt": ["corrida", "automobilismo", "velocidade", "fórmula"],
+      "en": ["racing", "motorsport", "speed", "formula"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0jw7e96",
+    "slug": "railroad-crossing",
+    "name": {
+      "pt": "Passagem de nível",
+      "en": "Railroad crossing"
+    },
+    "subcategory": "traffic",
+    "synonyms": {
+      "pt": ["cruzamento ferroviário", "cruz de santo andré"],
+      "en": ["level crossing", "railway crossing", "crossbuck"]
+    },
+    "tags": {
+      "pt": ["trem", "ferrovia", "atenção", "trilhos", "placa"],
+      "en": ["train", "railway", "caution", "tracks", "sign"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gz81cnz6",
+    "slug": "road",
+    "name": {
+      "pt": "Estrada",
+      "en": "Road"
+    },
+    "subcategory": "traffic",
+    "synonyms": {
+      "pt": ["rodovia", "pista", "rua"],
+      "en": ["highway", "street", "lane"]
+    },
+    "tags": {
+      "pt": ["trânsito", "viagem", "caminho", "asfalto", "faixa"],
+      "en": ["traffic", "travel", "route", "asphalt"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ghabfv82",
+    "slug": "rocket",
+    "name": {
+      "pt": "Foguete",
+      "en": "Rocket"
+    },
+    "subcategory": "rail-air-sea",
+    "synonyms": {
+      "pt": ["nave espacial", "míssil"],
+      "en": ["spaceship", "spacecraft"]
+    },
+    "tags": {
+      "pt": ["espaço", "lançamento", "startup", "decolar", "nasa"],
+      "en": ["space", "launch", "startup", "boost"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwjp3g04",
+    "slug": "sailboat",
+    "name": {
+      "pt": "Veleiro",
+      "en": "Sailboat"
+    },
+    "subcategory": "rail-air-sea",
+    "synonyms": {
+      "pt": ["barco a vela", "iate"],
+      "en": ["sailing boat", "yacht"]
+    },
+    "tags": {
+      "pt": ["vela", "náutica", "regata", "mar", "vento"],
+      "en": ["sail", "nautical", "regatta", "sea", "wind"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g05qayrp",
+    "slug": "scooter",
+    "name": {
+      "pt": "Lambreta",
+      "en": "Scooter"
+    },
+    "subcategory": "road",
+    "family": "scooter",
+    "synonyms": {
+      "pt": ["scooter", "vespa", "motoneta"],
+      "en": ["motor scooter", "vespa"]
+    },
+    "tags": {
+      "pt": ["moto", "cidade", "entrega", "duas rodas"],
+      "en": ["city", "commute", "two wheels", "motorbike"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grdvbzds",
+    "slug": "seat-belt",
+    "name": {
+      "pt": "Cinto de segurança",
+      "en": "Seat belt"
+    },
+    "subcategory": "traffic",
+    "synonyms": {
+      "pt": ["cinto", "afivelar"],
+      "en": ["seatbelt", "safety belt"]
+    },
+    "tags": {
+      "pt": ["segurança", "carro", "proteção", "passageiro"],
+      "en": ["safety", "car", "buckle up", "passenger"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3byey3k",
+    "slug": "ship",
+    "name": {
+      "pt": "Navio",
+      "en": "Ship"
+    },
+    "subcategory": "rail-air-sea",
+    "synonyms": {
+      "pt": ["navio cargueiro", "cargueiro"],
+      "en": ["cargo ship", "freighter"]
+    },
+    "tags": {
+      "pt": ["porto", "carga", "contêiner", "frete marítimo", "exportação"],
+      "en": ["port", "cargo", "container", "shipping", "freight"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g6tjskf1",
+    "slug": "speedometer",
+    "name": {
+      "pt": "Velocímetro",
+      "en": "Speedometer"
+    },
+    "subcategory": "traffic",
+    "synonyms": {
+      "pt": ["painel", "medidor de velocidade"],
+      "en": ["gauge", "speed meter"]
+    },
+    "tags": {
+      "pt": ["velocidade", "desempenho", "rapidez", "painel do carro"],
+      "en": ["speed", "performance", "fast", "dashboard"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g2sh59xh",
+    "slug": "steering-wheel",
+    "name": {
+      "pt": "Volante",
+      "en": "Steering wheel"
+    },
+    "subcategory": "traffic",
+    "synonyms": {
+      "pt": ["direção"],
+      "en": ["wheel", "steering"]
+    },
+    "tags": {
+      "pt": ["dirigir", "motorista", "carro", "autoescola", "condução"],
+      "en": ["drive", "driver", "car", "driving school"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwmdpccd",
+    "slug": "stop-sign",
+    "name": {
+      "pt": "Placa de pare",
+      "en": "Stop sign"
+    },
+    "subcategory": "traffic",
+    "synonyms": {
+      "pt": ["pare", "sinal de parada"],
+      "en": ["halt sign", "stop"]
+    },
+    "tags": {
+      "pt": ["trânsito", "parar", "proibido", "placa"],
+      "en": ["traffic", "road sign", "octagon", "halt"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqwzjc0e",
+    "slug": "submarine",
+    "name": {
+      "pt": "Submarino",
+      "en": "Submarine"
+    },
+    "subcategory": "rail-air-sea",
+    "synonyms": {
+      "pt": ["submersível"],
+      "en": ["sub", "submersible"]
+    },
+    "tags": {
+      "pt": ["mar", "oceano", "fundo do mar", "marinha", "periscópio"],
+      "en": ["sea", "ocean", "deep sea", "navy", "periscope"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbksbx4t",
+    "slug": "taxi",
+    "name": {
+      "pt": "Táxi",
+      "en": "Taxi"
+    },
+    "subcategory": "road",
+    "family": "car",
+    "synonyms": {
+      "pt": ["carro de praça", "taxista"],
+      "en": ["cab", "taxicab"]
+    },
+    "tags": {
+      "pt": ["corrida", "transporte", "passageiro", "aplicativo de transporte"],
+      "en": ["ride", "transport", "passenger", "ride hailing"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5n1mwkq",
+    "slug": "tire",
+    "name": {
+      "pt": "Pneu",
+      "en": "Tire"
+    },
+    "subcategory": "traffic",
+    "synonyms": {
+      "pt": ["roda", "borracha"],
+      "en": ["wheel", "tyre"]
+    },
+    "tags": {
+      "pt": ["borracharia", "calibrar", "oficina", "carro"],
+      "en": ["tire shop", "car service", "rubber", "garage"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g619695d",
+    "slug": "toll",
+    "name": {
+      "pt": "Pedágio",
+      "en": "Toll"
+    },
+    "subcategory": "traffic",
+    "synonyms": {
+      "pt": ["praça de pedágio", "cancela"],
+      "en": ["toll booth", "toll gate"]
+    },
+    "tags": {
+      "pt": ["rodovia", "tarifa", "estrada", "cobrança"],
+      "en": ["highway", "fee", "road", "barrier"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5ggc7wh",
+    "slug": "tractor",
+    "name": {
+      "pt": "Trator",
+      "en": "Tractor"
+    },
+    "subcategory": "road",
+    "synonyms": {
+      "pt": ["máquina agrícola"],
+      "en": ["farm vehicle"]
+    },
+    "tags": {
+      "pt": ["fazenda", "agricultura", "campo", "roça", "agronegócio"],
+      "en": ["farm", "agriculture", "farming", "field", "rural"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grn67vm5",
+    "slug": "traffic-cone",
+    "name": {
+      "pt": "Cone de trânsito",
+      "en": "Traffic cone"
+    },
+    "subcategory": "traffic",
+    "synonyms": {
+      "pt": ["cone", "cone de sinalização"],
+      "en": ["cone", "safety cone"]
+    },
+    "tags": {
+      "pt": ["obras", "interditado", "atenção", "manutenção", "desvio"],
+      "en": ["roadwork", "construction", "caution", "maintenance", "detour"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g20q3z0c",
+    "slug": "traffic-light",
+    "name": {
+      "pt": "Semáforo",
+      "en": "Traffic light"
+    },
+    "subcategory": "traffic",
+    "synonyms": {
+      "pt": ["sinal de trânsito", "farol", "sinaleiro"],
+      "en": ["traffic signal", "stoplight"]
+    },
+    "tags": {
+      "pt": ["trânsito", "parar", "siga", "cruzamento"],
+      "en": ["traffic", "stop", "go", "intersection"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g614wxr2",
+    "slug": "train",
+    "name": {
+      "pt": "Trem",
+      "en": "Train"
+    },
+    "subcategory": "rail-air-sea",
+    "family": "train",
+    "synonyms": {
+      "pt": ["locomotiva", "maria-fumaça", "comboio"],
+      "en": ["locomotive", "steam train", "railroad"]
+    },
+    "tags": {
+      "pt": ["ferrovia", "estação", "trilhos", "viagem", "estrada de ferro"],
+      "en": ["railway", "station", "rail", "travel"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g70sw7nb",
+    "slug": "train-front",
+    "name": {
+      "pt": "Trem de frente",
+      "en": "Train front"
+    },
+    "subcategory": "rail-air-sea",
+    "family": "train",
+    "synonyms": {
+      "pt": ["trem", "locomotiva"],
+      "en": ["train", "locomotive"]
+    },
+    "tags": {
+      "pt": ["ferrovia", "estação", "trilhos", "transporte público"],
+      "en": ["railway", "station", "rail", "public transport"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gn9pg82h",
+    "slug": "tram",
+    "name": {
+      "pt": "Bonde",
+      "en": "Tram"
+    },
+    "subcategory": "rail-air-sea",
+    "family": "train",
+    "synonyms": {
+      "pt": ["veículo leve sobre trilhos", "vlt"],
+      "en": ["streetcar", "light rail", "trolley"]
+    },
+    "tags": {
+      "pt": ["trilhos", "cidade", "transporte público", "elétrico"],
+      "en": ["rail", "city", "public transport", "electric"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpxxjtjr",
+    "slug": "truck",
+    "name": {
+      "pt": "Caminhão",
+      "en": "Truck"
+    },
+    "subcategory": "road",
+    "family": "truck",
+    "synonyms": {
+      "pt": ["caminhão de carga", "baú"],
+      "en": ["lorry", "delivery truck"]
+    },
+    "tags": {
+      "pt": ["frete", "entrega", "transporte de carga", "logística", "mudança"],
+      "en": ["freight", "delivery", "shipping", "logistics", "cargo"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "geaeqz0p",
+    "slug": "truck-pickup",
+    "name": {
+      "pt": "Caminhonete",
+      "en": "Pickup truck"
+    },
+    "subcategory": "road",
+    "family": "truck",
+    "synonyms": {
+      "pt": ["picape", "pickup", "utilitário"],
+      "en": ["pickup", "ute"]
+    },
+    "tags": {
+      "pt": ["carga", "fazenda", "caçamba", "off-road"],
+      "en": ["cargo", "farm", "truck bed", "off-road"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gb5dew69",
+    "slug": "van",
+    "name": {
+      "pt": "Van",
+      "en": "Van"
+    },
+    "subcategory": "road",
+    "synonyms": {
+      "pt": ["furgão", "perua", "utilitário"],
+      "en": ["minivan", "minibus"]
+    },
+    "tags": {
+      "pt": ["entrega", "transporte", "frete", "minivan"],
+      "en": ["delivery", "transport", "cargo van"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  }
+]

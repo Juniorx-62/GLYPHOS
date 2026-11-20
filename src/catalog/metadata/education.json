@@ -1,0 +1,1397 @@
+[
+  {
+    "id": "gkaqn7g0",
+    "slug": "abacus",
+    "name": {
+      "pt": "Ábaco",
+      "en": "Abacus"
+    },
+    "subcategory": "school",
+    "synonyms": {
+      "pt": ["contador", "soroban"],
+      "en": ["counting frame", "soroban"]
+    },
+    "tags": {
+      "pt": ["matemática", "contar", "cálculo", "números"],
+      "en": ["math", "counting", "arithmetic", "numbers"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gewaf4ck",
+    "slug": "alphabet",
+    "name": {
+      "pt": "Alfabeto",
+      "en": "Alphabet"
+    },
+    "subcategory": "knowledge",
+    "synonyms": {
+      "pt": ["ABC", "letras"],
+      "en": ["ABC", "letters"]
+    },
+    "tags": {
+      "pt": ["alfabetização", "abecedário", "idioma", "aprender a ler"],
+      "en": ["literacy", "spelling", "language", "learn to read"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3gh1mad",
+    "slug": "atlas",
+    "name": {
+      "pt": "Atlas",
+      "en": "Atlas"
+    },
+    "subcategory": "knowledge",
+    "family": "book",
+    "synonyms": {
+      "pt": ["livro de mapas", "atlas geográfico"],
+      "en": ["map book", "world atlas"]
+    },
+    "tags": {
+      "pt": ["geografia", "mapas", "mundo", "países"],
+      "en": ["geography", "maps", "world", "countries"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnatvgmp",
+    "slug": "atom",
+    "name": {
+      "pt": "Átomo",
+      "en": "Atom"
+    },
+    "subcategory": "science",
+    "synonyms": {
+      "pt": ["núcleo", "elétrons"],
+      "en": ["nucleus", "electrons"]
+    },
+    "tags": {
+      "pt": ["ciência", "física", "química", "energia nuclear"],
+      "en": ["science", "physics", "chemistry", "nuclear"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ga1fts4g",
+    "slug": "audiobook",
+    "name": {
+      "pt": "Audiolivro",
+      "en": "Audiobook"
+    },
+    "subcategory": "knowledge",
+    "family": "book",
+    "synonyms": {
+      "pt": ["livro falado", "livro em áudio"],
+      "en": ["talking book", "audio book"]
+    },
+    "tags": {
+      "pt": ["ouvir", "narração", "podcast", "leitura"],
+      "en": ["listen", "narration", "spoken word", "reading"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ge0swkp4",
+    "slug": "backpack",
+    "name": {
+      "pt": "Mochila",
+      "en": "Backpack"
+    },
+    "subcategory": "school",
+    "synonyms": {
+      "pt": ["mochila escolar", "bolsa"],
+      "en": ["school bag", "rucksack", "knapsack"]
+    },
+    "tags": {
+      "pt": ["escola", "volta às aulas", "material escolar", "estudante"],
+      "en": ["school", "back to school", "student", "bag"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8r9505y",
+    "slug": "beaker",
+    "name": {
+      "pt": "Béquer",
+      "en": "Beaker"
+    },
+    "subcategory": "science",
+    "synonyms": {
+      "pt": ["copo de laboratório", "vidraria"],
+      "en": ["lab beaker", "glassware"]
+    },
+    "tags": {
+      "pt": ["química", "medida", "laboratório", "experimento"],
+      "en": ["chemistry", "measurement", "laboratory", "experiment"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8sdy6sg",
+    "slug": "book",
+    "name": {
+      "pt": "Livro",
+      "en": "Book"
+    },
+    "subcategory": "school",
+    "synonyms": {
+      "pt": ["livro fechado", "volume"],
+      "en": ["closed book", "volume"]
+    },
+    "tags": {
+      "pt": ["leitura", "estudo", "biblioteca", "literatura"],
+      "en": ["reading", "study", "library", "literature"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g9wbahp1",
+    "slug": "book-bookmark",
+    "name": {
+      "pt": "Livro com marcador",
+      "en": "Book bookmark"
+    },
+    "subcategory": "school",
+    "family": "book",
+    "variantOf": "book",
+    "synonyms": {
+      "pt": ["marca-página", "fita marcadora"],
+      "en": ["bookmarked book", "ribbon marker"]
+    },
+    "tags": {
+      "pt": ["leitura em andamento", "continuar lendo", "favorito", "estudo"],
+      "en": ["reading progress", "continue reading", "saved", "study"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ghe04d96",
+    "slug": "book-open",
+    "name": {
+      "pt": "Livro aberto",
+      "en": "Open book"
+    },
+    "subcategory": "school",
+    "synonyms": {
+      "pt": ["páginas", "leitura"],
+      "en": ["pages", "reading"]
+    },
+    "tags": {
+      "pt": ["ler", "estudo", "documentação", "manual", "história"],
+      "en": ["read", "study", "documentation", "manual", "story"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1bwcynz",
+    "slug": "book-search",
+    "name": {
+      "pt": "Buscar livro",
+      "en": "Book search"
+    },
+    "subcategory": "knowledge",
+    "family": "book",
+    "variantOf": "book",
+    "synonyms": {
+      "pt": ["pesquisa bibliográfica", "catálogo"],
+      "en": ["research", "catalog search"]
+    },
+    "tags": {
+      "pt": ["pesquisa", "biblioteca", "consulta", "referência"],
+      "en": ["lookup", "library", "reference", "find book"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gcaf9qen",
+    "slug": "books",
+    "name": {
+      "pt": "Pilha de livros",
+      "en": "Books"
+    },
+    "subcategory": "school",
+    "synonyms": {
+      "pt": ["livros", "pilha"],
+      "en": ["stack of books", "book pile"]
+    },
+    "tags": {
+      "pt": ["estudo", "leitura", "biblioteca", "coleção"],
+      "en": ["study", "reading", "library", "collection"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gfqv05a8",
+    "slug": "bunsen-burner",
+    "name": {
+      "pt": "Bico de Bunsen",
+      "en": "Bunsen burner"
+    },
+    "subcategory": "science",
+    "synonyms": {
+      "pt": ["queimador", "chama"],
+      "en": ["lab burner", "flame"]
+    },
+    "tags": {
+      "pt": ["laboratório", "química", "aquecer", "fogo"],
+      "en": ["laboratory", "chemistry", "heat", "fire"]
+    },
+    "popularity": 1,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gx0ez9v5",
+    "slug": "calculator",
+    "name": {
+      "pt": "Calculadora",
+      "en": "Calculator"
+    },
+    "subcategory": "school",
+    "synonyms": {
+      "pt": ["máquina de calcular"],
+      "en": ["calc"]
+    },
+    "tags": {
+      "pt": ["matemática", "contas", "cálculo", "números"],
+      "en": ["math", "calculate", "numbers", "arithmetic", "accounting"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gn6t9rf9",
+    "slug": "cell-biology",
+    "name": {
+      "pt": "Célula",
+      "en": "Cell"
+    },
+    "subcategory": "science",
+    "synonyms": {
+      "pt": ["célula biológica", "núcleo celular"],
+      "en": ["biological cell", "cell nucleus"]
+    },
+    "tags": {
+      "pt": ["biologia", "citologia", "organismo", "ciência"],
+      "en": ["biology", "cytology", "organism", "science"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkkt0sgr",
+    "slug": "chalkboard",
+    "name": {
+      "pt": "Quadro-negro",
+      "en": "Chalkboard"
+    },
+    "subcategory": "school",
+    "family": "chalkboard",
+    "synonyms": {
+      "pt": ["lousa", "quadro de giz"],
+      "en": ["blackboard", "board"]
+    },
+    "tags": {
+      "pt": ["aula", "sala de aula", "professor", "ensino"],
+      "en": ["class", "classroom", "teacher", "lesson"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnqmga92",
+    "slug": "comet",
+    "name": {
+      "pt": "Cometa",
+      "en": "Comet"
+    },
+    "subcategory": "science",
+    "synonyms": {
+      "pt": ["estrela cadente", "meteoro"],
+      "en": ["shooting star", "meteor"]
+    },
+    "tags": {
+      "pt": ["espaço", "astronomia", "céu", "cauda"],
+      "en": ["space", "astronomy", "sky", "tail"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkdm4af9",
+    "slug": "compass-drawing",
+    "name": {
+      "pt": "Compasso",
+      "en": "Drawing compass"
+    },
+    "subcategory": "school",
+    "synonyms": {
+      "pt": ["compasso de desenho"],
+      "en": ["compasses", "divider"]
+    },
+    "tags": {
+      "pt": ["geometria", "círculo", "desenho técnico", "matemática"],
+      "en": ["geometry", "circle", "technical drawing", "math"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gj6kk35n",
+    "slug": "constellation",
+    "name": {
+      "pt": "Constelação",
+      "en": "Constellation"
+    },
+    "subcategory": "science",
+    "synonyms": {
+      "pt": ["estrelas ligadas", "mapa estelar"],
+      "en": ["star pattern", "star map"]
+    },
+    "tags": {
+      "pt": ["astronomia", "céu", "estrelas", "espaço"],
+      "en": ["astronomy", "sky", "stars", "space"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gx572rhn",
+    "slug": "crayon",
+    "name": {
+      "pt": "Giz de cera",
+      "en": "Crayon"
+    },
+    "subcategory": "school",
+    "synonyms": {
+      "pt": ["lápis de cera", "crayon"],
+      "en": ["wax crayon"]
+    },
+    "tags": {
+      "pt": ["desenho", "colorir", "infantil", "arte"],
+      "en": ["drawing", "coloring", "kids", "art"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g134c6sh",
+    "slug": "dictionary",
+    "name": {
+      "pt": "Dicionário",
+      "en": "Dictionary"
+    },
+    "subcategory": "knowledge",
+    "family": "book",
+    "synonyms": {
+      "pt": ["enciclopédia", "glossário"],
+      "en": ["encyclopedia", "glossary"]
+    },
+    "tags": {
+      "pt": ["vocabulário", "palavras", "definição", "idioma", "consulta"],
+      "en": ["vocabulary", "words", "definition", "language", "reference"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7kv4sda",
+    "slug": "diploma",
+    "name": {
+      "pt": "Diploma",
+      "en": "Diploma"
+    },
+    "subcategory": "school",
+    "synonyms": {
+      "pt": ["canudo", "certificado de conclusão"],
+      "en": ["scroll", "degree certificate"]
+    },
+    "tags": {
+      "pt": ["formatura", "graduação", "conquista", "curso"],
+      "en": ["graduation", "achievement", "degree", "course"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gg7nm6fg",
+    "slug": "dna",
+    "name": {
+      "pt": "DNA",
+      "en": "DNA"
+    },
+    "subcategory": "science",
+    "synonyms": {
+      "pt": ["dupla hélice", "genética"],
+      "en": ["double helix", "genetics"]
+    },
+    "tags": {
+      "pt": ["gene", "biologia", "cromossomo", "hereditariedade"],
+      "en": ["gene", "biology", "chromosome", "genome"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gq6zn8sd",
+    "slug": "e-learning",
+    "name": {
+      "pt": "Ensino a distância",
+      "en": "E-learning"
+    },
+    "subcategory": "knowledge",
+    "synonyms": {
+      "pt": ["EAD", "aula online", "educação online"],
+      "en": ["online learning", "distance learning"]
+    },
+    "tags": {
+      "pt": ["notebook", "curso online", "estudar", "plataforma"],
+      "en": ["laptop", "online class", "study", "platform"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grkt4mv8",
+    "slug": "exam",
+    "name": {
+      "pt": "Prova",
+      "en": "Exam"
+    },
+    "subcategory": "school",
+    "synonyms": {
+      "pt": ["exame", "teste", "avaliação"],
+      "en": ["test", "assessment", "quiz paper"]
+    },
+    "tags": {
+      "pt": ["nota", "correção", "questões", "escola"],
+      "en": ["grade", "questions", "evaluation", "school"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gp7awaxa",
+    "slug": "flashcards",
+    "name": {
+      "pt": "Fichas de estudo",
+      "en": "Flashcards"
+    },
+    "subcategory": "knowledge",
+    "synonyms": {
+      "pt": ["cartões de memorização", "flashcards"],
+      "en": ["study cards", "memory cards"]
+    },
+    "tags": {
+      "pt": ["estudo", "revisão", "memorizar", "quiz", "aprendizado"],
+      "en": ["study", "review", "memorize", "quiz", "learning"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gh0fqq8g",
+    "slug": "flask",
+    "name": {
+      "pt": "Frasco de laboratório",
+      "en": "Flask"
+    },
+    "subcategory": "science",
+    "synonyms": {
+      "pt": ["erlenmeyer", "vidraria"],
+      "en": ["erlenmeyer flask", "lab glassware"]
+    },
+    "tags": {
+      "pt": ["química", "experimento", "laboratório", "ciência"],
+      "en": ["chemistry", "experiment", "laboratory", "science"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g2wnj5tm",
+    "slug": "flask-round",
+    "name": {
+      "pt": "Balão de laboratório",
+      "en": "Round-bottom flask"
+    },
+    "subcategory": "science",
+    "synonyms": {
+      "pt": ["balão de fundo redondo", "vidraria"],
+      "en": ["boiling flask", "lab glassware"]
+    },
+    "tags": {
+      "pt": ["química", "experimento", "poção", "laboratório"],
+      "en": ["chemistry", "experiment", "potion", "laboratory"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3qk9vn9",
+    "slug": "fossil",
+    "name": {
+      "pt": "Fóssil",
+      "en": "Fossil"
+    },
+    "subcategory": "science",
+    "synonyms": {
+      "pt": ["amonite", "concha fossilizada"],
+      "en": ["ammonite", "fossil shell"]
+    },
+    "tags": {
+      "pt": ["paleontologia", "pré-história", "geologia", "arqueologia"],
+      "en": ["paleontology", "prehistoric", "geology", "archaeology"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqjcz1pf",
+    "slug": "galaxy",
+    "name": {
+      "pt": "Galáxia",
+      "en": "Galaxy"
+    },
+    "subcategory": "science",
+    "synonyms": {
+      "pt": ["via láctea", "espiral"],
+      "en": ["milky way", "spiral galaxy"]
+    },
+    "tags": {
+      "pt": ["espaço", "astronomia", "universo", "estrelas"],
+      "en": ["space", "astronomy", "universe", "stars"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggxdbn61",
+    "slug": "glue",
+    "name": {
+      "pt": "Cola",
+      "en": "Glue"
+    },
+    "subcategory": "school",
+    "synonyms": {
+      "pt": ["cola branca", "cola escolar", "adesivo"],
+      "en": ["glue bottle", "school glue", "adhesive"]
+    },
+    "tags": {
+      "pt": ["colar", "material escolar", "artesanato", "papelaria"],
+      "en": ["paste", "school supplies", "crafts", "stationery"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqq4f2rq",
+    "slug": "graduated-cylinder",
+    "name": {
+      "pt": "Proveta",
+      "en": "Graduated cylinder"
+    },
+    "subcategory": "science",
+    "synonyms": {
+      "pt": ["cilindro graduado", "proveta graduada"],
+      "en": ["measuring cylinder"]
+    },
+    "tags": {
+      "pt": ["laboratório", "medir volume", "química", "ciência"],
+      "en": ["laboratory", "volume", "chemistry", "science"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gfnjh3d7",
+    "slug": "graduation-cap",
+    "name": {
+      "pt": "Capelo",
+      "en": "Graduation cap"
+    },
+    "subcategory": "school",
+    "synonyms": {
+      "pt": ["chapéu de formatura", "beca"],
+      "en": ["mortarboard", "academic cap"]
+    },
+    "tags": {
+      "pt": ["formatura", "graduação", "faculdade", "universidade", "ensino"],
+      "en": ["graduation", "university", "college", "education", "degree"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnkcnv1f",
+    "slug": "lecture",
+    "name": {
+      "pt": "Palestra",
+      "en": "Lecture"
+    },
+    "subcategory": "knowledge",
+    "synonyms": {
+      "pt": ["conferência", "aula expositiva", "púlpito"],
+      "en": ["talk", "speech", "lectern"]
+    },
+    "tags": {
+      "pt": ["palestrante", "orador", "discurso", "apresentação"],
+      "en": ["speaker", "conference", "podium", "presentation"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gk9gs5xd",
+    "slug": "lever",
+    "name": {
+      "pt": "Alavanca",
+      "en": "Lever"
+    },
+    "subcategory": "science",
+    "synonyms": {
+      "pt": ["ponto de apoio", "gangorra"],
+      "en": ["fulcrum", "seesaw"]
+    },
+    "tags": {
+      "pt": ["física", "força", "máquina simples", "mecânica"],
+      "en": ["physics", "force", "simple machine", "mechanics"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gtntnttg",
+    "slug": "library",
+    "name": {
+      "pt": "Biblioteca",
+      "en": "Library"
+    },
+    "subcategory": "school",
+    "synonyms": {
+      "pt": ["estante de livros", "acervo"],
+      "en": ["bookshelf", "book collection"]
+    },
+    "tags": {
+      "pt": ["livros", "leitura", "estudo", "coleção"],
+      "en": ["books", "reading", "study", "archive"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gaveypw9",
+    "slug": "locker",
+    "name": {
+      "pt": "Armário escolar",
+      "en": "Locker"
+    },
+    "subcategory": "school",
+    "synonyms": {
+      "pt": ["armário de vestiário", "escaninho"],
+      "en": ["school locker", "gym locker"]
+    },
+    "tags": {
+      "pt": ["escola", "vestiário", "academia", "guardar"],
+      "en": ["school", "locker room", "gym", "storage"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gw2ygyyf",
+    "slug": "magnet",
+    "name": {
+      "pt": "Ímã",
+      "en": "Magnet"
+    },
+    "subcategory": "science",
+    "synonyms": {
+      "pt": ["ímã de ferradura", "magnetismo"],
+      "en": ["horseshoe magnet", "magnetism"]
+    },
+    "tags": {
+      "pt": ["atração", "física", "polo", "força"],
+      "en": ["attraction", "physics", "pole", "force"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1xtf030",
+    "slug": "math",
+    "name": {
+      "pt": "Matemática",
+      "en": "Math"
+    },
+    "subcategory": "knowledge",
+    "synonyms": {
+      "pt": ["operações", "contas"],
+      "en": ["operations", "arithmetic"]
+    },
+    "tags": {
+      "pt": ["somar", "subtrair", "multiplicar", "dividir", "aritmética"],
+      "en": ["add", "subtract", "multiply", "equals", "calculation"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gr1830vm",
+    "slug": "microscope",
+    "name": {
+      "pt": "Microscópio",
+      "en": "Microscope"
+    },
+    "subcategory": "science",
+    "synonyms": {
+      "pt": ["lente", "ampliação"],
+      "en": ["lens", "magnification"]
+    },
+    "tags": {
+      "pt": ["ciência", "biologia", "laboratório", "pesquisa", "análise"],
+      "en": ["science", "biology", "laboratory", "research", "lab"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpd3jwwm",
+    "slug": "molecule",
+    "name": {
+      "pt": "Molécula",
+      "en": "Molecule"
+    },
+    "subcategory": "science",
+    "synonyms": {
+      "pt": ["átomos", "ligação química"],
+      "en": ["atoms", "chemical bond"]
+    },
+    "tags": {
+      "pt": ["química", "estrutura", "composto", "ciência"],
+      "en": ["chemistry", "structure", "compound", "science"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grqnakce",
+    "slug": "online-course",
+    "name": {
+      "pt": "Curso online",
+      "en": "Online course"
+    },
+    "subcategory": "knowledge",
+    "synonyms": {
+      "pt": ["e-book", "livro digital"],
+      "en": ["ebook", "digital book"]
+    },
+    "tags": {
+      "pt": ["tela", "monitor", "estudar", "leitura online"],
+      "en": ["screen", "monitor", "study", "online reading"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gh34x3tg",
+    "slug": "orbit",
+    "name": {
+      "pt": "Órbita",
+      "en": "Orbit"
+    },
+    "subcategory": "science",
+    "synonyms": {
+      "pt": ["trajetória", "satélite"],
+      "en": ["trajectory", "satellite"]
+    },
+    "tags": {
+      "pt": ["espaço", "astronomia", "gravidade", "lua"],
+      "en": ["space", "astronomy", "gravity", "moon"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpwncpx4",
+    "slug": "pencil-case",
+    "name": {
+      "pt": "Estojo",
+      "en": "Pencil case"
+    },
+    "subcategory": "school",
+    "synonyms": {
+      "pt": ["estojo escolar", "porta-lápis"],
+      "en": ["pencil pouch", "pencil box"]
+    },
+    "tags": {
+      "pt": ["material escolar", "lápis", "papelaria", "mochila"],
+      "en": ["school supplies", "pencils", "stationery", "pouch"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8wmk15y",
+    "slug": "pencil-cup",
+    "name": {
+      "pt": "Porta-lápis",
+      "en": "Pencil cup"
+    },
+    "subcategory": "school",
+    "synonyms": {
+      "pt": ["copo de lápis", "organizador de mesa"],
+      "en": ["pencil holder", "desk organizer"]
+    },
+    "tags": {
+      "pt": ["material escolar", "papelaria", "escritório", "canetas"],
+      "en": ["school supplies", "stationery", "office", "pens"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g2r97r0m",
+    "slug": "pendulum",
+    "name": {
+      "pt": "Pêndulo",
+      "en": "Pendulum"
+    },
+    "subcategory": "science",
+    "synonyms": {
+      "pt": ["oscilação", "balanço"],
+      "en": ["oscillation", "swing"]
+    },
+    "tags": {
+      "pt": ["física", "gravidade", "movimento", "ciência"],
+      "en": ["physics", "gravity", "motion", "science"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4kjsrka",
+    "slug": "petri-dish",
+    "name": {
+      "pt": "Placa de Petri",
+      "en": "Petri dish"
+    },
+    "subcategory": "science",
+    "synonyms": {
+      "pt": ["cultura", "colônia"],
+      "en": ["culture dish", "colony"]
+    },
+    "tags": {
+      "pt": ["microbiologia", "laboratório", "bactérias", "experimento"],
+      "en": ["microbiology", "laboratory", "bacteria", "experiment"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gfz7g4d6",
+    "slug": "planet",
+    "name": {
+      "pt": "Planeta",
+      "en": "Planet"
+    },
+    "subcategory": "science",
+    "synonyms": {
+      "pt": ["saturno", "anel planetário"],
+      "en": ["saturn", "ringed planet"]
+    },
+    "tags": {
+      "pt": ["espaço", "astronomia", "universo", "sistema solar"],
+      "en": ["space", "astronomy", "universe", "solar system"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7b88p71",
+    "slug": "prism-light",
+    "name": {
+      "pt": "Prisma óptico",
+      "en": "Light prism"
+    },
+    "subcategory": "science",
+    "synonyms": {
+      "pt": ["prisma", "dispersão da luz", "espectro"],
+      "en": ["light dispersion", "spectrum"]
+    },
+    "tags": {
+      "pt": ["física", "óptica", "arco-íris", "luz", "refração"],
+      "en": ["physics", "optics", "rainbow", "light", "refraction"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5asbm3h",
+    "slug": "protractor",
+    "name": {
+      "pt": "Transferidor",
+      "en": "Protractor"
+    },
+    "subcategory": "school",
+    "synonyms": {
+      "pt": ["medidor de ângulo"],
+      "en": ["angle measure"]
+    },
+    "tags": {
+      "pt": ["ângulo", "graus", "geometria", "matemática"],
+      "en": ["angle", "degrees", "geometry", "math"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g9xbvs2s",
+    "slug": "pulley",
+    "name": {
+      "pt": "Roldana",
+      "en": "Pulley"
+    },
+    "subcategory": "science",
+    "synonyms": {
+      "pt": ["polia", "sistema de polia"],
+      "en": ["block and tackle", "sheave"]
+    },
+    "tags": {
+      "pt": ["física", "força", "máquina simples", "mecânica"],
+      "en": ["physics", "force", "simple machine", "mechanics"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gvyc5y67",
+    "slug": "quiz",
+    "name": {
+      "pt": "Questionário",
+      "en": "Quiz"
+    },
+    "subcategory": "school",
+    "synonyms": {
+      "pt": ["quiz", "cartão de perguntas"],
+      "en": ["flashcard", "question card"]
+    },
+    "tags": {
+      "pt": ["pergunta", "teste", "flashcard", "dúvida"],
+      "en": ["question", "test", "trivia", "practice"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gsy5ggf4",
+    "slug": "reading",
+    "name": {
+      "pt": "Leitura",
+      "en": "Reading"
+    },
+    "subcategory": "knowledge",
+    "synonyms": {
+      "pt": ["pessoa lendo", "leitor"],
+      "en": ["reader", "person reading"]
+    },
+    "tags": {
+      "pt": ["ler", "livro", "estudo", "hábito de leitura"],
+      "en": ["read", "book", "study", "reading habit"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gcj8ecss",
+    "slug": "ruler",
+    "name": {
+      "pt": "Régua",
+      "en": "Ruler"
+    },
+    "subcategory": "school",
+    "synonyms": {
+      "pt": ["escala", "medida"],
+      "en": ["scale", "measure"]
+    },
+    "tags": {
+      "pt": ["medir", "comprimento", "geometria", "material escolar"],
+      "en": ["measurement", "length", "geometry", "school supplies"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gfqhqv7r",
+    "slug": "school",
+    "name": {
+      "pt": "Escola",
+      "en": "School"
+    },
+    "subcategory": "school",
+    "synonyms": {
+      "pt": ["colégio", "prédio escolar"],
+      "en": ["schoolhouse", "school building"]
+    },
+    "tags": {
+      "pt": ["ensino", "educação", "aula", "instituição"],
+      "en": ["education", "class", "institution", "campus"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4jtfwra",
+    "slug": "school-bell",
+    "name": {
+      "pt": "Sino escolar",
+      "en": "School bell"
+    },
+    "subcategory": "school",
+    "synonyms": {
+      "pt": ["sineta", "sino de mão"],
+      "en": ["hand bell", "handbell"]
+    },
+    "tags": {
+      "pt": ["recreio", "aula", "intervalo", "horário", "escola"],
+      "en": ["recess", "class", "break", "schedule", "school"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g6ca6k1d",
+    "slug": "set-square",
+    "name": {
+      "pt": "Esquadro",
+      "en": "Set square"
+    },
+    "subcategory": "school",
+    "synonyms": {
+      "pt": ["triângulo de desenho"],
+      "en": ["triangle ruler", "drafting triangle"]
+    },
+    "tags": {
+      "pt": ["geometria", "ângulo reto", "desenho técnico", "régua"],
+      "en": ["geometry", "right angle", "technical drawing"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g65bfzg1",
+    "slug": "solar-system",
+    "name": {
+      "pt": "Sistema solar",
+      "en": "Solar system"
+    },
+    "subcategory": "science",
+    "synonyms": {
+      "pt": ["planetas em órbita", "sistema planetário"],
+      "en": ["planetary system", "orbiting planets"]
+    },
+    "tags": {
+      "pt": ["astronomia", "sol", "planetas", "espaço", "órbita"],
+      "en": ["astronomy", "sun", "planets", "space", "orbit"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ga88w6d7",
+    "slug": "teacher",
+    "name": {
+      "pt": "Professor",
+      "en": "Teacher"
+    },
+    "subcategory": "school",
+    "synonyms": {
+      "pt": ["professora", "docente", "educador"],
+      "en": ["instructor", "educator", "tutor"]
+    },
+    "tags": {
+      "pt": ["aula", "ensino", "sala de aula", "quadro"],
+      "en": ["lesson", "teaching", "classroom", "board"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ghtb12fv",
+    "slug": "telescope",
+    "name": {
+      "pt": "Telescópio",
+      "en": "Telescope"
+    },
+    "subcategory": "science",
+    "synonyms": {
+      "pt": ["luneta", "observatório"],
+      "en": ["spyglass", "observatory"]
+    },
+    "tags": {
+      "pt": ["astronomia", "estrelas", "céu", "observar"],
+      "en": ["astronomy", "stars", "sky", "stargazing"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzss52vx",
+    "slug": "test-tube",
+    "name": {
+      "pt": "Tubo de ensaio",
+      "en": "Test tube"
+    },
+    "subcategory": "science",
+    "synonyms": {
+      "pt": ["proveta", "amostra"],
+      "en": ["sample tube", "vial"]
+    },
+    "tags": {
+      "pt": ["química", "laboratório", "experimento", "análise"],
+      "en": ["chemistry", "laboratory", "experiment", "sample"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1jpaqv0",
+    "slug": "test-tube-rack",
+    "name": {
+      "pt": "Estante de tubos",
+      "en": "Test tube rack"
+    },
+    "subcategory": "science",
+    "synonyms": {
+      "pt": ["suporte de tubos de ensaio", "rack de laboratório"],
+      "en": ["test tube holder", "lab rack"]
+    },
+    "tags": {
+      "pt": ["laboratório", "química", "amostras", "análise"],
+      "en": ["laboratory", "chemistry", "samples", "analysis"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqqhjqhv",
+    "slug": "video-lesson",
+    "name": {
+      "pt": "Videoaula",
+      "en": "Video lesson"
+    },
+    "subcategory": "knowledge",
+    "family": "chalkboard",
+    "synonyms": {
+      "pt": ["aula em vídeo", "tutorial"],
+      "en": ["video class", "tutorial"]
+    },
+    "tags": {
+      "pt": ["assistir", "curso", "ensino", "play"],
+      "en": ["watch", "course", "teaching", "play"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  }
+]

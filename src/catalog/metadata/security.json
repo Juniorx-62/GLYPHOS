@@ -1,0 +1,1029 @@
+[
+  {
+    "id": "gk06rh2t",
+    "slug": "access-denied",
+    "name": {
+      "pt": "Acesso negado",
+      "en": "Access denied"
+    },
+    "subcategory": "access",
+    "family": "lock",
+    "synonyms": {
+      "pt": ["sem permissão", "bloqueado"],
+      "en": ["permission denied", "blocked"]
+    },
+    "tags": {
+      "pt": ["proibido", "não autorizado", "restrito"],
+      "en": ["forbidden", "unauthorized", "restricted"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gvaf9rgv",
+    "slug": "access-granted",
+    "name": {
+      "pt": "Acesso liberado",
+      "en": "Access granted"
+    },
+    "subcategory": "access",
+    "family": "lock",
+    "synonyms": {
+      "pt": ["acesso permitido", "desbloqueado"],
+      "en": ["access allowed", "unlocked"]
+    },
+    "tags": {
+      "pt": ["autorizado", "entrada liberada", "permissão"],
+      "en": ["authorized", "entry allowed", "permission"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkgy7fe5",
+    "slug": "badge-access",
+    "name": {
+      "pt": "Crachá de acesso",
+      "en": "Access badge"
+    },
+    "subcategory": "access",
+    "synonyms": {
+      "pt": ["crachá", "cartão de acesso"],
+      "en": ["id badge", "access card"]
+    },
+    "tags": {
+      "pt": ["identificação", "funcionário", "entrada", "controle de acesso"],
+      "en": ["identification", "employee", "entry", "access control"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gq53mzgw",
+    "slug": "captcha",
+    "name": {
+      "pt": "Captcha",
+      "en": "Captcha"
+    },
+    "subcategory": "privacy",
+    "synonyms": {
+      "pt": ["verificação humana", "não sou um robô"],
+      "en": ["human verification", "i am not a robot"]
+    },
+    "tags": {
+      "pt": ["anti-bot", "formulário", "spam", "verificar"],
+      "en": ["anti-bot", "form", "spam", "verify"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdah7h8h",
+    "slug": "cctv",
+    "name": {
+      "pt": "Câmera de segurança",
+      "en": "CCTV"
+    },
+    "subcategory": "protection",
+    "synonyms": {
+      "pt": ["CFTV", "câmera de vigilância"],
+      "en": ["security camera", "surveillance camera"]
+    },
+    "tags": {
+      "pt": ["monitoramento", "vigilância", "segurança", "gravação"],
+      "en": ["monitoring", "surveillance", "security", "recording"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g52356bw",
+    "slug": "certificate",
+    "name": {
+      "pt": "Certificado",
+      "en": "Certificate"
+    },
+    "subcategory": "privacy",
+    "synonyms": {
+      "pt": ["diploma", "certificação"],
+      "en": ["diploma", "certification"]
+    },
+    "tags": {
+      "pt": ["certificado digital", "SSL", "autenticidade", "credencial"],
+      "en": ["digital certificate", "ssl", "authenticity", "credential"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gk1gxxwf",
+    "slug": "consent",
+    "name": {
+      "pt": "Consentimento",
+      "en": "Consent"
+    },
+    "subcategory": "privacy",
+    "synonyms": {
+      "pt": ["termos aceitos", "autorização"],
+      "en": ["accepted terms", "authorization"]
+    },
+    "tags": {
+      "pt": ["privacidade", "LGPD", "aceitar termos", "concordar"],
+      "en": ["privacy", "gdpr", "accept terms", "agree"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gabanaqm",
+    "slug": "data-protection",
+    "name": {
+      "pt": "Proteção de dados",
+      "en": "Data protection"
+    },
+    "subcategory": "privacy",
+    "family": "shield",
+    "synonyms": {
+      "pt": ["dados protegidos", "segurança de dados"],
+      "en": ["protected data", "data security"]
+    },
+    "tags": {
+      "pt": ["LGPD", "privacidade", "banco de dados", "GDPR"],
+      "en": ["gdpr", "privacy", "database", "compliance"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8vmdhk2",
+    "slug": "decryption",
+    "name": {
+      "pt": "Descriptografia",
+      "en": "Decryption"
+    },
+    "subcategory": "privacy",
+    "family": "lock",
+    "synonyms": {
+      "pt": ["decifrar", "descriptografar"],
+      "en": ["decrypt", "decipher"]
+    },
+    "tags": {
+      "pt": ["dados", "chave", "revelar", "decodificar"],
+      "en": ["data", "key", "reveal", "decode"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7w8vjgz",
+    "slug": "door-lock",
+    "name": {
+      "pt": "Porta trancada",
+      "en": "Door lock"
+    },
+    "subcategory": "access",
+    "synonyms": {
+      "pt": ["fechadura da porta", "tranca"],
+      "en": ["locked door", "door latch"]
+    },
+    "tags": {
+      "pt": ["casa segura", "acesso", "entrada", "fechadura inteligente"],
+      "en": ["secure home", "access", "entry", "smart lock"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gj60x062",
+    "slug": "encryption",
+    "name": {
+      "pt": "Criptografia",
+      "en": "Encryption"
+    },
+    "subcategory": "privacy",
+    "family": "lock",
+    "synonyms": {
+      "pt": ["encriptar", "cifrar"],
+      "en": ["encrypt", "cipher"]
+    },
+    "tags": {
+      "pt": ["dados protegidos", "segurança", "privacidade", "codificar"],
+      "en": ["protected data", "security", "privacy", "encode"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gvxsegpe",
+    "slug": "face-id",
+    "name": {
+      "pt": "Reconhecimento facial",
+      "en": "Face recognition"
+    },
+    "subcategory": "access",
+    "family": "scan-face",
+    "synonyms": {
+      "pt": ["desbloqueio facial", "face ID"],
+      "en": ["face unlock", "face id"]
+    },
+    "tags": {
+      "pt": ["biometria", "identidade", "autenticação", "rosto"],
+      "en": ["biometric", "identity", "authentication", "face"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g9v19z59",
+    "slug": "fingerprint",
+    "name": {
+      "pt": "Impressão digital",
+      "en": "Fingerprint"
+    },
+    "subcategory": "access",
+    "synonyms": {
+      "pt": ["digital", "biometria"],
+      "en": ["biometric", "thumbprint"]
+    },
+    "tags": {
+      "pt": ["identidade", "autenticação", "desbloquear", "toque"],
+      "en": ["identity", "authentication", "unlock", "touch id"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gxsj6hhv",
+    "slug": "firewall",
+    "name": {
+      "pt": "Firewall",
+      "en": "Firewall"
+    },
+    "subcategory": "protection",
+    "synonyms": {
+      "pt": ["parede corta-fogo", "muro de proteção"],
+      "en": ["brick wall", "network wall"]
+    },
+    "tags": {
+      "pt": ["rede", "bloqueio", "segurança de rede", "filtro"],
+      "en": ["network", "blocking", "network security", "filter"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g03xhmmf",
+    "slug": "hash-lock",
+    "name": {
+      "pt": "Hash seguro",
+      "en": "Hash lock"
+    },
+    "subcategory": "privacy",
+    "synonyms": {
+      "pt": ["hash criptográfico", "soma de verificação"],
+      "en": ["cryptographic hash", "checksum"]
+    },
+    "tags": {
+      "pt": ["criptografia", "integridade", "SHA", "assinatura"],
+      "en": ["cryptography", "integrity", "sha", "signature"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gvezafqj",
+    "slug": "id-scan",
+    "name": {
+      "pt": "Escanear documento",
+      "en": "ID scan"
+    },
+    "subcategory": "access",
+    "synonyms": {
+      "pt": ["leitura de identidade", "verificação de documento"],
+      "en": ["id verification", "document scan"]
+    },
+    "tags": {
+      "pt": ["RG", "KYC", "identidade", "documento com foto"],
+      "en": ["id card", "kyc", "identity", "photo id"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gs7a0t9s",
+    "slug": "key",
+    "name": {
+      "pt": "Chave",
+      "en": "Key"
+    },
+    "subcategory": "access",
+    "family": "key",
+    "synonyms": {
+      "pt": ["chave antiga", "acesso"],
+      "en": ["access key"]
+    },
+    "tags": {
+      "pt": ["senha", "entrar", "desbloquear", "credencial"],
+      "en": ["password", "login", "unlock", "credential"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnttn790",
+    "slug": "key-round",
+    "name": {
+      "pt": "Chave redonda",
+      "en": "Key round"
+    },
+    "subcategory": "access",
+    "family": "key",
+    "synonyms": {
+      "pt": ["chave de porta", "chave moderna"],
+      "en": ["door key", "round key"]
+    },
+    "tags": {
+      "pt": ["acesso", "senha", "credencial", "desbloquear"],
+      "en": ["access", "password", "credential", "unlock"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5f6sg4y",
+    "slug": "key-square",
+    "name": {
+      "pt": "Chave quadrada",
+      "en": "Key square"
+    },
+    "subcategory": "access",
+    "family": "key",
+    "synonyms": {
+      "pt": ["chave plana", "chave de cofre"],
+      "en": ["flat key", "square key"]
+    },
+    "tags": {
+      "pt": ["acesso", "credencial", "desbloquear"],
+      "en": ["access", "credential", "unlock"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g380hcty",
+    "slug": "keyhole",
+    "name": {
+      "pt": "Fechadura",
+      "en": "Keyhole"
+    },
+    "subcategory": "access",
+    "synonyms": {
+      "pt": ["buraco da fechadura"],
+      "en": ["lock hole"]
+    },
+    "tags": {
+      "pt": ["trancar", "acesso", "porta", "segredo"],
+      "en": ["lock", "access", "door", "secret"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g44hyqt7",
+    "slug": "lock",
+    "name": {
+      "pt": "Cadeado",
+      "en": "Lock"
+    },
+    "subcategory": "access",
+    "family": "lock",
+    "synonyms": {
+      "pt": ["trancado", "bloqueado"],
+      "en": ["locked", "padlock"]
+    },
+    "tags": {
+      "pt": ["segurança", "senha", "privado", "protegido"],
+      "en": ["security", "password", "private"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3qe8zhw",
+    "slug": "lock-keyhole",
+    "name": {
+      "pt": "Cadeado com fechadura",
+      "en": "Lock keyhole"
+    },
+    "subcategory": "access",
+    "family": "lock",
+    "variantOf": "lock",
+    "synonyms": {
+      "pt": ["cadeado", "trancado"],
+      "en": ["padlock", "keyhole lock"]
+    },
+    "tags": {
+      "pt": ["bloqueado", "seguro", "privado", "senha"],
+      "en": ["locked", "secure", "private", "password"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g123mkxz",
+    "slug": "lock-open",
+    "name": {
+      "pt": "Cadeado aberto",
+      "en": "Lock open"
+    },
+    "subcategory": "access",
+    "family": "lock",
+    "variantOf": "lock",
+    "synonyms": {
+      "pt": ["desbloqueado", "destrancado"],
+      "en": ["unlocked", "open padlock"]
+    },
+    "tags": {
+      "pt": ["desbloquear", "acesso liberado", "inseguro", "abrir"],
+      "en": ["unlock", "access granted", "insecure"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gavdkm7e",
+    "slug": "otp",
+    "name": {
+      "pt": "Código de verificação",
+      "en": "One-time code"
+    },
+    "subcategory": "access",
+    "synonyms": {
+      "pt": ["OTP", "código de uso único", "token"],
+      "en": ["otp", "one-time password", "verification code"]
+    },
+    "tags": {
+      "pt": ["autenticação", "SMS", "PIN", "confirmar"],
+      "en": ["authentication", "sms", "pin", "confirm"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g35ss53r",
+    "slug": "passkey",
+    "name": {
+      "pt": "Chave de acesso",
+      "en": "Passkey"
+    },
+    "subcategory": "access",
+    "synonyms": {
+      "pt": ["passkey", "login sem senha"],
+      "en": ["passwordless login", "access key"]
+    },
+    "tags": {
+      "pt": ["autenticação", "identidade", "credencial", "sem senha", "biometria"],
+      "en": ["authentication", "identity", "credential", "passwordless"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzt15jfk",
+    "slug": "password",
+    "name": {
+      "pt": "Senha",
+      "en": "Password"
+    },
+    "subcategory": "access",
+    "synonyms": {
+      "pt": ["campo de senha", "código secreto"],
+      "en": ["password field", "passcode"]
+    },
+    "tags": {
+      "pt": ["login", "autenticação", "segredo", "credencial"],
+      "en": ["login", "authentication", "secret", "credential"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3jr04a2",
+    "slug": "phishing",
+    "name": {
+      "pt": "Phishing",
+      "en": "Phishing"
+    },
+    "subcategory": "privacy",
+    "synonyms": {
+      "pt": ["golpe por e-mail", "isca digital"],
+      "en": ["email scam", "phishing attack"]
+    },
+    "tags": {
+      "pt": ["fraude", "e-mail falso", "golpe", "roubo de dados"],
+      "en": ["fraud", "fake email", "scam", "data theft"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggzyrcqt",
+    "slug": "scan-face",
+    "name": {
+      "pt": "Escanear rosto",
+      "en": "Scan face"
+    },
+    "subcategory": "access",
+    "family": "scan-face",
+    "synonyms": {
+      "pt": ["leitura facial", "verificação facial"],
+      "en": ["face scan", "face verification"]
+    },
+    "tags": {
+      "pt": ["biometria", "câmera", "identidade", "selfie"],
+      "en": ["biometric", "camera", "identity", "selfie"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5xmjmxm",
+    "slug": "seal-check",
+    "name": {
+      "pt": "Selo de autenticidade",
+      "en": "Seal check"
+    },
+    "subcategory": "privacy",
+    "synonyms": {
+      "pt": ["selo verificado", "selo de garantia", "selo de qualidade"],
+      "en": ["verified seal", "quality seal"]
+    },
+    "tags": {
+      "pt": ["autenticidade", "certificado", "aprovado", "confiável"],
+      "en": ["authenticity", "certified", "approved", "trusted"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5xc37c1",
+    "slug": "shield",
+    "name": {
+      "pt": "Escudo",
+      "en": "Shield"
+    },
+    "subcategory": "protection",
+    "family": "shield",
+    "synonyms": {
+      "pt": ["proteção", "defesa"],
+      "en": ["protection", "defense"]
+    },
+    "tags": {
+      "pt": ["segurança", "seguro", "guarda", "antivírus"],
+      "en": ["security", "safe", "guard", "antivirus"]
+    },
+    "popularity": 5,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ghntk1w3",
+    "slug": "shield-alert",
+    "name": {
+      "pt": "Alerta de segurança",
+      "en": "Shield alert"
+    },
+    "subcategory": "protection",
+    "family": "shield",
+    "variantOf": "shield",
+    "synonyms": {
+      "pt": ["escudo de alerta", "ameaça"],
+      "en": ["security alert", "threat"]
+    },
+    "tags": {
+      "pt": ["aviso", "risco", "vulnerabilidade", "perigo"],
+      "en": ["warning", "risk", "vulnerability", "danger"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gvatrz0a",
+    "slug": "shield-check",
+    "name": {
+      "pt": "Escudo verificado",
+      "en": "Shield check"
+    },
+    "subcategory": "protection",
+    "family": "shield",
+    "variantOf": "shield",
+    "synonyms": {
+      "pt": ["protegido", "seguro"],
+      "en": ["protected", "secured"]
+    },
+    "tags": {
+      "pt": ["segurança", "verificado", "aprovado", "confiável"],
+      "en": ["security", "verified", "approved", "trusted"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8w978cv",
+    "slug": "shield-ellipsis",
+    "name": {
+      "pt": "Escudo com reticências",
+      "en": "Shield ellipsis"
+    },
+    "subcategory": "privacy",
+    "family": "shield",
+    "variantOf": "shield",
+    "synonyms": {
+      "pt": ["verificação em andamento", "analisando segurança"],
+      "en": ["security check pending", "scanning"]
+    },
+    "tags": {
+      "pt": ["proteção", "aguardando", "processando"],
+      "en": ["protection", "waiting", "processing"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gs7hke4y",
+    "slug": "shield-half",
+    "name": {
+      "pt": "Escudo pela metade",
+      "en": "Shield half"
+    },
+    "subcategory": "protection",
+    "family": "shield",
+    "variantOf": "shield",
+    "synonyms": {
+      "pt": ["proteção parcial", "meia proteção"],
+      "en": ["partial protection", "half shield"]
+    },
+    "tags": {
+      "pt": ["segurança", "nível de proteção", "defesa"],
+      "en": ["security", "protection level", "defense"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gsjnjv1b",
+    "slug": "shield-lock",
+    "name": {
+      "pt": "Escudo com cadeado",
+      "en": "Shield lock"
+    },
+    "subcategory": "protection",
+    "family": "shield",
+    "variantOf": "shield",
+    "synonyms": {
+      "pt": ["proteção bloqueada", "segurança máxima"],
+      "en": ["locked protection", "secure lock"]
+    },
+    "tags": {
+      "pt": ["criptografia", "seguro", "privado"],
+      "en": ["encryption", "secure", "private"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5v58amg",
+    "slug": "shield-off",
+    "name": {
+      "pt": "Proteção desativada",
+      "en": "Shield off"
+    },
+    "subcategory": "protection",
+    "family": "shield",
+    "variantOf": "shield",
+    "synonyms": {
+      "pt": ["escudo desligado", "sem proteção"],
+      "en": ["protection off", "unprotected"]
+    },
+    "tags": {
+      "pt": ["segurança desligada", "vulnerável", "inseguro"],
+      "en": ["security disabled", "vulnerable", "unsafe"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0rzt3tt",
+    "slug": "shield-plus",
+    "name": {
+      "pt": "Adicionar proteção",
+      "en": "Shield plus"
+    },
+    "subcategory": "protection",
+    "family": "shield",
+    "variantOf": "shield",
+    "synonyms": {
+      "pt": ["escudo com mais", "proteção extra"],
+      "en": ["add protection", "extra protection"]
+    },
+    "tags": {
+      "pt": ["segurança", "seguro", "cobertura"],
+      "en": ["security", "insurance", "coverage"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gew95fah",
+    "slug": "shield-user",
+    "name": {
+      "pt": "Usuário protegido",
+      "en": "Shield user"
+    },
+    "subcategory": "protection",
+    "family": "shield",
+    "variantOf": "shield",
+    "synonyms": {
+      "pt": ["escudo com pessoa", "proteção de conta"],
+      "en": ["protected user", "account protection"]
+    },
+    "tags": {
+      "pt": ["segurança da conta", "identidade", "privacidade"],
+      "en": ["account security", "identity", "privacy"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1gj46an",
+    "slug": "shield-virus",
+    "name": {
+      "pt": "Antivírus",
+      "en": "Antivirus"
+    },
+    "subcategory": "protection",
+    "family": "shield",
+    "variantOf": "shield",
+    "synonyms": {
+      "pt": ["proteção contra vírus", "escudo antivírus"],
+      "en": ["virus protection", "malware shield"]
+    },
+    "tags": {
+      "pt": ["malware", "segurança", "ameaça", "varredura"],
+      "en": ["malware", "security", "threat", "scan"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ge8s4vd1",
+    "slug": "shield-x",
+    "name": {
+      "pt": "Escudo com x",
+      "en": "Shield x"
+    },
+    "subcategory": "protection",
+    "family": "shield",
+    "variantOf": "shield",
+    "synonyms": {
+      "pt": ["desprotegido", "bloqueado"],
+      "en": ["unprotected", "blocked"]
+    },
+    "tags": {
+      "pt": ["segurança", "falha", "ameaça", "negado"],
+      "en": ["security", "failure", "threat", "denied"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gs9f0acq",
+    "slug": "siren",
+    "name": {
+      "pt": "Sirene",
+      "en": "Siren"
+    },
+    "subcategory": "protection",
+    "synonyms": {
+      "pt": ["giroflex", "luz de emergência"],
+      "en": ["beacon", "emergency light"]
+    },
+    "tags": {
+      "pt": ["alarme", "emergência", "polícia", "alerta"],
+      "en": ["alarm", "emergency", "police", "alert"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gx3hgth1",
+    "slug": "two-factor",
+    "name": {
+      "pt": "Autenticação em dois fatores",
+      "en": "Two-factor authentication"
+    },
+    "subcategory": "access",
+    "synonyms": {
+      "pt": ["2FA", "verificação em duas etapas"],
+      "en": ["2fa", "two-step verification"]
+    },
+    "tags": {
+      "pt": ["celular", "segurança da conta", "confirmar login"],
+      "en": ["phone", "account security", "confirm login"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0r7df0j",
+    "slug": "user-key",
+    "name": {
+      "pt": "Credencial do usuário",
+      "en": "User key"
+    },
+    "subcategory": "access",
+    "synonyms": {
+      "pt": ["usuário com chave", "chave do usuário"],
+      "en": ["user credential", "user access key"]
+    },
+    "tags": {
+      "pt": ["acesso", "permissão", "conta", "identidade"],
+      "en": ["access", "permission", "account", "identity"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gw0pspss",
+    "slug": "virus",
+    "name": {
+      "pt": "Vírus",
+      "en": "Virus"
+    },
+    "subcategory": "protection",
+    "synonyms": {
+      "pt": ["malware", "ameaça digital"],
+      "en": ["malware", "digital threat"]
+    },
+    "tags": {
+      "pt": ["infecção", "segurança", "contágio", "germe"],
+      "en": ["infection", "security", "contagion", "germ"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g83t516r",
+    "slug": "vpn",
+    "name": {
+      "pt": "VPN",
+      "en": "VPN"
+    },
+    "subcategory": "privacy",
+    "family": "shield",
+    "synonyms": {
+      "pt": ["rede privada virtual", "túnel seguro"],
+      "en": ["virtual private network", "secure tunnel"]
+    },
+    "tags": {
+      "pt": ["privacidade", "navegação segura", "internet", "anonimato"],
+      "en": ["privacy", "secure browsing", "internet", "anonymity"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  }
+]

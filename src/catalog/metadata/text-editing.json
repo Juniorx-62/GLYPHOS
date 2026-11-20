@@ -1,0 +1,1479 @@
+[
+  {
+    "id": "g12ehzjk",
+    "slug": "align-center",
+    "name": {
+      "pt": "Centralizar",
+      "en": "Align center"
+    },
+    "subcategory": "alignment",
+    "family": "text-align",
+    "synonyms": {
+      "pt": ["texto centralizado", "alinhar ao centro"],
+      "en": ["center text", "centered"]
+    },
+    "tags": {
+      "pt": ["parágrafo", "formatação", "meio"],
+      "en": ["paragraph", "formatting", "middle"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbnrcytz",
+    "slug": "align-justify",
+    "name": {
+      "pt": "Justificar",
+      "en": "Align justify"
+    },
+    "subcategory": "alignment",
+    "family": "text-align",
+    "synonyms": {
+      "pt": ["texto justificado", "alinhamento justificado"],
+      "en": ["justify", "justified text"]
+    },
+    "tags": {
+      "pt": ["parágrafo", "formatação", "bloco de texto"],
+      "en": ["paragraph", "formatting", "text block"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gx1m779c",
+    "slug": "align-left",
+    "name": {
+      "pt": "Alinhar à esquerda",
+      "en": "Align left"
+    },
+    "subcategory": "alignment",
+    "family": "text-align",
+    "synonyms": {
+      "pt": ["texto à esquerda", "alinhamento esquerdo"],
+      "en": ["left align", "text left"]
+    },
+    "tags": {
+      "pt": ["parágrafo", "formatação", "linhas"],
+      "en": ["paragraph", "formatting", "lines"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g39nbf6s",
+    "slug": "align-right",
+    "name": {
+      "pt": "Alinhar à direita",
+      "en": "Align right"
+    },
+    "subcategory": "alignment",
+    "family": "text-align",
+    "synonyms": {
+      "pt": ["texto à direita", "alinhamento direito"],
+      "en": ["right align", "text right"]
+    },
+    "tags": {
+      "pt": ["parágrafo", "formatação", "linhas"],
+      "en": ["paragraph", "formatting", "lines"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3t3t4v3",
+    "slug": "baseline",
+    "name": {
+      "pt": "Linha de base",
+      "en": "Baseline"
+    },
+    "subcategory": "formatting",
+    "synonyms": {
+      "pt": ["cor do texto", "a sublinhado"],
+      "en": ["text color", "underlined a"]
+    },
+    "tags": {
+      "pt": ["tipografia", "cor da fonte", "letra a"],
+      "en": ["typography", "font color", "letter a"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gphsxkjs",
+    "slug": "bold",
+    "name": {
+      "pt": "Negrito",
+      "en": "Bold"
+    },
+    "subcategory": "formatting",
+    "family": "text-style",
+    "synonyms": {
+      "pt": ["texto em negrito", "letra b"],
+      "en": ["bold text", "letter b"]
+    },
+    "tags": {
+      "pt": ["formatação", "destaque", "ênfase", "fonte grossa"],
+      "en": ["formatting", "strong", "emphasis", "heavy"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8nppjk1",
+    "slug": "case-lower",
+    "name": {
+      "pt": "Minúsculas",
+      "en": "Lowercase"
+    },
+    "subcategory": "formatting",
+    "family": "text-case",
+    "synonyms": {
+      "pt": ["caixa baixa", "ab minúsculo"],
+      "en": ["lower case", "small letters"]
+    },
+    "tags": {
+      "pt": ["letras pequenas", "converter texto"],
+      "en": ["convert text", "minuscule"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqvtj7p7",
+    "slug": "case-sensitive",
+    "name": {
+      "pt": "Diferenciar maiúsculas",
+      "en": "Case sensitive"
+    },
+    "subcategory": "formatting",
+    "family": "text-case",
+    "synonyms": {
+      "pt": ["maiúsculas e minúsculas", "aa"],
+      "en": ["match case", "aa"]
+    },
+    "tags": {
+      "pt": ["caixa alta e baixa", "busca exata", "letras"],
+      "en": ["uppercase and lowercase", "exact match", "letters"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbha1r77",
+    "slug": "case-upper",
+    "name": {
+      "pt": "Maiúsculas",
+      "en": "Uppercase"
+    },
+    "subcategory": "formatting",
+    "family": "text-case",
+    "synonyms": {
+      "pt": ["caixa alta", "ab maiúsculo"],
+      "en": ["upper case", "all caps"]
+    },
+    "tags": {
+      "pt": ["letras grandes", "capitalizar", "converter texto"],
+      "en": ["capital letters", "capitalize", "convert text"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3hcxnca",
+    "slug": "code-block",
+    "name": {
+      "pt": "Bloco de código",
+      "en": "Code block"
+    },
+    "subcategory": "lists",
+    "synonyms": {
+      "pt": ["trecho de código", "snippet"],
+      "en": ["code snippet", "snippet"]
+    },
+    "tags": {
+      "pt": ["programação", "código-fonte", "pre", "markdown"],
+      "en": ["programming", "source code", "pre", "markdown"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gv3zajcm",
+    "slug": "divider",
+    "name": {
+      "pt": "Divisor",
+      "en": "Divider"
+    },
+    "subcategory": "lists",
+    "synonyms": {
+      "pt": ["separador", "linha horizontal"],
+      "en": ["separator", "horizontal rule"]
+    },
+    "tags": {
+      "pt": ["quebra de seção", "régua", "hr", "separar blocos"],
+      "en": ["section break", "rule", "hr", "split blocks"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g2d9vdbv",
+    "slug": "edit-square",
+    "name": {
+      "pt": "Editar",
+      "en": "Edit"
+    },
+    "subcategory": "editing",
+    "family": "pencil",
+    "synonyms": {
+      "pt": ["quadrado com lápis", "escrever"],
+      "en": ["square pen", "write"]
+    },
+    "tags": {
+      "pt": ["edição", "modificar", "nova nota", "compor"],
+      "en": ["editing", "modify", "new note", "compose"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7w1hwa4",
+    "slug": "eraser",
+    "name": {
+      "pt": "Borracha",
+      "en": "Eraser"
+    },
+    "subcategory": "editing",
+    "synonyms": {
+      "pt": ["apagador", "apagar"],
+      "en": ["rubber", "erase"]
+    },
+    "tags": {
+      "pt": ["limpar", "remover", "corrigir", "desfazer"],
+      "en": ["clear", "remove", "correct", "wipe"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4kjf5z6",
+    "slug": "find-replace",
+    "name": {
+      "pt": "Localizar e substituir",
+      "en": "Find and replace"
+    },
+    "subcategory": "editing",
+    "family": "replace",
+    "synonyms": {
+      "pt": ["buscar e trocar", "procurar e substituir"],
+      "en": ["search and replace", "find replace"]
+    },
+    "tags": {
+      "pt": ["busca", "troca", "editar texto", "ctrl h"],
+      "en": ["search", "swap", "edit text", "ctrl h"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gz807xrb",
+    "slug": "font-size-decrease",
+    "name": {
+      "pt": "Diminuir fonte",
+      "en": "Font size decrease"
+    },
+    "subcategory": "formatting",
+    "family": "font-size",
+    "synonyms": {
+      "pt": ["diminuir texto", "letra menor"],
+      "en": ["smaller text", "decrease text"]
+    },
+    "tags": {
+      "pt": ["tamanho da fonte", "reduzir texto"],
+      "en": ["font size", "reduce text"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gm023p42",
+    "slug": "font-size-increase",
+    "name": {
+      "pt": "Aumentar fonte",
+      "en": "Font size increase"
+    },
+    "subcategory": "formatting",
+    "family": "font-size",
+    "synonyms": {
+      "pt": ["aumentar texto", "letra maior"],
+      "en": ["bigger text", "increase text"]
+    },
+    "tags": {
+      "pt": ["tamanho da fonte", "zoom de texto", "acessibilidade"],
+      "en": ["font size", "text zoom", "accessibility"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gy9fz00q",
+    "slug": "heading",
+    "name": {
+      "pt": "Título",
+      "en": "Heading"
+    },
+    "subcategory": "formatting",
+    "family": "heading",
+    "synonyms": {
+      "pt": ["cabeçalho", "letra h"],
+      "en": ["header", "letter h", "title"]
+    },
+    "tags": {
+      "pt": ["formatação", "seção", "subtítulo"],
+      "en": ["formatting", "section", "headline"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0s3xpk2",
+    "slug": "heading-1",
+    "name": {
+      "pt": "Título 1",
+      "en": "Heading 1"
+    },
+    "subcategory": "formatting",
+    "family": "heading",
+    "synonyms": {
+      "pt": ["cabeçalho 1", "h1"],
+      "en": ["header 1", "h1"]
+    },
+    "tags": {
+      "pt": ["título principal", "nível 1", "formatação"],
+      "en": ["main title", "level 1", "formatting"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ghr3yk9j",
+    "slug": "heading-2",
+    "name": {
+      "pt": "Título 2",
+      "en": "Heading 2"
+    },
+    "subcategory": "formatting",
+    "family": "heading",
+    "synonyms": {
+      "pt": ["cabeçalho 2", "h2"],
+      "en": ["header 2", "h2"]
+    },
+    "tags": {
+      "pt": ["subtítulo", "nível 2", "formatação"],
+      "en": ["subtitle", "level 2", "formatting"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5we4dhv",
+    "slug": "heading-3",
+    "name": {
+      "pt": "Título 3",
+      "en": "Heading 3"
+    },
+    "subcategory": "formatting",
+    "family": "heading",
+    "synonyms": {
+      "pt": ["cabeçalho 3", "h3"],
+      "en": ["header 3", "h3"]
+    },
+    "tags": {
+      "pt": ["subtítulo", "nível 3", "formatação"],
+      "en": ["subheading", "level 3", "formatting"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkjg2pmb",
+    "slug": "highlighter",
+    "name": {
+      "pt": "Marca-texto",
+      "en": "Highlighter"
+    },
+    "subcategory": "formatting",
+    "synonyms": {
+      "pt": ["caneta marca-texto", "realçar"],
+      "en": ["marker", "highlight pen"]
+    },
+    "tags": {
+      "pt": ["destacar", "grifar", "marcação", "cor de fundo"],
+      "en": ["highlight", "mark", "emphasize", "background color"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gs9s4w6a",
+    "slug": "indent",
+    "name": {
+      "pt": "Aumentar recuo",
+      "en": "Indent"
+    },
+    "subcategory": "alignment",
+    "family": "indent",
+    "synonyms": {
+      "pt": ["recuar", "indentação"],
+      "en": ["increase indent", "indentation"]
+    },
+    "tags": {
+      "pt": ["tabulação", "parágrafo", "deslocar à direita"],
+      "en": ["tab", "paragraph", "shift right"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gg9svjt9",
+    "slug": "italic",
+    "name": {
+      "pt": "Itálico",
+      "en": "Italic"
+    },
+    "subcategory": "formatting",
+    "family": "text-style",
+    "synonyms": {
+      "pt": ["texto inclinado", "letra i"],
+      "en": ["slanted text", "letter i"]
+    },
+    "tags": {
+      "pt": ["formatação", "ênfase", "cursiva"],
+      "en": ["formatting", "emphasis", "oblique"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0s58040",
+    "slug": "languages",
+    "name": {
+      "pt": "Idiomas",
+      "en": "Languages"
+    },
+    "subcategory": "editing",
+    "synonyms": {
+      "pt": ["línguas", "multilíngue"],
+      "en": ["multilingual", "locales"]
+    },
+    "tags": {
+      "pt": ["tradução", "internacionalização", "i18n", "linguagem"],
+      "en": ["translation", "internationalization", "i18n"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ghr5kpgr",
+    "slug": "letter-spacing",
+    "name": {
+      "pt": "Espaçamento entre letras",
+      "en": "Letter spacing"
+    },
+    "subcategory": "formatting",
+    "synonyms": {
+      "pt": ["entreletras", "kerning", "tracking"],
+      "en": ["tracking", "kerning", "character spacing"]
+    },
+    "tags": {
+      "pt": ["tipografia", "distância das letras", "espaçar"],
+      "en": ["typography", "spacing", "spread letters"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdpkqja6",
+    "slug": "line-height",
+    "name": {
+      "pt": "Altura da linha",
+      "en": "Line height"
+    },
+    "subcategory": "formatting",
+    "synonyms": {
+      "pt": ["entrelinha", "espaçamento entre linhas"],
+      "en": ["line spacing", "leading"]
+    },
+    "tags": {
+      "pt": ["tipografia", "espaçar linhas", "parágrafo"],
+      "en": ["typography", "spacing", "paragraph"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gf19hmcc",
+    "slug": "list",
+    "name": {
+      "pt": "Lista",
+      "en": "List"
+    },
+    "subcategory": "lists",
+    "synonyms": {
+      "pt": ["itens", "tópicos", "marcadores"],
+      "en": ["bullets", "items"]
+    },
+    "tags": {
+      "pt": ["lista com pontos", "visualização em lista"],
+      "en": ["bulleted list", "list view"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ghxx1s0n",
+    "slug": "list-checks",
+    "name": {
+      "pt": "Lista com marcações",
+      "en": "List checks"
+    },
+    "subcategory": "lists",
+    "family": "list",
+    "synonyms": {
+      "pt": ["lista de verificação", "checklist", "itens marcados"],
+      "en": ["checklist", "checked items"]
+    },
+    "tags": {
+      "pt": ["tarefas", "concluídos", "lista de tarefas"],
+      "en": ["tasks", "done", "to-do list"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1h1a9ch",
+    "slug": "list-collapse",
+    "name": {
+      "pt": "Recolher lista",
+      "en": "List collapse"
+    },
+    "subcategory": "lists",
+    "family": "list",
+    "synonyms": {
+      "pt": ["colapsar", "contrair itens"],
+      "en": ["collapse", "fold items"]
+    },
+    "tags": {
+      "pt": ["esconder itens", "fechar seção", "acordeão"],
+      "en": ["hide items", "close section", "accordion"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grmt7r54",
+    "slug": "list-minus",
+    "name": {
+      "pt": "Remover da lista",
+      "en": "List minus"
+    },
+    "subcategory": "lists",
+    "family": "list",
+    "variantOf": "list",
+    "synonyms": {
+      "pt": ["lista com menos", "tirar item"],
+      "en": ["remove from list", "delete item"]
+    },
+    "tags": {
+      "pt": ["excluir item", "apagar da lista"],
+      "en": ["remove item", "delete from list"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0tjnscs",
+    "slug": "list-ordered",
+    "name": {
+      "pt": "Lista numerada",
+      "en": "Ordered list"
+    },
+    "subcategory": "lists",
+    "family": "list",
+    "synonyms": {
+      "pt": ["lista ordenada", "numeração"],
+      "en": ["numbered list", "numbering"]
+    },
+    "tags": {
+      "pt": ["itens", "números", "passos", "sequência"],
+      "en": ["items", "numbers", "steps", "sequence"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g19j3kcn",
+    "slug": "list-plus",
+    "name": {
+      "pt": "Adicionar à lista",
+      "en": "List plus"
+    },
+    "subcategory": "lists",
+    "family": "list",
+    "variantOf": "list",
+    "synonyms": {
+      "pt": ["lista com mais", "novo item"],
+      "en": ["add to list", "new item"]
+    },
+    "tags": {
+      "pt": ["incluir item", "inserir", "playlist"],
+      "en": ["insert item", "append", "playlist"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g312bjyj",
+    "slug": "list-todo",
+    "name": {
+      "pt": "Lista de tarefas",
+      "en": "To-do list"
+    },
+    "subcategory": "lists",
+    "family": "list",
+    "synonyms": {
+      "pt": ["to-do", "afazeres", "caixas de seleção"],
+      "en": ["todo", "checkboxes", "tasks"]
+    },
+    "tags": {
+      "pt": ["checklist", "pendências", "tarefas"],
+      "en": ["checklist", "pending", "task list"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gvyk29zd",
+    "slug": "list-tree",
+    "name": {
+      "pt": "Lista em árvore",
+      "en": "List tree"
+    },
+    "subcategory": "lists",
+    "family": "list",
+    "synonyms": {
+      "pt": ["hierarquia", "estrutura de tópicos"],
+      "en": ["tree list", "hierarchy", "outline"]
+    },
+    "tags": {
+      "pt": ["aninhado", "subitens", "outline"],
+      "en": ["nested", "sub items", "structure"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpbzp2n3",
+    "slug": "outdent",
+    "name": {
+      "pt": "Diminuir recuo",
+      "en": "Outdent"
+    },
+    "subcategory": "alignment",
+    "family": "indent",
+    "synonyms": {
+      "pt": ["remover recuo", "desindentar"],
+      "en": ["decrease indent", "unindent"]
+    },
+    "tags": {
+      "pt": ["tabulação", "parágrafo", "deslocar à esquerda"],
+      "en": ["tab", "paragraph", "shift left"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gp6dv166",
+    "slug": "pen",
+    "name": {
+      "pt": "Caneta",
+      "en": "Pen"
+    },
+    "subcategory": "editing",
+    "synonyms": {
+      "pt": ["esferográfica", "escrever"],
+      "en": ["ballpoint", "write"]
+    },
+    "tags": {
+      "pt": ["assinar", "editar", "anotar", "redigir"],
+      "en": ["sign", "edit", "annotate", "compose"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g88r8dts",
+    "slug": "pen-tool",
+    "name": {
+      "pt": "Ferramenta caneta",
+      "en": "Pen tool"
+    },
+    "subcategory": "editing",
+    "synonyms": {
+      "pt": ["pena", "bico de pena", "vetor"],
+      "en": ["nib", "vector pen"]
+    },
+    "tags": {
+      "pt": ["desenho vetorial", "bézier", "ilustração", "design"],
+      "en": ["vector drawing", "bezier", "illustration", "design"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g44jzns6",
+    "slug": "pencil",
+    "name": {
+      "pt": "Lápis",
+      "en": "Pencil"
+    },
+    "subcategory": "editing",
+    "family": "pencil",
+    "synonyms": {
+      "pt": ["editar", "escrever"],
+      "en": ["edit", "write"]
+    },
+    "tags": {
+      "pt": ["edição", "alterar", "modificar", "rascunho"],
+      "en": ["editing", "change", "modify", "draft"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnzjekph",
+    "slug": "pencil-line",
+    "name": {
+      "pt": "Lápis com linha",
+      "en": "Pencil line"
+    },
+    "subcategory": "editing",
+    "family": "pencil",
+    "synonyms": {
+      "pt": ["escrever", "editar texto"],
+      "en": ["write", "edit text"]
+    },
+    "tags": {
+      "pt": ["rascunho", "anotar", "assinatura", "desenhar"],
+      "en": ["draft", "annotate", "sign", "draw"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gw90w74j",
+    "slug": "pencil-off",
+    "name": {
+      "pt": "Edição desativada",
+      "en": "Pencil off"
+    },
+    "subcategory": "editing",
+    "family": "pencil",
+    "variantOf": "pencil",
+    "synonyms": {
+      "pt": ["não editável", "lápis cortado"],
+      "en": ["not editable", "edit disabled"]
+    },
+    "tags": {
+      "pt": ["somente leitura", "bloqueado", "sem edição"],
+      "en": ["read only", "locked", "no editing"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggsqsyhz",
+    "slug": "pilcrow",
+    "name": {
+      "pt": "Marca de parágrafo",
+      "en": "Pilcrow"
+    },
+    "subcategory": "formatting",
+    "synonyms": {
+      "pt": ["pé de mosca", "sinal de parágrafo"],
+      "en": ["paragraph mark", "paragraph sign"]
+    },
+    "tags": {
+      "pt": ["parágrafo", "caracteres ocultos", "formatação"],
+      "en": ["paragraph", "hidden characters", "formatting"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzn8qbmh",
+    "slug": "quote",
+    "name": {
+      "pt": "Citação",
+      "en": "Quote"
+    },
+    "subcategory": "lists",
+    "synonyms": {
+      "pt": ["aspas", "bloco de citação"],
+      "en": ["quotation marks", "blockquote"]
+    },
+    "tags": {
+      "pt": ["frase", "depoimento", "blockquote", "referência"],
+      "en": ["citation", "testimonial", "saying"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gtg23bac",
+    "slug": "remove-formatting",
+    "name": {
+      "pt": "Limpar formatação",
+      "en": "Remove formatting"
+    },
+    "subcategory": "formatting",
+    "family": "type",
+    "synonyms": {
+      "pt": ["remover formatação", "texto simples"],
+      "en": ["clear formatting", "plain text"]
+    },
+    "tags": {
+      "pt": ["apagar estilo", "padrão", "t com x"],
+      "en": ["clear style", "reset", "t with x"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkv0aza4",
+    "slug": "replace",
+    "name": {
+      "pt": "Substituir",
+      "en": "Replace"
+    },
+    "subcategory": "editing",
+    "family": "replace",
+    "synonyms": {
+      "pt": ["trocar", "permutar"],
+      "en": ["swap", "exchange"]
+    },
+    "tags": {
+      "pt": ["troca", "alternar", "substituição", "mudar"],
+      "en": ["switch", "substitute", "change"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7x1dmxc",
+    "slug": "scissors",
+    "name": {
+      "pt": "Tesoura",
+      "en": "Scissors"
+    },
+    "subcategory": "editing",
+    "synonyms": {
+      "pt": ["recortar", "cortar"],
+      "en": ["cut", "snip"]
+    },
+    "tags": {
+      "pt": ["recorte", "ctrl x", "separar", "tesourar"],
+      "en": ["clip", "ctrl x", "trim", "crop"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gddm5b15",
+    "slug": "signature",
+    "name": {
+      "pt": "Assinatura",
+      "en": "Signature"
+    },
+    "subcategory": "editing",
+    "synonyms": {
+      "pt": ["assinar", "rubrica"],
+      "en": ["sign", "autograph"]
+    },
+    "tags": {
+      "pt": ["contrato", "autógrafo", "assinar documento", "firma"],
+      "en": ["contract", "sign document", "e-signature"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzvx8dc2",
+    "slug": "spell-check",
+    "name": {
+      "pt": "Verificar ortografia",
+      "en": "Spell check"
+    },
+    "subcategory": "editing",
+    "synonyms": {
+      "pt": ["corretor ortográfico", "revisão"],
+      "en": ["spelling", "proofread"]
+    },
+    "tags": {
+      "pt": ["ortografia", "gramática", "abc", "correção"],
+      "en": ["grammar", "abc", "correction", "typo"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g65zhv6g",
+    "slug": "strikethrough",
+    "name": {
+      "pt": "Tachado",
+      "en": "Strikethrough"
+    },
+    "subcategory": "formatting",
+    "family": "text-style",
+    "synonyms": {
+      "pt": ["riscado", "texto riscado"],
+      "en": ["strike", "crossed out text"]
+    },
+    "tags": {
+      "pt": ["formatação", "cortar texto", "excluído"],
+      "en": ["formatting", "deleted text", "cross out"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0fm3zn3",
+    "slug": "subscript",
+    "name": {
+      "pt": "Subscrito",
+      "en": "Subscript"
+    },
+    "subcategory": "formatting",
+    "family": "script",
+    "synonyms": {
+      "pt": ["índice inferior", "texto abaixo"],
+      "en": ["lower index", "below text"]
+    },
+    "tags": {
+      "pt": ["fórmula", "química", "x2", "formatação"],
+      "en": ["formula", "chemistry", "x2", "formatting"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g181zm8q",
+    "slug": "superscript",
+    "name": {
+      "pt": "Sobrescrito",
+      "en": "Superscript"
+    },
+    "subcategory": "formatting",
+    "family": "script",
+    "synonyms": {
+      "pt": ["expoente", "índice superior"],
+      "en": ["exponent", "upper index"]
+    },
+    "tags": {
+      "pt": ["potência", "nota", "x ao quadrado", "formatação"],
+      "en": ["power", "footnote", "x squared", "formatting"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4gsn0b0",
+    "slug": "table",
+    "name": {
+      "pt": "Tabela",
+      "en": "Table"
+    },
+    "subcategory": "lists",
+    "family": "table",
+    "synonyms": {
+      "pt": ["planilha", "grade de dados"],
+      "en": ["spreadsheet", "data grid"]
+    },
+    "tags": {
+      "pt": ["linhas e colunas", "células", "dados"],
+      "en": ["rows and columns", "cells", "data"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwq3bsv9",
+    "slug": "table-columns",
+    "name": {
+      "pt": "Colunas da tabela",
+      "en": "Table columns"
+    },
+    "subcategory": "lists",
+    "family": "table",
+    "synonyms": {
+      "pt": ["colunas", "campos"],
+      "en": ["columns", "fields"]
+    },
+    "tags": {
+      "pt": ["tabela", "planilha", "inserir coluna"],
+      "en": ["table", "spreadsheet", "insert column"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gf6jdwyk",
+    "slug": "table-rows",
+    "name": {
+      "pt": "Linhas da tabela",
+      "en": "Table rows"
+    },
+    "subcategory": "lists",
+    "family": "table",
+    "synonyms": {
+      "pt": ["linhas", "registros"],
+      "en": ["rows", "records"]
+    },
+    "tags": {
+      "pt": ["tabela", "planilha", "inserir linha"],
+      "en": ["table", "spreadsheet", "insert row"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gy88ern9",
+    "slug": "text-cursor",
+    "name": {
+      "pt": "Cursor de texto",
+      "en": "Text cursor"
+    },
+    "subcategory": "editing",
+    "synonyms": {
+      "pt": ["barra de digitação", "i-beam"],
+      "en": ["i-beam", "caret"]
+    },
+    "tags": {
+      "pt": ["digitar", "inserir texto", "caret", "editar"],
+      "en": ["type", "insert text", "edit", "input"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g549kxec",
+    "slug": "text-direction-ltr",
+    "name": {
+      "pt": "Esquerda para a direita",
+      "en": "Left to right"
+    },
+    "subcategory": "alignment",
+    "family": "text-direction",
+    "synonyms": {
+      "pt": ["direção do texto", "ltr"],
+      "en": ["text direction", "ltr"]
+    },
+    "tags": {
+      "pt": ["sentido da escrita", "idioma", "parágrafo"],
+      "en": ["writing direction", "language", "paragraph"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gadqnyqq",
+    "slug": "text-direction-rtl",
+    "name": {
+      "pt": "Direita para a esquerda",
+      "en": "Right to left"
+    },
+    "subcategory": "alignment",
+    "family": "text-direction",
+    "synonyms": {
+      "pt": ["direção do texto", "rtl"],
+      "en": ["text direction", "rtl"]
+    },
+    "tags": {
+      "pt": ["sentido da escrita", "árabe", "hebraico", "idioma"],
+      "en": ["writing direction", "arabic", "hebrew", "language"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbpmwz0f",
+    "slug": "text-search",
+    "name": {
+      "pt": "Buscar no texto",
+      "en": "Text search"
+    },
+    "subcategory": "editing",
+    "family": "replace",
+    "synonyms": {
+      "pt": ["localizar", "procurar palavra"],
+      "en": ["find in text", "search text"]
+    },
+    "tags": {
+      "pt": ["busca", "ctrl f", "encontrar no documento"],
+      "en": ["find", "ctrl f", "find in document"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmfcpw1p",
+    "slug": "text-select",
+    "name": {
+      "pt": "Selecionar texto",
+      "en": "Text select"
+    },
+    "subcategory": "editing",
+    "synonyms": {
+      "pt": ["seleção de texto", "realce"],
+      "en": ["text selection", "highlight"]
+    },
+    "tags": {
+      "pt": ["marcar texto", "copiar", "destacar trecho"],
+      "en": ["select text", "copy", "mark"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gsmv1vaj",
+    "slug": "text-size",
+    "name": {
+      "pt": "Tamanho do texto",
+      "en": "Text size"
+    },
+    "subcategory": "formatting",
+    "family": "type",
+    "synonyms": {
+      "pt": ["tamanho da fonte", "corpo do texto"],
+      "en": ["font size", "type size"]
+    },
+    "tags": {
+      "pt": ["aumentar letra", "diminuir letra", "tipografia"],
+      "en": ["bigger text", "smaller text", "typography"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "geh3wh52",
+    "slug": "text-wrap",
+    "name": {
+      "pt": "Quebra de texto",
+      "en": "Text wrap"
+    },
+    "subcategory": "alignment",
+    "synonyms": {
+      "pt": ["quebrar linha", "ajustar texto"],
+      "en": ["wrap text", "line wrap"]
+    },
+    "tags": {
+      "pt": ["quebra automática", "linhas", "parágrafo"],
+      "en": ["word wrap", "lines", "paragraph"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzjaywrk",
+    "slug": "translate",
+    "name": {
+      "pt": "Traduzir",
+      "en": "Translate"
+    },
+    "subcategory": "editing",
+    "synonyms": {
+      "pt": ["tradução", "tradutor"],
+      "en": ["translation", "translator"]
+    },
+    "tags": {
+      "pt": ["idioma", "converter idioma", "a para outro alfabeto"],
+      "en": ["language", "convert language", "localize"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gj5v46bh",
+    "slug": "type",
+    "name": {
+      "pt": "Texto",
+      "en": "Type"
+    },
+    "subcategory": "formatting",
+    "family": "type",
+    "synonyms": {
+      "pt": ["letra t", "fonte", "tipografia"],
+      "en": ["text", "letter t", "font"]
+    },
+    "tags": {
+      "pt": ["escrever", "caixa de texto", "inserir texto"],
+      "en": ["typography", "text box", "insert text"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gt4e02qa",
+    "slug": "type-outline",
+    "name": {
+      "pt": "Texto vazado",
+      "en": "Type outline"
+    },
+    "subcategory": "formatting",
+    "family": "type",
+    "synonyms": {
+      "pt": ["letra t contornada", "fonte em contorno"],
+      "en": ["outlined letter t", "outline font"]
+    },
+    "tags": {
+      "pt": ["tipografia", "título", "display"],
+      "en": ["typography", "title", "display"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3c55eyk",
+    "slug": "underline",
+    "name": {
+      "pt": "Sublinhado",
+      "en": "Underline"
+    },
+    "subcategory": "formatting",
+    "family": "text-style",
+    "synonyms": {
+      "pt": ["texto sublinhado", "letra u"],
+      "en": ["underlined text", "letter u"]
+    },
+    "tags": {
+      "pt": ["formatação", "grifar", "linha embaixo"],
+      "en": ["formatting", "emphasis", "line below"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gddp9ch5",
+    "slug": "word-count",
+    "name": {
+      "pt": "Contagem de palavras",
+      "en": "Word count"
+    },
+    "subcategory": "editing",
+    "synonyms": {
+      "pt": ["contador de palavras", "número de caracteres"],
+      "en": ["character count", "counter"]
+    },
+    "tags": {
+      "pt": ["estatísticas do texto", "quantidade", "contar"],
+      "en": ["text statistics", "count", "length"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  }
+]

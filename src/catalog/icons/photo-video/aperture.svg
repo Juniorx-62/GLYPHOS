@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="12" r="9" data-part="body"/>
+  <path d="M13.75 8.97L18.86 17.82M15.5 12L10.39 20.85M13.75 15.03H3.53M10.25 15.03L5.14 6.18M8.5 12L13.61 3.15M10.25 8.97H20.47" data-part="cut"/>
+</svg>

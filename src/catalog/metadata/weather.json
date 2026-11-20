@@ -1,0 +1,1320 @@
+[
+  {
+    "id": "grq1m727",
+    "slug": "anemometer",
+    "name": {
+      "pt": "Anemômetro",
+      "en": "Anemometer"
+    },
+    "subcategory": "measurements",
+    "synonyms": {
+      "pt": ["medidor de vento"],
+      "en": ["wind meter", "wind gauge"]
+    },
+    "tags": {
+      "pt": ["velocidade do vento", "estação meteorológica"],
+      "en": ["wind speed", "weather station"]
+    },
+    "popularity": 1,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3sy8p84",
+    "slug": "barometer",
+    "name": {
+      "pt": "Barômetro",
+      "en": "Barometer"
+    },
+    "subcategory": "measurements",
+    "synonyms": {
+      "pt": ["pressão atmosférica", "manômetro"],
+      "en": ["air pressure", "pressure gauge"]
+    },
+    "tags": {
+      "pt": ["medidor", "clima", "previsão"],
+      "en": ["meter", "weather", "forecast"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggvspx0y",
+    "slug": "celsius",
+    "name": {
+      "pt": "Graus Celsius",
+      "en": "Celsius"
+    },
+    "subcategory": "measurements",
+    "synonyms": {
+      "pt": ["centígrados", "°C"],
+      "en": ["degrees Celsius", "centigrade", "°C"]
+    },
+    "tags": {
+      "pt": ["temperatura", "termômetro", "clima"],
+      "en": ["temperature", "thermometer", "weather"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdta070s",
+    "slug": "cloud",
+    "name": {
+      "pt": "Nuvem",
+      "en": "Cloud"
+    },
+    "subcategory": "conditions",
+    "family": "cloud",
+    "synonyms": {
+      "pt": ["nublado", "nebuloso"],
+      "en": ["cloudy", "overcast"]
+    },
+    "tags": {
+      "pt": ["tempo", "clima", "previsão", "céu"],
+      "en": ["weather", "forecast", "sky"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gw63srk8",
+    "slug": "cloud-drizzle",
+    "name": {
+      "pt": "Garoa",
+      "en": "Drizzle"
+    },
+    "subcategory": "precipitation",
+    "family": "cloud",
+    "synonyms": {
+      "pt": ["chuvisco", "chuva fina", "sereno"],
+      "en": ["light rain", "sprinkle"]
+    },
+    "tags": {
+      "pt": ["tempo", "previsão", "umidade"],
+      "en": ["weather", "forecast", "damp"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4f9cm83",
+    "slug": "cloud-fog",
+    "name": {
+      "pt": "Neblina",
+      "en": "Fog"
+    },
+    "subcategory": "conditions",
+    "family": "cloud",
+    "synonyms": {
+      "pt": ["nevoeiro", "cerração", "bruma"],
+      "en": ["mist", "foggy"]
+    },
+    "tags": {
+      "pt": ["tempo", "visibilidade", "névoa"],
+      "en": ["weather", "visibility", "cloud"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ghqsp0hw",
+    "slug": "cloud-hail",
+    "name": {
+      "pt": "Granizo",
+      "en": "Hail"
+    },
+    "subcategory": "precipitation",
+    "family": "cloud",
+    "synonyms": {
+      "pt": ["chuva de pedra", "saraiva"],
+      "en": ["hailstorm", "hail cloud"]
+    },
+    "tags": {
+      "pt": ["tempo", "gelo", "tempestade"],
+      "en": ["weather", "ice", "storm"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gr8kk28n",
+    "slug": "cloud-lightning",
+    "name": {
+      "pt": "Nuvem com raio",
+      "en": "Cloud lightning"
+    },
+    "subcategory": "conditions",
+    "family": "cloud",
+    "synonyms": {
+      "pt": ["relâmpago", "trovão"],
+      "en": ["thunder", "lightning bolt"]
+    },
+    "tags": {
+      "pt": ["tempestade", "tempo", "eletricidade"],
+      "en": ["storm", "weather", "electric"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gsf6z924",
+    "slug": "cloud-moon",
+    "name": {
+      "pt": "Lua entre nuvens",
+      "en": "Cloud moon"
+    },
+    "subcategory": "conditions",
+    "family": "cloud",
+    "synonyms": {
+      "pt": ["noite nublada", "parcialmente nublado à noite"],
+      "en": ["partly cloudy night", "cloudy night"]
+    },
+    "tags": {
+      "pt": ["tempo", "previsão", "noite"],
+      "en": ["weather", "forecast", "night"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1xdz1zb",
+    "slug": "cloud-moon-rain",
+    "name": {
+      "pt": "Chuva à noite",
+      "en": "Night rain"
+    },
+    "subcategory": "precipitation",
+    "family": "cloud",
+    "synonyms": {
+      "pt": ["lua com chuva", "noite chuvosa"],
+      "en": ["cloud moon rain", "rainy night"]
+    },
+    "tags": {
+      "pt": ["tempo", "previsão", "noite"],
+      "en": ["weather", "forecast", "night"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gr0g0vxb",
+    "slug": "cloud-rain",
+    "name": {
+      "pt": "Chuva",
+      "en": "Rain"
+    },
+    "subcategory": "precipitation",
+    "family": "cloud",
+    "synonyms": {
+      "pt": ["nuvem com chuva", "chuvoso"],
+      "en": ["rainy", "cloud rain"]
+    },
+    "tags": {
+      "pt": ["tempo", "previsão", "guarda-chuva"],
+      "en": ["weather", "forecast", "shower"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g6j79672",
+    "slug": "cloud-rain-wind",
+    "name": {
+      "pt": "Chuva com vento",
+      "en": "Rain and wind"
+    },
+    "subcategory": "precipitation",
+    "family": "cloud",
+    "synonyms": {
+      "pt": ["chuva de vento", "ventania"],
+      "en": ["windy rain", "driving rain"]
+    },
+    "tags": {
+      "pt": ["tempestade", "rajada", "previsão"],
+      "en": ["storm", "gust", "forecast"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gq79gtz0",
+    "slug": "cloud-sleet",
+    "name": {
+      "pt": "Chuva com neve",
+      "en": "Sleet"
+    },
+    "subcategory": "precipitation",
+    "family": "cloud",
+    "synonyms": {
+      "pt": ["granizo fino", "aguaneve"],
+      "en": ["rain and snow", "ice pellets"]
+    },
+    "tags": {
+      "pt": ["inverno", "gelo", "frio", "previsão"],
+      "en": ["winter", "ice", "cold", "forecast"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gt9vmjj4",
+    "slug": "cloud-snow",
+    "name": {
+      "pt": "Neve",
+      "en": "Snow"
+    },
+    "subcategory": "precipitation",
+    "family": "cloud",
+    "synonyms": {
+      "pt": ["nevando", "nuvem com neve"],
+      "en": ["snowing", "snowfall"]
+    },
+    "tags": {
+      "pt": ["inverno", "frio", "previsão"],
+      "en": ["winter", "cold", "forecast"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gv4s232r",
+    "slug": "cloud-sun",
+    "name": {
+      "pt": "Sol entre nuvens",
+      "en": "Cloud sun"
+    },
+    "subcategory": "conditions",
+    "family": "cloud",
+    "synonyms": {
+      "pt": ["parcialmente nublado", "sol com nuvem"],
+      "en": ["partly cloudy", "partly sunny"]
+    },
+    "tags": {
+      "pt": ["tempo", "previsão", "clima ameno"],
+      "en": ["weather", "forecast", "mild"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gyeym8mg",
+    "slug": "cloud-sun-rain",
+    "name": {
+      "pt": "Sol e chuva",
+      "en": "Sun and rain"
+    },
+    "subcategory": "precipitation",
+    "family": "cloud",
+    "synonyms": {
+      "pt": ["pancadas de chuva", "chuva com sol"],
+      "en": ["sun showers", "scattered showers"]
+    },
+    "tags": {
+      "pt": ["tempo", "previsão", "instável"],
+      "en": ["weather", "forecast", "changeable"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gq9hnyfg",
+    "slug": "cloud-wind",
+    "name": {
+      "pt": "Nuvem com vento",
+      "en": "Cloud wind"
+    },
+    "subcategory": "conditions",
+    "family": "cloud",
+    "synonyms": {
+      "pt": ["ventania", "tempo ventoso"],
+      "en": ["windy", "blustery"]
+    },
+    "tags": {
+      "pt": ["vento forte", "rajada", "previsão"],
+      "en": ["strong wind", "gust", "forecast"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gp4xd65s",
+    "slug": "clouds",
+    "name": {
+      "pt": "Nuvens",
+      "en": "Clouds"
+    },
+    "subcategory": "conditions",
+    "family": "cloud",
+    "synonyms": {
+      "pt": ["muito nublado", "encoberto"],
+      "en": ["overcast", "very cloudy"]
+    },
+    "tags": {
+      "pt": ["tempo fechado", "céu nublado", "clima"],
+      "en": ["weather", "gray sky", "forecast"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gn1tt9kj",
+    "slug": "eclipse",
+    "name": {
+      "pt": "Eclipse",
+      "en": "Eclipse"
+    },
+    "subcategory": "sky",
+    "family": "sun",
+    "synonyms": {
+      "pt": ["eclipse solar", "eclipse lunar"],
+      "en": ["solar eclipse", "lunar eclipse"]
+    },
+    "tags": {
+      "pt": ["sol", "lua", "astronomia", "sombra"],
+      "en": ["sun", "moon", "astronomy", "shadow"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdemtsc3",
+    "slug": "fahrenheit",
+    "name": {
+      "pt": "Graus Fahrenheit",
+      "en": "Fahrenheit"
+    },
+    "subcategory": "measurements",
+    "synonyms": {
+      "pt": ["°F"],
+      "en": ["degrees Fahrenheit", "°F"]
+    },
+    "tags": {
+      "pt": ["temperatura", "termômetro", "clima"],
+      "en": ["temperature", "thermometer", "weather"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7cfkjph",
+    "slug": "hail",
+    "name": {
+      "pt": "Pedras de granizo",
+      "en": "Hailstones"
+    },
+    "subcategory": "precipitation",
+    "synonyms": {
+      "pt": ["granizo", "saraiva"],
+      "en": ["hail", "ice balls"]
+    },
+    "tags": {
+      "pt": ["gelo", "tempestade", "chuva de pedra"],
+      "en": ["ice", "storm", "hailstorm"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1secn2e",
+    "slug": "haze",
+    "name": {
+      "pt": "Névoa seca",
+      "en": "Haze"
+    },
+    "subcategory": "conditions",
+    "family": "sun",
+    "synonyms": {
+      "pt": ["bruma", "mormaço", "tempo seco"],
+      "en": ["hazy", "dusty air"]
+    },
+    "tags": {
+      "pt": ["sol encoberto", "poeira", "calor"],
+      "en": ["dim sun", "dust", "heat"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdnh5dr4",
+    "slug": "heat-wave",
+    "name": {
+      "pt": "Onda de calor",
+      "en": "Heat wave"
+    },
+    "subcategory": "conditions",
+    "family": "sun",
+    "synonyms": {
+      "pt": ["calorão", "canícula"],
+      "en": ["scorching heat", "hot spell"]
+    },
+    "tags": {
+      "pt": ["temperatura alta", "verão", "sol forte"],
+      "en": ["high temperature", "summer", "hot"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggb9rbnm",
+    "slug": "humidity",
+    "name": {
+      "pt": "Umidade",
+      "en": "Humidity"
+    },
+    "subcategory": "measurements",
+    "synonyms": {
+      "pt": ["umidade do ar", "umidade relativa"],
+      "en": ["moisture", "relative humidity"]
+    },
+    "tags": {
+      "pt": ["gota", "porcentagem", "clima"],
+      "en": ["drop", "percent", "weather"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g561vnjb",
+    "slug": "hurricane",
+    "name": {
+      "pt": "Furacão",
+      "en": "Hurricane"
+    },
+    "subcategory": "conditions",
+    "synonyms": {
+      "pt": ["ciclone tropical", "tufão"],
+      "en": ["tropical cyclone", "typhoon"]
+    },
+    "tags": {
+      "pt": ["tempestade tropical", "vento forte", "olho do furacão"],
+      "en": ["tropical storm", "strong wind", "eye"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gt5ktnjq",
+    "slug": "lightning",
+    "name": {
+      "pt": "Relâmpago",
+      "en": "Lightning"
+    },
+    "subcategory": "conditions",
+    "synonyms": {
+      "pt": ["raio", "descarga elétrica"],
+      "en": ["lightning strike", "bolt"]
+    },
+    "tags": {
+      "pt": ["trovão", "tempestade", "faísca"],
+      "en": ["thunder", "storm", "flash"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdz1ys09",
+    "slug": "moon",
+    "name": {
+      "pt": "Lua",
+      "en": "Moon"
+    },
+    "subcategory": "sky",
+    "family": "moon",
+    "synonyms": {
+      "pt": ["noite", "crescente"],
+      "en": ["night", "crescent"]
+    },
+    "tags": {
+      "pt": ["tema escuro", "dormir", "modo noturno"],
+      "en": ["dark mode", "sleep"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzgf6xvs",
+    "slug": "moon-full",
+    "name": {
+      "pt": "Lua cheia",
+      "en": "Full moon"
+    },
+    "subcategory": "sky",
+    "family": "moon-phase",
+    "synonyms": {
+      "pt": ["plenilúnio"],
+      "en": ["moon phase"]
+    },
+    "tags": {
+      "pt": ["fase da lua", "noite", "crateras"],
+      "en": ["night", "lunar", "craters"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbca9g0w",
+    "slug": "moon-half",
+    "name": {
+      "pt": "Meia-lua",
+      "en": "Half moon"
+    },
+    "subcategory": "sky",
+    "family": "moon-phase",
+    "synonyms": {
+      "pt": ["quarto crescente", "quarto minguante"],
+      "en": ["first quarter", "last quarter"]
+    },
+    "tags": {
+      "pt": ["fase da lua", "noite", "lunar"],
+      "en": ["moon phase", "night", "lunar"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkrsehjf",
+    "slug": "moon-new",
+    "name": {
+      "pt": "Lua nova",
+      "en": "New moon"
+    },
+    "subcategory": "sky",
+    "family": "moon-phase",
+    "synonyms": {
+      "pt": ["lua escura"],
+      "en": ["dark moon"]
+    },
+    "tags": {
+      "pt": ["fase da lua", "noite", "lunar"],
+      "en": ["moon phase", "night", "lunar"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqatskvh",
+    "slug": "moon-star",
+    "name": {
+      "pt": "Lua e estrela",
+      "en": "Moon star"
+    },
+    "subcategory": "sky",
+    "family": "moon",
+    "synonyms": {
+      "pt": ["noite estrelada", "lua crescente"],
+      "en": ["crescent and star", "starry night"]
+    },
+    "tags": {
+      "pt": ["noite", "dormir", "modo noturno"],
+      "en": ["night", "sleep", "dark mode"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "geyktf9b",
+    "slug": "moon-waning",
+    "name": {
+      "pt": "Lua minguante",
+      "en": "Waning moon"
+    },
+    "subcategory": "sky",
+    "family": "moon-phase",
+    "synonyms": {
+      "pt": ["minguante"],
+      "en": ["waning crescent"]
+    },
+    "tags": {
+      "pt": ["fase da lua", "noite", "lunar"],
+      "en": ["moon phase", "night", "lunar"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g6p14mh6",
+    "slug": "moon-waxing",
+    "name": {
+      "pt": "Lua crescente",
+      "en": "Waxing moon"
+    },
+    "subcategory": "sky",
+    "family": "moon-phase",
+    "synonyms": {
+      "pt": ["crescente", "lua nova crescente"],
+      "en": ["waxing crescent"]
+    },
+    "tags": {
+      "pt": ["fase da lua", "noite", "lunar"],
+      "en": ["moon phase", "night", "lunar"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3ddtwd4",
+    "slug": "night-sky",
+    "name": {
+      "pt": "Céu noturno",
+      "en": "Night sky"
+    },
+    "subcategory": "sky",
+    "synonyms": {
+      "pt": ["noite", "paisagem noturna"],
+      "en": ["nighttime", "night landscape"]
+    },
+    "tags": {
+      "pt": ["lua", "estrelas", "montanhas"],
+      "en": ["moon", "stars", "mountains"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5mrm8sj",
+    "slug": "rain-heavy",
+    "name": {
+      "pt": "Chuva forte",
+      "en": "Heavy rain"
+    },
+    "subcategory": "precipitation",
+    "family": "cloud",
+    "synonyms": {
+      "pt": ["temporal", "aguaceiro", "toró"],
+      "en": ["downpour", "rainstorm"]
+    },
+    "tags": {
+      "pt": ["chuva intensa", "alagamento", "previsão"],
+      "en": ["pouring", "flood", "forecast"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0kdnf0x",
+    "slug": "rainbow",
+    "name": {
+      "pt": "Arco-íris",
+      "en": "Rainbow"
+    },
+    "subcategory": "conditions",
+    "synonyms": {
+      "pt": ["arco celeste"],
+      "en": ["arc"]
+    },
+    "tags": {
+      "pt": ["cores", "depois da chuva", "esperança", "diversidade"],
+      "en": ["colors", "after rain", "hope", "pride"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gaade1mx",
+    "slug": "raindrop",
+    "name": {
+      "pt": "Gota de chuva",
+      "en": "Raindrop"
+    },
+    "subcategory": "precipitation",
+    "synonyms": {
+      "pt": ["pingo", "chuva"],
+      "en": ["rain drop", "drip"]
+    },
+    "tags": {
+      "pt": ["água", "precipitação", "molhado"],
+      "en": ["water", "precipitation", "wet"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g6tckccr",
+    "slug": "smog",
+    "name": {
+      "pt": "Poluição do ar",
+      "en": "Smog"
+    },
+    "subcategory": "conditions",
+    "synonyms": {
+      "pt": ["fumaça", "fuligem", "smog"],
+      "en": ["air pollution", "smoke"]
+    },
+    "tags": {
+      "pt": ["chaminé", "qualidade do ar", "emissões"],
+      "en": ["chimney", "air quality", "emissions"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwvfekvw",
+    "slug": "snow-heavy",
+    "name": {
+      "pt": "Nevasca",
+      "en": "Heavy snow"
+    },
+    "subcategory": "precipitation",
+    "family": "cloud",
+    "synonyms": {
+      "pt": ["neve forte", "tempestade de neve"],
+      "en": ["snowstorm", "blizzard"]
+    },
+    "tags": {
+      "pt": ["inverno", "frio intenso", "previsão"],
+      "en": ["winter", "freezing", "forecast"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gw8gyts5",
+    "slug": "snowflake",
+    "name": {
+      "pt": "Floco de neve",
+      "en": "Snowflake"
+    },
+    "subcategory": "precipitation",
+    "synonyms": {
+      "pt": ["neve", "cristal de gelo"],
+      "en": ["snow", "ice crystal"]
+    },
+    "tags": {
+      "pt": ["inverno", "frio", "congelado", "natal"],
+      "en": ["winter", "cold", "frozen", "christmas"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggnxyrqs",
+    "slug": "stars",
+    "name": {
+      "pt": "Estrelas",
+      "en": "Stars"
+    },
+    "subcategory": "sky",
+    "synonyms": {
+      "pt": ["céu estrelado", "constelação"],
+      "en": ["starry sky", "constellation"]
+    },
+    "tags": {
+      "pt": ["noite", "astronomia", "brilho"],
+      "en": ["night", "astronomy", "twinkle"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gyj58ykt",
+    "slug": "storm",
+    "name": {
+      "pt": "Temporal",
+      "en": "Storm"
+    },
+    "subcategory": "conditions",
+    "family": "cloud",
+    "synonyms": {
+      "pt": ["tempestade", "tormenta"],
+      "en": ["tempest", "severe weather"]
+    },
+    "tags": {
+      "pt": ["nuvens carregadas", "raio", "mau tempo"],
+      "en": ["dark clouds", "lightning", "bad weather"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gm303xbd",
+    "slug": "sun",
+    "name": {
+      "pt": "Sol",
+      "en": "Sun"
+    },
+    "subcategory": "sky",
+    "family": "sun",
+    "synonyms": {
+      "pt": ["dia", "ensolarado", "claro"],
+      "en": ["day", "sunny", "bright"]
+    },
+    "tags": {
+      "pt": ["tema claro", "luz", "verão", "calor"],
+      "en": ["light mode", "summer", "heat"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g60483c3",
+    "slug": "sun-dim",
+    "name": {
+      "pt": "Sol fraco",
+      "en": "Sun dim"
+    },
+    "subcategory": "measurements",
+    "family": "sun",
+    "synonyms": {
+      "pt": ["brilho baixo", "pouca luz"],
+      "en": ["low brightness", "dim light"]
+    },
+    "tags": {
+      "pt": ["luminosidade", "diminuir brilho", "tela"],
+      "en": ["brightness down", "display", "light"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnjevsed",
+    "slug": "sun-medium",
+    "name": {
+      "pt": "Sol médio",
+      "en": "Sun medium"
+    },
+    "subcategory": "measurements",
+    "family": "sun",
+    "synonyms": {
+      "pt": ["brilho médio", "luz moderada"],
+      "en": ["medium brightness", "moderate light"]
+    },
+    "tags": {
+      "pt": ["luminosidade", "ajuste de brilho", "tela"],
+      "en": ["brightness", "display", "light"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gq23pcza",
+    "slug": "sun-snow",
+    "name": {
+      "pt": "Sol e neve",
+      "en": "Sun snow"
+    },
+    "subcategory": "measurements",
+    "family": "sun",
+    "synonyms": {
+      "pt": ["frio ensolarado", "dia de inverno"],
+      "en": ["sunny winter", "cold and sunny"]
+    },
+    "tags": {
+      "pt": ["inverno", "neve", "sol"],
+      "en": ["winter", "snow", "sun"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g02005q3",
+    "slug": "sunrise",
+    "name": {
+      "pt": "Nascer do sol",
+      "en": "Sunrise"
+    },
+    "subcategory": "measurements",
+    "family": "sun",
+    "synonyms": {
+      "pt": ["amanhecer", "alvorada", "aurora"],
+      "en": ["dawn", "daybreak"]
+    },
+    "tags": {
+      "pt": ["manhã", "horizonte", "dia"],
+      "en": ["morning", "horizon", "day"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqxse0ec",
+    "slug": "sunset",
+    "name": {
+      "pt": "Pôr do sol",
+      "en": "Sunset"
+    },
+    "subcategory": "measurements",
+    "family": "sun",
+    "synonyms": {
+      "pt": ["entardecer", "crepúsculo", "ocaso"],
+      "en": ["dusk", "sundown", "twilight"]
+    },
+    "tags": {
+      "pt": ["tarde", "horizonte", "anoitecer"],
+      "en": ["evening", "horizon", "nightfall"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ge0x7701",
+    "slug": "thermometer",
+    "name": {
+      "pt": "Termômetro",
+      "en": "Thermometer"
+    },
+    "subcategory": "measurements",
+    "family": "thermometer",
+    "synonyms": {
+      "pt": ["temperatura", "graus"],
+      "en": ["temperature", "degrees"]
+    },
+    "tags": {
+      "pt": ["clima", "calor", "frio", "previsão"],
+      "en": ["weather", "heat", "cold", "forecast"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8cg6drr",
+    "slug": "thermometer-high",
+    "name": {
+      "pt": "Temperatura alta",
+      "en": "High temperature"
+    },
+    "subcategory": "measurements",
+    "family": "thermometer",
+    "variantOf": "thermometer",
+    "synonyms": {
+      "pt": ["termômetro subindo", "aquecimento"],
+      "en": ["thermometer up", "rising temperature"]
+    },
+    "tags": {
+      "pt": ["calor", "quente", "febre"],
+      "en": ["heat", "hot", "warm"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8wvaxg7",
+    "slug": "thermometer-low",
+    "name": {
+      "pt": "Temperatura baixa",
+      "en": "Low temperature"
+    },
+    "subcategory": "measurements",
+    "family": "thermometer",
+    "variantOf": "thermometer",
+    "synonyms": {
+      "pt": ["termômetro descendo", "resfriamento"],
+      "en": ["thermometer down", "falling temperature"]
+    },
+    "tags": {
+      "pt": ["frio", "gelado", "queda"],
+      "en": ["cold", "chilly", "drop"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g92mb32b",
+    "slug": "thermometer-snowflake",
+    "name": {
+      "pt": "Termômetro e neve",
+      "en": "Thermometer snowflake"
+    },
+    "subcategory": "measurements",
+    "family": "thermometer",
+    "synonyms": {
+      "pt": ["temperatura baixa", "frio"],
+      "en": ["cold temperature", "freezing"]
+    },
+    "tags": {
+      "pt": ["inverno", "congelante", "geada"],
+      "en": ["winter", "frost", "chill"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1yfq4bc",
+    "slug": "thermometer-sun",
+    "name": {
+      "pt": "Termômetro e sol",
+      "en": "Thermometer sun"
+    },
+    "subcategory": "measurements",
+    "family": "thermometer",
+    "synonyms": {
+      "pt": ["temperatura alta", "dia quente"],
+      "en": ["hot weather", "warm temperature"]
+    },
+    "tags": {
+      "pt": ["calor", "verão", "clima"],
+      "en": ["heat", "summer", "climate"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzpv5k0p",
+    "slug": "thunderstorm",
+    "name": {
+      "pt": "Tempestade com raios",
+      "en": "Thunderstorm"
+    },
+    "subcategory": "conditions",
+    "family": "cloud",
+    "synonyms": {
+      "pt": ["trovoada", "temporal"],
+      "en": ["thunder and rain", "electrical storm"]
+    },
+    "tags": {
+      "pt": ["chuva forte", "raio", "trovão", "previsão"],
+      "en": ["heavy rain", "lightning", "forecast"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8c1e4xr",
+    "slug": "tornado",
+    "name": {
+      "pt": "Tornado",
+      "en": "Tornado"
+    },
+    "subcategory": "conditions",
+    "synonyms": {
+      "pt": ["ciclone", "redemoinho", "funil"],
+      "en": ["twister", "whirlwind", "funnel"]
+    },
+    "tags": {
+      "pt": ["vento forte", "tempestade", "desastre"],
+      "en": ["strong wind", "storm", "disaster"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7sfa9dn",
+    "slug": "uv-index",
+    "name": {
+      "pt": "Índice UV",
+      "en": "UV index"
+    },
+    "subcategory": "measurements",
+    "synonyms": {
+      "pt": ["radiação ultravioleta", "raios UV"],
+      "en": ["ultraviolet", "UV rays"]
+    },
+    "tags": {
+      "pt": ["sol", "protetor solar", "exposição"],
+      "en": ["sun", "sunscreen", "exposure"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gepdmw5w",
+    "slug": "wind",
+    "name": {
+      "pt": "Vento",
+      "en": "Wind"
+    },
+    "subcategory": "measurements",
+    "synonyms": {
+      "pt": ["brisa", "ventania"],
+      "en": ["breeze", "gust"]
+    },
+    "tags": {
+      "pt": ["ar", "rajada", "clima", "ventoso"],
+      "en": ["air", "windy", "weather"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0fargkn",
+    "slug": "wind-sock",
+    "name": {
+      "pt": "Biruta",
+      "en": "Wind sock"
+    },
+    "subcategory": "measurements",
+    "synonyms": {
+      "pt": ["indicador de vento", "manga de vento"],
+      "en": ["wind cone", "wind sleeve"]
+    },
+    "tags": {
+      "pt": ["aeroporto", "direção do vento", "aviação"],
+      "en": ["airport", "wind direction", "aviation"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  }
+]

@@ -1,0 +1,1470 @@
+[
+  {
+    "id": "gwgxv918",
+    "slug": "aperture",
+    "name": {
+      "pt": "Abertura",
+      "en": "Aperture"
+    },
+    "subcategory": "photo",
+    "synonyms": {
+      "pt": ["diafragma", "íris"],
+      "en": ["iris", "diaphragm"]
+    },
+    "tags": {
+      "pt": ["lente", "fotografia", "foco", "obturador"],
+      "en": ["lens", "photography", "focus", "f-stop"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gy1bcta0",
+    "slug": "aspect-ratio",
+    "name": {
+      "pt": "Proporção",
+      "en": "Aspect ratio"
+    },
+    "subcategory": "editing",
+    "synonyms": {
+      "pt": ["proporção da tela", "formato"],
+      "en": ["ratio", "frame size"]
+    },
+    "tags": {
+      "pt": ["dimensões", "tamanho", "16:9", "enquadramento"],
+      "en": ["dimensions", "size", "widescreen", "framing"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g9ey9p9z",
+    "slug": "blur",
+    "name": {
+      "pt": "Desfoque",
+      "en": "Blur"
+    },
+    "subcategory": "editing",
+    "synonyms": {
+      "pt": ["desfocar", "embaçar"],
+      "en": ["defocus", "soften"]
+    },
+    "tags": {
+      "pt": ["borrar", "suavizar", "efeito", "privacidade"],
+      "en": ["smudge", "smooth", "effect", "privacy"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbws195w",
+    "slug": "brightness",
+    "name": {
+      "pt": "Brilho da imagem",
+      "en": "Brightness"
+    },
+    "subcategory": "editing",
+    "synonyms": {
+      "pt": ["brilho", "luminosidade", "claridade"],
+      "en": ["luminosity", "lightness"]
+    },
+    "tags": {
+      "pt": ["luz", "tela", "ajustar brilho", "exposição"],
+      "en": ["light", "screen", "adjust brightness", "exposure"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkf0phg1",
+    "slug": "brush-stroke",
+    "name": {
+      "pt": "Pincelada",
+      "en": "Brush stroke"
+    },
+    "subcategory": "editing",
+    "synonyms": {
+      "pt": ["traço de pincel", "demão"],
+      "en": ["paint stroke", "swash"]
+    },
+    "tags": {
+      "pt": ["pintura", "traço", "arte", "desenho"],
+      "en": ["painting", "stroke", "art", "drawing"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnc03s2a",
+    "slug": "camera",
+    "name": {
+      "pt": "Câmera",
+      "en": "Camera"
+    },
+    "subcategory": "photo",
+    "family": "camera",
+    "synonyms": {
+      "pt": ["câmera fotográfica", "máquina fotográfica"],
+      "en": ["photo camera", "digital camera"]
+    },
+    "tags": {
+      "pt": ["foto", "fotografar", "tirar foto", "fotografia"],
+      "en": ["photo", "take picture", "photography", "snapshot"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmseavv3",
+    "slug": "camera-off",
+    "name": {
+      "pt": "Câmera desligada",
+      "en": "Camera off"
+    },
+    "subcategory": "photo",
+    "family": "camera",
+    "variantOf": "camera",
+    "synonyms": {
+      "pt": ["sem câmera", "câmera desativada"],
+      "en": ["no camera", "camera disabled"]
+    },
+    "tags": {
+      "pt": ["privacidade", "bloqueada", "desligar vídeo"],
+      "en": ["privacy", "blocked", "video off"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gy3140rj",
+    "slug": "camera-plus",
+    "name": {
+      "pt": "Adicionar foto",
+      "en": "Camera plus"
+    },
+    "subcategory": "photo",
+    "family": "camera",
+    "variantOf": "camera",
+    "synonyms": {
+      "pt": ["nova foto", "tirar foto"],
+      "en": ["add photo", "new photo"]
+    },
+    "tags": {
+      "pt": ["câmera", "adicionar imagem", "upload de foto"],
+      "en": ["camera", "add image", "photo upload"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gb7v4zez",
+    "slug": "camera-switch",
+    "name": {
+      "pt": "Alternar câmera",
+      "en": "Camera switch"
+    },
+    "subcategory": "photo",
+    "family": "camera",
+    "synonyms": {
+      "pt": ["trocar câmera", "virar câmera"],
+      "en": ["flip camera", "switch camera"]
+    },
+    "tags": {
+      "pt": ["câmera frontal", "câmera traseira", "selfie"],
+      "en": ["front camera", "rear camera", "selfie"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gckb3amb",
+    "slug": "clapperboard",
+    "name": {
+      "pt": "Claquete",
+      "en": "Clapperboard"
+    },
+    "subcategory": "video",
+    "synonyms": {
+      "pt": ["claquete de cinema", "tomada"],
+      "en": ["clapper", "film slate"]
+    },
+    "tags": {
+      "pt": ["filmagem", "cinema", "gravação", "ação"],
+      "en": ["filming", "cinema", "take", "action"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1g116tp",
+    "slug": "clip",
+    "name": {
+      "pt": "Clipe",
+      "en": "Clip"
+    },
+    "subcategory": "video",
+    "synonyms": {
+      "pt": ["trecho de vídeo", "vídeo curto"],
+      "en": ["video clip", "short video"]
+    },
+    "tags": {
+      "pt": ["reproduzir", "player", "linha do tempo", "corte"],
+      "en": ["play", "player", "timeline", "cut"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbm9zsk6",
+    "slug": "color-picker",
+    "name": {
+      "pt": "Seletor de cores",
+      "en": "Color picker"
+    },
+    "subcategory": "editing",
+    "synonyms": {
+      "pt": ["escolher cor", "paleta de cores"],
+      "en": ["pick color", "color chooser"]
+    },
+    "tags": {
+      "pt": ["cor", "matiz", "tonalidade", "hex"],
+      "en": ["color", "hue", "shade", "hex"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gd0s8w0d",
+    "slug": "contrast",
+    "name": {
+      "pt": "Contraste",
+      "en": "Contrast"
+    },
+    "subcategory": "editing",
+    "synonyms": {
+      "pt": ["alto contraste", "claro e escuro"],
+      "en": ["high contrast", "light and dark"]
+    },
+    "tags": {
+      "pt": ["ajustar", "tons", "acessibilidade", "edição"],
+      "en": ["adjust", "tones", "accessibility", "editing"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gtatvzfk",
+    "slug": "crop",
+    "name": {
+      "pt": "Recortar",
+      "en": "Crop"
+    },
+    "subcategory": "editing",
+    "synonyms": {
+      "pt": ["cortar imagem", "enquadrar"],
+      "en": ["crop image", "trim"]
+    },
+    "tags": {
+      "pt": ["recorte", "editar foto", "ajustar", "corte"],
+      "en": ["cut", "edit photo", "frame", "resize"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gaa146wd",
+    "slug": "curves",
+    "name": {
+      "pt": "Curvas",
+      "en": "Curves"
+    },
+    "subcategory": "editing",
+    "synonyms": {
+      "pt": ["curva de tons", "ajuste de curvas"],
+      "en": ["tone curve", "curves adjustment"]
+    },
+    "tags": {
+      "pt": ["contraste", "tons", "edição", "cor"],
+      "en": ["contrast", "tones", "editing", "color"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7kcfc4h",
+    "slug": "director-chair",
+    "name": {
+      "pt": "Cadeira de diretor",
+      "en": "Director chair"
+    },
+    "subcategory": "video",
+    "synonyms": {
+      "pt": ["cadeira de cinema", "direção"],
+      "en": ["director's chair", "film chair"]
+    },
+    "tags": {
+      "pt": ["cinema", "filmagem", "produção", "set"],
+      "en": ["cinema", "filming", "production", "film set"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gynrnkt3",
+    "slug": "exposure",
+    "name": {
+      "pt": "Exposição",
+      "en": "Exposure"
+    },
+    "subcategory": "editing",
+    "synonyms": {
+      "pt": ["compensação de exposição", "mais e menos"],
+      "en": ["exposure compensation", "plus minus"]
+    },
+    "tags": {
+      "pt": ["luz", "brilho", "fotografia", "ajuste"],
+      "en": ["light", "brightness", "photography", "adjust"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gp5bkhzj",
+    "slug": "eyedropper",
+    "name": {
+      "pt": "Conta-gotas de cor",
+      "en": "Eyedropper"
+    },
+    "subcategory": "editing",
+    "synonyms": {
+      "pt": ["conta-gotas", "pipeta", "capturar cor"],
+      "en": ["pipette", "color sampler"]
+    },
+    "tags": {
+      "pt": ["cor", "amostra", "seletor", "pegar cor"],
+      "en": ["color", "sample", "picker", "pick color"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkn8vgpy",
+    "slug": "film",
+    "name": {
+      "pt": "Filme",
+      "en": "Film"
+    },
+    "subcategory": "video",
+    "family": "film",
+    "synonyms": {
+      "pt": ["película", "quadro de filme"],
+      "en": ["film frame", "celluloid"]
+    },
+    "tags": {
+      "pt": ["cinema", "vídeo", "negativo", "rolo"],
+      "en": ["cinema", "video", "negative", "reel"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g2p0m7ms",
+    "slug": "film-strip",
+    "name": {
+      "pt": "Tira de filme",
+      "en": "Film strip"
+    },
+    "subcategory": "video",
+    "family": "film",
+    "synonyms": {
+      "pt": ["rolo de filme", "fotogramas"],
+      "en": ["filmstrip", "frames"]
+    },
+    "tags": {
+      "pt": ["cinema", "negativo", "quadros", "edição"],
+      "en": ["cinema", "negative", "timeline", "editing"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g2afdjnw",
+    "slug": "flash",
+    "name": {
+      "pt": "Flash",
+      "en": "Flash"
+    },
+    "subcategory": "photo",
+    "family": "flash",
+    "synonyms": {
+      "pt": ["flash da câmera", "luz"],
+      "en": ["camera flash", "flash on"]
+    },
+    "tags": {
+      "pt": ["relâmpago", "raio", "iluminação", "foto"],
+      "en": ["lightning", "bolt", "light", "photo"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gyawpy3m",
+    "slug": "flash-off",
+    "name": {
+      "pt": "Flash desligado",
+      "en": "Flash off"
+    },
+    "subcategory": "photo",
+    "family": "flash",
+    "variantOf": "flash",
+    "synonyms": {
+      "pt": ["sem flash", "flash desativado"],
+      "en": ["no flash", "flash disabled"]
+    },
+    "tags": {
+      "pt": ["relâmpago", "luz", "câmera"],
+      "en": ["lightning", "light", "camera"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbmyk7tq",
+    "slug": "frame-rate",
+    "name": {
+      "pt": "Taxa de quadros",
+      "en": "Frame rate"
+    },
+    "subcategory": "video",
+    "synonyms": {
+      "pt": ["quadros por segundo", "fps"],
+      "en": ["frames per second", "fps"]
+    },
+    "tags": {
+      "pt": ["velocidade", "fluidez", "vídeo", "frames"],
+      "en": ["speed", "smoothness", "video", "frames"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzdr67pf",
+    "slug": "gallery",
+    "name": {
+      "pt": "Galeria",
+      "en": "Gallery"
+    },
+    "subcategory": "photo",
+    "family": "image",
+    "synonyms": {
+      "pt": ["galeria de fotos", "carrossel"],
+      "en": ["photo gallery", "carousel"]
+    },
+    "tags": {
+      "pt": ["álbum", "miniaturas", "imagens", "slides"],
+      "en": ["album", "thumbnails", "images", "slideshow"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ghrsr225",
+    "slug": "gradient",
+    "name": {
+      "pt": "Gradiente",
+      "en": "Gradient"
+    },
+    "subcategory": "editing",
+    "synonyms": {
+      "pt": ["degradê", "transição de cor"],
+      "en": ["color gradient", "fade"]
+    },
+    "tags": {
+      "pt": ["cor", "preenchimento", "design", "mistura"],
+      "en": ["color", "fill", "design", "blend"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gz0a0da8",
+    "slug": "grid-thirds",
+    "name": {
+      "pt": "Regra dos terços",
+      "en": "Grid thirds"
+    },
+    "subcategory": "editing",
+    "synonyms": {
+      "pt": ["grade de terços", "guias"],
+      "en": ["rule of thirds", "guides"]
+    },
+    "tags": {
+      "pt": ["composição", "enquadramento", "câmera", "grade"],
+      "en": ["composition", "framing", "camera", "grid"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqsea4gw",
+    "slug": "histogram",
+    "name": {
+      "pt": "Histograma da imagem",
+      "en": "Histogram"
+    },
+    "subcategory": "editing",
+    "synonyms": {
+      "pt": ["histograma", "distribuição de tons", "níveis"],
+      "en": ["tone distribution", "levels"]
+    },
+    "tags": {
+      "pt": ["exposição", "gráfico", "tons", "fotografia"],
+      "en": ["exposure", "graph", "tones", "photography"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gn91tfhk",
+    "slug": "image",
+    "name": {
+      "pt": "Imagem",
+      "en": "Image"
+    },
+    "subcategory": "photo",
+    "synonyms": {
+      "pt": ["foto", "figura"],
+      "en": ["photo", "picture"]
+    },
+    "tags": {
+      "pt": ["galeria", "paisagem", "mídia", "picture"],
+      "en": ["gallery", "media", "landscape"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4f0fpaf",
+    "slug": "image-check",
+    "name": {
+      "pt": "Imagem selecionada",
+      "en": "Image check"
+    },
+    "subcategory": "photo",
+    "family": "image",
+    "variantOf": "image",
+    "synonyms": {
+      "pt": ["foto aprovada", "imagem verificada"],
+      "en": ["selected image", "approved photo"]
+    },
+    "tags": {
+      "pt": ["selecionar", "concluído", "ok"],
+      "en": ["select", "done", "ok"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmcr91yd",
+    "slug": "image-down",
+    "name": {
+      "pt": "Baixar imagem",
+      "en": "Image down"
+    },
+    "subcategory": "photo",
+    "family": "image",
+    "variantOf": "image",
+    "synonyms": {
+      "pt": ["download de imagem", "salvar foto"],
+      "en": ["download image", "save photo"]
+    },
+    "tags": {
+      "pt": ["salvar", "exportar", "foto"],
+      "en": ["save", "export", "picture"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpjf1qxs",
+    "slug": "image-minus",
+    "name": {
+      "pt": "Remover imagem",
+      "en": "Image minus"
+    },
+    "subcategory": "photo",
+    "family": "image",
+    "variantOf": "image",
+    "synonyms": {
+      "pt": ["excluir foto", "tirar imagem"],
+      "en": ["remove image", "delete photo"]
+    },
+    "tags": {
+      "pt": ["apagar", "foto", "menos"],
+      "en": ["erase", "picture", "minus"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ge30y956",
+    "slug": "image-off",
+    "name": {
+      "pt": "Sem imagem",
+      "en": "Image off"
+    },
+    "subcategory": "photo",
+    "family": "image",
+    "variantOf": "image",
+    "synonyms": {
+      "pt": ["imagem desativada", "imagem indisponível"],
+      "en": ["no image", "image disabled"]
+    },
+    "tags": {
+      "pt": ["foto oculta", "sem foto", "bloqueada"],
+      "en": ["hidden photo", "no picture", "unavailable"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gck4xhtn",
+    "slug": "image-pen",
+    "name": {
+      "pt": "Editar imagem",
+      "en": "Image pen"
+    },
+    "subcategory": "photo",
+    "family": "image",
+    "variantOf": "image",
+    "synonyms": {
+      "pt": ["editar foto", "retocar"],
+      "en": ["edit image", "edit photo"]
+    },
+    "tags": {
+      "pt": ["lápis", "edição", "ajustar", "desenhar"],
+      "en": ["pencil", "editing", "retouch", "draw"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gg7p592g",
+    "slug": "image-plus",
+    "name": {
+      "pt": "Adicionar imagem",
+      "en": "Image plus"
+    },
+    "subcategory": "photo",
+    "family": "image",
+    "variantOf": "image",
+    "synonyms": {
+      "pt": ["nova imagem", "inserir foto"],
+      "en": ["add image", "insert photo"]
+    },
+    "tags": {
+      "pt": ["upload", "foto", "incluir"],
+      "en": ["upload", "picture", "add photo"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gw8dzp5s",
+    "slug": "image-search",
+    "name": {
+      "pt": "Buscar imagem",
+      "en": "Image search"
+    },
+    "subcategory": "photo",
+    "family": "image",
+    "variantOf": "image",
+    "synonyms": {
+      "pt": ["pesquisa por imagem", "procurar foto"],
+      "en": ["search by image", "find photo"]
+    },
+    "tags": {
+      "pt": ["lupa", "encontrar", "busca reversa"],
+      "en": ["magnifier", "find", "reverse search"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gygmyyyd",
+    "slug": "image-up",
+    "name": {
+      "pt": "Enviar imagem",
+      "en": "Image up"
+    },
+    "subcategory": "photo",
+    "family": "image",
+    "variantOf": "image",
+    "synonyms": {
+      "pt": ["upload de imagem", "subir foto"],
+      "en": ["upload image", "upload photo"]
+    },
+    "tags": {
+      "pt": ["carregar", "publicar", "foto"],
+      "en": ["send", "publish", "picture"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grf7hvs9",
+    "slug": "image-x",
+    "name": {
+      "pt": "Imagem com erro",
+      "en": "Image x"
+    },
+    "subcategory": "photo",
+    "family": "image",
+    "variantOf": "image",
+    "synonyms": {
+      "pt": ["falha na imagem", "excluir imagem"],
+      "en": ["broken image", "image error"]
+    },
+    "tags": {
+      "pt": ["imagem quebrada", "remover", "cancelar"],
+      "en": ["failed to load", "remove", "cancel"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g404xy2q",
+    "slug": "images",
+    "name": {
+      "pt": "Imagens",
+      "en": "Images"
+    },
+    "subcategory": "photo",
+    "family": "image",
+    "synonyms": {
+      "pt": ["fotos", "várias imagens"],
+      "en": ["photos", "pictures"]
+    },
+    "tags": {
+      "pt": ["galeria", "álbum", "coleção", "biblioteca"],
+      "en": ["gallery", "album", "collection", "library"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gacpwffv",
+    "slug": "lasso",
+    "name": {
+      "pt": "Laço",
+      "en": "Lasso"
+    },
+    "subcategory": "editing",
+    "synonyms": {
+      "pt": ["seleção livre", "laço de seleção"],
+      "en": ["freehand selection", "lasso select"]
+    },
+    "tags": {
+      "pt": ["selecionar", "recortar", "ferramenta", "contorno"],
+      "en": ["select", "cut out", "tool", "outline"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gt98t0jn",
+    "slug": "lens",
+    "name": {
+      "pt": "Lente",
+      "en": "Lens"
+    },
+    "subcategory": "photo",
+    "synonyms": {
+      "pt": ["objetiva", "lente da câmera"],
+      "en": ["camera lens", "objective"]
+    },
+    "tags": {
+      "pt": ["zoom", "fotografia", "foco", "câmera"],
+      "en": ["zoom", "photography", "focus", "camera"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gsbyxj2v",
+    "slug": "magic-wand",
+    "name": {
+      "pt": "Varinha mágica",
+      "en": "Magic wand"
+    },
+    "subcategory": "editing",
+    "synonyms": {
+      "pt": ["varinha", "mágica"],
+      "en": ["wand", "magic"]
+    },
+    "tags": {
+      "pt": ["seleção automática", "efeito", "magia", "melhorar"],
+      "en": ["auto select", "effect", "enhance", "sparkle"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7y97nyq",
+    "slug": "mask",
+    "name": {
+      "pt": "Máscara",
+      "en": "Mask"
+    },
+    "subcategory": "editing",
+    "synonyms": {
+      "pt": ["máscara de camada", "recorte"],
+      "en": ["layer mask", "clipping mask"]
+    },
+    "tags": {
+      "pt": ["camada", "ocultar", "edição", "seleção"],
+      "en": ["layer", "hide", "editing", "selection"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8gf3b8v",
+    "slug": "movie",
+    "name": {
+      "pt": "Rolo de filme",
+      "en": "Movie"
+    },
+    "subcategory": "video",
+    "family": "film",
+    "synonyms": {
+      "pt": ["bobina", "carretel de filme"],
+      "en": ["film reel", "reel"]
+    },
+    "tags": {
+      "pt": ["cinema", "filme", "sessão", "cinematografia"],
+      "en": ["cinema", "film", "screening", "cinematography"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0tmxjxx",
+    "slug": "paintbrush",
+    "name": {
+      "pt": "Pincel",
+      "en": "Paintbrush"
+    },
+    "subcategory": "editing",
+    "synonyms": {
+      "pt": ["pincel de pintura", "broxa"],
+      "en": ["brush", "paint brush"]
+    },
+    "tags": {
+      "pt": ["pintar", "arte", "desenhar", "ferramenta"],
+      "en": ["paint", "art", "draw", "tool"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzsyrfrc",
+    "slug": "palette",
+    "name": {
+      "pt": "Paleta",
+      "en": "Palette"
+    },
+    "subcategory": "editing",
+    "synonyms": {
+      "pt": ["paleta de cores", "paleta de pintor"],
+      "en": ["color palette", "paint palette"]
+    },
+    "tags": {
+      "pt": ["cores", "pintura", "arte", "tema", "design"],
+      "en": ["colors", "painting", "art", "theme", "design"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1ppy5vc",
+    "slug": "panorama",
+    "name": {
+      "pt": "Panorama",
+      "en": "Panorama"
+    },
+    "subcategory": "photo",
+    "synonyms": {
+      "pt": ["foto panorâmica", "vista ampla"],
+      "en": ["panoramic photo", "wide view"]
+    },
+    "tags": {
+      "pt": ["paisagem", "360", "horizonte", "grande angular"],
+      "en": ["landscape", "360", "horizon", "wide angle"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gptdb7h6",
+    "slug": "polaroid",
+    "name": {
+      "pt": "Foto instantânea",
+      "en": "Polaroid"
+    },
+    "subcategory": "photo",
+    "synonyms": {
+      "pt": ["polaroid", "foto revelada"],
+      "en": ["instant photo", "printed photo"]
+    },
+    "tags": {
+      "pt": ["retrô", "lembrança", "momento", "impressa"],
+      "en": ["retro", "memory", "snapshot", "print"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gyyjqqy3",
+    "slug": "portrait",
+    "name": {
+      "pt": "Retrato",
+      "en": "Portrait"
+    },
+    "subcategory": "photo",
+    "synonyms": {
+      "pt": ["foto de perfil", "modo retrato"],
+      "en": ["profile photo", "portrait mode"]
+    },
+    "tags": {
+      "pt": ["pessoa", "perfil", "rosto", "avatar"],
+      "en": ["person", "profile", "face", "headshot"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggmt2sk3",
+    "slug": "rotate-image",
+    "name": {
+      "pt": "Girar imagem",
+      "en": "Rotate image"
+    },
+    "subcategory": "editing",
+    "synonyms": {
+      "pt": ["rotacionar foto", "virar imagem"],
+      "en": ["rotate photo", "turn image"]
+    },
+    "tags": {
+      "pt": ["girar", "rotação", "orientação", "editar"],
+      "en": ["rotate", "rotation", "orientation", "edit"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gcyt580q",
+    "slug": "saturation",
+    "name": {
+      "pt": "Saturação",
+      "en": "Saturation"
+    },
+    "subcategory": "editing",
+    "synonyms": {
+      "pt": ["intensidade de cor", "vivacidade"],
+      "en": ["color intensity", "vibrance"]
+    },
+    "tags": {
+      "pt": ["cor", "gota", "ajuste", "tom"],
+      "en": ["color", "drop", "adjust", "hue"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gp08sb03",
+    "slug": "screen-record",
+    "name": {
+      "pt": "Gravar tela",
+      "en": "Screen record"
+    },
+    "subcategory": "video",
+    "synonyms": {
+      "pt": ["gravação de tela", "captura de tela em vídeo"],
+      "en": ["screen recording", "record screen"]
+    },
+    "tags": {
+      "pt": ["screencast", "tutorial", "monitor", "rec"],
+      "en": ["screencast", "tutorial", "monitor", "rec"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g354cnm1",
+    "slug": "screencast",
+    "name": {
+      "pt": "Vídeo de tela",
+      "en": "Screencast"
+    },
+    "subcategory": "video",
+    "synonyms": {
+      "pt": ["screencast", "apresentação em vídeo"],
+      "en": ["screen video", "video presentation"]
+    },
+    "tags": {
+      "pt": ["tutorial", "aula", "monitor", "demonstração"],
+      "en": ["tutorial", "lesson", "monitor", "demo"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzwst39t",
+    "slug": "selfie",
+    "name": {
+      "pt": "Selfie",
+      "en": "Selfie"
+    },
+    "subcategory": "photo",
+    "synonyms": {
+      "pt": ["autorretrato", "câmera frontal"],
+      "en": ["self portrait", "front camera"]
+    },
+    "tags": {
+      "pt": ["celular", "foto", "rosto", "pessoa"],
+      "en": ["phone", "photo", "face", "person"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g34zbrt1",
+    "slug": "sharpen",
+    "name": {
+      "pt": "Nitidez",
+      "en": "Sharpen"
+    },
+    "subcategory": "editing",
+    "synonyms": {
+      "pt": ["aumentar nitidez", "definição"],
+      "en": ["sharpness", "definition"]
+    },
+    "tags": {
+      "pt": ["detalhes", "foco", "contorno", "edição"],
+      "en": ["details", "focus", "edges", "editing"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gs5nxn43",
+    "slug": "shutter",
+    "name": {
+      "pt": "Obturador",
+      "en": "Shutter"
+    },
+    "subcategory": "photo",
+    "synonyms": {
+      "pt": ["lâminas do obturador", "disparo"],
+      "en": ["shutter blades", "release"]
+    },
+    "tags": {
+      "pt": ["câmera", "foto", "clique", "capturar"],
+      "en": ["camera", "photo", "click", "capture"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gypc8f20",
+    "slug": "slow-motion",
+    "name": {
+      "pt": "Câmera lenta",
+      "en": "Slow motion"
+    },
+    "subcategory": "video",
+    "synonyms": {
+      "pt": ["slow motion", "desacelerar"],
+      "en": ["slow-mo", "slowdown"]
+    },
+    "tags": {
+      "pt": ["vídeo lento", "velocidade", "reprodução"],
+      "en": ["slow video", "speed", "playback"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grr547c8",
+    "slug": "spotlight",
+    "name": {
+      "pt": "Holofote",
+      "en": "Spotlight"
+    },
+    "subcategory": "video",
+    "synonyms": {
+      "pt": ["refletor", "canhão de luz"],
+      "en": ["stage light", "floodlight"]
+    },
+    "tags": {
+      "pt": ["palco", "destaque", "iluminação", "show"],
+      "en": ["stage", "highlight", "lighting", "show"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7300q3y",
+    "slug": "swatches",
+    "name": {
+      "pt": "Amostras de cor",
+      "en": "Swatches"
+    },
+    "subcategory": "editing",
+    "synonyms": {
+      "pt": ["cartela de cores", "catálogo de cores"],
+      "en": ["color swatches", "swatch book"]
+    },
+    "tags": {
+      "pt": ["paleta", "tinta", "design", "tons"],
+      "en": ["palette", "paint", "design", "shades"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gt5g3hcp",
+    "slug": "timelapse",
+    "name": {
+      "pt": "Timelapse",
+      "en": "Timelapse"
+    },
+    "subcategory": "video",
+    "synonyms": {
+      "pt": ["lapso de tempo", "vídeo acelerado"],
+      "en": ["time-lapse", "sped up video"]
+    },
+    "tags": {
+      "pt": ["tempo", "intervalo", "acelerar", "passagem do tempo"],
+      "en": ["time", "interval", "fast", "passage of time"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g87qg98r",
+    "slug": "tripod",
+    "name": {
+      "pt": "Tripé",
+      "en": "Tripod"
+    },
+    "subcategory": "photo",
+    "synonyms": {
+      "pt": ["suporte de câmera", "tripé fotográfico"],
+      "en": ["camera stand", "camera tripod"]
+    },
+    "tags": {
+      "pt": ["estabilizar", "câmera", "fotografia"],
+      "en": ["stabilize", "camera", "photography"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwrr39mz",
+    "slug": "video",
+    "name": {
+      "pt": "Vídeo",
+      "en": "Video"
+    },
+    "subcategory": "video",
+    "family": "video",
+    "synonyms": {
+      "pt": ["câmera de vídeo", "filmadora"],
+      "en": ["video camera", "camcorder"]
+    },
+    "tags": {
+      "pt": ["gravar", "filmar", "videochamada", "filme"],
+      "en": ["record", "film", "video call", "movie"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gz91gqsd",
+    "slug": "video-off",
+    "name": {
+      "pt": "Vídeo desligado",
+      "en": "Video off"
+    },
+    "subcategory": "video",
+    "family": "video",
+    "variantOf": "video",
+    "synonyms": {
+      "pt": ["câmera desligada", "sem vídeo"],
+      "en": ["camera off", "no video"]
+    },
+    "tags": {
+      "pt": ["desativar câmera", "privacidade", "videochamada"],
+      "en": ["disable camera", "privacy", "video call"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gaefb0y1",
+    "slug": "video-plus",
+    "name": {
+      "pt": "Adicionar vídeo",
+      "en": "Video plus"
+    },
+    "subcategory": "video",
+    "family": "video",
+    "variantOf": "video",
+    "synonyms": {
+      "pt": ["novo vídeo", "gravar vídeo"],
+      "en": ["add video", "new video"]
+    },
+    "tags": {
+      "pt": ["inserir vídeo", "câmera", "upload"],
+      "en": ["insert video", "camera", "upload"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqv58e0e",
+    "slug": "vignette",
+    "name": {
+      "pt": "Vinheta",
+      "en": "Vignette"
+    },
+    "subcategory": "editing",
+    "synonyms": {
+      "pt": ["escurecer bordas", "moldura escura"],
+      "en": ["dark edges", "edge darkening"]
+    },
+    "tags": {
+      "pt": ["efeito", "bordas", "foco", "filtro"],
+      "en": ["effect", "edges", "focus", "filter"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  }
+]

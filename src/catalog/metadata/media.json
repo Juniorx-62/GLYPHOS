@@ -1,0 +1,1480 @@
+[
+  {
+    "id": "g8wc8cab",
+    "slug": "album",
+    "name": {
+      "pt": "Álbum",
+      "en": "Album"
+    },
+    "subcategory": "music",
+    "synonyms": {
+      "pt": ["capa do álbum", "disco"],
+      "en": ["album cover", "record"]
+    },
+    "tags": {
+      "pt": ["música", "coleção", "lançamento", "biblioteca"],
+      "en": ["music", "collection", "release", "library"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gaj6p4gy",
+    "slug": "amplifier",
+    "name": {
+      "pt": "Amplificador",
+      "en": "Amplifier"
+    },
+    "subcategory": "audio",
+    "synonyms": {
+      "pt": ["amplificador de som", "caixa amplificada"],
+      "en": ["amp", "guitar amp"]
+    },
+    "tags": {
+      "pt": ["guitarra", "volume", "potência", "palco"],
+      "en": ["guitar", "volume", "power", "stage"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gb7fssrd",
+    "slug": "audio-lines",
+    "name": {
+      "pt": "Linhas de áudio",
+      "en": "Audio lines"
+    },
+    "subcategory": "audio",
+    "synonyms": {
+      "pt": ["barras de som", "nível de áudio"],
+      "en": ["sound bars", "audio level"]
+    },
+    "tags": {
+      "pt": ["onda sonora", "voz", "frequência", "falando"],
+      "en": ["sound wave", "voice", "frequency", "speaking"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gm5fa4qy",
+    "slug": "audio-waveform",
+    "name": {
+      "pt": "Forma de onda",
+      "en": "Audio waveform"
+    },
+    "subcategory": "audio",
+    "synonyms": {
+      "pt": ["onda de áudio", "sinal de áudio"],
+      "en": ["waveform", "audio signal"]
+    },
+    "tags": {
+      "pt": ["gravação", "frequência", "pulso", "som"],
+      "en": ["recording", "frequency", "pulse", "sound"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gfnbn9z9",
+    "slug": "bass-clef",
+    "name": {
+      "pt": "Clave de fá",
+      "en": "Bass clef"
+    },
+    "subcategory": "music",
+    "synonyms": {
+      "pt": ["clave", "fá"],
+      "en": ["F clef", "clef"]
+    },
+    "tags": {
+      "pt": ["partitura", "pauta", "grave", "notação"],
+      "en": ["sheet music", "staff", "bass", "notation"]
+    },
+    "popularity": 1,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gp3x2jj6",
+    "slug": "boombox",
+    "name": {
+      "pt": "Aparelho de som portátil",
+      "en": "Boombox"
+    },
+    "subcategory": "music",
+    "synonyms": {
+      "pt": ["rádio gravador", "boombox"],
+      "en": ["ghetto blaster", "portable stereo"]
+    },
+    "tags": {
+      "pt": ["som", "retrô", "música", "caixa de som"],
+      "en": ["sound", "retro", "music", "stereo"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqeej2w1",
+    "slug": "captions",
+    "name": {
+      "pt": "Legendas ocultas",
+      "en": "Captions"
+    },
+    "subcategory": "playback",
+    "family": "captions",
+    "synonyms": {
+      "pt": ["closed caption", "cc"],
+      "en": ["closed captions", "cc"]
+    },
+    "tags": {
+      "pt": ["legenda", "acessibilidade", "surdos", "transcrição"],
+      "en": ["subtitles", "accessibility", "transcript"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gw7rxsaq",
+    "slug": "cassette",
+    "name": {
+      "pt": "Fita cassete",
+      "en": "Cassette"
+    },
+    "subcategory": "music",
+    "synonyms": {
+      "pt": ["cassete", "fita k7"],
+      "en": ["cassette tape", "tape"]
+    },
+    "tags": {
+      "pt": ["retrô", "mixtape", "gravação", "anos 80"],
+      "en": ["retro", "mixtape", "recording", "eighties"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmwp470t",
+    "slug": "disc",
+    "name": {
+      "pt": "Disco",
+      "en": "Disc"
+    },
+    "subcategory": "music",
+    "synonyms": {
+      "pt": ["CD", "DVD"],
+      "en": ["CD", "DVD"]
+    },
+    "tags": {
+      "pt": ["mídia", "álbum", "música", "disco óptico"],
+      "en": ["media", "album", "music", "optical disc"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gjxnz472",
+    "slug": "dj-turntable",
+    "name": {
+      "pt": "Toca-discos",
+      "en": "DJ turntable"
+    },
+    "subcategory": "music",
+    "synonyms": {
+      "pt": ["pick-up", "mesa de DJ"],
+      "en": ["record player", "turntable"]
+    },
+    "tags": {
+      "pt": ["DJ", "vinil", "festa", "mixar"],
+      "en": ["DJ", "vinyl", "party", "mixing"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gq02qspx",
+    "slug": "drum",
+    "name": {
+      "pt": "Tambor",
+      "en": "Drum"
+    },
+    "subcategory": "music",
+    "synonyms": {
+      "pt": ["caixa", "bateria"],
+      "en": ["snare", "drum kit"]
+    },
+    "tags": {
+      "pt": ["percussão", "instrumento", "ritmo", "baquetas"],
+      "en": ["percussion", "instrument", "rhythm", "drumsticks"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ghre64p9",
+    "slug": "earbuds",
+    "name": {
+      "pt": "Fones intra-auriculares",
+      "en": "Earbuds"
+    },
+    "subcategory": "audio",
+    "family": "headphones",
+    "synonyms": {
+      "pt": ["fones sem fio", "earphones"],
+      "en": ["wireless earbuds", "in-ear headphones"]
+    },
+    "tags": {
+      "pt": ["bluetooth", "ouvir", "música", "fone de ouvido"],
+      "en": ["bluetooth", "listen", "music", "earphones"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmdcns88",
+    "slug": "eject",
+    "name": {
+      "pt": "Ejetar",
+      "en": "Eject"
+    },
+    "subcategory": "playback",
+    "synonyms": {
+      "pt": ["expulsar mídia", "remover disco"],
+      "en": ["eject media", "remove disc"]
+    },
+    "tags": {
+      "pt": ["ejetar disco", "tirar", "abrir bandeja"],
+      "en": ["open tray", "unmount", "remove"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "geevdc6g",
+    "slug": "equalizer",
+    "name": {
+      "pt": "Equalizador",
+      "en": "Equalizer"
+    },
+    "subcategory": "audio",
+    "synonyms": {
+      "pt": ["mixer de áudio", "mesa de som"],
+      "en": ["audio mixer", "mixing desk"]
+    },
+    "tags": {
+      "pt": ["graves", "agudos", "ajustar som", "faders"],
+      "en": ["bass", "treble", "adjust sound", "faders"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grm5see4",
+    "slug": "fast-forward",
+    "name": {
+      "pt": "Avançar",
+      "en": "Fast forward"
+    },
+    "subcategory": "playback",
+    "family": "skip",
+    "synonyms": {
+      "pt": ["avanço rápido", "adiantar"],
+      "en": ["forward", "speed up"]
+    },
+    "tags": {
+      "pt": ["acelerar", "pular", "player"],
+      "en": ["skip ahead", "player"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gthdyzrr",
+    "slug": "guitar",
+    "name": {
+      "pt": "Violão",
+      "en": "Guitar"
+    },
+    "subcategory": "music",
+    "synonyms": {
+      "pt": ["guitarra", "viola"],
+      "en": ["acoustic guitar", "string instrument"]
+    },
+    "tags": {
+      "pt": ["instrumento", "cordas", "música", "tocar"],
+      "en": ["instrument", "strings", "music"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3cxmejr",
+    "slug": "harp",
+    "name": {
+      "pt": "Harpa",
+      "en": "Harp"
+    },
+    "subcategory": "music",
+    "synonyms": {
+      "pt": ["harpa celta", "lira"],
+      "en": ["celtic harp", "lyre"]
+    },
+    "tags": {
+      "pt": ["instrumento", "cordas", "orquestra", "clássica"],
+      "en": ["instrument", "strings", "orchestra", "classical"]
+    },
+    "popularity": 1,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpj50g3t",
+    "slug": "headphones",
+    "name": {
+      "pt": "Fones de ouvido",
+      "en": "Headphones"
+    },
+    "subcategory": "audio",
+    "family": "headphones",
+    "synonyms": {
+      "pt": ["headphone", "fone"],
+      "en": ["headset", "earphones"]
+    },
+    "tags": {
+      "pt": ["ouvir", "música", "áudio", "escutar"],
+      "en": ["listen", "music", "audio"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gy9720ap",
+    "slug": "headset",
+    "name": {
+      "pt": "Headset",
+      "en": "Headset"
+    },
+    "subcategory": "audio",
+    "family": "headphones",
+    "synonyms": {
+      "pt": ["fone com microfone", "fone de atendimento"],
+      "en": ["headphones with mic", "support headset"]
+    },
+    "tags": {
+      "pt": ["suporte", "atendimento", "call center", "jogos"],
+      "en": ["support", "call center", "gaming", "customer service"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gz8m7yfk",
+    "slug": "list-music",
+    "name": {
+      "pt": "Lista de músicas",
+      "en": "List music"
+    },
+    "subcategory": "playback",
+    "family": "playlist",
+    "synonyms": {
+      "pt": ["faixas", "repertório"],
+      "en": ["track list", "song list"]
+    },
+    "tags": {
+      "pt": ["playlist", "álbum", "canções", "setlist"],
+      "en": ["playlist", "album", "songs", "setlist"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1k8g8v6",
+    "slug": "metronome",
+    "name": {
+      "pt": "Metrônomo",
+      "en": "Metronome"
+    },
+    "subcategory": "music",
+    "synonyms": {
+      "pt": ["marcador de tempo", "compasso"],
+      "en": ["tempo keeper", "beat"]
+    },
+    "tags": {
+      "pt": ["ritmo", "andamento", "bpm", "tempo"],
+      "en": ["rhythm", "tempo", "bpm", "timing"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gp368sy5",
+    "slug": "mic-vocal",
+    "name": {
+      "pt": "Microfone de mão",
+      "en": "Mic vocal"
+    },
+    "subcategory": "audio",
+    "family": "microphone",
+    "synonyms": {
+      "pt": ["microfone vocal", "karaokê"],
+      "en": ["handheld microphone", "karaoke"]
+    },
+    "tags": {
+      "pt": ["cantar", "palco", "show", "voz"],
+      "en": ["sing", "stage", "show", "voice"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwyaphmq",
+    "slug": "microphone",
+    "name": {
+      "pt": "Microfone",
+      "en": "Microphone"
+    },
+    "subcategory": "audio",
+    "family": "microphone",
+    "synonyms": {
+      "pt": ["mic", "gravar voz"],
+      "en": ["mic", "voice"]
+    },
+    "tags": {
+      "pt": ["áudio", "voz", "falar", "ditado", "gravação"],
+      "en": ["audio", "record", "speak", "dictation"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gf5cc8ft",
+    "slug": "microphone-off",
+    "name": {
+      "pt": "Microfone desligado",
+      "en": "Microphone off"
+    },
+    "subcategory": "audio",
+    "family": "microphone",
+    "variantOf": "microphone",
+    "synonyms": {
+      "pt": ["mic mudo", "microfone silenciado"],
+      "en": ["mic off", "muted mic"]
+    },
+    "tags": {
+      "pt": ["sem áudio", "mutar", "silenciar"],
+      "en": ["mute", "no audio", "silence"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g25w2k1m",
+    "slug": "music",
+    "name": {
+      "pt": "Música",
+      "en": "Music"
+    },
+    "subcategory": "music",
+    "family": "music",
+    "synonyms": {
+      "pt": ["notas musicais", "canção"],
+      "en": ["musical notes", "song"]
+    },
+    "tags": {
+      "pt": ["som", "melodia", "áudio", "tocar"],
+      "en": ["sound", "melody", "audio", "tune"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggd6dnyn",
+    "slug": "music-note",
+    "name": {
+      "pt": "Nota musical",
+      "en": "Music note"
+    },
+    "subcategory": "music",
+    "family": "music",
+    "synonyms": {
+      "pt": ["colcheia", "nota"],
+      "en": ["eighth note", "note"]
+    },
+    "tags": {
+      "pt": ["música", "som", "melodia", "canção"],
+      "en": ["music", "sound", "melody", "song"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g6h3xpv9",
+    "slug": "music-notes",
+    "name": {
+      "pt": "Semicolcheias",
+      "en": "Music notes"
+    },
+    "subcategory": "music",
+    "family": "music",
+    "synonyms": {
+      "pt": ["notas ligadas", "notas musicais"],
+      "en": ["beamed notes", "sixteenth notes"]
+    },
+    "tags": {
+      "pt": ["música", "partitura", "melodia", "ritmo"],
+      "en": ["music", "sheet music", "melody", "rhythm"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1ngpqdc",
+    "slug": "music-off",
+    "name": {
+      "pt": "Música desligada",
+      "en": "Music off"
+    },
+    "subcategory": "music",
+    "family": "music",
+    "variantOf": "music",
+    "synonyms": {
+      "pt": ["sem música", "música pausada"],
+      "en": ["no music", "music disabled"]
+    },
+    "tags": {
+      "pt": ["silêncio", "mudo", "desativar som"],
+      "en": ["silence", "mute", "sound off"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbvqwrq7",
+    "slug": "music-plus",
+    "name": {
+      "pt": "Adicionar música",
+      "en": "Music plus"
+    },
+    "subcategory": "music",
+    "family": "music",
+    "variantOf": "music-note",
+    "synonyms": {
+      "pt": ["nova música", "incluir faixa"],
+      "en": ["add music", "add song"]
+    },
+    "tags": {
+      "pt": ["nota musical", "mais", "playlist"],
+      "en": ["music note", "plus", "playlist"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbqycc6z",
+    "slug": "pause",
+    "name": {
+      "pt": "Pausar",
+      "en": "Pause"
+    },
+    "subcategory": "playback",
+    "family": "pause",
+    "synonyms": {
+      "pt": ["pausa", "parar momentaneamente"],
+      "en": ["hold", "break"]
+    },
+    "tags": {
+      "pt": ["interromper", "player", "segurar"],
+      "en": ["player", "interrupt", "media"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ghr76tqs",
+    "slug": "pause-circle",
+    "name": {
+      "pt": "Botão pausar",
+      "en": "Pause circle"
+    },
+    "subcategory": "playback",
+    "family": "pause",
+    "variantOf": "pause",
+    "synonyms": {
+      "pt": ["pausar vídeo", "pausa"],
+      "en": ["pause button", "pause video"]
+    },
+    "tags": {
+      "pt": ["interromper", "player"],
+      "en": ["hold", "player"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gen1yphy",
+    "slug": "piano",
+    "name": {
+      "pt": "Piano",
+      "en": "Piano"
+    },
+    "subcategory": "music",
+    "synonyms": {
+      "pt": ["teclado musical", "teclas"],
+      "en": ["keyboard", "keys"]
+    },
+    "tags": {
+      "pt": ["instrumento", "música", "tocar", "sintetizador"],
+      "en": ["instrument", "music", "synthesizer"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gxsazhzp",
+    "slug": "play",
+    "name": {
+      "pt": "Reproduzir",
+      "en": "Play"
+    },
+    "subcategory": "playback",
+    "family": "play",
+    "synonyms": {
+      "pt": ["play", "tocar"],
+      "en": ["start", "resume"]
+    },
+    "tags": {
+      "pt": ["iniciar", "vídeo", "música", "player"],
+      "en": ["video", "music", "player", "media"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gxcwa7ww",
+    "slug": "play-circle",
+    "name": {
+      "pt": "Botão reproduzir",
+      "en": "Play circle"
+    },
+    "subcategory": "playback",
+    "family": "play",
+    "variantOf": "play",
+    "synonyms": {
+      "pt": ["reproduzir vídeo", "play"],
+      "en": ["play button", "play video"]
+    },
+    "tags": {
+      "pt": ["iniciar", "assistir", "player"],
+      "en": ["start", "watch", "player"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ghg26esx",
+    "slug": "play-pause",
+    "name": {
+      "pt": "Reproduzir ou pausar",
+      "en": "Play pause"
+    },
+    "subcategory": "playback",
+    "synonyms": {
+      "pt": ["alternar reprodução", "play e pausa"],
+      "en": ["toggle playback", "play and pause"]
+    },
+    "tags": {
+      "pt": ["player", "controle", "botão de mídia"],
+      "en": ["player", "control", "media key"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g80fh30w",
+    "slug": "playlist",
+    "name": {
+      "pt": "Playlist",
+      "en": "Playlist"
+    },
+    "subcategory": "playback",
+    "family": "playlist",
+    "synonyms": {
+      "pt": ["lista de reprodução", "lista de músicas"],
+      "en": ["play list", "track list"]
+    },
+    "tags": {
+      "pt": ["faixas", "coleção", "tocar lista"],
+      "en": ["tracks", "collection", "queue"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbf67n5q",
+    "slug": "playlist-add",
+    "name": {
+      "pt": "Adicionar à playlist",
+      "en": "Playlist add"
+    },
+    "subcategory": "playback",
+    "family": "playlist",
+    "variantOf": "playlist",
+    "synonyms": {
+      "pt": ["incluir na lista", "nova faixa"],
+      "en": ["add to playlist", "add track"]
+    },
+    "tags": {
+      "pt": ["adicionar música", "mais", "fila"],
+      "en": ["add song", "plus", "queue"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gh81gp41",
+    "slug": "playlist-check",
+    "name": {
+      "pt": "Na playlist",
+      "en": "Playlist check"
+    },
+    "subcategory": "playback",
+    "family": "playlist",
+    "variantOf": "playlist",
+    "synonyms": {
+      "pt": ["adicionada à playlist", "faixa salva"],
+      "en": ["added to playlist", "saved track"]
+    },
+    "tags": {
+      "pt": ["salvo", "concluído", "lista"],
+      "en": ["saved", "done", "list"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7yah8h7",
+    "slug": "playlist-x",
+    "name": {
+      "pt": "Remover da playlist",
+      "en": "Playlist x"
+    },
+    "subcategory": "playback",
+    "family": "playlist",
+    "variantOf": "playlist",
+    "synonyms": {
+      "pt": ["tirar da lista", "excluir faixa"],
+      "en": ["remove from playlist", "remove track"]
+    },
+    "tags": {
+      "pt": ["remover música", "apagar", "fila"],
+      "en": ["delete song", "clear", "queue"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3tt7c3w",
+    "slug": "queue",
+    "name": {
+      "pt": "Fila de reprodução",
+      "en": "Queue"
+    },
+    "subcategory": "playback",
+    "synonyms": {
+      "pt": ["fila", "próximas"],
+      "en": ["play queue", "up next"]
+    },
+    "tags": {
+      "pt": ["a seguir", "biblioteca", "empilhar", "mídia"],
+      "en": ["next", "library", "stack", "media"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkk1x7ph",
+    "slug": "radio",
+    "name": {
+      "pt": "Rádio",
+      "en": "Radio"
+    },
+    "subcategory": "audio",
+    "synonyms": {
+      "pt": ["aparelho de rádio", "rádio portátil"],
+      "en": ["radio set", "portable radio"]
+    },
+    "tags": {
+      "pt": ["fm", "am", "estação", "transmissão", "música"],
+      "en": ["fm", "am", "station", "broadcast", "music"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gjacn822",
+    "slug": "record",
+    "name": {
+      "pt": "Gravar",
+      "en": "Record"
+    },
+    "subcategory": "playback",
+    "synonyms": {
+      "pt": ["gravação", "rec"],
+      "en": ["recording", "rec"]
+    },
+    "tags": {
+      "pt": ["gravar áudio", "gravar vídeo", "captura"],
+      "en": ["capture", "audio recording", "video recording"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gawq1zwe",
+    "slug": "rewind",
+    "name": {
+      "pt": "Retroceder",
+      "en": "Rewind"
+    },
+    "subcategory": "playback",
+    "family": "skip",
+    "synonyms": {
+      "pt": ["voltar rápido", "rebobinar"],
+      "en": ["fast backward", "rewind back"]
+    },
+    "tags": {
+      "pt": ["voltar", "recuar", "player"],
+      "en": ["back", "reverse", "player"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g22pv4d6",
+    "slug": "saxophone",
+    "name": {
+      "pt": "Saxofone",
+      "en": "Saxophone"
+    },
+    "subcategory": "music",
+    "synonyms": {
+      "pt": ["sax"],
+      "en": ["sax"]
+    },
+    "tags": {
+      "pt": ["instrumento", "sopro", "jazz", "blues"],
+      "en": ["instrument", "woodwind", "jazz", "blues"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gvxya00a",
+    "slug": "skip-back",
+    "name": {
+      "pt": "Faixa anterior",
+      "en": "Skip back"
+    },
+    "subcategory": "playback",
+    "family": "skip",
+    "synonyms": {
+      "pt": ["voltar", "retroceder faixa"],
+      "en": ["previous track", "previous"]
+    },
+    "tags": {
+      "pt": ["anterior", "início", "player"],
+      "en": ["back", "restart", "player"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gtks0ej1",
+    "slug": "skip-forward",
+    "name": {
+      "pt": "Próxima faixa",
+      "en": "Skip forward"
+    },
+    "subcategory": "playback",
+    "family": "skip",
+    "synonyms": {
+      "pt": ["avançar", "pular"],
+      "en": ["next track", "next"]
+    },
+    "tags": {
+      "pt": ["próximo", "seguinte", "player"],
+      "en": ["skip", "forward", "player"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gtygrzk6",
+    "slug": "soundwave",
+    "name": {
+      "pt": "Onda sonora",
+      "en": "Soundwave"
+    },
+    "subcategory": "audio",
+    "synonyms": {
+      "pt": ["onda", "senoide"],
+      "en": ["sound wave", "sine wave"]
+    },
+    "tags": {
+      "pt": ["som", "frequência", "vibração", "sinal"],
+      "en": ["sound", "frequency", "vibration", "signal"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g650s2k5",
+    "slug": "speaker",
+    "name": {
+      "pt": "Caixa de som",
+      "en": "Speaker"
+    },
+    "subcategory": "audio",
+    "synonyms": {
+      "pt": ["alto-falante", "caixa acústica"],
+      "en": ["loudspeaker", "speaker box"]
+    },
+    "tags": {
+      "pt": ["som", "áudio", "auto-falante", "monitor de áudio"],
+      "en": ["sound", "audio", "woofer", "monitor"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwvb8w5y",
+    "slug": "stop",
+    "name": {
+      "pt": "Parar",
+      "en": "Stop"
+    },
+    "subcategory": "playback",
+    "family": "stop",
+    "synonyms": {
+      "pt": ["stop", "interromper"],
+      "en": ["halt", "end"]
+    },
+    "tags": {
+      "pt": ["encerrar", "finalizar", "player"],
+      "en": ["finish", "player", "media"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grn7y8tb",
+    "slug": "stop-circle",
+    "name": {
+      "pt": "Botão parar",
+      "en": "Stop circle"
+    },
+    "subcategory": "playback",
+    "family": "stop",
+    "variantOf": "stop",
+    "synonyms": {
+      "pt": ["parar reprodução", "stop"],
+      "en": ["stop button", "stop playback"]
+    },
+    "tags": {
+      "pt": ["encerrar", "finalizar", "player"],
+      "en": ["end", "finish", "player"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gp5a0302",
+    "slug": "subtitles",
+    "name": {
+      "pt": "Legendas",
+      "en": "Subtitles"
+    },
+    "subcategory": "playback",
+    "family": "captions",
+    "synonyms": {
+      "pt": ["legenda", "texto na tela"],
+      "en": ["subtitle", "on-screen text"]
+    },
+    "tags": {
+      "pt": ["tradução", "idioma", "acessibilidade", "filme"],
+      "en": ["translation", "language", "accessibility", "movie"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkjhynn4",
+    "slug": "treble-clef",
+    "name": {
+      "pt": "Clave de sol",
+      "en": "Treble clef"
+    },
+    "subcategory": "music",
+    "synonyms": {
+      "pt": ["clave", "sol"],
+      "en": ["G clef", "clef"]
+    },
+    "tags": {
+      "pt": ["partitura", "pauta", "música clássica", "notação"],
+      "en": ["sheet music", "staff", "classical music", "notation"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1ys98yk",
+    "slug": "trumpet",
+    "name": {
+      "pt": "Trompete",
+      "en": "Trumpet"
+    },
+    "subcategory": "music",
+    "synonyms": {
+      "pt": ["corneta", "trombeta"],
+      "en": ["cornet", "horn"]
+    },
+    "tags": {
+      "pt": ["instrumento", "sopro", "metais", "jazz"],
+      "en": ["instrument", "brass", "wind", "jazz"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gn8ersv9",
+    "slug": "tuning-fork",
+    "name": {
+      "pt": "Diapasão",
+      "en": "Tuning fork"
+    },
+    "subcategory": "music",
+    "synonyms": {
+      "pt": ["garfo de afinação", "afinador"],
+      "en": ["pitch fork", "tuner"]
+    },
+    "tags": {
+      "pt": ["afinar", "frequência", "lá", "vibração"],
+      "en": ["tune", "pitch", "frequency", "vibration"]
+    },
+    "popularity": 1,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g93g6pr5",
+    "slug": "vinyl",
+    "name": {
+      "pt": "Disco de vinil",
+      "en": "Vinyl"
+    },
+    "subcategory": "music",
+    "synonyms": {
+      "pt": ["LP", "vinil"],
+      "en": ["record", "LP"]
+    },
+    "tags": {
+      "pt": ["toca-discos", "retrô", "álbum", "música"],
+      "en": ["turntable", "retro", "album", "music"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggpbtsac",
+    "slug": "violin",
+    "name": {
+      "pt": "Violino",
+      "en": "Violin"
+    },
+    "subcategory": "music",
+    "synonyms": {
+      "pt": ["rabeca", "viola"],
+      "en": ["fiddle", "viola"]
+    },
+    "tags": {
+      "pt": ["instrumento", "cordas", "orquestra", "clássica"],
+      "en": ["instrument", "strings", "orchestra", "classical"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggdq85hx",
+    "slug": "volume",
+    "name": {
+      "pt": "Volume",
+      "en": "Volume"
+    },
+    "subcategory": "audio",
+    "family": "volume",
+    "synonyms": {
+      "pt": ["alto-falante", "som"],
+      "en": ["speaker", "sound"]
+    },
+    "tags": {
+      "pt": ["áudio", "ligar som", "nível", "caixa de som"],
+      "en": ["audio", "sound on", "level", "loudness"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grdvdgsw",
+    "slug": "volume-1",
+    "name": {
+      "pt": "Volume baixo",
+      "en": "Volume low"
+    },
+    "subcategory": "audio",
+    "family": "volume",
+    "variantOf": "volume",
+    "synonyms": {
+      "pt": ["som baixo", "volume mínimo"],
+      "en": ["low volume", "quiet"]
+    },
+    "tags": {
+      "pt": ["áudio", "diminuir volume", "nível baixo"],
+      "en": ["audio", "volume down", "soft"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g6zskh1m",
+    "slug": "volume-2",
+    "name": {
+      "pt": "Volume alto",
+      "en": "Volume high"
+    },
+    "subcategory": "audio",
+    "family": "volume",
+    "variantOf": "volume",
+    "synonyms": {
+      "pt": ["som alto", "volume máximo"],
+      "en": ["loud", "full volume"]
+    },
+    "tags": {
+      "pt": ["áudio", "aumentar volume", "nível alto"],
+      "en": ["audio", "volume up", "loudness"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0hq7ttx",
+    "slug": "volume-minus",
+    "name": {
+      "pt": "Diminuir volume",
+      "en": "Volume minus"
+    },
+    "subcategory": "audio",
+    "family": "volume",
+    "variantOf": "volume",
+    "synonyms": {
+      "pt": ["volume menos", "baixar som"],
+      "en": ["volume down", "quieter"]
+    },
+    "tags": {
+      "pt": ["áudio", "mais baixo", "botão de volume"],
+      "en": ["audio", "decrease", "volume button"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gehnkcj6",
+    "slug": "volume-off",
+    "name": {
+      "pt": "Som desligado",
+      "en": "Volume off"
+    },
+    "subcategory": "audio",
+    "family": "volume",
+    "variantOf": "volume",
+    "synonyms": {
+      "pt": ["áudio desativado", "silenciado"],
+      "en": ["sound off", "audio disabled"]
+    },
+    "tags": {
+      "pt": ["mudo", "sem áudio", "desligar som"],
+      "en": ["mute", "no audio", "silence"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbmcevwr",
+    "slug": "volume-plus",
+    "name": {
+      "pt": "Aumentar volume",
+      "en": "Volume plus"
+    },
+    "subcategory": "audio",
+    "family": "volume",
+    "variantOf": "volume",
+    "synonyms": {
+      "pt": ["volume mais", "subir som"],
+      "en": ["volume up", "louder"]
+    },
+    "tags": {
+      "pt": ["áudio", "mais alto", "botão de volume"],
+      "en": ["audio", "increase", "volume button"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gxjf1tjr",
+    "slug": "volume-x",
+    "name": {
+      "pt": "Sem som",
+      "en": "Volume x"
+    },
+    "subcategory": "audio",
+    "family": "volume",
+    "variantOf": "volume",
+    "synonyms": {
+      "pt": ["mudo", "silenciar"],
+      "en": ["mute", "muted"]
+    },
+    "tags": {
+      "pt": ["áudio desligado", "sem volume", "calar"],
+      "en": ["silent", "no sound", "audio off"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  }
+]

@@ -1,0 +1,1326 @@
+[
+  {
+    "id": "gjj9f40d",
+    "slug": "alert-banner",
+    "name": {
+      "pt": "Faixa de alerta",
+      "en": "Alert banner"
+    },
+    "subcategory": "notifications",
+    "synonyms": {
+      "pt": ["banner de aviso", "aviso no topo"],
+      "en": ["warning banner", "notice bar"]
+    },
+    "tags": {
+      "pt": ["notificação", "mensagem do sistema", "toast", "atenção"],
+      "en": ["notification", "system message", "toast", "attention"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g72wrt4w",
+    "slug": "bell",
+    "name": {
+      "pt": "Sino",
+      "en": "Bell"
+    },
+    "subcategory": "notifications",
+    "family": "bell",
+    "synonyms": {
+      "pt": ["notificação", "alerta"],
+      "en": ["notification", "alert"]
+    },
+    "tags": {
+      "pt": ["aviso", "lembrete", "campainha"],
+      "en": ["reminder", "alarm"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdk35dn7",
+    "slug": "bell-check",
+    "name": {
+      "pt": "Notificações ativas",
+      "en": "Bell check"
+    },
+    "subcategory": "notifications",
+    "family": "bell",
+    "variantOf": "bell",
+    "synonyms": {
+      "pt": ["alerta confirmado", "inscrito"],
+      "en": ["notifications on", "subscribed"]
+    },
+    "tags": {
+      "pt": ["lembrete definido", "notificação lida", "ok"],
+      "en": ["reminder set", "read notification", "alert confirmed"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbgqbamx",
+    "slug": "bell-dot",
+    "name": {
+      "pt": "Nova notificação",
+      "en": "Bell dot"
+    },
+    "subcategory": "notifications",
+    "family": "bell",
+    "variantOf": "bell",
+    "synonyms": {
+      "pt": ["sino com ponto", "alerta não lido"],
+      "en": ["new notification", "unread alert"]
+    },
+    "tags": {
+      "pt": ["novidade", "aviso pendente", "badge"],
+      "en": ["badge", "pending", "news"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3ejsjdj",
+    "slug": "bell-minus",
+    "name": {
+      "pt": "Remover notificação",
+      "en": "Bell minus"
+    },
+    "subcategory": "notifications",
+    "family": "bell",
+    "variantOf": "bell",
+    "synonyms": {
+      "pt": ["menos alertas", "excluir lembrete"],
+      "en": ["remove notification", "fewer alerts"]
+    },
+    "tags": {
+      "pt": ["desinscrever", "cancelar aviso"],
+      "en": ["unsubscribe", "delete reminder"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpwe4gkk",
+    "slug": "bell-off",
+    "name": {
+      "pt": "Notificações desativadas",
+      "en": "Bell off"
+    },
+    "subcategory": "notifications",
+    "family": "bell",
+    "variantOf": "bell",
+    "synonyms": {
+      "pt": ["sino riscado", "silenciar"],
+      "en": ["notifications off", "mute"]
+    },
+    "tags": {
+      "pt": ["mudo", "não perturbe", "sem alertas"],
+      "en": ["silent", "do not disturb", "no alerts"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmaqazte",
+    "slug": "bell-plus",
+    "name": {
+      "pt": "Ativar notificações",
+      "en": "Bell plus"
+    },
+    "subcategory": "notifications",
+    "family": "bell",
+    "variantOf": "bell",
+    "synonyms": {
+      "pt": ["adicionar alerta", "novo lembrete"],
+      "en": ["add notification", "new alert"]
+    },
+    "tags": {
+      "pt": ["inscrever", "avisar", "criar alerta"],
+      "en": ["subscribe", "notify me", "create reminder"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8yc86ww",
+    "slug": "bell-ring",
+    "name": {
+      "pt": "Sino tocando",
+      "en": "Bell ring"
+    },
+    "subcategory": "notifications",
+    "family": "bell",
+    "variantOf": "bell",
+    "synonyms": {
+      "pt": ["alarme", "campainha tocando"],
+      "en": ["ringing bell", "alarm"]
+    },
+    "tags": {
+      "pt": ["notificação", "lembrete", "alerta sonoro", "toque"],
+      "en": ["notification", "reminder", "ring", "sound alert"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4vyx5q6",
+    "slug": "chat-bubbles",
+    "name": {
+      "pt": "Conversa",
+      "en": "Chat bubbles"
+    },
+    "subcategory": "messages",
+    "family": "message",
+    "synonyms": {
+      "pt": ["diálogo", "bate-papo", "troca de mensagens"],
+      "en": ["dialogue", "conversation"]
+    },
+    "tags": {
+      "pt": ["chat", "falar", "atendimento", "perguntas e respostas"],
+      "en": ["chat", "talk", "support", "q&a"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0y2nfka",
+    "slug": "conference-call",
+    "name": {
+      "pt": "Videoconferência",
+      "en": "Conference call"
+    },
+    "subcategory": "calls",
+    "synonyms": {
+      "pt": ["reunião online", "chamada em grupo"],
+      "en": ["online meeting", "group call"]
+    },
+    "tags": {
+      "pt": ["conferência", "reunião virtual", "participantes"],
+      "en": ["conference", "virtual meeting", "participants"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gm8ca1cy",
+    "slug": "contact-book",
+    "name": {
+      "pt": "Agenda de contatos",
+      "en": "Contact book"
+    },
+    "subcategory": "calls",
+    "synonyms": {
+      "pt": ["catálogo de endereços", "contatos"],
+      "en": ["address book", "contacts"]
+    },
+    "tags": {
+      "pt": ["lista telefônica", "caderneta", "pessoas"],
+      "en": ["phone book", "directory", "people"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gm16159z",
+    "slug": "dial-pad",
+    "name": {
+      "pt": "Teclado numérico",
+      "en": "Dial pad"
+    },
+    "subcategory": "calls",
+    "synonyms": {
+      "pt": ["discador", "teclado do telefone"],
+      "en": ["dialer", "keypad"]
+    },
+    "tags": {
+      "pt": ["discar", "números", "ligar", "pin"],
+      "en": ["dial", "numbers", "call", "pin"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1hp68f2",
+    "slug": "draft-mail",
+    "name": {
+      "pt": "Rascunho de e-mail",
+      "en": "Draft mail"
+    },
+    "subcategory": "mail",
+    "family": "mail",
+    "variantOf": "mail",
+    "synonyms": {
+      "pt": ["rascunho", "escrevendo e-mail"],
+      "en": ["draft", "compose email"]
+    },
+    "tags": {
+      "pt": ["editar", "lápis", "compor", "não enviado"],
+      "en": ["edit", "pencil", "unsent"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gghm71g0",
+    "slug": "headset-support",
+    "name": {
+      "pt": "Fone com microfone",
+      "en": "Headset support"
+    },
+    "subcategory": "calls",
+    "synonyms": {
+      "pt": ["headset", "atendimento"],
+      "en": ["headset", "customer service"]
+    },
+    "tags": {
+      "pt": ["suporte", "call center", "central de ajuda", "sac"],
+      "en": ["support", "call center", "help desk", "operator"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gm9b9cjf",
+    "slug": "inbox",
+    "name": {
+      "pt": "Caixa de entrada",
+      "en": "Inbox"
+    },
+    "subcategory": "mail",
+    "family": "inbox",
+    "synonyms": {
+      "pt": ["entrada", "bandeja"],
+      "en": ["tray", "in tray"]
+    },
+    "tags": {
+      "pt": ["mensagens recebidas", "e-mail", "recebidos"],
+      "en": ["received", "email", "incoming messages"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gz56tygk",
+    "slug": "inbox-full",
+    "name": {
+      "pt": "Caixa de entrada cheia",
+      "en": "Inbox full"
+    },
+    "subcategory": "mail",
+    "family": "inbox",
+    "variantOf": "inbox",
+    "synonyms": {
+      "pt": ["bandeja cheia", "mensagens acumuladas"],
+      "en": ["full tray", "stacked mail"]
+    },
+    "tags": {
+      "pt": ["não lidas", "pendências", "muitas mensagens"],
+      "en": ["unread", "backlog", "many messages"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g362he7y",
+    "slug": "mail",
+    "name": {
+      "pt": "E-mail",
+      "en": "Mail"
+    },
+    "subcategory": "mail",
+    "family": "mail",
+    "synonyms": {
+      "pt": ["correio", "envelope", "mensagem"],
+      "en": ["email", "envelope"]
+    },
+    "tags": {
+      "pt": ["carta", "caixa de entrada", "contato"],
+      "en": ["letter", "inbox", "message"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gj69n3bk",
+    "slug": "mail-check",
+    "name": {
+      "pt": "E-mail confirmado",
+      "en": "Mail check"
+    },
+    "subcategory": "mail",
+    "family": "mail",
+    "variantOf": "mail",
+    "synonyms": {
+      "pt": ["e-mail enviado", "e-mail verificado"],
+      "en": ["email sent", "verified email"]
+    },
+    "tags": {
+      "pt": ["entregue", "lido", "confirmação"],
+      "en": ["delivered", "read", "confirmation"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gw3732k8",
+    "slug": "mail-forward",
+    "name": {
+      "pt": "Encaminhar e-mail",
+      "en": "Mail forward"
+    },
+    "subcategory": "mail",
+    "family": "mail",
+    "variantOf": "mail",
+    "synonyms": {
+      "pt": ["reencaminhar", "repassar e-mail"],
+      "en": ["forward email", "pass on"]
+    },
+    "tags": {
+      "pt": ["enviar para", "seta", "redirecionar"],
+      "en": ["send to", "arrow", "redirect"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzmmvnnw",
+    "slug": "mail-open",
+    "name": {
+      "pt": "E-mail aberto",
+      "en": "Mail open"
+    },
+    "subcategory": "mail",
+    "family": "mail",
+    "synonyms": {
+      "pt": ["envelope aberto", "mensagem lida"],
+      "en": ["open envelope", "read mail"]
+    },
+    "tags": {
+      "pt": ["carta aberta", "lido", "caixa de entrada"],
+      "en": ["opened letter", "read", "inbox"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g71z0kqm",
+    "slug": "mail-plus",
+    "name": {
+      "pt": "Novo e-mail",
+      "en": "Mail plus"
+    },
+    "subcategory": "mail",
+    "family": "mail",
+    "variantOf": "mail",
+    "synonyms": {
+      "pt": ["escrever e-mail", "adicionar e-mail"],
+      "en": ["new email", "add email"]
+    },
+    "tags": {
+      "pt": ["compor", "nova mensagem", "redigir"],
+      "en": ["compose", "new message", "write"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gedbqnsa",
+    "slug": "mail-search",
+    "name": {
+      "pt": "Buscar e-mail",
+      "en": "Mail search"
+    },
+    "subcategory": "mail",
+    "family": "mail",
+    "variantOf": "mail",
+    "synonyms": {
+      "pt": ["pesquisar e-mail", "procurar mensagem"],
+      "en": ["search email", "find message"]
+    },
+    "tags": {
+      "pt": ["lupa", "encontrar", "filtrar caixa de entrada"],
+      "en": ["magnifier", "find", "filter inbox"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gxgb45ps",
+    "slug": "mail-x",
+    "name": {
+      "pt": "Excluir e-mail",
+      "en": "Mail x"
+    },
+    "subcategory": "mail",
+    "family": "mail",
+    "variantOf": "mail",
+    "synonyms": {
+      "pt": ["apagar e-mail", "e-mail com erro"],
+      "en": ["delete email", "email error"]
+    },
+    "tags": {
+      "pt": ["remover", "falha no envio", "rejeitado"],
+      "en": ["remove", "bounce", "failed", "rejected"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g6sy2wby",
+    "slug": "mailbox",
+    "name": {
+      "pt": "Caixa de correio",
+      "en": "Mailbox"
+    },
+    "subcategory": "mail",
+    "synonyms": {
+      "pt": ["caixa postal", "correio"],
+      "en": ["letterbox", "postbox"]
+    },
+    "tags": {
+      "pt": ["carta", "correspondência", "entrega", "cartas recebidas"],
+      "en": ["post", "letters", "delivery", "mail"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1st90qd",
+    "slug": "megaphone",
+    "name": {
+      "pt": "Megafone",
+      "en": "Megaphone"
+    },
+    "subcategory": "notifications",
+    "synonyms": {
+      "pt": ["alto-falante", "anúncio"],
+      "en": ["bullhorn", "announcement"]
+    },
+    "tags": {
+      "pt": ["comunicado", "divulgar", "marketing", "campanha", "aviso"],
+      "en": ["announce", "marketing", "campaign", "broadcast"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gyc9ccz2",
+    "slug": "message",
+    "name": {
+      "pt": "Mensagem",
+      "en": "Message"
+    },
+    "subcategory": "messages",
+    "family": "message",
+    "synonyms": {
+      "pt": ["conversa", "balão", "chat"],
+      "en": ["chat", "speech bubble"]
+    },
+    "tags": {
+      "pt": ["comentário", "falar", "bate-papo"],
+      "en": ["comment", "conversation", "talk"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzrhsf16",
+    "slug": "message-check",
+    "name": {
+      "pt": "Mensagem lida",
+      "en": "Message check"
+    },
+    "subcategory": "messages",
+    "family": "message",
+    "variantOf": "message",
+    "synonyms": {
+      "pt": ["mensagem enviada", "mensagem confirmada"],
+      "en": ["message read", "message delivered"]
+    },
+    "tags": {
+      "pt": ["visto", "entregue", "respondida"],
+      "en": ["seen", "sent", "answered"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g9em1sf9",
+    "slug": "message-circle",
+    "name": {
+      "pt": "Balão redondo",
+      "en": "Message circle"
+    },
+    "subcategory": "messages",
+    "family": "message",
+    "synonyms": {
+      "pt": ["mensagem", "conversa"],
+      "en": ["round bubble", "speech bubble"]
+    },
+    "tags": {
+      "pt": ["chat", "falar", "comentário", "bate-papo"],
+      "en": ["chat", "talk", "comment", "conversation"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g33hv7hd",
+    "slug": "message-dots",
+    "name": {
+      "pt": "Mensagem com reticências",
+      "en": "Message dots"
+    },
+    "subcategory": "messages",
+    "family": "message",
+    "synonyms": {
+      "pt": ["conversa", "balão com pontos"],
+      "en": ["chat bubble", "ellipsis bubble"]
+    },
+    "tags": {
+      "pt": ["chat", "digitando", "comentários", "bate-papo"],
+      "en": ["chat", "typing", "comments", "conversation"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gq50qr59",
+    "slug": "message-forward",
+    "name": {
+      "pt": "Encaminhar mensagem",
+      "en": "Message forward"
+    },
+    "subcategory": "messages",
+    "family": "message",
+    "synonyms": {
+      "pt": ["reencaminhar", "repassar"],
+      "en": ["forward", "pass on"]
+    },
+    "tags": {
+      "pt": ["enviar para", "compartilhar conversa"],
+      "en": ["send to", "share chat"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3vv9g4s",
+    "slug": "message-lock",
+    "name": {
+      "pt": "Mensagem criptografada",
+      "en": "Message lock"
+    },
+    "subcategory": "messages",
+    "family": "message",
+    "variantOf": "message",
+    "synonyms": {
+      "pt": ["conversa privada", "chat seguro"],
+      "en": ["encrypted message", "private chat"]
+    },
+    "tags": {
+      "pt": ["criptografia", "sigilo", "ponta a ponta", "cadeado"],
+      "en": ["secure chat", "end-to-end", "encryption", "padlock"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gfzqp0pg",
+    "slug": "message-off",
+    "name": {
+      "pt": "Mensagens desativadas",
+      "en": "Message off"
+    },
+    "subcategory": "messages",
+    "family": "message",
+    "variantOf": "message",
+    "synonyms": {
+      "pt": ["chat desligado", "conversa silenciada"],
+      "en": ["chat disabled", "muted conversation"]
+    },
+    "tags": {
+      "pt": ["sem mensagens", "bloquear chat", "mudo"],
+      "en": ["no messages", "block chat", "mute"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3x3sdzg",
+    "slug": "message-plus",
+    "name": {
+      "pt": "Nova mensagem",
+      "en": "Message plus"
+    },
+    "subcategory": "messages",
+    "family": "message",
+    "variantOf": "message",
+    "synonyms": {
+      "pt": ["adicionar mensagem", "novo chat"],
+      "en": ["new message", "add message"]
+    },
+    "tags": {
+      "pt": ["iniciar conversa", "escrever", "criar conversa"],
+      "en": ["new chat", "start conversation", "compose"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gvw85tbh",
+    "slug": "message-reply",
+    "name": {
+      "pt": "Responder mensagem",
+      "en": "Message reply"
+    },
+    "subcategory": "messages",
+    "family": "message",
+    "synonyms": {
+      "pt": ["resposta", "responder no chat"],
+      "en": ["reply", "respond"]
+    },
+    "tags": {
+      "pt": ["réplica", "retornar", "conversa"],
+      "en": ["answer", "chat", "conversation"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gg4ry4nt",
+    "slug": "message-square",
+    "name": {
+      "pt": "Balão quadrado",
+      "en": "Message square"
+    },
+    "subcategory": "messages",
+    "family": "message",
+    "synonyms": {
+      "pt": ["mensagem", "comentário"],
+      "en": ["square bubble", "comment"]
+    },
+    "tags": {
+      "pt": ["chat", "conversa", "falar", "suporte"],
+      "en": ["chat", "conversation", "talk", "support"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8tmd7w3",
+    "slug": "message-square-text",
+    "name": {
+      "pt": "Mensagem com texto",
+      "en": "Message square text"
+    },
+    "subcategory": "messages",
+    "family": "message",
+    "synonyms": {
+      "pt": ["balão com linhas", "recado"],
+      "en": ["text bubble", "note"]
+    },
+    "tags": {
+      "pt": ["chat", "texto", "comentário", "nota"],
+      "en": ["chat", "text", "comment", "memo"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ghrvmh96",
+    "slug": "message-x",
+    "name": {
+      "pt": "Excluir mensagem",
+      "en": "Message x"
+    },
+    "subcategory": "messages",
+    "family": "message",
+    "variantOf": "message",
+    "synonyms": {
+      "pt": ["apagar mensagem", "mensagem com erro"],
+      "en": ["delete message", "message error"]
+    },
+    "tags": {
+      "pt": ["remover conversa", "falha no envio", "cancelar"],
+      "en": ["remove chat", "failed to send", "cancel"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g486nw1q",
+    "slug": "messages",
+    "name": {
+      "pt": "Mensagens",
+      "en": "Messages"
+    },
+    "subcategory": "messages",
+    "family": "message",
+    "synonyms": {
+      "pt": ["conversas", "balões"],
+      "en": ["conversations", "chats"]
+    },
+    "tags": {
+      "pt": ["chat", "bate-papo", "diálogo", "caixa de mensagens"],
+      "en": ["chat", "dialogue", "inbox", "threads"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7zwd2ts",
+    "slug": "newsletter",
+    "name": {
+      "pt": "Newsletter",
+      "en": "Newsletter"
+    },
+    "subcategory": "mail",
+    "synonyms": {
+      "pt": ["boletim", "informativo"],
+      "en": ["bulletin", "mailing"]
+    },
+    "tags": {
+      "pt": ["assinatura de e-mail", "carta", "e-mail marketing", "campanha"],
+      "en": ["email subscription", "letter", "email marketing", "campaign"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnk7c5hk",
+    "slug": "notification-badge",
+    "name": {
+      "pt": "Selo de notificação",
+      "en": "Notification badge"
+    },
+    "subcategory": "notifications",
+    "synonyms": {
+      "pt": ["contador", "aplicativo com aviso"],
+      "en": ["badge", "app badge"]
+    },
+    "tags": {
+      "pt": ["badge", "não lido", "novidade", "alerta"],
+      "en": ["unread", "counter", "new", "alert"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkj7t1t7",
+    "slug": "phone",
+    "name": {
+      "pt": "Telefone",
+      "en": "Phone"
+    },
+    "subcategory": "calls",
+    "family": "phone",
+    "synonyms": {
+      "pt": ["ligação", "fone", "chamada"],
+      "en": ["call", "handset", "telephone"]
+    },
+    "tags": {
+      "pt": ["contato", "ligar", "atendimento", "número"],
+      "en": ["contact", "dial", "support", "number"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnx3j17e",
+    "slug": "phone-call",
+    "name": {
+      "pt": "Ligação em andamento",
+      "en": "Phone call"
+    },
+    "subcategory": "calls",
+    "family": "phone",
+    "variantOf": "phone",
+    "synonyms": {
+      "pt": ["chamando", "telefone tocando"],
+      "en": ["calling", "ringing phone"]
+    },
+    "tags": {
+      "pt": ["ligar", "chamada ativa", "toque"],
+      "en": ["dial", "active call", "ring"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqtcs3bh",
+    "slug": "phone-forwarded",
+    "name": {
+      "pt": "Chamada encaminhada",
+      "en": "Phone forwarded"
+    },
+    "subcategory": "calls",
+    "family": "phone",
+    "variantOf": "phone",
+    "synonyms": {
+      "pt": ["desviar ligação", "transferir chamada"],
+      "en": ["call forwarding", "transfer call"]
+    },
+    "tags": {
+      "pt": ["redirecionar", "siga-me", "encaminhar"],
+      "en": ["redirect", "divert", "forward"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gca63p9h",
+    "slug": "phone-incoming",
+    "name": {
+      "pt": "Chamada recebida",
+      "en": "Phone incoming"
+    },
+    "subcategory": "calls",
+    "family": "phone",
+    "variantOf": "phone",
+    "synonyms": {
+      "pt": ["ligação recebida", "entrada"],
+      "en": ["incoming call", "received call"]
+    },
+    "tags": {
+      "pt": ["receber ligação", "atender", "histórico de chamadas"],
+      "en": ["answer", "call log", "inbound"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gxaema7h",
+    "slug": "phone-missed",
+    "name": {
+      "pt": "Chamada perdida",
+      "en": "Phone missed"
+    },
+    "subcategory": "calls",
+    "family": "phone",
+    "variantOf": "phone",
+    "synonyms": {
+      "pt": ["ligação perdida", "não atendida"],
+      "en": ["missed call", "unanswered"]
+    },
+    "tags": {
+      "pt": ["perdida", "retornar ligação", "histórico de chamadas"],
+      "en": ["call back", "call log", "missed"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzm4pykd",
+    "slug": "phone-off",
+    "name": {
+      "pt": "Telefone desligado",
+      "en": "Phone off"
+    },
+    "subcategory": "calls",
+    "family": "phone",
+    "variantOf": "phone",
+    "synonyms": {
+      "pt": ["encerrar chamada", "sem chamadas"],
+      "en": ["end call", "no calls"]
+    },
+    "tags": {
+      "pt": ["desligar", "mudo", "bloquear ligações"],
+      "en": ["hang up", "mute", "block calls"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwgtg5wy",
+    "slug": "phone-outgoing",
+    "name": {
+      "pt": "Chamada efetuada",
+      "en": "Phone outgoing"
+    },
+    "subcategory": "calls",
+    "family": "phone",
+    "variantOf": "phone",
+    "synonyms": {
+      "pt": ["ligação feita", "saída"],
+      "en": ["outgoing call", "dialed call"]
+    },
+    "tags": {
+      "pt": ["ligar para", "discar", "histórico de chamadas"],
+      "en": ["call out", "call log", "outbound"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g97j8yt8",
+    "slug": "quote-bubble",
+    "name": {
+      "pt": "Citação em balão",
+      "en": "Quote bubble"
+    },
+    "subcategory": "messages",
+    "family": "message",
+    "synonyms": {
+      "pt": ["citar mensagem", "aspas"],
+      "en": ["quoted message", "quotation"]
+    },
+    "tags": {
+      "pt": ["depoimento", "citação", "frase", "testemunho"],
+      "en": ["testimonial", "quote", "saying"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gyebjzft",
+    "slug": "send",
+    "name": {
+      "pt": "Enviar",
+      "en": "Send"
+    },
+    "subcategory": "messages",
+    "synonyms": {
+      "pt": ["avião de papel", "mandar"],
+      "en": ["paper plane", "submit"]
+    },
+    "tags": {
+      "pt": ["enviar mensagem", "despachar", "submeter"],
+      "en": ["send message", "dispatch", "deliver"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpk3ks8c",
+    "slug": "send-horizontal",
+    "name": {
+      "pt": "Enviar mensagem",
+      "en": "Send horizontal"
+    },
+    "subcategory": "messages",
+    "synonyms": {
+      "pt": ["botão enviar", "mandar"],
+      "en": ["send message", "submit"]
+    },
+    "tags": {
+      "pt": ["chat", "submeter", "seta de envio"],
+      "en": ["chat", "send button", "dispatch"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gtkde8kp",
+    "slug": "speech",
+    "name": {
+      "pt": "Fala",
+      "en": "Speech"
+    },
+    "subcategory": "messages",
+    "synonyms": {
+      "pt": ["falar", "voz", "perfil falando"],
+      "en": ["speak", "voice", "talking head"]
+    },
+    "tags": {
+      "pt": ["discurso", "narração", "comando de voz", "conversa"],
+      "en": ["narration", "voice command", "speaking"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g43ywvfp",
+    "slug": "telephone",
+    "name": {
+      "pt": "Telefone fixo",
+      "en": "Telephone"
+    },
+    "subcategory": "calls",
+    "family": "phone",
+    "synonyms": {
+      "pt": ["aparelho de telefone", "telefone de mesa"],
+      "en": ["landline", "desk phone"]
+    },
+    "tags": {
+      "pt": ["linha fixa", "ligar", "recepção", "contato"],
+      "en": ["fixed line", "call", "reception", "contact"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g648xrrt",
+    "slug": "typing-indicator",
+    "name": {
+      "pt": "Digitando",
+      "en": "Typing indicator"
+    },
+    "subcategory": "messages",
+    "synonyms": {
+      "pt": ["indicador de digitação", "alguém está escrevendo"],
+      "en": ["typing", "someone is typing"]
+    },
+    "tags": {
+      "pt": ["chat", "reticências", "aguardando resposta"],
+      "en": ["chat", "ellipsis", "waiting reply"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g45vah4d",
+    "slug": "video-call",
+    "name": {
+      "pt": "Videochamada",
+      "en": "Video call"
+    },
+    "subcategory": "calls",
+    "family": "video-call",
+    "synonyms": {
+      "pt": ["chamada de vídeo", "videoconferência"],
+      "en": ["video chat", "videoconference"]
+    },
+    "tags": {
+      "pt": ["câmera", "reunião online", "ligar com vídeo"],
+      "en": ["camera", "online meeting", "facetime"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grrfpjpp",
+    "slug": "video-call-off",
+    "name": {
+      "pt": "Videochamada desligada",
+      "en": "Video call off"
+    },
+    "subcategory": "calls",
+    "family": "video-call",
+    "variantOf": "video-call",
+    "synonyms": {
+      "pt": ["câmera desligada", "vídeo desativado", "sem vídeo"],
+      "en": ["camera off", "video disabled"]
+    },
+    "tags": {
+      "pt": ["videochamada", "privacidade", "desligar câmera"],
+      "en": ["video chat", "privacy", "turn off camera"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7xb4ate",
+    "slug": "voicemail",
+    "name": {
+      "pt": "Correio de voz",
+      "en": "Voicemail"
+    },
+    "subcategory": "calls",
+    "synonyms": {
+      "pt": ["caixa postal", "recado de voz"],
+      "en": ["voice message", "answering machine"]
+    },
+    "tags": {
+      "pt": ["mensagem de voz", "gravação", "secretária eletrônica"],
+      "en": ["recording", "tape", "voice note"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grqr4zmw",
+    "slug": "walkie-talkie",
+    "name": {
+      "pt": "Rádio comunicador",
+      "en": "Walkie-talkie"
+    },
+    "subcategory": "calls",
+    "synonyms": {
+      "pt": ["walkie-talkie", "rádio portátil"],
+      "en": ["two-way radio", "handheld radio"]
+    },
+    "tags": {
+      "pt": ["rádio", "transmissor", "câmbio", "segurança"],
+      "en": ["radio", "transceiver", "push to talk", "security"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  }
+]

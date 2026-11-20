@@ -1,0 +1,1898 @@
+[
+  {
+    "id": "gbe4ykg0",
+    "slug": "ant",
+    "name": {
+      "pt": "Formiga",
+      "en": "Ant"
+    },
+    "subcategory": "insects",
+    "family": "ant",
+    "synonyms": {
+      "pt": ["formigueiro"],
+      "en": ["anthill"]
+    },
+    "tags": {
+      "pt": ["inseto", "trabalho", "colônia", "piquenique"],
+      "en": ["insect", "work", "colony", "picnic"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gh1nqwj5",
+    "slug": "bat",
+    "name": {
+      "pt": "Morcego",
+      "en": "Bat"
+    },
+    "subcategory": "wild",
+    "family": "bat",
+    "synonyms": {
+      "pt": ["quiróptero"],
+      "en": ["flying fox"]
+    },
+    "tags": {
+      "pt": ["halloween", "noite", "vampiro", "caverna"],
+      "en": ["halloween", "night", "vampire", "cave"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gtwqqwpx",
+    "slug": "bear",
+    "name": {
+      "pt": "Urso",
+      "en": "Bear"
+    },
+    "subcategory": "wild",
+    "family": "bear",
+    "synonyms": {
+      "pt": ["ursinho", "urso pardo"],
+      "en": ["teddy", "grizzly"]
+    },
+    "tags": {
+      "pt": ["floresta", "selvagem", "pelúcia"],
+      "en": ["forest", "wild", "teddy bear"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8ctd29x",
+    "slug": "bee",
+    "name": {
+      "pt": "Abelha",
+      "en": "Bee"
+    },
+    "subcategory": "insects",
+    "family": "bee",
+    "synonyms": {
+      "pt": ["vespa", "zangão"],
+      "en": ["wasp", "bumblebee"]
+    },
+    "tags": {
+      "pt": ["mel", "inseto", "polinização", "colmeia"],
+      "en": ["honey", "insect", "pollination", "hive"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ght6nykc",
+    "slug": "beehive",
+    "name": {
+      "pt": "Colmeia",
+      "en": "Beehive"
+    },
+    "subcategory": "insects",
+    "family": "bee",
+    "synonyms": {
+      "pt": ["cortiço", "casa de abelhas"],
+      "en": ["hive", "skep"]
+    },
+    "tags": {
+      "pt": ["mel", "abelha", "apicultura", "apiário"],
+      "en": ["honey", "bee", "beekeeping", "apiary"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gby2kdjt",
+    "slug": "beetle",
+    "name": {
+      "pt": "Besouro",
+      "en": "Beetle"
+    },
+    "subcategory": "insects",
+    "family": "beetle",
+    "synonyms": {
+      "pt": ["escaravelho", "coleóptero"],
+      "en": ["scarab"]
+    },
+    "tags": {
+      "pt": ["inseto", "jardim", "natureza", "casca"],
+      "en": ["insect", "garden", "nature", "shell"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gq2scerz",
+    "slug": "bird",
+    "name": {
+      "pt": "Pássaro",
+      "en": "Bird"
+    },
+    "subcategory": "birds",
+    "family": "bird",
+    "synonyms": {
+      "pt": ["ave", "passarinho"],
+      "en": ["songbird", "sparrow"]
+    },
+    "tags": {
+      "pt": ["pássaro canoro", "voar", "natureza", "tweet"],
+      "en": ["fly", "nature", "tweet", "birdwatching"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gw01rcma",
+    "slug": "bird-flying",
+    "name": {
+      "pt": "Pássaro voando",
+      "en": "Flying bird"
+    },
+    "subcategory": "birds",
+    "family": "bird",
+    "synonyms": {
+      "pt": ["ave em voo", "gaivota"],
+      "en": ["bird in flight", "gull"]
+    },
+    "tags": {
+      "pt": ["liberdade", "voar", "migração", "céu"],
+      "en": ["freedom", "fly", "migration", "sky"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gafrk6c0",
+    "slug": "bone",
+    "name": {
+      "pt": "Osso",
+      "en": "Bone"
+    },
+    "subcategory": "pets",
+    "family": "bone",
+    "synonyms": {
+      "pt": ["ossinho", "petisco"],
+      "en": ["dog bone", "treat"]
+    },
+    "tags": {
+      "pt": ["cachorro", "pet", "brinquedo", "recompensa"],
+      "en": ["dog", "pet", "chew toy", "reward"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gcnqx9kp",
+    "slug": "butterfly",
+    "name": {
+      "pt": "Borboleta",
+      "en": "Butterfly"
+    },
+    "subcategory": "insects",
+    "family": "butterfly",
+    "synonyms": {
+      "pt": ["mariposa"],
+      "en": ["moth"]
+    },
+    "tags": {
+      "pt": ["primavera", "natureza", "transformação", "jardim"],
+      "en": ["spring", "nature", "transformation", "garden"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ge9gttjs",
+    "slug": "camel",
+    "name": {
+      "pt": "Camelo",
+      "en": "Camel"
+    },
+    "subcategory": "wild",
+    "family": "camel",
+    "synonyms": {
+      "pt": ["dromedário"],
+      "en": ["dromedary"]
+    },
+    "tags": {
+      "pt": ["deserto", "saara", "corcova", "oásis"],
+      "en": ["desert", "sahara", "hump", "oasis"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g32b807n",
+    "slug": "cat",
+    "name": {
+      "pt": "Gato",
+      "en": "Cat"
+    },
+    "subcategory": "pets",
+    "family": "cat",
+    "synonyms": {
+      "pt": ["felino", "bichano", "gatinho"],
+      "en": ["kitty", "feline", "kitten"]
+    },
+    "tags": {
+      "pt": ["pet", "animal de estimação", "miau"],
+      "en": ["pet", "animal", "meow"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwy8jhfj",
+    "slug": "caterpillar",
+    "name": {
+      "pt": "Lagarta",
+      "en": "Caterpillar"
+    },
+    "subcategory": "insects",
+    "family": "caterpillar",
+    "synonyms": {
+      "pt": ["taturana", "larva"],
+      "en": ["larva", "inchworm"]
+    },
+    "tags": {
+      "pt": ["borboleta", "folha", "jardim", "transformação"],
+      "en": ["butterfly", "leaf", "garden", "metamorphosis"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8tdcwds",
+    "slug": "chicken",
+    "name": {
+      "pt": "Galinha",
+      "en": "Chicken"
+    },
+    "subcategory": "birds",
+    "family": "chicken",
+    "synonyms": {
+      "pt": ["frango", "pintinho"],
+      "en": ["hen", "chick"]
+    },
+    "tags": {
+      "pt": ["fazenda", "ovos", "granja", "ave"],
+      "en": ["farm", "eggs", "poultry", "bird"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5g9sm3h",
+    "slug": "cow",
+    "name": {
+      "pt": "Vaca",
+      "en": "Cow"
+    },
+    "subcategory": "wild",
+    "family": "cow",
+    "synonyms": {
+      "pt": ["boi", "gado", "bezerro"],
+      "en": ["cattle", "ox", "calf"]
+    },
+    "tags": {
+      "pt": ["fazenda", "leite", "rural", "mugido"],
+      "en": ["farm", "milk", "dairy", "moo"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4j9kkt5",
+    "slug": "crab",
+    "name": {
+      "pt": "Caranguejo",
+      "en": "Crab"
+    },
+    "subcategory": "sea",
+    "family": "crab",
+    "synonyms": {
+      "pt": ["siri", "crustáceo"],
+      "en": ["crustacean"]
+    },
+    "tags": {
+      "pt": ["praia", "mar", "frutos do mar", "pinça"],
+      "en": ["beach", "sea", "seafood", "pincer"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grpfxjfw",
+    "slug": "cricket",
+    "name": {
+      "pt": "Grilo",
+      "en": "Cricket"
+    },
+    "subcategory": "insects",
+    "family": "cricket",
+    "synonyms": {
+      "pt": ["gafanhoto", "saltão"],
+      "en": ["grasshopper", "locust"]
+    },
+    "tags": {
+      "pt": ["inseto", "noite", "pular", "campo"],
+      "en": ["insect", "night", "jump", "field"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gm984yjg",
+    "slug": "crocodile",
+    "name": {
+      "pt": "Crocodilo",
+      "en": "Crocodile"
+    },
+    "subcategory": "wild",
+    "family": "crocodile",
+    "synonyms": {
+      "pt": ["jacaré", "aligátor"],
+      "en": ["alligator", "gator"]
+    },
+    "tags": {
+      "pt": ["réptil", "rio", "pântano", "dentes"],
+      "en": ["reptile", "river", "swamp", "teeth"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gvtq32gs",
+    "slug": "deer",
+    "name": {
+      "pt": "Veado",
+      "en": "Deer"
+    },
+    "subcategory": "wild",
+    "family": "deer",
+    "synonyms": {
+      "pt": ["cervo", "rena", "gazela"],
+      "en": ["stag", "reindeer", "elk"]
+    },
+    "tags": {
+      "pt": ["floresta", "chifres", "natal", "selvagem"],
+      "en": ["forest", "antlers", "christmas", "wild"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5v3bjnw",
+    "slug": "dog",
+    "name": {
+      "pt": "Cachorro",
+      "en": "Dog"
+    },
+    "subcategory": "pets",
+    "family": "dog",
+    "synonyms": {
+      "pt": ["cão", "cachorrinho", "filhote"],
+      "en": ["puppy", "hound", "doggy"]
+    },
+    "tags": {
+      "pt": ["pet", "animal de estimação", "latido"],
+      "en": ["pet", "animal", "bark"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gv4nzbk9",
+    "slug": "dolphin",
+    "name": {
+      "pt": "Golfinho",
+      "en": "Dolphin"
+    },
+    "subcategory": "sea",
+    "family": "dolphin",
+    "synonyms": {
+      "pt": ["boto", "delfim"],
+      "en": ["porpoise"]
+    },
+    "tags": {
+      "pt": ["oceano", "mar", "inteligente", "salto"],
+      "en": ["ocean", "sea", "smart", "jump"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g051npsv",
+    "slug": "dragonfly",
+    "name": {
+      "pt": "Libélula",
+      "en": "Dragonfly"
+    },
+    "subcategory": "insects",
+    "family": "dragonfly",
+    "synonyms": {
+      "pt": ["lava-bunda", "odonata"],
+      "en": ["damselfly"]
+    },
+    "tags": {
+      "pt": ["lago", "verão", "inseto", "voo"],
+      "en": ["pond", "summer", "insect", "flight"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4ekxs93",
+    "slug": "duck",
+    "name": {
+      "pt": "Pato",
+      "en": "Duck"
+    },
+    "subcategory": "birds",
+    "family": "duck",
+    "synonyms": {
+      "pt": ["patinho", "marreco"],
+      "en": ["duckling", "mallard"]
+    },
+    "tags": {
+      "pt": ["lago", "fazenda", "quack", "água"],
+      "en": ["pond", "farm", "quack", "water"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbv29ge0",
+    "slug": "eagle",
+    "name": {
+      "pt": "Águia",
+      "en": "Eagle"
+    },
+    "subcategory": "birds",
+    "family": "eagle",
+    "synonyms": {
+      "pt": ["gavião", "falcão", "ave de rapina"],
+      "en": ["hawk", "falcon", "bird of prey"]
+    },
+    "tags": {
+      "pt": ["liberdade", "força", "visão"],
+      "en": ["freedom", "strength", "vision"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8fvkjxq",
+    "slug": "egg",
+    "name": {
+      "pt": "Ovo",
+      "en": "Egg"
+    },
+    "subcategory": "birds",
+    "family": "egg",
+    "synonyms": {
+      "pt": ["ovo de galinha"],
+      "en": ["hen egg"]
+    },
+    "tags": {
+      "pt": ["páscoa", "café da manhã", "nascimento", "ave"],
+      "en": ["easter", "breakfast", "birth", "bird"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gs735by7",
+    "slug": "elephant",
+    "name": {
+      "pt": "Elefante",
+      "en": "Elephant"
+    },
+    "subcategory": "wild",
+    "family": "elephant",
+    "synonyms": {
+      "pt": ["paquiderme"],
+      "en": ["pachyderm"]
+    },
+    "tags": {
+      "pt": ["safári", "memória", "tromba", "savana"],
+      "en": ["safari", "memory", "trunk", "savanna"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gp2325z5",
+    "slug": "feather",
+    "name": {
+      "pt": "Pena",
+      "en": "Feather"
+    },
+    "subcategory": "birds",
+    "family": "feather",
+    "synonyms": {
+      "pt": ["pluma"],
+      "en": ["plume", "quill"]
+    },
+    "tags": {
+      "pt": ["leve", "escrita", "ave", "suavidade"],
+      "en": ["light", "writing", "bird", "soft"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grfh934w",
+    "slug": "fish",
+    "name": {
+      "pt": "Peixe",
+      "en": "Fish"
+    },
+    "subcategory": "sea",
+    "family": "fish",
+    "synonyms": {
+      "pt": ["pescado"],
+      "en": ["fishy"]
+    },
+    "tags": {
+      "pt": ["mar", "aquário", "pesca", "oceano"],
+      "en": ["sea", "aquarium", "fishing", "ocean"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gq4jj80a",
+    "slug": "fish-tropical",
+    "name": {
+      "pt": "Peixe tropical",
+      "en": "Tropical fish"
+    },
+    "subcategory": "sea",
+    "family": "fish",
+    "synonyms": {
+      "pt": ["peixe-anjo", "acará-disco"],
+      "en": ["angelfish", "discus"]
+    },
+    "tags": {
+      "pt": ["aquário", "recife", "coral", "colorido"],
+      "en": ["aquarium", "reef", "coral", "colorful"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkbcmh92",
+    "slug": "flamingo",
+    "name": {
+      "pt": "Flamingo",
+      "en": "Flamingo"
+    },
+    "subcategory": "birds",
+    "family": "flamingo",
+    "synonyms": {
+      "pt": ["flamingo-rosa"],
+      "en": ["pink flamingo"]
+    },
+    "tags": {
+      "pt": ["tropical", "rosa", "verão", "lago"],
+      "en": ["tropical", "pink", "summer", "lagoon"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g2e93ef4",
+    "slug": "fox",
+    "name": {
+      "pt": "Raposa",
+      "en": "Fox"
+    },
+    "subcategory": "wild",
+    "family": "fox",
+    "synonyms": {
+      "pt": ["raposinha", "vulpino"],
+      "en": ["vixen", "cub"]
+    },
+    "tags": {
+      "pt": ["floresta", "esperto", "astuto"],
+      "en": ["forest", "clever", "sly"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g312xwx0",
+    "slug": "frog",
+    "name": {
+      "pt": "Sapo",
+      "en": "Frog"
+    },
+    "subcategory": "wild",
+    "family": "frog",
+    "synonyms": {
+      "pt": ["rã", "perereca"],
+      "en": ["toad", "tree frog"]
+    },
+    "tags": {
+      "pt": ["lagoa", "anfíbio", "pular", "príncipe"],
+      "en": ["pond", "amphibian", "jump", "prince"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gp8e2gkr",
+    "slug": "giraffe",
+    "name": {
+      "pt": "Girafa",
+      "en": "Giraffe"
+    },
+    "subcategory": "wild",
+    "family": "giraffe",
+    "synonyms": {
+      "pt": ["camelopardo"],
+      "en": ["camelopard"]
+    },
+    "tags": {
+      "pt": ["savana", "safári", "pescoço longo", "áfrica"],
+      "en": ["savanna", "safari", "long neck", "africa"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1gy5grp",
+    "slug": "goat",
+    "name": {
+      "pt": "Cabra",
+      "en": "Goat"
+    },
+    "subcategory": "wild",
+    "family": "goat",
+    "synonyms": {
+      "pt": ["bode", "cabrito", "caprino"],
+      "en": ["billy goat", "kid"]
+    },
+    "tags": {
+      "pt": ["fazenda", "chifres", "montanha"],
+      "en": ["farm", "horns", "mountain"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqv6b36j",
+    "slug": "hamster",
+    "name": {
+      "pt": "Hamster",
+      "en": "Hamster"
+    },
+    "subcategory": "pets",
+    "family": "hamster",
+    "synonyms": {
+      "pt": ["roedor", "porquinho-da-índia"],
+      "en": ["rodent", "guinea pig"]
+    },
+    "tags": {
+      "pt": ["pet", "gaiola", "fofo"],
+      "en": ["pet", "cage", "cute"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8g75g9g",
+    "slug": "hedgehog",
+    "name": {
+      "pt": "Ouriço",
+      "en": "Hedgehog"
+    },
+    "subcategory": "wild",
+    "family": "hedgehog",
+    "synonyms": {
+      "pt": ["porco-espinho", "ouriço-cacheiro"],
+      "en": ["porcupine"]
+    },
+    "tags": {
+      "pt": ["espinhos", "floresta", "fofo"],
+      "en": ["spines", "forest", "cute"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gss6079z",
+    "slug": "hippo",
+    "name": {
+      "pt": "Hipopótamo",
+      "en": "Hippo"
+    },
+    "subcategory": "wild",
+    "family": "hippo",
+    "synonyms": {
+      "pt": ["hipo"],
+      "en": ["hippopotamus"]
+    },
+    "tags": {
+      "pt": ["rio", "áfrica", "safári", "pesado"],
+      "en": ["river", "africa", "safari", "heavy"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpqm72f5",
+    "slug": "horse",
+    "name": {
+      "pt": "Cavalo",
+      "en": "Horse"
+    },
+    "subcategory": "wild",
+    "family": "horse",
+    "synonyms": {
+      "pt": ["égua", "equino", "potro"],
+      "en": ["mare", "stallion", "pony"]
+    },
+    "tags": {
+      "pt": ["fazenda", "hipismo", "cavalgar"],
+      "en": ["farm", "equestrian", "riding"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gcy13b00",
+    "slug": "hummingbird",
+    "name": {
+      "pt": "Beija-flor",
+      "en": "Hummingbird"
+    },
+    "subcategory": "birds",
+    "family": "hummingbird",
+    "synonyms": {
+      "pt": ["colibri"],
+      "en": ["colibri"]
+    },
+    "tags": {
+      "pt": ["flor", "néctar", "voo", "delicado"],
+      "en": ["flower", "nectar", "hovering", "tiny bird"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4gcc6gd",
+    "slug": "jellyfish",
+    "name": {
+      "pt": "Água-viva",
+      "en": "Jellyfish"
+    },
+    "subcategory": "sea",
+    "family": "jellyfish",
+    "synonyms": {
+      "pt": ["medusa", "alforreca"],
+      "en": ["medusa", "sea jelly"]
+    },
+    "tags": {
+      "pt": ["mar", "oceano", "queimadura", "praia"],
+      "en": ["sea", "ocean", "sting", "beach"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ga9xqtct",
+    "slug": "kangaroo",
+    "name": {
+      "pt": "Canguru",
+      "en": "Kangaroo"
+    },
+    "subcategory": "wild",
+    "family": "kangaroo",
+    "synonyms": {
+      "pt": ["marsupial", "wallaby"],
+      "en": ["marsupial", "wallaby"]
+    },
+    "tags": {
+      "pt": ["austrália", "pulo", "bolsa"],
+      "en": ["australia", "jump", "pouch"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1dq25e2",
+    "slug": "koala",
+    "name": {
+      "pt": "Coala",
+      "en": "Koala"
+    },
+    "subcategory": "wild",
+    "family": "koala",
+    "synonyms": {
+      "pt": ["urso coala", "marsupial"],
+      "en": ["koala bear", "marsupial"]
+    },
+    "tags": {
+      "pt": ["austrália", "eucalipto", "fofo"],
+      "en": ["australia", "eucalyptus", "cute"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmrggb9m",
+    "slug": "ladybug",
+    "name": {
+      "pt": "Joaninha",
+      "en": "Ladybug"
+    },
+    "subcategory": "insects",
+    "family": "ladybug",
+    "synonyms": {
+      "pt": ["coccinélida"],
+      "en": ["ladybird"]
+    },
+    "tags": {
+      "pt": ["sorte", "jardim", "inseto", "primavera"],
+      "en": ["luck", "garden", "insect", "spring"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4bx27cf",
+    "slug": "lion",
+    "name": {
+      "pt": "Leão",
+      "en": "Lion"
+    },
+    "subcategory": "wild",
+    "family": "lion",
+    "synonyms": {
+      "pt": ["leoa", "felino", "rei da selva"],
+      "en": ["lioness", "big cat", "king of the jungle"]
+    },
+    "tags": {
+      "pt": ["savana", "safári", "coragem", "juba"],
+      "en": ["savanna", "safari", "courage", "mane"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0xr4k13",
+    "slug": "lizard",
+    "name": {
+      "pt": "Lagarto",
+      "en": "Lizard"
+    },
+    "subcategory": "wild",
+    "family": "lizard",
+    "synonyms": {
+      "pt": ["lagartixa", "iguana", "camaleão"],
+      "en": ["gecko", "iguana", "chameleon"]
+    },
+    "tags": {
+      "pt": ["réptil", "deserto", "sol", "rastejar"],
+      "en": ["reptile", "desert", "sun", "crawl"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gjbbrfsx",
+    "slug": "monkey",
+    "name": {
+      "pt": "Macaco",
+      "en": "Monkey"
+    },
+    "subcategory": "wild",
+    "family": "monkey",
+    "synonyms": {
+      "pt": ["mico", "chimpanzé", "primata"],
+      "en": ["chimp", "ape", "primate"]
+    },
+    "tags": {
+      "pt": ["selva", "banana", "zoológico"],
+      "en": ["jungle", "banana", "zoo"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbcjpr7c",
+    "slug": "mosquito",
+    "name": {
+      "pt": "Mosquito",
+      "en": "Mosquito"
+    },
+    "subcategory": "insects",
+    "family": "mosquito",
+    "synonyms": {
+      "pt": ["pernilongo", "muriçoca"],
+      "en": ["gnat"]
+    },
+    "tags": {
+      "pt": ["picada", "dengue", "inseto", "verão"],
+      "en": ["bite", "insect", "summer", "dengue"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gcaykxc1",
+    "slug": "mouse-animal",
+    "name": {
+      "pt": "Rato",
+      "en": "Mouse"
+    },
+    "subcategory": "wild",
+    "family": "mouse",
+    "synonyms": {
+      "pt": ["camundongo", "ratinho"],
+      "en": ["rat", "rodent"]
+    },
+    "tags": {
+      "pt": ["roedor", "queijo", "praga"],
+      "en": ["cheese", "pest", "mice"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gb7z8t8e",
+    "slug": "nest",
+    "name": {
+      "pt": "Ninho",
+      "en": "Nest"
+    },
+    "subcategory": "birds",
+    "family": "nest",
+    "synonyms": {
+      "pt": ["ninho de pássaro"],
+      "en": ["bird nest"]
+    },
+    "tags": {
+      "pt": ["ovos", "ave", "lar", "primavera"],
+      "en": ["eggs", "bird", "home", "spring"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnk6ktd1",
+    "slug": "octopus",
+    "name": {
+      "pt": "Polvo",
+      "en": "Octopus"
+    },
+    "subcategory": "sea",
+    "family": "octopus",
+    "synonyms": {
+      "pt": ["molusco", "tentáculos"],
+      "en": ["mollusk", "tentacles"]
+    },
+    "tags": {
+      "pt": ["mar", "oceano", "fundo do mar", "frutos do mar"],
+      "en": ["sea", "ocean", "deep sea", "seafood"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gc92swfq",
+    "slug": "owl",
+    "name": {
+      "pt": "Coruja",
+      "en": "Owl"
+    },
+    "subcategory": "birds",
+    "family": "owl",
+    "synonyms": {
+      "pt": ["mocho", "corujinha"],
+      "en": ["night owl", "hoot"]
+    },
+    "tags": {
+      "pt": ["sabedoria", "noite", "conhecimento", "floresta"],
+      "en": ["wisdom", "night", "knowledge", "forest"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1xxtek3",
+    "slug": "panda",
+    "name": {
+      "pt": "Panda",
+      "en": "Panda"
+    },
+    "subcategory": "wild",
+    "family": "bear",
+    "synonyms": {
+      "pt": ["urso panda", "panda gigante"],
+      "en": ["giant panda", "panda bear"]
+    },
+    "tags": {
+      "pt": ["bambu", "china", "fofo", "conservação"],
+      "en": ["bamboo", "china", "cute", "conservation"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzrr3pz7",
+    "slug": "parrot",
+    "name": {
+      "pt": "Papagaio",
+      "en": "Parrot"
+    },
+    "subcategory": "birds",
+    "family": "parrot",
+    "synonyms": {
+      "pt": ["arara", "periquito", "louro"],
+      "en": ["macaw", "parakeet"]
+    },
+    "tags": {
+      "pt": ["tropical", "falar", "colorido", "ave"],
+      "en": ["tropical", "talk", "colorful", "bird"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggj9435h",
+    "slug": "paw",
+    "name": {
+      "pt": "Pata",
+      "en": "Paw"
+    },
+    "subcategory": "pets",
+    "family": "paw",
+    "synonyms": {
+      "pt": ["pegada", "patinha"],
+      "en": ["paw print", "pawprint"]
+    },
+    "tags": {
+      "pt": ["pet", "cachorro", "gato", "rastro", "veterinário"],
+      "en": ["pet", "dog", "cat", "track", "vet"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggspe21j",
+    "slug": "penguin",
+    "name": {
+      "pt": "Pinguim",
+      "en": "Penguin"
+    },
+    "subcategory": "birds",
+    "family": "penguin",
+    "synonyms": {
+      "pt": ["pinguim-imperador"],
+      "en": ["emperor penguin"]
+    },
+    "tags": {
+      "pt": ["polo sul", "gelo", "frio", "antártida"],
+      "en": ["south pole", "ice", "cold", "antarctica"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g6t3020p",
+    "slug": "pet-bowl",
+    "name": {
+      "pt": "Tigela de ração",
+      "en": "Pet bowl"
+    },
+    "subcategory": "pets",
+    "family": "bone",
+    "synonyms": {
+      "pt": ["comedouro", "pote de ração"],
+      "en": ["food bowl", "feeding dish"]
+    },
+    "tags": {
+      "pt": ["pet", "comida", "cachorro", "gato"],
+      "en": ["pet", "food", "dog", "cat"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7fnzexp",
+    "slug": "pig",
+    "name": {
+      "pt": "Porco",
+      "en": "Pig"
+    },
+    "subcategory": "wild",
+    "family": "pig",
+    "synonyms": {
+      "pt": ["porquinho", "suíno", "leitão"],
+      "en": ["piglet", "hog", "swine"]
+    },
+    "tags": {
+      "pt": ["fazenda", "cofrinho", "rural"],
+      "en": ["farm", "piggy", "rural"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gevtekfc",
+    "slug": "rabbit",
+    "name": {
+      "pt": "Coelho",
+      "en": "Rabbit"
+    },
+    "subcategory": "pets",
+    "family": "rabbit",
+    "synonyms": {
+      "pt": ["coelhinho", "lebre"],
+      "en": ["bunny", "hare"]
+    },
+    "tags": {
+      "pt": ["páscoa", "pet", "orelhas"],
+      "en": ["easter", "pet", "ears"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gvm5xy23",
+    "slug": "rhino",
+    "name": {
+      "pt": "Rinoceronte",
+      "en": "Rhino"
+    },
+    "subcategory": "wild",
+    "family": "rhino",
+    "synonyms": {
+      "pt": ["rino"],
+      "en": ["rhinoceros"]
+    },
+    "tags": {
+      "pt": ["savana", "chifre", "safári", "áfrica"],
+      "en": ["savanna", "horn", "safari", "africa"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gewcbynn",
+    "slug": "rooster",
+    "name": {
+      "pt": "Galo",
+      "en": "Rooster"
+    },
+    "subcategory": "birds",
+    "family": "chicken",
+    "synonyms": {
+      "pt": ["galo de briga"],
+      "en": ["cock", "cockerel"]
+    },
+    "tags": {
+      "pt": ["fazenda", "amanhecer", "cocoricó", "ave"],
+      "en": ["farm", "dawn", "crow", "bird"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqzzrfne",
+    "slug": "scorpion",
+    "name": {
+      "pt": "Escorpião",
+      "en": "Scorpion"
+    },
+    "subcategory": "insects",
+    "family": "scorpion",
+    "synonyms": {
+      "pt": ["lacrau"],
+      "en": ["arachnid"]
+    },
+    "tags": {
+      "pt": ["deserto", "veneno", "ferrão", "perigo"],
+      "en": ["desert", "venom", "stinger", "danger"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmvtfphx",
+    "slug": "seahorse",
+    "name": {
+      "pt": "Cavalo-marinho",
+      "en": "Seahorse"
+    },
+    "subcategory": "sea",
+    "family": "seahorse",
+    "synonyms": {
+      "pt": ["hipocampo"],
+      "en": ["sea horse"]
+    },
+    "tags": {
+      "pt": ["mar", "aquário", "recife", "oceano"],
+      "en": ["sea", "aquarium", "reef", "ocean"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdv9v1ck",
+    "slug": "seal",
+    "name": {
+      "pt": "Foca",
+      "en": "Seal"
+    },
+    "subcategory": "sea",
+    "family": "seal",
+    "synonyms": {
+      "pt": ["leão-marinho", "lobo-marinho"],
+      "en": ["sea lion"]
+    },
+    "tags": {
+      "pt": ["polo", "gelo", "mar", "circo"],
+      "en": ["polar", "ice", "sea", "circus"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gyg60dfs",
+    "slug": "shark",
+    "name": {
+      "pt": "Tubarão",
+      "en": "Shark"
+    },
+    "subcategory": "sea",
+    "family": "shark",
+    "synonyms": {
+      "pt": ["tubarão-branco", "cação"],
+      "en": ["great white"]
+    },
+    "tags": {
+      "pt": ["oceano", "perigo", "predador", "mar"],
+      "en": ["ocean", "danger", "predator", "sea"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkapg1jq",
+    "slug": "sheep",
+    "name": {
+      "pt": "Ovelha",
+      "en": "Sheep"
+    },
+    "subcategory": "wild",
+    "family": "sheep",
+    "synonyms": {
+      "pt": ["carneiro", "cordeiro"],
+      "en": ["lamb", "ram"]
+    },
+    "tags": {
+      "pt": ["lã", "fazenda", "dormir", "contar carneirinhos"],
+      "en": ["wool", "farm", "sleep", "counting sheep"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gfvcjy67",
+    "slug": "shell",
+    "name": {
+      "pt": "Concha",
+      "en": "Shell"
+    },
+    "subcategory": "sea",
+    "family": "shell",
+    "synonyms": {
+      "pt": ["vieira", "búzio"],
+      "en": ["seashell", "scallop"]
+    },
+    "tags": {
+      "pt": ["praia", "mar", "verão", "areia"],
+      "en": ["beach", "sea", "summer", "sand"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gg1703sg",
+    "slug": "shrimp",
+    "name": {
+      "pt": "Camarão",
+      "en": "Shrimp"
+    },
+    "subcategory": "sea",
+    "family": "shrimp",
+    "synonyms": {
+      "pt": ["camarãozinho", "crustáceo"],
+      "en": ["prawn", "crustacean"]
+    },
+    "tags": {
+      "pt": ["frutos do mar", "mar", "culinária"],
+      "en": ["seafood", "sea", "cooking"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdfda22e",
+    "slug": "snail",
+    "name": {
+      "pt": "Caracol",
+      "en": "Snail"
+    },
+    "subcategory": "insects",
+    "family": "snail",
+    "synonyms": {
+      "pt": ["lesma", "caramujo"],
+      "en": ["slug", "gastropod"]
+    },
+    "tags": {
+      "pt": ["devagar", "lento", "jardim", "concha"],
+      "en": ["slow", "garden", "shell", "slowly"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5se0d1g",
+    "slug": "snake",
+    "name": {
+      "pt": "Cobra",
+      "en": "Snake"
+    },
+    "subcategory": "wild",
+    "family": "snake",
+    "synonyms": {
+      "pt": ["serpente", "víbora"],
+      "en": ["serpent", "viper"]
+    },
+    "tags": {
+      "pt": ["réptil", "veneno", "perigo", "python"],
+      "en": ["reptile", "venom", "danger", "python"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g2hg2qys",
+    "slug": "spider",
+    "name": {
+      "pt": "Aranha",
+      "en": "Spider"
+    },
+    "subcategory": "insects",
+    "family": "spider",
+    "synonyms": {
+      "pt": ["aracnídeo"],
+      "en": ["arachnid"]
+    },
+    "tags": {
+      "pt": ["teia", "halloween", "medo", "inseto"],
+      "en": ["web", "halloween", "fear", "bug"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gxjmhd9n",
+    "slug": "spider-web",
+    "name": {
+      "pt": "Teia de aranha",
+      "en": "Spider web"
+    },
+    "subcategory": "insects",
+    "family": "spider",
+    "synonyms": {
+      "pt": ["teia"],
+      "en": ["cobweb", "web"]
+    },
+    "tags": {
+      "pt": ["halloween", "rede", "armadilha", "aranha"],
+      "en": ["halloween", "net", "trap", "spider"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkbkea4j",
+    "slug": "squid",
+    "name": {
+      "pt": "Lula",
+      "en": "Squid"
+    },
+    "subcategory": "sea",
+    "family": "squid",
+    "synonyms": {
+      "pt": ["calamar"],
+      "en": ["calamari"]
+    },
+    "tags": {
+      "pt": ["frutos do mar", "oceano", "tentáculos", "mar"],
+      "en": ["seafood", "ocean", "tentacles", "sea"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdjbahxn",
+    "slug": "squirrel",
+    "name": {
+      "pt": "Esquilo",
+      "en": "Squirrel"
+    },
+    "subcategory": "wild",
+    "family": "squirrel",
+    "synonyms": {
+      "pt": ["serelepe", "caxinguelê"],
+      "en": ["chipmunk"]
+    },
+    "tags": {
+      "pt": ["floresta", "noz", "rabo", "outono"],
+      "en": ["forest", "nut", "tail", "autumn"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gp3bx4mg",
+    "slug": "starfish",
+    "name": {
+      "pt": "Estrela-do-mar",
+      "en": "Starfish"
+    },
+    "subcategory": "sea",
+    "family": "starfish",
+    "synonyms": {
+      "pt": ["asteroide"],
+      "en": ["sea star"]
+    },
+    "tags": {
+      "pt": ["praia", "mar", "oceano", "verão"],
+      "en": ["beach", "sea", "ocean", "summer"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g95tn1qh",
+    "slug": "swan",
+    "name": {
+      "pt": "Cisne",
+      "en": "Swan"
+    },
+    "subcategory": "birds",
+    "family": "swan",
+    "synonyms": {
+      "pt": ["cisne branco"],
+      "en": ["white swan"]
+    },
+    "tags": {
+      "pt": ["lago", "elegância", "amor", "balé"],
+      "en": ["lake", "elegance", "love", "ballet"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grrb35a7",
+    "slug": "tiger",
+    "name": {
+      "pt": "Tigre",
+      "en": "Tiger"
+    },
+    "subcategory": "wild",
+    "family": "tiger",
+    "synonyms": {
+      "pt": ["felino", "onça"],
+      "en": ["big cat", "wild cat"]
+    },
+    "tags": {
+      "pt": ["selva", "listras", "safári", "felino grande"],
+      "en": ["jungle", "stripes", "safari", "feline"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7x5t697",
+    "slug": "turtle",
+    "name": {
+      "pt": "Tartaruga",
+      "en": "Turtle"
+    },
+    "subcategory": "pets",
+    "family": "turtle",
+    "synonyms": {
+      "pt": ["jabuti", "cágado"],
+      "en": ["tortoise", "terrapin"]
+    },
+    "tags": {
+      "pt": ["lento", "réptil", "casco", "mar"],
+      "en": ["slow", "reptile", "shell", "sea"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gfbp38wh",
+    "slug": "whale",
+    "name": {
+      "pt": "Baleia",
+      "en": "Whale"
+    },
+    "subcategory": "sea",
+    "family": "whale",
+    "synonyms": {
+      "pt": ["baleia-azul", "jubarte"],
+      "en": ["blue whale", "humpback"]
+    },
+    "tags": {
+      "pt": ["oceano", "mar", "mamífero marinho", "grande"],
+      "en": ["ocean", "sea", "marine mammal", "big"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gm0n1dmz",
+    "slug": "wolf",
+    "name": {
+      "pt": "Lobo",
+      "en": "Wolf"
+    },
+    "subcategory": "wild",
+    "family": "wolf",
+    "synonyms": {
+      "pt": ["lobo-guará", "alcateia"],
+      "en": ["wolves", "pack"]
+    },
+    "tags": {
+      "pt": ["uivo", "lua", "selvagem", "floresta"],
+      "en": ["howl", "moon", "wild", "forest"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gfbfdqhj",
+    "slug": "worm",
+    "name": {
+      "pt": "Minhoca",
+      "en": "Worm"
+    },
+    "subcategory": "insects",
+    "family": "worm",
+    "synonyms": {
+      "pt": ["verme", "lombriga"],
+      "en": ["earthworm"]
+    },
+    "tags": {
+      "pt": ["terra", "jardim", "isca", "solo"],
+      "en": ["soil", "garden", "bait", "dirt"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpk024ys",
+    "slug": "zebra",
+    "name": {
+      "pt": "Zebra",
+      "en": "Zebra"
+    },
+    "subcategory": "wild",
+    "family": "zebra",
+    "synonyms": {
+      "pt": ["equídeo listrado"],
+      "en": ["striped horse"]
+    },
+    "tags": {
+      "pt": ["savana", "safári", "listras", "áfrica"],
+      "en": ["savanna", "safari", "stripes", "africa"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "updated": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  }
+]

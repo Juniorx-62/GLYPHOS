@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M8.81 11.07A3.5 3.5 0 1 1 12.93 15.19A5 5 0 1 1 8.81 11.07Z" data-part="body"/>
+  <polygon points="17.65 4.65 19.85 2.45 21.55 4.15 19.35 6.35" data-part="body"/>
+  <path d="M14.71 9.29L18.5 5.5"/>
+  <circle cx="9.77" cy="14.23" r="1.5" data-part="cut"/>
+  <path d="M5.53 16.35l2.12 2.12" data-part="cut"/>
+</svg>

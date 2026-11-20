@@ -1,0 +1,1223 @@
+[
+  {
+    "id": "g0kf2kq4",
+    "slug": "bridge",
+    "name": {
+      "pt": "Ponte",
+      "en": "Bridge"
+    },
+    "subcategory": "places",
+    "synonyms": {
+      "pt": ["ponte pênsil", "viaduto"],
+      "en": ["suspension bridge", "viaduct"]
+    },
+    "tags": {
+      "pt": ["rio", "travessia", "estrada", "conexão", "ponto turístico"],
+      "en": ["river", "crossing", "road", "connection", "landmark"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gegxycn5",
+    "slug": "castle",
+    "name": {
+      "pt": "Castelo",
+      "en": "Castle"
+    },
+    "subcategory": "places",
+    "synonyms": {
+      "pt": ["fortaleza", "palácio"],
+      "en": ["fortress", "palace"]
+    },
+    "tags": {
+      "pt": ["medieval", "reino", "história", "torre", "turismo"],
+      "en": ["medieval", "kingdom", "history", "tower", "tourism"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g04v9qm5",
+    "slug": "cemetery",
+    "name": {
+      "pt": "Cemitério",
+      "en": "Cemetery"
+    },
+    "subcategory": "places",
+    "synonyms": {
+      "pt": ["lápide", "túmulo"],
+      "en": ["tombstone", "gravestone"]
+    },
+    "tags": {
+      "pt": ["memorial", "sepultura", "finados", "halloween"],
+      "en": ["memorial", "grave", "graveyard", "halloween"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gtn0f1gw",
+    "slug": "city",
+    "name": {
+      "pt": "Cidade",
+      "en": "City"
+    },
+    "subcategory": "places",
+    "synonyms": {
+      "pt": ["centro", "metrópole", "prédios"],
+      "en": ["downtown", "metropolis", "buildings"]
+    },
+    "tags": {
+      "pt": ["urbano", "edifícios", "skyline", "município"],
+      "en": ["urban", "skyline", "town", "municipality"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5p4861x",
+    "slug": "clock-tower",
+    "name": {
+      "pt": "Torre do relógio",
+      "en": "Clock tower"
+    },
+    "subcategory": "places",
+    "synonyms": {
+      "pt": ["campanário", "torre com relógio"],
+      "en": ["belfry", "tower clock"]
+    },
+    "tags": {
+      "pt": ["marco", "praça", "centro histórico", "cidade"],
+      "en": ["landmark", "town square", "old town", "city"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gheh1k7p",
+    "slug": "compass",
+    "name": {
+      "pt": "Bússola",
+      "en": "Compass"
+    },
+    "subcategory": "navigation",
+    "synonyms": {
+      "pt": ["agulha", "norte"],
+      "en": ["needle", "north"]
+    },
+    "tags": {
+      "pt": ["direção", "orientação", "explorar", "navegação"],
+      "en": ["direction", "orientation", "explore", "navigation"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g81f3a25",
+    "slug": "crosshair",
+    "name": {
+      "pt": "Mira",
+      "en": "Crosshair"
+    },
+    "subcategory": "location",
+    "synonyms": {
+      "pt": ["alvo", "retícula"],
+      "en": ["reticle", "target"]
+    },
+    "tags": {
+      "pt": ["precisão", "foco", "apontar", "coordenada"],
+      "en": ["aim", "precision", "focus", "coordinate"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gcmqccfk",
+    "slug": "distance",
+    "name": {
+      "pt": "Distância",
+      "en": "Distance"
+    },
+    "subcategory": "navigation",
+    "synonyms": {
+      "pt": ["medir distância", "percurso"],
+      "en": ["measure distance", "length"]
+    },
+    "tags": {
+      "pt": ["quilômetros", "régua", "medição", "mapa"],
+      "en": ["kilometers", "miles", "measure", "map"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gy45t2b2",
+    "slug": "elevation",
+    "name": {
+      "pt": "Altitude",
+      "en": "Elevation"
+    },
+    "subcategory": "navigation",
+    "synonyms": {
+      "pt": ["elevação", "ganho de elevação"],
+      "en": ["altitude", "elevation gain"]
+    },
+    "tags": {
+      "pt": ["montanha", "subida", "trilha", "relevo", "altura"],
+      "en": ["mountain", "climb", "hiking", "terrain", "height"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gtcyrfjs",
+    "slug": "fire-hydrant",
+    "name": {
+      "pt": "Hidrante",
+      "en": "Fire hydrant"
+    },
+    "subcategory": "places",
+    "synonyms": {
+      "pt": ["hidrante de incêndio", "boca de incêndio"],
+      "en": ["hydrant", "fire plug"]
+    },
+    "tags": {
+      "pt": ["bombeiros", "rua", "água", "emergência"],
+      "en": ["firefighters", "street", "water", "emergency"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbmhc3tt",
+    "slug": "fountain",
+    "name": {
+      "pt": "Fonte",
+      "en": "Fountain"
+    },
+    "subcategory": "places",
+    "synonyms": {
+      "pt": ["chafariz", "fonte de água"],
+      "en": ["water fountain"]
+    },
+    "tags": {
+      "pt": ["praça", "água", "parque", "jardim"],
+      "en": ["square", "water", "park", "garden"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7rz7241",
+    "slug": "geofence",
+    "name": {
+      "pt": "Cerca virtual",
+      "en": "Geofence"
+    },
+    "subcategory": "location",
+    "synonyms": {
+      "pt": ["geocerca", "perímetro"],
+      "en": ["virtual fence", "perimeter"]
+    },
+    "tags": {
+      "pt": ["área", "raio", "zona", "monitoramento", "localização"],
+      "en": ["area", "radius", "zone", "monitoring", "location"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ge27wnda",
+    "slug": "globe",
+    "name": {
+      "pt": "Globo",
+      "en": "Globe"
+    },
+    "subcategory": "navigation",
+    "family": "globe",
+    "synonyms": {
+      "pt": ["mundo", "planeta", "terra"],
+      "en": ["world", "earth", "planet"]
+    },
+    "tags": {
+      "pt": ["internet", "web", "idioma", "internacional", "global"],
+      "en": ["internet", "web", "language", "international", "global"]
+    },
+    "popularity": 5,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gfdaktf6",
+    "slug": "globe-2",
+    "name": {
+      "pt": "Globo terrestre",
+      "en": "Desk globe"
+    },
+    "subcategory": "navigation",
+    "family": "globe",
+    "synonyms": {
+      "pt": ["globo de mesa", "mapa-múndi"],
+      "en": ["terrestrial globe", "world globe"]
+    },
+    "tags": {
+      "pt": ["geografia", "mundo", "escola", "viagem"],
+      "en": ["geography", "world", "school", "travel"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbakdjq4",
+    "slug": "lighthouse",
+    "name": {
+      "pt": "Farol",
+      "en": "Lighthouse"
+    },
+    "subcategory": "places",
+    "synonyms": {
+      "pt": ["farol marítimo"],
+      "en": ["beacon", "light tower"]
+    },
+    "tags": {
+      "pt": ["mar", "costa", "porto", "orientação", "navegação"],
+      "en": ["sea", "coast", "harbor", "guidance", "navigation"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g9hhc211",
+    "slug": "locate",
+    "name": {
+      "pt": "Localizar",
+      "en": "Locate"
+    },
+    "subcategory": "location",
+    "family": "locate",
+    "synonyms": {
+      "pt": ["minha localização", "gps"],
+      "en": ["my location", "gps"]
+    },
+    "tags": {
+      "pt": ["encontrar", "onde estou", "posição", "mira"],
+      "en": ["find me", "where am i", "position", "target"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkwq9wg8",
+    "slug": "locate-fixed",
+    "name": {
+      "pt": "Localização atual",
+      "en": "Locate fixed"
+    },
+    "subcategory": "location",
+    "family": "locate",
+    "variantOf": "locate",
+    "synonyms": {
+      "pt": ["localização fixada", "gps ativo"],
+      "en": ["current location", "gps fixed"]
+    },
+    "tags": {
+      "pt": ["onde estou", "posição atual", "centralizar"],
+      "en": ["where am i", "current position", "center map"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gs9zn1t8",
+    "slug": "locate-off",
+    "name": {
+      "pt": "Localização indisponível",
+      "en": "Locate off"
+    },
+    "subcategory": "location",
+    "family": "locate",
+    "variantOf": "locate",
+    "synonyms": {
+      "pt": ["gps desligado", "sem sinal"],
+      "en": ["gps off", "no signal"]
+    },
+    "tags": {
+      "pt": ["localizar", "posição", "privacidade"],
+      "en": ["locate", "position", "privacy", "location disabled"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gf5rqnat",
+    "slug": "map",
+    "name": {
+      "pt": "Mapa",
+      "en": "Map"
+    },
+    "subcategory": "navigation",
+    "synonyms": {
+      "pt": ["mapa dobrado", "carta"],
+      "en": ["folded map", "chart"]
+    },
+    "tags": {
+      "pt": ["navegação", "localização", "guia", "cartografia", "roteiro"],
+      "en": ["navigation", "location", "guide", "cartography"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gj63y6fg",
+    "slug": "map-pin",
+    "name": {
+      "pt": "Marcador de local",
+      "en": "Map pin"
+    },
+    "subcategory": "location",
+    "family": "map-pin",
+    "synonyms": {
+      "pt": ["pino", "localização", "endereço"],
+      "en": ["location", "marker", "place"]
+    },
+    "tags": {
+      "pt": ["mapa", "lugar", "gps", "onde"],
+      "en": ["map", "address", "gps"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gtv2b0x4",
+    "slug": "map-pin-check",
+    "name": {
+      "pt": "Local confirmado",
+      "en": "Map pin check"
+    },
+    "subcategory": "location",
+    "family": "map-pin",
+    "variantOf": "map-pin",
+    "synonyms": {
+      "pt": ["local verificado", "check-in"],
+      "en": ["location confirmed", "checked in"]
+    },
+    "tags": {
+      "pt": ["mapa", "pino", "chegada", "endereço confirmado"],
+      "en": ["map", "pin", "arrived", "verified address"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gjf7tt5x",
+    "slug": "map-pin-heart",
+    "name": {
+      "pt": "Local favorito",
+      "en": "Map pin heart"
+    },
+    "subcategory": "location",
+    "family": "map-pin",
+    "variantOf": "map-pin",
+    "synonyms": {
+      "pt": ["lugar favorito", "local salvo"],
+      "en": ["favorite place", "saved place"]
+    },
+    "tags": {
+      "pt": ["mapa", "pino", "coração", "preferido", "salvar"],
+      "en": ["map", "pin", "heart", "favorite", "saved"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g9n5amx3",
+    "slug": "map-pin-minus",
+    "name": {
+      "pt": "Remover local",
+      "en": "Map pin minus"
+    },
+    "subcategory": "location",
+    "family": "map-pin",
+    "variantOf": "map-pin",
+    "synonyms": {
+      "pt": ["excluir local", "desmarcar"],
+      "en": ["remove location", "delete place"]
+    },
+    "tags": {
+      "pt": ["mapa", "pino", "endereço", "remover ponto"],
+      "en": ["map", "pin", "address", "remove marker"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gm55ymft",
+    "slug": "map-pin-off",
+    "name": {
+      "pt": "Localização desativada",
+      "en": "Map pin off"
+    },
+    "subcategory": "location",
+    "family": "map-pin",
+    "variantOf": "map-pin",
+    "synonyms": {
+      "pt": ["sem localização", "gps desligado"],
+      "en": ["location off", "no location"]
+    },
+    "tags": {
+      "pt": ["mapa", "pino", "privacidade", "localização oculta"],
+      "en": ["map", "pin", "privacy", "location disabled"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0vbrx87",
+    "slug": "map-pin-plus",
+    "name": {
+      "pt": "Adicionar local",
+      "en": "Map pin plus"
+    },
+    "subcategory": "location",
+    "family": "map-pin",
+    "variantOf": "map-pin",
+    "synonyms": {
+      "pt": ["novo local", "marcar local"],
+      "en": ["add location", "new place"]
+    },
+    "tags": {
+      "pt": ["mapa", "pino", "endereço", "adicionar ponto"],
+      "en": ["map", "pin", "address", "add marker"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g9ht49tb",
+    "slug": "map-pin-user",
+    "name": {
+      "pt": "Localização de pessoa",
+      "en": "Map pin user"
+    },
+    "subcategory": "location",
+    "family": "map-pin",
+    "variantOf": "map-pin",
+    "synonyms": {
+      "pt": ["pessoa no mapa", "onde estou"],
+      "en": ["person location", "user location"]
+    },
+    "tags": {
+      "pt": ["compartilhar localização", "amigos por perto", "minha localização"],
+      "en": ["share location", "friends nearby", "my location"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g00em84g",
+    "slug": "map-pin-x",
+    "name": {
+      "pt": "Local inválido",
+      "en": "Map pin x"
+    },
+    "subcategory": "location",
+    "family": "map-pin",
+    "variantOf": "map-pin",
+    "synonyms": {
+      "pt": ["remover local", "local errado"],
+      "en": ["remove location", "wrong place"]
+    },
+    "tags": {
+      "pt": ["mapa", "pino", "cancelar", "endereço não encontrado"],
+      "en": ["map", "pin", "cancel", "location not found"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g77ya4dt",
+    "slug": "map-pinned",
+    "name": {
+      "pt": "Mapa com marcador",
+      "en": "Map pinned"
+    },
+    "subcategory": "navigation",
+    "family": "map",
+    "synonyms": {
+      "pt": ["local no mapa", "pino no mapa"],
+      "en": ["map with pin", "location on map"]
+    },
+    "tags": {
+      "pt": ["localização", "endereço", "destino", "onde fica"],
+      "en": ["location", "address", "destination", "where"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0vk7ak5",
+    "slug": "map-pins",
+    "name": {
+      "pt": "Vários locais",
+      "en": "Map pins"
+    },
+    "subcategory": "location",
+    "family": "map-pin",
+    "synonyms": {
+      "pt": ["marcadores", "pinos"],
+      "en": ["locations", "markers", "multiple places"]
+    },
+    "tags": {
+      "pt": ["mapa", "lugares", "endereços", "filiais", "pontos"],
+      "en": ["map", "places", "addresses", "branches"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g08azkyt",
+    "slug": "map-scale",
+    "name": {
+      "pt": "Escala do mapa",
+      "en": "Map scale"
+    },
+    "subcategory": "navigation",
+    "synonyms": {
+      "pt": ["barra de escala", "escala gráfica"],
+      "en": ["scale bar", "graphic scale"]
+    },
+    "tags": {
+      "pt": ["medir", "distância", "cartografia", "quilômetros"],
+      "en": ["measure", "distance", "cartography", "kilometers"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ghfhjdc1",
+    "slug": "map-search",
+    "name": {
+      "pt": "Buscar local",
+      "en": "Map search"
+    },
+    "subcategory": "places",
+    "synonyms": {
+      "pt": ["procurar endereço", "pesquisar no mapa"],
+      "en": ["search location", "find place"]
+    },
+    "tags": {
+      "pt": ["lupa", "mapa", "encontrar", "localizar"],
+      "en": ["magnifier", "map", "find", "lookup address"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g6eswy09",
+    "slug": "monument",
+    "name": {
+      "pt": "Monumento",
+      "en": "Monument"
+    },
+    "subcategory": "places",
+    "synonyms": {
+      "pt": ["obelisco", "marco"],
+      "en": ["obelisk", "memorial"]
+    },
+    "tags": {
+      "pt": ["turismo", "história", "ponto turístico", "memorial"],
+      "en": ["tourism", "history", "landmark", "sightseeing"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ga8aesx7",
+    "slug": "navigation",
+    "name": {
+      "pt": "Navegação",
+      "en": "Navigation"
+    },
+    "subcategory": "location",
+    "family": "navigation",
+    "synonyms": {
+      "pt": ["seta de navegação", "gps"],
+      "en": ["location arrow", "gps arrow"]
+    },
+    "tags": {
+      "pt": ["direção", "rota", "localização", "ir"],
+      "en": ["direction", "route", "location", "go"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5jvpvrt",
+    "slug": "navigation-2",
+    "name": {
+      "pt": "Navegação para cima",
+      "en": "Navigation up"
+    },
+    "subcategory": "location",
+    "family": "navigation",
+    "synonyms": {
+      "pt": ["seta de navegação", "bússola"],
+      "en": ["navigation arrow", "heading"]
+    },
+    "tags": {
+      "pt": ["direção", "norte", "rota", "gps"],
+      "en": ["direction", "north", "route", "gps"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwnm20e0",
+    "slug": "navigation-off",
+    "name": {
+      "pt": "Navegação desativada",
+      "en": "Navigation off"
+    },
+    "subcategory": "location",
+    "family": "navigation",
+    "variantOf": "navigation",
+    "synonyms": {
+      "pt": ["gps desligado", "sem navegação"],
+      "en": ["gps off", "no navigation"]
+    },
+    "tags": {
+      "pt": ["direção", "rota", "localização desligada"],
+      "en": ["direction", "route", "location disabled"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gynme576",
+    "slug": "north-arrow",
+    "name": {
+      "pt": "Seta do norte",
+      "en": "North arrow"
+    },
+    "subcategory": "navigation",
+    "synonyms": {
+      "pt": ["indicador de norte", "rosa dos ventos"],
+      "en": ["north indicator", "north sign"]
+    },
+    "tags": {
+      "pt": ["mapa", "orientação", "cartografia", "direção"],
+      "en": ["map", "orientation", "cartography", "direction"]
+    },
+    "popularity": 1,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7jjaq7t",
+    "slug": "observatory",
+    "name": {
+      "pt": "Observatório",
+      "en": "Observatory"
+    },
+    "subcategory": "places",
+    "synonyms": {
+      "pt": ["observatório astronômico", "cúpula"],
+      "en": ["astronomical observatory", "dome"]
+    },
+    "tags": {
+      "pt": ["astronomia", "telescópio", "estrelas", "ciência"],
+      "en": ["astronomy", "telescope", "stars", "science"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gm2ygakf",
+    "slug": "park",
+    "name": {
+      "pt": "Parque",
+      "en": "Park"
+    },
+    "subcategory": "places",
+    "synonyms": {
+      "pt": ["praça", "jardim"],
+      "en": ["square", "garden"]
+    },
+    "tags": {
+      "pt": ["árvore", "banco", "lazer", "natureza", "área verde"],
+      "en": ["tree", "bench", "leisure", "nature", "green space"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gegaeepw",
+    "slug": "path",
+    "name": {
+      "pt": "Caminho",
+      "en": "Path"
+    },
+    "subcategory": "navigation",
+    "synonyms": {
+      "pt": ["trilha", "percurso"],
+      "en": ["trail", "track"]
+    },
+    "tags": {
+      "pt": ["trajeto", "pontilhado", "rota", "origem e destino"],
+      "en": ["dotted path", "route", "from to", "journey"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3xx1096",
+    "slug": "playground",
+    "name": {
+      "pt": "Parquinho",
+      "en": "Playground"
+    },
+    "subcategory": "places",
+    "synonyms": {
+      "pt": ["balanço", "playground"],
+      "en": ["swing set", "play area"]
+    },
+    "tags": {
+      "pt": ["crianças", "parque infantil", "brincar", "recreação"],
+      "en": ["children", "kids park", "play", "recreation"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gyxkrrn1",
+    "slug": "poi",
+    "name": {
+      "pt": "Ponto de interesse",
+      "en": "Point of interest"
+    },
+    "subcategory": "places",
+    "family": "map-pin",
+    "synonyms": {
+      "pt": ["atração", "destaque"],
+      "en": ["poi", "attraction", "highlight"]
+    },
+    "tags": {
+      "pt": ["mapa", "pino", "estrela", "turismo", "lugar"],
+      "en": ["map", "pin", "star", "landmark", "place"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1wk0p95",
+    "slug": "radar",
+    "name": {
+      "pt": "Radar",
+      "en": "Radar"
+    },
+    "subcategory": "location",
+    "synonyms": {
+      "pt": ["varredura", "sonar"],
+      "en": ["sweep", "sonar"]
+    },
+    "tags": {
+      "pt": ["detectar", "rastrear", "alcance", "proximidade"],
+      "en": ["detect", "track", "range", "nearby"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g9ytpf63",
+    "slug": "route",
+    "name": {
+      "pt": "Rota",
+      "en": "Route"
+    },
+    "subcategory": "navigation",
+    "family": "route",
+    "synonyms": {
+      "pt": ["trajeto", "percurso", "itinerário"],
+      "en": ["path", "journey", "itinerary"]
+    },
+    "tags": {
+      "pt": ["caminho", "direção", "navegação", "origem e destino"],
+      "en": ["directions", "navigation", "trip", "from to"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gr51md9f",
+    "slug": "route-off",
+    "name": {
+      "pt": "Rota indisponível",
+      "en": "Route off"
+    },
+    "subcategory": "navigation",
+    "family": "route",
+    "variantOf": "route",
+    "synonyms": {
+      "pt": ["sem rota", "rota desativada"],
+      "en": ["no route", "route disabled"]
+    },
+    "tags": {
+      "pt": ["caminho bloqueado", "navegação", "desvio"],
+      "en": ["blocked path", "navigation", "detour"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gcde995d",
+    "slug": "ruins",
+    "name": {
+      "pt": "Ruínas",
+      "en": "Ruins"
+    },
+    "subcategory": "places",
+    "synonyms": {
+      "pt": ["sítio arqueológico", "colunas antigas"],
+      "en": ["archaeological site", "ancient columns"]
+    },
+    "tags": {
+      "pt": ["história", "antiguidade", "patrimônio", "turismo"],
+      "en": ["history", "antiquity", "heritage", "tourism"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gjyf5te9",
+    "slug": "signpost",
+    "name": {
+      "pt": "Placa de direção",
+      "en": "Signpost"
+    },
+    "subcategory": "navigation",
+    "synonyms": {
+      "pt": ["poste de sinalização", "placa indicativa"],
+      "en": ["direction sign", "guidepost"]
+    },
+    "tags": {
+      "pt": ["direção", "caminho", "orientação", "trilha"],
+      "en": ["direction", "way", "orientation", "trail"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0getdha",
+    "slug": "stadium",
+    "name": {
+      "pt": "Estádio",
+      "en": "Stadium"
+    },
+    "subcategory": "places",
+    "synonyms": {
+      "pt": ["arena", "ginásio"],
+      "en": ["arena", "ballpark"]
+    },
+    "tags": {
+      "pt": ["futebol", "esporte", "show", "jogo", "evento"],
+      "en": ["soccer", "sports", "concert", "game", "event"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpkea69e",
+    "slug": "statue",
+    "name": {
+      "pt": "Estátua",
+      "en": "Statue"
+    },
+    "subcategory": "places",
+    "synonyms": {
+      "pt": ["escultura", "monumento"],
+      "en": ["sculpture", "monument"]
+    },
+    "tags": {
+      "pt": ["praça", "arte", "turismo", "história", "ponto turístico"],
+      "en": ["square", "art", "tourism", "history", "landmark"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqybecjb",
+    "slug": "street-lamp",
+    "name": {
+      "pt": "Poste de luz",
+      "en": "Street lamp"
+    },
+    "subcategory": "places",
+    "synonyms": {
+      "pt": ["luminária pública", "iluminação pública"],
+      "en": ["lamppost", "street light"]
+    },
+    "tags": {
+      "pt": ["rua", "cidade", "poste", "noite"],
+      "en": ["street", "city", "lighting", "night"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g87409ae",
+    "slug": "street-view",
+    "name": {
+      "pt": "Visão da rua",
+      "en": "Street view"
+    },
+    "subcategory": "navigation",
+    "synonyms": {
+      "pt": ["vista da rua", "boneco"],
+      "en": ["street level", "pegman"]
+    },
+    "tags": {
+      "pt": ["panorama", "360", "rua", "explorar"],
+      "en": ["panorama", "360", "street", "explore"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5c06m45",
+    "slug": "tower",
+    "name": {
+      "pt": "Torre",
+      "en": "Tower"
+    },
+    "subcategory": "places",
+    "synonyms": {
+      "pt": ["torre de vigia", "mirante"],
+      "en": ["watchtower", "lookout"]
+    },
+    "tags": {
+      "pt": ["observação", "vigia", "ponto alto", "paisagem"],
+      "en": ["observation", "watch", "viewpoint", "landmark"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbdk86k8",
+    "slug": "tunnel",
+    "name": {
+      "pt": "Túnel",
+      "en": "Tunnel"
+    },
+    "subcategory": "places",
+    "synonyms": {
+      "pt": ["passagem subterrânea", "túnel rodoviário"],
+      "en": ["underpass", "road tunnel"]
+    },
+    "tags": {
+      "pt": ["estrada", "montanha", "viagem", "rota"],
+      "en": ["road", "mountain", "travel", "route"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwgpj55t",
+    "slug": "waypoints",
+    "name": {
+      "pt": "Pontos de passagem",
+      "en": "Waypoints"
+    },
+    "subcategory": "navigation",
+    "synonyms": {
+      "pt": ["paradas", "escalas"],
+      "en": ["stops", "checkpoints"]
+    },
+    "tags": {
+      "pt": ["rota", "conexão", "trajeto", "navegação"],
+      "en": ["route", "connection", "path", "navigation"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnnfqhwm",
+    "slug": "world-map",
+    "name": {
+      "pt": "Mapa-múndi",
+      "en": "World map"
+    },
+    "subcategory": "navigation",
+    "family": "globe",
+    "synonyms": {
+      "pt": ["mapa do mundo", "planisfério"],
+      "en": ["map of the world", "planisphere"]
+    },
+    "tags": {
+      "pt": ["mundo", "global", "continentes", "internacional", "geografia"],
+      "en": ["world", "global", "continents", "international", "geography"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  }
+]

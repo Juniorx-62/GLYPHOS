@@ -1,0 +1,1191 @@
+[
+  {
+    "id": "gcvny4a8",
+    "slug": "activity",
+    "name": {
+      "pt": "Atividade",
+      "en": "Activity"
+    },
+    "subcategory": "analytics",
+    "synonyms": {
+      "pt": ["pulso", "batimento", "sinal"],
+      "en": ["pulse", "heartbeat", "signal"]
+    },
+    "tags": {
+      "pt": ["monitoramento", "frequência", "eletrocardiograma", "saúde"],
+      "en": ["monitoring", "frequency", "ecg", "vitals"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4fjhneh",
+    "slug": "analytics",
+    "name": {
+      "pt": "Análise de dados",
+      "en": "Analytics"
+    },
+    "subcategory": "analytics",
+    "synonyms": {
+      "pt": ["analytics", "estatísticas", "painel de dados"],
+      "en": ["statistics", "data analysis", "insights panel"]
+    },
+    "tags": {
+      "pt": ["relatório", "métricas", "desempenho", "dashboard"],
+      "en": ["report", "metrics", "performance", "dashboard"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5f5pbtp",
+    "slug": "average",
+    "name": {
+      "pt": "Média",
+      "en": "Average"
+    },
+    "subcategory": "analytics",
+    "synonyms": {
+      "pt": ["valor médio", "curva normal", "distribuição"],
+      "en": ["mean", "bell curve", "normal distribution"]
+    },
+    "tags": {
+      "pt": ["estatística", "centro", "tendência central", "mediana"],
+      "en": ["statistics", "center", "central tendency", "median"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gw5xmtzz",
+    "slug": "chart-area",
+    "name": {
+      "pt": "Gráfico de área",
+      "en": "Area chart"
+    },
+    "subcategory": "charts",
+    "family": "chart-line",
+    "synonyms": {
+      "pt": ["área", "gráfico preenchido"],
+      "en": ["area graph", "filled chart"]
+    },
+    "tags": {
+      "pt": ["volume", "evolução", "estatística", "dados"],
+      "en": ["volume", "trend", "statistics", "data"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g50cq41v",
+    "slug": "chart-area-stacked",
+    "name": {
+      "pt": "Gráfico de área empilhada",
+      "en": "Stacked area chart"
+    },
+    "subcategory": "charts",
+    "family": "chart-line",
+    "synonyms": {
+      "pt": ["áreas empilhadas", "área acumulada"],
+      "en": ["stacked areas", "cumulative area"]
+    },
+    "tags": {
+      "pt": ["composição", "séries", "volume", "dados"],
+      "en": ["composition", "series", "volume", "data"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gd0nqa4b",
+    "slug": "chart-bar",
+    "name": {
+      "pt": "Gráfico de barras",
+      "en": "Bar chart"
+    },
+    "subcategory": "charts",
+    "family": "chart-bar",
+    "synonyms": {
+      "pt": ["gráfico de colunas", "colunas", "barras verticais"],
+      "en": ["column chart", "bars", "bar graph"]
+    },
+    "tags": {
+      "pt": ["estatística", "relatório", "dados", "análise"],
+      "en": ["statistics", "report", "data", "analytics"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gg8ag38s",
+    "slug": "chart-bar-grouped",
+    "name": {
+      "pt": "Gráfico de barras agrupadas",
+      "en": "Grouped bar chart"
+    },
+    "subcategory": "charts",
+    "family": "chart-bar",
+    "synonyms": {
+      "pt": ["colunas agrupadas", "barras lado a lado"],
+      "en": ["clustered columns", "side by side bars"]
+    },
+    "tags": {
+      "pt": ["comparar", "séries", "estatística", "dados"],
+      "en": ["compare", "series", "statistics", "data"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gng9yw1j",
+    "slug": "chart-bar-horizontal",
+    "name": {
+      "pt": "Gráfico de barras horizontais",
+      "en": "Horizontal bar chart"
+    },
+    "subcategory": "charts",
+    "family": "chart-bar",
+    "synonyms": {
+      "pt": ["barras deitadas", "ranking"],
+      "en": ["horizontal bars", "row chart"]
+    },
+    "tags": {
+      "pt": ["estatística", "comparar", "dados", "relatório"],
+      "en": ["statistics", "ranking", "compare", "data"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1ep4xxs",
+    "slug": "chart-bar-off",
+    "name": {
+      "pt": "Sem dados",
+      "en": "Chart off"
+    },
+    "subcategory": "charts",
+    "family": "chart-bar",
+    "variantOf": "chart-bar",
+    "synonyms": {
+      "pt": ["gráfico desativado", "gráfico indisponível"],
+      "en": ["no data", "chart unavailable"]
+    },
+    "tags": {
+      "pt": ["vazio", "sem resultados", "desligado", "oculto"],
+      "en": ["empty", "no results", "disabled", "hidden"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gcv2kc4n",
+    "slug": "chart-bar-stacked",
+    "name": {
+      "pt": "Gráfico de barras empilhadas",
+      "en": "Stacked bar chart"
+    },
+    "subcategory": "charts",
+    "family": "chart-bar",
+    "synonyms": {
+      "pt": ["colunas empilhadas", "barras acumuladas"],
+      "en": ["stacked columns", "stacked bars"]
+    },
+    "tags": {
+      "pt": ["composição", "partes", "estatística", "dados"],
+      "en": ["composition", "parts", "statistics", "data"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gax0g9cj",
+    "slug": "chart-box-plot",
+    "name": {
+      "pt": "Diagrama de caixa",
+      "en": "Box plot"
+    },
+    "subcategory": "charts",
+    "synonyms": {
+      "pt": ["box plot", "caixa e bigodes", "boxplot"],
+      "en": ["box and whisker", "boxplot", "whisker chart"]
+    },
+    "tags": {
+      "pt": ["quartis", "mediana", "estatística", "distribuição"],
+      "en": ["quartiles", "median", "statistics", "distribution"]
+    },
+    "popularity": 1,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gsafr69g",
+    "slug": "chart-bubble",
+    "name": {
+      "pt": "Gráfico de bolhas",
+      "en": "Bubble chart"
+    },
+    "subcategory": "charts",
+    "synonyms": {
+      "pt": ["bolhas", "círculos"],
+      "en": ["bubbles", "bubble plot"]
+    },
+    "tags": {
+      "pt": ["volume", "comparação", "estatística", "dados"],
+      "en": ["volume", "comparison", "statistics", "data"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gy811tft",
+    "slug": "chart-combo",
+    "name": {
+      "pt": "Gráfico combinado",
+      "en": "Combo chart"
+    },
+    "subcategory": "charts",
+    "synonyms": {
+      "pt": ["barras e linha", "gráfico misto"],
+      "en": ["bar and line chart", "mixed chart"]
+    },
+    "tags": {
+      "pt": ["comparação", "séries", "estatística", "relatório"],
+      "en": ["comparison", "series", "statistics", "report"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g9nym3y8",
+    "slug": "chart-compare",
+    "name": {
+      "pt": "Comparar séries",
+      "en": "Compare series"
+    },
+    "subcategory": "trends",
+    "family": "chart-line",
+    "synonyms": {
+      "pt": ["duas linhas", "gráfico comparativo", "séries"],
+      "en": ["two lines", "comparison chart", "multiple series"]
+    },
+    "tags": {
+      "pt": ["comparação", "desempenho", "período anterior", "dados"],
+      "en": ["comparison", "performance", "previous period", "data"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gf74g257",
+    "slug": "chart-donut",
+    "name": {
+      "pt": "Gráfico de rosca",
+      "en": "Donut chart"
+    },
+    "subcategory": "charts",
+    "family": "chart-pie",
+    "synonyms": {
+      "pt": ["rosca", "anel", "donut"],
+      "en": ["doughnut chart", "ring chart"]
+    },
+    "tags": {
+      "pt": ["proporção", "porcentagem", "partes", "estatística"],
+      "en": ["proportion", "percentage", "share", "statistics"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g6r4x4wt",
+    "slug": "chart-down",
+    "name": {
+      "pt": "Gráfico em baixa",
+      "en": "Chart down"
+    },
+    "subcategory": "trends",
+    "family": "chart-line",
+    "synonyms": {
+      "pt": ["gráfico caindo", "queda", "baixa"],
+      "en": ["falling chart", "decline chart", "downtrend"]
+    },
+    "tags": {
+      "pt": ["prejuízo", "redução", "desempenho", "perda"],
+      "en": ["loss", "decrease", "performance", "drop"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g6f9qcb6",
+    "slug": "chart-funnel",
+    "name": {
+      "pt": "Gráfico de funil",
+      "en": "Funnel chart"
+    },
+    "subcategory": "charts",
+    "synonyms": {
+      "pt": ["funil de vendas", "funil de conversão", "etapas"],
+      "en": ["sales funnel", "conversion funnel", "stages"]
+    },
+    "tags": {
+      "pt": ["conversão", "vendas", "marketing", "pipeline"],
+      "en": ["conversion", "sales", "marketing", "pipeline"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbr0m09b",
+    "slug": "chart-gauge",
+    "name": {
+      "pt": "Gráfico de medidor",
+      "en": "Gauge chart"
+    },
+    "subcategory": "charts",
+    "synonyms": {
+      "pt": ["meia rosca", "velocímetro", "mostrador"],
+      "en": ["half donut", "dial chart", "meter"]
+    },
+    "tags": {
+      "pt": ["meta", "desempenho", "porcentagem", "nível"],
+      "en": ["goal", "performance", "percentage", "level"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g9yaqkmj",
+    "slug": "chart-heatmap",
+    "name": {
+      "pt": "Mapa de calor",
+      "en": "Heatmap"
+    },
+    "subcategory": "charts",
+    "synonyms": {
+      "pt": ["heatmap", "matriz de cores", "intensidade"],
+      "en": ["heat map", "color matrix", "intensity grid"]
+    },
+    "tags": {
+      "pt": ["densidade", "grade", "atividade", "dados"],
+      "en": ["density", "grid", "activity", "data"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8sm9vrd",
+    "slug": "chart-histogram",
+    "name": {
+      "pt": "Histograma",
+      "en": "Histogram"
+    },
+    "subcategory": "charts",
+    "synonyms": {
+      "pt": ["distribuição", "frequência", "barras contíguas"],
+      "en": ["distribution", "frequency chart"]
+    },
+    "tags": {
+      "pt": ["estatística", "curva normal", "dados", "amostra"],
+      "en": ["statistics", "bell curve", "data", "sample"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g71t7j0h",
+    "slug": "chart-line",
+    "name": {
+      "pt": "Gráfico de linha",
+      "en": "Line chart"
+    },
+    "subcategory": "charts",
+    "family": "chart-line",
+    "synonyms": {
+      "pt": ["gráfico de linhas", "linha do tempo", "série"],
+      "en": ["line graph", "time series"]
+    },
+    "tags": {
+      "pt": ["evolução", "estatística", "dados", "relatório"],
+      "en": ["trend", "statistics", "data", "report"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gen2zqwq",
+    "slug": "chart-lollipop",
+    "name": {
+      "pt": "Gráfico de pirulito",
+      "en": "Lollipop chart"
+    },
+    "subcategory": "charts",
+    "synonyms": {
+      "pt": ["pirulito", "hastes com pontos"],
+      "en": ["lollipop plot", "dot and stem"]
+    },
+    "tags": {
+      "pt": ["ranking", "comparação", "valores", "dados"],
+      "en": ["ranking", "comparison", "values", "data"]
+    },
+    "popularity": 1,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3d3hwfs",
+    "slug": "chart-network",
+    "name": {
+      "pt": "Gráfico de rede",
+      "en": "Network graph"
+    },
+    "subcategory": "charts",
+    "synonyms": {
+      "pt": ["grafo", "rede", "nós e conexões"],
+      "en": ["graph", "node chart", "connections"]
+    },
+    "tags": {
+      "pt": ["relações", "conexões", "mapa de relacionamento", "dados"],
+      "en": ["relationships", "nodes", "links", "data"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmfxk6m4",
+    "slug": "chart-pie",
+    "name": {
+      "pt": "Gráfico de pizza",
+      "en": "Pie chart"
+    },
+    "subcategory": "charts",
+    "family": "chart-pie",
+    "synonyms": {
+      "pt": ["pizza", "gráfico circular", "setores"],
+      "en": ["pie", "circle chart", "sectors"]
+    },
+    "tags": {
+      "pt": ["proporção", "porcentagem", "partes", "estatística"],
+      "en": ["proportion", "percentage", "share", "statistics"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gttqc8hn",
+    "slug": "chart-pie-slice",
+    "name": {
+      "pt": "Fatia de pizza",
+      "en": "Pie slice"
+    },
+    "subcategory": "charts",
+    "family": "chart-pie",
+    "synonyms": {
+      "pt": ["gráfico de pizza destacado", "setor", "fatia"],
+      "en": ["exploded pie chart", "sector", "slice"]
+    },
+    "tags": {
+      "pt": ["proporção", "parte", "participação", "porcentagem"],
+      "en": ["proportion", "share", "portion", "percentage"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqq43rgc",
+    "slug": "chart-plus",
+    "name": {
+      "pt": "Novo gráfico",
+      "en": "Add chart"
+    },
+    "subcategory": "analytics",
+    "family": "chart-tools",
+    "synonyms": {
+      "pt": ["adicionar gráfico", "inserir gráfico"],
+      "en": ["new chart", "insert chart"]
+    },
+    "tags": {
+      "pt": ["criar", "incluir", "mais", "relatório"],
+      "en": ["create", "plus", "report"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ghekhfvs",
+    "slug": "chart-polar",
+    "name": {
+      "pt": "Gráfico polar",
+      "en": "Polar area chart"
+    },
+    "subcategory": "charts",
+    "synonyms": {
+      "pt": ["área polar", "gráfico de rosa", "coxcomb"],
+      "en": ["rose chart", "coxcomb", "polar chart"]
+    },
+    "tags": {
+      "pt": ["setores", "ciclo", "comparação", "dados"],
+      "en": ["sectors", "cycle", "comparison", "data"]
+    },
+    "popularity": 1,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gq7ak83a",
+    "slug": "chart-radar",
+    "name": {
+      "pt": "Gráfico de radar",
+      "en": "Radar chart"
+    },
+    "subcategory": "charts",
+    "synonyms": {
+      "pt": ["gráfico de aranha", "teia", "radar"],
+      "en": ["spider chart", "web chart", "star plot"]
+    },
+    "tags": {
+      "pt": ["habilidades", "atributos", "comparação", "perfil"],
+      "en": ["skills", "attributes", "comparison", "profile"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ghjq328g",
+    "slug": "chart-scatter",
+    "name": {
+      "pt": "Gráfico de dispersão",
+      "en": "Scatter chart"
+    },
+    "subcategory": "charts",
+    "synonyms": {
+      "pt": ["dispersão", "pontos", "nuvem de pontos"],
+      "en": ["scatter plot", "dot plot", "xy chart"]
+    },
+    "tags": {
+      "pt": ["correlação", "amostra", "estatística", "dados"],
+      "en": ["correlation", "sample", "statistics", "data"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5g2x37s",
+    "slug": "chart-settings",
+    "name": {
+      "pt": "Configurar gráfico",
+      "en": "Chart settings"
+    },
+    "subcategory": "analytics",
+    "family": "chart-tools",
+    "synonyms": {
+      "pt": ["ajustes do gráfico", "engrenagem"],
+      "en": ["chart options", "gear"]
+    },
+    "tags": {
+      "pt": ["personalizar", "opções", "preferências", "editar"],
+      "en": ["customize", "configure", "preferences", "edit"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g45agfms",
+    "slug": "chart-spline",
+    "name": {
+      "pt": "Gráfico de curva suave",
+      "en": "Spline chart"
+    },
+    "subcategory": "charts",
+    "family": "chart-line",
+    "synonyms": {
+      "pt": ["spline", "linha suave", "curva"],
+      "en": ["smooth line chart", "curve"]
+    },
+    "tags": {
+      "pt": ["tendência", "evolução", "dados", "estatística"],
+      "en": ["trend", "smooth", "data", "statistics"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5s85fyh",
+    "slug": "chart-step",
+    "name": {
+      "pt": "Gráfico em degraus",
+      "en": "Step chart"
+    },
+    "subcategory": "charts",
+    "family": "chart-line",
+    "synonyms": {
+      "pt": ["gráfico de escada", "linha em degraus"],
+      "en": ["step line", "staircase chart"]
+    },
+    "tags": {
+      "pt": ["patamares", "níveis", "mudanças", "dados"],
+      "en": ["levels", "changes", "discrete", "data"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gyyt8z86",
+    "slug": "chart-treemap",
+    "name": {
+      "pt": "Mapa de árvore",
+      "en": "Treemap"
+    },
+    "subcategory": "charts",
+    "synonyms": {
+      "pt": ["treemap", "mapa de retângulos", "blocos"],
+      "en": ["tree map", "rectangle map", "blocks"]
+    },
+    "tags": {
+      "pt": ["hierarquia", "proporção", "área", "dados"],
+      "en": ["hierarchy", "proportion", "area", "data"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggx8yzjf",
+    "slug": "chart-up",
+    "name": {
+      "pt": "Gráfico em alta",
+      "en": "Chart up"
+    },
+    "subcategory": "trends",
+    "family": "chart-line",
+    "synonyms": {
+      "pt": ["gráfico subindo", "crescimento", "alta"],
+      "en": ["rising chart", "growth chart", "uptrend"]
+    },
+    "tags": {
+      "pt": ["lucro", "aumento", "desempenho", "vendas"],
+      "en": ["profit", "increase", "performance", "sales"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gy0rgcga",
+    "slug": "chart-waterfall",
+    "name": {
+      "pt": "Gráfico de cascata",
+      "en": "Waterfall chart"
+    },
+    "subcategory": "charts",
+    "synonyms": {
+      "pt": ["cascata", "ponte", "variação acumulada"],
+      "en": ["bridge chart", "cascade chart"]
+    },
+    "tags": {
+      "pt": ["ganhos e perdas", "saldo", "finanças", "relatório"],
+      "en": ["gains and losses", "balance", "finance", "report"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqkhf68n",
+    "slug": "comparison",
+    "name": {
+      "pt": "Comparação",
+      "en": "Comparison"
+    },
+    "subcategory": "trends",
+    "synonyms": {
+      "pt": ["comparar", "lado a lado", "versus"],
+      "en": ["compare", "side by side", "versus"]
+    },
+    "tags": {
+      "pt": ["antes e depois", "diferença", "análise", "benchmark"],
+      "en": ["before and after", "difference", "analysis", "benchmark"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqtnxpq7",
+    "slug": "correlation",
+    "name": {
+      "pt": "Correlação",
+      "en": "Correlation"
+    },
+    "subcategory": "analytics",
+    "synonyms": {
+      "pt": ["regressão", "linha de tendência", "relação"],
+      "en": ["regression", "trend line", "relationship"]
+    },
+    "tags": {
+      "pt": ["dispersão", "estatística", "variáveis", "ajuste"],
+      "en": ["scatter", "statistics", "variables", "fit"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gz9fvn2p",
+    "slug": "filter-chart",
+    "name": {
+      "pt": "Filtrar gráfico",
+      "en": "Filter chart"
+    },
+    "subcategory": "analytics",
+    "family": "chart-tools",
+    "synonyms": {
+      "pt": ["filtro de dados", "funil"],
+      "en": ["data filter", "funnel"]
+    },
+    "tags": {
+      "pt": ["segmentar", "refinar", "critérios", "análise"],
+      "en": ["segment", "refine", "criteria", "analysis"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gq5ycz28",
+    "slug": "forecast",
+    "name": {
+      "pt": "Previsão",
+      "en": "Forecast"
+    },
+    "subcategory": "analytics",
+    "synonyms": {
+      "pt": ["projeção", "estimativa", "tendência futura"],
+      "en": ["projection", "prediction", "estimate"]
+    },
+    "tags": {
+      "pt": ["planejamento", "futuro", "prognóstico", "meta"],
+      "en": ["planning", "future", "outlook", "target"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbzzwfx5",
+    "slug": "gauge",
+    "name": {
+      "pt": "Medidor",
+      "en": "Gauge"
+    },
+    "subcategory": "analytics",
+    "synonyms": {
+      "pt": ["velocímetro", "manômetro", "mostrador"],
+      "en": ["speedometer", "meter", "dial"]
+    },
+    "tags": {
+      "pt": ["desempenho", "velocidade", "nível", "performance"],
+      "en": ["performance", "speed", "level", "measure"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbd2s4qd",
+    "slug": "insight",
+    "name": {
+      "pt": "Insight",
+      "en": "Insight"
+    },
+    "subcategory": "analytics",
+    "synonyms": {
+      "pt": ["descoberta", "percepção", "destaque nos dados"],
+      "en": ["discovery", "finding", "data highlight"]
+    },
+    "tags": {
+      "pt": ["análise", "ideia", "inteligência", "brilho"],
+      "en": ["analysis", "idea", "intelligence", "sparkle"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gjrzp25d",
+    "slug": "magnifier-chart",
+    "name": {
+      "pt": "Analisar gráfico",
+      "en": "Chart search"
+    },
+    "subcategory": "analytics",
+    "synonyms": {
+      "pt": ["lupa com gráfico", "buscar dados", "investigar"],
+      "en": ["magnifier chart", "analyze data", "investigate"]
+    },
+    "tags": {
+      "pt": ["análise", "pesquisa", "explorar", "auditoria"],
+      "en": ["analysis", "research", "explore", "audit"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gd4jm170",
+    "slug": "metrics",
+    "name": {
+      "pt": "Métricas",
+      "en": "Metrics"
+    },
+    "subcategory": "analytics",
+    "synonyms": {
+      "pt": ["indicadores", "KPI", "cartão de métricas"],
+      "en": ["KPI", "indicators", "metric card"]
+    },
+    "tags": {
+      "pt": ["painel", "desempenho", "resultados", "números"],
+      "en": ["dashboard", "performance", "results", "numbers"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gngheg3p",
+    "slug": "peak",
+    "name": {
+      "pt": "Pico",
+      "en": "Peak"
+    },
+    "subcategory": "trends",
+    "synonyms": {
+      "pt": ["máximo", "ponto mais alto", "recorde"],
+      "en": ["maximum", "highest point", "record"]
+    },
+    "tags": {
+      "pt": ["auge", "topo", "destaque", "máxima"],
+      "en": ["top", "high", "spike", "summit"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1mrm5tp",
+    "slug": "presentation-chart",
+    "name": {
+      "pt": "Apresentação com gráfico",
+      "en": "Presentation chart"
+    },
+    "subcategory": "analytics",
+    "synonyms": {
+      "pt": ["quadro", "slide", "lousa com gráfico"],
+      "en": ["presentation board", "slide", "chart board"]
+    },
+    "tags": {
+      "pt": ["reunião", "palestra", "resultados", "pitch"],
+      "en": ["meeting", "talk", "results", "pitch"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gemt88w0",
+    "slug": "report",
+    "name": {
+      "pt": "Relatório",
+      "en": "Report"
+    },
+    "subcategory": "analytics",
+    "synonyms": {
+      "pt": ["relatório de dados", "documento com gráfico"],
+      "en": ["data report", "chart document"]
+    },
+    "tags": {
+      "pt": ["análise", "resultados", "balanço", "estatística"],
+      "en": ["analysis", "results", "summary", "statistics"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g048df93",
+    "slug": "report-search",
+    "name": {
+      "pt": "Buscar relatório",
+      "en": "Report search"
+    },
+    "subcategory": "analytics",
+    "synonyms": {
+      "pt": ["pesquisar relatório", "consultar dados"],
+      "en": ["search report", "find report"]
+    },
+    "tags": {
+      "pt": ["análise", "auditoria", "procurar", "lupa"],
+      "en": ["analysis", "audit", "lookup", "magnifier"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g256peqc",
+    "slug": "sparkline",
+    "name": {
+      "pt": "Minigráfico",
+      "en": "Sparkline"
+    },
+    "subcategory": "trends",
+    "synonyms": {
+      "pt": ["sparkline", "linha de tendência compacta"],
+      "en": ["mini chart", "inline trend"]
+    },
+    "tags": {
+      "pt": ["tendência", "resumo", "indicador", "dados"],
+      "en": ["trend", "summary", "indicator", "data"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmyyqazp",
+    "slug": "target-progress",
+    "name": {
+      "pt": "Progresso da meta",
+      "en": "Target progress"
+    },
+    "subcategory": "trends",
+    "synonyms": {
+      "pt": ["meta", "objetivo", "alvo"],
+      "en": ["goal progress", "objective", "target"]
+    },
+    "tags": {
+      "pt": ["progresso", "conquista", "desempenho", "atingir"],
+      "en": ["progress", "achievement", "performance", "reach"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gtsef2zx",
+    "slug": "trending-down",
+    "name": {
+      "pt": "Em baixa",
+      "en": "Trending down"
+    },
+    "subcategory": "trends",
+    "family": "trending",
+    "synonyms": {
+      "pt": ["tendência de queda", "caindo", "declínio"],
+      "en": ["downtrend", "falling", "decline"]
+    },
+    "tags": {
+      "pt": ["prejuízo", "desvalorização", "redução", "perda"],
+      "en": ["loss", "decrease", "drop"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdb0h604",
+    "slug": "trending-flat",
+    "name": {
+      "pt": "Estável",
+      "en": "Trending flat"
+    },
+    "subcategory": "trends",
+    "family": "trending",
+    "synonyms": {
+      "pt": ["tendência lateral", "sem variação", "estabilidade"],
+      "en": ["sideways trend", "stable", "no change"]
+    },
+    "tags": {
+      "pt": ["neutro", "constante", "nivelado"],
+      "en": ["neutral", "steady", "level"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gh13azyw",
+    "slug": "trending-up",
+    "name": {
+      "pt": "Em alta",
+      "en": "Trending up"
+    },
+    "subcategory": "trends",
+    "family": "trending",
+    "synonyms": {
+      "pt": ["tendência de alta", "subindo", "crescimento"],
+      "en": ["uptrend", "rising", "growth"]
+    },
+    "tags": {
+      "pt": ["lucro", "valorização", "aumento", "sucesso"],
+      "en": ["profit", "increase", "gain", "success"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g88syx22",
+    "slug": "volatility",
+    "name": {
+      "pt": "Volatilidade",
+      "en": "Volatility"
+    },
+    "subcategory": "trends",
+    "synonyms": {
+      "pt": ["oscilação", "instabilidade", "variação"],
+      "en": ["fluctuation", "instability", "swings"]
+    },
+    "tags": {
+      "pt": ["risco", "mercado", "sobe e desce", "flutuação"],
+      "en": ["risk", "market", "ups and downs", "variance"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  }
+]

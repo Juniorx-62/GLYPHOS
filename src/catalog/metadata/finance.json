@@ -1,0 +1,1186 @@
+[
+  {
+    "id": "gt3x4vse",
+    "slug": "assets",
+    "name": {
+      "pt": "Patrimônio",
+      "en": "Assets"
+    },
+    "subcategory": "investing",
+    "synonyms": {
+      "pt": ["bens", "ativos"],
+      "en": ["property", "holdings"]
+    },
+    "tags": {
+      "pt": ["imóveis", "investimentos", "riqueza", "propriedade"],
+      "en": ["real estate", "investments", "wealth", "net worth"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grr91k29",
+    "slug": "atm",
+    "name": {
+      "pt": "Caixa eletrônico",
+      "en": "ATM"
+    },
+    "subcategory": "banking",
+    "synonyms": {
+      "pt": ["ATM", "terminal de saque"],
+      "en": ["cash machine", "cash point"]
+    },
+    "tags": {
+      "pt": ["saque", "sacar dinheiro", "banco 24 horas", "dinheiro"],
+      "en": ["withdraw", "withdrawal", "cash", "bank"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gga96xyd",
+    "slug": "audit",
+    "name": {
+      "pt": "Auditoria",
+      "en": "Audit"
+    },
+    "subcategory": "investing",
+    "synonyms": {
+      "pt": ["auditar", "fiscalização"],
+      "en": ["auditing", "inspection"]
+    },
+    "tags": {
+      "pt": ["inspeção", "conferência", "verificação", "contabilidade"],
+      "en": ["review", "verification", "compliance", "accounting"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gm50br80",
+    "slug": "bank",
+    "name": {
+      "pt": "Banco",
+      "en": "Bank"
+    },
+    "subcategory": "banking",
+    "synonyms": {
+      "pt": ["agência bancária", "instituição financeira"],
+      "en": ["bank building", "financial institution"]
+    },
+    "tags": {
+      "pt": ["finanças", "conta bancária", "prédio", "edifício"],
+      "en": ["finance", "bank account", "landmark", "building"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gcb7vtrd",
+    "slug": "banknote",
+    "name": {
+      "pt": "Cédula",
+      "en": "Banknote"
+    },
+    "subcategory": "money",
+    "family": "banknote",
+    "synonyms": {
+      "pt": ["nota", "dinheiro em papel"],
+      "en": ["bill", "paper money", "note"]
+    },
+    "tags": {
+      "pt": ["dinheiro", "pagamento", "valor", "real", "dólar"],
+      "en": ["money", "cash", "payment", "currency"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwr1jgh4",
+    "slug": "blockchain",
+    "name": {
+      "pt": "Blockchain",
+      "en": "Blockchain"
+    },
+    "subcategory": "investing",
+    "synonyms": {
+      "pt": ["cadeia de blocos", "rede distribuída"],
+      "en": ["chain of blocks", "distributed ledger"]
+    },
+    "tags": {
+      "pt": ["cripto", "blocos", "registro", "descentralizado"],
+      "en": ["crypto", "blocks", "decentralized", "ledger"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gv10gvmk",
+    "slug": "bonds",
+    "name": {
+      "pt": "Títulos",
+      "en": "Bonds"
+    },
+    "subcategory": "investing",
+    "synonyms": {
+      "pt": ["título de dívida", "renda fixa", "certificado"],
+      "en": ["bond certificate", "fixed income"]
+    },
+    "tags": {
+      "pt": ["tesouro", "investimento", "debênture", "CDB"],
+      "en": ["treasury", "investment", "debenture", "securities"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g9cek64q",
+    "slug": "break-even",
+    "name": {
+      "pt": "Ponto de equilíbrio",
+      "en": "Break-even point"
+    },
+    "subcategory": "investing",
+    "synonyms": {
+      "pt": ["break-even", "empate"],
+      "en": ["break even", "breakeven"]
+    },
+    "tags": {
+      "pt": ["custos e receitas", "lucro zero", "análise", "viabilidade"],
+      "en": ["cost and revenue", "zero profit", "analysis", "viability"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g91c7jq1",
+    "slug": "budget",
+    "name": {
+      "pt": "Orçamento",
+      "en": "Budget"
+    },
+    "subcategory": "banking",
+    "family": "clipboard",
+    "synonyms": {
+      "pt": ["planilha de gastos", "verba"],
+      "en": ["spending plan", "allowance"]
+    },
+    "tags": {
+      "pt": ["planejamento financeiro", "gastos", "controle", "despesas"],
+      "en": ["financial planning", "spending", "expenses", "plan"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g16m14fy",
+    "slug": "calculator-dollar",
+    "name": {
+      "pt": "Calculadora financeira",
+      "en": "Financial calculator"
+    },
+    "subcategory": "investing",
+    "synonyms": {
+      "pt": ["calcular custos", "simulação"],
+      "en": ["cost calculator", "simulation"]
+    },
+    "tags": {
+      "pt": ["finanças", "contas", "orçamento", "cálculo"],
+      "en": ["finance", "accounting", "budget", "calculation"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdkfvbxa",
+    "slug": "cash",
+    "name": {
+      "pt": "Dinheiro vivo",
+      "en": "Cash"
+    },
+    "subcategory": "money",
+    "family": "banknote",
+    "synonyms": {
+      "pt": ["dinheiro em espécie", "maço de notas"],
+      "en": ["money stack", "bills"]
+    },
+    "tags": {
+      "pt": ["cédulas", "pagamento em dinheiro", "grana"],
+      "en": ["banknotes", "cash payment", "currency"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gq1fvc6v",
+    "slug": "chart-candlestick",
+    "name": {
+      "pt": "Gráfico de velas",
+      "en": "Candlestick chart"
+    },
+    "subcategory": "investing",
+    "synonyms": {
+      "pt": ["candlestick", "candles"],
+      "en": ["candles", "OHLC"]
+    },
+    "tags": {
+      "pt": ["bolsa", "ações", "trading", "cotação", "mercado"],
+      "en": ["stock market", "stocks", "trading", "price"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g2xsdd16",
+    "slug": "check-cheque",
+    "name": {
+      "pt": "Cheque",
+      "en": "Check"
+    },
+    "subcategory": "banking",
+    "synonyms": {
+      "pt": ["talão de cheques", "folha de cheque"],
+      "en": ["cheque", "checkbook"]
+    },
+    "tags": {
+      "pt": ["pagamento", "assinatura", "banco", "compensação"],
+      "en": ["payment", "signature", "bank", "deposit"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gt7kxv67",
+    "slug": "coin-stack",
+    "name": {
+      "pt": "Pilhas de moedas",
+      "en": "Coin stacks"
+    },
+    "subcategory": "money",
+    "synonyms": {
+      "pt": ["moedas empilhadas", "pilha de moedas"],
+      "en": ["stacked coins", "coin pile"]
+    },
+    "tags": {
+      "pt": ["economia", "poupança", "riqueza", "valor"],
+      "en": ["savings", "wealth", "value", "money"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gg88z8x0",
+    "slug": "coins",
+    "name": {
+      "pt": "Moedas",
+      "en": "Coins"
+    },
+    "subcategory": "money",
+    "synonyms": {
+      "pt": ["moeda", "trocado"],
+      "en": ["coin", "change"]
+    },
+    "tags": {
+      "pt": ["dinheiro", "troco", "pagamento", "economia"],
+      "en": ["money", "cash", "payment", "savings"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggzey6a7",
+    "slug": "credit-card",
+    "name": {
+      "pt": "Cartão de crédito",
+      "en": "Credit card"
+    },
+    "subcategory": "banking",
+    "synonyms": {
+      "pt": ["cartão", "débito"],
+      "en": ["card", "debit card"]
+    },
+    "tags": {
+      "pt": ["pagamento", "compra", "banco"],
+      "en": ["payment", "purchase", "bank"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3p0ghrz",
+    "slug": "crypto-coin",
+    "name": {
+      "pt": "Criptomoeda",
+      "en": "Cryptocurrency"
+    },
+    "subcategory": "investing",
+    "synonyms": {
+      "pt": ["moeda digital", "cripto"],
+      "en": ["crypto coin", "digital currency"]
+    },
+    "tags": {
+      "pt": ["blockchain", "token", "ativo digital", "carteira cripto"],
+      "en": ["blockchain", "token", "digital asset", "crypto"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0797k0v",
+    "slug": "currency-bitcoin",
+    "name": {
+      "pt": "Bitcoin",
+      "en": "Bitcoin"
+    },
+    "subcategory": "money",
+    "family": "currency",
+    "synonyms": {
+      "pt": ["símbolo do bitcoin", "BTC"],
+      "en": ["bitcoin sign", "BTC"]
+    },
+    "tags": {
+      "pt": ["criptomoeda", "cripto", "moeda digital", "blockchain"],
+      "en": ["cryptocurrency", "crypto", "digital currency", "blockchain"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g61s2w4a",
+    "slug": "currency-dollar",
+    "name": {
+      "pt": "Dólar",
+      "en": "Dollar"
+    },
+    "subcategory": "money",
+    "family": "currency",
+    "synonyms": {
+      "pt": ["cifrão", "símbolo do dólar"],
+      "en": ["dollar sign", "USD"]
+    },
+    "tags": {
+      "pt": ["moeda", "dinheiro", "preço", "USD", "valor"],
+      "en": ["currency", "money", "price", "value"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g9w8n3vv",
+    "slug": "currency-euro",
+    "name": {
+      "pt": "Euro",
+      "en": "Euro"
+    },
+    "subcategory": "money",
+    "family": "currency",
+    "synonyms": {
+      "pt": ["símbolo do euro"],
+      "en": ["euro sign"]
+    },
+    "tags": {
+      "pt": ["moeda", "dinheiro", "Europa", "EUR", "preço"],
+      "en": ["currency", "money", "Europe", "EUR", "price"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g39h4pgh",
+    "slug": "currency-exchange",
+    "name": {
+      "pt": "Câmbio",
+      "en": "Currency exchange"
+    },
+    "subcategory": "money",
+    "synonyms": {
+      "pt": ["troca de moeda", "conversão de moeda"],
+      "en": ["money exchange", "currency conversion"]
+    },
+    "tags": {
+      "pt": ["casa de câmbio", "converter", "dólar", "euro", "cotação"],
+      "en": ["convert", "forex", "exchange rate", "swap"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gck2b9qg",
+    "slug": "currency-pound",
+    "name": {
+      "pt": "Libra",
+      "en": "Pound"
+    },
+    "subcategory": "money",
+    "family": "currency",
+    "synonyms": {
+      "pt": ["libra esterlina", "símbolo da libra"],
+      "en": ["pound sterling", "pound sign"]
+    },
+    "tags": {
+      "pt": ["moeda", "dinheiro", "Reino Unido", "GBP"],
+      "en": ["currency", "money", "United Kingdom", "GBP"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0k48ggn",
+    "slug": "currency-real",
+    "name": {
+      "pt": "Real",
+      "en": "Brazilian real"
+    },
+    "subcategory": "money",
+    "family": "currency",
+    "synonyms": {
+      "pt": ["símbolo do real", "R$"],
+      "en": ["real sign", "BRL"]
+    },
+    "tags": {
+      "pt": ["moeda", "dinheiro", "Brasil", "BRL", "reais"],
+      "en": ["currency", "money", "Brazil", "reais"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gw0t9zqg",
+    "slug": "currency-rupee",
+    "name": {
+      "pt": "Rúpia",
+      "en": "Rupee"
+    },
+    "subcategory": "money",
+    "family": "currency",
+    "synonyms": {
+      "pt": ["símbolo da rúpia"],
+      "en": ["rupee sign", "INR"]
+    },
+    "tags": {
+      "pt": ["moeda", "dinheiro", "Índia", "INR"],
+      "en": ["currency", "money", "India"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkwa47jf",
+    "slug": "currency-yen",
+    "name": {
+      "pt": "Iene",
+      "en": "Yen"
+    },
+    "subcategory": "money",
+    "family": "currency",
+    "synonyms": {
+      "pt": ["símbolo do iene", "yuan"],
+      "en": ["yen sign", "yuan"]
+    },
+    "tags": {
+      "pt": ["moeda", "dinheiro", "Japão", "JPY"],
+      "en": ["currency", "money", "Japan", "JPY"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4h6w7fj",
+    "slug": "dividends",
+    "name": {
+      "pt": "Dividendos",
+      "en": "Dividends"
+    },
+    "subcategory": "investing",
+    "synonyms": {
+      "pt": ["proventos", "distribuição de lucros"],
+      "en": ["payout", "profit sharing"]
+    },
+    "tags": {
+      "pt": ["rendimento", "ações", "renda passiva", "pagamento"],
+      "en": ["yield", "stocks", "passive income", "distribution"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g6s4ex2g",
+    "slug": "gold-bars",
+    "name": {
+      "pt": "Barras de ouro",
+      "en": "Gold bars"
+    },
+    "subcategory": "investing",
+    "synonyms": {
+      "pt": ["ouro", "lingotes"],
+      "en": ["gold", "bullion", "ingots"]
+    },
+    "tags": {
+      "pt": ["reserva de valor", "riqueza", "metal precioso", "investimento"],
+      "en": ["store of value", "wealth", "precious metal", "investment"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ge00ceyn",
+    "slug": "insurance",
+    "name": {
+      "pt": "Seguro",
+      "en": "Insurance"
+    },
+    "subcategory": "investing",
+    "synonyms": {
+      "pt": ["proteção financeira", "apólice"],
+      "en": ["coverage", "policy"]
+    },
+    "tags": {
+      "pt": ["segurança", "cobertura", "guarda-chuva", "garantia"],
+      "en": ["protection", "umbrella", "guarantee", "safety"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gy2xxske",
+    "slug": "interest-rate",
+    "name": {
+      "pt": "Taxa de juros",
+      "en": "Interest rate"
+    },
+    "subcategory": "banking",
+    "synonyms": {
+      "pt": ["juros", "alta dos juros"],
+      "en": ["interest", "rate hike"]
+    },
+    "tags": {
+      "pt": ["porcentagem", "rendimento", "selic", "aumento"],
+      "en": ["percentage", "yield", "rate increase"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g378pzz0",
+    "slug": "ledger",
+    "name": {
+      "pt": "Livro-razão",
+      "en": "Ledger"
+    },
+    "subcategory": "investing",
+    "synonyms": {
+      "pt": ["livro contábil", "razão"],
+      "en": ["accounting book", "account book"]
+    },
+    "tags": {
+      "pt": ["contabilidade", "lançamentos", "registros", "balanço"],
+      "en": ["bookkeeping", "entries", "records", "accounts"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g6p0v5br",
+    "slug": "loan",
+    "name": {
+      "pt": "Empréstimo",
+      "en": "Loan"
+    },
+    "subcategory": "banking",
+    "synonyms": {
+      "pt": ["crédito", "financiamento"],
+      "en": ["credit", "lending"]
+    },
+    "tags": {
+      "pt": ["pedir dinheiro", "dívida", "juros", "mão com moeda"],
+      "en": ["borrow", "debt", "interest", "hand with coin"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gh33j0e0",
+    "slug": "loss",
+    "name": {
+      "pt": "Prejuízo",
+      "en": "Loss"
+    },
+    "subcategory": "investing",
+    "family": "profit-loss",
+    "synonyms": {
+      "pt": ["perda", "déficit"],
+      "en": ["deficit", "decline"]
+    },
+    "tags": {
+      "pt": ["queda", "baixa", "dinheiro caindo", "despesa"],
+      "en": ["decrease", "money down", "expense", "drop"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdv66fcr",
+    "slug": "money-bag",
+    "name": {
+      "pt": "Saco de dinheiro",
+      "en": "Money bag"
+    },
+    "subcategory": "money",
+    "synonyms": {
+      "pt": ["bolsa de dinheiro", "fortuna"],
+      "en": ["moneybag", "sack of money"]
+    },
+    "tags": {
+      "pt": ["riqueza", "tesouro", "lucro", "investimento"],
+      "en": ["wealth", "treasure", "profit", "riches"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gn0e76mt",
+    "slug": "money-receive",
+    "name": {
+      "pt": "Receber dinheiro",
+      "en": "Receive money"
+    },
+    "subcategory": "money",
+    "family": "money-transfer",
+    "synonyms": {
+      "pt": ["recebimento", "entrada"],
+      "en": ["money in", "incoming payment"]
+    },
+    "tags": {
+      "pt": ["depósito", "pagamento recebido", "crédito", "transferência"],
+      "en": ["deposit", "payment received", "credit", "transfer"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gd5qmfg8",
+    "slug": "money-send",
+    "name": {
+      "pt": "Enviar dinheiro",
+      "en": "Send money"
+    },
+    "subcategory": "money",
+    "family": "money-transfer",
+    "synonyms": {
+      "pt": ["pagar", "transferir dinheiro"],
+      "en": ["pay", "money out"]
+    },
+    "tags": {
+      "pt": ["envio", "pagamento", "saída", "remessa"],
+      "en": ["transfer", "payment", "outgoing", "remittance"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gsdxtjkm",
+    "slug": "mortgage",
+    "name": {
+      "pt": "Financiamento imobiliário",
+      "en": "Mortgage"
+    },
+    "subcategory": "banking",
+    "synonyms": {
+      "pt": ["hipoteca", "crédito imobiliário"],
+      "en": ["home loan", "housing loan"]
+    },
+    "tags": {
+      "pt": ["casa própria", "imóvel", "juros", "prestação"],
+      "en": ["home", "property", "interest", "real estate"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gg7zs25x",
+    "slug": "percent-circle",
+    "name": {
+      "pt": "Porcentagem em círculo",
+      "en": "Percent"
+    },
+    "subcategory": "investing",
+    "synonyms": {
+      "pt": ["porcentagem", "percentual", "por cento"],
+      "en": ["percentage", "per cent"]
+    },
+    "tags": {
+      "pt": ["taxa", "rendimento", "desconto", "juros"],
+      "en": ["rate", "yield", "discount", "interest"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g28ds1vg",
+    "slug": "piggy-bank",
+    "name": {
+      "pt": "Cofrinho",
+      "en": "Piggy bank"
+    },
+    "subcategory": "money",
+    "synonyms": {
+      "pt": ["porquinho", "mealheiro"],
+      "en": ["piggybank", "coin bank"]
+    },
+    "tags": {
+      "pt": ["poupança", "economizar", "guardar dinheiro", "reserva"],
+      "en": ["savings", "save money", "deposit", "reserve"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g2mczk6c",
+    "slug": "portfolio",
+    "name": {
+      "pt": "Carteira de investimentos",
+      "en": "Portfolio"
+    },
+    "subcategory": "investing",
+    "family": "briefcase",
+    "synonyms": {
+      "pt": ["portfólio", "carteira de ações"],
+      "en": ["investment portfolio", "holdings"]
+    },
+    "tags": {
+      "pt": ["investimentos", "ativos", "rentabilidade", "diversificação"],
+      "en": ["investments", "assets", "returns", "diversification"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gxqs957q",
+    "slug": "profit",
+    "name": {
+      "pt": "Lucro",
+      "en": "Profit"
+    },
+    "subcategory": "investing",
+    "family": "profit-loss",
+    "synonyms": {
+      "pt": ["ganho", "rendimento"],
+      "en": ["gain", "earnings"]
+    },
+    "tags": {
+      "pt": ["receita", "alta", "retorno", "dinheiro subindo"],
+      "en": ["revenue", "increase", "return", "money up"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggddjnt8",
+    "slug": "receipt-tax",
+    "name": {
+      "pt": "Nota com imposto",
+      "en": "Tax receipt"
+    },
+    "subcategory": "banking",
+    "family": "receipt",
+    "synonyms": {
+      "pt": ["recibo com imposto", "nota fiscal"],
+      "en": ["receipt with tax", "tax invoice"]
+    },
+    "tags": {
+      "pt": ["tributos", "porcentagem", "taxa", "comprovante"],
+      "en": ["taxes", "percentage", "VAT", "sales tax"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gcw5kzeh",
+    "slug": "risk",
+    "name": {
+      "pt": "Risco",
+      "en": "Risk"
+    },
+    "subcategory": "investing",
+    "synonyms": {
+      "pt": ["nível de risco", "medidor de risco"],
+      "en": ["risk level", "risk meter"]
+    },
+    "tags": {
+      "pt": ["perigo", "volatilidade", "exposição", "alto risco"],
+      "en": ["danger", "volatility", "exposure", "high risk"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gehj36pp",
+    "slug": "salary",
+    "name": {
+      "pt": "Salário",
+      "en": "Salary"
+    },
+    "subcategory": "money",
+    "synonyms": {
+      "pt": ["remuneração", "pagamento do funcionário"],
+      "en": ["wage", "pay"]
+    },
+    "tags": {
+      "pt": ["folha de pagamento", "renda", "holerite", "salário mensal"],
+      "en": ["payroll", "income", "paycheck", "earnings"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gabp3jvk",
+    "slug": "savings",
+    "name": {
+      "pt": "Poupança",
+      "en": "Savings"
+    },
+    "subcategory": "banking",
+    "synonyms": {
+      "pt": ["economias", "reserva"],
+      "en": ["saving", "nest egg"]
+    },
+    "tags": {
+      "pt": ["investimento", "crescimento", "guardar dinheiro", "rendimento"],
+      "en": ["investment", "growth", "save money", "interest"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gjaqt3wc",
+    "slug": "statement",
+    "name": {
+      "pt": "Extrato",
+      "en": "Statement"
+    },
+    "subcategory": "banking",
+    "synonyms": {
+      "pt": ["extrato bancário", "demonstrativo"],
+      "en": ["bank statement", "account statement"]
+    },
+    "tags": {
+      "pt": ["movimentações", "lançamentos", "histórico", "conta"],
+      "en": ["transactions", "entries", "history", "account"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gj6ktnxa",
+    "slug": "stock-down",
+    "name": {
+      "pt": "Ação em baixa",
+      "en": "Stock down"
+    },
+    "subcategory": "investing",
+    "family": "stock",
+    "synonyms": {
+      "pt": ["bolsa caindo", "desvalorização"],
+      "en": ["stock falling", "market down"]
+    },
+    "tags": {
+      "pt": ["queda", "perda", "mercado", "investimento", "cotação"],
+      "en": ["bear", "loss", "market", "investment", "price down"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gvp5cpa4",
+    "slug": "stock-up",
+    "name": {
+      "pt": "Ação em alta",
+      "en": "Stock up"
+    },
+    "subcategory": "investing",
+    "family": "stock",
+    "synonyms": {
+      "pt": ["bolsa subindo", "valorização"],
+      "en": ["stock rising", "market up"]
+    },
+    "tags": {
+      "pt": ["alta", "ganho", "mercado", "investimento", "cotação"],
+      "en": ["bull", "gain", "market", "investment", "price up"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gs35524q",
+    "slug": "tax",
+    "name": {
+      "pt": "Imposto",
+      "en": "Tax"
+    },
+    "subcategory": "banking",
+    "synonyms": {
+      "pt": ["tributo", "taxa"],
+      "en": ["taxes", "levy"]
+    },
+    "tags": {
+      "pt": ["declaração", "receita", "porcentagem", "fiscal", "IR"],
+      "en": ["tax return", "percentage", "fiscal", "duty"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gx7bp4gt",
+    "slug": "tip",
+    "name": {
+      "pt": "Gorjeta",
+      "en": "Tip"
+    },
+    "subcategory": "money",
+    "synonyms": {
+      "pt": ["caixinha", "pote de gorjeta"],
+      "en": ["tip jar", "gratuity"]
+    },
+    "tags": {
+      "pt": ["gratificação", "doação", "contribuição", "serviço"],
+      "en": ["donation", "contribution", "service", "tips"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gv9xkbrz",
+    "slug": "token",
+    "name": {
+      "pt": "Token",
+      "en": "Token"
+    },
+    "subcategory": "investing",
+    "synonyms": {
+      "pt": ["ficha", "moeda virtual"],
+      "en": ["chip", "virtual coin"]
+    },
+    "tags": {
+      "pt": ["cripto", "ativo digital", "NFT", "pontos"],
+      "en": ["crypto", "digital asset", "NFT", "points"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gy49bhxw",
+    "slug": "transfer",
+    "name": {
+      "pt": "Transferência",
+      "en": "Transfer"
+    },
+    "subcategory": "banking",
+    "synonyms": {
+      "pt": ["transferência bancária", "TED", "PIX"],
+      "en": ["bank transfer", "wire transfer"]
+    },
+    "tags": {
+      "pt": ["enviar e receber", "movimentar", "contas", "entre contas"],
+      "en": ["send and receive", "move money", "accounts"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gs1b03b9",
+    "slug": "vault",
+    "name": {
+      "pt": "Cofre",
+      "en": "Vault"
+    },
+    "subcategory": "banking",
+    "synonyms": {
+      "pt": ["caixa-forte", "cofre-forte"],
+      "en": ["safe", "strongbox"]
+    },
+    "tags": {
+      "pt": ["segurança", "guardar", "proteger", "valores", "reserva"],
+      "en": ["security", "protect", "valuables", "deposit box"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggj9jnxr",
+    "slug": "wallet",
+    "name": {
+      "pt": "Carteira",
+      "en": "Wallet"
+    },
+    "subcategory": "money",
+    "synonyms": {
+      "pt": ["dinheiro", "porta-cédulas"],
+      "en": ["money", "purse"]
+    },
+    "tags": {
+      "pt": ["pagamento", "saldo", "finanças"],
+      "en": ["payment", "balance", "finance"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  }
+]

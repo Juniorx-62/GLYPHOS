@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="3" y="3" width="18" height="8" rx="2" data-part="body"/>
+  <rect x="3" y="13" width="9" height="8" rx="2" data-part="body"/>
+  <circle cx="6.5" cy="7" r="1" fill="currentColor" stroke="none" data-part="cut"/>
+  <circle cx="9.5" cy="7" r="1" fill="currentColor" stroke="none" data-part="cut"/>
+  <circle cx="6.5" cy="17" r="1" fill="currentColor" stroke="none" data-part="cut"/>
+  <path d="M14 7h3.5" data-part="cut"/>
+  <polygon points="16.88 15.49 17.09 14.36 18.91 14.36 19.12 15.49 19.62 15.78 20.7 15.4 21.6 16.97 20.73 17.71 20.73 18.29 21.6 19.03 20.7 20.6 19.62 20.22 19.12 20.51 18.91 21.64 17.09 21.64 16.88 20.51 16.38 20.22 15.3 20.6 14.4 19.03 15.27 18.29 15.27 17.71 14.4 16.97 15.3 15.4 16.38 15.78" data-part="body"/>
+  <circle cx="18" cy="18" r="1" data-part="cut"/>
+</svg>

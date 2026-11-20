@@ -1,0 +1,1694 @@
+[
+  {
+    "id": "g5evan13",
+    "slug": "air-conditioner",
+    "name": {
+      "pt": "Ar-condicionado",
+      "en": "Air conditioner"
+    },
+    "subcategory": "appliances",
+    "synonyms": {
+      "pt": ["climatizador", "split"],
+      "en": ["AC", "air con", "split unit"]
+    },
+    "tags": {
+      "pt": ["refrigeração", "frio", "clima", "ventilação"],
+      "en": ["cooling", "cold", "climate control", "ventilation"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gys0yvm7",
+    "slug": "apartment",
+    "name": {
+      "pt": "Apartamento",
+      "en": "Apartment"
+    },
+    "subcategory": "buildings",
+    "synonyms": {
+      "pt": ["condomínio", "edifício residencial"],
+      "en": ["condo", "flat", "apartment building"]
+    },
+    "tags": {
+      "pt": ["moradia", "aluguel", "imóvel", "residência"],
+      "en": ["residence", "rent", "housing", "property"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g305ht5j",
+    "slug": "armchair",
+    "name": {
+      "pt": "Poltrona",
+      "en": "Armchair"
+    },
+    "subcategory": "furniture",
+    "synonyms": {
+      "pt": ["cadeira estofada", "cadeira de braço"],
+      "en": ["easy chair", "lounge chair"]
+    },
+    "tags": {
+      "pt": ["sala de estar", "descanso", "leitura", "sentar"],
+      "en": ["living room", "lounge", "reading", "sit"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0rfw9as",
+    "slug": "barn",
+    "name": {
+      "pt": "Celeiro",
+      "en": "Barn"
+    },
+    "subcategory": "buildings",
+    "synonyms": {
+      "pt": ["galpão", "estábulo", "paiol"],
+      "en": ["farmhouse", "stable", "shed"]
+    },
+    "tags": {
+      "pt": ["fazenda", "rural", "agricultura", "campo"],
+      "en": ["farm", "rural", "agriculture", "countryside"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g2r9yft8",
+    "slug": "bathtub",
+    "name": {
+      "pt": "Banheira",
+      "en": "Bathtub"
+    },
+    "subcategory": "furniture",
+    "synonyms": {
+      "pt": ["ofurô", "banho de imersão"],
+      "en": ["tub", "bath"]
+    },
+    "tags": {
+      "pt": ["banheiro", "banho", "relaxar", "spa"],
+      "en": ["bathroom", "bathing", "relax", "spa"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g9ga9ydr",
+    "slug": "bed",
+    "name": {
+      "pt": "Cama",
+      "en": "Bed"
+    },
+    "subcategory": "furniture",
+    "family": "bed",
+    "synonyms": {
+      "pt": ["leito", "dormitório"],
+      "en": ["bunk", "sleeping place"]
+    },
+    "tags": {
+      "pt": ["dormir", "quarto", "descanso", "hospedagem"],
+      "en": ["sleep", "bedroom", "rest", "lodging"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gf3x0chr",
+    "slug": "bed-double",
+    "name": {
+      "pt": "Cama de casal",
+      "en": "Double bed"
+    },
+    "subcategory": "furniture",
+    "family": "bed",
+    "synonyms": {
+      "pt": ["cama dupla", "cama queen"],
+      "en": ["queen bed", "king bed"]
+    },
+    "tags": {
+      "pt": ["quarto de casal", "hotel", "dormir", "suíte"],
+      "en": ["master bedroom", "hotel room", "sleep", "suite"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1atd4jb",
+    "slug": "bed-single",
+    "name": {
+      "pt": "Cama de solteiro",
+      "en": "Single bed"
+    },
+    "subcategory": "furniture",
+    "family": "bed",
+    "synonyms": {
+      "pt": ["cama simples", "cama individual"],
+      "en": ["twin bed", "single room bed"]
+    },
+    "tags": {
+      "pt": ["quarto individual", "hotel", "dormir", "hostel"],
+      "en": ["single room", "hotel room", "sleep", "hostel"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0qwfy7t",
+    "slug": "blueprint",
+    "name": {
+      "pt": "Planta baixa",
+      "en": "Blueprint"
+    },
+    "subcategory": "construction",
+    "synonyms": {
+      "pt": ["projeto", "desenho técnico", "plano"],
+      "en": ["plan", "technical drawing", "schematic"]
+    },
+    "tags": {
+      "pt": ["arquitetura", "engenharia", "construção", "planejamento"],
+      "en": ["architecture", "engineering", "construction", "planning"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0v3r4fd",
+    "slug": "bookshelf",
+    "name": {
+      "pt": "Estante",
+      "en": "Bookshelf"
+    },
+    "subcategory": "furniture",
+    "synonyms": {
+      "pt": ["estante de livros", "prateleira de livros"],
+      "en": ["bookcase", "book shelf"]
+    },
+    "tags": {
+      "pt": ["biblioteca", "livros", "leitura", "móveis"],
+      "en": ["library", "books", "reading", "furniture"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g71adv4t",
+    "slug": "brick-wall",
+    "name": {
+      "pt": "Parede de tijolos",
+      "en": "Brick wall"
+    },
+    "subcategory": "construction",
+    "synonyms": {
+      "pt": ["muro", "alvenaria", "tijolos"],
+      "en": ["bricks", "masonry", "wall"]
+    },
+    "tags": {
+      "pt": ["construção", "obra", "pedreiro", "firewall"],
+      "en": ["construction", "building", "bricklayer", "firewall"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbnfgvqf",
+    "slug": "building",
+    "name": {
+      "pt": "Prédio",
+      "en": "Building"
+    },
+    "subcategory": "buildings",
+    "family": "building",
+    "synonyms": {
+      "pt": ["edifício", "construção"],
+      "en": ["tower block", "edifice"]
+    },
+    "tags": {
+      "pt": ["empresa", "escritório", "endereço comercial", "cidade"],
+      "en": ["company", "office", "business address", "city"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g41rsxfr",
+    "slug": "building-2",
+    "name": {
+      "pt": "Prédios",
+      "en": "Buildings"
+    },
+    "subcategory": "buildings",
+    "family": "building",
+    "synonyms": {
+      "pt": ["edifícios", "conjunto de prédios"],
+      "en": ["city block", "towers"]
+    },
+    "tags": {
+      "pt": ["cidade", "bairro", "centro", "empresas", "urbano"],
+      "en": ["city", "downtown", "urban", "companies"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gt7ppw6s",
+    "slug": "cabin",
+    "name": {
+      "pt": "Cabana",
+      "en": "Cabin"
+    },
+    "subcategory": "buildings",
+    "synonyms": {
+      "pt": ["chalé", "casa de campo", "casa de madeira"],
+      "en": ["log cabin", "chalet", "cottage"]
+    },
+    "tags": {
+      "pt": ["sítio", "montanha", "refúgio", "férias"],
+      "en": ["countryside", "mountain", "retreat", "holiday"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gxmb3vha",
+    "slug": "ceiling-fan",
+    "name": {
+      "pt": "Ventilador de teto",
+      "en": "Ceiling fan"
+    },
+    "subcategory": "appliances",
+    "synonyms": {
+      "pt": ["ventilador com luz", "ventilador de pás"],
+      "en": ["fan light", "paddle fan"]
+    },
+    "tags": {
+      "pt": ["ventilação", "quarto", "refrescar", "lustre"],
+      "en": ["ventilation", "bedroom", "cooling", "light fixture"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g77m8br4",
+    "slug": "ceiling-light",
+    "name": {
+      "pt": "Luminária de teto",
+      "en": "Ceiling light"
+    },
+    "subcategory": "furniture",
+    "family": "lamp",
+    "synonyms": {
+      "pt": ["pendente", "lustre simples"],
+      "en": ["pendant light", "hanging lamp"]
+    },
+    "tags": {
+      "pt": ["iluminação", "luz", "cozinha", "sala"],
+      "en": ["lighting", "light", "kitchen", "room"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gsanqf90",
+    "slug": "chair",
+    "name": {
+      "pt": "Cadeira",
+      "en": "Chair"
+    },
+    "subcategory": "furniture",
+    "synonyms": {
+      "pt": ["assento", "banco"],
+      "en": ["seat", "stool"]
+    },
+    "tags": {
+      "pt": ["sentar", "móveis", "mesa", "sala de jantar"],
+      "en": ["sit", "furniture", "dining", "seating"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gthhspsv",
+    "slug": "chandelier",
+    "name": {
+      "pt": "Lustre",
+      "en": "Chandelier"
+    },
+    "subcategory": "furniture",
+    "synonyms": {
+      "pt": ["candelabro", "lustre de velas"],
+      "en": ["candelabra", "ceiling candelabra"]
+    },
+    "tags": {
+      "pt": ["iluminação", "luxo", "decoração", "salão"],
+      "en": ["lighting", "luxury", "decor", "ballroom"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g387etmd",
+    "slug": "chimney",
+    "name": {
+      "pt": "Chaminé",
+      "en": "Chimney"
+    },
+    "subcategory": "buildings",
+    "synonyms": {
+      "pt": ["lareira", "fumaça"],
+      "en": ["smokestack", "flue"]
+    },
+    "tags": {
+      "pt": ["casa", "aquecimento", "inverno", "telhado"],
+      "en": ["house", "heating", "winter", "roof"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5ve7614",
+    "slug": "coat-rack",
+    "name": {
+      "pt": "Cabideiro",
+      "en": "Coat rack"
+    },
+    "subcategory": "furniture",
+    "synonyms": {
+      "pt": ["mancebo", "porta-casacos"],
+      "en": ["coat stand", "hat stand"]
+    },
+    "tags": {
+      "pt": ["casacos", "entrada", "chapéu", "hall"],
+      "en": ["coats", "entryway", "hat", "hallway"]
+    },
+    "popularity": 1,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1k9vb03",
+    "slug": "concrete-mixer",
+    "name": {
+      "pt": "Betoneira",
+      "en": "Concrete mixer"
+    },
+    "subcategory": "construction",
+    "synonyms": {
+      "pt": ["misturador de concreto", "misturador de cimento"],
+      "en": ["cement mixer", "mixer"]
+    },
+    "tags": {
+      "pt": ["obra", "concreto", "cimento", "construção"],
+      "en": ["construction site", "concrete", "cement", "building"]
+    },
+    "popularity": 1,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gq1bhbqr",
+    "slug": "crane",
+    "name": {
+      "pt": "Guindaste",
+      "en": "Crane"
+    },
+    "subcategory": "construction",
+    "synonyms": {
+      "pt": ["grua", "guindaste de torre"],
+      "en": ["tower crane", "construction crane"]
+    },
+    "tags": {
+      "pt": ["obra", "construção", "içar", "engenharia"],
+      "en": ["construction site", "building", "hoist", "engineering"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggy4bknr",
+    "slug": "crib",
+    "name": {
+      "pt": "Berço",
+      "en": "Crib"
+    },
+    "subcategory": "furniture",
+    "synonyms": {
+      "pt": ["berço de bebê", "caminha"],
+      "en": ["cot", "baby bed"]
+    },
+    "tags": {
+      "pt": ["bebê", "quarto infantil", "recém-nascido", "maternidade"],
+      "en": ["baby", "nursery", "newborn", "infant"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqvvn438",
+    "slug": "curtains",
+    "name": {
+      "pt": "Cortinas",
+      "en": "Curtains"
+    },
+    "subcategory": "furniture",
+    "synonyms": {
+      "pt": ["cortina", "persiana de tecido"],
+      "en": ["drapes", "curtain"]
+    },
+    "tags": {
+      "pt": ["janela", "decoração", "privacidade", "sala"],
+      "en": ["window", "decor", "privacy", "living room"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbqqf1fv",
+    "slug": "dining-table",
+    "name": {
+      "pt": "Mesa de jantar",
+      "en": "Dining table"
+    },
+    "subcategory": "furniture",
+    "synonyms": {
+      "pt": ["mesa com cadeiras", "mesa da cozinha"],
+      "en": ["table and chairs", "kitchen table"]
+    },
+    "tags": {
+      "pt": ["refeição", "jantar", "sala de jantar", "restaurante"],
+      "en": ["meal", "dinner", "dining room", "restaurant"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbvwkdr8",
+    "slug": "dishwasher",
+    "name": {
+      "pt": "Lava-louças",
+      "en": "Dishwasher"
+    },
+    "subcategory": "appliances",
+    "synonyms": {
+      "pt": ["máquina de lavar louça"],
+      "en": ["dish washer"]
+    },
+    "tags": {
+      "pt": ["cozinha", "louça", "pratos", "eletrodoméstico"],
+      "en": ["kitchen", "dishes", "plates", "appliance"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkq6h54j",
+    "slug": "door",
+    "name": {
+      "pt": "Porta",
+      "en": "Door"
+    },
+    "subcategory": "buildings",
+    "family": "door",
+    "synonyms": {
+      "pt": ["porta de entrada", "porta de madeira"],
+      "en": ["front door", "wooden door"]
+    },
+    "tags": {
+      "pt": ["entrada", "acesso", "casa", "quarto"],
+      "en": ["entrance", "entry", "access", "room"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwfn46zs",
+    "slug": "door-closed",
+    "name": {
+      "pt": "Porta fechada",
+      "en": "Door closed"
+    },
+    "subcategory": "buildings",
+    "family": "door",
+    "variantOf": "door",
+    "synonyms": {
+      "pt": ["entrada fechada", "fechar porta"],
+      "en": ["closed door", "shut door"]
+    },
+    "tags": {
+      "pt": ["fechado", "acesso bloqueado", "privado", "quarto"],
+      "en": ["closed", "no entry", "private", "room"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gp97hw5a",
+    "slug": "door-open",
+    "name": {
+      "pt": "Porta aberta",
+      "en": "Door open"
+    },
+    "subcategory": "buildings",
+    "family": "door",
+    "variantOf": "door",
+    "synonyms": {
+      "pt": ["entrada aberta", "abrir porta"],
+      "en": ["open door", "opened door"]
+    },
+    "tags": {
+      "pt": ["entrar", "acesso liberado", "sair", "bem-vindo"],
+      "en": ["enter", "exit", "access granted", "welcome"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmmd7sbp",
+    "slug": "doorbell",
+    "name": {
+      "pt": "Campainha",
+      "en": "Doorbell"
+    },
+    "subcategory": "appliances",
+    "synonyms": {
+      "pt": ["interfone", "botão da campainha"],
+      "en": ["door chime", "buzzer"]
+    },
+    "tags": {
+      "pt": ["visita", "porta", "tocar", "entrada"],
+      "en": ["visitor", "door", "ring", "entrance"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ga52j113",
+    "slug": "drawer",
+    "name": {
+      "pt": "Cômoda",
+      "en": "Chest of drawers"
+    },
+    "subcategory": "furniture",
+    "synonyms": {
+      "pt": ["gaveteiro", "gavetas"],
+      "en": ["dresser", "drawers"]
+    },
+    "tags": {
+      "pt": ["armário", "organização", "quarto", "móveis"],
+      "en": ["cabinet", "storage", "bedroom", "furniture"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gjqtx846",
+    "slug": "elevator",
+    "name": {
+      "pt": "Elevador",
+      "en": "Elevator"
+    },
+    "subcategory": "buildings",
+    "synonyms": {
+      "pt": ["ascensor", "cabine"],
+      "en": ["lift", "cabin"]
+    },
+    "tags": {
+      "pt": ["subir", "descer", "andar", "acessibilidade"],
+      "en": ["up", "down", "floor", "accessibility"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmj0ctzz",
+    "slug": "fan",
+    "name": {
+      "pt": "Ventilador",
+      "en": "Fan"
+    },
+    "subcategory": "appliances",
+    "synonyms": {
+      "pt": ["ventoinha", "circulador de ar"],
+      "en": ["electric fan", "desk fan"]
+    },
+    "tags": {
+      "pt": ["vento", "refrescar", "calor", "ventilação"],
+      "en": ["wind", "cool down", "airflow", "ventilation"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4e0pc0m",
+    "slug": "faucet",
+    "name": {
+      "pt": "Torneira",
+      "en": "Faucet"
+    },
+    "subcategory": "furniture",
+    "synonyms": {
+      "pt": ["registro", "bica"],
+      "en": ["tap", "spigot"]
+    },
+    "tags": {
+      "pt": ["água", "pia", "encanamento", "vazamento"],
+      "en": ["water", "sink", "plumbing", "leak"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g9bwqydm",
+    "slug": "fence",
+    "name": {
+      "pt": "Cerca",
+      "en": "Fence"
+    },
+    "subcategory": "buildings",
+    "synonyms": {
+      "pt": ["grade", "cercado", "paliçada"],
+      "en": ["picket fence", "railing"]
+    },
+    "tags": {
+      "pt": ["quintal", "jardim", "limite", "divisa"],
+      "en": ["yard", "garden", "boundary", "enclosure"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdvftrt2",
+    "slug": "fireplace",
+    "name": {
+      "pt": "Lareira",
+      "en": "Fireplace"
+    },
+    "subcategory": "furniture",
+    "synonyms": {
+      "pt": ["fogareiro", "salamandra"],
+      "en": ["hearth", "fire hearth"]
+    },
+    "tags": {
+      "pt": ["fogo", "aquecimento", "inverno", "aconchego"],
+      "en": ["fire", "heating", "winter", "cozy"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gm7exdnj",
+    "slug": "for-sale-sign",
+    "name": {
+      "pt": "Placa de venda",
+      "en": "For sale sign"
+    },
+    "subcategory": "buildings",
+    "synonyms": {
+      "pt": ["placa à venda", "placa de imóvel"],
+      "en": ["real estate sign", "property sign"]
+    },
+    "tags": {
+      "pt": ["imobiliária", "vende-se", "aluga-se", "corretor"],
+      "en": ["realtor", "for rent", "listing", "broker"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ge61jy2f",
+    "slug": "garage",
+    "name": {
+      "pt": "Garagem",
+      "en": "Garage"
+    },
+    "subcategory": "buildings",
+    "synonyms": {
+      "pt": ["portão de garagem", "abrigo de carro"],
+      "en": ["carport", "garage door"]
+    },
+    "tags": {
+      "pt": ["estacionamento", "carro", "vaga", "casa"],
+      "en": ["parking", "car", "parking space", "home"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8nmptsm",
+    "slug": "gate",
+    "name": {
+      "pt": "Portão",
+      "en": "Gate"
+    },
+    "subcategory": "buildings",
+    "synonyms": {
+      "pt": ["porteira", "cancela"],
+      "en": ["garden gate", "entrance gate"]
+    },
+    "tags": {
+      "pt": ["entrada", "cerca", "quintal", "acesso"],
+      "en": ["entrance", "fence", "yard", "access"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpyd1rt1",
+    "slug": "heater",
+    "name": {
+      "pt": "Aquecedor",
+      "en": "Heater"
+    },
+    "subcategory": "appliances",
+    "synonyms": {
+      "pt": ["radiador", "calefação"],
+      "en": ["radiator", "space heater"]
+    },
+    "tags": {
+      "pt": ["aquecimento", "calor", "inverno", "temperatura"],
+      "en": ["heating", "warmth", "winter", "temperature"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "geebn7vh",
+    "slug": "house",
+    "name": {
+      "pt": "Casa",
+      "en": "House"
+    },
+    "subcategory": "buildings",
+    "family": "house",
+    "synonyms": {
+      "pt": ["início", "lar", "residência"],
+      "en": ["home", "building"]
+    },
+    "tags": {
+      "pt": ["página inicial", "home", "moradia", "imóvel"],
+      "en": ["home page", "residence", "property"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpayhh8k",
+    "slug": "house-check",
+    "name": {
+      "pt": "Casa verificada",
+      "en": "House check"
+    },
+    "subcategory": "buildings",
+    "family": "house",
+    "variantOf": "house",
+    "synonyms": {
+      "pt": ["casa com visto", "casa confirmada"],
+      "en": ["home verified", "house confirmed"]
+    },
+    "tags": {
+      "pt": ["imóvel aprovado", "endereço confirmado", "vistoria"],
+      "en": ["approved property", "verified address", "inspection"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ge6dm2ah",
+    "slug": "house-key",
+    "name": {
+      "pt": "Chave da casa",
+      "en": "House key"
+    },
+    "subcategory": "buildings",
+    "synonyms": {
+      "pt": ["chave de casa", "chaveiro de casa"],
+      "en": ["home key", "door key"]
+    },
+    "tags": {
+      "pt": ["imobiliária", "mudança", "aluguel", "imóvel"],
+      "en": ["real estate", "moving in", "rent", "property"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gn534pjd",
+    "slug": "house-plan",
+    "name": {
+      "pt": "Planta da casa",
+      "en": "House plan"
+    },
+    "subcategory": "construction",
+    "synonyms": {
+      "pt": ["planta de imóvel", "layout da casa"],
+      "en": ["floor plan", "home layout"]
+    },
+    "tags": {
+      "pt": ["arquitetura", "cômodos", "projeto", "imobiliária"],
+      "en": ["architecture", "rooms", "project", "real estate"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ghty79vj",
+    "slug": "house-plus",
+    "name": {
+      "pt": "Adicionar casa",
+      "en": "House plus"
+    },
+    "subcategory": "buildings",
+    "family": "house",
+    "variantOf": "house",
+    "synonyms": {
+      "pt": ["nova casa", "casa com mais"],
+      "en": ["add home", "new house"]
+    },
+    "tags": {
+      "pt": ["novo imóvel", "cadastrar imóvel", "nova propriedade"],
+      "en": ["add property", "new listing"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gva804v8",
+    "slug": "ladder",
+    "name": {
+      "pt": "Escada de mão",
+      "en": "Ladder"
+    },
+    "subcategory": "construction",
+    "synonyms": {
+      "pt": ["escada portátil", "escadote"],
+      "en": ["step ladder", "rungs"]
+    },
+    "tags": {
+      "pt": ["subir", "obra", "manutenção", "altura"],
+      "en": ["climb", "construction", "maintenance", "height"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gvchgda0",
+    "slug": "lamp",
+    "name": {
+      "pt": "Abajur",
+      "en": "Lamp"
+    },
+    "subcategory": "furniture",
+    "family": "lamp",
+    "synonyms": {
+      "pt": ["luminária de mesa", "lâmpada de cabeceira"],
+      "en": ["table lamp", "bedside lamp"]
+    },
+    "tags": {
+      "pt": ["iluminação", "quarto", "luz", "decoração"],
+      "en": ["lighting", "bedroom", "light", "decor"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ga0ztzbq",
+    "slug": "lamp-desk",
+    "name": {
+      "pt": "Luminária de mesa",
+      "en": "Desk lamp"
+    },
+    "subcategory": "furniture",
+    "family": "lamp",
+    "synonyms": {
+      "pt": ["luminária articulada", "luminária de escritório"],
+      "en": ["task lamp", "architect lamp"]
+    },
+    "tags": {
+      "pt": ["iluminação", "estudo", "escrivaninha", "leitura"],
+      "en": ["lighting", "study", "desk", "reading"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1ttdj36",
+    "slug": "lamp-floor",
+    "name": {
+      "pt": "Luminária de chão",
+      "en": "Floor lamp"
+    },
+    "subcategory": "furniture",
+    "family": "lamp",
+    "synonyms": {
+      "pt": ["luminária de pé", "luminária arco"],
+      "en": ["standing lamp", "arc lamp"]
+    },
+    "tags": {
+      "pt": ["iluminação", "sala de estar", "luz", "decoração"],
+      "en": ["lighting", "living room", "light", "decor"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gk8wn2qn",
+    "slug": "microwave",
+    "name": {
+      "pt": "Micro-ondas",
+      "en": "Microwave"
+    },
+    "subcategory": "appliances",
+    "synonyms": {
+      "pt": ["forno de micro-ondas"],
+      "en": ["microwave oven"]
+    },
+    "tags": {
+      "pt": ["cozinha", "esquentar", "aquecer comida", "eletrodoméstico"],
+      "en": ["kitchen", "reheat", "warm up", "appliance"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwrtn4hf",
+    "slug": "mirror",
+    "name": {
+      "pt": "Espelho",
+      "en": "Mirror"
+    },
+    "subcategory": "furniture",
+    "synonyms": {
+      "pt": ["espelho de pé", "penteadeira"],
+      "en": ["standing mirror", "looking glass"]
+    },
+    "tags": {
+      "pt": ["reflexo", "quarto", "banheiro", "decoração"],
+      "en": ["reflection", "bedroom", "bathroom", "decor"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gt5r56eg",
+    "slug": "nightstand",
+    "name": {
+      "pt": "Criado-mudo",
+      "en": "Nightstand"
+    },
+    "subcategory": "furniture",
+    "synonyms": {
+      "pt": ["mesa de cabeceira", "mesinha"],
+      "en": ["bedside table", "night table"]
+    },
+    "tags": {
+      "pt": ["quarto", "abajur", "cama", "móveis"],
+      "en": ["bedroom", "lamp", "bed", "furniture"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gsts1s44",
+    "slug": "office-building",
+    "name": {
+      "pt": "Edifício comercial",
+      "en": "Office building"
+    },
+    "subcategory": "buildings",
+    "synonyms": {
+      "pt": ["escritório", "sede", "prédio comercial"],
+      "en": ["office", "headquarters", "corporate building"]
+    },
+    "tags": {
+      "pt": ["empresa", "trabalho", "corporativo", "negócios"],
+      "en": ["company", "workplace", "business"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4b7zhmc",
+    "slug": "oven",
+    "name": {
+      "pt": "Forno",
+      "en": "Oven"
+    },
+    "subcategory": "appliances",
+    "synonyms": {
+      "pt": ["fogão a gás", "forno elétrico"],
+      "en": ["range oven", "electric oven"]
+    },
+    "tags": {
+      "pt": ["cozinha", "assar", "eletrodoméstico", "cozinhar"],
+      "en": ["kitchen", "bake", "roast", "appliance"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqm9aepf",
+    "slug": "paint-roller",
+    "name": {
+      "pt": "Rolo de pintura",
+      "en": "Paint roller"
+    },
+    "subcategory": "construction",
+    "synonyms": {
+      "pt": ["rolo de tinta", "pintar parede"],
+      "en": ["roller brush", "wall painting"]
+    },
+    "tags": {
+      "pt": ["pintura", "reforma", "decoração", "pintor"],
+      "en": ["painting", "renovation", "decorating", "painter"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g52vwpqr",
+    "slug": "refrigerator",
+    "name": {
+      "pt": "Geladeira",
+      "en": "Refrigerator"
+    },
+    "subcategory": "appliances",
+    "synonyms": {
+      "pt": ["refrigerador", "frigobar"],
+      "en": ["fridge", "icebox"]
+    },
+    "tags": {
+      "pt": ["cozinha", "eletrodoméstico", "freezer", "alimentos"],
+      "en": ["kitchen", "appliance", "freezer", "food storage"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gyxme061",
+    "slug": "roof",
+    "name": {
+      "pt": "Telhado",
+      "en": "Roof"
+    },
+    "subcategory": "buildings",
+    "synonyms": {
+      "pt": ["cobertura", "teto"],
+      "en": ["rooftop", "roofing"]
+    },
+    "tags": {
+      "pt": ["telha", "casa", "reforma", "abrigo"],
+      "en": ["tiles", "house", "renovation", "shelter"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gn4jakr2",
+    "slug": "rug",
+    "name": {
+      "pt": "Tapete",
+      "en": "Rug"
+    },
+    "subcategory": "furniture",
+    "synonyms": {
+      "pt": ["carpete", "passadeira"],
+      "en": ["carpet", "mat"]
+    },
+    "tags": {
+      "pt": ["sala", "decoração", "piso", "chão"],
+      "en": ["living room", "decor", "floor", "flooring"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggbp6zh7",
+    "slug": "shelf",
+    "name": {
+      "pt": "Prateleira",
+      "en": "Shelf"
+    },
+    "subcategory": "furniture",
+    "synonyms": {
+      "pt": ["nicho", "suporte de parede"],
+      "en": ["wall shelf", "ledge"]
+    },
+    "tags": {
+      "pt": ["estante", "organização", "decoração", "livros"],
+      "en": ["shelving", "storage", "decor", "books"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gq5kv2ny",
+    "slug": "shovel",
+    "name": {
+      "pt": "Pá",
+      "en": "Shovel"
+    },
+    "subcategory": "construction",
+    "synonyms": {
+      "pt": ["pá de pedreiro", "enxada"],
+      "en": ["spade", "scoop"]
+    },
+    "tags": {
+      "pt": ["cavar", "obra", "jardinagem", "terra"],
+      "en": ["dig", "construction", "gardening", "soil"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3k7da05",
+    "slug": "shower",
+    "name": {
+      "pt": "Chuveiro",
+      "en": "Shower"
+    },
+    "subcategory": "furniture",
+    "synonyms": {
+      "pt": ["ducha", "banho"],
+      "en": ["shower head", "rain shower"]
+    },
+    "tags": {
+      "pt": ["banheiro", "água", "higiene", "vestiário"],
+      "en": ["bathroom", "water", "hygiene", "locker room"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8kafvct",
+    "slug": "sink",
+    "name": {
+      "pt": "Pia",
+      "en": "Sink"
+    },
+    "subcategory": "furniture",
+    "synonyms": {
+      "pt": ["lavatório", "cuba", "lavabo"],
+      "en": ["washbasin", "basin", "lavatory"]
+    },
+    "tags": {
+      "pt": ["banheiro", "cozinha", "lavar as mãos", "torneira"],
+      "en": ["bathroom", "kitchen", "wash hands", "tap"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gxsgjw5h",
+    "slug": "skyscraper",
+    "name": {
+      "pt": "Arranha-céu",
+      "en": "Skyscraper"
+    },
+    "subcategory": "buildings",
+    "synonyms": {
+      "pt": ["torre", "edifício alto"],
+      "en": ["tower", "high-rise"]
+    },
+    "tags": {
+      "pt": ["cidade", "metrópole", "centro financeiro", "urbano"],
+      "en": ["city", "metropolis", "downtown", "urban"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7p1y6an",
+    "slug": "smart-home",
+    "name": {
+      "pt": "Casa inteligente",
+      "en": "Smart home"
+    },
+    "subcategory": "appliances",
+    "family": "house",
+    "synonyms": {
+      "pt": ["automação residencial", "casa conectada"],
+      "en": ["home automation", "connected home"]
+    },
+    "tags": {
+      "pt": ["domótica", "wi-fi", "internet das coisas", "IoT"],
+      "en": ["domotics", "wifi", "internet of things", "IoT"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g6ct0fkg",
+    "slug": "sofa",
+    "name": {
+      "pt": "Sofá",
+      "en": "Sofa"
+    },
+    "subcategory": "furniture",
+    "synonyms": {
+      "pt": ["estofado", "divã"],
+      "en": ["couch", "settee"]
+    },
+    "tags": {
+      "pt": ["sala de estar", "descanso", "móveis", "sentar"],
+      "en": ["living room", "lounge", "furniture", "sit"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ge6q4qbs",
+    "slug": "stairs",
+    "name": {
+      "pt": "Escada",
+      "en": "Stairs"
+    },
+    "subcategory": "buildings",
+    "synonyms": {
+      "pt": ["degraus", "escadaria"],
+      "en": ["staircase", "steps"]
+    },
+    "tags": {
+      "pt": ["subir", "andar", "piso", "acesso"],
+      "en": ["climb", "floor", "level", "upstairs"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gsh50183",
+    "slug": "stove",
+    "name": {
+      "pt": "Fogão",
+      "en": "Stove"
+    },
+    "subcategory": "appliances",
+    "synonyms": {
+      "pt": ["cooktop", "boca de fogão", "fogareiro"],
+      "en": ["cooktop", "hob", "range"]
+    },
+    "tags": {
+      "pt": ["cozinha", "cozinhar", "queimador", "gás"],
+      "en": ["kitchen", "cooking", "burner", "gas"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gtswyaq7",
+    "slug": "thermostat",
+    "name": {
+      "pt": "Termostato",
+      "en": "Thermostat"
+    },
+    "subcategory": "appliances",
+    "synonyms": {
+      "pt": ["controle de temperatura", "regulador"],
+      "en": ["temperature control", "climate control"]
+    },
+    "tags": {
+      "pt": ["aquecimento", "ar-condicionado", "clima", "casa inteligente"],
+      "en": ["heating", "air conditioning", "smart home"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gs246hmz",
+    "slug": "toaster",
+    "name": {
+      "pt": "Torradeira",
+      "en": "Toaster"
+    },
+    "subcategory": "appliances",
+    "synonyms": {
+      "pt": ["tostadeira"],
+      "en": ["toast maker"]
+    },
+    "tags": {
+      "pt": ["café da manhã", "pão", "torrada", "cozinha"],
+      "en": ["breakfast", "bread", "toast", "kitchen"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gxwtxq2v",
+    "slug": "toilet",
+    "name": {
+      "pt": "Vaso sanitário",
+      "en": "Toilet"
+    },
+    "subcategory": "furniture",
+    "synonyms": {
+      "pt": ["privada", "sanitário", "latrina"],
+      "en": ["lavatory", "WC", "loo"]
+    },
+    "tags": {
+      "pt": ["banheiro", "WC", "lavabo", "toalete"],
+      "en": ["bathroom", "restroom", "washroom"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7w8yahq",
+    "slug": "trowel",
+    "name": {
+      "pt": "Colher de pedreiro",
+      "en": "Trowel"
+    },
+    "subcategory": "construction",
+    "synonyms": {
+      "pt": ["trolha", "espátula"],
+      "en": ["masonry trowel", "pointing trowel"]
+    },
+    "tags": {
+      "pt": ["alvenaria", "reboco", "obra", "cimento"],
+      "en": ["masonry", "plastering", "construction", "cement"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gh0xds7r",
+    "slug": "vacuum",
+    "name": {
+      "pt": "Aspirador de pó",
+      "en": "Vacuum cleaner"
+    },
+    "subcategory": "appliances",
+    "synonyms": {
+      "pt": ["aspirador", "vácuo"],
+      "en": ["vacuum", "hoover"]
+    },
+    "tags": {
+      "pt": ["limpeza", "faxina", "poeira", "casa"],
+      "en": ["cleaning", "housekeeping", "dust", "home"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdc22azv",
+    "slug": "wardrobe",
+    "name": {
+      "pt": "Guarda-roupa",
+      "en": "Wardrobe"
+    },
+    "subcategory": "furniture",
+    "synonyms": {
+      "pt": ["armário", "roupeiro"],
+      "en": ["closet", "armoire"]
+    },
+    "tags": {
+      "pt": ["quarto", "roupas", "closet", "móveis"],
+      "en": ["bedroom", "clothes", "cupboard", "furniture"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gr8avx05",
+    "slug": "washing-machine",
+    "name": {
+      "pt": "Máquina de lavar",
+      "en": "Washing machine"
+    },
+    "subcategory": "appliances",
+    "synonyms": {
+      "pt": ["lavadora", "lava-roupas"],
+      "en": ["washer", "laundry machine"]
+    },
+    "tags": {
+      "pt": ["lavanderia", "roupas", "lavar roupa", "eletrodoméstico"],
+      "en": ["laundry", "clothes", "wash", "appliance"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gntt1gq1",
+    "slug": "wheelbarrow",
+    "name": {
+      "pt": "Carrinho de mão",
+      "en": "Wheelbarrow"
+    },
+    "subcategory": "construction",
+    "synonyms": {
+      "pt": ["carriola", "girica"],
+      "en": ["barrow", "garden cart"]
+    },
+    "tags": {
+      "pt": ["obra", "jardinagem", "transporte", "construção"],
+      "en": ["construction", "gardening", "hauling", "building"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ge1jywfb",
+    "slug": "window",
+    "name": {
+      "pt": "Janela",
+      "en": "Window"
+    },
+    "subcategory": "buildings",
+    "synonyms": {
+      "pt": ["vidraça", "caixilho"],
+      "en": ["windowpane", "casement"]
+    },
+    "tags": {
+      "pt": ["casa", "vista", "ventilação", "abrir janela"],
+      "en": ["house", "view", "ventilation", "open window"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  }
+]

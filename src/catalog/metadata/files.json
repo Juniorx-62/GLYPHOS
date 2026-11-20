@@ -1,0 +1,1671 @@
+[
+  {
+    "id": "g232xa15",
+    "slug": "archive",
+    "name": {
+      "pt": "Arquivar",
+      "en": "Archive"
+    },
+    "subcategory": "transfer",
+    "family": "archive",
+    "synonyms": {
+      "pt": ["caixa de arquivo", "arquivo morto"],
+      "en": ["archive box", "storage box"]
+    },
+    "tags": {
+      "pt": ["guardar", "armazenar", "backup", "caixa"],
+      "en": ["store", "file away", "backup", "box"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8j5ej43",
+    "slug": "archive-restore",
+    "name": {
+      "pt": "Restaurar do arquivo",
+      "en": "Archive restore"
+    },
+    "subcategory": "transfer",
+    "family": "archive",
+    "variantOf": "archive",
+    "synonyms": {
+      "pt": ["desarquivar", "recuperar"],
+      "en": ["unarchive", "retrieve"]
+    },
+    "tags": {
+      "pt": ["restaurar", "tirar do arquivo", "voltar"],
+      "en": ["restore", "recover", "bring back"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g36nhh3v",
+    "slug": "clipboard",
+    "name": {
+      "pt": "Prancheta",
+      "en": "Clipboard"
+    },
+    "subcategory": "documents",
+    "family": "clipboard",
+    "synonyms": {
+      "pt": ["área de transferência", "clipboard"],
+      "en": ["paste board", "board"]
+    },
+    "tags": {
+      "pt": ["colar", "prancha", "formulário"],
+      "en": ["paste", "form", "checklist"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g36d3509",
+    "slug": "clipboard-copy",
+    "name": {
+      "pt": "Copiar para a área de transferência",
+      "en": "Clipboard copy"
+    },
+    "subcategory": "documents",
+    "family": "clipboard",
+    "synonyms": {
+      "pt": ["copiar", "copiar texto"],
+      "en": ["copy to clipboard", "copy text"]
+    },
+    "tags": {
+      "pt": ["prancheta", "clipboard", "duplicar"],
+      "en": ["clipboard", "duplicate"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gp8kn7ns",
+    "slug": "clipboard-paste",
+    "name": {
+      "pt": "Colar",
+      "en": "Clipboard paste"
+    },
+    "subcategory": "documents",
+    "family": "clipboard",
+    "synonyms": {
+      "pt": ["colar da área de transferência", "colar conteúdo"],
+      "en": ["paste", "paste from clipboard"]
+    },
+    "tags": {
+      "pt": ["prancheta", "clipboard", "inserir"],
+      "en": ["clipboard", "insert"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gjzzps44",
+    "slug": "clipboard-text",
+    "name": {
+      "pt": "Prancheta com texto",
+      "en": "Clipboard text"
+    },
+    "subcategory": "documents",
+    "family": "clipboard",
+    "synonyms": {
+      "pt": ["anotações na prancheta", "relatório"],
+      "en": ["clipboard notes", "report"]
+    },
+    "tags": {
+      "pt": ["lista", "formulário", "registro", "notas"],
+      "en": ["list", "form", "record", "notes"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grg7be30",
+    "slug": "document-signed",
+    "name": {
+      "pt": "Documento assinado",
+      "en": "Document signed"
+    },
+    "subcategory": "documents",
+    "family": "file",
+    "synonyms": {
+      "pt": ["assinatura", "contrato assinado"],
+      "en": ["signature", "signed contract"]
+    },
+    "tags": {
+      "pt": ["assinar", "acordo", "autorização", "termo"],
+      "en": ["sign", "agreement", "authorization", "terms"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gynq6egd",
+    "slug": "download",
+    "name": {
+      "pt": "Baixar",
+      "en": "Download"
+    },
+    "subcategory": "transfer",
+    "synonyms": {
+      "pt": ["download", "transferir"],
+      "en": ["save", "get"]
+    },
+    "tags": {
+      "pt": ["salvar", "exportar", "receber"],
+      "en": ["export", "receive"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g51v4051",
+    "slug": "file",
+    "name": {
+      "pt": "Arquivo",
+      "en": "File"
+    },
+    "subcategory": "files",
+    "family": "file",
+    "synonyms": {
+      "pt": ["documento", "página"],
+      "en": ["document", "page"]
+    },
+    "tags": {
+      "pt": ["papel", "folha", "novo arquivo"],
+      "en": ["paper", "sheet"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g2axeetm",
+    "slug": "file-archive",
+    "name": {
+      "pt": "Arquivo compactado",
+      "en": "File archive"
+    },
+    "subcategory": "files",
+    "family": "file",
+    "synonyms": {
+      "pt": ["zip", "arquivo comprimido"],
+      "en": ["zip file", "compressed file"]
+    },
+    "tags": {
+      "pt": ["rar", "compactar", "zíper", "pacote"],
+      "en": ["rar", "compress", "zipper", "package"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqdky39t",
+    "slug": "file-audio",
+    "name": {
+      "pt": "Arquivo de áudio",
+      "en": "File audio"
+    },
+    "subcategory": "files",
+    "family": "file",
+    "synonyms": {
+      "pt": ["arquivo de música", "som"],
+      "en": ["audio file", "music file"]
+    },
+    "tags": {
+      "pt": ["mp3", "música", "gravação", "faixa"],
+      "en": ["mp3", "sound", "recording", "track"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "geyacjb6",
+    "slug": "file-check",
+    "name": {
+      "pt": "Arquivo verificado",
+      "en": "File check"
+    },
+    "subcategory": "files",
+    "family": "file",
+    "variantOf": "file",
+    "synonyms": {
+      "pt": ["arquivo aprovado", "documento conferido"],
+      "en": ["approved file", "verified document"]
+    },
+    "tags": {
+      "pt": ["concluído", "validado", "salvo"],
+      "en": ["done", "validated", "saved"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdhtkhjr",
+    "slug": "file-clock",
+    "name": {
+      "pt": "Arquivo recente",
+      "en": "File clock"
+    },
+    "subcategory": "files",
+    "family": "file",
+    "variantOf": "file",
+    "synonyms": {
+      "pt": ["histórico do arquivo", "documento pendente"],
+      "en": ["recent file", "file history"]
+    },
+    "tags": {
+      "pt": ["relógio", "versão", "agendado"],
+      "en": ["clock", "version", "pending", "scheduled"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4b8tv93",
+    "slug": "file-code",
+    "name": {
+      "pt": "Arquivo de código",
+      "en": "File code"
+    },
+    "subcategory": "files",
+    "family": "file",
+    "synonyms": {
+      "pt": ["código-fonte", "script"],
+      "en": ["source file", "script"]
+    },
+    "tags": {
+      "pt": ["programação", "desenvolvimento", "html", "fonte"],
+      "en": ["programming", "development", "html", "source code"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gc7tzfps",
+    "slug": "file-cog",
+    "name": {
+      "pt": "Arquivo de configuração",
+      "en": "File cog"
+    },
+    "subcategory": "files",
+    "family": "file",
+    "variantOf": "file",
+    "synonyms": {
+      "pt": ["configurar arquivo", "ajustes do arquivo"],
+      "en": ["config file", "settings file"]
+    },
+    "tags": {
+      "pt": ["engrenagem", "preferências", "config"],
+      "en": ["gear", "preferences", "configuration"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdzv4mny",
+    "slug": "file-down",
+    "name": {
+      "pt": "Baixar arquivo",
+      "en": "File down"
+    },
+    "subcategory": "files",
+    "family": "file",
+    "synonyms": {
+      "pt": ["download de arquivo", "salvar arquivo"],
+      "en": ["download file", "save file"]
+    },
+    "tags": {
+      "pt": ["baixar documento", "exportar", "receber"],
+      "en": ["download document", "export", "receive"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggfxsghs",
+    "slug": "file-eye",
+    "name": {
+      "pt": "Visualizar arquivo",
+      "en": "File eye"
+    },
+    "subcategory": "files",
+    "family": "file",
+    "synonyms": {
+      "pt": ["pré-visualização", "abrir documento"],
+      "en": ["preview file", "view document"]
+    },
+    "tags": {
+      "pt": ["olho", "ver", "prévia", "leitura"],
+      "en": ["eye", "view", "preview", "read only"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grqfxwww",
+    "slug": "file-heart",
+    "name": {
+      "pt": "Arquivo favorito",
+      "en": "File heart"
+    },
+    "subcategory": "files",
+    "family": "file",
+    "variantOf": "file",
+    "synonyms": {
+      "pt": ["documento curtido", "arquivo preferido"],
+      "en": ["favorite file", "liked document"]
+    },
+    "tags": {
+      "pt": ["coração", "favoritos", "amei"],
+      "en": ["heart", "favorites", "love"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g30tj6gb",
+    "slug": "file-image",
+    "name": {
+      "pt": "Arquivo de imagem",
+      "en": "File image"
+    },
+    "subcategory": "files",
+    "family": "file",
+    "synonyms": {
+      "pt": ["foto", "figura"],
+      "en": ["image file", "photo file"]
+    },
+    "tags": {
+      "pt": ["jpg", "png", "imagem anexada", "galeria"],
+      "en": ["jpg", "png", "picture", "attachment"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gd3e9k30",
+    "slug": "file-lock",
+    "name": {
+      "pt": "Arquivo protegido",
+      "en": "File lock"
+    },
+    "subcategory": "files",
+    "family": "file",
+    "variantOf": "file",
+    "synonyms": {
+      "pt": ["arquivo bloqueado", "documento com senha"],
+      "en": ["locked file", "protected document"]
+    },
+    "tags": {
+      "pt": ["cadeado", "privado", "seguro", "criptografado"],
+      "en": ["padlock", "private", "secure", "encrypted"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqdapajj",
+    "slug": "file-minus",
+    "name": {
+      "pt": "Remover arquivo",
+      "en": "File minus"
+    },
+    "subcategory": "files",
+    "family": "file",
+    "variantOf": "file",
+    "synonyms": {
+      "pt": ["arquivo menos", "tirar arquivo"],
+      "en": ["remove file", "delete file"]
+    },
+    "tags": {
+      "pt": ["excluir documento", "subtrair"],
+      "en": ["subtract", "document"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4brp61e",
+    "slug": "file-off",
+    "name": {
+      "pt": "Arquivo indisponível",
+      "en": "File off"
+    },
+    "subcategory": "files",
+    "family": "file",
+    "variantOf": "file",
+    "synonyms": {
+      "pt": ["arquivo desativado", "sem arquivo"],
+      "en": ["unavailable file", "disabled file"]
+    },
+    "tags": {
+      "pt": ["oculto", "bloqueado", "ausente"],
+      "en": ["hidden", "missing", "no file"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqgqjt34",
+    "slug": "file-pen",
+    "name": {
+      "pt": "Editar arquivo",
+      "en": "File pen"
+    },
+    "subcategory": "files",
+    "family": "file",
+    "variantOf": "file",
+    "synonyms": {
+      "pt": ["arquivo com caneta", "alterar documento"],
+      "en": ["edit file", "file edit"]
+    },
+    "tags": {
+      "pt": ["escrever", "edição", "rascunho"],
+      "en": ["write", "modify", "draft", "document"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gyy7pecq",
+    "slug": "file-plus",
+    "name": {
+      "pt": "Novo arquivo",
+      "en": "File plus"
+    },
+    "subcategory": "files",
+    "family": "file",
+    "variantOf": "file",
+    "synonyms": {
+      "pt": ["adicionar arquivo", "criar arquivo"],
+      "en": ["new file", "add file", "create file"]
+    },
+    "tags": {
+      "pt": ["documento novo", "incluir", "anexar"],
+      "en": ["new document", "attach"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkmgv659",
+    "slug": "file-question",
+    "name": {
+      "pt": "Arquivo desconhecido",
+      "en": "File question"
+    },
+    "subcategory": "files",
+    "family": "file",
+    "synonyms": {
+      "pt": ["arquivo com dúvida", "formato desconhecido"],
+      "en": ["unknown file", "unknown format"]
+    },
+    "tags": {
+      "pt": ["ajuda", "interrogação", "não reconhecido"],
+      "en": ["help", "question mark", "unrecognized"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grmw8dsp",
+    "slug": "file-search",
+    "name": {
+      "pt": "Buscar arquivo",
+      "en": "File search"
+    },
+    "subcategory": "files",
+    "family": "file",
+    "variantOf": "file",
+    "synonyms": {
+      "pt": ["procurar documento", "pesquisar arquivo"],
+      "en": ["find file", "search document"]
+    },
+    "tags": {
+      "pt": ["lupa", "encontrar", "localizar"],
+      "en": ["magnifier", "lookup", "locate"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gq6f37k2",
+    "slug": "file-spreadsheet",
+    "name": {
+      "pt": "Planilha",
+      "en": "File spreadsheet"
+    },
+    "subcategory": "files",
+    "family": "file",
+    "synonyms": {
+      "pt": ["arquivo de planilha", "tabela"],
+      "en": ["spreadsheet", "sheet file"]
+    },
+    "tags": {
+      "pt": ["excel", "csv", "dados", "células"],
+      "en": ["excel", "csv", "data", "table", "cells"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gxrqs9sp",
+    "slug": "file-stack",
+    "name": {
+      "pt": "Pilha de arquivos",
+      "en": "File stack"
+    },
+    "subcategory": "files",
+    "family": "file",
+    "synonyms": {
+      "pt": ["arquivos empilhados", "maço de documentos"],
+      "en": ["stacked files", "document pile"]
+    },
+    "tags": {
+      "pt": ["lote", "versões", "camadas", "histórico"],
+      "en": ["batch", "versions", "layers", "history"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5w2akjk",
+    "slug": "file-star",
+    "name": {
+      "pt": "Arquivo destacado",
+      "en": "File star"
+    },
+    "subcategory": "files",
+    "family": "file",
+    "variantOf": "file",
+    "synonyms": {
+      "pt": ["documento com estrela", "arquivo importante"],
+      "en": ["starred file", "important document"]
+    },
+    "tags": {
+      "pt": ["favorito", "marcado", "destaque"],
+      "en": ["favorite", "highlighted", "featured"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5h8ypwm",
+    "slug": "file-symlink",
+    "name": {
+      "pt": "Atalho de arquivo",
+      "en": "File symlink"
+    },
+    "subcategory": "files",
+    "family": "file",
+    "synonyms": {
+      "pt": ["link simbólico", "arquivo vinculado"],
+      "en": ["file shortcut", "linked file"]
+    },
+    "tags": {
+      "pt": ["atalho", "referência", "alias", "symlink"],
+      "en": ["shortcut", "alias", "reference", "symbolic link"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gs1yhfc4",
+    "slug": "file-text",
+    "name": {
+      "pt": "Documento de texto",
+      "en": "File text"
+    },
+    "subcategory": "files",
+    "family": "file",
+    "synonyms": {
+      "pt": ["arquivo de texto", "documento"],
+      "en": ["text file", "document"]
+    },
+    "tags": {
+      "pt": ["texto", "página", "artigo", "txt"],
+      "en": ["text", "page", "article", "txt"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g63smbbb",
+    "slug": "file-transfer",
+    "name": {
+      "pt": "Transferir arquivo",
+      "en": "File transfer"
+    },
+    "subcategory": "transfer",
+    "family": "file",
+    "synonyms": {
+      "pt": ["troca de arquivos", "enviar e receber"],
+      "en": ["file exchange", "send and receive"]
+    },
+    "tags": {
+      "pt": ["transferência", "sincronizar", "mover", "compartilhar"],
+      "en": ["transfer", "sync", "move", "share"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ge8exs2g",
+    "slug": "file-type",
+    "name": {
+      "pt": "Tipo de arquivo",
+      "en": "File type"
+    },
+    "subcategory": "files",
+    "family": "file",
+    "synonyms": {
+      "pt": ["arquivo de fonte", "documento PDF"],
+      "en": ["font file", "pdf document"]
+    },
+    "tags": {
+      "pt": ["pdf", "formato", "extensão", "tipografia"],
+      "en": ["pdf", "format", "extension", "typography"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbbqt45g",
+    "slug": "file-up",
+    "name": {
+      "pt": "Enviar arquivo",
+      "en": "File up"
+    },
+    "subcategory": "files",
+    "family": "file",
+    "synonyms": {
+      "pt": ["upload de arquivo", "subir arquivo"],
+      "en": ["upload file", "send file"]
+    },
+    "tags": {
+      "pt": ["carregar documento", "anexar", "publicar"],
+      "en": ["upload document", "attach", "publish"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g813dd0d",
+    "slug": "file-video",
+    "name": {
+      "pt": "Arquivo de vídeo",
+      "en": "File video"
+    },
+    "subcategory": "files",
+    "family": "file",
+    "synonyms": {
+      "pt": ["vídeo", "filme"],
+      "en": ["video file", "movie file"]
+    },
+    "tags": {
+      "pt": ["mp4", "gravação", "clipe", "reproduzir"],
+      "en": ["mp4", "recording", "clip", "play"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gcdd6b7r",
+    "slug": "file-warning",
+    "name": {
+      "pt": "Arquivo com alerta",
+      "en": "File warning"
+    },
+    "subcategory": "files",
+    "family": "file",
+    "synonyms": {
+      "pt": ["arquivo corrompido", "aviso no arquivo"],
+      "en": ["corrupted file", "file alert"]
+    },
+    "tags": {
+      "pt": ["atenção", "erro", "problema", "exclamação"],
+      "en": ["attention", "error", "problem", "exclamation"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gvzmqkzx",
+    "slug": "file-x",
+    "name": {
+      "pt": "Arquivo com erro",
+      "en": "File x"
+    },
+    "subcategory": "files",
+    "family": "file",
+    "variantOf": "file",
+    "synonyms": {
+      "pt": ["excluir arquivo", "arquivo inválido"],
+      "en": ["delete file", "invalid file"]
+    },
+    "tags": {
+      "pt": ["apagar documento", "falha", "cancelar"],
+      "en": ["remove document", "error", "failed"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnk7gzc5",
+    "slug": "files",
+    "name": {
+      "pt": "Arquivos",
+      "en": "Files"
+    },
+    "subcategory": "files",
+    "family": "file",
+    "synonyms": {
+      "pt": ["vários arquivos", "documentos"],
+      "en": ["multiple files", "documents"]
+    },
+    "tags": {
+      "pt": ["lote", "coleção", "conjunto", "múltiplos"],
+      "en": ["batch", "collection", "set", "many"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqfhtzna",
+    "slug": "files-copy",
+    "name": {
+      "pt": "Copiar arquivos",
+      "en": "Files copy"
+    },
+    "subcategory": "files",
+    "family": "file",
+    "synonyms": {
+      "pt": ["duplicar arquivo", "cópia de arquivo"],
+      "en": ["copy file", "duplicate file"]
+    },
+    "tags": {
+      "pt": ["clonar", "colar", "duplicata"],
+      "en": ["clone", "paste", "duplicate"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbczz7ff",
+    "slug": "folder",
+    "name": {
+      "pt": "Pasta",
+      "en": "Folder"
+    },
+    "subcategory": "folders",
+    "family": "folder",
+    "synonyms": {
+      "pt": ["diretório"],
+      "en": ["directory"]
+    },
+    "tags": {
+      "pt": ["arquivos", "organizar", "guardar"],
+      "en": ["files", "organize"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g03k70yc",
+    "slug": "folder-archive",
+    "name": {
+      "pt": "Pasta compactada",
+      "en": "Folder archive"
+    },
+    "subcategory": "folders",
+    "family": "folder",
+    "synonyms": {
+      "pt": ["pasta zip", "pasta comprimida"],
+      "en": ["zipped folder", "compressed folder"]
+    },
+    "tags": {
+      "pt": ["arquivar", "zíper", "compactar"],
+      "en": ["archive", "zipper", "compress"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gr8hk3dd",
+    "slug": "folder-check",
+    "name": {
+      "pt": "Pasta verificada",
+      "en": "Folder check"
+    },
+    "subcategory": "folders",
+    "family": "folder",
+    "variantOf": "folder",
+    "synonyms": {
+      "pt": ["pasta concluída", "pasta sincronizada"],
+      "en": ["verified folder", "synced folder"]
+    },
+    "tags": {
+      "pt": ["aprovado", "conferido", "pronto"],
+      "en": ["approved", "done", "complete"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g62djdwq",
+    "slug": "folder-code",
+    "name": {
+      "pt": "Pasta de código",
+      "en": "Folder code"
+    },
+    "subcategory": "folders",
+    "family": "folder",
+    "synonyms": {
+      "pt": ["pasta do projeto", "repositório"],
+      "en": ["project folder", "source folder"]
+    },
+    "tags": {
+      "pt": ["código-fonte", "programação", "desenvolvimento"],
+      "en": ["source code", "programming", "development"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5tfgfg1",
+    "slug": "folder-cog",
+    "name": {
+      "pt": "Configurar pasta",
+      "en": "Folder cog"
+    },
+    "subcategory": "folders",
+    "family": "folder",
+    "variantOf": "folder",
+    "synonyms": {
+      "pt": ["pasta de configurações", "pasta do sistema"],
+      "en": ["folder settings", "system folder"]
+    },
+    "tags": {
+      "pt": ["engrenagem", "ajustes", "preferências"],
+      "en": ["gear", "configuration", "preferences"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g2h7a5z4",
+    "slug": "folder-down",
+    "name": {
+      "pt": "Baixar pasta",
+      "en": "Folder down"
+    },
+    "subcategory": "folders",
+    "family": "folder",
+    "synonyms": {
+      "pt": ["download de pasta", "salvar pasta"],
+      "en": ["download folder", "folder download"]
+    },
+    "tags": {
+      "pt": ["receber", "exportar", "guardar"],
+      "en": ["save", "receive", "export"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7yppw7f",
+    "slug": "folder-heart",
+    "name": {
+      "pt": "Pasta favorita",
+      "en": "Folder heart"
+    },
+    "subcategory": "folders",
+    "family": "folder",
+    "variantOf": "folder",
+    "synonyms": {
+      "pt": ["pasta curtida", "pasta preferida"],
+      "en": ["favorite folder", "liked folder"]
+    },
+    "tags": {
+      "pt": ["coração", "favoritos", "amei"],
+      "en": ["heart", "favorites", "love"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5284paw",
+    "slug": "folder-image",
+    "name": {
+      "pt": "Pasta de imagens",
+      "en": "Folder image"
+    },
+    "subcategory": "folders",
+    "family": "folder",
+    "synonyms": {
+      "pt": ["pasta de fotos", "galeria"],
+      "en": ["pictures folder", "photos folder"]
+    },
+    "tags": {
+      "pt": ["imagens", "fotos", "álbum", "biblioteca"],
+      "en": ["images", "photos", "album", "library"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ghbt585f",
+    "slug": "folder-input",
+    "name": {
+      "pt": "Mover para pasta",
+      "en": "Folder input"
+    },
+    "subcategory": "folders",
+    "family": "folder",
+    "synonyms": {
+      "pt": ["entrada na pasta", "importar para pasta"],
+      "en": ["move to folder", "folder import"]
+    },
+    "tags": {
+      "pt": ["entrada", "guardar", "arquivar"],
+      "en": ["input", "store", "file away"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnnfemyz",
+    "slug": "folder-lock",
+    "name": {
+      "pt": "Pasta protegida",
+      "en": "Folder lock"
+    },
+    "subcategory": "folders",
+    "family": "folder",
+    "variantOf": "folder",
+    "synonyms": {
+      "pt": ["pasta bloqueada", "pasta com senha"],
+      "en": ["locked folder", "protected folder"]
+    },
+    "tags": {
+      "pt": ["cadeado", "privado", "seguro", "cofre"],
+      "en": ["padlock", "private", "secure", "vault"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gb7qgaaa",
+    "slug": "folder-minus",
+    "name": {
+      "pt": "Remover pasta",
+      "en": "Folder minus"
+    },
+    "subcategory": "folders",
+    "family": "folder",
+    "variantOf": "folder",
+    "synonyms": {
+      "pt": ["pasta menos", "tirar pasta"],
+      "en": ["remove folder", "delete folder"]
+    },
+    "tags": {
+      "pt": ["excluir diretório", "subtrair"],
+      "en": ["subtract", "directory"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpcw3pc1",
+    "slug": "folder-open",
+    "name": {
+      "pt": "Pasta aberta",
+      "en": "Folder open"
+    },
+    "subcategory": "folders",
+    "family": "folder",
+    "synonyms": {
+      "pt": ["abrir pasta", "diretório aberto"],
+      "en": ["open folder", "opened directory"]
+    },
+    "tags": {
+      "pt": ["explorar", "navegar", "conteúdo"],
+      "en": ["browse", "explore", "contents"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gc6pwwq0",
+    "slug": "folder-output",
+    "name": {
+      "pt": "Sair da pasta",
+      "en": "Folder output"
+    },
+    "subcategory": "folders",
+    "family": "folder",
+    "synonyms": {
+      "pt": ["saída da pasta", "exportar da pasta"],
+      "en": ["move out of folder", "folder export"]
+    },
+    "tags": {
+      "pt": ["saída", "extrair", "mover"],
+      "en": ["output", "extract", "move"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0z89xp7",
+    "slug": "folder-plus",
+    "name": {
+      "pt": "Nova pasta",
+      "en": "Folder plus"
+    },
+    "subcategory": "folders",
+    "family": "folder",
+    "variantOf": "folder",
+    "synonyms": {
+      "pt": ["criar pasta", "adicionar pasta"],
+      "en": ["new folder", "add folder", "create folder"]
+    },
+    "tags": {
+      "pt": ["diretório novo", "organizar", "incluir"],
+      "en": ["new directory", "organize"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g6yrf7qb",
+    "slug": "folder-search",
+    "name": {
+      "pt": "Buscar na pasta",
+      "en": "Folder search"
+    },
+    "subcategory": "folders",
+    "family": "folder",
+    "variantOf": "folder",
+    "synonyms": {
+      "pt": ["procurar pasta", "pesquisar diretório"],
+      "en": ["find folder", "search directory"]
+    },
+    "tags": {
+      "pt": ["lupa", "encontrar", "explorar"],
+      "en": ["magnifier", "find", "explore"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g59vckra",
+    "slug": "folder-star",
+    "name": {
+      "pt": "Pasta destacada",
+      "en": "Folder star"
+    },
+    "subcategory": "folders",
+    "family": "folder",
+    "variantOf": "folder",
+    "synonyms": {
+      "pt": ["pasta com estrela", "pasta importante"],
+      "en": ["starred folder", "important folder"]
+    },
+    "tags": {
+      "pt": ["favorito", "marcado", "destaque"],
+      "en": ["favorite", "highlighted", "featured"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdce1hfr",
+    "slug": "folder-sync",
+    "name": {
+      "pt": "Sincronizar pasta",
+      "en": "Folder sync"
+    },
+    "subcategory": "folders",
+    "family": "folder",
+    "synonyms": {
+      "pt": ["pasta sincronizada", "atualizar pasta"],
+      "en": ["synced folder", "folder refresh"]
+    },
+    "tags": {
+      "pt": ["sincronização", "backup", "nuvem"],
+      "en": ["synchronization", "backup", "cloud"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7xw75sh",
+    "slug": "folder-tree",
+    "name": {
+      "pt": "Árvore de pastas",
+      "en": "Folder tree"
+    },
+    "subcategory": "folders",
+    "family": "folder",
+    "synonyms": {
+      "pt": ["estrutura de diretórios", "hierarquia de pastas"],
+      "en": ["directory tree", "folder hierarchy"]
+    },
+    "tags": {
+      "pt": ["explorador", "navegação", "subpastas"],
+      "en": ["explorer", "navigation", "subfolders"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gtqmfwq1",
+    "slug": "folder-up",
+    "name": {
+      "pt": "Enviar pasta",
+      "en": "Folder up"
+    },
+    "subcategory": "folders",
+    "family": "folder",
+    "synonyms": {
+      "pt": ["upload de pasta", "subir pasta"],
+      "en": ["upload folder", "folder upload"]
+    },
+    "tags": {
+      "pt": ["pasta acima", "nível acima", "carregar"],
+      "en": ["parent folder", "level up", "send"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkrhrhsa",
+    "slug": "folder-user",
+    "name": {
+      "pt": "Pasta compartilhada",
+      "en": "Folder user"
+    },
+    "subcategory": "folders",
+    "family": "folder",
+    "synonyms": {
+      "pt": ["pasta pessoal", "pasta do usuário"],
+      "en": ["shared folder", "personal folder"]
+    },
+    "tags": {
+      "pt": ["compartilhar", "equipe", "perfil"],
+      "en": ["share", "team", "profile"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmj46s48",
+    "slug": "folder-x",
+    "name": {
+      "pt": "Excluir pasta",
+      "en": "Folder x"
+    },
+    "subcategory": "folders",
+    "family": "folder",
+    "variantOf": "folder",
+    "synonyms": {
+      "pt": ["pasta com erro", "apagar pasta"],
+      "en": ["delete folder", "folder error"]
+    },
+    "tags": {
+      "pt": ["remover diretório", "cancelar", "falha"],
+      "en": ["remove directory", "cancel", "failed"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5n00zx4",
+    "slug": "folders",
+    "name": {
+      "pt": "Pastas",
+      "en": "Folders"
+    },
+    "subcategory": "folders",
+    "family": "folder",
+    "synonyms": {
+      "pt": ["várias pastas", "diretórios"],
+      "en": ["multiple folders", "directories"]
+    },
+    "tags": {
+      "pt": ["coleção", "organizar", "arquivos", "conjunto"],
+      "en": ["collection", "organize", "files", "set"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8abjx1w",
+    "slug": "form",
+    "name": {
+      "pt": "Formulário",
+      "en": "Form"
+    },
+    "subcategory": "documents",
+    "synonyms": {
+      "pt": ["ficha", "cadastro"],
+      "en": ["sheet", "registration"]
+    },
+    "tags": {
+      "pt": ["campos", "preencher", "inscrição", "questionário"],
+      "en": ["fields", "fill in", "application", "survey"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gk9q14pd",
+    "slug": "import",
+    "name": {
+      "pt": "Importar",
+      "en": "Import"
+    },
+    "subcategory": "transfer",
+    "family": "file",
+    "synonyms": {
+      "pt": ["importar arquivo", "trazer arquivo"],
+      "en": ["import file", "bring in"]
+    },
+    "tags": {
+      "pt": ["entrada", "carregar", "abrir", "inserir"],
+      "en": ["input", "load", "open", "insert"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gancb356",
+    "slug": "newspaper",
+    "name": {
+      "pt": "Jornal",
+      "en": "Newspaper"
+    },
+    "subcategory": "documents",
+    "synonyms": {
+      "pt": ["notícias", "imprensa"],
+      "en": ["news", "press"]
+    },
+    "tags": {
+      "pt": ["artigo", "revista", "manchete", "periódico"],
+      "en": ["article", "magazine", "headline", "journal"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g9gz2q58",
+    "slug": "notebook",
+    "name": {
+      "pt": "Caderno",
+      "en": "Notebook"
+    },
+    "subcategory": "documents",
+    "synonyms": {
+      "pt": ["agenda", "diário"],
+      "en": ["journal", "diary"]
+    },
+    "tags": {
+      "pt": ["anotações", "notas", "livro de notas", "espiral"],
+      "en": ["notes", "notepad", "spiral", "planner"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g987kyx9",
+    "slug": "notepad",
+    "name": {
+      "pt": "Bloco de notas",
+      "en": "Notepad"
+    },
+    "subcategory": "documents",
+    "synonyms": {
+      "pt": ["bloco", "bloquinho"],
+      "en": ["note pad", "writing pad"]
+    },
+    "tags": {
+      "pt": ["anotações", "lembrete", "rascunho", "memo"],
+      "en": ["notes", "memo", "reminder", "draft"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpn2k42a",
+    "slug": "paperclip",
+    "name": {
+      "pt": "Clipe de papel",
+      "en": "Paperclip"
+    },
+    "subcategory": "documents",
+    "synonyms": {
+      "pt": ["clipe", "anexo"],
+      "en": ["clip", "attachment"]
+    },
+    "tags": {
+      "pt": ["anexar", "prender", "arquivo anexado"],
+      "en": ["attach", "fasten", "attached file"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbayknxp",
+    "slug": "scroll",
+    "name": {
+      "pt": "Pergaminho",
+      "en": "Scroll"
+    },
+    "subcategory": "documents",
+    "synonyms": {
+      "pt": ["rolo", "papiro"],
+      "en": ["parchment", "papyrus"]
+    },
+    "tags": {
+      "pt": ["documento antigo", "manuscrito", "história", "carta"],
+      "en": ["old document", "manuscript", "history", "letter"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gx1a5m4e",
+    "slug": "share-file",
+    "name": {
+      "pt": "Compartilhar arquivo",
+      "en": "Share file"
+    },
+    "subcategory": "transfer",
+    "family": "file",
+    "variantOf": "file",
+    "synonyms": {
+      "pt": ["enviar arquivo", "mandar documento"],
+      "en": ["send file", "file share"]
+    },
+    "tags": {
+      "pt": ["compartilhamento", "exportar", "encaminhar"],
+      "en": ["sharing", "export", "forward", "document"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gd82qntn",
+    "slug": "sticky-note",
+    "name": {
+      "pt": "Nota adesiva",
+      "en": "Sticky note"
+    },
+    "subcategory": "documents",
+    "synonyms": {
+      "pt": ["post-it", "lembrete"],
+      "en": ["post-it", "reminder"]
+    },
+    "tags": {
+      "pt": ["recado", "anotação", "adesivo", "memo"],
+      "en": ["note", "memo", "sticker"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gy3zpycd",
+    "slug": "sync",
+    "name": {
+      "pt": "Sincronizar",
+      "en": "Sync"
+    },
+    "subcategory": "transfer",
+    "synonyms": {
+      "pt": ["sincronização", "atualizar dados"],
+      "en": ["synchronize", "synchronization"]
+    },
+    "tags": {
+      "pt": ["backup", "espelhar", "nuvem", "transferir"],
+      "en": ["backup", "mirror", "cloud", "update"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpae0rp4",
+    "slug": "upload",
+    "name": {
+      "pt": "Enviar arquivo",
+      "en": "Upload"
+    },
+    "subcategory": "transfer",
+    "synonyms": {
+      "pt": ["enviar", "upload", "carregar"],
+      "en": ["send", "import"]
+    },
+    "tags": {
+      "pt": ["subir arquivo", "importar", "publicar"],
+      "en": ["publish", "attach"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  }
+]

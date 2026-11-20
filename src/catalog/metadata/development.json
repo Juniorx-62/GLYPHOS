@@ -1,0 +1,1584 @@
+[
+  {
+    "id": "gr21dme5",
+    "slug": "api",
+    "name": {
+      "pt": "API",
+      "en": "API"
+    },
+    "subcategory": "code",
+    "synonyms": {
+      "pt": ["interface de programação", "endpoint"],
+      "en": ["application programming interface", "endpoint"]
+    },
+    "tags": {
+      "pt": ["integração", "conexão", "serviço", "rest"],
+      "en": ["integration", "connection", "service", "rest"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gepfxtgc",
+    "slug": "binary",
+    "name": {
+      "pt": "Binário",
+      "en": "Binary"
+    },
+    "subcategory": "code",
+    "synonyms": {
+      "pt": ["código binário", "zeros e uns"],
+      "en": ["binary code", "ones and zeros"]
+    },
+    "tags": {
+      "pt": ["dados", "bits", "computação", "digital"],
+      "en": ["data", "bits", "computing", "digital"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmj4hhaa",
+    "slug": "box-module",
+    "name": {
+      "pt": "Módulos",
+      "en": "Modules"
+    },
+    "subcategory": "code",
+    "synonyms": {
+      "pt": ["blocos", "cubos", "pacotes"],
+      "en": ["blocks", "cubes", "packages"]
+    },
+    "tags": {
+      "pt": ["dependências", "arquitetura", "monorepo", "modular"],
+      "en": ["dependencies", "architecture", "monorepo", "modular"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g9f5wh35",
+    "slug": "braces",
+    "name": {
+      "pt": "Chaves",
+      "en": "Braces"
+    },
+    "subcategory": "code",
+    "family": "braces",
+    "synonyms": {
+      "pt": ["chaves de código", "colchetes curvos"],
+      "en": ["curly braces", "curly brackets"]
+    },
+    "tags": {
+      "pt": ["código", "objeto", "bloco", "programação"],
+      "en": ["code", "object", "block", "programming"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gb6913hc",
+    "slug": "braces-variable",
+    "name": {
+      "pt": "Variável em chaves",
+      "en": "Braces variable"
+    },
+    "subcategory": "data",
+    "family": "braces",
+    "variantOf": "braces",
+    "synonyms": {
+      "pt": ["interpolação", "template", "placeholder"],
+      "en": ["interpolation", "template variable", "placeholder"]
+    },
+    "tags": {
+      "pt": ["variável", "código", "valor dinâmico", "campo"],
+      "en": ["variable", "code", "dynamic value", "field"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gccm3n8t",
+    "slug": "brackets",
+    "name": {
+      "pt": "Colchetes",
+      "en": "Brackets"
+    },
+    "subcategory": "code",
+    "synonyms": {
+      "pt": ["colchetes retos"],
+      "en": ["square brackets"]
+    },
+    "tags": {
+      "pt": ["array", "lista", "código", "programação"],
+      "en": ["array", "list", "code", "programming"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g2gnd28h",
+    "slug": "breakpoint",
+    "name": {
+      "pt": "Ponto de interrupção",
+      "en": "Breakpoint"
+    },
+    "subcategory": "data",
+    "synonyms": {
+      "pt": ["breakpoint", "parada"],
+      "en": ["break point", "stop point"]
+    },
+    "tags": {
+      "pt": ["depurador", "debug", "depuração", "pausar execução"],
+      "en": ["debugger", "debug", "pause execution"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g6qz757g",
+    "slug": "bug",
+    "name": {
+      "pt": "Bug",
+      "en": "Bug"
+    },
+    "subcategory": "code",
+    "family": "bug",
+    "synonyms": {
+      "pt": ["inseto", "erro de código", "falha"],
+      "en": ["insect", "software bug", "defect"]
+    },
+    "tags": {
+      "pt": ["depurar", "debug", "defeito", "problema"],
+      "en": ["debug", "error", "issue", "problem"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g79efndz",
+    "slug": "bug-off",
+    "name": {
+      "pt": "Bug corrigido",
+      "en": "Bug off"
+    },
+    "subcategory": "code",
+    "family": "bug",
+    "variantOf": "bug",
+    "synonyms": {
+      "pt": ["sem bugs", "erro resolvido"],
+      "en": ["bug fixed", "no bugs"]
+    },
+    "tags": {
+      "pt": ["depuração", "correção", "livre de erros"],
+      "en": ["debug", "fix", "error free"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gaz6jshn",
+    "slug": "bug-play",
+    "name": {
+      "pt": "Executar depuração",
+      "en": "Debug run"
+    },
+    "subcategory": "data",
+    "family": "bug",
+    "variantOf": "bug",
+    "synonyms": {
+      "pt": ["rodar debug", "iniciar depurador"],
+      "en": ["start debugging", "run debugger"]
+    },
+    "tags": {
+      "pt": ["depurar", "executar", "play", "bug"],
+      "en": ["debug", "run", "play", "bug"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ga12e8q9",
+    "slug": "cache",
+    "name": {
+      "pt": "Cache",
+      "en": "Cache"
+    },
+    "subcategory": "data",
+    "synonyms": {
+      "pt": ["memória temporária", "armazenamento rápido"],
+      "en": ["cached data", "fast storage"]
+    },
+    "tags": {
+      "pt": ["desempenho", "recarregar", "velocidade", "otimização"],
+      "en": ["performance", "refresh", "speed", "optimization"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpbwra4b",
+    "slug": "check-code",
+    "name": {
+      "pt": "Código verificado",
+      "en": "Code check"
+    },
+    "subcategory": "data",
+    "synonyms": {
+      "pt": ["código aprovado", "validação de código"],
+      "en": ["code approved", "code validation"]
+    },
+    "tags": {
+      "pt": ["lint", "revisão", "teste", "qualidade"],
+      "en": ["lint", "review", "test", "quality"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gccb6gdx",
+    "slug": "cloud-cog",
+    "name": {
+      "pt": "Configurar nuvem",
+      "en": "Cloud settings"
+    },
+    "subcategory": "infrastructure",
+    "family": "cloud",
+    "synonyms": {
+      "pt": ["ajustes da nuvem", "serviço em nuvem"],
+      "en": ["cloud cog", "cloud service"]
+    },
+    "tags": {
+      "pt": ["computação em nuvem", "configuração", "devops", "SaaS"],
+      "en": ["cloud computing", "configuration", "devops", "saas"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gvtyjrxm",
+    "slug": "cloud-download",
+    "name": {
+      "pt": "Baixar da nuvem",
+      "en": "Cloud download"
+    },
+    "subcategory": "infrastructure",
+    "family": "cloud",
+    "synonyms": {
+      "pt": ["download da nuvem"],
+      "en": ["download from cloud"]
+    },
+    "tags": {
+      "pt": ["nuvem", "sincronizar", "armazenamento online", "restaurar"],
+      "en": ["cloud", "sync", "online storage", "restore"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwqcbafs",
+    "slug": "cloud-off",
+    "name": {
+      "pt": "Nuvem desconectada",
+      "en": "Cloud off"
+    },
+    "subcategory": "infrastructure",
+    "family": "cloud",
+    "synonyms": {
+      "pt": ["sem nuvem", "offline"],
+      "en": ["no cloud", "offline"]
+    },
+    "tags": {
+      "pt": ["sem sincronização", "desconectado", "falha na nuvem"],
+      "en": ["not synced", "disconnected", "cloud error"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gx34kmm7",
+    "slug": "cloud-upload",
+    "name": {
+      "pt": "Enviar para a nuvem",
+      "en": "Cloud upload"
+    },
+    "subcategory": "infrastructure",
+    "family": "cloud",
+    "synonyms": {
+      "pt": ["upload na nuvem", "subir arquivo"],
+      "en": ["upload to cloud"]
+    },
+    "tags": {
+      "pt": ["nuvem", "sincronizar", "armazenamento online", "backup"],
+      "en": ["cloud", "sync", "online storage", "backup"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g60kzn1j",
+    "slug": "code",
+    "name": {
+      "pt": "Código",
+      "en": "Code"
+    },
+    "subcategory": "code",
+    "synonyms": {
+      "pt": ["programação", "tags"],
+      "en": ["brackets", "tags"]
+    },
+    "tags": {
+      "pt": ["desenvolvimento", "html", "fonte", "script"],
+      "en": ["programming", "development", "source"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gsaqxx02",
+    "slug": "code-inline",
+    "name": {
+      "pt": "Código em linha",
+      "en": "Inline code"
+    },
+    "subcategory": "code",
+    "synonyms": {
+      "pt": ["trecho de código", "inline code"],
+      "en": ["code snippet", "code span"]
+    },
+    "tags": {
+      "pt": ["snippet", "formatação", "markdown", "código"],
+      "en": ["snippet", "formatting", "markdown", "code"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ga0nffwc",
+    "slug": "code-review",
+    "name": {
+      "pt": "Revisão de código",
+      "en": "Code review"
+    },
+    "subcategory": "data",
+    "synonyms": {
+      "pt": ["code review", "inspecionar código"],
+      "en": ["review code", "inspect code"]
+    },
+    "tags": {
+      "pt": ["pull request", "qualidade", "análise", "auditoria"],
+      "en": ["pull request", "quality", "analysis", "audit"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1vxxgm3",
+    "slug": "code-xml",
+    "name": {
+      "pt": "Código HTML",
+      "en": "Code XML"
+    },
+    "subcategory": "code",
+    "synonyms": {
+      "pt": ["tag de código", "XML"],
+      "en": ["html tag", "markup", "xml"]
+    },
+    "tags": {
+      "pt": ["programação", "desenvolvimento", "html", "marcação", "web"],
+      "en": ["programming", "development", "html", "web"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gayt9ng6",
+    "slug": "cog-code",
+    "name": {
+      "pt": "Configuração de código",
+      "en": "Code settings"
+    },
+    "subcategory": "infrastructure",
+    "synonyms": {
+      "pt": ["engrenagem com código", "automação"],
+      "en": ["code cog", "config as code"]
+    },
+    "tags": {
+      "pt": ["devops", "configuração", "build", "script"],
+      "en": ["devops", "configuration", "build", "script"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gw6efqab",
+    "slug": "component",
+    "name": {
+      "pt": "Componente",
+      "en": "Component"
+    },
+    "subcategory": "code",
+    "synonyms": {
+      "pt": ["componente de interface", "bloco reutilizável"],
+      "en": ["ui component", "reusable block"]
+    },
+    "tags": {
+      "pt": ["design system", "módulo", "peça", "ui"],
+      "en": ["design system", "module", "building block"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0tx9sdg",
+    "slug": "container",
+    "name": {
+      "pt": "Contêiner",
+      "en": "Container"
+    },
+    "subcategory": "infrastructure",
+    "synonyms": {
+      "pt": ["container", "contêiner de software"],
+      "en": ["software container", "shipping container"]
+    },
+    "tags": {
+      "pt": ["docker", "implantação", "virtualização", "imagem"],
+      "en": ["docker", "deployment", "virtualization", "image"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7h499xq",
+    "slug": "data-flow",
+    "name": {
+      "pt": "Fluxo de dados",
+      "en": "Data flow"
+    },
+    "subcategory": "data",
+    "synonyms": {
+      "pt": ["distribuição de dados", "ramificação"],
+      "en": ["data distribution", "fan out"]
+    },
+    "tags": {
+      "pt": ["dados", "integração", "ETL", "processamento"],
+      "en": ["data", "integration", "etl", "processing"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkb5vj4j",
+    "slug": "database",
+    "name": {
+      "pt": "Banco de dados",
+      "en": "Database"
+    },
+    "subcategory": "infrastructure",
+    "family": "database",
+    "synonyms": {
+      "pt": ["base de dados", "BD", "armazenamento"],
+      "en": ["db", "data store", "storage"]
+    },
+    "tags": {
+      "pt": ["dados", "SQL", "tabela", "registros"],
+      "en": ["data", "sql", "table", "records"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gec2kcev",
+    "slug": "database-backup",
+    "name": {
+      "pt": "Backup do banco de dados",
+      "en": "Database backup"
+    },
+    "subcategory": "infrastructure",
+    "family": "database",
+    "variantOf": "database",
+    "synonyms": {
+      "pt": ["cópia de segurança", "restaurar dados"],
+      "en": ["data backup", "restore database"]
+    },
+    "tags": {
+      "pt": ["backup", "recuperação", "histórico", "dados"],
+      "en": ["backup", "recovery", "history", "data"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grm6h3bh",
+    "slug": "database-search",
+    "name": {
+      "pt": "Consultar banco de dados",
+      "en": "Database search"
+    },
+    "subcategory": "data",
+    "family": "database",
+    "variantOf": "database",
+    "synonyms": {
+      "pt": ["buscar dados", "pesquisa no banco"],
+      "en": ["search data", "query database"]
+    },
+    "tags": {
+      "pt": ["consulta", "SQL", "query", "encontrar registros"],
+      "en": ["query", "sql", "find records"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gsgst6mh",
+    "slug": "database-zap",
+    "name": {
+      "pt": "Banco de dados rápido",
+      "en": "Database zap"
+    },
+    "subcategory": "infrastructure",
+    "family": "database",
+    "variantOf": "database",
+    "synonyms": {
+      "pt": ["cache de dados", "banco em memória"],
+      "en": ["fast database", "in-memory database"]
+    },
+    "tags": {
+      "pt": ["desempenho", "velocidade", "otimização", "dados"],
+      "en": ["performance", "speed", "optimization", "data"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggb0mep9",
+    "slug": "deploy",
+    "name": {
+      "pt": "Implantar",
+      "en": "Deploy"
+    },
+    "subcategory": "infrastructure",
+    "synonyms": {
+      "pt": ["deploy", "publicar"],
+      "en": ["deployment", "ship"]
+    },
+    "tags": {
+      "pt": ["lançar", "servidor", "produção", "entrega contínua"],
+      "en": ["release", "server", "production", "continuous delivery"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzr04egj",
+    "slug": "diff",
+    "name": {
+      "pt": "Diferenças",
+      "en": "Diff"
+    },
+    "subcategory": "version-control",
+    "synonyms": {
+      "pt": ["diff", "alterações"],
+      "en": ["difference", "changes"]
+    },
+    "tags": {
+      "pt": ["comparar", "adicionado e removido", "revisão", "versão"],
+      "en": ["compare", "added and removed", "review", "version"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grkppjxq",
+    "slug": "function-square",
+    "name": {
+      "pt": "Função",
+      "en": "Function"
+    },
+    "subcategory": "code",
+    "synonyms": {
+      "pt": ["fx", "fórmula"],
+      "en": ["fx", "formula"]
+    },
+    "tags": {
+      "pt": ["código", "programação", "método", "matemática"],
+      "en": ["code", "programming", "method", "math"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g14vtsz6",
+    "slug": "git-branch",
+    "name": {
+      "pt": "Ramificação",
+      "en": "Git branch"
+    },
+    "subcategory": "version-control",
+    "family": "git-branch",
+    "synonyms": {
+      "pt": ["branch", "ramo"],
+      "en": ["branch", "fork off"]
+    },
+    "tags": {
+      "pt": ["git", "versão", "controle de versão", "desenvolvimento"],
+      "en": ["git", "version", "version control", "source control"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g61h0zst",
+    "slug": "git-branch-plus",
+    "name": {
+      "pt": "Nova ramificação",
+      "en": "New branch"
+    },
+    "subcategory": "version-control",
+    "family": "git-branch",
+    "variantOf": "git-branch",
+    "synonyms": {
+      "pt": ["criar branch", "novo ramo"],
+      "en": ["create branch", "add branch"]
+    },
+    "tags": {
+      "pt": ["git", "versão", "controle de versão"],
+      "en": ["git", "version", "version control"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmdpm0ky",
+    "slug": "git-commit",
+    "name": {
+      "pt": "Commit",
+      "en": "Git commit"
+    },
+    "subcategory": "version-control",
+    "synonyms": {
+      "pt": ["confirmação", "revisão"],
+      "en": ["commit", "revision"]
+    },
+    "tags": {
+      "pt": ["git", "versão", "histórico", "salvar alterações"],
+      "en": ["git", "version", "history", "save changes"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g9tn93sb",
+    "slug": "git-compare",
+    "name": {
+      "pt": "Comparar",
+      "en": "Git compare"
+    },
+    "subcategory": "version-control",
+    "synonyms": {
+      "pt": ["comparar ramos", "diferenças"],
+      "en": ["compare branches", "compare changes"]
+    },
+    "tags": {
+      "pt": ["git", "diff", "versões", "controle de versão"],
+      "en": ["git", "diff", "versions", "version control"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwcg229j",
+    "slug": "git-fork",
+    "name": {
+      "pt": "Fork",
+      "en": "Git fork"
+    },
+    "subcategory": "version-control",
+    "synonyms": {
+      "pt": ["bifurcação", "cópia do repositório"],
+      "en": ["fork", "repository copy"]
+    },
+    "tags": {
+      "pt": ["git", "repositório", "código aberto", "contribuir"],
+      "en": ["git", "repository", "open source", "contribute"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gvf02b8a",
+    "slug": "git-graph",
+    "name": {
+      "pt": "Histórico do git",
+      "en": "Git graph"
+    },
+    "subcategory": "version-control",
+    "synonyms": {
+      "pt": ["grafo de commits", "árvore de commits"],
+      "en": ["commit graph", "commit history"]
+    },
+    "tags": {
+      "pt": ["git", "linha do tempo", "ramos", "log"],
+      "en": ["git", "timeline", "branches", "log"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzj3gt70",
+    "slug": "git-merge",
+    "name": {
+      "pt": "Mesclagem no Git",
+      "en": "Git merge"
+    },
+    "subcategory": "version-control",
+    "synonyms": {
+      "pt": ["mesclar", "merge", "unir ramos"],
+      "en": ["merge", "join branches"]
+    },
+    "tags": {
+      "pt": ["git", "branch", "controle de versão", "combinar"],
+      "en": ["git", "branch", "version control", "combine"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gn8gkdhh",
+    "slug": "git-pull-request",
+    "name": {
+      "pt": "Pull request",
+      "en": "Pull request"
+    },
+    "subcategory": "version-control",
+    "family": "git-pull-request",
+    "synonyms": {
+      "pt": ["solicitação de mesclagem", "PR", "merge request"],
+      "en": ["pr", "merge request"]
+    },
+    "tags": {
+      "pt": ["git", "revisão de código", "contribuição"],
+      "en": ["git", "code review", "contribution"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmb1k29g",
+    "slug": "git-pull-request-closed",
+    "name": {
+      "pt": "Pull request fechado",
+      "en": "Pull request closed"
+    },
+    "subcategory": "version-control",
+    "family": "git-pull-request",
+    "variantOf": "git-pull-request",
+    "synonyms": {
+      "pt": ["PR fechado", "PR recusado"],
+      "en": ["closed pr", "rejected pr"]
+    },
+    "tags": {
+      "pt": ["git", "rejeitado", "cancelado", "revisão de código"],
+      "en": ["git", "rejected", "cancelled", "code review"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gs997mxm",
+    "slug": "git-pull-request-draft",
+    "name": {
+      "pt": "Pull request rascunho",
+      "en": "Pull request draft"
+    },
+    "subcategory": "version-control",
+    "family": "git-pull-request",
+    "variantOf": "git-pull-request",
+    "synonyms": {
+      "pt": ["PR em rascunho", "PR em andamento"],
+      "en": ["draft pr", "work in progress"]
+    },
+    "tags": {
+      "pt": ["git", "rascunho", "trabalho em progresso"],
+      "en": ["git", "draft", "wip"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzzpeh5t",
+    "slug": "json",
+    "name": {
+      "pt": "JSON",
+      "en": "JSON"
+    },
+    "subcategory": "code",
+    "family": "braces",
+    "synonyms": {
+      "pt": ["objeto JSON", "dados estruturados"],
+      "en": ["json object", "structured data"]
+    },
+    "tags": {
+      "pt": ["código", "api", "formato de dados", "chave e valor"],
+      "en": ["code", "api", "data format", "key value"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gcdj7af0",
+    "slug": "key-value",
+    "name": {
+      "pt": "Chave e valor",
+      "en": "Key value"
+    },
+    "subcategory": "data",
+    "synonyms": {
+      "pt": ["par chave-valor", "dicionário"],
+      "en": ["key-value pair", "dictionary"]
+    },
+    "tags": {
+      "pt": ["dados", "mapa", "atributos", "propriedades"],
+      "en": ["data", "map", "attributes", "properties"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwb3fr47",
+    "slug": "load-balancer",
+    "name": {
+      "pt": "Balanceador de carga",
+      "en": "Load balancer"
+    },
+    "subcategory": "infrastructure",
+    "synonyms": {
+      "pt": ["distribuidor de tráfego", "load balancer"],
+      "en": ["traffic distributor"]
+    },
+    "tags": {
+      "pt": ["servidores", "escalabilidade", "tráfego", "alta disponibilidade"],
+      "en": ["servers", "scalability", "traffic", "high availability"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3dx7pxp",
+    "slug": "network-nodes",
+    "name": {
+      "pt": "Nós de rede",
+      "en": "Network nodes"
+    },
+    "subcategory": "infrastructure",
+    "synonyms": {
+      "pt": ["hub", "rede distribuída"],
+      "en": ["hub", "distributed network"]
+    },
+    "tags": {
+      "pt": ["conexões", "topologia", "cluster", "microsserviços"],
+      "en": ["connections", "topology", "cluster", "microservices"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gw4qssey",
+    "slug": "package",
+    "name": {
+      "pt": "Pacote",
+      "en": "Package"
+    },
+    "subcategory": "code",
+    "family": "package",
+    "synonyms": {
+      "pt": ["caixa", "módulo", "dependência"],
+      "en": ["box", "module", "dependency"]
+    },
+    "tags": {
+      "pt": ["npm", "biblioteca", "instalar", "entrega"],
+      "en": ["npm", "library", "install", "bundle"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkjgxh1k",
+    "slug": "package-open",
+    "name": {
+      "pt": "Pacote aberto",
+      "en": "Package open"
+    },
+    "subcategory": "code",
+    "family": "package",
+    "variantOf": "package",
+    "synonyms": {
+      "pt": ["caixa aberta", "desempacotar"],
+      "en": ["open box", "unboxing"]
+    },
+    "tags": {
+      "pt": ["descompactar", "conteúdo", "dependência", "instalar"],
+      "en": ["unpack", "contents", "dependency", "install"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gp22q27j",
+    "slug": "parentheses",
+    "name": {
+      "pt": "Parênteses",
+      "en": "Parentheses"
+    },
+    "subcategory": "code",
+    "synonyms": {
+      "pt": ["parêntese"],
+      "en": ["round brackets", "parens"]
+    },
+    "tags": {
+      "pt": ["função", "código", "expressão", "programação"],
+      "en": ["function", "code", "expression", "programming"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gfs3zqch",
+    "slug": "pipeline",
+    "name": {
+      "pt": "Pipeline",
+      "en": "Pipeline"
+    },
+    "subcategory": "infrastructure",
+    "synonyms": {
+      "pt": ["esteira", "etapas"],
+      "en": ["ci pipeline", "build pipeline"]
+    },
+    "tags": {
+      "pt": ["CI/CD", "integração contínua", "build", "estágios"],
+      "en": ["ci/cd", "continuous integration", "build", "stages"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g85zae3z",
+    "slug": "puzzle-piece",
+    "name": {
+      "pt": "Peça de quebra-cabeça",
+      "en": "Puzzle piece"
+    },
+    "subcategory": "code",
+    "synonyms": {
+      "pt": ["plugin", "extensão"],
+      "en": ["plugin", "extension"]
+    },
+    "tags": {
+      "pt": ["integração", "encaixe", "complemento", "add-on"],
+      "en": ["integration", "fit", "add-on", "addon"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gz8k037k",
+    "slug": "query",
+    "name": {
+      "pt": "Consulta",
+      "en": "Query"
+    },
+    "subcategory": "data",
+    "synonyms": {
+      "pt": ["query", "busca de dados"],
+      "en": ["data query", "lookup"]
+    },
+    "tags": {
+      "pt": ["SQL", "pesquisa", "filtro", "registros"],
+      "en": ["sql", "search", "filter", "records"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ga42ddzf",
+    "slug": "regex",
+    "name": {
+      "pt": "Expressão regular",
+      "en": "Regex"
+    },
+    "subcategory": "code",
+    "synonyms": {
+      "pt": ["regex", "padrão"],
+      "en": ["regular expression", "pattern"]
+    },
+    "tags": {
+      "pt": ["busca", "código", "correspondência", "filtro de texto"],
+      "en": ["search", "code", "match", "text filter"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g94j0hk6",
+    "slug": "repository",
+    "name": {
+      "pt": "Repositório",
+      "en": "Repository"
+    },
+    "subcategory": "version-control",
+    "synonyms": {
+      "pt": ["repo", "projeto"],
+      "en": ["repo", "project"]
+    },
+    "tags": {
+      "pt": ["git", "código-fonte", "versão", "armazenamento de código"],
+      "en": ["git", "source code", "version", "codebase"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g08q853e",
+    "slug": "schema",
+    "name": {
+      "pt": "Esquema",
+      "en": "Schema"
+    },
+    "subcategory": "data",
+    "synonyms": {
+      "pt": ["modelo de dados", "diagrama de entidades"],
+      "en": ["data model", "entity diagram"]
+    },
+    "tags": {
+      "pt": ["tabelas", "relacionamento", "banco de dados", "ER"],
+      "en": ["tables", "relationship", "database", "erd"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0snsbka",
+    "slug": "semicolon",
+    "name": {
+      "pt": "Ponto e vírgula",
+      "en": "Semicolon"
+    },
+    "subcategory": "code",
+    "synonyms": {
+      "pt": ["pontuação"],
+      "en": ["punctuation"]
+    },
+    "tags": {
+      "pt": ["código", "sintaxe", "fim de instrução", "programação"],
+      "en": ["code", "syntax", "statement end", "programming"]
+    },
+    "popularity": 1,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4d841jg",
+    "slug": "server",
+    "name": {
+      "pt": "Servidor",
+      "en": "Server"
+    },
+    "subcategory": "infrastructure",
+    "family": "server",
+    "synonyms": {
+      "pt": ["servidor de dados", "host"],
+      "en": ["host", "server rack"]
+    },
+    "tags": {
+      "pt": ["infraestrutura", "hospedagem", "backend", "data center"],
+      "en": ["infrastructure", "hosting", "backend", "data center"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gef3drtt",
+    "slug": "server-cog",
+    "name": {
+      "pt": "Configurar servidor",
+      "en": "Server settings"
+    },
+    "subcategory": "infrastructure",
+    "family": "server",
+    "variantOf": "server",
+    "synonyms": {
+      "pt": ["servidor com engrenagem", "ajustes do servidor"],
+      "en": ["server cog", "server config"]
+    },
+    "tags": {
+      "pt": ["infraestrutura", "configuração", "administração", "devops"],
+      "en": ["infrastructure", "configuration", "admin", "devops"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4pjfjxz",
+    "slug": "server-off",
+    "name": {
+      "pt": "Servidor fora do ar",
+      "en": "Server off"
+    },
+    "subcategory": "infrastructure",
+    "family": "server",
+    "variantOf": "server",
+    "synonyms": {
+      "pt": ["servidor desligado", "servidor offline"],
+      "en": ["server down", "server offline"]
+    },
+    "tags": {
+      "pt": ["queda", "indisponível", "erro", "infraestrutura"],
+      "en": ["outage", "unavailable", "error", "infrastructure"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gy9e0a5s",
+    "slug": "sitemap",
+    "name": {
+      "pt": "Mapa do site",
+      "en": "Sitemap"
+    },
+    "subcategory": "data",
+    "synonyms": {
+      "pt": ["sitemap", "hierarquia de páginas"],
+      "en": ["site map", "page hierarchy"]
+    },
+    "tags": {
+      "pt": ["estrutura", "navegação", "árvore", "páginas"],
+      "en": ["structure", "navigation", "tree", "pages"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gfcgve57",
+    "slug": "stack",
+    "name": {
+      "pt": "Pilha",
+      "en": "Stack"
+    },
+    "subcategory": "data",
+    "synonyms": {
+      "pt": ["stack", "camadas"],
+      "en": ["tech stack", "layers"]
+    },
+    "tags": {
+      "pt": ["tecnologias", "pilha de dados", "empilhar", "arquitetura"],
+      "en": ["technologies", "data stack", "architecture"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g9p0ndr9",
+    "slug": "step-into",
+    "name": {
+      "pt": "Entrar na função",
+      "en": "Step into"
+    },
+    "subcategory": "code",
+    "family": "debug-step",
+    "synonyms": {
+      "pt": ["step into", "depurar dentro"],
+      "en": ["debug into", "enter function"]
+    },
+    "tags": {
+      "pt": ["depurador", "debug", "depuração", "função"],
+      "en": ["debugger", "debug", "function"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gvapsz45",
+    "slug": "step-over",
+    "name": {
+      "pt": "Passar por cima",
+      "en": "Step over"
+    },
+    "subcategory": "code",
+    "family": "debug-step",
+    "synonyms": {
+      "pt": ["step over", "próxima instrução"],
+      "en": ["next statement", "skip over"]
+    },
+    "tags": {
+      "pt": ["depurador", "debug", "depuração", "executar linha"],
+      "en": ["debugger", "debug", "run line"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gza3seg5",
+    "slug": "terminal",
+    "name": {
+      "pt": "Terminal",
+      "en": "Terminal"
+    },
+    "subcategory": "code",
+    "family": "terminal",
+    "synonyms": {
+      "pt": ["console", "linha de comando", "prompt"],
+      "en": ["console", "command line", "prompt"]
+    },
+    "tags": {
+      "pt": ["shell", "bash", "cli", "comando"],
+      "en": ["shell", "bash", "cli", "command"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3ttpxvv",
+    "slug": "terminal-square",
+    "name": {
+      "pt": "Janela de terminal",
+      "en": "Terminal window"
+    },
+    "subcategory": "code",
+    "family": "terminal",
+    "synonyms": {
+      "pt": ["console", "linha de comando"],
+      "en": ["console window", "command line"]
+    },
+    "tags": {
+      "pt": ["shell", "bash", "cli", "prompt"],
+      "en": ["shell", "bash", "cli", "prompt"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gj5fjwvg",
+    "slug": "test-fail",
+    "name": {
+      "pt": "Teste reprovado",
+      "en": "Test failed"
+    },
+    "subcategory": "data",
+    "family": "test",
+    "synonyms": {
+      "pt": ["teste falhou", "falha"],
+      "en": ["failing test", "test failure"]
+    },
+    "tags": {
+      "pt": ["testes", "CI", "erro", "vermelho"],
+      "en": ["tests", "ci", "error", "red"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gyfmkgkr",
+    "slug": "test-pass",
+    "name": {
+      "pt": "Teste aprovado",
+      "en": "Test passed"
+    },
+    "subcategory": "data",
+    "family": "test",
+    "synonyms": {
+      "pt": ["teste passou", "sucesso"],
+      "en": ["passing test", "test success"]
+    },
+    "tags": {
+      "pt": ["testes", "CI", "verde", "qualidade"],
+      "en": ["tests", "ci", "green", "quality"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "geh8j8dv",
+    "slug": "tree-structure",
+    "name": {
+      "pt": "Estrutura em árvore",
+      "en": "Tree structure"
+    },
+    "subcategory": "data",
+    "synonyms": {
+      "pt": ["árvore", "hierarquia"],
+      "en": ["tree", "hierarchy"]
+    },
+    "tags": {
+      "pt": ["nós", "árvore binária", "dados", "organograma"],
+      "en": ["nodes", "binary tree", "data", "org chart"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gveqjybh",
+    "slug": "variable",
+    "name": {
+      "pt": "Variável",
+      "en": "Variable"
+    },
+    "subcategory": "code",
+    "synonyms": {
+      "pt": ["x", "valor"],
+      "en": ["x", "value"]
+    },
+    "tags": {
+      "pt": ["código", "programação", "parâmetro", "matemática"],
+      "en": ["code", "programming", "parameter", "math"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gr6fznft",
+    "slug": "webhook",
+    "name": {
+      "pt": "Webhook",
+      "en": "Webhook"
+    },
+    "subcategory": "code",
+    "synonyms": {
+      "pt": ["gancho", "callback"],
+      "en": ["hook", "callback"]
+    },
+    "tags": {
+      "pt": ["integração", "evento", "automação", "notificação", "api"],
+      "en": ["integration", "event", "automation", "notification", "api"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdj2etfh",
+    "slug": "workflow",
+    "name": {
+      "pt": "Fluxo de trabalho",
+      "en": "Workflow"
+    },
+    "subcategory": "infrastructure",
+    "synonyms": {
+      "pt": ["workflow", "processo"],
+      "en": ["process", "flow"]
+    },
+    "tags": {
+      "pt": ["automação", "etapas", "fluxograma", "pipeline"],
+      "en": ["automation", "steps", "flowchart", "pipeline"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  }
+]

@@ -1,0 +1,1268 @@
+[
+  {
+    "id": "g8r59z1g",
+    "slug": "arch",
+    "name": {
+      "pt": "Arco",
+      "en": "Arch"
+    },
+    "subcategory": "basic",
+    "synonyms": {
+      "pt": ["arcada", "abóbada"],
+      "en": ["archway", "vault"]
+    },
+    "tags": {
+      "pt": ["forma", "geometria", "portal", "ponte"],
+      "en": ["shape", "geometry", "portal", "bridge"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gaa9c404",
+    "slug": "bezier-curve",
+    "name": {
+      "pt": "Curva de Bézier",
+      "en": "Bezier curve"
+    },
+    "subcategory": "patterns",
+    "synonyms": {
+      "pt": ["curva vetorial", "caneta"],
+      "en": ["vector curve", "pen path"]
+    },
+    "tags": {
+      "pt": ["alças", "pontos de ancoragem", "desenho", "vetor"],
+      "en": ["handles", "anchor points", "drawing", "vector"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwdsssz9",
+    "slug": "burst",
+    "name": {
+      "pt": "Explosão",
+      "en": "Burst"
+    },
+    "subcategory": "polygons",
+    "family": "star-shape",
+    "synonyms": {
+      "pt": ["estouro", "selo estrelado"],
+      "en": ["starburst", "explosion"]
+    },
+    "tags": {
+      "pt": ["oferta", "promoção", "destaque", "novidade"],
+      "en": ["sale", "promo", "highlight", "new"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gc5vr5tx",
+    "slug": "checkerboard",
+    "name": {
+      "pt": "Xadrez",
+      "en": "Checkerboard"
+    },
+    "subcategory": "patterns",
+    "synonyms": {
+      "pt": ["tabuleiro", "quadriculado"],
+      "en": ["checkered", "chessboard"]
+    },
+    "tags": {
+      "pt": ["padrão", "transparência", "damas"],
+      "en": ["pattern", "transparency", "checks"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4v7ydjq",
+    "slug": "circle",
+    "name": {
+      "pt": "Círculo",
+      "en": "Circle"
+    },
+    "subcategory": "basic",
+    "family": "circle",
+    "synonyms": {
+      "pt": ["circunferência", "redondo", "bola"],
+      "en": ["round", "disc", "ring"]
+    },
+    "tags": {
+      "pt": ["forma", "geometria", "disco", "ponto"],
+      "en": ["shape", "geometry", "dot"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "geq15sha",
+    "slug": "circle-dashed",
+    "name": {
+      "pt": "Círculo tracejado",
+      "en": "Circle dashed"
+    },
+    "subcategory": "basic",
+    "family": "circle",
+    "synonyms": {
+      "pt": ["círculo pontilhado", "contorno tracejado"],
+      "en": ["dotted circle", "dashed outline"]
+    },
+    "tags": {
+      "pt": ["rascunho", "pendente", "seleção", "vazio"],
+      "en": ["draft", "pending", "selection", "empty"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grgag1p7",
+    "slug": "concentric-circles",
+    "name": {
+      "pt": "Círculos concêntricos",
+      "en": "Concentric circles"
+    },
+    "subcategory": "patterns",
+    "synonyms": {
+      "pt": ["anéis", "ondas"],
+      "en": ["rings", "ripples"]
+    },
+    "tags": {
+      "pt": ["radar", "ondulação", "propagação", "sinal"],
+      "en": ["radar", "ripple", "propagation", "signal"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gey8y38k",
+    "slug": "cone",
+    "name": {
+      "pt": "Cone",
+      "en": "Cone"
+    },
+    "subcategory": "solids",
+    "synonyms": {
+      "pt": ["cônico", "funil"],
+      "en": ["conical", "funnel"]
+    },
+    "tags": {
+      "pt": ["sólido", "geometria", "3D", "ponta"],
+      "en": ["solid", "geometry", "3D", "tip"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gze86s3m",
+    "slug": "cross-shape",
+    "name": {
+      "pt": "Cruz",
+      "en": "Cross shape"
+    },
+    "subcategory": "basic",
+    "synonyms": {
+      "pt": ["sinal de mais", "forma de cruz"],
+      "en": ["plus shape", "cross"]
+    },
+    "tags": {
+      "pt": ["geometria", "adição", "cruzamento"],
+      "en": ["geometry", "addition", "intersection"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1nswhht",
+    "slug": "cube",
+    "name": {
+      "pt": "Cubo",
+      "en": "Cube"
+    },
+    "subcategory": "solids",
+    "synonyms": {
+      "pt": ["hexaedro", "bloco 3D"],
+      "en": ["hexahedron", "3D block"]
+    },
+    "tags": {
+      "pt": ["sólido", "geometria", "3D", "caixa", "modelo"],
+      "en": ["solid", "geometry", "3D", "box", "model"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gs7yfa67",
+    "slug": "cuboid",
+    "name": {
+      "pt": "Paralelepípedo",
+      "en": "Cuboid"
+    },
+    "subcategory": "solids",
+    "synonyms": {
+      "pt": ["bloco retangular", "prisma retangular"],
+      "en": ["rectangular prism", "box"]
+    },
+    "tags": {
+      "pt": ["sólido", "geometria", "3D", "caixa"],
+      "en": ["solid", "geometry", "3D", "block"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8c2d5cb",
+    "slug": "cylinder",
+    "name": {
+      "pt": "Cilindro",
+      "en": "Cylinder"
+    },
+    "subcategory": "solids",
+    "synonyms": {
+      "pt": ["tubo", "lata"],
+      "en": ["tube", "can"]
+    },
+    "tags": {
+      "pt": ["sólido", "geometria", "3D", "coluna"],
+      "en": ["solid", "geometry", "3D", "column"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4vr064r",
+    "slug": "dashed-line",
+    "name": {
+      "pt": "Linha tracejada",
+      "en": "Dashed line"
+    },
+    "subcategory": "patterns",
+    "family": "line-style",
+    "synonyms": {
+      "pt": ["traço", "tracejado"],
+      "en": ["dashes", "dash"]
+    },
+    "tags": {
+      "pt": ["borda", "estilo de linha", "separador"],
+      "en": ["border", "line style", "separator"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gf4jy329",
+    "slug": "dots-pattern",
+    "name": {
+      "pt": "Padrão de pontos",
+      "en": "Dots pattern"
+    },
+    "subcategory": "patterns",
+    "synonyms": {
+      "pt": ["bolinhas", "meio-tom"],
+      "en": ["polka dots", "halftone"]
+    },
+    "tags": {
+      "pt": ["textura", "poá", "retícula"],
+      "en": ["texture", "dotted", "stipple"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8kcx5kg",
+    "slug": "dotted-line",
+    "name": {
+      "pt": "Linha pontilhada",
+      "en": "Dotted line"
+    },
+    "subcategory": "patterns",
+    "family": "line-style",
+    "synonyms": {
+      "pt": ["pontilhado", "pontos"],
+      "en": ["dots", "dotted"]
+    },
+    "tags": {
+      "pt": ["borda", "estilo de linha", "separador"],
+      "en": ["border", "line style", "separator"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmz92hee",
+    "slug": "exclude-shape",
+    "name": {
+      "pt": "Excluir sobreposição",
+      "en": "Exclude shape"
+    },
+    "subcategory": "patterns",
+    "family": "boolean",
+    "synonyms": {
+      "pt": ["diferença simétrica", "ou exclusivo"],
+      "en": ["exclude overlap", "xor"]
+    },
+    "tags": {
+      "pt": ["operação booleana", "xor", "vetor"],
+      "en": ["boolean operation", "difference", "vector"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdtnwcpn",
+    "slug": "grid-pattern",
+    "name": {
+      "pt": "Padrão de grade",
+      "en": "Grid pattern"
+    },
+    "subcategory": "patterns",
+    "synonyms": {
+      "pt": ["grade", "malha", "quadriculado", "jogo da velha"],
+      "en": ["mesh", "lattice", "grid lines"]
+    },
+    "tags": {
+      "pt": ["padrão", "guias", "linhas"],
+      "en": ["pattern", "guides", "lines"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0fp4psn",
+    "slug": "heptagon",
+    "name": {
+      "pt": "Heptágono",
+      "en": "Heptagon"
+    },
+    "subcategory": "polygons",
+    "synonyms": {
+      "pt": ["sete lados", "polígono"],
+      "en": ["seven sides", "septagon", "polygon"]
+    },
+    "tags": {
+      "pt": ["forma", "geometria"],
+      "en": ["shape", "geometry"]
+    },
+    "popularity": 1,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggm2bdmk",
+    "slug": "hexagon",
+    "name": {
+      "pt": "Hexágono",
+      "en": "Hexagon"
+    },
+    "subcategory": "polygons",
+    "synonyms": {
+      "pt": ["seis lados", "polígono"],
+      "en": ["six sides", "polygon"]
+    },
+    "tags": {
+      "pt": ["forma", "geometria", "colmeia", "favo"],
+      "en": ["shape", "geometry", "honeycomb", "hex"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7xzhgge",
+    "slug": "honeycomb",
+    "name": {
+      "pt": "Favo de mel",
+      "en": "Honeycomb"
+    },
+    "subcategory": "patterns",
+    "synonyms": {
+      "pt": ["colmeia", "hexágonos"],
+      "en": ["hexagons", "hive"]
+    },
+    "tags": {
+      "pt": ["padrão", "textura", "células", "rede"],
+      "en": ["pattern", "texture", "cells", "network"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g74hyqja",
+    "slug": "intersect",
+    "name": {
+      "pt": "Interseção",
+      "en": "Intersect"
+    },
+    "subcategory": "patterns",
+    "family": "boolean",
+    "synonyms": {
+      "pt": ["intersectar", "área comum"],
+      "en": ["intersection", "overlap"]
+    },
+    "tags": {
+      "pt": ["operação booleana", "sobreposição", "vetor"],
+      "en": ["boolean operation", "common area", "vector"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gs2mqa7k",
+    "slug": "line-segment",
+    "name": {
+      "pt": "Segmento de reta",
+      "en": "Line segment"
+    },
+    "subcategory": "patterns",
+    "synonyms": {
+      "pt": ["linha", "reta com pontas"],
+      "en": ["line tool", "straight line"]
+    },
+    "tags": {
+      "pt": ["ferramenta de linha", "desenho", "geometria", "vetor"],
+      "en": ["drawing", "geometry", "vector", "endpoints"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "genjzxps",
+    "slug": "octagon",
+    "name": {
+      "pt": "Octógono",
+      "en": "Octagon"
+    },
+    "subcategory": "polygons",
+    "family": "octagon",
+    "synonyms": {
+      "pt": ["oito lados", "polígono"],
+      "en": ["eight sides", "polygon"]
+    },
+    "tags": {
+      "pt": ["forma", "geometria", "placa de pare"],
+      "en": ["shape", "geometry", "stop sign"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gq71ddkp",
+    "slug": "octahedron",
+    "name": {
+      "pt": "Octaedro",
+      "en": "Octahedron"
+    },
+    "subcategory": "solids",
+    "synonyms": {
+      "pt": ["oito faces", "poliedro"],
+      "en": ["eight faces", "polyhedron"]
+    },
+    "tags": {
+      "pt": ["sólido", "geometria", "3D", "cristal"],
+      "en": ["solid", "geometry", "3D", "crystal"]
+    },
+    "popularity": 1,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gyrxcga7",
+    "slug": "oval",
+    "name": {
+      "pt": "Oval",
+      "en": "Oval"
+    },
+    "subcategory": "basic",
+    "family": "circle",
+    "synonyms": {
+      "pt": ["elipse", "forma oval"],
+      "en": ["ellipse", "egg shape"]
+    },
+    "tags": {
+      "pt": ["geometria", "ovo", "arredondado", "cápsula"],
+      "en": ["geometry", "rounded", "capsule"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ghdgezxn",
+    "slug": "parallelogram",
+    "name": {
+      "pt": "Paralelogramo",
+      "en": "Parallelogram"
+    },
+    "subcategory": "polygons",
+    "synonyms": {
+      "pt": ["quadrilátero inclinado"],
+      "en": ["slanted quadrilateral"]
+    },
+    "tags": {
+      "pt": ["forma", "geometria", "entrada e saída", "fluxograma"],
+      "en": ["shape", "geometry", "input output", "flowchart"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g6scez76",
+    "slug": "pentagon",
+    "name": {
+      "pt": "Pentágono",
+      "en": "Pentagon"
+    },
+    "subcategory": "polygons",
+    "synonyms": {
+      "pt": ["cinco lados", "polígono"],
+      "en": ["five sides", "polygon"]
+    },
+    "tags": {
+      "pt": ["forma", "geometria", "casa"],
+      "en": ["shape", "geometry"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gt4jz5zw",
+    "slug": "prism",
+    "name": {
+      "pt": "Prisma",
+      "en": "Prism"
+    },
+    "subcategory": "solids",
+    "synonyms": {
+      "pt": ["prisma triangular"],
+      "en": ["triangular prism"]
+    },
+    "tags": {
+      "pt": ["sólido", "geometria", "3D", "óptica"],
+      "en": ["solid", "geometry", "3D", "optics"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gv1f10jg",
+    "slug": "quarter-circle",
+    "name": {
+      "pt": "Quarto de círculo",
+      "en": "Quarter circle"
+    },
+    "subcategory": "basic",
+    "synonyms": {
+      "pt": ["quadrante", "setor"],
+      "en": ["quadrant", "sector"]
+    },
+    "tags": {
+      "pt": ["forma", "geometria", "arco", "canto arredondado"],
+      "en": ["shape", "geometry", "arc", "rounded corner"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g934ey6f",
+    "slug": "rectangle-horizontal",
+    "name": {
+      "pt": "Retângulo horizontal",
+      "en": "Rectangle horizontal"
+    },
+    "subcategory": "basic",
+    "family": "rectangle",
+    "synonyms": {
+      "pt": ["retângulo deitado", "paisagem"],
+      "en": ["landscape rectangle", "wide box"]
+    },
+    "tags": {
+      "pt": ["forma", "geometria", "proporção", "banner"],
+      "en": ["shape", "geometry", "aspect ratio", "banner"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gyf828y5",
+    "slug": "rectangle-vertical",
+    "name": {
+      "pt": "Retângulo vertical",
+      "en": "Rectangle vertical"
+    },
+    "subcategory": "basic",
+    "family": "rectangle",
+    "synonyms": {
+      "pt": ["retângulo em pé", "retrato"],
+      "en": ["portrait rectangle", "tall box"]
+    },
+    "tags": {
+      "pt": ["forma", "geometria", "proporção", "página"],
+      "en": ["shape", "geometry", "aspect ratio", "page"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gfc9vwbh",
+    "slug": "rhombus",
+    "name": {
+      "pt": "Losango",
+      "en": "Rhombus"
+    },
+    "subcategory": "basic",
+    "synonyms": {
+      "pt": ["rombo", "diamante", "quadrilátero"],
+      "en": ["lozenge", "diamond shape"]
+    },
+    "tags": {
+      "pt": ["forma", "geometria", "decisão", "fluxograma"],
+      "en": ["shape", "geometry", "decision", "flowchart"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gxsp00hn",
+    "slug": "ring",
+    "name": {
+      "pt": "Anel",
+      "en": "Ring"
+    },
+    "subcategory": "basic",
+    "family": "circle",
+    "synonyms": {
+      "pt": ["aro", "rosca", "argola"],
+      "en": ["annulus", "donut", "hoop"]
+    },
+    "tags": {
+      "pt": ["forma", "geometria", "donut", "círculo vazado"],
+      "en": ["shape", "geometry", "hollow circle"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzjy496d",
+    "slug": "semicircle",
+    "name": {
+      "pt": "Semicírculo",
+      "en": "Semicircle"
+    },
+    "subcategory": "basic",
+    "synonyms": {
+      "pt": ["meio círculo", "meia-lua"],
+      "en": ["half circle", "half moon"]
+    },
+    "tags": {
+      "pt": ["forma", "geometria", "arco", "metade"],
+      "en": ["shape", "geometry", "arc", "half"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gc8mbnb6",
+    "slug": "sphere",
+    "name": {
+      "pt": "Esfera",
+      "en": "Sphere"
+    },
+    "subcategory": "solids",
+    "synonyms": {
+      "pt": ["bola", "globo"],
+      "en": ["ball", "globe"]
+    },
+    "tags": {
+      "pt": ["sólido", "geometria", "3D", "orbe"],
+      "en": ["solid", "geometry", "3D", "orb"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkaja35y",
+    "slug": "spiral",
+    "name": {
+      "pt": "Espiral",
+      "en": "Spiral"
+    },
+    "subcategory": "patterns",
+    "synonyms": {
+      "pt": ["caracol", "redemoinho"],
+      "en": ["swirl", "coil"]
+    },
+    "tags": {
+      "pt": ["hipnose", "vórtice", "curva"],
+      "en": ["hypnosis", "vortex", "curve"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gp8hndr0",
+    "slug": "square",
+    "name": {
+      "pt": "Quadrado",
+      "en": "Square"
+    },
+    "subcategory": "basic",
+    "family": "square",
+    "synonyms": {
+      "pt": ["quadrilátero", "caixa"],
+      "en": ["box", "quadrilateral"]
+    },
+    "tags": {
+      "pt": ["forma", "geometria", "bloco", "parar"],
+      "en": ["shape", "geometry", "block", "stop"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1gjrdss",
+    "slug": "square-dashed",
+    "name": {
+      "pt": "Quadrado tracejado",
+      "en": "Square dashed"
+    },
+    "subcategory": "basic",
+    "family": "square",
+    "synonyms": {
+      "pt": ["quadrado pontilhado", "contorno tracejado"],
+      "en": ["dotted square", "dashed outline"]
+    },
+    "tags": {
+      "pt": ["seleção", "área", "recorte", "rascunho"],
+      "en": ["selection", "marquee", "area", "draft"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g9stqga8",
+    "slug": "square-rounded",
+    "name": {
+      "pt": "Quadrado arredondado",
+      "en": "Square rounded"
+    },
+    "subcategory": "basic",
+    "family": "square",
+    "synonyms": {
+      "pt": ["cantos arredondados", "botão"],
+      "en": ["rounded corners", "rounded box"]
+    },
+    "tags": {
+      "pt": ["forma", "geometria", "ícone de app", "cartão"],
+      "en": ["shape", "geometry", "app icon", "card"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g096g6r1",
+    "slug": "squircle",
+    "name": {
+      "pt": "Superelipse",
+      "en": "Squircle"
+    },
+    "subcategory": "basic",
+    "family": "square",
+    "synonyms": {
+      "pt": ["squircle", "quadrado suave"],
+      "en": ["superellipse", "smooth square"]
+    },
+    "tags": {
+      "pt": ["forma", "ícone de app", "curvatura contínua"],
+      "en": ["shape", "app icon", "continuous curve"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpy2tth3",
+    "slug": "star-4",
+    "name": {
+      "pt": "Estrela de quatro pontas",
+      "en": "Star 4"
+    },
+    "subcategory": "polygons",
+    "family": "star-shape",
+    "synonyms": {
+      "pt": ["brilho", "cintilar"],
+      "en": ["four pointed star", "twinkle"]
+    },
+    "tags": {
+      "pt": ["forma", "faísca", "destaque"],
+      "en": ["shape", "sparkle", "highlight"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gq2wjwqs",
+    "slug": "star-6",
+    "name": {
+      "pt": "Estrela de seis pontas",
+      "en": "Star 6"
+    },
+    "subcategory": "polygons",
+    "family": "star-shape",
+    "synonyms": {
+      "pt": ["hexagrama", "estrela"],
+      "en": ["six pointed star", "hexagram"]
+    },
+    "tags": {
+      "pt": ["forma", "geometria", "decoração"],
+      "en": ["shape", "geometry", "decoration"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gjyxsm3m",
+    "slug": "star-8",
+    "name": {
+      "pt": "Estrela de oito pontas",
+      "en": "Star 8"
+    },
+    "subcategory": "polygons",
+    "family": "star-shape",
+    "synonyms": {
+      "pt": ["estrela náutica", "rosa"],
+      "en": ["eight pointed star", "octagram"]
+    },
+    "tags": {
+      "pt": ["forma", "geometria", "decoração"],
+      "en": ["shape", "geometry", "decoration"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gf0nyqh7",
+    "slug": "stripes",
+    "name": {
+      "pt": "Listras",
+      "en": "Stripes"
+    },
+    "subcategory": "patterns",
+    "synonyms": {
+      "pt": ["listrado", "faixas diagonais"],
+      "en": ["striped", "diagonal lines"]
+    },
+    "tags": {
+      "pt": ["padrão", "textura", "hachura"],
+      "en": ["pattern", "texture", "hatching"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gvkhztt7",
+    "slug": "subtract-shape",
+    "name": {
+      "pt": "Subtrair forma",
+      "en": "Subtract shape"
+    },
+    "subcategory": "patterns",
+    "family": "boolean",
+    "synonyms": {
+      "pt": ["recortar", "diferença"],
+      "en": ["minus front", "difference"]
+    },
+    "tags": {
+      "pt": ["operação booleana", "remover sobreposição", "vetor"],
+      "en": ["boolean operation", "cut out", "vector"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gp4w3gft",
+    "slug": "tetrahedron",
+    "name": {
+      "pt": "Tetraedro",
+      "en": "Tetrahedron"
+    },
+    "subcategory": "solids",
+    "synonyms": {
+      "pt": ["pirâmide triangular"],
+      "en": ["triangular pyramid"]
+    },
+    "tags": {
+      "pt": ["sólido", "geometria", "3D", "poliedro"],
+      "en": ["solid", "geometry", "3D", "polyhedron"]
+    },
+    "popularity": 1,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gyh0qy1b",
+    "slug": "torus",
+    "name": {
+      "pt": "Toro",
+      "en": "Torus"
+    },
+    "subcategory": "solids",
+    "synonyms": {
+      "pt": ["rosca", "anel 3D"],
+      "en": ["donut", "3D ring"]
+    },
+    "tags": {
+      "pt": ["sólido", "geometria", "3D", "donut"],
+      "en": ["solid", "geometry", "3D", "doughnut"]
+    },
+    "popularity": 1,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqhjv3at",
+    "slug": "trapezoid",
+    "name": {
+      "pt": "Trapézio",
+      "en": "Trapezoid"
+    },
+    "subcategory": "polygons",
+    "synonyms": {
+      "pt": ["quadrilátero", "trapezoide"],
+      "en": ["trapezium", "quadrilateral"]
+    },
+    "tags": {
+      "pt": ["forma", "geometria", "funil"],
+      "en": ["shape", "geometry", "funnel"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkszfkap",
+    "slug": "triangle",
+    "name": {
+      "pt": "Triângulo",
+      "en": "Triangle"
+    },
+    "subcategory": "basic",
+    "family": "triangle",
+    "synonyms": {
+      "pt": ["triângulo equilátero", "três lados"],
+      "en": ["equilateral triangle", "three sides"]
+    },
+    "tags": {
+      "pt": ["forma", "geometria", "delta", "pirâmide"],
+      "en": ["shape", "geometry", "delta", "pyramid"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnvfzdrd",
+    "slug": "triangle-right",
+    "name": {
+      "pt": "Triângulo retângulo",
+      "en": "Right triangle"
+    },
+    "subcategory": "basic",
+    "family": "triangle",
+    "synonyms": {
+      "pt": ["ângulo reto", "esquadro"],
+      "en": ["right angle", "set square"]
+    },
+    "tags": {
+      "pt": ["forma", "geometria", "trigonometria", "hipotenusa"],
+      "en": ["shape", "geometry", "trigonometry", "hypotenuse"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gm0fen0d",
+    "slug": "union",
+    "name": {
+      "pt": "União",
+      "en": "Union"
+    },
+    "subcategory": "patterns",
+    "family": "boolean",
+    "synonyms": {
+      "pt": ["unir formas", "mesclar"],
+      "en": ["unite", "merge shapes"]
+    },
+    "tags": {
+      "pt": ["operação booleana", "combinar", "vetor"],
+      "en": ["boolean operation", "combine", "vector"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbg4ycb5",
+    "slug": "venn-diagram",
+    "name": {
+      "pt": "Diagrama de Venn",
+      "en": "Venn diagram"
+    },
+    "subcategory": "patterns",
+    "synonyms": {
+      "pt": ["círculos sobrepostos", "conjuntos"],
+      "en": ["overlapping circles", "sets"]
+    },
+    "tags": {
+      "pt": ["interseção", "comparação", "lógica"],
+      "en": ["intersection", "comparison", "logic"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8ps8183",
+    "slug": "wave-line",
+    "name": {
+      "pt": "Linha ondulada",
+      "en": "Wave line"
+    },
+    "subcategory": "patterns",
+    "family": "line-style",
+    "synonyms": {
+      "pt": ["onda", "ondulação", "senoide"],
+      "en": ["wave", "squiggle", "sine"]
+    },
+    "tags": {
+      "pt": ["curva", "estilo de linha", "sinal"],
+      "en": ["curve", "line style", "signal"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gs00rxc1",
+    "slug": "zigzag",
+    "name": {
+      "pt": "Ziguezague",
+      "en": "Zigzag"
+    },
+    "subcategory": "patterns",
+    "family": "line-style",
+    "synonyms": {
+      "pt": ["linha quebrada", "serrilhado"],
+      "en": ["jagged line", "sawtooth"]
+    },
+    "tags": {
+      "pt": ["estilo de linha", "padrão", "borda"],
+      "en": ["line style", "pattern", "border"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  }
+]

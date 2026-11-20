@@ -1,0 +1,1139 @@
+[
+  {
+    "id": "gvtpy5fz",
+    "slug": "approve",
+    "name": {
+      "pt": "Aprovar",
+      "en": "Approve"
+    },
+    "subcategory": "tasks",
+    "family": "stamp",
+    "variantOf": "stamp",
+    "synonyms": {
+      "pt": ["aprovado", "deferido", "carimbo de aprovação"],
+      "en": ["approved", "stamp of approval"]
+    },
+    "tags": {
+      "pt": ["aceitar", "autorizar", "validar", "liberar"],
+      "en": ["authorize", "validate", "sign off", "accept"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g54nx0nz",
+    "slug": "assign",
+    "name": {
+      "pt": "Atribuir",
+      "en": "Assign"
+    },
+    "subcategory": "tasks",
+    "synonyms": {
+      "pt": ["designar", "responsável"],
+      "en": ["assignee", "assign to"]
+    },
+    "tags": {
+      "pt": ["atribuir tarefa", "encarregar", "dono", "pessoa"],
+      "en": ["assign task", "owner", "person", "allocate"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g03nhkej",
+    "slug": "backlog",
+    "name": {
+      "pt": "Backlog",
+      "en": "Backlog"
+    },
+    "subcategory": "tasks",
+    "synonyms": {
+      "pt": ["fila de tarefas", "pendências"],
+      "en": ["task queue", "pending work"]
+    },
+    "tags": {
+      "pt": ["acumulado", "lista de espera", "ágil", "produto"],
+      "en": ["queue", "agile", "product", "to do"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gsytwggb",
+    "slug": "benchmark",
+    "name": {
+      "pt": "Benchmark",
+      "en": "Benchmark"
+    },
+    "subcategory": "strategy",
+    "synonyms": {
+      "pt": ["referência", "comparativo"],
+      "en": ["reference", "baseline"]
+    },
+    "tags": {
+      "pt": ["comparar", "padrão", "desempenho", "concorrência"],
+      "en": ["compare", "standard", "performance", "competition"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkn3v3zf",
+    "slug": "brainstorm",
+    "name": {
+      "pt": "Brainstorm",
+      "en": "Brainstorm"
+    },
+    "subcategory": "strategy",
+    "synonyms": {
+      "pt": ["chuva de ideias", "tempestade de ideias"],
+      "en": ["ideation", "idea storm"]
+    },
+    "tags": {
+      "pt": ["ideia", "criatividade", "pensamento", "inovação"],
+      "en": ["idea", "creativity", "thinking", "innovation"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnh92kdy",
+    "slug": "briefcase",
+    "name": {
+      "pt": "Maleta",
+      "en": "Briefcase"
+    },
+    "subcategory": "office",
+    "family": "briefcase",
+    "synonyms": {
+      "pt": ["pasta executiva", "valise", "mala de trabalho"],
+      "en": ["work bag", "attache case"]
+    },
+    "tags": {
+      "pt": ["trabalho", "negócios", "emprego", "escritório", "profissão"],
+      "en": ["work", "business", "job", "office", "profession"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gg0z6r8c",
+    "slug": "career",
+    "name": {
+      "pt": "Carreira",
+      "en": "Career"
+    },
+    "subcategory": "strategy",
+    "synonyms": {
+      "pt": ["trajetória profissional", "plano de carreira"],
+      "en": ["career path", "professional path"]
+    },
+    "tags": {
+      "pt": ["degraus", "conquista", "objetivo", "sucesso"],
+      "en": ["steps", "achievement", "goal", "success"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbefnw1m",
+    "slug": "checklist",
+    "name": {
+      "pt": "Lista de verificação",
+      "en": "Checklist"
+    },
+    "subcategory": "tasks",
+    "synonyms": {
+      "pt": ["checklist", "lista de tarefas", "afazeres"],
+      "en": ["to-do list", "task list"]
+    },
+    "tags": {
+      "pt": ["to-do", "pendências", "marcar", "concluir"],
+      "en": ["todo", "check off", "items", "done"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gd079wz9",
+    "slug": "clipboard-check",
+    "name": {
+      "pt": "Prancheta com visto",
+      "en": "Clipboard check"
+    },
+    "subcategory": "office",
+    "family": "clipboard",
+    "synonyms": {
+      "pt": ["prancheta concluída", "conferido"],
+      "en": ["clipboard done", "checked clipboard"]
+    },
+    "tags": {
+      "pt": ["tarefa concluída", "aprovado", "verificado", "inspeção"],
+      "en": ["task done", "approved", "verified", "inspection"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g64sa0vt",
+    "slug": "clipboard-list",
+    "name": {
+      "pt": "Prancheta com lista",
+      "en": "Clipboard list"
+    },
+    "subcategory": "office",
+    "family": "clipboard",
+    "synonyms": {
+      "pt": ["lista na prancheta", "checklist"],
+      "en": ["clipboard items"]
+    },
+    "tags": {
+      "pt": ["tarefas", "itens", "inventário", "pauta", "conferência"],
+      "en": ["tasks", "items", "inventory", "agenda", "checklist"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gc1j7zzf",
+    "slug": "conference",
+    "name": {
+      "pt": "Conferência",
+      "en": "Conference"
+    },
+    "subcategory": "strategy",
+    "synonyms": {
+      "pt": ["palestra", "evento", "púlpito"],
+      "en": ["lecture", "event", "lectern"]
+    },
+    "tags": {
+      "pt": ["palestrante", "discurso", "tribuna", "seminário"],
+      "en": ["speaker", "speech", "podium", "seminar"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqz4s2cx",
+    "slug": "contract",
+    "name": {
+      "pt": "Contrato",
+      "en": "Contract"
+    },
+    "subcategory": "office",
+    "synonyms": {
+      "pt": ["acordo", "termo", "documento para assinar"],
+      "en": ["agreement", "deal", "terms"]
+    },
+    "tags": {
+      "pt": ["assinatura", "assinar aqui", "jurídico", "negócio fechado"],
+      "en": ["signature", "sign here", "legal", "document"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grz8gpfy",
+    "slug": "delegate",
+    "name": {
+      "pt": "Delegar",
+      "en": "Delegate"
+    },
+    "subcategory": "tasks",
+    "synonyms": {
+      "pt": ["repassar", "transferir tarefa"],
+      "en": ["hand off", "pass on"]
+    },
+    "tags": {
+      "pt": ["encaminhar", "distribuir", "liderança", "responsabilidade"],
+      "en": ["forward", "distribute", "leadership", "responsibility"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g9xtse4a",
+    "slug": "dependency",
+    "name": {
+      "pt": "Dependência",
+      "en": "Dependency"
+    },
+    "subcategory": "tasks",
+    "synonyms": {
+      "pt": ["tarefa dependente", "vínculo entre tarefas"],
+      "en": ["task dependency", "linked tasks"]
+    },
+    "tags": {
+      "pt": ["predecessora", "sequência", "bloqueio", "gantt"],
+      "en": ["predecessor", "sequence", "blocked by", "gantt"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ghjsdm86",
+    "slug": "desk",
+    "name": {
+      "pt": "Mesa de trabalho",
+      "en": "Desk"
+    },
+    "subcategory": "office",
+    "synonyms": {
+      "pt": ["escrivaninha", "mesa de escritório", "estação de trabalho"],
+      "en": ["office desk", "workstation"]
+    },
+    "tags": {
+      "pt": ["escritório", "home office", "computador", "trabalho"],
+      "en": ["office", "home office", "computer", "workplace"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzsf6mbh",
+    "slug": "filing-cabinet",
+    "name": {
+      "pt": "Arquivo de aço",
+      "en": "Filing cabinet"
+    },
+    "subcategory": "office",
+    "synonyms": {
+      "pt": ["gaveteiro", "armário de arquivo", "fichário"],
+      "en": ["file cabinet", "drawers"]
+    },
+    "tags": {
+      "pt": ["documentos", "pastas", "arquivar", "escritório"],
+      "en": ["documents", "records", "archive", "office"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g733vtea",
+    "slug": "flag",
+    "name": {
+      "pt": "Bandeira",
+      "en": "Flag"
+    },
+    "subcategory": "tasks",
+    "synonyms": {
+      "pt": ["flâmula", "sinalizar"],
+      "en": ["banner", "pennant"]
+    },
+    "tags": {
+      "pt": ["marcar", "denunciar", "destacar", "prioridade", "reportar"],
+      "en": ["mark", "report", "highlight", "priority"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpkzymqf",
+    "slug": "gantt",
+    "name": {
+      "pt": "Gráfico de Gantt",
+      "en": "Gantt chart"
+    },
+    "subcategory": "tasks",
+    "synonyms": {
+      "pt": ["diagrama de Gantt", "cronograma"],
+      "en": ["gantt diagram", "schedule"]
+    },
+    "tags": {
+      "pt": ["projeto", "prazos", "tarefas", "planejamento"],
+      "en": ["project", "timeline", "tasks", "planning"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grzeard6",
+    "slug": "goal",
+    "name": {
+      "pt": "Meta",
+      "en": "Goal"
+    },
+    "subcategory": "tasks",
+    "synonyms": {
+      "pt": ["objetivo", "conquista", "topo"],
+      "en": ["objective", "achievement", "summit"]
+    },
+    "tags": {
+      "pt": ["montanha com bandeira", "sucesso", "superação", "desafio"],
+      "en": ["mountain flag", "success", "challenge", "milestone"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gs7e43sj",
+    "slug": "growth",
+    "name": {
+      "pt": "Crescimento",
+      "en": "Growth"
+    },
+    "subcategory": "strategy",
+    "synonyms": {
+      "pt": ["evolução", "expansão"],
+      "en": ["increase", "expansion"]
+    },
+    "tags": {
+      "pt": ["gráfico de barras", "aumento", "alta", "progresso", "lucro"],
+      "en": ["bar chart", "rise", "progress", "scale up"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gyswznn4",
+    "slug": "hierarchy",
+    "name": {
+      "pt": "Hierarquia",
+      "en": "Hierarchy"
+    },
+    "subcategory": "tasks",
+    "synonyms": {
+      "pt": ["árvore", "níveis"],
+      "en": ["tree", "levels"]
+    },
+    "tags": {
+      "pt": ["estrutura", "pai e filhos", "ramificação", "organização"],
+      "en": ["structure", "parent child", "branches", "organization"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdk7xekk",
+    "slug": "kanban",
+    "name": {
+      "pt": "Kanban",
+      "en": "Kanban"
+    },
+    "subcategory": "tasks",
+    "synonyms": {
+      "pt": ["quadro kanban", "quadro de tarefas"],
+      "en": ["kanban board", "task board"]
+    },
+    "tags": {
+      "pt": ["colunas", "fluxo de trabalho", "ágil", "cartões", "projeto"],
+      "en": ["columns", "workflow", "agile", "cards", "project"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gem0zam2",
+    "slug": "kpi",
+    "name": {
+      "pt": "Indicador",
+      "en": "KPI"
+    },
+    "subcategory": "strategy",
+    "synonyms": {
+      "pt": ["KPI", "indicador de desempenho", "métrica"],
+      "en": ["key performance indicator", "metric"]
+    },
+    "tags": {
+      "pt": ["resultado", "desempenho", "painel", "alta"],
+      "en": ["result", "performance", "scorecard", "increase"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gct7q7jq",
+    "slug": "ladder-career",
+    "name": {
+      "pt": "Escada profissional",
+      "en": "Career ladder"
+    },
+    "subcategory": "strategy",
+    "synonyms": {
+      "pt": ["escada", "subir na carreira"],
+      "en": ["ladder", "climb"]
+    },
+    "tags": {
+      "pt": ["promoção", "ascensão", "crescimento", "evolução"],
+      "en": ["promotion", "advancement", "growth", "move up"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkx8pq9v",
+    "slug": "meeting",
+    "name": {
+      "pt": "Reunião",
+      "en": "Meeting"
+    },
+    "subcategory": "strategy",
+    "synonyms": {
+      "pt": ["encontro", "conversa"],
+      "en": ["get-together", "discussion"]
+    },
+    "tags": {
+      "pt": ["equipe", "mesa de reunião", "pessoas", "discussão"],
+      "en": ["team", "meeting table", "people", "talk"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gaap8ft9",
+    "slug": "milestone",
+    "name": {
+      "pt": "Marco",
+      "en": "Milestone"
+    },
+    "subcategory": "tasks",
+    "synonyms": {
+      "pt": ["marco do projeto", "etapa", "entrega"],
+      "en": ["project milestone", "checkpoint"]
+    },
+    "tags": {
+      "pt": ["cronograma", "fase", "prazo", "projeto"],
+      "en": ["schedule", "phase", "deliverable", "project"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmw5kfrn",
+    "slug": "mind-map",
+    "name": {
+      "pt": "Mapa mental",
+      "en": "Mind map"
+    },
+    "subcategory": "strategy",
+    "synonyms": {
+      "pt": ["mapa de ideias", "diagrama de ideias"],
+      "en": ["idea map", "concept map"]
+    },
+    "tags": {
+      "pt": ["organizar ideias", "ramificações", "conceitos", "estudo"],
+      "en": ["organize ideas", "branches", "concepts", "brainstorm"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbeq85en",
+    "slug": "networking",
+    "name": {
+      "pt": "Networking",
+      "en": "Networking"
+    },
+    "subcategory": "strategy",
+    "synonyms": {
+      "pt": ["rede de contatos", "conexões"],
+      "en": ["contacts", "connections"]
+    },
+    "tags": {
+      "pt": ["relacionamento", "contatos profissionais", "comunidade"],
+      "en": ["relationships", "professional network", "community"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gasc4vs0",
+    "slug": "office-chair",
+    "name": {
+      "pt": "Cadeira de escritório",
+      "en": "Office chair"
+    },
+    "subcategory": "office",
+    "synonyms": {
+      "pt": ["cadeira giratória", "poltrona"],
+      "en": ["swivel chair", "desk chair"]
+    },
+    "tags": {
+      "pt": ["escritório", "assento", "trabalho", "ergonomia"],
+      "en": ["office", "seat", "workplace", "ergonomics"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkxjghby",
+    "slug": "org-chart",
+    "name": {
+      "pt": "Organograma",
+      "en": "Org chart"
+    },
+    "subcategory": "tasks",
+    "synonyms": {
+      "pt": ["estrutura organizacional", "hierarquia da empresa"],
+      "en": ["organization chart", "company structure"]
+    },
+    "tags": {
+      "pt": ["equipe", "cargos", "departamentos", "chefia"],
+      "en": ["team", "roles", "departments", "reporting"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gfexegdv",
+    "slug": "partnership",
+    "name": {
+      "pt": "Parceria",
+      "en": "Partnership"
+    },
+    "subcategory": "strategy",
+    "synonyms": {
+      "pt": ["aliança", "sociedade", "união"],
+      "en": ["alliance", "union"]
+    },
+    "tags": {
+      "pt": ["colaboração", "cooperação", "vínculo", "juntos"],
+      "en": ["collaboration", "cooperation", "bond", "together"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwwhe2ft",
+    "slug": "presentation",
+    "name": {
+      "pt": "Apresentação",
+      "en": "Presentation"
+    },
+    "subcategory": "office",
+    "synonyms": {
+      "pt": ["palestrante", "apresentador", "exposição"],
+      "en": ["presenter", "speaker", "talk"]
+    },
+    "tags": {
+      "pt": ["reunião", "quadro", "slides", "palestra", "treinamento"],
+      "en": ["meeting", "board", "slides", "lecture", "training"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnryrj8k",
+    "slug": "priority-high",
+    "name": {
+      "pt": "Prioridade alta",
+      "en": "High priority"
+    },
+    "subcategory": "tasks",
+    "family": "priority",
+    "synonyms": {
+      "pt": ["urgente", "alta prioridade"],
+      "en": ["urgent", "priority up"]
+    },
+    "tags": {
+      "pt": ["importante", "crítico", "elevar", "subir"],
+      "en": ["important", "critical", "raise"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gj7d58c3",
+    "slug": "priority-low",
+    "name": {
+      "pt": "Prioridade baixa",
+      "en": "Low priority"
+    },
+    "subcategory": "tasks",
+    "family": "priority",
+    "synonyms": {
+      "pt": ["baixa prioridade", "menos urgente"],
+      "en": ["priority down", "not urgent"]
+    },
+    "tags": {
+      "pt": ["pode esperar", "rebaixar", "descer"],
+      "en": ["can wait", "lower", "minor"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gfdv6ckk",
+    "slug": "priority-medium",
+    "name": {
+      "pt": "Prioridade média",
+      "en": "Medium priority"
+    },
+    "subcategory": "tasks",
+    "family": "priority",
+    "synonyms": {
+      "pt": ["média prioridade", "prioridade normal"],
+      "en": ["normal priority"]
+    },
+    "tags": {
+      "pt": ["moderado", "padrão", "intermediário"],
+      "en": ["moderate", "standard", "default"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grhgy2cc",
+    "slug": "projector-screen",
+    "name": {
+      "pt": "Tela de projeção",
+      "en": "Projector screen"
+    },
+    "subcategory": "office",
+    "synonyms": {
+      "pt": ["telão", "tela retrátil"],
+      "en": ["projection screen", "pull-down screen"]
+    },
+    "tags": {
+      "pt": ["projetor", "apresentação", "sala de reunião", "slides"],
+      "en": ["projector", "presentation", "meeting room", "slides"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5rer7n6",
+    "slug": "reject",
+    "name": {
+      "pt": "Rejeitar",
+      "en": "Reject"
+    },
+    "subcategory": "tasks",
+    "family": "stamp",
+    "variantOf": "stamp",
+    "synonyms": {
+      "pt": ["reprovado", "indeferido", "recusar"],
+      "en": ["rejected", "decline", "deny"]
+    },
+    "tags": {
+      "pt": ["negar", "recusado", "cancelar", "vetar"],
+      "en": ["refuse", "veto", "denied", "disapprove"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7nhw751",
+    "slug": "review",
+    "name": {
+      "pt": "Revisar",
+      "en": "Review"
+    },
+    "subcategory": "tasks",
+    "family": "clipboard",
+    "synonyms": {
+      "pt": ["revisão", "conferir", "em revisão"],
+      "en": ["in review", "check"]
+    },
+    "tags": {
+      "pt": ["inspecionar", "analisar", "checar", "avaliar"],
+      "en": ["inspect", "analyze", "examine", "evaluate"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gx8syxpm",
+    "slug": "roadmap",
+    "name": {
+      "pt": "Roteiro",
+      "en": "Roadmap"
+    },
+    "subcategory": "tasks",
+    "synonyms": {
+      "pt": ["roadmap", "plano de ação", "caminho"],
+      "en": ["plan", "path", "journey"]
+    },
+    "tags": {
+      "pt": ["planejamento", "etapas", "jornada", "estratégia"],
+      "en": ["planning", "steps", "strategy", "product plan"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ge19758g",
+    "slug": "shredder",
+    "name": {
+      "pt": "Fragmentadora",
+      "en": "Shredder"
+    },
+    "subcategory": "office",
+    "synonyms": {
+      "pt": ["picotadora", "triturador de papel"],
+      "en": ["paper shredder"]
+    },
+    "tags": {
+      "pt": ["destruir documentos", "sigilo", "descartar", "papel"],
+      "en": ["destroy documents", "confidential", "discard", "paper"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbs1d72e",
+    "slug": "sprint",
+    "name": {
+      "pt": "Sprint",
+      "en": "Sprint"
+    },
+    "subcategory": "tasks",
+    "synonyms": {
+      "pt": ["ciclo", "iteração"],
+      "en": ["cycle", "iteration"]
+    },
+    "tags": {
+      "pt": ["ágil", "scrum", "rapidez", "entrega contínua"],
+      "en": ["agile", "scrum", "fast", "delivery"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g6ahfanp",
+    "slug": "stamp",
+    "name": {
+      "pt": "Carimbo",
+      "en": "Stamp"
+    },
+    "subcategory": "office",
+    "family": "stamp",
+    "synonyms": {
+      "pt": ["timbre", "sinete"],
+      "en": ["rubber stamp", "seal"]
+    },
+    "tags": {
+      "pt": ["aprovação", "autenticar", "cartório", "oficial", "selo"],
+      "en": ["approval", "authenticate", "notary", "official"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnh4j7md",
+    "slug": "stapler",
+    "name": {
+      "pt": "Grampeador",
+      "en": "Stapler"
+    },
+    "subcategory": "office",
+    "synonyms": {
+      "pt": ["grampeadeira"],
+      "en": ["staple gun"]
+    },
+    "tags": {
+      "pt": ["papelaria", "escritório", "grampo", "prender papéis"],
+      "en": ["stationery", "office", "staples", "fasten"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdvw1nfp",
+    "slug": "strategy",
+    "name": {
+      "pt": "Estratégia",
+      "en": "Strategy"
+    },
+    "subcategory": "strategy",
+    "synonyms": {
+      "pt": ["tática", "jogada", "plano de jogo"],
+      "en": ["tactics", "game plan", "playbook"]
+    },
+    "tags": {
+      "pt": ["planejamento", "xis e bola", "esquema", "plano de ação"],
+      "en": ["planning", "x and o", "scheme", "plan of action"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gqp7xddf",
+    "slug": "swot",
+    "name": {
+      "pt": "Análise SWOT",
+      "en": "SWOT analysis"
+    },
+    "subcategory": "strategy",
+    "synonyms": {
+      "pt": ["matriz SWOT", "FOFA"],
+      "en": ["SWOT matrix"]
+    },
+    "tags": {
+      "pt": ["forças", "fraquezas", "oportunidades", "ameaças", "planejamento"],
+      "en": ["strengths", "weaknesses", "opportunities", "threats", "planning"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdykbyjv",
+    "slug": "target",
+    "name": {
+      "pt": "Alvo",
+      "en": "Target"
+    },
+    "subcategory": "tasks",
+    "synonyms": {
+      "pt": ["mira", "objetivo", "meta"],
+      "en": ["bullseye", "aim", "objective"]
+    },
+    "tags": {
+      "pt": ["foco", "precisão", "acertar", "propósito"],
+      "en": ["focus", "goal", "precision", "purpose"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8ek26p1",
+    "slug": "target-arrow",
+    "name": {
+      "pt": "Alvo com flecha",
+      "en": "Target arrow"
+    },
+    "subcategory": "strategy",
+    "synonyms": {
+      "pt": ["na mosca", "acerto"],
+      "en": ["bullseye hit", "on target"]
+    },
+    "tags": {
+      "pt": ["objetivo atingido", "foco", "precisão", "meta cumprida"],
+      "en": ["goal reached", "focus", "accuracy", "aim"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwva8wr5",
+    "slug": "task-square",
+    "name": {
+      "pt": "Cartão de tarefa",
+      "en": "Task card"
+    },
+    "subcategory": "tasks",
+    "synonyms": {
+      "pt": ["tarefa", "item de trabalho", "card"],
+      "en": ["task", "work item", "ticket"]
+    },
+    "tags": {
+      "pt": ["atividade", "concluída", "ticket", "demanda"],
+      "en": ["activity", "done", "assignment", "issue"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ge9pr5wk",
+    "slug": "timeline",
+    "name": {
+      "pt": "Linha do tempo",
+      "en": "Timeline"
+    },
+    "subcategory": "tasks",
+    "synonyms": {
+      "pt": ["cronologia", "histórico"],
+      "en": ["chronology", "history"]
+    },
+    "tags": {
+      "pt": ["eventos", "etapas", "sequência", "marcos"],
+      "en": ["events", "steps", "sequence", "milestones"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "updated": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  }
+]

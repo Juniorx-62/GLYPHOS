@@ -1,0 +1,2099 @@
+[
+  {
+    "id": "gnxv332m",
+    "slug": "apps-grid",
+    "name": {
+      "pt": "Aplicativos",
+      "en": "Apps grid"
+    },
+    "subcategory": "navigation",
+    "synonyms": {
+      "pt": ["grade de apps", "menu de apps", "nove quadrados"],
+      "en": ["app launcher", "app menu", "nine squares"]
+    },
+    "tags": {
+      "pt": ["iniciador", "todos os apps", "launcher"],
+      "en": ["launcher", "all apps", "waffle menu"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gc80x6rr",
+    "slug": "badge-alert",
+    "name": {
+      "pt": "Selo de alerta",
+      "en": "Badge alert"
+    },
+    "subcategory": "status",
+    "family": "badge",
+    "synonyms": {
+      "pt": ["selo com exclamação", "aviso"],
+      "en": ["alert badge", "exclamation badge"]
+    },
+    "tags": {
+      "pt": ["atenção", "pendente", "problema na conta"],
+      "en": ["attention", "pending", "account issue"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1r979fy",
+    "slug": "badge-check",
+    "name": {
+      "pt": "Selo verificado",
+      "en": "Badge check"
+    },
+    "subcategory": "status",
+    "family": "badge",
+    "synonyms": {
+      "pt": ["verificado", "conta verificada", "selo com visto"],
+      "en": ["verified", "verified badge", "checkmark badge"]
+    },
+    "tags": {
+      "pt": ["autêntico", "oficial", "aprovado", "confiável"],
+      "en": ["authentic", "official", "approved", "trusted"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gg5vb6w1",
+    "slug": "badge-info",
+    "name": {
+      "pt": "Selo de informação",
+      "en": "Badge info"
+    },
+    "subcategory": "status",
+    "family": "badge",
+    "synonyms": {
+      "pt": ["selo com i", "informativo"],
+      "en": ["info badge", "information badge"]
+    },
+    "tags": {
+      "pt": ["info", "detalhes", "saiba mais"],
+      "en": ["info", "details", "learn more"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gtbtvfgf",
+    "slug": "badge-x",
+    "name": {
+      "pt": "Selo com x",
+      "en": "Badge x"
+    },
+    "subcategory": "status",
+    "family": "badge",
+    "synonyms": {
+      "pt": ["não verificado", "selo recusado"],
+      "en": ["unverified", "rejected badge"]
+    },
+    "tags": {
+      "pt": ["rejeitado", "inválido", "revogado"],
+      "en": ["invalid", "revoked", "failed"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gaq6fypd",
+    "slug": "ban",
+    "name": {
+      "pt": "Proibido",
+      "en": "Ban"
+    },
+    "subcategory": "status",
+    "synonyms": {
+      "pt": ["bloqueado", "banir", "não permitido"],
+      "en": ["prohibited", "forbidden", "blocked"]
+    },
+    "tags": {
+      "pt": ["proibição", "negado", "impedido", "restrito"],
+      "en": ["not allowed", "denied", "restricted", "no"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gczrhh2z",
+    "slug": "bookmark",
+    "name": {
+      "pt": "Marcador",
+      "en": "Bookmark"
+    },
+    "subcategory": "actions",
+    "synonyms": {
+      "pt": ["favorito", "salvar"],
+      "en": ["save", "favorite"]
+    },
+    "tags": {
+      "pt": ["guardar", "ler depois", "fita"],
+      "en": ["read later", "ribbon"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gcjt464k",
+    "slug": "bookmark-check",
+    "name": {
+      "pt": "Favorito salvo",
+      "en": "Bookmark check"
+    },
+    "subcategory": "actions",
+    "family": "bookmark",
+    "variantOf": "bookmark",
+    "synonyms": {
+      "pt": ["marcador marcado", "salvo"],
+      "en": ["saved bookmark", "bookmarked"]
+    },
+    "tags": {
+      "pt": ["favoritado", "guardado", "lido"],
+      "en": ["saved", "favorited", "done reading"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3wry1rg",
+    "slug": "bookmark-minus",
+    "name": {
+      "pt": "Remover favorito",
+      "en": "Bookmark minus"
+    },
+    "subcategory": "actions",
+    "family": "bookmark",
+    "variantOf": "bookmark",
+    "synonyms": {
+      "pt": ["tirar marcador", "desfavoritar"],
+      "en": ["remove bookmark", "unsave"]
+    },
+    "tags": {
+      "pt": ["apagar marcador", "excluir salvo"],
+      "en": ["unfavorite", "delete bookmark"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gk5czffm",
+    "slug": "bookmark-plus",
+    "name": {
+      "pt": "Adicionar favorito",
+      "en": "Bookmark plus"
+    },
+    "subcategory": "actions",
+    "family": "bookmark",
+    "variantOf": "bookmark",
+    "synonyms": {
+      "pt": ["salvar marcador", "novo marcador"],
+      "en": ["add bookmark", "save bookmark"]
+    },
+    "tags": {
+      "pt": ["favoritar", "guardar", "ler depois"],
+      "en": ["favorite", "save for later", "mark"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gc2djh5v",
+    "slug": "check",
+    "name": {
+      "pt": "Confirmar",
+      "en": "Check"
+    },
+    "subcategory": "actions",
+    "synonyms": {
+      "pt": ["marcar", "visto", "ok"],
+      "en": ["tick", "checkmark", "done"]
+    },
+    "tags": {
+      "pt": ["concluído", "feito", "aprovado", "selecionado"],
+      "en": ["confirm", "approve", "selected", "ok"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gb8b5dt3",
+    "slug": "check-check",
+    "name": {
+      "pt": "Visto duplo",
+      "en": "Check check"
+    },
+    "subcategory": "actions",
+    "family": "check",
+    "synonyms": {
+      "pt": ["dois vistos", "lido"],
+      "en": ["double check", "double tick"]
+    },
+    "tags": {
+      "pt": ["mensagem lida", "entregue", "todos concluídos", "confirmar tudo"],
+      "en": ["read", "delivered", "seen", "all done"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g3jknbcq",
+    "slug": "circle-alert",
+    "name": {
+      "pt": "Alerta em círculo",
+      "en": "Circle alert"
+    },
+    "subcategory": "controls",
+    "family": "circle",
+    "variantOf": "info",
+    "synonyms": {
+      "pt": ["exclamação", "atenção", "aviso"],
+      "en": ["exclamation", "warning", "attention"]
+    },
+    "tags": {
+      "pt": ["erro", "problema", "importante", "cuidado"],
+      "en": ["error", "problem", "important", "caution"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g2jnhw24",
+    "slug": "circle-check",
+    "name": {
+      "pt": "Sucesso",
+      "en": "Circle check"
+    },
+    "subcategory": "status",
+    "synonyms": {
+      "pt": ["círculo com visto", "concluído"],
+      "en": ["success", "done"]
+    },
+    "tags": {
+      "pt": ["aprovado", "válido", "confirmado", "feito"],
+      "en": ["approved", "valid", "confirmed", "complete"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdck06rv",
+    "slug": "circle-dot",
+    "name": {
+      "pt": "Círculo com ponto",
+      "en": "Circle dot"
+    },
+    "subcategory": "controls",
+    "family": "circle",
+    "synonyms": {
+      "pt": ["botão de opção", "radio", "opção marcada"],
+      "en": ["radio button", "selected option"]
+    },
+    "tags": {
+      "pt": ["selecionado", "escolha", "alvo"],
+      "en": ["radio", "choice", "target"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gshgc6h4",
+    "slug": "circle-ellipsis",
+    "name": {
+      "pt": "Círculo com reticências",
+      "en": "Circle ellipsis"
+    },
+    "subcategory": "controls",
+    "family": "circle",
+    "synonyms": {
+      "pt": ["mais opções", "três pontos em círculo"],
+      "en": ["more options", "dots in circle"]
+    },
+    "tags": {
+      "pt": ["menu", "ações", "outros", "carregando"],
+      "en": ["menu", "actions", "other", "pending"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gtdf3pny",
+    "slug": "circle-help",
+    "name": {
+      "pt": "Ajuda",
+      "en": "Circle help"
+    },
+    "subcategory": "controls",
+    "family": "circle",
+    "synonyms": {
+      "pt": ["interrogação", "dúvida", "pergunta"],
+      "en": ["help", "question mark", "question"]
+    },
+    "tags": {
+      "pt": ["suporte", "faq", "perguntas frequentes", "como funciona"],
+      "en": ["support", "faq", "how to", "about"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzamq22p",
+    "slug": "circle-minus",
+    "name": {
+      "pt": "Círculo com menos",
+      "en": "Circle minus"
+    },
+    "subcategory": "controls",
+    "family": "circle",
+    "synonyms": {
+      "pt": ["remover", "botão menos"],
+      "en": ["remove circle", "minus button"]
+    },
+    "tags": {
+      "pt": ["diminuir", "subtrair", "excluir"],
+      "en": ["subtract", "decrease", "delete"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gtzrt5gk",
+    "slug": "circle-plus",
+    "name": {
+      "pt": "Círculo com mais",
+      "en": "Circle plus"
+    },
+    "subcategory": "controls",
+    "family": "circle",
+    "synonyms": {
+      "pt": ["adicionar", "botão mais"],
+      "en": ["add circle", "plus button"]
+    },
+    "tags": {
+      "pt": ["criar", "novo", "incluir"],
+      "en": ["create", "new", "insert"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gxqeepnw",
+    "slug": "circle-slash",
+    "name": {
+      "pt": "Círculo cortado",
+      "en": "Circle slash"
+    },
+    "subcategory": "status",
+    "family": "circle",
+    "synonyms": {
+      "pt": ["círculo com barra", "indisponível"],
+      "en": ["slashed circle", "unavailable"]
+    },
+    "tags": {
+      "pt": ["desativado", "nulo", "vazio", "nenhum"],
+      "en": ["disabled", "null", "empty", "none"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gksrv4v0",
+    "slug": "circle-x",
+    "name": {
+      "pt": "Círculo com x",
+      "en": "Circle x"
+    },
+    "subcategory": "controls",
+    "family": "circle",
+    "synonyms": {
+      "pt": ["fechar", "cancelar", "erro"],
+      "en": ["close circle", "cancel", "error"]
+    },
+    "tags": {
+      "pt": ["remover", "limpar campo", "falha"],
+      "en": ["remove", "clear", "failed"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7a08rt2",
+    "slug": "copy",
+    "name": {
+      "pt": "Copiar",
+      "en": "Copy"
+    },
+    "subcategory": "actions",
+    "synonyms": {
+      "pt": ["duplicar", "cópia"],
+      "en": ["duplicate", "clone"]
+    },
+    "tags": {
+      "pt": ["área de transferência", "clonar", "colar"],
+      "en": ["clipboard", "paste"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdyxztj1",
+    "slug": "dots-grid",
+    "name": {
+      "pt": "Grade de pontos",
+      "en": "Dots grid"
+    },
+    "subcategory": "navigation",
+    "synonyms": {
+      "pt": ["nove pontos", "menu de pontos"],
+      "en": ["nine dots", "dot menu"]
+    },
+    "tags": {
+      "pt": ["aplicativos", "launcher", "menu"],
+      "en": ["apps", "launcher", "waffle"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gze4vktp",
+    "slug": "dropdown",
+    "name": {
+      "pt": "Lista suspensa",
+      "en": "Dropdown"
+    },
+    "subcategory": "controls",
+    "family": "form-field",
+    "synonyms": {
+      "pt": ["menu suspenso", "caixa de seleção", "select"],
+      "en": ["select box", "combo box", "picker"]
+    },
+    "tags": {
+      "pt": ["campo", "formulário", "escolher opção"],
+      "en": ["field", "form", "choose option"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gszqskce",
+    "slug": "external-link",
+    "name": {
+      "pt": "Link externo",
+      "en": "External link"
+    },
+    "subcategory": "navigation",
+    "synonyms": {
+      "pt": ["abrir em nova aba", "sair do site"],
+      "en": ["open in new tab", "outbound"]
+    },
+    "tags": {
+      "pt": ["link", "nova janela", "redirecionar"],
+      "en": ["link", "new window", "redirect"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5q7h1gz",
+    "slug": "eye",
+    "name": {
+      "pt": "Visualizar",
+      "en": "Eye"
+    },
+    "subcategory": "view",
+    "family": "eye",
+    "synonyms": {
+      "pt": ["olho", "ver", "mostrar"],
+      "en": ["view", "show", "visible"]
+    },
+    "tags": {
+      "pt": ["visível", "exibir", "prévia", "senha"],
+      "en": ["preview", "reveal", "watch"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gstwtjad",
+    "slug": "eye-closed",
+    "name": {
+      "pt": "Olho fechado",
+      "en": "Eye closed"
+    },
+    "subcategory": "view",
+    "family": "eye",
+    "synonyms": {
+      "pt": ["ocultar", "esconder"],
+      "en": ["hide", "hidden"]
+    },
+    "tags": {
+      "pt": ["senha oculta", "invisível", "dormir", "privacidade"],
+      "en": ["hidden password", "invisible", "sleep", "privacy"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ge2h18ed",
+    "slug": "eye-off",
+    "name": {
+      "pt": "Ocultar",
+      "en": "Eye off"
+    },
+    "subcategory": "view",
+    "family": "eye",
+    "variantOf": "eye",
+    "synonyms": {
+      "pt": ["olho riscado", "esconder", "invisível"],
+      "en": ["hide", "hidden", "invisible"]
+    },
+    "tags": {
+      "pt": ["privado", "senha oculta", "não mostrar"],
+      "en": ["private", "conceal"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmb9wjny",
+    "slug": "filter",
+    "name": {
+      "pt": "Filtrar",
+      "en": "Filter"
+    },
+    "subcategory": "controls",
+    "synonyms": {
+      "pt": ["funil", "filtro"],
+      "en": ["funnel"]
+    },
+    "tags": {
+      "pt": ["refinar", "peneirar", "ordenar", "critérios"],
+      "en": ["refine", "narrow", "criteria", "sort"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gjafmd6x",
+    "slug": "filter-x",
+    "name": {
+      "pt": "Limpar filtro",
+      "en": "Filter x"
+    },
+    "subcategory": "controls",
+    "family": "filter",
+    "variantOf": "filter",
+    "synonyms": {
+      "pt": ["remover filtro", "funil com x"],
+      "en": ["clear filter", "remove filter"]
+    },
+    "tags": {
+      "pt": ["sem filtro", "resetar filtros", "cancelar"],
+      "en": ["reset filters", "no filter", "funnel"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8cbjpc8",
+    "slug": "focus",
+    "name": {
+      "pt": "Foco",
+      "en": "Focus"
+    },
+    "subcategory": "view",
+    "family": "scan",
+    "synonyms": {
+      "pt": ["focar", "mira", "enquadramento"],
+      "en": ["focus mode", "aim", "framing"]
+    },
+    "tags": {
+      "pt": ["centralizar", "modo foco", "alvo", "concentrar"],
+      "en": ["center", "target", "concentrate"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4031ag5",
+    "slug": "fullscreen",
+    "name": {
+      "pt": "Tela cheia",
+      "en": "Fullscreen"
+    },
+    "subcategory": "view",
+    "family": "fullscreen",
+    "synonyms": {
+      "pt": ["expandir tela", "modo tela cheia"],
+      "en": ["full screen", "expand screen"]
+    },
+    "tags": {
+      "pt": ["ampliar", "maximizar", "cantos"],
+      "en": ["enlarge", "maximize", "corners"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g374kmfa",
+    "slug": "fullscreen-exit",
+    "name": {
+      "pt": "Sair da tela cheia",
+      "en": "Exit fullscreen"
+    },
+    "subcategory": "view",
+    "family": "fullscreen",
+    "synonyms": {
+      "pt": ["reduzir tela", "fechar tela cheia"],
+      "en": ["leave full screen", "collapse screen"]
+    },
+    "tags": {
+      "pt": ["recolher", "minimizar", "cantos"],
+      "en": ["shrink", "minimize", "corners"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gtdcgzwq",
+    "slug": "grip-horizontal",
+    "name": {
+      "pt": "Alça horizontal",
+      "en": "Grip horizontal"
+    },
+    "subcategory": "actions",
+    "family": "grip",
+    "synonyms": {
+      "pt": ["arrastar", "pegador", "seis pontos"],
+      "en": ["drag handle", "grabber"]
+    },
+    "tags": {
+      "pt": ["reordenar", "mover", "arrastar e soltar"],
+      "en": ["reorder", "move", "drag and drop"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gcjhm8aq",
+    "slug": "grip-vertical",
+    "name": {
+      "pt": "Alça vertical",
+      "en": "Grip vertical"
+    },
+    "subcategory": "actions",
+    "family": "grip",
+    "synonyms": {
+      "pt": ["arrastar", "pegador", "seis pontos"],
+      "en": ["drag handle", "grabber"]
+    },
+    "tags": {
+      "pt": ["reordenar", "mover", "arrastar e soltar"],
+      "en": ["reorder", "move", "drag and drop"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzxxane0",
+    "slug": "info",
+    "name": {
+      "pt": "Informação",
+      "en": "Info"
+    },
+    "subcategory": "status",
+    "synonyms": {
+      "pt": ["info", "detalhes", "saiba mais"],
+      "en": ["information", "details"]
+    },
+    "tags": {
+      "pt": ["ajuda", "aviso", "dica", "sobre"],
+      "en": ["help", "about", "notice", "tip"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gxa0qg8q",
+    "slug": "input-field",
+    "name": {
+      "pt": "Campo de texto",
+      "en": "Input field"
+    },
+    "subcategory": "controls",
+    "family": "form-field",
+    "synonyms": {
+      "pt": ["caixa de texto", "entrada", "input"],
+      "en": ["text field", "text box", "input"]
+    },
+    "tags": {
+      "pt": ["formulário", "digitar", "preencher"],
+      "en": ["form", "type", "fill in"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gsw4h6qs",
+    "slug": "link",
+    "name": {
+      "pt": "Link",
+      "en": "Link"
+    },
+    "subcategory": "actions",
+    "synonyms": {
+      "pt": ["corrente", "elo", "hiperlink"],
+      "en": ["chain", "hyperlink"]
+    },
+    "tags": {
+      "pt": ["url", "endereço", "vincular", "conectar"],
+      "en": ["url", "connect", "attach"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grajgker",
+    "slug": "list-filter",
+    "name": {
+      "pt": "Filtrar lista",
+      "en": "List filter"
+    },
+    "subcategory": "controls",
+    "synonyms": {
+      "pt": ["linhas de filtro", "refinar"],
+      "en": ["filter lines", "refine"]
+    },
+    "tags": {
+      "pt": ["filtro", "ordenar", "triagem", "funil"],
+      "en": ["filter", "sort", "narrow down", "funnel"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7xzfkaj",
+    "slug": "loader",
+    "name": {
+      "pt": "Carregando",
+      "en": "Loader"
+    },
+    "subcategory": "status",
+    "family": "loader",
+    "synonyms": {
+      "pt": ["carregador", "raios", "aguarde"],
+      "en": ["loading", "spinner", "wait"]
+    },
+    "tags": {
+      "pt": ["carregamento", "processando", "espera", "loading"],
+      "en": ["processing", "busy", "pending"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8metg2k",
+    "slug": "loader-circle",
+    "name": {
+      "pt": "Carregando em círculo",
+      "en": "Loader circle"
+    },
+    "subcategory": "status",
+    "family": "loader",
+    "synonyms": {
+      "pt": ["spinner", "anel girando"],
+      "en": ["spinner", "spinning ring"]
+    },
+    "tags": {
+      "pt": ["carregamento", "aguarde", "processando", "loading"],
+      "en": ["loading", "wait", "processing", "busy"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzyv3cef",
+    "slug": "log-in",
+    "name": {
+      "pt": "Entrar",
+      "en": "Log in"
+    },
+    "subcategory": "actions",
+    "family": "log-in",
+    "synonyms": {
+      "pt": ["login", "acessar", "fazer login"],
+      "en": ["login", "sign in", "enter"]
+    },
+    "tags": {
+      "pt": ["entrada", "conta", "autenticar", "sign in"],
+      "en": ["access", "account", "authenticate"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7mrn051",
+    "slug": "log-out",
+    "name": {
+      "pt": "Sair",
+      "en": "Log out"
+    },
+    "subcategory": "actions",
+    "family": "log-in",
+    "synonyms": {
+      "pt": ["logout", "desconectar", "fazer logout"],
+      "en": ["logout", "sign out", "exit"]
+    },
+    "tags": {
+      "pt": ["saída", "encerrar sessão", "conta"],
+      "en": ["leave", "end session", "account"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gn5tjh81",
+    "slug": "maximize",
+    "name": {
+      "pt": "Maximizar",
+      "en": "Maximize"
+    },
+    "subcategory": "view",
+    "family": "maximize",
+    "synonyms": {
+      "pt": ["ampliar janela", "expandir"],
+      "en": ["enlarge window", "expand"]
+    },
+    "tags": {
+      "pt": ["aumentar", "abrir maior", "tamanho máximo"],
+      "en": ["bigger", "full size", "open larger"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g259qjh2",
+    "slug": "menu",
+    "name": {
+      "pt": "Menu",
+      "en": "Menu"
+    },
+    "subcategory": "navigation",
+    "synonyms": {
+      "pt": ["hambúrguer", "menu sanduíche"],
+      "en": ["hamburger"]
+    },
+    "tags": {
+      "pt": ["navegação", "abrir menu", "opções", "lista"],
+      "en": ["navigation", "open menu", "options"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0qcye4w",
+    "slug": "menu-alt",
+    "name": {
+      "pt": "Menu alternativo",
+      "en": "Menu alt"
+    },
+    "subcategory": "navigation",
+    "synonyms": {
+      "pt": ["hambúrguer assimétrico", "linhas desiguais"],
+      "en": ["uneven hamburger", "staggered lines"]
+    },
+    "tags": {
+      "pt": ["navegação", "abrir menu", "gaveta"],
+      "en": ["navigation", "open menu", "drawer"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8ned5jv",
+    "slug": "menu-dot",
+    "name": {
+      "pt": "Menu com aviso",
+      "en": "Menu dot"
+    },
+    "subcategory": "navigation",
+    "synonyms": {
+      "pt": ["hambúrguer com ponto", "menu com notificação"],
+      "en": ["hamburger badge", "menu notification"]
+    },
+    "tags": {
+      "pt": ["novidade", "navegação", "não lido"],
+      "en": ["unread", "new", "navigation"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4krybej",
+    "slug": "minimize",
+    "name": {
+      "pt": "Minimizar",
+      "en": "Minimize"
+    },
+    "subcategory": "view",
+    "family": "maximize",
+    "synonyms": {
+      "pt": ["reduzir janela", "recolher"],
+      "en": ["shrink window", "collapse"]
+    },
+    "tags": {
+      "pt": ["diminuir", "encolher", "tamanho menor"],
+      "en": ["smaller", "reduce", "contract"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8hz3hdp",
+    "slug": "minus",
+    "name": {
+      "pt": "Remover",
+      "en": "Minus"
+    },
+    "subcategory": "actions",
+    "synonyms": {
+      "pt": ["menos", "subtrair"],
+      "en": ["subtract", "remove"]
+    },
+    "tags": {
+      "pt": ["diminuir", "reduzir", "recolher"],
+      "en": ["decrease", "collapse", "less"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnyq1dn9",
+    "slug": "more-horizontal",
+    "name": {
+      "pt": "Mais opções",
+      "en": "More horizontal"
+    },
+    "subcategory": "actions",
+    "synonyms": {
+      "pt": ["reticências", "três pontos"],
+      "en": ["ellipsis", "kebab", "three dots"]
+    },
+    "tags": {
+      "pt": ["menu", "ações", "overflow", "ver mais"],
+      "en": ["menu", "actions", "overflow"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8qsskak",
+    "slug": "more-vertical",
+    "name": {
+      "pt": "Mais opções vertical",
+      "en": "More vertical"
+    },
+    "subcategory": "actions",
+    "family": "more",
+    "synonyms": {
+      "pt": ["três pontos", "reticências vertical", "kebab"],
+      "en": ["kebab menu", "three dots", "vertical ellipsis"]
+    },
+    "tags": {
+      "pt": ["menu", "opções", "ações"],
+      "en": ["menu", "options", "actions"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gad23ezy",
+    "slug": "mouse-pointer",
+    "name": {
+      "pt": "Ponteiro do mouse",
+      "en": "Mouse pointer"
+    },
+    "subcategory": "controls",
+    "family": "mouse-pointer",
+    "synonyms": {
+      "pt": ["cursor", "seta do mouse"],
+      "en": ["cursor", "arrow pointer"]
+    },
+    "tags": {
+      "pt": ["selecionar", "apontar", "clicar"],
+      "en": ["select", "point", "click"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gme9fajh",
+    "slug": "mouse-pointer-click",
+    "name": {
+      "pt": "Clique do mouse",
+      "en": "Mouse pointer click"
+    },
+    "subcategory": "controls",
+    "family": "mouse-pointer",
+    "synonyms": {
+      "pt": ["cursor clicando", "clicar"],
+      "en": ["cursor click", "click"]
+    },
+    "tags": {
+      "pt": ["clique", "selecionar", "interação", "toque"],
+      "en": ["select", "interact", "tap"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gfvy2vg6",
+    "slug": "octagon-alert",
+    "name": {
+      "pt": "Alerta em octógono",
+      "en": "Octagon alert"
+    },
+    "subcategory": "status",
+    "family": "octagon",
+    "synonyms": {
+      "pt": ["pare", "exclamação", "erro grave"],
+      "en": ["stop alert", "exclamation", "critical"]
+    },
+    "tags": {
+      "pt": ["crítico", "atenção", "bloqueio", "perigo"],
+      "en": ["error", "danger", "blocked", "attention"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gtjh7v3z",
+    "slug": "octagon-x",
+    "name": {
+      "pt": "Octógono com x",
+      "en": "Octagon x"
+    },
+    "subcategory": "status",
+    "family": "octagon",
+    "synonyms": {
+      "pt": ["pare", "parar", "erro"],
+      "en": ["stop", "halt", "error"]
+    },
+    "tags": {
+      "pt": ["bloqueado", "proibido", "falha", "cancelar"],
+      "en": ["blocked", "forbidden", "failed", "cancel"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gd965nj7",
+    "slug": "pagination-dots",
+    "name": {
+      "pt": "Indicador de páginas",
+      "en": "Pagination dots"
+    },
+    "subcategory": "navigation",
+    "synonyms": {
+      "pt": ["paginação", "pontos do carrossel"],
+      "en": ["page indicator", "carousel dots"]
+    },
+    "tags": {
+      "pt": ["carrossel", "slides", "etapa atual", "navegação"],
+      "en": ["carousel", "slides", "current step", "navigation"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g90j4hxd",
+    "slug": "picture-in-picture",
+    "name": {
+      "pt": "Imagem em imagem",
+      "en": "Picture in picture"
+    },
+    "subcategory": "view",
+    "synonyms": {
+      "pt": ["pip", "janela flutuante", "minijanela"],
+      "en": ["pip", "floating window", "mini window"]
+    },
+    "tags": {
+      "pt": ["vídeo flutuante", "sobreposição", "mini player"],
+      "en": ["floating video", "overlay", "mini player"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gna0ta8f",
+    "slug": "pin",
+    "name": {
+      "pt": "Fixar",
+      "en": "Pin"
+    },
+    "subcategory": "actions",
+    "family": "pin",
+    "synonyms": {
+      "pt": ["alfinete", "tachinha", "percevejo"],
+      "en": ["pushpin", "thumbtack"]
+    },
+    "tags": {
+      "pt": ["fixar no topo", "prender", "destacar"],
+      "en": ["pin to top", "attach", "stick", "keep"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gkr5e52v",
+    "slug": "pin-off",
+    "name": {
+      "pt": "Desafixar",
+      "en": "Unpin"
+    },
+    "subcategory": "actions",
+    "family": "pin",
+    "variantOf": "pin",
+    "synonyms": {
+      "pt": ["soltar", "remover alfinete"],
+      "en": ["pin off", "unstick"]
+    },
+    "tags": {
+      "pt": ["desprender", "tirar do topo"],
+      "en": ["remove pin", "detach"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdrapqz3",
+    "slug": "plus",
+    "name": {
+      "pt": "Adicionar",
+      "en": "Plus"
+    },
+    "subcategory": "actions",
+    "synonyms": {
+      "pt": ["mais", "somar", "novo"],
+      "en": ["add", "new"]
+    },
+    "tags": {
+      "pt": ["criar", "incluir", "inserir"],
+      "en": ["create", "insert", "more"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gr0acx9k",
+    "slug": "progress-circle",
+    "name": {
+      "pt": "Progresso circular",
+      "en": "Progress circle"
+    },
+    "subcategory": "status",
+    "synonyms": {
+      "pt": ["andamento", "porcentagem", "pizza de progresso"],
+      "en": ["circular progress", "pie progress"]
+    },
+    "tags": {
+      "pt": ["progresso", "status", "carregamento", "etapa"],
+      "en": ["progress", "status", "percent", "completion"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gcqfwcv1",
+    "slug": "range-slider",
+    "name": {
+      "pt": "Controle de intervalo",
+      "en": "Range slider"
+    },
+    "subcategory": "controls",
+    "family": "sliders",
+    "synonyms": {
+      "pt": ["faixa", "controle deslizante duplo"],
+      "en": ["range", "dual slider"]
+    },
+    "tags": {
+      "pt": ["mínimo e máximo", "filtro de preço", "intervalo"],
+      "en": ["min and max", "price filter", "interval"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gx5bcchk",
+    "slug": "refresh-circle",
+    "name": {
+      "pt": "Atualizar em círculo",
+      "en": "Refresh circle"
+    },
+    "subcategory": "actions",
+    "synonyms": {
+      "pt": ["recarregar", "botão atualizar"],
+      "en": ["reload button", "sync"]
+    },
+    "tags": {
+      "pt": ["sincronizar", "renovar", "carregar de novo"],
+      "en": ["update", "renew", "reload"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gxsjp1by",
+    "slug": "save",
+    "name": {
+      "pt": "Salvar",
+      "en": "Save"
+    },
+    "subcategory": "actions",
+    "family": "save",
+    "synonyms": {
+      "pt": ["disquete", "gravar"],
+      "en": ["floppy disk", "store"]
+    },
+    "tags": {
+      "pt": ["guardar", "armazenar", "salvar arquivo"],
+      "en": ["keep", "save file", "write"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpz1b4za",
+    "slug": "save-all",
+    "name": {
+      "pt": "Salvar tudo",
+      "en": "Save all"
+    },
+    "subcategory": "actions",
+    "family": "save",
+    "synonyms": {
+      "pt": ["disquetes", "gravar todos"],
+      "en": ["floppy disks", "save everything"]
+    },
+    "tags": {
+      "pt": ["salvar vários", "guardar tudo"],
+      "en": ["save multiple", "store all"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gvtr0chy",
+    "slug": "scan",
+    "name": {
+      "pt": "Escanear",
+      "en": "Scan"
+    },
+    "subcategory": "view",
+    "family": "scan",
+    "synonyms": {
+      "pt": ["digitalizar", "leitura", "enquadrar"],
+      "en": ["scanner", "read", "frame"]
+    },
+    "tags": {
+      "pt": ["scanner", "ler código", "qr code", "captura"],
+      "en": ["scan code", "qr code", "capture"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grdaewhg",
+    "slug": "scan-search",
+    "name": {
+      "pt": "Busca visual",
+      "en": "Scan search"
+    },
+    "subcategory": "view",
+    "family": "scan",
+    "synonyms": {
+      "pt": ["escanear e buscar", "reconhecer imagem"],
+      "en": ["visual search", "image search"]
+    },
+    "tags": {
+      "pt": ["pesquisa por imagem", "lente", "identificar"],
+      "en": ["lens", "recognize", "identify"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gghqsybm",
+    "slug": "search",
+    "name": {
+      "pt": "Buscar",
+      "en": "Search"
+    },
+    "subcategory": "actions",
+    "synonyms": {
+      "pt": ["pesquisar", "procurar", "lupa"],
+      "en": ["find", "magnifier", "lookup"]
+    },
+    "tags": {
+      "pt": ["encontrar", "localizar", "filtro", "consulta"],
+      "en": ["magnifying glass", "query", "explore"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g46srq79",
+    "slug": "search-x",
+    "name": {
+      "pt": "Limpar busca",
+      "en": "Clear search"
+    },
+    "subcategory": "actions",
+    "family": "search",
+    "variantOf": "search",
+    "synonyms": {
+      "pt": ["cancelar pesquisa", "sem resultados"],
+      "en": ["cancel search", "no results"]
+    },
+    "tags": {
+      "pt": ["busca", "apagar", "nenhum resultado", "lupa"],
+      "en": ["search", "remove", "not found", "magnifier"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwvcfmp8",
+    "slug": "settings",
+    "name": {
+      "pt": "Configurações",
+      "en": "Settings"
+    },
+    "subcategory": "controls",
+    "synonyms": {
+      "pt": ["engrenagem", "ajustes", "preferências"],
+      "en": ["gear", "cog", "preferences"]
+    },
+    "tags": {
+      "pt": ["opções", "sistema", "roda dentada"],
+      "en": ["options", "configuration", "system"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbq4w5kg",
+    "slug": "share-arrow",
+    "name": {
+      "pt": "Encaminhar",
+      "en": "Share arrow"
+    },
+    "subcategory": "actions",
+    "synonyms": {
+      "pt": ["compartilhar", "seta curva"],
+      "en": ["forward", "share"]
+    },
+    "tags": {
+      "pt": ["enviar", "repassar", "reenviar"],
+      "en": ["send", "pass on", "redirect"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggrm5me5",
+    "slug": "sliders",
+    "name": {
+      "pt": "Controles deslizantes",
+      "en": "Sliders"
+    },
+    "subcategory": "controls",
+    "synonyms": {
+      "pt": ["ajustes", "mixer"],
+      "en": ["adjustments", "controls"]
+    },
+    "tags": {
+      "pt": ["filtros", "configurar", "personalizar", "níveis"],
+      "en": ["filters", "settings", "tune", "levels"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g5ap9jj8",
+    "slug": "sliders-vertical",
+    "name": {
+      "pt": "Controles deslizantes verticais",
+      "en": "Sliders vertical"
+    },
+    "subcategory": "controls",
+    "family": "sliders",
+    "synonyms": {
+      "pt": ["ajustes", "equalizador", "faders"],
+      "en": ["adjustments", "equalizer", "faders"]
+    },
+    "tags": {
+      "pt": ["configurar", "mixer", "preferências", "filtros"],
+      "en": ["settings", "mixer", "controls", "preferences"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g87jy7kv",
+    "slug": "sort-ascending",
+    "name": {
+      "pt": "Ordem crescente",
+      "en": "Sort ascending"
+    },
+    "subcategory": "controls",
+    "family": "sort",
+    "synonyms": {
+      "pt": ["ordenar crescente", "classificar"],
+      "en": ["ascending order", "sort up"]
+    },
+    "tags": {
+      "pt": ["ordenar", "menor para maior", "a a z"],
+      "en": ["sort", "smallest first", "a to z"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gx54tw0r",
+    "slug": "sort-descending",
+    "name": {
+      "pt": "Ordem decrescente",
+      "en": "Sort descending"
+    },
+    "subcategory": "controls",
+    "family": "sort",
+    "synonyms": {
+      "pt": ["ordenar decrescente", "classificar"],
+      "en": ["descending order", "sort down"]
+    },
+    "tags": {
+      "pt": ["ordenar", "maior para menor", "z a a"],
+      "en": ["sort", "largest first", "z to a"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmy17pr8",
+    "slug": "spinner-dots",
+    "name": {
+      "pt": "Pontos girando",
+      "en": "Spinner dots"
+    },
+    "subcategory": "status",
+    "family": "loader",
+    "synonyms": {
+      "pt": ["carregador de pontos", "spinner de pontos"],
+      "en": ["dot loader", "dotted spinner"]
+    },
+    "tags": {
+      "pt": ["carregando", "aguarde", "processando"],
+      "en": ["loading", "wait", "processing"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g8shnh7m",
+    "slug": "square-check",
+    "name": {
+      "pt": "Caixa marcada",
+      "en": "Square check"
+    },
+    "subcategory": "controls",
+    "family": "square",
+    "synonyms": {
+      "pt": ["checkbox marcado", "quadrado com visto"],
+      "en": ["checked box", "checkbox"]
+    },
+    "tags": {
+      "pt": ["selecionado", "tarefa feita", "confirmar"],
+      "en": ["selected", "done", "task complete"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g2c5k6y6",
+    "slug": "square-dot",
+    "name": {
+      "pt": "Quadrado com ponto",
+      "en": "Square dot"
+    },
+    "subcategory": "controls",
+    "family": "square",
+    "synonyms": {
+      "pt": ["caixa com ponto", "ponto central"],
+      "en": ["dot box", "center dot"]
+    },
+    "tags": {
+      "pt": ["selecionado", "foco", "marcador"],
+      "en": ["selected", "focus", "marker"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gt5c1t97",
+    "slug": "square-minus",
+    "name": {
+      "pt": "Quadrado com menos",
+      "en": "Square minus"
+    },
+    "subcategory": "controls",
+    "family": "square",
+    "synonyms": {
+      "pt": ["recolher em quadrado", "remover item"],
+      "en": ["minus box", "collapse square"]
+    },
+    "tags": {
+      "pt": ["diminuir", "colapsar", "checkbox parcial"],
+      "en": ["remove", "collapse", "indeterminate checkbox"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1g4k02f",
+    "slug": "square-plus",
+    "name": {
+      "pt": "Quadrado com mais",
+      "en": "Square plus"
+    },
+    "subcategory": "controls",
+    "family": "square",
+    "synonyms": {
+      "pt": ["adicionar em quadrado", "novo item"],
+      "en": ["plus box", "add square"]
+    },
+    "tags": {
+      "pt": ["criar", "incluir", "inserir"],
+      "en": ["create", "new", "insert"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g2dw226b",
+    "slug": "square-x",
+    "name": {
+      "pt": "Quadrado com x",
+      "en": "Square x"
+    },
+    "subcategory": "controls",
+    "family": "square",
+    "synonyms": {
+      "pt": ["caixa com x", "fechar em quadrado"],
+      "en": ["x box", "close square"]
+    },
+    "tags": {
+      "pt": ["cancelar", "excluir", "recusado"],
+      "en": ["cancel", "delete", "rejected"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdq832tf",
+    "slug": "toggle-left",
+    "name": {
+      "pt": "Interruptor desligado",
+      "en": "Toggle left"
+    },
+    "subcategory": "controls",
+    "family": "toggle",
+    "synonyms": {
+      "pt": ["chave desligada", "alternar", "switch"],
+      "en": ["switch off", "toggle off"]
+    },
+    "tags": {
+      "pt": ["desativado", "off", "botão liga desliga"],
+      "en": ["disabled", "off", "switch"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gjymse4b",
+    "slug": "toggle-right",
+    "name": {
+      "pt": "Interruptor ligado",
+      "en": "Toggle right"
+    },
+    "subcategory": "controls",
+    "family": "toggle",
+    "synonyms": {
+      "pt": ["chave ligada", "alternar", "switch"],
+      "en": ["switch on", "toggle on"]
+    },
+    "tags": {
+      "pt": ["ativado", "on", "botão liga desliga"],
+      "en": ["enabled", "on", "switch"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gz5ykhxq",
+    "slug": "tooltip",
+    "name": {
+      "pt": "Dica",
+      "en": "Tooltip"
+    },
+    "subcategory": "controls",
+    "synonyms": {
+      "pt": ["balão de dica", "tooltip"],
+      "en": ["hint", "popover"]
+    },
+    "tags": {
+      "pt": ["ajuda", "legenda", "informação", "popover"],
+      "en": ["help", "info", "caption", "balloon"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggcykdcx",
+    "slug": "trash",
+    "name": {
+      "pt": "Lixeira",
+      "en": "Trash"
+    },
+    "subcategory": "actions",
+    "synonyms": {
+      "pt": ["lixo", "cesto", "apagar"],
+      "en": ["bin", "garbage", "delete"]
+    },
+    "tags": {
+      "pt": ["excluir", "deletar", "remover", "descartar"],
+      "en": ["remove", "discard", "wastebasket"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g213ecqs",
+    "slug": "triangle-alert",
+    "name": {
+      "pt": "Alerta",
+      "en": "Alert triangle"
+    },
+    "subcategory": "status",
+    "synonyms": {
+      "pt": ["atenção", "cuidado", "aviso"],
+      "en": ["warning", "caution"]
+    },
+    "tags": {
+      "pt": ["perigo", "erro", "advertência", "problema"],
+      "en": ["danger", "error", "attention", "problem"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g7n7wvmm",
+    "slug": "undo-circle",
+    "name": {
+      "pt": "Desfazer em círculo",
+      "en": "Undo circle"
+    },
+    "subcategory": "actions",
+    "synonyms": {
+      "pt": ["voltar", "botão desfazer"],
+      "en": ["undo button", "revert"]
+    },
+    "tags": {
+      "pt": ["reverter", "retornar", "cancelar ação"],
+      "en": ["back", "return", "cancel action"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4c9yrnt",
+    "slug": "unlink",
+    "name": {
+      "pt": "Desvincular",
+      "en": "Unlink"
+    },
+    "subcategory": "actions",
+    "family": "link",
+    "variantOf": "link",
+    "synonyms": {
+      "pt": ["remover link", "link quebrado"],
+      "en": ["remove link", "broken link"]
+    },
+    "tags": {
+      "pt": ["corrente", "desconectar", "desfazer link"],
+      "en": ["chain", "disconnect", "detach"]
+    },
+    "popularity": 3,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpvcv4zm",
+    "slug": "x",
+    "name": {
+      "pt": "Fechar",
+      "en": "Close"
+    },
+    "subcategory": "actions",
+    "synonyms": {
+      "pt": ["x", "cancelar", "sair"],
+      "en": ["x", "cancel", "dismiss"]
+    },
+    "tags": {
+      "pt": ["remover", "dispensar", "excluir", "limpar"],
+      "en": ["remove", "exit", "clear", "delete"]
+    },
+    "popularity": 5,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbktc64c",
+    "slug": "zoom-in",
+    "name": {
+      "pt": "Aumentar zoom",
+      "en": "Zoom in"
+    },
+    "subcategory": "actions",
+    "family": "search",
+    "variantOf": "search",
+    "synonyms": {
+      "pt": ["ampliar", "aproximar", "lupa com mais"],
+      "en": ["magnify", "enlarge"]
+    },
+    "tags": {
+      "pt": ["zoom", "aumentar", "ver de perto"],
+      "en": ["zoom", "magnifier plus", "closer"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gbwa77h5",
+    "slug": "zoom-out",
+    "name": {
+      "pt": "Diminuir zoom",
+      "en": "Zoom out"
+    },
+    "subcategory": "actions",
+    "family": "search",
+    "variantOf": "search",
+    "synonyms": {
+      "pt": ["afastar", "reduzir", "lupa com menos"],
+      "en": ["shrink", "reduce"]
+    },
+    "tags": {
+      "pt": ["zoom", "diminuir", "ver de longe"],
+      "en": ["zoom", "magnifier minus", "farther"]
+    },
+    "popularity": 4,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ghwqq4kr",
+    "slug": "zoom-reset",
+    "name": {
+      "pt": "Redefinir zoom",
+      "en": "Zoom reset"
+    },
+    "subcategory": "view",
+    "family": "search",
+    "variantOf": "search",
+    "synonyms": {
+      "pt": ["zoom original", "tamanho real"],
+      "en": ["reset zoom", "actual size"]
+    },
+    "tags": {
+      "pt": ["restaurar", "voltar ao padrão", "100%"],
+      "en": ["restore", "default zoom", "100%"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  }
+]

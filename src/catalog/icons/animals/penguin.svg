@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 2.5C13.08 2.5 14.54 3.25 15.25 4.25C15.96 5.25 15.92 6.96 16.25 8.5C16.58 10.04 17.17 11.92 17.25 13.5C17.33 15.08 17.21 16.83 16.75 18C16.29 19.17 15.29 20.04 14.5 20.5C13.71 20.96 12.83 20.75 12 20.75C11.17 20.75 10.29 20.96 9.5 20.5C8.71 20.04 7.71 19.17 7.25 18C6.79 16.83 6.67 15.08 6.75 13.5C6.83 11.92 7.42 10.04 7.75 8.5C8.08 6.96 8.04 5.25 8.75 4.25C9.46 3.25 10.92 2.5 12 2.5Z" data-part="body"/>
+  <ellipse cx="12" cy="14.5" rx="3.25" ry="5" data-part="cut"/>
+  <circle cx="10.5" cy="6.25" r="0.9" fill="currentColor" stroke="none" data-part="cut"/>
+  <circle cx="13.5" cy="6.25" r="0.9" fill="currentColor" stroke="none" data-part="cut"/>
+  <path d="M11.25 8h1.5l-0.75 1Z" data-part="cut"/>
+  <path d="M7.75 10L4.5 15.5M16.25 10l3.25 5.5M9.5 21.5h2M12.5 21.5h2"/>
+</svg>

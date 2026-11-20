@@ -1,0 +1,1331 @@
+[
+  {
+    "id": "ggqmdgfz",
+    "slug": "american-football",
+    "name": {
+      "pt": "Bola de futebol americano",
+      "en": "American football"
+    },
+    "subcategory": "balls",
+    "synonyms": {
+      "pt": ["futebol americano", "bola oval"],
+      "en": ["football", "gridiron ball"]
+    },
+    "tags": {
+      "pt": ["esporte", "touchdown", "nfl", "rúgbi"],
+      "en": ["sport", "touchdown", "nfl", "oval ball"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gg7272xn",
+    "slug": "archery-bow",
+    "name": {
+      "pt": "Arco e flecha",
+      "en": "Bow and arrow"
+    },
+    "subcategory": "outdoor",
+    "synonyms": {
+      "pt": ["arco", "flecha", "tiro com arco"],
+      "en": ["bow", "archery", "arrow"]
+    },
+    "tags": {
+      "pt": ["arqueiro", "mira", "alvo", "caça"],
+      "en": ["archer", "aim", "target", "hunting"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gpzc20t7",
+    "slug": "award",
+    "name": {
+      "pt": "Prêmio",
+      "en": "Award"
+    },
+    "subcategory": "competition",
+    "family": "award",
+    "synonyms": {
+      "pt": ["premiação", "distintivo", "selo"],
+      "en": ["badge", "prize", "seal"]
+    },
+    "tags": {
+      "pt": ["reconhecimento", "conquista", "mérito", "excelência"],
+      "en": ["recognition", "achievement", "merit", "excellence"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g68v2066",
+    "slug": "award-ribbon",
+    "name": {
+      "pt": "Roseta",
+      "en": "Award ribbon"
+    },
+    "subcategory": "competition",
+    "family": "award",
+    "synonyms": {
+      "pt": ["fita de premiação", "laço de prêmio"],
+      "en": ["rosette", "prize ribbon"]
+    },
+    "tags": {
+      "pt": ["primeiro lugar", "campeão", "prêmio", "exposição"],
+      "en": ["first place", "champion", "prize", "show"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmesf4yh",
+    "slug": "badminton",
+    "name": {
+      "pt": "Badminton",
+      "en": "Badminton"
+    },
+    "subcategory": "balls",
+    "synonyms": {
+      "pt": ["peteca", "volante"],
+      "en": ["shuttlecock", "birdie"]
+    },
+    "tags": {
+      "pt": ["esporte", "raquete", "rede", "quadra"],
+      "en": ["sport", "racket", "net", "court"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gfc8gd79",
+    "slug": "barbell",
+    "name": {
+      "pt": "Barra com pesos",
+      "en": "Barbell"
+    },
+    "subcategory": "fitness",
+    "synonyms": {
+      "pt": ["barra", "supino", "levantamento"],
+      "en": ["weight bar", "bench press", "lifting"]
+    },
+    "tags": {
+      "pt": ["academia", "musculação", "halterofilismo", "treino"],
+      "en": ["gym", "weightlifting", "powerlifting", "training"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1bse53f",
+    "slug": "baseball",
+    "name": {
+      "pt": "Bola de beisebol",
+      "en": "Baseball"
+    },
+    "subcategory": "balls",
+    "synonyms": {
+      "pt": ["beisebol", "softbol"],
+      "en": ["baseball ball", "softball"]
+    },
+    "tags": {
+      "pt": ["esporte", "arremesso", "rebatida", "costura"],
+      "en": ["sport", "pitch", "hit", "stitches"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwspbzv9",
+    "slug": "baseball-bat",
+    "name": {
+      "pt": "Taco de beisebol",
+      "en": "Baseball bat"
+    },
+    "subcategory": "balls",
+    "synonyms": {
+      "pt": ["bastão", "taco"],
+      "en": ["bat", "slugger"]
+    },
+    "tags": {
+      "pt": ["beisebol", "rebatida", "softbol", "bola"],
+      "en": ["baseball", "hit", "softball", "ball"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gc0rrwwq",
+    "slug": "basketball",
+    "name": {
+      "pt": "Bola de basquete",
+      "en": "Basketball"
+    },
+    "subcategory": "balls",
+    "synonyms": {
+      "pt": ["basquete", "basquetebol"],
+      "en": ["basketball ball", "hoops ball"]
+    },
+    "tags": {
+      "pt": ["esporte", "cesta", "quadra", "nba"],
+      "en": ["sport", "court", "hoop", "dribble"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "grvwgsz1",
+    "slug": "basketball-hoop",
+    "name": {
+      "pt": "Cesta de basquete",
+      "en": "Basketball hoop"
+    },
+    "subcategory": "balls",
+    "synonyms": {
+      "pt": ["tabela", "aro", "cesta"],
+      "en": ["backboard", "rim", "net"]
+    },
+    "tags": {
+      "pt": ["basquete", "arremesso", "ponto", "quadra"],
+      "en": ["basketball", "shot", "score", "court"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g22m5yqj",
+    "slug": "bicycle-stationary",
+    "name": {
+      "pt": "Bicicleta ergométrica",
+      "en": "Stationary bike"
+    },
+    "subcategory": "fitness",
+    "synonyms": {
+      "pt": ["bike de academia", "spinning"],
+      "en": ["exercise bike", "spin bike"]
+    },
+    "tags": {
+      "pt": ["academia", "cardio", "pedalar", "exercício"],
+      "en": ["gym", "cardio", "cycling", "exercise"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gc65zcak",
+    "slug": "bowling-ball",
+    "name": {
+      "pt": "Bola de boliche",
+      "en": "Bowling ball"
+    },
+    "subcategory": "balls",
+    "synonyms": {
+      "pt": ["boliche", "bola com furos"],
+      "en": ["bowling", "ball with holes"]
+    },
+    "tags": {
+      "pt": ["esporte", "strike", "pista", "pinos"],
+      "en": ["sport", "strike", "lane", "pins"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g0fda725",
+    "slug": "bowling-pins",
+    "name": {
+      "pt": "Pinos de boliche",
+      "en": "Bowling pins"
+    },
+    "subcategory": "outdoor",
+    "synonyms": {
+      "pt": ["boliche", "pinos"],
+      "en": ["bowling", "skittles", "pins"]
+    },
+    "tags": {
+      "pt": ["strike", "pista", "jogo", "lazer"],
+      "en": ["strike", "lane", "game", "leisure"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gw2acw3w",
+    "slug": "boxing-glove",
+    "name": {
+      "pt": "Luva de boxe",
+      "en": "Boxing glove"
+    },
+    "subcategory": "fitness",
+    "synonyms": {
+      "pt": ["luva", "boxe"],
+      "en": ["glove", "boxing"]
+    },
+    "tags": {
+      "pt": ["luta", "treino", "nocaute", "artes marciais"],
+      "en": ["fight", "training", "knockout", "martial arts"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g262n9d3",
+    "slug": "chess-board",
+    "name": {
+      "pt": "Tabuleiro de xadrez",
+      "en": "Chess board"
+    },
+    "subcategory": "competition",
+    "family": "chess",
+    "synonyms": {
+      "pt": ["tabuleiro", "xadrez", "damas"],
+      "en": ["chessboard", "checkerboard"]
+    },
+    "tags": {
+      "pt": ["jogo de tabuleiro", "estratégia", "partida", "quadriculado"],
+      "en": ["board game", "strategy", "match", "checkers"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g16aat79",
+    "slug": "chess-knight",
+    "name": {
+      "pt": "Cavalo de xadrez",
+      "en": "Chess knight"
+    },
+    "subcategory": "competition",
+    "family": "chess",
+    "synonyms": {
+      "pt": ["cavalo", "peça de xadrez"],
+      "en": ["knight", "horse piece"]
+    },
+    "tags": {
+      "pt": ["xadrez", "estratégia", "jogo de tabuleiro", "tática"],
+      "en": ["chess", "strategy", "board game", "tactics"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gea5fd54",
+    "slug": "chess-pawn",
+    "name": {
+      "pt": "Peão de xadrez",
+      "en": "Chess pawn"
+    },
+    "subcategory": "competition",
+    "family": "chess",
+    "synonyms": {
+      "pt": ["peão", "peça de xadrez"],
+      "en": ["pawn", "chess piece"]
+    },
+    "tags": {
+      "pt": ["xadrez", "estratégia", "jogo de tabuleiro", "jogada"],
+      "en": ["chess", "strategy", "board game", "move"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gt9fkka8",
+    "slug": "chess-rook",
+    "name": {
+      "pt": "Torre de xadrez",
+      "en": "Chess rook"
+    },
+    "subcategory": "competition",
+    "family": "chess",
+    "synonyms": {
+      "pt": ["torre", "peça de xadrez"],
+      "en": ["rook", "castle piece"]
+    },
+    "tags": {
+      "pt": ["xadrez", "estratégia", "jogo de tabuleiro", "roque"],
+      "en": ["chess", "strategy", "board game", "castling"]
+    },
+    "popularity": 2,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g20ryhs1",
+    "slug": "climbing",
+    "name": {
+      "pt": "Escalada",
+      "en": "Climbing"
+    },
+    "subcategory": "outdoor",
+    "synonyms": {
+      "pt": ["alpinismo", "montanhismo"],
+      "en": ["mountaineering", "alpinism"]
+    },
+    "tags": {
+      "pt": ["montanha", "cume", "aventura", "conquista"],
+      "en": ["mountain", "summit", "adventure", "peak"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gh412faw",
+    "slug": "cricket-bat",
+    "name": {
+      "pt": "Taco de críquete",
+      "en": "Cricket bat"
+    },
+    "subcategory": "balls",
+    "synonyms": {
+      "pt": ["críquete", "bastão"],
+      "en": ["cricket", "bat"]
+    },
+    "tags": {
+      "pt": ["esporte", "rebatedor", "bola", "wicket"],
+      "en": ["sport", "batsman", "ball", "wicket"]
+    },
+    "popularity": 1,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g065jb2b",
+    "slug": "dumbbell",
+    "name": {
+      "pt": "Haltere",
+      "en": "Dumbbell"
+    },
+    "subcategory": "fitness",
+    "synonyms": {
+      "pt": ["peso", "halteres", "anilha"],
+      "en": ["weight", "hand weight"]
+    },
+    "tags": {
+      "pt": ["academia", "musculação", "treino", "exercício"],
+      "en": ["gym", "workout", "training", "exercise"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g66eqnhc",
+    "slug": "finish-flag",
+    "name": {
+      "pt": "Bandeira quadriculada",
+      "en": "Finish flag"
+    },
+    "subcategory": "competition",
+    "synonyms": {
+      "pt": ["chegada", "linha de chegada", "bandeirada"],
+      "en": ["checkered flag", "finish line"]
+    },
+    "tags": {
+      "pt": ["corrida", "fim", "vitória", "automobilismo"],
+      "en": ["race", "end", "victory", "motorsport"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g6sy88df",
+    "slug": "fishing-rod",
+    "name": {
+      "pt": "Vara de pescar",
+      "en": "Fishing rod"
+    },
+    "subcategory": "outdoor",
+    "synonyms": {
+      "pt": ["pesca", "caniço", "anzol"],
+      "en": ["fishing pole", "fishing", "hook"]
+    },
+    "tags": {
+      "pt": ["pescaria", "peixe", "lago", "hobby"],
+      "en": ["fish", "lake", "angling", "hobby"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g6g28p4y",
+    "slug": "frisbee",
+    "name": {
+      "pt": "Frisbee",
+      "en": "Frisbee"
+    },
+    "subcategory": "outdoor",
+    "synonyms": {
+      "pt": ["disco voador", "disco"],
+      "en": ["flying disc", "disc"]
+    },
+    "tags": {
+      "pt": ["praia", "parque", "arremesso", "ultimate"],
+      "en": ["beach", "park", "throw", "ultimate"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzwazp2t",
+    "slug": "goal-net",
+    "name": {
+      "pt": "Gol",
+      "en": "Goal"
+    },
+    "subcategory": "balls",
+    "synonyms": {
+      "pt": ["trave", "rede", "baliza"],
+      "en": ["goal net", "goalpost"]
+    },
+    "tags": {
+      "pt": ["futebol", "marcar", "pênalti", "goleiro"],
+      "en": ["soccer", "score", "penalty", "goalkeeper"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gb25t3k4",
+    "slug": "golf-ball",
+    "name": {
+      "pt": "Bola de golfe",
+      "en": "Golf ball"
+    },
+    "subcategory": "balls",
+    "synonyms": {
+      "pt": ["golfe", "bola no tee"],
+      "en": ["golf", "ball on tee"]
+    },
+    "tags": {
+      "pt": ["esporte", "tacada", "campo de golfe", "buraco"],
+      "en": ["sport", "swing", "golf course", "hole"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdsgvfk4",
+    "slug": "golf-club",
+    "name": {
+      "pt": "Taco de golfe",
+      "en": "Golf club"
+    },
+    "subcategory": "balls",
+    "synonyms": {
+      "pt": ["taco", "ferro", "driver"],
+      "en": ["club", "iron", "driver"]
+    },
+    "tags": {
+      "pt": ["golfe", "tacada", "campo", "bola"],
+      "en": ["golf", "swing", "course", "ball"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gb8bppwz",
+    "slug": "golf-flag",
+    "name": {
+      "pt": "Bandeira de golfe",
+      "en": "Golf flag"
+    },
+    "subcategory": "balls",
+    "synonyms": {
+      "pt": ["buraco", "green", "bandeirinha"],
+      "en": ["hole", "green", "pin flag"]
+    },
+    "tags": {
+      "pt": ["golfe", "campo de golfe", "tacada", "par"],
+      "en": ["golf", "golf course", "putt", "par"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g21x6mjb",
+    "slug": "gym",
+    "name": {
+      "pt": "Academia",
+      "en": "Gym"
+    },
+    "subcategory": "fitness",
+    "synonyms": {
+      "pt": ["ginásio", "centro de treinamento"],
+      "en": ["fitness center", "health club"]
+    },
+    "tags": {
+      "pt": ["musculação", "fitness", "treino", "malhar"],
+      "en": ["workout", "fitness", "training", "weights"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gw1twqbt",
+    "slug": "hiking",
+    "name": {
+      "pt": "Trilha",
+      "en": "Hiking"
+    },
+    "subcategory": "outdoor",
+    "synonyms": {
+      "pt": ["caminhada", "trekking", "montanhismo"],
+      "en": ["trekking", "hike", "hiker"]
+    },
+    "tags": {
+      "pt": ["natureza", "mochila", "bastão", "aventura"],
+      "en": ["nature", "backpack", "walking stick", "adventure"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdn64djv",
+    "slug": "hockey-stick",
+    "name": {
+      "pt": "Taco de hóquei",
+      "en": "Hockey stick"
+    },
+    "subcategory": "balls",
+    "synonyms": {
+      "pt": ["hóquei", "disco", "puck"],
+      "en": ["hockey", "puck"]
+    },
+    "tags": {
+      "pt": ["esporte", "gelo", "patinação", "gol"],
+      "en": ["sport", "ice", "skating", "goal"]
+    },
+    "popularity": 1,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gx5z26bw",
+    "slug": "ice-skate",
+    "name": {
+      "pt": "Patins de gelo",
+      "en": "Ice skate"
+    },
+    "subcategory": "outdoor",
+    "synonyms": {
+      "pt": ["patinação no gelo", "patim"],
+      "en": ["ice skating", "skate"]
+    },
+    "tags": {
+      "pt": ["gelo", "inverno", "pista de gelo", "patinação artística"],
+      "en": ["ice", "winter", "ice rink", "figure skating"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g2n2ng51",
+    "slug": "jump-rope",
+    "name": {
+      "pt": "Corda de pular",
+      "en": "Jump rope"
+    },
+    "subcategory": "fitness",
+    "synonyms": {
+      "pt": ["pular corda", "corda"],
+      "en": ["skipping rope", "skip rope"]
+    },
+    "tags": {
+      "pt": ["exercício", "cardio", "aquecimento", "boxe"],
+      "en": ["exercise", "cardio", "warm up", "boxing"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gj1mrj7h",
+    "slug": "kettlebell",
+    "name": {
+      "pt": "Kettlebell",
+      "en": "Kettlebell"
+    },
+    "subcategory": "fitness",
+    "synonyms": {
+      "pt": ["peso russo", "girya"],
+      "en": ["kettle bell", "girya"]
+    },
+    "tags": {
+      "pt": ["academia", "treino funcional", "crossfit", "exercício"],
+      "en": ["gym", "functional training", "crossfit", "exercise"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gzr7jrhs",
+    "slug": "medal",
+    "name": {
+      "pt": "Medalha",
+      "en": "Medal"
+    },
+    "subcategory": "competition",
+    "family": "medal",
+    "synonyms": {
+      "pt": ["condecoração", "medalha de honra"],
+      "en": ["decoration", "honor medal"]
+    },
+    "tags": {
+      "pt": ["prêmio", "conquista", "vencedor", "honra"],
+      "en": ["prize", "achievement", "winner", "honor"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1n4n6ne",
+    "slug": "medal-first",
+    "name": {
+      "pt": "Medalha de ouro",
+      "en": "First place medal"
+    },
+    "subcategory": "competition",
+    "family": "medal",
+    "variantOf": "medal",
+    "synonyms": {
+      "pt": ["primeiro lugar", "campeão"],
+      "en": ["gold medal", "champion"]
+    },
+    "tags": {
+      "pt": ["ouro", "vencedor", "número um", "pódio"],
+      "en": ["gold", "winner", "number one", "podium"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g67dg901",
+    "slug": "mountain-bike",
+    "name": {
+      "pt": "Mountain bike",
+      "en": "Mountain bike"
+    },
+    "subcategory": "outdoor",
+    "synonyms": {
+      "pt": ["bicicleta de trilha", "MTB"],
+      "en": ["MTB", "trail bike"]
+    },
+    "tags": {
+      "pt": ["ciclismo", "trilha", "pedal", "aventura"],
+      "en": ["cycling", "trail", "ride", "adventure"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gh0d1sns",
+    "slug": "parachute",
+    "name": {
+      "pt": "Paraquedas",
+      "en": "Parachute"
+    },
+    "subcategory": "outdoor",
+    "synonyms": {
+      "pt": ["paraquedismo", "salto"],
+      "en": ["skydiving", "parachuting"]
+    },
+    "tags": {
+      "pt": ["queda livre", "céu", "aventura", "entrega aérea"],
+      "en": ["free fall", "sky", "adventure", "airdrop"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gw119yws",
+    "slug": "ping-pong",
+    "name": {
+      "pt": "Pingue-pongue",
+      "en": "Ping pong"
+    },
+    "subcategory": "balls",
+    "synonyms": {
+      "pt": ["tênis de mesa", "raquete de pingue-pongue"],
+      "en": ["table tennis", "paddle"]
+    },
+    "tags": {
+      "pt": ["esporte", "mesa", "bolinha", "raquete"],
+      "en": ["sport", "table", "ball", "racket"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmndyh0t",
+    "slug": "podium",
+    "name": {
+      "pt": "Pódio",
+      "en": "Podium"
+    },
+    "subcategory": "competition",
+    "synonyms": {
+      "pt": ["ranking", "classificação", "pódio dos vencedores"],
+      "en": ["ranking", "leaderboard", "winners stand"]
+    },
+    "tags": {
+      "pt": ["primeiro lugar", "competição", "vencedores", "colocação"],
+      "en": ["first place", "competition", "winners", "standings"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gs2wza2s",
+    "slug": "punching-bag",
+    "name": {
+      "pt": "Saco de pancada",
+      "en": "Punching bag"
+    },
+    "subcategory": "fitness",
+    "synonyms": {
+      "pt": ["saco de boxe", "saco"],
+      "en": ["heavy bag", "boxing bag"]
+    },
+    "tags": {
+      "pt": ["boxe", "luta", "treino", "muay thai"],
+      "en": ["boxing", "fight", "training", "kickboxing"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gvad73jb",
+    "slug": "rowing",
+    "name": {
+      "pt": "Remo",
+      "en": "Rowing"
+    },
+    "subcategory": "outdoor",
+    "synonyms": {
+      "pt": ["remos cruzados", "canoagem"],
+      "en": ["crossed oars", "oars", "paddles"]
+    },
+    "tags": {
+      "pt": ["barco", "lago", "regata", "esporte aquático"],
+      "en": ["boat", "lake", "regatta", "water sport"]
+    },
+    "popularity": 1,
+    "added": "2026-11-20",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gj5nxcgx",
+    "slug": "rugby-ball",
+    "name": {
+      "pt": "Bola de rúgbi",
+      "en": "Rugby ball"
+    },
+    "subcategory": "balls",
+    "synonyms": {
+      "pt": ["rúgbi", "rugby", "bola oval"],
+      "en": ["rugby", "oval ball"]
+    },
+    "tags": {
+      "pt": ["esporte", "try", "scrum", "oval"],
+      "en": ["sport", "try", "scrum", "union"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gatvk8p8",
+    "slug": "scoreboard",
+    "name": {
+      "pt": "Placar",
+      "en": "Scoreboard"
+    },
+    "subcategory": "competition",
+    "synonyms": {
+      "pt": ["marcador", "quadro de pontos"],
+      "en": ["score display", "points board"]
+    },
+    "tags": {
+      "pt": ["pontuação", "resultado", "jogo", "partida"],
+      "en": ["score", "result", "game", "match"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gz470rqt",
+    "slug": "skateboard",
+    "name": {
+      "pt": "Skate",
+      "en": "Skateboard"
+    },
+    "subcategory": "outdoor",
+    "synonyms": {
+      "pt": ["skateboard", "shape"],
+      "en": ["skate", "deck"]
+    },
+    "tags": {
+      "pt": ["manobra", "rua", "radical", "pista"],
+      "en": ["trick", "street", "extreme", "skatepark"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g24k525a",
+    "slug": "ski",
+    "name": {
+      "pt": "Esqui",
+      "en": "Ski"
+    },
+    "subcategory": "outdoor",
+    "synonyms": {
+      "pt": ["esquis", "esquiar", "bota de esqui"],
+      "en": ["skis", "skiing", "ski boot"]
+    },
+    "tags": {
+      "pt": ["neve", "inverno", "montanha", "estação de esqui"],
+      "en": ["snow", "winter", "mountain", "ski resort"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ggkypq5f",
+    "slug": "snowboard",
+    "name": {
+      "pt": "Snowboard",
+      "en": "Snowboard"
+    },
+    "subcategory": "outdoor",
+    "synonyms": {
+      "pt": ["prancha de neve"],
+      "en": ["snowboarding", "board"]
+    },
+    "tags": {
+      "pt": ["neve", "inverno", "montanha", "manobra"],
+      "en": ["snow", "winter", "mountain", "trick"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gnfej1ed",
+    "slug": "soccer-ball",
+    "name": {
+      "pt": "Bola de futebol",
+      "en": "Soccer ball"
+    },
+    "subcategory": "balls",
+    "synonyms": {
+      "pt": ["futebol", "bola", "pelota"],
+      "en": ["football", "ball"]
+    },
+    "tags": {
+      "pt": ["esporte", "gol", "partida", "campeonato"],
+      "en": ["sport", "goal", "match", "championship"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gdz11ey0",
+    "slug": "soccer-field",
+    "name": {
+      "pt": "Campo de futebol",
+      "en": "Soccer field"
+    },
+    "subcategory": "balls",
+    "synonyms": {
+      "pt": ["gramado", "campo", "estádio"],
+      "en": ["football pitch", "pitch", "field"]
+    },
+    "tags": {
+      "pt": ["esporte", "partida", "tática", "escalação"],
+      "en": ["sport", "match", "tactics", "lineup"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gf364tg4",
+    "slug": "surfing",
+    "name": {
+      "pt": "Surfe",
+      "en": "Surfing"
+    },
+    "subcategory": "outdoor",
+    "synonyms": {
+      "pt": ["prancha de surfe", "surf"],
+      "en": ["surfboard", "surf"]
+    },
+    "tags": {
+      "pt": ["praia", "onda", "mar", "esporte aquático"],
+      "en": ["beach", "wave", "sea", "water sport"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmhs0hkd",
+    "slug": "swimming",
+    "name": {
+      "pt": "Natação",
+      "en": "Swimming"
+    },
+    "subcategory": "outdoor",
+    "synonyms": {
+      "pt": ["nadar", "nadador", "piscina"],
+      "en": ["swim", "swimmer", "pool"]
+    },
+    "tags": {
+      "pt": ["esporte aquático", "água", "braçada", "mar"],
+      "en": ["water sport", "water", "stroke", "sea"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwkxjq5r",
+    "slug": "target-archery",
+    "name": {
+      "pt": "Alvo de tiro com arco",
+      "en": "Target"
+    },
+    "subcategory": "competition",
+    "synonyms": {
+      "pt": ["alvo", "arco e flecha", "mosca", "na mosca"],
+      "en": ["archery target", "bullseye"]
+    },
+    "tags": {
+      "pt": ["precisão", "objetivo", "meta", "acerto"],
+      "en": ["precision", "aim", "goal", "hit"]
+    },
+    "popularity": 3,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gmp4fmcn",
+    "slug": "tennis-ball",
+    "name": {
+      "pt": "Bola de tênis",
+      "en": "Tennis ball"
+    },
+    "subcategory": "balls",
+    "synonyms": {
+      "pt": ["tênis", "bolinha"],
+      "en": ["tennis", "ball"]
+    },
+    "tags": {
+      "pt": ["esporte", "raquete", "quadra", "saque"],
+      "en": ["sport", "racket", "court", "serve"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g1ks6jbg",
+    "slug": "tennis-racket",
+    "name": {
+      "pt": "Raquete de tênis",
+      "en": "Tennis racket"
+    },
+    "subcategory": "balls",
+    "synonyms": {
+      "pt": ["raquete", "tênis"],
+      "en": ["racket", "racquet"]
+    },
+    "tags": {
+      "pt": ["esporte", "quadra", "saque", "bola"],
+      "en": ["sport", "court", "serve", "ball"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gm0fe0z8",
+    "slug": "treadmill",
+    "name": {
+      "pt": "Esteira de corrida",
+      "en": "Treadmill"
+    },
+    "subcategory": "fitness",
+    "synonyms": {
+      "pt": ["esteira", "esteira ergométrica"],
+      "en": ["running machine", "walking machine"]
+    },
+    "tags": {
+      "pt": ["academia", "corrida", "cardio", "caminhada"],
+      "en": ["gym", "running", "cardio", "walking"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gwtc172h",
+    "slug": "trophy",
+    "name": {
+      "pt": "Troféu",
+      "en": "Trophy"
+    },
+    "subcategory": "competition",
+    "synonyms": {
+      "pt": ["taça", "copa"],
+      "en": ["cup", "prize cup"]
+    },
+    "tags": {
+      "pt": ["vitória", "campeão", "prêmio", "conquista"],
+      "en": ["victory", "champion", "winner", "achievement"]
+    },
+    "popularity": 4,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gx1danaq",
+    "slug": "volleyball",
+    "name": {
+      "pt": "Bola de vôlei",
+      "en": "Volleyball"
+    },
+    "subcategory": "balls",
+    "synonyms": {
+      "pt": ["vôlei", "voleibol"],
+      "en": ["volleyball ball", "beach volleyball"]
+    },
+    "tags": {
+      "pt": ["esporte", "praia", "rede", "quadra"],
+      "en": ["sport", "beach", "net", "court"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "ge3yxa8c",
+    "slug": "weight-plate",
+    "name": {
+      "pt": "Anilha",
+      "en": "Weight plate"
+    },
+    "subcategory": "fitness",
+    "synonyms": {
+      "pt": ["disco de peso", "placa de peso"],
+      "en": ["plate", "bumper plate"]
+    },
+    "tags": {
+      "pt": ["academia", "barra", "musculação", "carga"],
+      "en": ["gym", "barbell", "weightlifting", "load"]
+    },
+    "popularity": 1,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "g4ta0yvg",
+    "slug": "whistle",
+    "name": {
+      "pt": "Apito",
+      "en": "Whistle"
+    },
+    "subcategory": "fitness",
+    "synonyms": {
+      "pt": ["apito de árbitro", "juiz"],
+      "en": ["referee whistle", "coach whistle"]
+    },
+    "tags": {
+      "pt": ["árbitro", "treinador", "falta", "sinal"],
+      "en": ["referee", "coach", "foul", "signal"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  },
+  {
+    "id": "gb7007d8",
+    "slug": "yoga-mat",
+    "name": {
+      "pt": "Tapete de ioga",
+      "en": "Yoga mat"
+    },
+    "subcategory": "fitness",
+    "synonyms": {
+      "pt": ["colchonete", "tapetinho de yoga"],
+      "en": ["exercise mat", "pilates mat"]
+    },
+    "tags": {
+      "pt": ["ioga", "alongamento", "pilates", "meditação"],
+      "en": ["yoga", "stretching", "pilates", "meditation"]
+    },
+    "popularity": 2,
+    "added": "2026-11-19",
+    "author": "GLYPHOS",
+    "source": "glyphos",
+    "license": "MIT"
+  }
+]
