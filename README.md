@@ -6,7 +6,10 @@
 -->
 
 <p align="center">
-  <img src="brand/logo/glyphos-wordmark.svg" alt="GLYPHOS" width="320">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="brand/logo/glyphos-wordmark-inverse.svg">
+    <img src="brand/logo/glyphos-wordmark.svg" alt="GLYPHOS" width="320">
+  </picture>
 </p>
 
 <p align="center">
@@ -15,7 +18,6 @@
 </p>
 
 <p align="center">
-  <a href="https://glyphos.vercel.app">Site</a> ·
   <a href="docs/ARCHITECTURE.md">Arquitetura</a> ·
   <a href="docs/ADDING_ICONS.md">Adicionar ícones</a> ·
   <a href="docs/CATALOG.md">Catálogo</a> ·
@@ -70,7 +72,7 @@ Em qualquer página, `Ctrl K` (`⌘K` no Mac) ou `/` abre a busca global: ícone
 | CSS | Classe `.icon-<slug>` que pinta o ícone com máscara, na cor do texto |
 | Data URI | Para `<img src>` e `background-image` |
 | PNG | De 16 a 1024 px, fundo transparente, branco ou preto |
-| Arquivo estático | `https://glyphos.vercel.app/svg/<estilo>/<slug>.svg` |
+| Arquivo estático | `/svg/<estilo>/<slug>.svg` no endereço do site |
 
 Nada depende do GLYPHOS depois de copiado: o código exportado não importa pacotes nem arquivos externos.
 
