@@ -6,8 +6,7 @@
 -->
 
 <p align="center">
-  <img src="brand/logo/glyphos-wordmark.svg#gh-light-mode-only" alt="GLYPHOS" width="320">
-  <img src="brand/logo/glyphos-wordmark-inverse.svg#gh-dark-mode-only" alt="GLYPHOS" width="320">
+  <img src="brand/logo/glyphos-banner.svg" alt="GLYPHOS" width="360">
 </p>
 
 <p align="center">

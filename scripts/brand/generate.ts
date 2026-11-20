@@ -143,6 +143,18 @@ out.set('brand/logo/glyphos-wordmark.svg', wordmarkSvg(brand.ink, brand.rubric))
 out.set('brand/logo/glyphos-wordmark-inverse.svg', wordmarkSvg(brand.paper, brand.rubricOnInk))
 out.set('brand/logo/glyphos-wordmark-mono.svg', wordmarkSvg('currentColor', 'currentColor'))
 out.set('brand/logo/glyphos-app-icon.svg', appIcon(512))
+
+// Banner: the inverse wordmark on an ink plate, legible on any background (README, slides, social).
+{
+  const w = wordmark(0)
+  const pad = 14
+  const width = Math.ceil(w.width + pad * 2)
+  const height = 52
+  out.set(
+    'brand/logo/glyphos-banner.svg',
+    `${svgOpen(width, height, 'GLYPHOS')}<rect width="${width}" height="${height}" rx="10" fill="${brand.ink}"/><g transform="translate(${pad} ${(height - 24) / 2})"><path d="${w.d}" ${strokeAttrs(brand.paper)}/>${square(w.square, brand.rubricOnInk)}</g></svg>\n`,
+  )
+}
 out.set('public/favicon.svg', appIcon(64))
 
 out.set(

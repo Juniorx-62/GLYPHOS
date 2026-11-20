@@ -31,6 +31,7 @@ O nome é **escrito com a mesma pena**: maiúsculas monolinha com altura de 16 u
 | `brand/logo/glyphos-wordmark-mono.svg` | Uma cor (`currentColor`): gravação, carimbo, impressão a uma cor |
 | `brand/logo/glyphos-symbol*.svg` | Símbolo nas mesmas três versões |
 | `brand/logo/glyphos-app-icon.svg` | Ícone de aplicativo: símbolo em papel sobre placa de tinta |
+| `brand/logo/glyphos-banner.svg` | Faixa: logotipo invertido sobre placa de tinta, legível em qualquer fundo (README, slides) |
 | `public/favicon.svg`, `favicon.ico`, `icon-*.png`, `apple-touch-icon.png` | Favicon e ícones do app (gerados) |
 | `public/images/og-glyphos.png` | Imagem de compartilhamento 1200 × 630 (gerada com ícones reais do catálogo) |
 
