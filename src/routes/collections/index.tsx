@@ -32,7 +32,7 @@ export const Route = createFileRoute('/collections/')({
 function CollectionsPage() {
   const { icons } = Route.useLoaderData()
   return (
-    <div className="mx-auto max-w-[1280px] px-4 pt-10 sm:px-6">
+    <div className="mx-auto max-w-[1440px] px-4 pt-10 sm:px-6">
       <h1 className="text-2xl font-semibold tracking-tight text-fg">Coleções</h1>
       <p className="mt-2 max-w-2xl text-base text-fg-muted">
         Conjuntos escolhidos para um tipo de produto: o que uma loja, um painel ou um aplicativo de clima costuma precisar. Para montar as suas, use os favoritos e as coleções da{' '}

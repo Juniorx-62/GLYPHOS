@@ -1,7 +1,6 @@
 /**
  * Builds the <head> of a page for search engines and link previews: title,
  * description, canonical URL, robots, Open Graph, Twitter card and JSON-LD.
- * Adapted from THOTH (same owner, same router).
  *
  * TanStack merges `head()` from the root to the leaf: the deepest route wins
  * for `title` and for any meta with the same name/property, while links are

@@ -62,7 +62,7 @@ function CategoryPage() {
   const options = { appearance: settings.appearance, showNames: true, density: settings.gridDensity }
 
   return (
-    <div className="mx-auto max-w-[1280px] px-4 pt-6 sm:px-6">
+    <div className="mx-auto max-w-[1440px] px-4 pt-6 sm:px-6">
       <nav aria-label="Trilha" className="flex items-center gap-1.5 text-sm text-fg-subtle">
         <Link to="/categories" className="hover:text-fg">
           Categorias

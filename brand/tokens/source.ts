@@ -13,8 +13,7 @@
  *           sparingly: the mark in the logo, focus, the active selection,
  *           favourites. It is the only saturated colour of the interface, so
  *           the icons (always ink) stay the protagonists.
- * THOTH shares the scribe's palette (carbon, papyrus, Egyptian blue, ochre);
- * GLYPHOS keeps the ink and paper and takes the rubric as its own colour.
+ * Ink and paper, with the rubric as the one saturated colour.
  */
 
 export type ThemeName = 'light' | 'dark'

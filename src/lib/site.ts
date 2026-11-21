@@ -11,7 +11,7 @@ export const SITE_LANGUAGE = 'pt-BR'
 export const SITE_LOCALE = 'pt_BR'
 export const SITE_TAGLINE = 'Biblioteca de ícones SVG'
 export const SITE_DESCRIPTION =
-  'Ícones SVG originais do ecossistema THOTH, pesquisáveis em português e inglês, para personalizar e copiar em SVG, JSX, CSS ou PNG. Licença MIT.'
+  'Ícones SVG originais, pesquisáveis em português e inglês, para personalizar e copiar em SVG, JSX, CSS ou PNG. Licença MIT.'
 
 /** Default share image (1200 × 630), for pages without one of their own. */
 export const SITE_IMAGE = {

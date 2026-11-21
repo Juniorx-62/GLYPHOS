@@ -45,7 +45,7 @@ function CollectionPage() {
   const collection = collectionById(id)!
   const settings = useSettings()
   return (
-    <div className="mx-auto max-w-[1280px] px-4 pt-6 sm:px-6">
+    <div className="mx-auto max-w-[1440px] px-4 pt-6 sm:px-6">
       <nav aria-label="Trilha" className="flex items-center gap-1.5 text-sm text-fg-subtle">
         <Link to="/collections" className="hover:text-fg">
           Coleções

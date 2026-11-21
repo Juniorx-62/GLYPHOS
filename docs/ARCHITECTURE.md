@@ -170,13 +170,15 @@ As funções são puras (menos o PNG) e testadas em `tests/unit/styles-export.te
 
 ## Persistência local
 
-Adaptada do THOTH (mesmo dono, mesmo padrão; [DECISIONS/0006](DECISIONS/0006-reuso-do-ecossistema.md)):
+Adaptada de outro projeto do mesmo autor ([DECISIONS/0006](DECISIONS/0006-reuso-de-outros-projetos.md)):
 
 - `data/persistence`: driver IndexedDB (`glyphos` → store `kv`), com localStorage e memória como reserva.
 - `data/store.ts`: `createPersistentStore({ key, version, initial, migrate })`, reativa com `useSyncExternalStore` (o servidor vê os valores iniciais, sem divergência na hidratação), gravação com debounce, sincronização entre abas por `BroadcastChannel('glyphos-sync')`, envelope versionado e `migrate`.
 - `data/stores`: `favorites` (`toggleFavorite`, `useIsFavorite`), `history` (`recordView`), `collections` (`createCollection`, `toggleInCollection`, `renameCollection`, `deleteCollection`), `settings` (`updateSettings`, `useAppearance`, `useThemePreference`).
 - `data/backup.ts`: exporta um JSON com todas as stores; ao importar, confere o arquivo inteiro (cada parte pelo `migrate` da store) e só aplica se tudo for válido.
 - O tema também fica em `localStorage` (`glyphos:theme-preference`), lido por um script no `<head>` antes da primeira pintura.
+- Tema: só claro e escuro. A primeira visita começa no tema do sistema; depois vale o que o botão escolheu. A troca (`toggleTheme` em `components/layout/theme.tsx`, botão no cabeçalho ou tecla `T`) usa uma View Transition: a página inteira esmaece de uma vez, com as transições dos componentes congeladas (`data-theme-switching`). Com movimento reduzido, as cores só trocam.
+- `history`: abrir um ícone no painel rápido da grade conta como visto, igual a abrir a página dele.
 
 ## Rotas
 
@@ -189,7 +191,7 @@ Adaptada do THOTH (mesmo dono, mesmo padrão; [DECISIONS/0006](DECISIONS/0006-re
 | `categories/index.tsx`, `categories/$categoryId.tsx` | `/categories`, `/categories/:id` | Lista e página de categoria (todos os ícones, por subcategoria) |
 | `collections/index.tsx`, `collections/$collectionId.tsx` | `/collections`, `/collections/:id` | Coleções temáticas |
 | `library.tsx` | `/library` | Favoritos, recentes, coleções pessoais, cópia de segurança (`noindex`) |
-| `about.tsx` | `/about` | Grid, estilos, licença, contribuição, ecossistema |
+| `about.tsx` | `/about` | Grid, estilos, licença e contribuição |
 | `sitemap[.]xml.ts`, `robots[.]txt.ts` | | Rotas de servidor geradas do catálogo |
 
 ## SEO

@@ -9,7 +9,7 @@ Registros curtos das escolhas que dão forma ao GLYPHOS: contexto, problema, alt
 | [0003](0003-estilos-derivados.md) | Um desenho-mestre por conceito; Sólido e Duotone derivados pelo papel das formas |
 | [0004](0004-busca-propria.md) | Busca com índice invertido próprio, gerado no build, em vez de uma biblioteca |
 | [0005](0005-grade-virtual.md) | Grade virtual com @tanstack/react-virtual e desenhos por fragmento de categoria |
-| [0006](0006-reuso-do-ecossistema.md) | O que vem do THOTH e do Orthos UI, e como |
+| [0006](0006-reuso-de-outros-projetos.md) | O que foi reaproveitado de outros projetos, e como |
 | [0007](0007-testes-e-portao.md) | Testes com o executor do Node e um portão antes do push |
 | [0008](0008-local-first.md) | Sem cadastro: dados de quem usa só no navegador |
 | [0009](0009-licenca-e-marcas.md) | Ícones sob MIT, desenho próprio, sem logotipos de marcas |

@@ -1,8 +1,7 @@
 /**
  * Global search (Ctrl K / ⌘K, or "/"): icons first, then categories,
  * collections and pages. A native <dialog> (focus trapped, Esc closes and
- * returns focus) with a combobox + listbox driven by aria-activedescendant,
- * the pattern the Orthos UI command palette uses, rebuilt for React.
+ * returns focus) with a combobox + listbox driven by aria-activedescendant.
  *
  * Enter opens the item; Ctrl/⌘ + Enter copies the SVG of the selected icon.
  */

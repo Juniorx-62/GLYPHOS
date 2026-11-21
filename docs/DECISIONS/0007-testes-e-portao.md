@@ -6,6 +6,6 @@ _Data: 2026-11-19 · Situação: aceita_
 
 **Decisão.** `node:test` para unitários e integração, rodando TypeScript direto (sem Vitest/Jest). Fluxos ponta a ponta e varredura de páginas no Chrome instalado, por CDP, sem Playwright. `npm run verify` reúne catálogo estrito, índices, tipos, testes, dependências, licenças e marca.
 
-**Justificativa.** Nenhuma dependência nova para testar; o mesmo padrão do THOTH; os testes de integração rodam sobre o catálogo real (todo ícone encontrável pelo nome).
+**Justificativa.** Nenhuma dependência nova para testar; o mesmo padrão de outros projetos do autor; os testes de integração rodam sobre o catálogo real (todo ícone encontrável pelo nome).
 
 **Consequências.** Os testes de navegador precisam de um servidor rodando e do Chrome; ficam fora do `verify` e documentados em [TESTING](../TESTING.md).

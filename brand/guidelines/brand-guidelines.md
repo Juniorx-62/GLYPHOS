@@ -4,7 +4,7 @@
 
 ## Conceito
 
-**Ícones desenhados com a mesma pena.** O GLYPHOS é a biblioteca de sinais do ecossistema THOTH. Se o THOTH é o escriba, o GLYPHOS é o que ele grava: o glifo. A identidade vem do ofício do escriba:
+**Ícones desenhados com a mesma pena.** O GLYPHOS é uma biblioteca de ícones: sinais gravados, glifos. A identidade vem do ofício de quem grava sinais, o escriba:
 
 - **a pena:** um traço só, redondo, de espessura constante. O mesmo traço desenha os ícones, a marca e o nome;
 - **o grid:** a pedra em que se grava. Todo ícone nasce num quadrado de 24 unidades;
@@ -18,7 +18,7 @@ Atributos: sofisticação, minimalismo, precisão, organização, qualidade téc
 
 Um **G monolinha** no grid de 24: um círculo de raio 8 aberto no canto superior direito (de −40° até 0°), com a barra entrando até o centro, onde fica um **quadrado de rubrica** de 3,75 unidades: a unidade do grid e a marca vermelha do escriba. Traço de 2,5 (mais pesado que o dos ícones, 1,5, para presença em tamanho pequeno), pontas redondas.
 
-Lê como G, como um olho (o THOTH restaurou o olho de Hórus) e como o ponto no centro do grid.
+Lê como G, como um olho e como o ponto no centro do grid.
 
 ### Logotipo
 
@@ -72,10 +72,6 @@ Contraste medido (WCAG 2.2):
 | `error` sobre `surface` | 5,7:1 | 6,2:1 |
 
 A rubrica (`accent`) não é usada para texto pequeno no tema claro; para texto, `accent-emphasis`. O vermelho de erro é carmim (mais frio que a rubrica) e sempre acompanha ícone e texto.
-
-### Relação com o ecossistema
-
-O THOTH usa a "paleta do escriba" (carvão, papiro, azul egípcio, ocre). O GLYPHOS mantém a tinta e o papel e toma a rubrica como sua: os dois produtos parecem da mesma família e não se confundem.
 
 ## Tipografia
 

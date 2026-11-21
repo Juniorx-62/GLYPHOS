@@ -1,6 +1,6 @@
 {
   "name": "glyphos",
-  "description": "GLYPHOS — biblioteca de ícones SVG do ecossistema THOTH",
+  "description": "GLYPHOS — biblioteca de ícones SVG",
   "private": true,
   "type": "module",
   "version": "0.1.0",

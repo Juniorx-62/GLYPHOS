@@ -4,9 +4,9 @@ _2026-11-19 a 2026-11-20_
 
 ## Fase 1 · Diagnóstico e planejamento
 
-- Análise do THOTH (README, arquitetura, persistência, SEO, scripts, marca) e do Orthos UI (tokens, componentes, licença).
-- Decisões registradas em [DECISIONS](../DECISIONS/README.md): stack, catálogo em arquivos, estilos derivados, busca própria, grade virtual, reuso do ecossistema, testes, local-first, licença, SVG seguro e identidade.
-- Nome definido: **GLYPHOS** (o provisório era "THOTH Icons").
+- Análise de outros projetos do autor (arquitetura, persistência, SEO, scripts, marca, componentes, licença).
+- Decisões registradas em [DECISIONS](../DECISIONS/README.md): stack, catálogo em arquivos, estilos derivados, busca própria, grade virtual, reuso de outros projetos, testes, local-first, licença, SVG seguro e identidade.
+- Nome definido: **GLYPHOS**.
 
 ## Fase 2 · Fundação
 

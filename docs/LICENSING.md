@@ -16,7 +16,7 @@ Os ícones do GLYPHOS (os desenhos em `src/catalog/icons`, os metadados em `src/
 | Modificar (cor, traço, tamanho, desenho) | — |
 | Redistribuir o conjunto (pacote, kit de design, outra biblioteca) | Manter o aviso de copyright e o texto da licença |
 
-Usar um ícone num produto não exige crédito. A licença do **código da aplicação** (o site, os scripts) ainda não foi definida, como nos outros projetos do ecossistema THOTH; até lá, vale o padrão legal (todos os direitos reservados ao autor).
+Usar um ícone num produto não exige crédito. A licença do **código da aplicação** (o site, os scripts) ainda não foi definida; até lá, vale o padrão legal (todos os direitos reservados ao autor).
 
 ## Procedência dos ícones
 
@@ -65,4 +65,4 @@ Licenças compatíveis: MIT, ISC, Apache 2.0 (com o NOTICE), CC0, CC BY 4.0 (com
 
 - **Tipografia:** Geist e Geist Mono (Vercel), sob a SIL Open Font License 1.1, empacotadas por `@fontsource-variable`.
 - **Ícones da interface:** o próprio catálogo GLYPHOS.
-- **Padrões de interface:** a busca global, o toaster e os controles reaproveitam *padrões de interação* do Orthos UI (ecossistema THOTH), reimplementados para React; nenhum código foi copiado ([DECISIONS/0006](DECISIONS/0006-reuso-do-ecossistema.md)).
+- **Padrões de interface:** a busca global, o toaster e os controles reaproveitam *padrões de interação* de outro projeto do mesmo autor, reimplementados para React; nenhum código foi copiado ([DECISIONS/0006](DECISIONS/0006-reuso-de-outros-projetos.md)).

@@ -54,7 +54,12 @@ export function Explorer({ search, initial }: { search: ExploreSearch; initial: 
     return () => clearTimeout(t)
   }, [query, search.q, navigate])
 
-  const setParam = (patch: Partial<ExploreSearch>) => void navigate({ search: (s: ExploreSearch) => ({ ...s, ...patch }), replace: !('icon' in patch) ? false : true })
+  // Opening or closing an icon's panel keeps the scroll where it is: the
+  // router would otherwise reset it to the top on every navigation.
+  const setParam = (patch: Partial<ExploreSearch>) => {
+    const iconOnly = Object.keys(patch).every((k) => k === 'icon')
+    void navigate({ search: (s: ExploreSearch) => ({ ...s, ...patch }), replace: 'icon' in patch, resetScroll: !iconOnly })
+  }
 
   const result = useMemo(() => {
     if (!manifest) return null
@@ -210,7 +215,7 @@ export function Explorer({ search, initial }: { search: ExploreSearch; initial: 
       </div>
 
       <div className="mt-6 flex items-start gap-6">
-        <nav aria-label="Categorias" className="sticky top-40 hidden max-h-[calc(100dvh-11rem)] w-56 shrink-0 overflow-y-auto pr-2 lg:block">
+        <nav aria-label="Categorias" className="scrollbar-none sticky top-40 hidden max-h-[calc(100dvh-11rem)] w-56 shrink-0 overflow-y-auto pr-2 lg:block">
           <CategoryLink active={!search.category} label="Todas" count={Object.values(counts).reduce((a, b) => a + b, 0)} onClick={() => setParam({ category: undefined, icon: undefined })} />
           {CATEGORIES.map((c) => (
             <CategoryLink key={c.id} active={search.category === c.id} label={c.name.pt} count={counts[c.id] ?? 0} onClick={() => setParam({ category: c.id, icon: undefined })} />

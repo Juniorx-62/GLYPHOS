@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <strong>Biblioteca de ícones SVG do ecossistema THOTH</strong><br>
+  <strong>Biblioteca de ícones SVG</strong><br>
   Ícones originais desenhados com a mesma pena, pesquisáveis em português e inglês, para personalizar e levar ao seu projeto em SVG, JSX, CSS ou PNG.
 </p>
 
@@ -55,7 +55,7 @@ Cada conceito tem um desenho-mestre (Contorno). Os estilos Sólido e Duotone sã
 | Minha biblioteca | `/library` | Favoritos, vistos por último, coleções pessoais, exportar e importar dados em JSON |
 | Sobre | `/about` | O grid e o traço, os estilos, a licença e como contribuir |
 
-Em qualquer página, `Ctrl K` (`⌘K` no Mac) ou `/` abre a busca global: ícones, categorias, coleções e páginas. `Enter` abre; `Ctrl Enter` copia o SVG do ícone selecionado.
+Em qualquer página, `Ctrl K` (`⌘K` no Mac) ou `/` abre a busca global: ícones, categorias, coleções e páginas. `Enter` abre; `Ctrl Enter` copia o SVG do ícone selecionado. `T` alterna entre os temas claro e escuro.
 
 ## Como utilizar a biblioteca
 
@@ -238,5 +238,4 @@ O repositório traz [skills do Claude Code](.claude/skills/) com o fluxo de dese
 
 - **Ícones:** desenhos próprios do GLYPHOS, sob a [licença MIT](LICENSE). Política completa em [docs/LICENSING.md](docs/LICENSING.md).
 - **Tipografia:** Geist e Geist Mono (Vercel), SIL Open Font License 1.1.
-- **Ecossistema:** padrões de persistência e scripts adaptados do THOTH; padrões de interação inspirados no Orthos UI, reimplementados em React ([DECISIONS/0006](docs/DECISIONS/0006-reuso-do-ecossistema.md)).
 - **Código da aplicação:** a licença ainda não foi definida; até lá, todos os direitos reservados ao autor.

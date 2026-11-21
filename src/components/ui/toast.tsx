@@ -1,8 +1,7 @@
 /**
  * Toasts: short confirmations ("SVG copiado") and errors. One live region is
  * always mounted, so screen readers announce every message; hovering or
- * focusing a toast pauses it. Interaction pattern adapted from the Orthos UI
- * toaster (re-implemented for React, no code copied).
+ * focusing a toast pauses it.
  */
 import { useEffect, useState, useSyncExternalStore } from 'react'
 import { UiIcon } from '../icons/UiIcon'

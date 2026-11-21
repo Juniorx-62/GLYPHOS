@@ -15,7 +15,7 @@ export interface PersonalCollection {
   updatedAt: string
 }
 
-export type ThemePreference = 'system' | 'light' | 'dark'
+export type ThemePreference = 'light' | 'dark'
 
 /** How icons are drawn in the grid and exported: the live customisation. */
 export interface IconAppearance {

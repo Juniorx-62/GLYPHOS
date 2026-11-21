@@ -31,7 +31,7 @@ export const Route = createFileRoute('/categories/')({
 function CategoriesPage() {
   const { symbols } = Route.useLoaderData()
   return (
-    <div className="mx-auto max-w-[1280px] px-4 pt-10 sm:px-6">
+    <div className="mx-auto max-w-[1440px] px-4 pt-10 sm:px-6">
       <h1 className="text-2xl font-semibold tracking-tight text-fg">Categorias</h1>
       <p className="mt-2 max-w-2xl text-base text-fg-muted">
         A biblioteca organizada pelo que cada ícone desenha. Cada ícone mora em uma categoria; a busca encontra todos por sinônimos e tags, em português e em inglês.

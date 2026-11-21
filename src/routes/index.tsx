@@ -46,29 +46,12 @@ function HomePage() {
   const { popular, recent, icons } = Route.useLoaderData()
   const settings = useSettings()
   const gridOptions = { appearance: settings.appearance, showNames: true, density: 'comfortable' as const }
-  const styleCount = STYLES.filter((s) => (catalogInfo.styles[s.id] ?? 0) > 0).length
 
   return (
     <div>
       <Hero icons={icons} popular={popular} />
 
-      <div className="mx-auto max-w-[1280px] px-4 sm:px-6">
-        <dl className="grid grid-cols-2 gap-px overflow-hidden rounded-xl border border-border bg-border sm:grid-cols-4">
-          {[
-            [formatNumber(catalogInfo.icons), 'ícones originais'],
-            [String(CATEGORIES.length), 'categorias'],
-            [String(styleCount), 'estilos derivados do mesmo desenho'],
-            ['MIT', 'licença livre, inclusive comercial'],
-          ].map(([value, label]) => (
-            <div key={label} className="bg-surface px-5 py-4">
-              <dt className="sr-only">{label}</dt>
-              <dd>
-                <span className="block text-xl font-semibold tracking-tight text-fg">{value}</span>
-                <span className="text-xs text-fg-muted">{label}</span>
-              </dd>
-            </div>
-          ))}
-        </dl>
+      <div className="mx-auto max-w-[1440px] px-4 sm:px-6">
 
         <section className="mt-20" aria-labelledby="popular-title">
           <SectionHeader
@@ -183,13 +166,9 @@ function Hero({ icons, popular }: { icons: Record<string, ShardIcon>; popular: M
   return (
     <section className="relative overflow-hidden border-b border-border">
       <div aria-hidden className="canvas-grid pointer-events-none absolute inset-0 opacity-60 [mask-image:radial-gradient(ellipse_at_top,black,transparent_70%)]" style={{ backgroundSize: '48px 48px' }} />
-      <div className="relative mx-auto grid max-w-[1280px] items-center gap-12 px-4 pt-16 pb-20 sm:px-6 lg:grid-cols-[1.1fr_1fr] lg:pt-24 lg:pb-28">
+      <div className="relative mx-auto grid max-w-[1440px] items-center gap-12 px-4 pt-16 pb-20 sm:px-6 lg:grid-cols-[1.1fr_1fr] lg:pt-24 lg:pb-28">
         <div>
-          <p className="inscription inline-flex items-center gap-2 rounded-full border border-border bg-surface px-3 py-1 text-fg-muted">
-            <span className="size-1.5 rounded-xs bg-accent" aria-hidden />
-            Biblioteca de ícones do ecossistema THOTH
-          </p>
-          <h1 className="mt-6 text-3xl font-semibold tracking-tight text-fg sm:text-4xl">Ícones desenhados com a mesma pena.</h1>
+          <h1 className="text-3xl font-semibold tracking-tight text-fg sm:text-4xl">Ícones desenhados com a mesma pena.</h1>
           <p className="mt-5 max-w-xl text-md text-fg-muted">
             {formatNumber(catalogInfo.icons)} ícones SVG originais num grid de 24, com traço de 1,5. Busque em português ou em inglês, personalize e leve para o seu projeto em SVG, JSX, CSS ou PNG.
           </p>
@@ -236,7 +215,7 @@ function Hero({ icons, popular }: { icons: Record<string, ShardIcon>; popular: M
             abre a busca global.
           </p>
         </div>
-        <div aria-hidden className="relative hidden rounded-2xl border border-border bg-surface/80 p-6 shadow-sm backdrop-blur-sm sm:block">
+        <div aria-hidden className="relative hidden rounded-xl border border-border bg-surface p-6 sm:block">
           <div className="grid grid-cols-8 gap-1 text-fg">
             {specimen.map((e, i) => (
               <span key={e.slug} className={cn('grid aspect-square place-items-center rounded-md', i === 10 && 'bg-fg text-background')}>
@@ -297,17 +276,14 @@ function HowTo() {
   return (
     <section className="mt-20" aria-labelledby="howto-title">
       <SectionHeader id="howto-title" title="Como usar" />
-      <ol className="grid gap-3 md:grid-cols-3">
-        {steps.map((s, i) => (
-          <li key={s.title} className="rounded-xl border border-border bg-surface p-5">
-            <div className="flex items-center gap-3">
-              <span className="grid size-9 place-items-center rounded-lg bg-muted text-fg">
-                <UiIcon name={s.icon} size={18} />
-              </span>
-              <span className="inscription text-fg-subtle">0{i + 1}</span>
-            </div>
-            <h3 className="mt-4 font-medium text-fg">{s.title}</h3>
-            <p className="mt-1 text-sm text-fg-muted">{s.text}</p>
+      <ol className="grid gap-x-10 gap-y-6 md:grid-cols-3">
+        {steps.map((s) => (
+          <li key={s.title} className="border-t border-border pt-4">
+            <h3 className="flex items-center gap-2 font-medium text-fg">
+              <UiIcon name={s.icon} size={16} className="text-fg-muted" />
+              {s.title}
+            </h3>
+            <p className="mt-1.5 text-sm text-fg-muted">{s.text}</p>
           </li>
         ))}
       </ol>

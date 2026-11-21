@@ -7,6 +7,7 @@ import { Link } from '@tanstack/react-router'
 import { useEffect, useRef } from 'react'
 import { categoryById } from '~/catalog'
 import type { ManifestEntry } from '~/catalog/types'
+import { recordView } from '~/data/stores/history'
 import { useAppearance } from '~/data/stores/settings'
 import { useMediaQuery } from '~/hooks/use-media-query'
 import { Glyph } from '~/components/icons/Glyph'
@@ -21,6 +22,8 @@ function PanelBody({ entry, onClose }: { entry: ManifestEntry; onClose: () => vo
   const a = useAppearance()
   const style = icon && icon.styles.includes(a.style) ? a.style : 'outline'
   const category = categoryById(entry.category)
+  // Opening an icon here counts as seeing it, like opening its page.
+  useEffect(() => recordView(entry.slug), [entry.slug])
   return (
     <div className="grid gap-5">
       <div className="flex items-start justify-between gap-3">

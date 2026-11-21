@@ -9,8 +9,21 @@ export const THEME_STORAGE_KEY = 'glyphos:theme-preference'
 
 export const DEFAULT_APPEARANCE: IconAppearance = { style: 'outline', strokeWidth: DEFAULT_STROKE, color: 'currentColor', size: 24, opacity: 1 }
 
+/**
+ * The theme a first visit starts in: what <html> already shows (painted by the
+ * boot script from the system's theme), else the system's, else light.
+ */
+export function initialTheme(): ThemePreference {
+  if (typeof document !== 'undefined') {
+    const painted = document.documentElement.dataset.theme
+    if (painted === 'light' || painted === 'dark') return painted
+  }
+  if (typeof matchMedia === 'function' && matchMedia('(prefers-color-scheme: dark)').matches) return 'dark'
+  return 'light'
+}
+
 export const DEFAULT_SETTINGS: Settings = {
-  theme: 'system',
+  theme: 'light',
   appearance: DEFAULT_APPEARANCE,
   previewBackground: 'surface',
   showNames: true,
@@ -26,7 +39,8 @@ export function cleanSettings(data: unknown): Settings | undefined {
   if (!isRecord(data)) return undefined
   const a = isRecord(data.appearance) ? data.appearance : {}
   return {
-    theme: data.theme === 'light' || data.theme === 'dark' ? data.theme : 'system',
+    // 'system' (no longer offered) and anything unknown become the theme on screen.
+    theme: data.theme === 'light' || data.theme === 'dark' ? data.theme : initialTheme(),
     appearance: {
       style: STYLE_IDS.includes(a.style as StyleId) ? (a.style as StyleId) : 'outline',
       strokeWidth: clamp(a.strokeWidth, STROKE_RANGE.min, STROKE_RANGE.max, DEFAULT_STROKE),
@@ -43,7 +57,7 @@ export function cleanSettings(data: unknown): Settings | undefined {
 export const settingsStore = createPersistentStore<Settings>({
   key: 'settings',
   version: 1,
-  initial: () => DEFAULT_SETTINGS,
+  initial: () => ({ ...DEFAULT_SETTINGS, theme: initialTheme() }),
   migrate: (data) => cleanSettings(data),
 })
 
@@ -69,11 +83,11 @@ export const useAppearance = () => useStoreSelector(settingsStore, (s) => s.appe
 export function useThemePreference(): ThemePreference {
   const snap = useStore(settingsStore)
   if (snap.status === 'ready') return snap.data.theme
-  if (typeof localStorage === 'undefined') return 'system'
+  if (typeof localStorage === 'undefined') return 'light'
   try {
     const v = localStorage.getItem(THEME_STORAGE_KEY)
-    return v === 'light' || v === 'dark' ? v : 'system'
+    return v === 'light' || v === 'dark' ? v : initialTheme()
   } catch {
-    return 'system'
+    return initialTheme()
   }
 }

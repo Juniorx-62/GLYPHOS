@@ -56,6 +56,22 @@
   }
 }
 
+/*
+ * Theme switch (components/layout/theme.tsx): while it happens no component
+ * animates its own colours, and the page cross-fades once as a whole.
+ */
+[data-theme-switching],
+[data-theme-switching] *,
+[data-theme-switching] *::before,
+[data-theme-switching] *::after {
+  transition: none !important;
+}
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 320ms;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 /* Reduced motion: from the OS, or forced on <html data-motion="reduce">. */
 @media (prefers-reduced-motion: reduce) {
   *,

@@ -18,7 +18,7 @@ export const Route = createFileRoute('/about')({
 
 const MIT = `MIT License
 
-Copyright (c) 2026 GLYPHOS / ecossistema THOTH
+Copyright (c) 2026 GLYPHOS
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -66,7 +66,7 @@ function AboutPage() {
         <LogoMark size={44} className="text-fg" />
         <div>
           <h1 className="text-2xl font-semibold tracking-tight text-fg">Sobre o GLYPHOS</h1>
-          <p className="text-sm text-fg-muted">A biblioteca de ícones do ecossistema THOTH.</p>
+          <p className="text-sm text-fg-muted">Biblioteca de ícones SVG originais.</p>
         </div>
       </div>
       <div className="mt-8 grid max-w-3xl gap-4 text-base text-fg-muted">
@@ -75,7 +75,7 @@ function AboutPage() {
           tags, categoria e licença registrados num catálogo versionado, que é a fonte de verdade do site.
         </p>
         <p>
-          O nome vem de <em>glyph</em>, o sinal gravado, e acompanha o THOTH, o escriba. A marca é um G escrito com a mesma pena dos ícones; o quadrado em rubrica, o vermelho que os escribas usavam para destacar o
+          O nome vem de <em>glyph</em>, o sinal gravado. A marca é um G escrito com a mesma pena dos ícones; o quadrado em rubrica, o vermelho que os escribas usavam para destacar o
           que importava, é a unidade do grid.
         </p>
       </div>
@@ -150,14 +150,6 @@ function AboutPage() {
             </Link>
           </p>
         </div>
-      </section>
-
-      <section id="ecossistema" className="mt-16 scroll-mt-20" aria-labelledby="eco-title">
-        <SectionHeader id="eco-title" title="Ecossistema THOTH" />
-        <p className="max-w-3xl text-sm text-fg-muted">
-          O GLYPHOS é um produto independente do ecossistema THOTH, ao lado do laboratório de front-end THOTH e da biblioteca de componentes Orthos UI. Compartilha com eles a tipografia Geist, a paleta do escriba (tinta e
-          papel) e os padrões de acessibilidade; tem marca, cor (a rubrica) e repositório próprios.
-        </p>
       </section>
     </div>
   )

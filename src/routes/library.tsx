@@ -13,6 +13,8 @@ import { Button, EmptyState, IconButton, Segmented, TextInput } from '~/componen
 import { toast } from '~/components/ui/toast'
 import { StaticIconGrid } from '~/features/exploration/IconGrid'
 import { pageHead } from '~/lib/seo'
+import { UiIcon } from '~/components/icons/UiIcon'
+import type { UiIconName } from '~/components/icons/ui-icon-names'
 
 type Tab = 'favorites' | 'recent' | 'collections' | 'data'
 const TABS: Tab[] = ['favorites', 'recent', 'collections', 'data']
@@ -43,7 +45,7 @@ function LibraryPage() {
   const history = useHistory()
   const collections = useCollections()
   return (
-    <div className="mx-auto max-w-[1280px] px-4 pt-10 sm:px-6">
+    <div className="mx-auto max-w-[1440px] px-4 pt-10 sm:px-6">
       <h1 className="text-2xl font-semibold tracking-tight text-fg">Minha biblioteca</h1>
       <p className="mt-2 max-w-2xl text-base text-fg-muted">Favoritos, ícones vistos por último e suas coleções. Tudo fica neste navegador, sem cadastro; leve para outro aparelho com a cópia de segurança.</p>
       <div className="mt-6 overflow-x-auto">
@@ -53,7 +55,7 @@ function LibraryPage() {
           onChange={(t) => void navigate({ search: { tab: t === 'favorites' ? undefined : t }, replace: true })}
           options={[
             { value: 'favorites', label: `Favoritos${hydrated ? ` (${favorites.length})` : ''}` },
-            { value: 'recent', label: 'Vistos por último' },
+            { value: 'recent', label: `Vistos por último${hydrated ? ` (${history.length})` : ''}` },
             { value: 'collections', label: `Coleções${hydrated ? ` (${collections.length})` : ''}` },
             { value: 'data', label: 'Dados e backup' },
           ]}
@@ -61,26 +63,26 @@ function LibraryPage() {
       </div>
       <div className="mt-8">
         {!hydrated ? null : tab === 'favorites' ? (
-          <SlugList slugs={favorites.map((f) => f.slug)} empty="Nenhum favorito ainda" hint="Toque no coração de um ícone para guardá-lo aqui." onClear={favorites.length ? () => clearFavorites() : undefined} clearLabel="Limpar favoritos" />
+          <SlugList icon="heart" slugs={favorites.map((f) => f.slug)} empty="Nenhum favorito ainda" hint="Toque no coração de um ícone para guardá-lo aqui." onClear={favorites.length ? () => clearFavorites() : undefined} clearLabel="Limpar favoritos" />
         ) : tab === 'recent' ? (
-          <SlugList slugs={history.map((h) => h.slug)} empty="Nenhum ícone visto ainda" hint="Os ícones que você abrir aparecem aqui, do mais recente para o mais antigo." onClear={history.length ? () => clearHistory() : undefined} clearLabel="Limpar histórico" />
+          <SlugList icon="history" slugs={history.map((h) => h.slug)} empty="Nenhum ícone visto ainda" hint="Os ícones que você abrir, na grade ou na página de cada um, aparecem aqui, do mais recente para o mais antigo." onClear={history.length ? () => clearHistory() : undefined} clearLabel="Limpar histórico" />
         ) : tab === 'collections' ? (
           <Collections />
         ) : (
-          <DataPanel />
+          <DataPanel counts={{ favorites: favorites.length, history: history.length, collections: collections.length }} />
         )}
       </div>
     </div>
   )
 }
 
-function SlugList({ slugs, empty, hint, onClear, clearLabel }: { slugs: string[]; empty: string; hint: string; onClear?: () => void; clearLabel: string }) {
+function SlugList({ icon, slugs, empty, hint, onClear, clearLabel }: { icon: UiIconName; slugs: string[]; empty: string; hint: string; onClear?: () => void; clearLabel: string }) {
   const map = useManifestMap()
   const settings = useSettings()
   const entries = useMemo(() => (map ? slugs.map((s) => map.get(s)).filter((e): e is ManifestEntry => !!e) : []), [map, slugs])
   if (!slugs.length) {
     return (
-      <EmptyState icon="heart" title={empty}>
+      <EmptyState icon={icon} title={empty}>
         <p>{hint}</p>
         <Link to="/icons" className="mt-4 inline-block">
           <Button variant="primary" icon="search">
@@ -188,12 +190,38 @@ function Collections() {
   )
 }
 
-function DataPanel() {
+function DataPanel({ counts }: { counts: { favorites: number; history: number; collections: number } }) {
   const fileRef = useRef<HTMLInputElement>(null)
+  const settings = useSettings()
+  const saved: Array<{ icon: UiIconName; label: string; value: string }> = [
+    { icon: 'heart', label: 'Favoritos', value: plural(counts.favorites, 'ícone', 'ícones') },
+    { icon: 'history', label: 'Vistos por último', value: plural(counts.history, 'ícone', 'ícones') },
+    { icon: 'bookmark', label: 'Coleções pessoais', value: plural(counts.collections, 'coleção', 'coleções') },
+    { icon: 'sliders', label: 'Preferências', value: `Tema ${settings.theme === 'dark' ? 'escuro' : 'claro'}, traço ${String(settings.appearance.strokeWidth).replace('.', ',')}` },
+  ]
   return (
-    <div className="grid max-w-2xl gap-4">
-      <div className="rounded-xl border border-border bg-surface p-5">
-        <h2 className="font-semibold text-fg">Cópia de segurança</h2>
+    <div className="grid gap-4 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]">
+      <section aria-labelledby="saved-title" className="rounded-xl border border-border bg-surface p-5 lg:row-span-2">
+        <h2 id="saved-title" className="font-semibold text-fg">
+          O que está salvo neste navegador
+        </h2>
+        <p className="mt-1 text-sm text-fg-muted">Nada sai do seu aparelho: não há conta nem servidor. Os dados ficam no armazenamento do navegador.</p>
+        <ul className="mt-4 divide-y divide-border rounded-lg border border-border">
+          {saved.map((item) => (
+            <li key={item.label} className="flex items-center gap-3 px-4 py-3">
+              <span className="grid size-8 shrink-0 place-items-center rounded-md bg-muted text-fg-muted">
+                <UiIcon name={item.icon} size={16} />
+              </span>
+              <span className="flex-1 text-sm text-fg">{item.label}</span>
+              <span className="text-sm text-fg-muted tabular-nums">{item.value}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+      <section aria-labelledby="backup-title" className="rounded-xl border border-border bg-surface p-5">
+        <h2 id="backup-title" className="font-semibold text-fg">
+          Cópia de segurança
+        </h2>
         <p className="mt-1 text-sm text-fg-muted">Um arquivo JSON com favoritos, histórico, coleções e preferências. Use para levar seus dados a outro navegador ou aparelho.</p>
         <div className="mt-4 flex flex-wrap gap-2">
           <Button
@@ -231,12 +259,14 @@ function DataPanel() {
           />
         </div>
         <p className="mt-3 text-xs text-fg-subtle">Ao importar, o arquivo inteiro é conferido antes: se alguma parte estiver danificada, nada muda.</p>
-      </div>
-      <div className="rounded-xl border border-border bg-surface p-5">
-        <h2 className="font-semibold text-fg">Apagar dados deste navegador</h2>
+      </section>
+      <section aria-labelledby="erase-title" className="rounded-xl border border-error/30 bg-surface p-5">
+        <h2 id="erase-title" className="font-semibold text-fg">
+          Apagar dados deste navegador
+        </h2>
         <p className="mt-1 text-sm text-fg-muted">Remove favoritos, histórico, coleções e preferências. Não dá para desfazer: exporte uma cópia antes.</p>
         <Button
-          className="mt-4"
+          className="mt-4 text-error hover:border-error/60"
           icon="trash"
           onClick={async () => {
             if (!confirm('Apagar todos os seus dados do GLYPHOS neste navegador? Isso não pode ser desfeito.')) return
@@ -246,7 +276,7 @@ function DataPanel() {
         >
           Apagar tudo
         </Button>
-      </div>
+      </section>
     </div>
   )
 }

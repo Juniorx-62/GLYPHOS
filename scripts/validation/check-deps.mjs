@@ -1,6 +1,6 @@
 /**
  * Regras de dependência entre as pastas de src/ e ciclos de import
- * (docs/ARCHITECTURE.md, "Regras de importação"). Adaptado do THOTH.
+ * (docs/ARCHITECTURE.md, "Regras de importação").
  *
  *   npm run check:deps
  *

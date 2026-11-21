@@ -31,7 +31,7 @@ export const LICENSES: Record<LicenseId, LicenseDef> = {
     id: 'MIT',
     name: 'MIT License',
     url: 'https://opensource.org/license/mit',
-    attribution: 'GLYPHOS icons — MIT License — © 2026 GLYPHOS / ecossistema THOTH',
+    attribution: 'GLYPHOS icons — MIT License — © 2026 GLYPHOS',
     commercial: true,
     redistribution: true,
   },

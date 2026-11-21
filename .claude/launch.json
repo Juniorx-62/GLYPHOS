@@ -1,6 +1,7 @@
 {
   "version": "0.0.1",
   "configurations": [
-    { "name": "glyphos-dev", "runtimeExecutable": "npm", "runtimeArgs": ["run", "dev"], "port": 3100 }
+    { "name": "glyphos-dev", "runtimeExecutable": "npm", "runtimeArgs": ["run", "dev"], "port": 3100 },
+    { "name": "glyphos-preview", "runtimeExecutable": "npx", "runtimeArgs": ["vite", "preview", "--port", "3101"], "port": 3101 }
   ]
 }

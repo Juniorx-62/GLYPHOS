@@ -60,7 +60,7 @@ export function IconDetail({ data }: { data: IconDetailData }) {
   }
 
   return (
-    <div className="mx-auto max-w-[1280px] px-4 pt-6 sm:px-6">
+    <div className="mx-auto max-w-[1440px] px-4 pt-6 sm:px-6">
       <nav aria-label="Trilha" className="flex flex-wrap items-center gap-1.5 text-sm text-fg-subtle">
         <Link to="/icons" className="hover:text-fg">
           Ícones
@@ -323,7 +323,9 @@ function Meta({ label, children }: { label: string; children: React.ReactNode })
   )
 }
 
-function KeywordList({ title, items }: { title: string; items: string[] }) {
+function KeywordList({ title, items: all }: { title: string; items: string[] }) {
+  // The same word can come from both languages ("modem"): show it once.
+  const items = [...new Set(all)]
   if (!items.length) return null
   return (
     <div>

@@ -24,7 +24,7 @@ describe('dados locais', () => {
 
   it('preferências inválidas voltam ao padrão, valores fora da faixa são limitados', () => {
     const s = cleanSettings({ theme: 'roxo', appearance: { style: 'neon', strokeWidth: 99, color: 'red; background:url(x)', size: -4, opacity: 3 }, previewBackground: 'url(x)' })!
-    assert.equal(s.theme, 'system')
+    assert.equal(s.theme, 'light')
     assert.equal(s.appearance.style, 'outline')
     assert.equal(s.appearance.strokeWidth, 2.5)
     assert.equal(s.appearance.color, 'currentColor')

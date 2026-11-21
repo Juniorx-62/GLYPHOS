@@ -3,16 +3,14 @@ import { useEffect, useRef, type ReactNode } from 'react'
 import { catalogInfo } from '~/catalog'
 import { useFavorites } from '~/data/stores/favorites'
 import { useThemePreference } from '~/data/stores/settings'
-import type { ThemePreference } from '~/data/types'
 import { CommandPaletteProvider, useCommandPalette } from '~/features/search/CommandPalette'
 import { useHydrated, useModKey } from '~/hooks/use-media-query'
 import { cn, formatNumber } from '~/lib/utils'
 import { UiIcon } from '../icons/UiIcon'
-import type { UiIconName } from '../icons/ui-icon-names'
 import { IconButton, Kbd } from '../ui/primitives'
 import { Toaster } from '../ui/toast'
 import { Logo, LogoMark } from './Logo'
-import { ThemeController, setTheme } from './theme'
+import { ThemeController, toggleTheme } from './theme'
 
 const NAV = [
   { to: '/icons', label: 'Ícones' },
@@ -44,15 +42,30 @@ function useActivePath() {
   return useRouterState({ select: (s) => s.location.pathname })
 }
 
-const THEME_NEXT: Record<ThemePreference, ThemePreference> = { system: 'light', light: 'dark', dark: 'system' }
-const THEME_ICON: Record<ThemePreference, UiIconName> = { system: 'monitor', light: 'sun', dark: 'moon' }
-const THEME_LABEL: Record<ThemePreference, string> = { system: 'Tema: do sistema', light: 'Tema: claro', dark: 'Tema: escuro' }
-
+/**
+ * Light ⇄ dark: the icon and the label say where the
+ * button goes (sun in the dark theme, moon in the light one). T switches too.
+ */
 function ThemeButton() {
   const hydrated = useHydrated()
-  const pref = useThemePreference()
-  const current = hydrated ? pref : 'system'
-  return <IconButton icon={THEME_ICON[current]} label={`${THEME_LABEL[current]}. Trocar`} onClick={() => setTheme(THEME_NEXT[current])} />
+  const theme = useThemePreference()
+  const dark = hydrated && theme === 'dark'
+  const label = dark ? 'Mudar para o tema claro' : 'Mudar para o tema escuro'
+
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key !== 't' && e.key !== 'T') return
+      if (e.ctrlKey || e.metaKey || e.altKey || e.repeat) return
+      const el = e.target as HTMLElement | null
+      if (el?.closest('input, textarea, select, [contenteditable=""], [contenteditable="true"], dialog[open]')) return
+      e.preventDefault()
+      toggleTheme()
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [])
+
+  return <IconButton icon={dark ? 'sun' : 'moon'} label={label} title={`${label} (T)`} aria-keyshortcuts="t" onClick={toggleTheme} />
 }
 
 function Header() {
@@ -156,7 +169,6 @@ function Footer() {
           <p className="mt-4 text-sm text-fg-muted">
             {formatNumber(catalogInfo.icons)} ícones SVG originais, desenhados num grid de 24 com traço de 1,5. Livres para usar em qualquer projeto, sob a licença MIT.
           </p>
-          <p className="mt-3 text-xs text-fg-subtle">Parte do ecossistema THOTH.</p>
         </div>
         <FooterColumn
           title="Biblioteca"

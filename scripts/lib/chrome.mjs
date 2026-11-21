@@ -1,7 +1,7 @@
 /**
  * Minimal Chrome DevTools Protocol client — no dependencies.
  * Launches the locally installed Chrome (or Edge) headless and drives pages
- * through the protocol. Used by the contact sheets, the brand PNGs, the page checker and the e2e flows. Adapted from THOTH (same owner).
+ * through the protocol. Used by the contact sheets, the brand PNGs, the page checker and the e2e flows.
  */
 import { spawn } from 'node:child_process'
 import { existsSync, mkdtempSync, rmSync } from 'node:fs'
