@@ -2,7 +2,7 @@ import { Link, createFileRoute, notFound } from '@tanstack/react-router'
 import { CATEGORIES, categoryById, loadManifest, loadShard, sortEntries } from '~/catalog'
 import { useSettings } from '~/data/stores/settings'
 import { UiIcon } from '~/components/icons/UiIcon'
-import { Button, Eyebrow } from '~/components/ui/primitives'
+import { Button } from '~/components/ui/primitives'
 import { StaticIconGrid } from '~/features/exploration/IconGrid'
 import { breadcrumbLd, clip, collectionLd, pageHead } from '~/lib/seo'
 import { plural } from '~/lib/utils'
@@ -74,8 +74,7 @@ function CategoryPage() {
       </nav>
       <header className="mt-5 flex flex-wrap items-end justify-between gap-4">
         <div className="max-w-2xl">
-          <Eyebrow>Categoria · {category.id}</Eyebrow>
-          <h1 className="mt-3 text-2xl font-semibold tracking-tight text-fg sm:text-3xl">Ícones de {category.name.pt.toLowerCase()}</h1>
+          <h1 className="text-2xl font-medium text-fg sm:text-3xl">Ícones de {category.name.pt.toLowerCase()}</h1>
           <p className="mt-2 text-base text-fg-muted">{category.description}</p>
           <p className="mt-2 text-sm text-fg-subtle">
             {plural(entries.length, 'ícone', 'ícones')} · {category.name.en}
@@ -98,7 +97,7 @@ function CategoryPage() {
 
       {groups.map((g) => (
         <section key={g.id} id={g.id} aria-labelledby={`${g.id}-title`} className="mt-10 scroll-mt-20">
-          <h2 id={`${g.id}-title`} className="mb-3 text-md font-semibold text-fg">
+          <h2 id={`${g.id}-title`} className="mb-3 text-md font-medium text-fg">
             {g.name} <span className="text-sm font-normal text-fg-subtle">{g.entries.length}</span>
           </h2>
           <StaticIconGrid entries={g.entries} icons={icons} options={options} label={`${category.name.pt}: ${g.name}`} />

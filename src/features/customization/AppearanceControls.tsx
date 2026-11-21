@@ -23,10 +23,14 @@ export function StylePicker({ available, className, size = 'md' }: { available?:
 
 export function ColorControl({ id = 'icon-color' }: { id?: string }) {
   const { color } = useAppearance()
+  const ring = (on: boolean) => (on ? 'shadow-[inset_0_0_0_1.5px_var(--color-fg)]' : 'hover:shadow-[inset_0_0_0_1px_var(--color-border-strong)]')
   return (
-    <fieldset className="grid gap-2">
-      <legend className="mb-1.5 text-xs font-medium text-fg-muted">Cor</legend>
-      <div className="flex flex-wrap items-center gap-1.5">
+    <fieldset className="grid grid-cols-[minmax(4.5rem,auto)_1fr] items-center gap-x-3">
+      <legend className="sr-only">Cor</legend>
+      <span aria-hidden className="text-sm text-fg-muted">
+        Cor
+      </span>
+      <div className="flex flex-wrap items-center gap-0.5">
         {SWATCHES.map((c) => (
           <button
             key={c}
@@ -35,18 +39,18 @@ export function ColorControl({ id = 'icon-color' }: { id?: string }) {
             aria-label={c === 'currentColor' ? 'Cor do texto (currentColor)' : `Cor ${c}`}
             aria-pressed={color === c}
             title={c === 'currentColor' ? 'currentColor: segue a cor do texto' : c}
-            className={cn('grid size-7 place-items-center rounded-full border transition-shadow', color === c ? 'border-fg ring-2 ring-fg/20' : 'border-border hover:border-border-strong')}
+            className={cn('grid size-7 place-items-center rounded-sm transition-shadow duration-fast', ring(color === c))}
           >
             {c === 'currentColor' ? (
-              <span className="size-4 rounded-full bg-[conic-gradient(var(--color-fg)_0_50%,var(--color-surface)_0)] ring-1 ring-border" />
+              <span className="size-4 rounded-xs bg-[linear-gradient(135deg,var(--color-fg)_0_50%,var(--color-surface)_0)] ring-1 ring-border" />
             ) : (
-              <span className="size-4 rounded-full" style={{ background: c }} />
+              <span className="size-4 rounded-xs" style={{ background: c }} />
             )}
           </button>
         ))}
-        <label className="relative grid size-7 cursor-pointer place-items-center overflow-hidden rounded-full border border-border hover:border-border-strong" title="Escolher outra cor">
+        <label className={cn('relative grid size-7 cursor-pointer place-items-center overflow-hidden rounded-sm', ring(false))} title="Escolher outra cor">
           <span className="sr-only">Escolher outra cor</span>
-          <span className="size-4 rounded-full bg-[conic-gradient(#D9401F,#8F5600,#1E7A4C,#2D6BAE,#7A4FB5,#D9401F)]" />
+          <span className="size-4 rounded-xs bg-[conic-gradient(#D9401F,#8F5600,#1E7A4C,#2D6BAE,#7A4FB5,#D9401F)]" />
           <input
             id={id}
             type="color"
@@ -55,7 +59,7 @@ export function ColorControl({ id = 'icon-color' }: { id?: string }) {
             className="absolute inset-0 cursor-pointer opacity-0"
           />
         </label>
-        <span className="inscription ml-1 text-fg-subtle">{color === 'currentColor' ? 'currentColor' : color.toUpperCase()}</span>
+        <span className="inscription ml-2 text-fg-subtle">{color === 'currentColor' ? 'currentColor' : color.toUpperCase()}</span>
       </div>
     </fieldset>
   )
@@ -64,11 +68,8 @@ export function ColorControl({ id = 'icon-color' }: { id?: string }) {
 export function AppearanceControls({ available, showSize = true, idPrefix = 'ap' }: { available?: StyleId[]; showSize?: boolean; idPrefix?: string }) {
   const a = useAppearance()
   return (
-    <div className="grid gap-5">
-      <div className="grid gap-1.5">
-        <span className="text-xs font-medium text-fg-muted">Estilo</span>
-        <StylePicker available={available} className="w-full" />
-      </div>
+    <div className="grid gap-4">
+      <StylePicker available={available} className="w-full" />
       <Slider
         id={`${idPrefix}-stroke`}
         label="Traço"
@@ -76,11 +77,11 @@ export function AppearanceControls({ available, showSize = true, idPrefix = 'ap'
         min={STROKE_RANGE.min}
         max={STROKE_RANGE.max}
         step={STROKE_RANGE.step}
-        format={(v) => `${v.toLocaleString('pt-BR')} px`}
+        format={(v) => v.toLocaleString('pt-BR', { minimumFractionDigits: 2 })}
         onChange={(strokeWidth) => updateSettings({ appearance: { strokeWidth } })}
       />
       {showSize && (
-        <Slider id={`${idPrefix}-size`} label="Tamanho da exportação" value={a.size} min={12} max={256} step={4} format={(v) => `${v} px`} onChange={(size) => updateSettings({ appearance: { size } })} />
+        <Slider id={`${idPrefix}-size`} label="Tamanho" value={a.size} min={12} max={256} step={4} format={(v) => `${v} px`} onChange={(size) => updateSettings({ appearance: { size } })} />
       )}
       <Slider
         id={`${idPrefix}-opacity`}

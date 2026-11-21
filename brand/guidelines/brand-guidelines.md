@@ -77,16 +77,16 @@ A rubrica (`accent`) não é usada para texto pequeno no tema claro; para texto,
 
 | Papel | Fonte | Tamanho / altura / peso |
 | --- | --- | --- |
-| Interface e títulos | Geist (variável) | escala abaixo |
-| Nomes técnicos, slugs, ids, medidas, código | Geist Mono (variável) | 12–13 px |
+| Interface e títulos | IBM Plex Sans (variável) | escala abaixo |
+| Nomes técnicos, slugs, ids, medidas, código | IBM Plex Mono (400 e 500) | 12–13 px |
 
-Escala (`text-*`): xs 12/16 · sm 14/20 · base 16/24 · md 18/26 · lg 22/30 · xl 28/34 · 2xl 36/42 · 3xl 48/54 · 4xl 60/64. Letter-spacing negativo cresce com o tamanho. Pesos: 400 texto, 500 rótulos e botões, 600 títulos. Piso de 12 px para qualquer texto. As fontes são empacotadas (funcionam offline) e a principal é pré-carregada.
+Escala (`text-*`): xs 12/16 · sm 14/20 · base 16/24 · md 18/26 · lg 22/30 · xl 28/36 · 2xl 36/44 · 3xl 48/56 · 4xl 60/66. Letter-spacing levemente negativo nos tamanhos grandes. Pesos: 400 texto, 500 títulos, rótulos e botões; nada acima de 500. Sem caixa alta decorativa: rótulos técnicos vão em Plex Mono, em caixa normal. Piso de 12 px para qualquer texto. As fontes são empacotadas (funcionam offline) e a principal é pré-carregada.
 
 ## Espaçamento, bordas, raios e sombras
 
-- **Espaçamento:** base de 4 px (escala do Tailwind). Seções da página inicial separadas por 80 px; cartões com 16–20 px de respiro interno.
+- **Espaçamento:** base de 4 px (escala do Tailwind). Assuntos da página inicial separados por 96–128 px de espaço, sem divisórias; agrupamento por proximidade antes de caixas.
 - **Bordas:** 1 px em `border`; campos e foco em `border-strong`/`ring`. Bordas antes de sombras.
-- **Raios:** xs 4 · sm 6 · md 8 (controles) · lg 10 (células da grade) · xl 14 (cartões) · 2xl 20 (prévia, painel inferior) · full.
+- **Raios:** xs 2 · sm 3 · md 4 (controles, células, prévia) · lg 6 · xl 8 (diálogos, painéis flutuantes) · 2xl 10 · full. Cantos quase retos, como a área de desenho.
 - **Sombras:** só onde há sobreposição real (diálogos, menu, painel flutuante). xs/sm/md/lg, mais fortes no escuro.
 - **Alturas de controle:** 28 (sm), 36 (md), 44 (lg, também o mínimo de toque).
 
@@ -96,7 +96,7 @@ Escala (`text-*`): xs 12/16 · sm 14/20 · base 16/24 · md 18/26 · lg 22/30 ·
 | --- | --- |
 | Mouse em cima | Fundo `surface`/`muted` ou borda `border-strong`; texto sobe de `fg-muted` para `fg` |
 | Foco (teclado) | Contorno de 2 px em `ring` (rubrica), afastado 2 px |
-| Selecionado | Borda `fg` + fundo `surface-elevated` (célula da grade); preenchimento `fg` (chip ativo) |
+| Selecionado | Contorno interno de 1 px em `fg` + fundo `surface` (célula da grade, estilo, cor); sublinhado em rubrica (abas de texto) |
 | Pressionado/ativo | `aria-pressed`/`aria-checked`; nunca só cor |
 | Desativado | 50% de opacidade, sem ponteiro |
 | Carregando | Esqueletos `muted` com a mesma geometria do conteúdo; `aria-busy` |

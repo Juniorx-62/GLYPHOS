@@ -9,7 +9,7 @@ import { clearHistory, useHistory } from '~/data/stores/history'
 import { useSettings } from '~/data/stores/settings'
 import { useHydrated } from '~/hooks/use-media-query'
 import { downloadBlob, plural } from '~/lib/utils'
-import { Button, EmptyState, IconButton, Segmented, TextInput, Eyebrow } from '~/components/ui/primitives'
+import { Button, EmptyState, IconButton, Segmented, TextInput } from '~/components/ui/primitives'
 import { toast } from '~/components/ui/toast'
 import { StaticIconGrid } from '~/features/exploration/IconGrid'
 import { pageHead } from '~/lib/seo'
@@ -46,8 +46,7 @@ function LibraryPage() {
   const collections = useCollections()
   return (
     <div className="mx-auto max-w-[1440px] px-4 pt-10 sm:px-6">
-      <Eyebrow>Local · neste navegador</Eyebrow>
-      <h1 className="mt-3 text-2xl font-semibold tracking-tight text-fg sm:text-3xl">Minha biblioteca</h1>
+      <h1 className="text-2xl font-medium text-fg sm:text-3xl">Minha biblioteca</h1>
       <p className="mt-2 max-w-2xl text-base text-fg-muted">Favoritos, ícones vistos por último e suas coleções. Tudo fica neste navegador, sem cadastro; leve para outro aparelho com a cópia de segurança.</p>
       <div className="mt-6 overflow-x-auto">
         <Segmented
@@ -141,10 +140,10 @@ function Collections() {
       {collections.map((c) => {
         const entries = map ? c.icons.map((s) => map.get(s)).filter((e): e is ManifestEntry => !!e) : []
         return (
-          <section key={c.id} aria-label={c.name} className="rounded-xl border border-border bg-surface p-5">
+          <section key={c.id} aria-label={c.name} className="border-t border-border pt-5">
             <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
               <div>
-                <h2 className="text-md font-semibold text-fg">{c.name}</h2>
+                <h2 className="text-md font-medium text-fg">{c.name}</h2>
                 <p className="text-xs text-fg-subtle">{plural(c.icons.length, 'ícone', 'ícones')}</p>
               </div>
               <div className="flex gap-1">
@@ -201,16 +200,16 @@ function DataPanel({ counts }: { counts: { favorites: number; history: number; c
     { icon: 'sliders', label: 'Preferências', value: `Tema ${settings.theme === 'dark' ? 'escuro' : 'claro'}, traço ${String(settings.appearance.strokeWidth).replace('.', ',')}` },
   ]
   return (
-    <div className="grid gap-4 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]">
-      <section aria-labelledby="saved-title" className="rounded-xl border border-border bg-surface p-5 lg:row-span-2">
-        <h2 id="saved-title" className="font-semibold text-fg">
+    <div className="grid gap-x-16 gap-y-12 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]">
+      <section aria-labelledby="saved-title" className="lg:row-span-2">
+        <h2 id="saved-title" className="text-md font-medium text-fg">
           O que está salvo neste navegador
         </h2>
         <p className="mt-1 text-sm text-fg-muted">Nada sai do seu aparelho: não há conta nem servidor. Os dados ficam no armazenamento do navegador.</p>
-        <ul className="mt-4 divide-y divide-border rounded-lg border border-border">
+        <ul className="mt-4 divide-y divide-border border-y border-border">
           {saved.map((item) => (
-            <li key={item.label} className="flex items-center gap-3 px-4 py-3">
-              <span className="grid size-8 shrink-0 place-items-center rounded-md bg-muted text-fg-muted">
+            <li key={item.label} className="flex items-center gap-3 py-3">
+              <span className="grid shrink-0 place-items-center text-fg-muted">
                 <UiIcon name={item.icon} size={16} />
               </span>
               <span className="flex-1 text-sm text-fg">{item.label}</span>
@@ -219,8 +218,8 @@ function DataPanel({ counts }: { counts: { favorites: number; history: number; c
           ))}
         </ul>
       </section>
-      <section aria-labelledby="backup-title" className="rounded-xl border border-border bg-surface p-5">
-        <h2 id="backup-title" className="font-semibold text-fg">
+      <section aria-labelledby="backup-title">
+        <h2 id="backup-title" className="text-md font-medium text-fg">
           Cópia de segurança
         </h2>
         <p className="mt-1 text-sm text-fg-muted">Um arquivo JSON com favoritos, histórico, coleções e preferências. Use para levar seus dados a outro navegador ou aparelho.</p>
@@ -261,8 +260,8 @@ function DataPanel({ counts }: { counts: { favorites: number; history: number; c
         </div>
         <p className="mt-3 text-xs text-fg-subtle">Ao importar, o arquivo inteiro é conferido antes: se alguma parte estiver danificada, nada muda.</p>
       </section>
-      <section aria-labelledby="erase-title" className="rounded-xl border border-error/30 bg-surface p-5">
-        <h2 id="erase-title" className="font-semibold text-fg">
+      <section aria-labelledby="erase-title" className="border-t border-border pt-6">
+        <h2 id="erase-title" className="text-md font-medium text-fg">
           Apagar dados deste navegador
         </h2>
         <p className="mt-1 text-sm text-fg-muted">Remove favoritos, histórico, coleções e preferências. Não dá para desfazer: exporte uma cópia antes.</p>

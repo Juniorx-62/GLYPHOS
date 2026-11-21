@@ -28,12 +28,12 @@ function PanelBody({ entry, onClose }: { entry: ManifestEntry; onClose: () => vo
     <div className="grid gap-5">
       <div className="flex items-start justify-between gap-3">
         <div className="min-w-0">
-          <h2 className="truncate text-md font-semibold text-fg">{entry.name.pt}</h2>
+          <h2 className="truncate text-md font-medium text-fg">{entry.name.pt}</h2>
           <p className="inscription mt-0.5 truncate text-fg-subtle">{entry.slug}</p>
         </div>
         <IconButton icon="x" label="Fechar painel" size="sm" onClick={onClose} />
       </div>
-      <div className="canvas-grid grid aspect-[4/3] place-items-center rounded-xl border border-border bg-surface" style={{ backgroundSize: 'calc(100% / 12) calc(100% / 9)' }}>
+      <div className="canvas-grid grid aspect-[4/3] place-items-center rounded-md bg-background-subtle" style={{ backgroundSize: 'calc(100% / 12) calc(100% / 9)' }}>
         {icon ? (
           <Glyph nodes={icon.nodes} override={icon.overrides?.[style]} style={style} size={96} strokeWidth={a.strokeWidth} color={a.color} opacity={a.opacity} label={entry.name.pt} />
         ) : (

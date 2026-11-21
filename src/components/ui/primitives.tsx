@@ -155,15 +155,10 @@ export function Slider({ label, value, onChange, min, max, step, format = String
 }) {
   const pct = ((value - min) / (max - min)) * 100
   return (
-    <div className="grid gap-1.5">
-      <div className="flex items-center justify-between text-xs">
-        <label htmlFor={id} className="font-medium text-fg-muted">
-          {label}
-        </label>
-        <output htmlFor={id} className="inscription text-fg">
-          {format(value)}
-        </output>
-      </div>
+    <div className="grid grid-cols-[minmax(4.5rem,auto)_1fr_3.25rem] items-center gap-x-3">
+      <label htmlFor={id} className="text-sm text-fg-muted">
+        {label}
+      </label>
       <input
         id={id}
         type="range"
@@ -172,9 +167,12 @@ export function Slider({ label, value, onChange, min, max, step, format = String
         step={step}
         value={value}
         onChange={(e) => onChange(Number(e.target.value))}
-        className="glyphos-range h-5 w-full cursor-pointer appearance-none bg-transparent"
+        className="glyphos-range h-6 w-full min-w-0 cursor-pointer appearance-none bg-transparent"
         style={{ ['--p' as string]: `${pct}%` }}
       />
+      <output htmlFor={id} className="inscription text-right text-fg tabular-nums">
+        {format(value)}
+      </output>
     </div>
   )
 }
@@ -247,7 +245,7 @@ export function SectionHeader({ title, description, action, as: Tag = 'h2', id }
   return (
     <div className="mb-4 flex items-end justify-between gap-4">
       <div className="min-w-0">
-        <Tag id={id} className={cn('font-semibold text-fg', Tag === 'h2' ? 'text-lg' : 'text-md')}>
+        <Tag id={id} className={cn('font-medium text-fg', Tag === 'h2' ? 'text-lg' : 'text-md')}>
           {title}
         </Tag>
         {description && <p className="mt-1 text-sm text-fg-muted">{description}</p>}
@@ -259,7 +257,7 @@ export function SectionHeader({ title, description, action, as: Tag = 'h2', id }
 
 export function EmptyState({ icon = 'search', title, children }: { icon?: UiIconName; title: string; children?: ReactNode }) {
   return (
-    <div className="flex flex-col items-center gap-3 rounded-xl border border-dashed border-border px-6 py-14 text-center">
+    <div className="flex flex-col items-center gap-3 px-6 py-16 text-center">
       <div className="grid size-12 place-items-center rounded-full bg-muted text-fg-muted">
         <UiIcon name={icon} size={22} />
       </div>
@@ -269,12 +267,3 @@ export function EmptyState({ icon = 'search', title, children }: { icon?: UiIcon
   )
 }
 
-/** Page kicker: the rubric square and a technical label above a page title. */
-export function Eyebrow({ children, className }: { children: ReactNode; className?: string }) {
-  return (
-    <p className={cn('inscription flex items-center gap-2 text-fg-muted', className)}>
-      <span aria-hidden className="size-2 shrink-0 bg-accent" />
-      {children}
-    </p>
-  )
-}

@@ -91,7 +91,7 @@ As razões de cada escolha estão em [docs/DECISIONS](docs/DECISIONS/README.md).
 | Camada | Tecnologias |
 | --- | --- |
 | Linguagem | TypeScript estrito (app, scripts e testes) |
-| Interface | React 19, Tailwind CSS 4 com tokens próprios, fontes Geist empacotadas |
+| Interface | React 19, Tailwind CSS 4 com tokens próprios, fontes IBM Plex empacotadas |
 | Aplicação | TanStack Start (SSR, rotas por arquivo), Vite 8, Nitro (Vercel ou Node) |
 | Grade | `@tanstack/react-virtual` |
 | Busca | Índice invertido próprio, gerado no build |
@@ -237,5 +237,5 @@ O repositório traz [skills do Claude Code](.claude/skills/) com o fluxo de dese
 ## Créditos e licenciamento
 
 - **Ícones:** desenhos próprios do GLYPHOS, sob a [licença MIT](LICENSE). Política completa em [docs/LICENSING.md](docs/LICENSING.md).
-- **Tipografia:** Geist e Geist Mono (Vercel), SIL Open Font License 1.1.
+- **Tipografia:** IBM Plex Sans e IBM Plex Mono (IBM), SIL Open Font License 1.1.
 - **Código da aplicação:** a licença ainda não foi definida; até lá, todos os direitos reservados ao autor.

@@ -1,7 +1,7 @@
 /// <reference types="vite/client" />
 import { HeadContent, Outlet, ScriptOnce, Scripts, createRootRoute } from '@tanstack/react-router'
 import type { ReactNode } from 'react'
-import geistLatin from '@fontsource-variable/geist/files/geist-latin-wght-normal.woff2?url'
+import plexLatin from '@fontsource-variable/ibm-plex-sans/files/ibm-plex-sans-latin-wght-normal.woff2?url'
 import { colors } from '@brand/tokens/source'
 import { AppShell } from '~/components/layout/AppShell'
 import { NotFound } from '~/components/layout/route-states'
@@ -21,7 +21,7 @@ export const Route = createRootRoute({
       { name: 'color-scheme', content: 'light dark' },
     ],
     links: [
-      { rel: 'preload', href: geistLatin, as: 'font', type: 'font/woff2', crossOrigin: 'anonymous' },
+      { rel: 'preload', href: plexLatin, as: 'font', type: 'font/woff2', crossOrigin: 'anonymous' },
       { rel: 'stylesheet', href: appCss },
       { rel: 'icon', href: '/favicon.ico', sizes: '48x48' },
       { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' },

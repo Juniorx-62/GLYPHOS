@@ -14,8 +14,8 @@
   --color-border: #E4E4DE;
   --color-border-strong: #8F8F88;
   --color-fg: #151514;
-  --color-fg-muted: #575752;
-  --color-fg-subtle: #6B6B65;
+  --color-fg-muted: #4A4A45;
+  --color-fg-subtle: #62625C;
   --color-fg-disabled: #B4B4AD;
   --color-primary: #151514;
   --color-primary-hover: #2E2E2B;
@@ -31,8 +31,8 @@
   --color-info: #2D6BAE;
   --color-ring: #D9401F;
   --color-canvas-grid: #EAEAE4;
-  --shadow-xs: 0 1px 2px rgb(21 21 20 / 0.05);
-  --shadow-sm: 0 1px 2px rgb(21 21 20 / 0.05), 0 2px 8px -2px rgb(21 21 20 / 0.06);
+  --shadow-xs: none;
+  --shadow-sm: 0 1px 2px rgb(21 21 20 / 0.06);
   --shadow-md: 0 2px 6px -1px rgb(21 21 20 / 0.06), 0 12px 32px -8px rgb(21 21 20 / 0.12);
   --shadow-lg: 0 4px 12px -2px rgb(21 21 20 / 0.08), 0 28px 64px -12px rgb(21 21 20 / 0.2);
   color-scheme: light;
@@ -48,8 +48,8 @@
   --color-border: #262624;
   --color-border-strong: #5E5E58;
   --color-fg: #EDEDE8;
-  --color-fg-muted: #A2A29A;
-  --color-fg-subtle: #8C8C85;
+  --color-fg-muted: #B2B2AA;
+  --color-fg-subtle: #9A9A92;
   --color-fg-disabled: #4E4E4A;
   --color-primary: #EDEDE8;
   --color-primary-hover: #FFFFFF;

@@ -63,6 +63,6 @@ Licenças compatíveis: MIT, ISC, Apache 2.0 (com o NOTICE), CC0, CC BY 4.0 (com
 
 ## Créditos do produto
 
-- **Tipografia:** Geist e Geist Mono (Vercel), sob a SIL Open Font License 1.1, empacotadas por `@fontsource-variable`.
+- **Tipografia:** IBM Plex Sans e IBM Plex Mono (IBM), sob a SIL Open Font License 1.1, empacotadas por `@fontsource`.
 - **Ícones da interface:** o próprio catálogo GLYPHOS.
 - **Padrões de interface:** a busca global, o toaster e os controles reaproveitam *padrões de interação* de outro projeto do mesmo autor, reimplementados para React; nenhum código foi copiado ([DECISIONS/0006](DECISIONS/0006-reuso-de-outros-projetos.md)).

@@ -39,7 +39,7 @@ export const IconTile = memo(function IconTile({ entry, selected, onSelect, appe
   tabbable: boolean
 }) {
   const favorite = useIsFavorite(entry.slug)
-  const iconSize = density === 'compact' ? 22 : 26
+  const iconSize = density === 'compact' ? 20 : 24
   return (
     <button
       type="button"
@@ -51,15 +51,15 @@ export const IconTile = memo(function IconTile({ entry, selected, onSelect, appe
       aria-pressed={selected}
       title={`${entry.name.pt} · ${entry.slug}`}
       className={cn(
-        'group relative flex h-full w-full flex-col items-center justify-center gap-2 rounded-lg border text-fg transition-colors duration-fast',
-        selected ? 'border-fg bg-surface-elevated' : 'border-transparent hover:border-border hover:bg-surface',
+        'group relative flex h-full w-full flex-col items-center justify-center gap-2.5 rounded-md text-fg transition-colors duration-fast',
+        selected ? 'bg-surface shadow-[inset_0_0_0_1px_var(--color-fg)]' : 'hover:bg-surface',
       )}
     >
       <LazyGlyph entry={entry} initial={initial} size={iconSize} style={appearance.style} strokeWidth={appearance.strokeWidth} color={appearance.color} opacity={appearance.opacity} />
       {showNames && (
-        <span className={cn('w-full truncate px-2 text-center leading-tight', density === 'compact' ? 'text-xs' : 'text-xs', selected ? 'text-fg' : 'text-fg-subtle group-hover:text-fg-muted')}>{entry.slug}</span>
+        <span className={cn('inscription w-full truncate px-2 text-center leading-tight', selected ? 'text-fg' : 'text-fg-subtle group-hover:text-fg')}>{entry.slug}</span>
       )}
-      {favorite && <UiIcon name="heart" style="solid" size={12} className="absolute top-2 right-2 text-accent" />}
+      {favorite && <UiIcon name="heart" style="solid" size={12} className="absolute top-1.5 right-1.5 text-accent" />}
     </button>
   )
 })
@@ -145,7 +145,7 @@ export function IconGrid({ entries, selected, onSelect, options, initialIcons, l
             style={{ top: row.start - virtualizer.options.scrollMargin, height: rowHeight, gridTemplateColumns: `repeat(${columns}, minmax(0, 1fr))` }}
           >
             {entries.slice(start, start + columns).map((entry, k) => (
-              <div key={entry.slug} className="p-0.5">
+              <div key={entry.slug} className="p-px">
                 <IconTile
                   entry={entry}
                   index={start + k}
@@ -177,7 +177,7 @@ export function StaticIconGrid({ entries, icons, onSelect, options, selected, la
 }) {
   const min = MIN_CELL[options.density]
   return (
-    <ul aria-label={label} className="grid gap-1" style={{ gridTemplateColumns: `repeat(auto-fill, minmax(min(${min - 8}px, 22vw), 1fr))` }}>
+    <ul aria-label={label} className="grid gap-px" style={{ gridTemplateColumns: `repeat(auto-fill, minmax(min(${min - 8}px, 22vw), 1fr))` }}>
       {entries.map((entry, i) => (
         <li key={entry.slug} className={options.showNames ? 'aspect-[1/0.86]' : 'aspect-square'}>
           {onSelect ? (
@@ -196,18 +196,18 @@ export function StaticIconGrid({ entries, icons, onSelect, options, selected, la
             <a
               href={`/icons/${entry.slug}`}
               title={`${entry.name.pt} · ${entry.slug}`}
-              className="group flex h-full w-full flex-col items-center justify-center gap-2 rounded-lg border border-transparent text-fg transition-colors hover:border-border hover:bg-surface"
+              className="group flex h-full w-full flex-col items-center justify-center gap-2.5 rounded-md text-fg transition-colors duration-fast hover:bg-surface"
             >
               <LazyGlyph
                 entry={entry}
                 initial={icons?.[entry.slug]}
-                size={26}
+                size={24}
                 style={options.appearance.style}
                 strokeWidth={options.appearance.strokeWidth}
                 color={options.appearance.color}
                 opacity={options.appearance.opacity}
               />
-              {options.showNames && <span className="w-full truncate px-2 text-center text-xs text-fg-subtle group-hover:text-fg-muted">{entry.name.pt}</span>}
+              {options.showNames && <span className="w-full truncate px-2 text-center text-xs text-fg-muted group-hover:text-fg">{entry.name.pt}</span>}
               <span className="sr-only">{entry.slug}</span>
             </a>
           )}

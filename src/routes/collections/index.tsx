@@ -2,13 +2,13 @@ import { Link, createFileRoute } from '@tanstack/react-router'
 import { COLLECTIONS, loadIcons } from '~/catalog'
 import type { ShardIcon } from '~/catalog/types'
 import { Glyph } from '~/components/icons/Glyph'
-import { EmptyState, Eyebrow } from '~/components/ui/primitives'
+import { EmptyState } from '~/components/ui/primitives'
 import { breadcrumbLd, collectionLd, pageHead } from '~/lib/seo'
 import { plural } from '~/lib/utils'
 
 export const Route = createFileRoute('/collections/')({
   loader: async () => {
-    const covers = await loadIcons(COLLECTIONS.flatMap((c) => c.icons.slice(0, 8)))
+    const covers = await loadIcons(COLLECTIONS.flatMap((c) => c.icons.slice(0, 12)))
     return { icons: Object.fromEntries(covers.map((i) => [i.slug, i])) as Record<string, ShardIcon> }
   },
   head: () =>
@@ -32,9 +32,8 @@ export const Route = createFileRoute('/collections/')({
 function CollectionsPage() {
   const { icons } = Route.useLoaderData()
   return (
-    <div className="mx-auto max-w-[1440px] px-4 pt-10 sm:px-6">
-      <Eyebrow>{`${COLLECTIONS.length} coleções temáticas`}</Eyebrow>
-      <h1 className="mt-3 text-2xl font-semibold tracking-tight text-fg sm:text-3xl">Coleções</h1>
+    <div className="mx-auto max-w-[1440px] px-4 pt-12 sm:px-6">
+      <h1 className="text-2xl font-medium text-fg sm:text-3xl">Coleções</h1>
       <p className="mt-2 max-w-2xl text-base text-fg-muted">
         Conjuntos escolhidos para um tipo de produto: o que uma loja, um painel ou um aplicativo de clima costuma precisar. Para montar as suas, use os favoritos e as coleções da{' '}
         <Link to="/library" className="text-fg underline underline-offset-2">
@@ -43,20 +42,22 @@ function CollectionsPage() {
         .
       </p>
       {COLLECTIONS.length ? (
-        <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <ul className="mt-12 grid gap-x-16 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
           {COLLECTIONS.map((c) => (
             <li key={c.id}>
-              <Link to="/collections/$collectionId" params={{ collectionId: c.id }} className="group block h-full rounded-xl border border-border bg-surface p-5 transition-colors hover:border-border-strong">
-                <div className="grid grid-cols-8 gap-1 rounded-lg bg-background-subtle p-3 text-fg">
-                  {c.icons.slice(0, 8).map((slug) => (
-                    <span key={slug} className="grid aspect-square place-items-center">
-                      {icons[slug] ? <Glyph nodes={icons[slug].nodes} size={20} /> : null}
+              <Link to="/collections/$collectionId" params={{ collectionId: c.id }} className="group block">
+                <span className="grid grid-cols-6 gap-y-4 text-fg">
+                  {c.icons.slice(0, 12).map((slug) => (
+                    <span key={slug} className="grid place-items-start">
+                      {icons[slug] ? <Glyph nodes={icons[slug].nodes} size={22} /> : null}
                     </span>
                   ))}
-                </div>
-                <p className="mt-4 font-medium text-fg">{c.name}</p>
-                <p className="mt-1 line-clamp-2 text-sm text-fg-muted">{c.description}</p>
-                <p className="inscription mt-3 text-fg-subtle">{plural(c.icons.length, 'ícone', 'ícones')}</p>
+                </span>
+                <span className="mt-5 flex items-baseline gap-3">
+                  <span className="font-medium text-fg group-hover:underline group-hover:decoration-accent group-hover:underline-offset-4">{c.name}</span>
+                  <span className="inscription text-fg-subtle">{plural(c.icons.length, 'ícone', 'ícones')}</span>
+                </span>
+                <span className="mt-1 line-clamp-2 block text-sm text-fg-muted">{c.description}</span>
               </Link>
             </li>
           ))}

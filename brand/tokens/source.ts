@@ -89,8 +89,8 @@ export const colors: Record<ThemeName, Record<ColorTokenName, string>> = {
     border: '#E4E4DE',
     'border-strong': '#8F8F88',
     fg: '#151514',
-    'fg-muted': '#575752',
-    'fg-subtle': '#6B6B65',
+    'fg-muted': '#4A4A45',
+    'fg-subtle': '#62625C',
     'fg-disabled': '#B4B4AD',
     primary: '#151514',
     'primary-hover': '#2E2E2B',
@@ -117,8 +117,8 @@ export const colors: Record<ThemeName, Record<ColorTokenName, string>> = {
     border: '#262624',
     'border-strong': '#5E5E58',
     fg: '#EDEDE8',
-    'fg-muted': '#A2A29A',
-    'fg-subtle': '#8C8C85',
+    'fg-muted': '#B2B2AA',
+    'fg-subtle': '#9A9A92',
     'fg-disabled': '#4E4E4A',
     primary: '#EDEDE8',
     'primary-hover': '#FFFFFF',
@@ -146,8 +146,8 @@ export const brand = {
 }
 
 export const fonts = {
-  sans: "'Geist Variable', 'Geist', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif",
-  mono: "'Geist Mono Variable', 'Geist Mono', ui-monospace, 'SFMono-Regular', 'Cascadia Code', Menlo, monospace",
+  sans: "'IBM Plex Sans Variable', 'IBM Plex Sans', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif",
+  mono: "'IBM Plex Mono', ui-monospace, 'SFMono-Regular', 'Cascadia Code', Menlo, monospace",
 }
 
 /** Type scale: [size, line-height, letter-spacing]. 12 px is the floor for any text. */
@@ -156,27 +156,27 @@ export const textScale: Record<string, [string, string, string]> = {
   sm: ['0.875rem', '1.25rem', '-0.003em'],
   base: ['1rem', '1.5rem', '-0.006em'],
   md: ['1.125rem', '1.625rem', '-0.01em'],
-  lg: ['1.375rem', '1.875rem', '-0.015em'],
-  xl: ['1.75rem', '2.125rem', '-0.02em'],
-  '2xl': ['2.25rem', '2.625rem', '-0.025em'],
-  '3xl': ['3rem', '3.375rem', '-0.03em'],
-  '4xl': ['3.75rem', '4rem', '-0.035em'],
+  lg: ['1.375rem', '1.875rem', '-0.01em'],
+  xl: ['1.75rem', '2.25rem', '-0.014em'],
+  '2xl': ['2.25rem', '2.75rem', '-0.018em'],
+  '3xl': ['3rem', '3.5rem', '-0.022em'],
+  '4xl': ['3.75rem', '4.125rem', '-0.026em'],
 }
 
 export const radius: Record<string, string> = {
-  xs: '4px',
-  sm: '6px',
-  md: '8px',
-  lg: '10px',
-  xl: '14px',
-  '2xl': '20px',
+  xs: '2px',
+  sm: '3px',
+  md: '4px',
+  lg: '6px',
+  xl: '8px',
+  '2xl': '10px',
   full: '9999px',
 }
 
 export const shadows: Record<ThemeName, Record<string, string>> = {
   light: {
-    xs: '0 1px 2px rgb(21 21 20 / 0.05)',
-    sm: '0 1px 2px rgb(21 21 20 / 0.05), 0 2px 8px -2px rgb(21 21 20 / 0.06)',
+    xs: 'none',
+    sm: '0 1px 2px rgb(21 21 20 / 0.06)',
     md: '0 2px 6px -1px rgb(21 21 20 / 0.06), 0 12px 32px -8px rgb(21 21 20 / 0.12)',
     lg: '0 4px 12px -2px rgb(21 21 20 / 0.08), 0 28px 64px -12px rgb(21 21 20 / 0.2)',
   },

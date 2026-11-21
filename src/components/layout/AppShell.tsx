@@ -126,7 +126,7 @@ function Header() {
         >
           <UiIcon name="heart" size={18} />
           {hydrated && favorites.length > 0 && (
-            <span className="absolute -top-0.5 -right-0.5 grid h-4 min-w-4 place-items-center rounded-full bg-accent px-1 text-[10px] leading-none font-semibold text-accent-fg">
+            <span className="absolute -top-0.5 -right-0.5 grid h-4 min-w-4 place-items-center rounded-full bg-accent px-1 text-[10px] leading-none font-medium text-accent-fg">
               {favorites.length > 99 ? '99+' : favorites.length}
             </span>
           )}
@@ -205,7 +205,7 @@ function Footer() {
 function FooterColumn({ title, links }: { title: string; links: Array<[string, string]> }) {
   return (
     <div>
-      <h2 className="text-xs font-semibold tracking-wide text-fg-subtle uppercase">{title}</h2>
+      <h2 className="text-sm font-medium text-fg">{title}</h2>
       <ul className="mt-3 grid gap-2">
         {links.map(([href, label]) => (
           <li key={href}>

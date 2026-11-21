@@ -8,7 +8,7 @@ import { useHydrated } from '~/hooks/use-media-query'
 import { cn, formatDate } from '~/lib/utils'
 import { Glyph } from '~/components/icons/Glyph'
 import { UiIcon } from '~/components/icons/UiIcon'
-import { Button, Chip, Eyebrow, Segmented, SectionHeader } from '~/components/ui/primitives'
+import { Button, Chip, Segmented, SectionHeader } from '~/components/ui/primitives'
 import { AppearanceControls } from '~/features/customization/AppearanceControls'
 import { CodePanel, PngExport, QuickExportActions } from '~/features/export/ExportPanel'
 import { useIconExport } from '~/features/export/use-export'
@@ -80,7 +80,7 @@ export function IconDetail({ data }: { data: IconDetailData }) {
         <section aria-label="Prévia" className="grid content-start gap-4">
           <div
             className={cn(
-              'relative grid aspect-square place-items-center overflow-hidden rounded-2xl border border-border',
+              'relative grid aspect-square place-items-center overflow-hidden rounded-md',
               background === 'grid' && 'canvas-grid bg-surface',
               background === 'surface' && 'bg-surface',
               background === 'transparent' && 'checkerboard',
@@ -113,43 +113,53 @@ export function IconDetail({ data }: { data: IconDetailData }) {
             />
             <span className="text-xs text-fg-subtle">{background === 'grid' ? 'Grid de 24 unidades; a linha tracejada marca a área viva.' : ''}</span>
           </div>
-          <div className="rounded-xl border border-border bg-surface p-4">
-            <h2 className="text-xs font-medium text-fg-muted">Em escala</h2>
-            <ul className="mt-3 flex flex-wrap items-end gap-x-6 gap-y-3">
-              {SCALES.map((s) => (
-                <li key={s} className="flex flex-col items-center gap-2">
-                  {glyph(s)}
-                  <span className="inscription text-fg-subtle">{s}</span>
-                </li>
-              ))}
-            </ul>
+          <div className="mt-4 grid gap-8 sm:grid-cols-[1fr_auto] sm:items-end">
+            <div>
+              <h2 className="text-sm text-fg-muted">Em escala</h2>
+              <ul className="mt-4 flex flex-wrap items-end gap-x-6 gap-y-3 text-fg">
+                {SCALES.map((s) => (
+                  <li key={s} className="flex flex-col items-center gap-2">
+                    {glyph(s)}
+                    <span className="inscription text-fg-subtle">{s}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <h2 className="text-sm text-fg-muted">Estilos</h2>
+              <ul className="mt-4 flex gap-1">
+                {STYLES.filter((s) => icon.styles.includes(s.id) || s.derivation !== 'manual').map((s) => {
+                  const has = icon.styles.includes(s.id)
+                  return (
+                    <li key={s.id}>
+                      <button
+                        type="button"
+                        disabled={!has}
+                        aria-pressed={s.id === style}
+                        aria-label={has ? s.name.pt : `${s.name.pt}: indisponível, o desenho não tem silhueta fechada`}
+                        title={has ? s.name.pt : `${s.name.pt}: sem silhueta fechada`}
+                        onClick={() => updateSettings({ appearance: { style: s.id } })}
+                        className={cn(
+                          'grid size-14 place-items-center rounded-md transition-colors duration-fast',
+                          s.id === style ? 'bg-surface text-fg shadow-[inset_0_0_0_1px_var(--color-fg)]' : 'text-fg-muted hover:bg-surface hover:text-fg',
+                          !has && 'cursor-not-allowed text-fg-disabled hover:bg-transparent',
+                        )}
+                      >
+                        {has ? glyph(28, { style: s.id }) : <span className="inscription">—</span>}
+                      </button>
+                    </li>
+                  )
+                })}
+              </ul>
+            </div>
           </div>
-          <div className="rounded-xl border border-border bg-surface p-4">
-            <h2 className="text-xs font-medium text-fg-muted">Nos estilos</h2>
-            <ul className="mt-3 grid grid-cols-3 gap-2">
-              {STYLES.filter((s) => icon.styles.includes(s.id)).map((s) => (
-                <li key={s.id}>
-                  <button
-                    type="button"
-                    aria-pressed={s.id === style}
-                    onClick={() => updateSettings({ appearance: { style: s.id } })}
-                    className={cn('flex w-full flex-col items-center gap-2 rounded-lg border p-3 transition-colors duration-fast', s.id === style ? 'border-fg bg-background-subtle' : 'border-border hover:border-border-strong')}
-                  >
-                    {glyph(32, { style: s.id })}
-                    <span className="text-xs text-fg-muted">{s.name.pt}</span>
-                  </button>
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div className="grid grid-cols-2 gap-3">
+          <div className="mt-4 grid grid-cols-2 overflow-hidden rounded-md">
             {(['light', 'dark'] as const).map((t) => (
-              <div key={t} data-theme={t} className="flex items-center gap-3 rounded-xl border border-border bg-background p-3 text-fg">
-                <span className="grid size-10 place-items-center rounded-lg bg-surface">{glyph(20)}</span>
-                <div className="min-w-0">
-                  <p className="truncate text-sm font-medium">{icon.name.pt}</p>
-                  <p className="text-xs text-fg-subtle">Tema {t === 'light' ? 'claro' : 'escuro'}</p>
-                </div>
+              <div key={t} data-theme={t} className="flex items-center gap-3 bg-background px-4 py-3 text-fg">
+                {glyph(20)}
+                <p className="min-w-0 truncate text-sm">
+                  {icon.name.pt} <span className="text-fg-subtle">· tema {t === 'light' ? 'claro' : 'escuro'}</span>
+                </p>
               </div>
             ))}
           </div>
@@ -158,17 +168,16 @@ export function IconDetail({ data }: { data: IconDetailData }) {
         {/* Identity, actions and customisation */}
         <section aria-labelledby="icon-title" className="order-first grid content-start gap-6 lg:order-none">
           <div>
-            <Eyebrow>{category?.name.pt}</Eyebrow>
-            <h1 id="icon-title" className="mt-2 text-2xl font-semibold tracking-tight text-fg">
+            <h1 id="icon-title" className="text-2xl font-medium text-fg sm:text-3xl">
               {icon.name.pt}
             </h1>
             <p className="mt-1 text-base text-fg-muted">{icon.name.en}</p>
-            <div className="mt-3 flex flex-wrap items-center gap-2">
-              <button type="button" onClick={() => ex.copyIdentifier('slug')} className="inscription inline-flex items-center gap-1.5 rounded-md border border-border bg-surface px-2 py-1 text-fg-muted hover:border-border-strong hover:text-fg" title="Copiar o nome técnico">
+            <div className="mt-3 flex flex-wrap items-center gap-x-5 gap-y-2">
+              <button type="button" onClick={() => ex.copyIdentifier('slug')} className="inscription inline-flex items-center gap-1.5 text-fg-muted hover:text-fg" title="Copiar o nome técnico">
                 {icon.slug}
                 <UiIcon name="copy" size={12} />
               </button>
-              <button type="button" onClick={() => ex.copyIdentifier('id')} className="inscription inline-flex items-center gap-1.5 rounded-md border border-border bg-surface px-2 py-1 text-fg-subtle hover:border-border-strong hover:text-fg" title="Copiar o identificador estável">
+              <button type="button" onClick={() => ex.copyIdentifier('id')} className="inscription inline-flex items-center gap-1.5 text-fg-subtle hover:text-fg" title="Copiar o identificador estável">
                 id {icon.id}
                 <UiIcon name="copy" size={12} />
               </button>
@@ -181,9 +190,9 @@ export function IconDetail({ data }: { data: IconDetailData }) {
             <CollectionMenu slug={icon.slug} name={icon.name.pt} />
           </div>
 
-          <div className="rounded-xl border border-border bg-surface p-5">
-            <div className="mb-4 flex items-center justify-between">
-              <h2 className="text-sm font-semibold text-fg">Personalizar</h2>
+          <div className="border-t border-border pt-6">
+            <div className="mb-5 flex items-center justify-between">
+              <h2 className="text-md font-medium text-fg">Personalizar</h2>
               {hydrated && settings.appearance.style !== style && <span className="text-xs text-fg-subtle">Este ícone não tem {STYLES.find((s) => s.id === settings.appearance.style)?.name.pt}: mostrando Contorno.</span>}
             </div>
             <AppearanceControls available={icon.styles} idPrefix="detail" />
@@ -192,36 +201,8 @@ export function IconDetail({ data }: { data: IconDetailData }) {
       </div>
 
       {/* Variations */}
-      <section className="mt-12" aria-labelledby="styles-title">
-        <SectionHeader id="styles-title" title="Estilos disponíveis" description="O mesmo desenho em cada estilo. Clique para usar." />
-        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
-          {STYLES.map((s) => {
-            const has = icon.styles.includes(s.id)
-            if (!has && s.derivation === 'manual') return null
-            return (
-              <button
-                key={s.id}
-                type="button"
-                disabled={!has}
-                onClick={() => updateSettings({ appearance: { style: s.id } })}
-                aria-pressed={style === s.id}
-                className={cn(
-                  'flex flex-col items-center gap-3 rounded-xl border p-5 text-sm transition-colors',
-                  style === s.id ? 'border-fg bg-surface-elevated text-fg' : 'border-border bg-surface text-fg-muted hover:border-border-strong',
-                  !has && 'cursor-not-allowed opacity-50',
-                )}
-              >
-                {has ? glyph(32, { style: s.id }) : <span className="grid size-8 place-items-center text-fg-subtle">—</span>}
-                <span>{s.name.pt}</span>
-                {!has && <span className="text-xs text-fg-subtle">Sem silhueta fechada</span>}
-              </button>
-            )
-          })}
-        </div>
-      </section>
-
       {/* Code & export */}
-      <section className="mt-12 grid gap-8 lg:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)]" aria-labelledby="code-title">
+      <section className="mt-20 grid gap-8 lg:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)]" aria-labelledby="code-title">
         <div>
           <SectionHeader id="code-title" title="Código" description="Gerado com a personalização atual. O arquivo original do catálogo não muda." />
           <CodePanel icon={icon} />
@@ -256,10 +237,10 @@ export function IconDetail({ data }: { data: IconDetailData }) {
       </section>
 
       {/* Metadata */}
-      <section className="mt-12" aria-labelledby="meta-title">
+      <section className="mt-20" aria-labelledby="meta-title">
         <SectionHeader id="meta-title" title="Detalhes" />
-        <div className="grid gap-6 lg:grid-cols-2">
-          <dl className="grid grid-cols-[minmax(0,9rem)_1fr] gap-x-4 gap-y-3 rounded-xl border border-border bg-surface p-5 text-sm">
+        <div className="grid gap-x-16 gap-y-8 lg:grid-cols-2">
+          <dl className="grid grid-cols-[minmax(0,9rem)_1fr] content-start gap-x-4 gap-y-3 text-sm">
             <Meta label="Categoria">
               <Link to="/categories/$categoryId" params={{ categoryId: icon.category }} className="text-fg hover:underline">
                 {category?.name.pt}
@@ -285,7 +266,7 @@ export function IconDetail({ data }: { data: IconDetailData }) {
               <span className="block text-xs text-fg-subtle">Uso livre, inclusive comercial. Mantenha o aviso de licença ao redistribuir o conjunto.</span>
             </Meta>
           </dl>
-          <div className="grid content-start gap-5 rounded-xl border border-border bg-surface p-5">
+          <div className="grid content-start gap-5">
             <KeywordList title="Sinônimos" items={[...icon.synonyms.pt, ...icon.synonyms.en]} />
             <KeywordList title="Tags em português" items={icon.tags.pt} />
             <KeywordList title="Tags em inglês" items={icon.tags.en} />
@@ -294,14 +275,14 @@ export function IconDetail({ data }: { data: IconDetailData }) {
       </section>
 
       {family.length > 1 && (
-        <section className="mt-12" aria-labelledby="family-title">
+        <section className="mt-20" aria-labelledby="family-title">
           <SectionHeader id="family-title" title="Da mesma família" description="Variações do mesmo conceito, com modificadores." />
           <StaticIconGrid entries={family} icons={relatedIcons} options={{ appearance: { ...appearance, style }, showNames: true, density: 'comfortable' }} label="Ícones da mesma família" />
         </section>
       )}
 
       {related.length > 0 && (
-        <section className="mt-12" aria-labelledby="related-title">
+        <section className="mt-20" aria-labelledby="related-title">
           <SectionHeader
             id="related-title"
             title="Ícones relacionados"

@@ -203,13 +203,13 @@ console.log(`${out.size} arquivos da marca gerados.`)
 
 if (flags.has('png')) {
   const { launch } = await import('../lib/chrome.mjs')
-  const geist = pathToFileURL(join(ROOT, 'node_modules/@fontsource-variable/geist/files/geist-latin-wght-normal.woff2')).href
+  const geist = pathToFileURL(join(ROOT, 'node_modules/@fontsource-variable/ibm-plex-sans/files/ibm-plex-sans-latin-wght-normal.woff2')).href
   const tmpDir = join(ROOT, 'tmp/brand')
   mkdirSync(tmpDir, { recursive: true })
   const chrome = await launch()
   const shoot = async (html: string, width: number, height: number) => {
     const file = join(tmpDir, `shot-${width}x${height}.html`)
-    writeFileSync(file, `<!doctype html><meta charset="utf-8"><style>@font-face{font-family:Geist;src:url(${geist})}html,body{margin:0;background:transparent}</style>${html}`)
+    writeFileSync(file, `<!doctype html><meta charset="utf-8"><style>@font-face{font-family:'IBM Plex Sans';src:url(${geist})}html,body{margin:0;background:transparent}</style>${html}`)
     const page = await chrome.newPage({ width, height })
     await page.goto(pathToFileURL(file).href, { waitMs: 300 })
     await page.call('Emulation.setDefaultBackgroundColorOverride', { color: { r: 0, g: 0, b: 0, a: 0 } })
@@ -249,7 +249,7 @@ if (flags.has('png')) {
           .map((f) => readFileSync(join(outline, f), 'utf8').replace(/width="24" height="24"/, 'width="40" height="40"'))
       : []
     const w = wordmark(2)
-    const og = `<div style="width:1200px;height:630px;background:${brand.ink};color:${brand.paper};font-family:Geist,sans-serif;position:relative;overflow:hidden">
+    const og = `<div style="width:1200px;height:630px;background:${brand.ink};color:${brand.paper};font-family:'IBM Plex Sans',sans-serif;position:relative;overflow:hidden">
       <div style="position:absolute;inset:auto 0 0 0;height:250px;display:grid;grid-template-columns:repeat(18,1fr);gap:28px 0;padding:0 40px;color:#55554f;align-content:start">${sample.join('')}</div>
       <div style="position:absolute;inset:auto 0 0 0;height:250px;background:linear-gradient(${brand.ink},transparent 45%)"></div>
       <div style="position:absolute;left:80px;top:96px">

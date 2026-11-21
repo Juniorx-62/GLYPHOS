@@ -11,7 +11,7 @@ import { updateSettings, useSettings } from '~/data/stores/settings'
 import { useHydrated } from '~/hooks/use-media-query'
 import { cn, formatNumber, plural } from '~/lib/utils'
 import { UiIcon } from '~/components/icons/UiIcon'
-import { Button, Chip, EmptyState, Eyebrow, IconButton, Kbd, Segmented, Select } from '~/components/ui/primitives'
+import { Button, Chip, EmptyState, IconButton, Kbd, Segmented, Select } from '~/components/ui/primitives'
 import { AppearanceControls } from '~/features/customization/AppearanceControls'
 import { useSearchEngine } from '~/features/search/use-search'
 import { IconGrid, StaticIconGrid } from './IconGrid'
@@ -88,8 +88,7 @@ export function Explorer({ search, initial }: { search: ExploreSearch; initial: 
     <div className="mx-auto max-w-[1440px] px-4 pt-8 sm:px-6">
       <div className="flex flex-wrap items-end justify-between gap-4">
         <div>
-          <Eyebrow>{`Biblioteca · ${formatNumber(catalogInfo.icons)} desenhos`}</Eyebrow>
-          <h1 className="mt-3 text-2xl font-semibold tracking-tight text-fg">{category ? category.name.pt : 'Todos os ícones'}</h1>
+          <h1 className="mt-3 text-2xl font-medium text-fg">{category ? category.name.pt : 'Todos os ícones'}</h1>
           <p className="mt-1 text-sm text-fg-muted" aria-live="polite">
             {entries || initial ? plural(total, 'ícone', 'ícones') : 'Carregando…'}
             {search.q ? ` para "${search.q}"` : ''}

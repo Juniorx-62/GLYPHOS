@@ -1,8 +1,7 @@
 import { Link, createFileRoute } from '@tanstack/react-router'
 import { CATEGORIES, LICENSES, STYLES, catalogInfo } from '~/catalog'
 import { LogoMark } from '~/components/layout/Logo'
-import { Eyebrow } from '~/components/ui/primitives'
-import { Chapter } from '~/features/showcase/Showcase'
+import { SectionHeader } from '~/components/ui/primitives'
 import { breadcrumbLd, pageHead } from '~/lib/seo'
 import { formatNumber } from '~/lib/utils'
 
@@ -62,12 +61,11 @@ function GridDiagram() {
 function AboutPage() {
   const license = LICENSES.MIT
   return (
-    <div className="mx-auto max-w-[1080px] px-4 pt-10 sm:px-6">
+    <div className="mx-auto max-w-[1080px] px-4 pt-12 sm:px-6">
       <div className="flex items-center gap-4">
         <LogoMark size={44} className="text-fg" />
         <div>
-          <Eyebrow>Sistema de desenho · licença MIT</Eyebrow>
-          <h1 className="mt-3 text-2xl font-semibold tracking-tight text-fg sm:text-3xl">Sobre o GLYPHOS</h1>
+          <h1 className="text-2xl font-medium text-fg sm:text-3xl">Sobre o GLYPHOS</h1>
           <p className="text-sm text-fg-muted">Biblioteca de ícones SVG originais.</p>
         </div>
       </div>
@@ -82,10 +80,10 @@ function AboutPage() {
         </p>
       </div>
 
-      <section id="grid" className="mt-16 scroll-mt-20" aria-labelledby="grid-title">
-        <Chapter index="01 · Grid" id="grid-title" title="O grid e o traço">Todos os ícones seguem as mesmas medidas, para parecerem da mesma família lado a lado.</Chapter>
+      <section id="grid" className="mt-24 scroll-mt-20" aria-labelledby="grid-title">
+        <SectionHeader id="grid-title" title="O grid e o traço" description="Todos os ícones seguem as mesmas medidas, para parecerem da mesma família lado a lado." />
         <div className="grid items-start gap-8 md:grid-cols-[minmax(0,22rem)_1fr]">
-          <div className="overflow-hidden rounded-xl border border-border">
+          <div className="overflow-hidden rounded-md">
             <GridDiagram />
           </div>
           <dl className="grid grid-cols-[auto_1fr] gap-x-6 gap-y-3 text-sm">
@@ -107,11 +105,11 @@ function AboutPage() {
         </div>
       </section>
 
-      <section id="estilos" className="mt-16 scroll-mt-20" aria-labelledby="styles-title">
-        <Chapter index="02 · Estilos" id="styles-title" title="Estilos">Um desenho-mestre por conceito. Os outros estilos são derivados dele ou desenhados à mão.</Chapter>
-        <ul className="grid gap-3 sm:grid-cols-2">
+      <section id="estilos" className="mt-24 scroll-mt-20" aria-labelledby="styles-title">
+        <SectionHeader id="styles-title" title="Estilos" description="Um desenho-mestre por conceito. Os outros estilos são derivados dele ou desenhados à mão." />
+        <ul className="grid gap-x-12 gap-y-6 sm:grid-cols-2">
           {STYLES.map((s) => (
-            <li key={s.id} className="rounded-xl border border-border bg-surface p-4">
+            <li key={s.id} className="border-t border-border pt-4">
               <p className="flex items-baseline justify-between gap-2">
                 <span className="font-medium text-fg">{s.name.pt}</span>
                 <span className="inscription text-fg-subtle">{(catalogInfo.styles[s.id] ?? 0) > 0 ? `${formatNumber(catalogInfo.styles[s.id] ?? 0)} ícones` : 'previsto'}</span>
@@ -122,8 +120,8 @@ function AboutPage() {
         </ul>
       </section>
 
-      <section id="licenca" className="mt-16 scroll-mt-20" aria-labelledby="license-title">
-        <Chapter index="03 · Licença" id="license-title" title="Licença">Os ícones são livres para usar em projetos pessoais e comerciais, com ou sem modificação.</Chapter>
+      <section id="licenca" className="mt-24 scroll-mt-20" aria-labelledby="license-title">
+        <SectionHeader id="license-title" title="Licença" description="Os ícones são livres para usar em projetos pessoais e comerciais, com ou sem modificação." />
         <div className="grid gap-4 text-sm text-fg-muted">
           <p>
             Todos os ícones do catálogo são desenhos próprios do GLYPHOS, publicados sob a <a href={license.url} className="text-fg underline underline-offset-2" target="_blank" rel="noopener">{license.name}</a>. Para usar um ícone num site
@@ -132,12 +130,12 @@ function AboutPage() {
           <p>
             O catálogo não inclui logotipos de marcas: marcas registradas têm regras de uso próprias. Cada ícone registra autoria, origem e licença, que aparecem na sua página.
           </p>
-          <pre className="code-surface max-h-72 overflow-auto rounded-lg border border-border bg-background-subtle p-4 whitespace-pre-wrap text-fg-muted">{MIT}</pre>
+          <pre className="code-surface max-h-72 overflow-auto rounded-md bg-background-subtle p-5 whitespace-pre-wrap text-fg-muted">{MIT}</pre>
         </div>
       </section>
 
-      <section id="contribuir" className="mt-16 scroll-mt-20" aria-labelledby="contrib-title">
-        <Chapter index="04 · Contribuir" id="contrib-title" title="Contribuir" />
+      <section id="contribuir" className="mt-24 scroll-mt-20" aria-labelledby="contrib-title">
+        <SectionHeader id="contrib-title" title="Contribuir" />
         <div className="grid max-w-3xl gap-3 text-sm text-fg-muted">
           <p>
             O repositório traz o guia completo para incluir ícones (<code className="inscription">docs/ADDING_ICONS.md</code>): o grid, os papéis das formas que geram os estilos, os metadados de busca, a validação automática e a
