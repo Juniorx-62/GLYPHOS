@@ -32,7 +32,7 @@ export function IconDetail({ data }: { data: IconDetailData }) {
   const hydrated = useHydrated()
   const settings = useSettings()
   const appearance = useAppearance()
-  const [background, setBackground] = useState<Background>('grid')
+  const [background, setBackground] = useState<Background>('surface')
   const category = categoryById(icon.category)
   const subcategory = category?.subcategories.find((s) => s.id === icon.subcategory)
   const style: StyleId = icon.styles.includes(appearance.style) ? appearance.style : 'outline'
@@ -106,13 +106,13 @@ export function IconDetail({ data }: { data: IconDetailData }) {
               value={background}
               onChange={setBackground}
               options={[
-                { value: 'grid', label: 'Grid' },
                 { value: 'surface', label: 'Liso' },
+                { value: 'grid', label: 'Construção' },
                 { value: 'transparent', label: 'Transparente' },
                 { value: 'inverse', label: 'Invertido' },
               ]}
             />
-            <span className="text-xs text-fg-subtle">{background === 'grid' ? 'Grid de 24 unidades; a linha tracejada marca a área viva.' : ''}</span>
+            <span className="text-xs text-fg-subtle">{background === 'grid' ? 'Grid de 24, formas-chave e área viva (tracejada).' : ''}</span>
           </div>
           <div className="mt-4 grid gap-8 sm:grid-cols-[1fr_auto] sm:items-end">
             <div>

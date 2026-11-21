@@ -559,7 +559,7 @@ export function HistoryPanel() {
 
 const PREVIEW_SIZES = [16, 20, 24, 32, 48]
 
-/** The drawing as the library draws it: every size, in the styles it can derive. */
+/** The drawing as the library draws it: every interface size, in the styles it can derive. */
 export function PreviewPanel() {
   const doc = useEditor(currentDoc)
   const nodes = useMemo(() => docToNodes(doc), [doc])
@@ -568,31 +568,65 @@ export function PreviewPanel() {
   const [style, setStyle] = useState<StyleId>('outline')
   const effective = styles.includes(style) ? style : 'outline'
   const [dark, setDark] = useState(false)
+  const options: Array<{ value: StyleId; label: string }> = [
+    { value: 'outline', label: 'Contorno' },
+    { value: 'solid', label: 'Sólido' },
+    { value: 'duotone', label: 'Duotone' },
+  ]
   return (
-    <div className="grid gap-3 px-3 py-3">
-      <div className="flex items-center justify-between gap-2">
-        <Segmented
-          size="sm"
-          label="Estilo da prévia"
-          value={effective}
-          onChange={setStyle}
-          options={[
-            { value: 'outline', label: 'Contorno' },
-            { value: 'solid', label: 'Sólido' },
-            { value: 'duotone', label: 'Duotone' },
-          ]}
-        />
-        <IconButton size="sm" icon={dark ? 'sun' : 'moon'} label={dark ? 'Prévia em fundo claro' : 'Prévia em fundo escuro'} onClick={() => setDark((v) => !v)} />
+    <section aria-label="Prévia do ícone">
+      <div className="flex items-center gap-3 px-4 pt-3">
+        <h2 className="sr-only">Prévia</h2>
+        <div role="radiogroup" aria-label="Estilo da prévia" className="flex gap-3">
+          {options.map((o) => {
+            const has = o.value === 'outline' || styles.includes(o.value)
+            const active = effective === o.value
+            return (
+              <button
+                key={o.value}
+                type="button"
+                role="radio"
+                aria-checked={active}
+                disabled={!has}
+                title={has ? undefined : 'Precisa de uma forma fechada com papel Corpo (o Style Matching marca os papéis)'}
+                onClick={() => setStyle(o.value)}
+                className={cn(
+                  'relative py-1 text-sm transition-colors duration-fast',
+                  active ? 'text-fg' : 'text-fg-muted hover:text-fg',
+                  !has && 'cursor-not-allowed text-fg-disabled hover:text-fg-disabled',
+                )}
+              >
+                {o.label}
+                <span aria-hidden className={cn('absolute inset-x-0 -bottom-px h-px bg-accent transition-opacity', active ? 'opacity-100' : 'opacity-0')} />
+              </button>
+            )
+          })}
+        </div>
+        <button
+          type="button"
+          onClick={() => setDark((v) => !v)}
+          aria-pressed={dark}
+          className="ml-auto inline-flex items-center gap-1.5 text-xs text-fg-muted hover:text-fg"
+          title="Ver a prévia no outro fundo"
+        >
+          <span aria-hidden className={cn('size-3 rounded-xs ring-1 ring-border', dark ? 'bg-[#151514]' : 'bg-[#F7F7F4]')} />
+          {dark ? 'Escuro' : 'Claro'}
+        </button>
       </div>
-      {!styles.includes('solid') && nodes.length > 0 && <p className="text-xs text-fg-subtle">Sólido e Duotone aparecem quando há uma forma fechada com papel Corpo. O Style Matching marca os papéis.</p>}
-      <div className={cn('flex flex-wrap items-end justify-between gap-2 rounded-lg border border-border p-3', dark ? 'bg-[#151514] text-[#f2f2f0]' : 'bg-surface text-fg')}>
-        {PREVIEW_SIZES.map((s) => (
-          <figure key={s} className="grid justify-items-center gap-1">
-            <Glyph nodes={packed} style={effective} size={s} box={doc.box} />
-            <figcaption className="text-xs opacity-60 tabular-nums">{s}</figcaption>
-          </figure>
-        ))}
+      <div className={cn('mt-3 px-4 pt-5 pb-3 transition-colors duration-base', dark ? 'bg-[#151514] text-[#EDEDE8]' : 'bg-background-subtle text-fg')}>
+        <div className="flex items-end justify-between border-b border-current/15 pb-2">
+          {PREVIEW_SIZES.map((s) => (
+            <Glyph key={s} nodes={packed} style={effective} size={s} box={doc.box} label={s === 24 ? 'Prévia do ícone' : undefined} />
+          ))}
+        </div>
+        <div className="mt-1.5 flex justify-between" aria-hidden>
+          {PREVIEW_SIZES.map((s) => (
+            <span key={s} className="inscription text-center opacity-60" style={{ width: s }}>
+              {s}
+            </span>
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   )
 }

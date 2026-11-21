@@ -155,6 +155,7 @@ export function Canvas({ className }: { className?: string }) {
   const [spaceDown, setSpaceDown] = useState(false)
   const [panning, setPanning] = useState(false)
   const sized = useRef(false)
+  const lastWidth = useRef(0)
 
   // Viewport size, and a fit on the first size and on each loaded project.
   useEffect(() => {
@@ -165,6 +166,11 @@ export function Canvas({ className }: { className?: string }) {
       setCamera({ w: Math.max(1, width), h: Math.max(1, height) })
       if (!sized.current && width > 0) {
         sized.current = true
+        lastWidth.current = width
+        fitArtboard(currentDoc().box)
+      } else if (width > 0 && Math.abs(width - lastWidth.current) > lastWidth.current * 0.15) {
+        // A real layout change (phone rotated, window resized, panel toggled): fit again.
+        lastWidth.current = width
         fitArtboard(currentDoc().box)
       }
     })
@@ -840,7 +846,7 @@ function PenRubber({ doc, id, hover, px }: { doc: CreationDoc; id: string; hover
 function EmptyHint() {
   const tool = useEditor((s) => s.tool)
   const text: Partial<Record<string, string>> = {
-    select: 'Escolha uma ferramenta à esquerda para começar: R retângulo, O elipse, L linha, P polígono, B caneta.',
+    select: 'Escolha uma ferramenta para começar. No teclado: R retângulo, O elipse, L linha, P polígono, B caneta.',
     rect: 'Arraste na prancheta para desenhar. Shift faz um quadrado; Alt ignora o grid.',
     ellipse: 'Arraste na prancheta para desenhar. Shift faz um círculo.',
     line: 'Arraste para desenhar a linha. Shift prende em ângulos de 45°.',
