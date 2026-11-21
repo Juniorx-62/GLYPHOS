@@ -80,7 +80,8 @@ export function IconDetail({ data }: { data: IconDetailData }) {
         <section aria-label="Prévia" className="grid content-start gap-4">
           <div
             className={cn(
-              'relative grid aspect-square place-items-center overflow-hidden rounded-md',
+              // Square, but never taller than the screen: the whole drawing stays visible to check it.
+              'relative mx-auto grid aspect-square w-full max-w-[min(100%,calc(100dvh-10rem))] place-items-center overflow-hidden rounded-md',
               background === 'grid' && 'canvas-grid bg-surface',
               background === 'surface' && 'bg-surface',
               background === 'transparent' && 'checkerboard',

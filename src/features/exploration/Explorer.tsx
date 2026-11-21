@@ -7,7 +7,7 @@ import { useNavigate } from '@tanstack/react-router'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { CATEGORIES, catalogInfo, categoryById, loadManifest, manifestIfLoaded, styleById, type SortKey } from '~/catalog'
 import type { ManifestEntry, ShardIcon, StyleId } from '~/catalog/types'
-import { updateSettings, useSettings } from '~/data/stores/settings'
+import { DEFAULT_APPEARANCE, resetAppearance, updateSettings, useSettings } from '~/data/stores/settings'
 import { useHydrated } from '~/hooks/use-media-query'
 import { cn, formatNumber, plural } from '~/lib/utils'
 import { UiIcon } from '~/components/icons/UiIcon'
@@ -32,6 +32,9 @@ export function Explorer({ search, initial }: { search: ExploreSearch; initial: 
   const navigate = useNavigate({ from: '/icons/' })
   const settings = useSettings()
   const hydrated = useHydrated()
+  // Colour, stroke and opacity chosen on an icon page also paint the grid: say so, with a way back.
+  const a = settings.appearance
+  const customized = hydrated && (a.color !== DEFAULT_APPEARANCE.color || a.strokeWidth !== DEFAULT_APPEARANCE.strokeWidth || a.opacity !== DEFAULT_APPEARANCE.opacity)
   const [manifest, setManifest] = useState<ManifestEntry[] | null>(() => (hydrated ? manifestIfLoaded() : null))
   const engine = useSearchEngine(!!search.q)
   const [query, setQuery] = useState(search.q ?? '')
@@ -163,6 +166,7 @@ export function Explorer({ search, initial }: { search: ExploreSearch; initial: 
             </div>
             <Button variant={showCustomize ? 'secondary' : 'outline'} icon="sliders" aria-expanded={showCustomize} aria-controls="explore-customize" onClick={() => setShowCustomize((v) => !v)}>
               Personalizar
+              {customized && <span aria-label="(ativa)" className="size-1.5 rounded-full bg-accent" />}
             </Button>
           </div>
         </div>
@@ -189,6 +193,16 @@ export function Explorer({ search, initial }: { search: ExploreSearch; initial: 
               <p className="text-xs text-fg-subtle">A personalização vale para a grade, as prévias e as exportações, e fica salva neste navegador. Os arquivos originais não mudam.</p>
             </div>
           </div>
+        )}
+        {customized && !showCustomize && (
+          <p className="mt-3 flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-fg-muted" role="status">
+            <span className="inline-block size-3 rounded-full border border-border" style={{ background: a.color === 'currentColor' ? 'var(--color-fg)' : a.color }} aria-hidden />
+            A grade usa a sua personalização (cor {a.color === 'currentColor' ? 'do texto' : a.color}, traço {String(a.strokeWidth).replace('.', ',')}
+            {a.opacity < 1 ? `, opacidade ${Math.round(a.opacity * 100)}%` : ''}), salva neste navegador.
+            <button type="button" className="font-medium text-fg underline underline-offset-2 hover:text-accent-emphasis" onClick={resetAppearance}>
+              Voltar ao padrão
+            </button>
+          </p>
         )}
         {filtersActive && (
           <div className="mt-3 flex flex-wrap items-center gap-1.5" aria-label="Filtros ativos">
