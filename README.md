@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <a href="https://glyphos-eight.vercel.app">Site</a> ·
+  <a href="https://glyphos-icons.vercel.app">Site</a> ·
   <a href="docs/ARCHITECTURE.md">Arquitetura</a> ·
   <a href="docs/ADDING_ICONS.md">Adicionar ícones</a> ·
   <a href="docs/CATALOG.md">Catálogo</a> ·
@@ -70,7 +70,7 @@ Em qualquer página, `Ctrl K` (`⌘K` no Mac) ou `/` abre a busca global: ícone
 | CSS | Classe `.icon-<slug>` que pinta o ícone com máscara, na cor do texto |
 | Data URI | Para `<img src>` e `background-image` |
 | PNG | De 16 a 1024 px, fundo transparente, branco ou preto |
-| Arquivo estático | `https://glyphos-eight.vercel.app/svg/<estilo>/<slug>.svg` |
+| Arquivo estático | `https://glyphos-icons.vercel.app/svg/<estilo>/<slug>.svg` |
 
 Nada depende do GLYPHOS depois de copiado: o código exportado não importa pacotes nem arquivos externos.
 

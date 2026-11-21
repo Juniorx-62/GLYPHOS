@@ -32,7 +32,7 @@ Abra <http://localhost:3100>. O `dev` gera os índices do catálogo (`catalog:in
 
 | Variável | Padrão | Uso |
 | --- | --- | --- |
-| `VITE_SITE_URL` | `https://glyphos-eight.vercel.app` | Endereço público: canonical, sitemap, Open Graph, JSON-LD |
+| `VITE_SITE_URL` | `https://glyphos-icons.vercel.app` | Endereço público: canonical, sitemap, Open Graph, JSON-LD |
 | `CHROME_PATH` | detectado | Caminho do Chrome/Edge para os scripts que usam o navegador |
 | `PORT` | `3000` | Porta do `npm run start` (servidor Node do build) |
 
@@ -95,7 +95,7 @@ O Nitro detecta o ambiente: na Vercel gera `.vercel/output`; fora dela, `.output
 
 ## Publicação
 
-- **Vercel:** importe o repositório, use a predefinição **TanStack Start** e mantenha build, saída e instalação no padrão. Defina `VITE_SITE_URL` se o domínio não for `glyphos-eight.vercel.app`. Cada push na `main` publica.
+- **Vercel:** importe o repositório, use a predefinição **TanStack Start** e mantenha build, saída e instalação no padrão. Defina `VITE_SITE_URL` se o domínio não for `glyphos-icons.vercel.app`. Cada push na `main` publica.
 - **Node (VPS, Docker):** `npm ci && npm run build && npm run start`, atrás de um proxy com HTTPS.
 
 Depois de publicar: `npm run check:seo -- <endereço>` e `npm run check:pages -- <endereço>`.

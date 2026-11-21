@@ -3,7 +3,7 @@
  * production build). Each flow is what a person does on the site.
  *
  *   npm run test:e2e                                  against http://localhost:3100
- *   npm run test:e2e -- https://glyphos-eight.vercel.app
+ *   npm run test:e2e -- https://glyphos-icons.vercel.app
  */
 import { existsSync, mkdtempSync, readdirSync, rmSync } from 'node:fs'
 import { tmpdir } from 'node:os'

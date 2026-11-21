@@ -6,7 +6,7 @@
  * without running JavaScript.
  *
  *   npm run check:seo                                  against http://localhost:3100
- *   npm run check:seo -- https://glyphos-eight.vercel.app    after a deploy
+ *   npm run check:seo -- https://glyphos-icons.vercel.app    after a deploy
  *   npm run check:seo -- --limit=200                   at most N pages (default: all)
  *
  * Canonicals point to VITE_SITE_URL: against localhost only the path is compared;
