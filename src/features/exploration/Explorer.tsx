@@ -11,7 +11,7 @@ import { DEFAULT_APPEARANCE, resetAppearance, updateSettings, useSettings } from
 import { useHydrated } from '~/hooks/use-media-query'
 import { cn, formatNumber, plural } from '~/lib/utils'
 import { UiIcon } from '~/components/icons/UiIcon'
-import { Button, Chip, EmptyState, IconButton, Kbd, Segmented, Select } from '~/components/ui/primitives'
+import { Button, Chip, EmptyState, IconButton, Kbd, Segmented, Select, Switch } from '~/components/ui/primitives'
 import { AppearanceControls } from '~/features/customization/AppearanceControls'
 import { useSearchEngine } from '~/features/search/use-search'
 import { IconGrid, StaticIconGrid } from './IconGrid'
@@ -186,10 +186,9 @@ export function Explorer({ search, initial }: { search: ExploreSearch; initial: 
                   ]}
                 />
               </div>
-              <label className="flex items-center gap-2 text-sm text-fg-muted">
-                <input type="checkbox" checked={settings.showNames} onChange={(e) => updateSettings({ showNames: e.target.checked })} className="size-4 accent-[var(--color-fg)]" />
+              <Switch checked={settings.showNames} onChange={(showNames) => updateSettings({ showNames })} className="text-fg-muted">
                 Mostrar nomes
-              </label>
+              </Switch>
               <p className="text-xs text-fg-subtle">A personalização vale para a grade, as prévias e as exportações, e fica salva neste navegador. Os arquivos originais não mudam.</p>
             </div>
           </div>

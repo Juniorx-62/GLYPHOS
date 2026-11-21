@@ -14,7 +14,7 @@ import { cn, formatDate, formatNumber } from '~/lib/utils'
 const SUGGESTIONS = ['carrinho de compras', 'calendário', 'nuvem', 'usuário', 'seta', 'lixeira', 'chuva', 'gráfico']
 const ANATOMY_SLUGS = ['camera', 'folder', 'heart', 'lock', 'cloud', 'gift']
 const SCALE_SLUGS = ['bell', 'map-pin', 'image', 'clock', 'star', 'trash', 'globe', 'wallet']
-const MOSAIC_PER_CATEGORY = 16
+const MOSAIC_PER_CATEGORY = 12
 
 export const Route = createFileRoute('/')({
   loader: async () => {

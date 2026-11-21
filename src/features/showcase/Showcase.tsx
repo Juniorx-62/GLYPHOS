@@ -8,7 +8,8 @@ import { useEffect, useState } from 'react'
 import { CATEGORIES, DEFAULT_STROKE, STROKE_RANGE, STYLES, catalogInfo } from '~/catalog'
 import type { ShardIcon, StyleId } from '~/catalog/types'
 import { Glyph } from '~/components/icons/Glyph'
-import { Slider } from '~/components/ui/primitives'
+import { UiIcon } from '~/components/icons/UiIcon'
+import { Slider, Switch } from '~/components/ui/primitives'
 import { cn, formatNumber } from '~/lib/utils'
 
 export type IconMap = Record<string, ShardIcon>
@@ -160,15 +161,15 @@ export function Anatomy({ icons, slugs, scaleSlugs }: { icons: IconMap; slugs: s
       <TextTabs label="Ícone da comparação" value={slug} onChange={setSlug} options={options.map((s) => ({ value: s, label: icons[s]?.name.pt ?? s }))} />
       <ol className="mt-10 grid gap-x-10 gap-y-12 sm:grid-cols-3">
         {LIVE_STYLES.map((s) => (
-          <li key={s.id}>
-            <div className="relative aspect-square w-full max-w-[17rem] text-fg">
+          <li key={s.id} className="mx-auto w-full max-w-[17rem]">
+            <div className="relative aspect-square w-full text-fg">
               <Construction />
               <div key={slug} className="animate-in absolute inset-0">
                 <Draw icon={icon} style={s.id} size="100%" />
               </div>
             </div>
             <p className="mt-5 font-medium text-fg">{s.name.pt}</p>
-            <p className="mt-1 max-w-[17rem] text-sm text-fg-muted">{ANATOMY[s.id]}</p>
+            <p className="mt-1 text-sm text-fg-muted">{ANATOMY[s.id]}</p>
           </li>
         ))}
       </ol>
@@ -298,10 +299,9 @@ export function InContext({ icons }: { icons: IconMap }) {
         </div>
         <TextTabs label="Estilo dos ícones do exemplo" value={style} onChange={setStyle} options={styleOptions} />
         <Slider id="context-stroke" label="Traço" value={stroke} onChange={setStroke} min={STROKE_RANGE.min} max={STROKE_RANGE.max} step={STROKE_RANGE.step} format={strokeLabel} />
-        <label className="flex items-center gap-3 text-sm text-fg-muted">
-          <input type="checkbox" checked={accent} onChange={(e) => setAccent(e.target.checked)} className="size-4 accent-[var(--color-accent)]" />
+        <Switch checked={accent} onChange={setAccent} className="text-fg-muted">
           Ícones na cor de destaque
-        </label>
+        </Switch>
         <p className="text-xs text-fg-subtle">Os ícones usam currentColor: mudar a cor do texto muda o ícone.</p>
       </div>
     </div>
@@ -316,25 +316,46 @@ export function InContext({ icons }: { icons: IconMap }) {
  */
 export function Mosaic({ icons, byCategory }: { icons: IconMap; byCategory: Record<string, string[]> }) {
   return (
-    <ul className="grid gap-x-12 lg:grid-cols-2">
+    <ul className="grid gap-px overflow-hidden rounded-lg border border-border bg-border sm:grid-cols-2 lg:grid-cols-3">
       {CATEGORIES.map((c) => {
-        const slugs = byCategory[c.id] ?? []
+        const slugs = (byCategory[c.id] ?? []).filter((s) => icons[s]).slice(0, 12)
         return (
-          <li key={c.id}>
-            <Link to="/categories/$categoryId" params={{ categoryId: c.id }} className="group grid grid-cols-[9.5rem_1fr] items-center gap-4 py-2.5 sm:grid-cols-[11rem_1fr]">
-              <span className="min-w-0">
-                <span className="block truncate text-sm text-fg group-hover:underline group-hover:decoration-accent group-hover:underline-offset-4">{c.name.pt}</span>
-                <span className="inscription text-fg-subtle">{formatNumber(catalogInfo.categories[c.id] ?? 0)}</span>
+          <li key={c.id} className="flex">
+            <Link
+              to="/categories/$categoryId"
+              params={{ categoryId: c.id }}
+              className="group mosaic-tile flex w-full flex-col gap-5 bg-background-subtle p-5 transition-colors duration-base hover:bg-surface focus-visible:z-10"
+            >
+              <span className="flex items-baseline justify-between gap-3">
+                <span className="min-w-0 truncate text-sm font-medium text-fg">{c.name.pt}</span>
+                <span className="inscription shrink-0 text-fg-subtle tabular-nums">{formatNumber(catalogInfo.categories[c.id] ?? 0)}</span>
               </span>
-              <span className="flex min-w-0 gap-3 overflow-hidden text-fg-muted transition-colors duration-base group-hover:text-fg [mask-image:linear-gradient(to_right,black_85%,transparent)]">
-                {slugs.map((s) => (
-                  <Draw key={s} icon={icons[s]} style="outline" size={20} />
+              <span className="grid grid-cols-6 justify-items-center gap-y-3 text-fg-muted transition-colors duration-base group-hover:text-fg">
+                {slugs.map((s, i) => (
+                  <span key={s} className="mosaic-glyph grid size-7 place-items-center" style={{ ['--i' as string]: i }}>
+                    <Draw icon={icons[s]} style="outline" size={20} />
+                  </span>
                 ))}
+              </span>
+              <span className="mt-auto flex items-center gap-1 text-xs text-fg-subtle transition-colors duration-base group-hover:text-fg">
+                Ver categoria
+                <UiIcon name="arrow-right" size={12} className="transition-transform duration-base ease-out group-hover:translate-x-0.5" />
               </span>
             </Link>
           </li>
         )
       })}
+      {/* Closes the last row: spans whatever the categories left empty. */}
+      <li className={cn('flex', CATEGORIES.length % 2 === 0 && 'sm:hidden lg:flex', LG_SPAN[(3 - (CATEGORIES.length % 3)) % 3], CATEGORIES.length % 3 === 0 && 'lg:hidden')}>
+        <Link to="/icons" className="group flex w-full items-center justify-between gap-4 bg-background-subtle p-5 text-sm text-fg-muted transition-colors duration-base hover:bg-surface hover:text-fg">
+          <span>
+            Todos os {formatNumber(catalogInfo.icons)} ícones, com busca e filtros
+          </span>
+          <UiIcon name="arrow-right" size={14} className="transition-transform duration-base ease-out group-hover:translate-x-0.5" />
+        </Link>
+      </li>
     </ul>
   )
 }
+
+const LG_SPAN = ['', 'lg:col-span-1', 'lg:col-span-2']

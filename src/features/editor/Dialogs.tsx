@@ -6,7 +6,7 @@ import type { StyleId } from '~/catalog/types'
 import type { CreationDoc } from '~/data/types'
 import { Glyph } from '~/components/icons/Glyph'
 import { UiIcon } from '~/components/icons/UiIcon'
-import { Button, IconButton, Segmented, Select, TextInput } from '~/components/ui/primitives'
+import { Button, Checkbox, ColorButton, IconButton, Segmented, Select, TextInput } from '~/components/ui/primitives'
 import { toast } from '~/components/ui/toast'
 import { CodePanel, PngExport, QuickExportActions, type ExportableIcon } from '~/features/export/ExportPanel'
 import type { ExportOptions } from '~/features/export/formats'
@@ -120,7 +120,11 @@ export function ExportDialog({ open, onClose }: { open: boolean; onClose: () => 
                     { value: 'custom', label: 'Fixa' },
                   ]}
                 />
-                {color === 'custom' && <input type="color" aria-label="Cor fixa" value={hex} onChange={(e) => setHex(e.target.value)} className="h-control-sm w-10 cursor-pointer rounded-md border border-border bg-surface" />}
+                {color === 'custom' && (
+                  <ColorButton value={hex} onChange={setHex} label="Cor fixa" className="h-control-sm w-10 rounded-md border border-border p-1">
+                    <span className="block size-full rounded-sm" style={{ background: hex }} />
+                  </ColorButton>
+                )}
               </div>
               <p className="text-xs text-fg-subtle">Formas com cor própria mantêm a sua.</p>
             </div>
@@ -184,16 +188,9 @@ export function StyleMatchDialog({ open, onClose }: { open: boolean; onClose: ()
         <fieldset className="grid content-start gap-2">
           <legend className="mb-1 text-xs font-semibold tracking-wide text-fg-subtle uppercase">Ajustes</legend>
           {MATCH_FIELDS.map((f) => (
-            <label key={f.key} className="flex cursor-pointer items-start gap-2 text-sm">
-              <input
-                type="checkbox"
-                className="mt-0.5 size-4 accent-[var(--color-primary)]"
-                checked={o[f.key]}
-                disabled={f.key === 'center' && o.fit}
-                onChange={(e) => setO({ ...o, [f.key]: e.target.checked })}
-              />
+            <Checkbox key={f.key} checked={o[f.key]} disabled={f.key === 'center' && o.fit} onChange={(v) => setO({ ...o, [f.key]: v })}>
               <span className={f.key === 'center' && o.fit ? 'text-fg-subtle' : undefined}>{f.label}</span>
-            </label>
+            </Checkbox>
           ))}
           <label className="mt-1 grid gap-1 text-sm">
             <span>Alinhar pontos à grade</span>

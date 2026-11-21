@@ -1,8 +1,8 @@
 /**
- * Base controls of the interface. Native elements first (button, input,
- * select, range), styled with the brand tokens only.
+ * Base controls of the interface, styled with the brand tokens only.
+ * Select, checkbox, switch and colour picker live in ./controls.
  */
-import { forwardRef, type ButtonHTMLAttributes, type InputHTMLAttributes, type ReactNode, type SelectHTMLAttributes } from 'react'
+import { forwardRef, type ButtonHTMLAttributes, type InputHTMLAttributes, type ReactNode } from 'react'
 import { cn } from '~/lib/utils'
 import { UiIcon } from '../icons/UiIcon'
 import type { UiIconName } from '../icons/ui-icon-names'
@@ -67,7 +67,7 @@ export const IconButton = forwardRef<HTMLButtonElement, IconButtonProps>(functio
       ref={ref}
       type={type}
       aria-label={label}
-      title={label}
+      data-tip={label}
       aria-pressed={pressed}
       className={cn('inline-grid shrink-0 place-items-center rounded-md transition-colors duration-fast disabled:opacity-50', VARIANT[variant], dim, className)}
       {...rest}
@@ -126,7 +126,7 @@ export function Segmented<T extends string>({ value, onChange, options, label, s
             tabIndex={active ? 0 : -1}
             disabled={o.disabled}
             onClick={() => onChange(o.value)}
-            title={o.icon ? o.label : undefined}
+            data-tip={o.icon ? o.label : undefined}
             aria-label={o.icon ? o.label : undefined}
             className={cn(
               'inline-flex flex-1 items-center justify-center gap-1.5 rounded-sm font-medium whitespace-nowrap transition-colors duration-fast disabled:opacity-40',
@@ -177,20 +177,7 @@ export function Slider({ label, value, onChange, min, max, step, format = String
   )
 }
 
-export const Select = forwardRef<HTMLSelectElement, SelectHTMLAttributes<HTMLSelectElement>>(function Select({ className, children, ...rest }, ref) {
-  return (
-    <div className="relative inline-flex">
-      <select
-        ref={ref}
-        className={cn('h-control-md w-full appearance-none rounded-md border border-border bg-surface pr-8 pl-3 text-sm text-fg hover:border-border-strong', className)}
-        {...rest}
-      >
-        {children}
-      </select>
-      <UiIcon name="chevron-down" size={14} className="pointer-events-none absolute top-1/2 right-2.5 -translate-y-1/2 text-fg-subtle" />
-    </div>
-  )
-})
+export { Select, Checkbox, Switch, ColorButton, ColorPicker } from './controls'
 
 export const TextInput = forwardRef<HTMLInputElement, InputHTMLAttributes<HTMLInputElement>>(function TextInput({ className, ...rest }, ref) {
   return (

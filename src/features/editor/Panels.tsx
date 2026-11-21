@@ -6,7 +6,7 @@ import type { CreationDoc, DrawableShape, Shape, ShapePart } from '~/data/types'
 import { Glyph } from '~/components/icons/Glyph'
 import { UiIcon } from '~/components/icons/UiIcon'
 import type { UiIconName } from '~/components/icons/ui-icon-names'
-import { IconButton, Segmented, Select } from '~/components/ui/primitives'
+import { ColorButton, IconButton, Segmented, Select, Switch } from '~/components/ui/primitives'
 import { cn } from '~/lib/utils'
 import {
   alignSelection,
@@ -100,7 +100,6 @@ const PALETTE = ['currentColor', '#151514', '#ffffff', '#e5484d', '#f76b15', '#f
 
 /** none / currentColor / a colour. */
 function PaintField({ label, value, onChange }: { label: string; value: string | null; onChange: (v: string) => void }) {
-  const id = useId()
   const hex = value && value.startsWith('#') ? value : '#151514'
   return (
     <div className="grid gap-1.5">
@@ -123,10 +122,9 @@ function PaintField({ label, value, onChange }: { label: string; value: string |
             <span className="sr-only">{c === 'currentColor' ? 'Cor do texto' : c}</span>
           </button>
         ))}
-        <label htmlFor={id} className="relative size-6 cursor-pointer overflow-hidden rounded-sm border border-border" title="Outra cor">
-          <span className="absolute inset-0" style={{ background: 'conic-gradient(#e5484d, #ffc53d, #30a46c, #0090ff, #8e4ec6, #e5484d)' }} aria-hidden />
-          <input id={id} type="color" value={hex} onChange={(e) => onChange(e.target.value)} className="absolute inset-0 cursor-pointer opacity-0" aria-label={`${label}: outra cor`} />
-        </label>
+        <ColorButton value={hex} onChange={onChange} label={`${label}: outra cor`} className={cn('relative size-6 overflow-hidden rounded-sm border', value?.startsWith('#') && !PALETTE.includes(value) ? 'border-ring ring-2 ring-ring/40' : 'border-border')}>
+          <span className="absolute inset-0" style={{ background: value?.startsWith('#') && !PALETTE.includes(value) ? value : 'conic-gradient(#e5484d, #ffc53d, #30a46c, #0090ff, #8e4ec6, #e5484d)' }} aria-hidden />
+        </ColorButton>
       </div>
     </div>
   )
@@ -222,10 +220,9 @@ function DocumentProperties({ doc }: { doc: CreationDoc }) {
 
 function Toggle({ label, checked, onChange }: { label: string; checked: boolean; onChange: (v: boolean) => void }) {
   return (
-    <label className="flex cursor-pointer items-start gap-2 text-sm text-fg">
-      <input type="checkbox" className="mt-0.5 size-4 accent-[var(--color-primary)]" checked={checked} onChange={(e) => onChange(e.target.checked)} />
-      <span>{label}</span>
-    </label>
+    <Switch checked={checked} onChange={onChange} className="justify-between [&>span:last-child]:order-first">
+      {label}
+    </Switch>
   )
 }
 
@@ -283,14 +280,15 @@ function SelectionProperties({ doc, shapes }: { doc: CreationDoc; shapes: Shape[
                 step={0.25}
                 value={strokeW ?? 1.5}
                 onChange={(e) => setStyle({ strokeWidth: Number(e.target.value) }, 'Espessura do traço')}
-                className="accent-[var(--color-primary)]"
+                className="glyphos-range h-6 w-full min-w-0 cursor-pointer appearance-none bg-transparent"
+                style={{ ['--p' as string]: `${(((strokeW ?? 1.5) - 0.25) / ((doc.box / 24) * 4 - 0.25)) * 100}%` }}
               />
               <NumberField label="T" value={strokeW} min={0} max={50} step={0.25} onCommit={(v) => setStyle({ strokeWidth: v }, 'Espessura do traço')} />
             </div>
           )}
           <PaintField label="Preenchimento" value={style('fill') as string | null} onChange={(v) => setStyle({ fill: v }, 'Preenchimento')} />
           <div className="grid grid-cols-[1fr_88px] items-center gap-2">
-            <input type="range" aria-label="Opacidade" min={0} max={1} step={0.05} value={opacity ?? 1} onChange={(e) => setStyle({ opacity: Number(e.target.value) }, 'Opacidade')} className="accent-[var(--color-primary)]" />
+            <input type="range" aria-label="Opacidade" min={0} max={1} step={0.05} value={opacity ?? 1} onChange={(e) => setStyle({ opacity: Number(e.target.value) }, 'Opacidade')} className="glyphos-range h-6 w-full min-w-0 cursor-pointer appearance-none bg-transparent" style={{ ['--p' as string]: `${(opacity ?? 1) * 100}%` }} />
             <NumberField label="%" value={opacity === null ? null : Math.round(opacity * 100)} min={0} max={100} step={5} onCommit={(v) => setStyle({ opacity: v / 100 }, 'Opacidade')} />
           </div>
           {stroke !== 'none' && (

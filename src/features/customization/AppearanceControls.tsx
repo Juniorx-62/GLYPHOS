@@ -6,7 +6,7 @@
 import { STYLES, STROKE_RANGE } from '~/catalog'
 import type { StyleId } from '~/catalog/types'
 import { resetAppearance, updateSettings, useAppearance } from '~/data/stores/settings'
-import { Button, Segmented, Slider } from '~/components/ui/primitives'
+import { Button, ColorButton, Segmented, Slider } from '~/components/ui/primitives'
 import { cn } from '~/lib/utils'
 
 const SWATCHES = ['currentColor', '#151514', '#D9401F', '#2D6BAE', '#1E7A4C', '#8F5600', '#7A4FB5', '#C42640']
@@ -21,7 +21,7 @@ export function StylePicker({ available, className, size = 'md' }: { available?:
   return <Segmented label="Estilo" value={appearance.style} onChange={(style) => updateSettings({ appearance: { style } })} options={options} className={className} size={size} />
 }
 
-export function ColorControl({ id = 'icon-color' }: { id?: string }) {
+export function ColorControl(_props: { id?: string } = {}) {
   const { color } = useAppearance()
   const ring = (on: boolean) => (on ? 'shadow-[inset_0_0_0_1.5px_var(--color-fg)]' : 'hover:shadow-[inset_0_0_0_1px_var(--color-border-strong)]')
   return (
@@ -48,17 +48,14 @@ export function ColorControl({ id = 'icon-color' }: { id?: string }) {
             )}
           </button>
         ))}
-        <label className={cn('relative grid size-7 cursor-pointer place-items-center overflow-hidden rounded-sm', ring(false))} title="Escolher outra cor">
-          <span className="sr-only">Escolher outra cor</span>
-          <span className="size-4 rounded-xs bg-[conic-gradient(#D9401F,#8F5600,#1E7A4C,#2D6BAE,#7A4FB5,#D9401F)]" />
-          <input
-            id={id}
-            type="color"
-            value={color.startsWith('#') ? color : '#151514'}
-            onChange={(e) => updateSettings({ appearance: { color: e.target.value } })}
-            className="absolute inset-0 cursor-pointer opacity-0"
-          />
-        </label>
+        <ColorButton
+          value={color.startsWith('#') ? color : '#151514'}
+          onChange={(c) => updateSettings({ appearance: { color: c } })}
+          label="Escolher outra cor"
+          className={cn('grid size-7 place-items-center rounded-sm transition-shadow duration-fast', ring(color.startsWith('#') && !SWATCHES.includes(color)))}
+        >
+          <span className="size-4 rounded-xs" style={{ background: color.startsWith('#') && !SWATCHES.includes(color) ? color : 'conic-gradient(#D9401F,#8F5600,#1E7A4C,#2D6BAE,#7A4FB5,#D9401F)' }} />
+        </ColorButton>
         <span className="inscription ml-2 text-fg-subtle">{color === 'currentColor' ? 'currentColor' : color.toUpperCase()}</span>
       </div>
     </fieldset>

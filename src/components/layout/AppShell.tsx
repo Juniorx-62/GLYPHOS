@@ -1,3 +1,4 @@
+import { TooltipLayer } from '../ui/controls'
 import { Link, useRouterState } from '@tanstack/react-router'
 import { useEffect, useRef, type ReactNode } from 'react'
 import { catalogInfo } from '~/catalog'
@@ -35,6 +36,7 @@ export function AppShell({ children }: { children: ReactNode }) {
         <FooterUnlessEditor />
       </div>
       <Toaster />
+      <TooltipLayer />
     </CommandPaletteProvider>
   )
 }

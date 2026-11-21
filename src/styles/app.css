@@ -202,3 +202,151 @@ dialog::backdrop {
   outline: 2px solid var(--color-ring);
   outline-offset: 2px;
 }
+
+/*
+ * Motion of the drawn controls. Short and physical: things open from where
+ * they come from, a light overshoot (--ease-spring) only on small parts.
+ */
+:root {
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* Popovers (select list, colour picker): scale from the trigger edge. */
+.glyphos-pop {
+  transform-origin: top left;
+  transition:
+    opacity var(--duration-fast) var(--ease-standard),
+    scale var(--duration-base) var(--ease-out),
+    translate var(--duration-base) var(--ease-out),
+    display var(--duration-base) allow-discrete,
+    overlay var(--duration-base) allow-discrete;
+}
+.glyphos-pop[data-up] {
+  transform-origin: bottom left;
+}
+.glyphos-pop:popover-open {
+  opacity: 1;
+  scale: 1;
+  translate: 0 0;
+}
+@starting-style {
+  .glyphos-pop:popover-open {
+    opacity: 0;
+    scale: 0.96;
+    translate: 0 -4px;
+  }
+}
+.glyphos-pop:not(:popover-open) {
+  opacity: 0;
+  scale: 0.98;
+}
+.glyphos-check-mark {
+  transition: opacity var(--duration-fast);
+}
+
+/* Tooltip: fades in, slides 2 px from the element. */
+.glyphos-tip {
+  transition:
+    opacity var(--duration-fast) var(--ease-standard),
+    transform var(--duration-fast) var(--ease-out),
+    display var(--duration-fast) allow-discrete,
+    overlay var(--duration-fast) allow-discrete;
+}
+.glyphos-tip:popover-open {
+  opacity: 1;
+  transform: none;
+}
+@starting-style {
+  .glyphos-tip:popover-open {
+    opacity: 0;
+    transform: translateY(2px);
+  }
+}
+.glyphos-tip[data-below]:popover-open {
+  transform: none;
+}
+@starting-style {
+  .glyphos-tip[data-below]:popover-open {
+    transform: translateY(-2px);
+  }
+}
+.glyphos-tip:not(:popover-open) {
+  opacity: 0;
+}
+
+/* Checkbox tick: drawn like a stroke, the way the icons are. */
+.glyphos-tick path {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  transition: stroke-dashoffset var(--duration-fast) var(--ease-standard);
+}
+input:checked + span .glyphos-tick path {
+  stroke-dashoffset: 0;
+  transition: stroke-dashoffset var(--duration-slow) var(--ease-out) 40ms;
+}
+
+/* Switch: the knob travels with a little overshoot and stretches while pressed. */
+.glyphos-switch::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  border-radius: 999px;
+  background: var(--color-surface);
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.25);
+  transition:
+    translate var(--duration-slow) var(--ease-spring),
+    width var(--duration-base) var(--ease-out);
+}
+input:checked + .glyphos-switch::after {
+  translate: 12px 0;
+}
+input:active + .glyphos-switch::after {
+  width: 20px;
+}
+input:checked:active + .glyphos-switch::after {
+  translate: 8px 0;
+}
+
+/* Range thumb grows while held. */
+.glyphos-range::-webkit-slider-thumb {
+  transition: scale var(--duration-base) var(--ease-spring);
+}
+.glyphos-range:active::-webkit-slider-thumb {
+  scale: 1.15;
+}
+
+/* Dialogs: rise and settle; the backdrop fades. */
+dialog[open] {
+  animation: glyphos-dialog-in var(--duration-slow) var(--ease-out);
+}
+dialog[open]::backdrop {
+  animation: glyphos-fade var(--duration-base) var(--ease-standard);
+}
+@keyframes glyphos-dialog-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.98);
+  }
+}
+@keyframes glyphos-fade {
+  from {
+    opacity: 0;
+  }
+}
+
+/* Press feedback on buttons: a 1 px sink, no colour change. */
+button:not(:disabled):active {
+  translate: 0 0.5px;
+}
+
+/* Home mosaic: on hover the drawings of a category rise one after another. */
+.mosaic-glyph {
+  transition: translate var(--duration-base) var(--ease-out);
+  transition-delay: calc(var(--i) * 18ms);
+}
+.mosaic-tile:hover .mosaic-glyph {
+  translate: 0 -2px;
+}
