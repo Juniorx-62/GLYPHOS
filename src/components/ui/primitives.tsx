@@ -268,3 +268,13 @@ export function EmptyState({ icon = 'search', title, children }: { icon?: UiIcon
     </div>
   )
 }
+
+/** Page kicker: the rubric square and a technical label above a page title. */
+export function Eyebrow({ children, className }: { children: ReactNode; className?: string }) {
+  return (
+    <p className={cn('inscription flex items-center gap-2 text-fg-muted', className)}>
+      <span aria-hidden className="size-2 shrink-0 bg-accent" />
+      {children}
+    </p>
+  )
+}

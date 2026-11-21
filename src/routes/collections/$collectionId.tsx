@@ -3,7 +3,7 @@ import { collectionById, loadIcons, loadManifest } from '~/catalog'
 import type { ManifestEntry } from '~/catalog/types'
 import { useSettings } from '~/data/stores/settings'
 import { UiIcon } from '~/components/icons/UiIcon'
-import { Button } from '~/components/ui/primitives'
+import { Button, Eyebrow } from '~/components/ui/primitives'
 import { toast } from '~/components/ui/toast'
 import { createCollection } from '~/data/stores/collections'
 import { StaticIconGrid } from '~/features/exploration/IconGrid'
@@ -57,7 +57,8 @@ function CollectionPage() {
       </nav>
       <header className="mt-5 flex flex-wrap items-end justify-between gap-4">
         <div className="max-w-2xl">
-          <h1 className="text-2xl font-semibold tracking-tight text-fg">{collection.name}</h1>
+          <Eyebrow>Coleção · {collection.id}</Eyebrow>
+          <h1 className="mt-3 text-2xl font-semibold tracking-tight text-fg sm:text-3xl">{collection.name}</h1>
           <p className="mt-2 text-base text-fg-muted">{collection.description}</p>
           <p className="mt-2 text-sm text-fg-subtle">{plural(entries.length, 'ícone', 'ícones')}</p>
         </div>

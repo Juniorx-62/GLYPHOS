@@ -9,7 +9,7 @@ import { clearHistory, useHistory } from '~/data/stores/history'
 import { useSettings } from '~/data/stores/settings'
 import { useHydrated } from '~/hooks/use-media-query'
 import { downloadBlob, plural } from '~/lib/utils'
-import { Button, EmptyState, IconButton, Segmented, TextInput } from '~/components/ui/primitives'
+import { Button, EmptyState, IconButton, Segmented, TextInput, Eyebrow } from '~/components/ui/primitives'
 import { toast } from '~/components/ui/toast'
 import { StaticIconGrid } from '~/features/exploration/IconGrid'
 import { pageHead } from '~/lib/seo'
@@ -46,7 +46,8 @@ function LibraryPage() {
   const collections = useCollections()
   return (
     <div className="mx-auto max-w-[1440px] px-4 pt-10 sm:px-6">
-      <h1 className="text-2xl font-semibold tracking-tight text-fg">Minha biblioteca</h1>
+      <Eyebrow>Local · neste navegador</Eyebrow>
+      <h1 className="mt-3 text-2xl font-semibold tracking-tight text-fg sm:text-3xl">Minha biblioteca</h1>
       <p className="mt-2 max-w-2xl text-base text-fg-muted">Favoritos, ícones vistos por último e suas coleções. Tudo fica neste navegador, sem cadastro; leve para outro aparelho com a cópia de segurança.</p>
       <div className="mt-6 overflow-x-auto">
         <Segmented

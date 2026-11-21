@@ -2,7 +2,7 @@ import { Link, createFileRoute } from '@tanstack/react-router'
 import { COLLECTIONS, loadIcons } from '~/catalog'
 import type { ShardIcon } from '~/catalog/types'
 import { Glyph } from '~/components/icons/Glyph'
-import { EmptyState } from '~/components/ui/primitives'
+import { EmptyState, Eyebrow } from '~/components/ui/primitives'
 import { breadcrumbLd, collectionLd, pageHead } from '~/lib/seo'
 import { plural } from '~/lib/utils'
 
@@ -33,7 +33,8 @@ function CollectionsPage() {
   const { icons } = Route.useLoaderData()
   return (
     <div className="mx-auto max-w-[1440px] px-4 pt-10 sm:px-6">
-      <h1 className="text-2xl font-semibold tracking-tight text-fg">Coleções</h1>
+      <Eyebrow>{`${COLLECTIONS.length} coleções temáticas`}</Eyebrow>
+      <h1 className="mt-3 text-2xl font-semibold tracking-tight text-fg sm:text-3xl">Coleções</h1>
       <p className="mt-2 max-w-2xl text-base text-fg-muted">
         Conjuntos escolhidos para um tipo de produto: o que uma loja, um painel ou um aplicativo de clima costuma precisar. Para montar as suas, use os favoritos e as coleções da{' '}
         <Link to="/library" className="text-fg underline underline-offset-2">

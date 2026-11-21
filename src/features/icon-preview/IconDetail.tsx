@@ -8,7 +8,7 @@ import { useHydrated } from '~/hooks/use-media-query'
 import { cn, formatDate } from '~/lib/utils'
 import { Glyph } from '~/components/icons/Glyph'
 import { UiIcon } from '~/components/icons/UiIcon'
-import { Button, Chip, Segmented, SectionHeader } from '~/components/ui/primitives'
+import { Button, Chip, Eyebrow, Segmented, SectionHeader } from '~/components/ui/primitives'
 import { AppearanceControls } from '~/features/customization/AppearanceControls'
 import { CodePanel, PngExport, QuickExportActions } from '~/features/export/ExportPanel'
 import { useIconExport } from '~/features/export/use-export'
@@ -89,6 +89,13 @@ export function IconDetail({ data }: { data: IconDetailData }) {
             style={background === 'grid' ? { backgroundSize: 'calc(100% / 24) calc(100% / 24)' } : undefined}
           >
             {background === 'grid' && <span aria-hidden className="pointer-events-none absolute inset-[8.333%] rounded-xs border border-dashed border-accent/40" />}
+            {background === 'grid' && (
+              <svg aria-hidden viewBox="0 0 24 24" className="pointer-events-none absolute inset-0 size-full" fill="none" style={{ stroke: 'var(--color-border-strong)' }} strokeWidth="0.04" opacity="0.6">
+                <circle cx="12" cy="12" r="9" />
+                <rect x="3" y="3" width="18" height="18" rx="3" />
+                <path d="M12 0V24M0 12H24" />
+              </svg>
+            )}
             {glyph(320, { className: 'h-[78%] w-[78%]', label: icon.name.pt, color: background === 'inverse' && appearance.color === 'currentColor' ? 'currentColor' : appearance.color })}
           </div>
           <div className="flex flex-wrap items-center justify-between gap-3">
@@ -117,6 +124,24 @@ export function IconDetail({ data }: { data: IconDetailData }) {
               ))}
             </ul>
           </div>
+          <div className="rounded-xl border border-border bg-surface p-4">
+            <h2 className="text-xs font-medium text-fg-muted">Nos estilos</h2>
+            <ul className="mt-3 grid grid-cols-3 gap-2">
+              {STYLES.filter((s) => icon.styles.includes(s.id)).map((s) => (
+                <li key={s.id}>
+                  <button
+                    type="button"
+                    aria-pressed={s.id === style}
+                    onClick={() => updateSettings({ appearance: { style: s.id } })}
+                    className={cn('flex w-full flex-col items-center gap-2 rounded-lg border p-3 transition-colors duration-fast', s.id === style ? 'border-fg bg-background-subtle' : 'border-border hover:border-border-strong')}
+                  >
+                    {glyph(32, { style: s.id })}
+                    <span className="text-xs text-fg-muted">{s.name.pt}</span>
+                  </button>
+                </li>
+              ))}
+            </ul>
+          </div>
           <div className="grid grid-cols-2 gap-3">
             {(['light', 'dark'] as const).map((t) => (
               <div key={t} data-theme={t} className="flex items-center gap-3 rounded-xl border border-border bg-background p-3 text-fg">
@@ -133,7 +158,7 @@ export function IconDetail({ data }: { data: IconDetailData }) {
         {/* Identity, actions and customisation */}
         <section aria-labelledby="icon-title" className="order-first grid content-start gap-6 lg:order-none">
           <div>
-            <p className="inscription text-accent-emphasis">{category?.name.pt}</p>
+            <Eyebrow>{category?.name.pt}</Eyebrow>
             <h1 id="icon-title" className="mt-2 text-2xl font-semibold tracking-tight text-fg">
               {icon.name.pt}
             </h1>

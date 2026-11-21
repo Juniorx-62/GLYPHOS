@@ -15,3 +15,4 @@ Registros curtos das escolhas que dão forma ao GLYPHOS: contexto, problema, alt
 | [0009](0009-licenca-e-marcas.md) | Ícones sob MIT, desenho próprio, sem logotipos de marcas |
 | [0010](0010-svg-seguro.md) | SVG por lista de permissões e renderizado como elementos React |
 | [0011](0011-identidade.md) | Nome GLYPHOS e a rubrica como cor própria |
+| [0012](0012-apresentacao-pelo-proprio-sistema.md) | O produto se apresenta pelo próprio sistema de desenho |

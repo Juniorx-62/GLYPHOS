@@ -92,7 +92,7 @@ Manuais (a cada mudança de interface):
 Uma mudança está pronta quando:
 
 - [ ] `npm run verify` passa;
-- [ ] `npm run test:e2e` passa (se tocou em fluxos);
+- [ ] `npm run test:e2e` passa (se tocou em fluxos). Rode contra o build (`npm run build` e `vite preview --port 3101`, depois `npm run test:e2e -- http://localhost:3101`): no servidor de dev a primeira carga pode passar das esperas dos fluxos e falhar sem defeito real;
 - [ ] `npm run check:pages` sem problemas novos (se tocou na interface);
 - [ ] ícones novos revisados na folha de contato;
 - [ ] documentação correspondente atualizada.

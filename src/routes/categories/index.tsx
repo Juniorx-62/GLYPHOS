@@ -1,3 +1,4 @@
+import { Eyebrow } from '~/components/ui/primitives'
 import { Link, createFileRoute } from '@tanstack/react-router'
 import { CATEGORIES, catalogInfo, loadIcons } from '~/catalog'
 import type { ShardIcon } from '~/catalog/types'
@@ -32,7 +33,8 @@ function CategoriesPage() {
   const { symbols } = Route.useLoaderData()
   return (
     <div className="mx-auto max-w-[1440px] px-4 pt-10 sm:px-6">
-      <h1 className="text-2xl font-semibold tracking-tight text-fg">Categorias</h1>
+      <Eyebrow>{`${CATEGORIES.length} categorias`}</Eyebrow>
+      <h1 className="mt-3 text-2xl font-semibold tracking-tight text-fg sm:text-3xl">Categorias</h1>
       <p className="mt-2 max-w-2xl text-base text-fg-muted">
         A biblioteca organizada pelo que cada ícone desenha. Cada ícone mora em uma categoria; a busca encontra todos por sinônimos e tags, em português e em inglês.
       </p>

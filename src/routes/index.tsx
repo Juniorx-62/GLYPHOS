@@ -1,20 +1,23 @@
 import { Link, createFileRoute, useNavigate } from '@tanstack/react-router'
 import { useState } from 'react'
 import { CATEGORIES, COLLECTIONS, STYLES, catalogInfo, loadIcons, loadManifest, sortEntries } from '~/catalog'
-import type { ManifestEntry, ShardIcon, StyleId } from '~/catalog/types'
+import type { ShardIcon } from '~/catalog/types'
 import { useSettings } from '~/data/stores/settings'
 import { Glyph } from '~/components/icons/Glyph'
 import { UiIcon } from '~/components/icons/UiIcon'
 import { Button, Kbd, SectionHeader } from '~/components/ui/primitives'
 import { useCommandPalette } from '~/features/search/CommandPalette'
 import { StaticIconGrid } from '~/features/exploration/IconGrid'
+import { Anatomy, CONTEXT_SLUGS, Chapter, InContext, Mosaic, SPECIMEN_SLUGS, ScaleRuler, Specimen } from '~/features/showcase/Showcase'
 import { useModKey } from '~/hooks/use-media-query'
 import { pageHead, websiteLd } from '~/lib/seo'
 import { SITE_DESCRIPTION } from '~/lib/site'
-import { cn, formatDate, formatNumber } from '~/lib/utils'
+import { formatDate, formatNumber } from '~/lib/utils'
 
 const SUGGESTIONS = ['carrinho de compras', 'calendário', 'nuvem', 'usuário', 'seta', 'lixeira', 'chuva', 'gráfico']
-const STYLE_SAMPLE = ['bell', 'folder', 'heart', 'map-pin', 'message', 'lock', 'image', 'clock']
+const ANATOMY_SLUGS = ['camera', 'folder', 'heart', 'lock', 'cloud', 'gift']
+const SCALE_SLUGS = ['bell', 'map-pin', 'image', 'clock', 'star', 'trash', 'globe', 'wallet']
+const MOSAIC_PER_CATEGORY = 16
 
 export const Route = createFileRoute('/')({
   loader: async () => {
@@ -26,11 +29,16 @@ export const Route = createFileRoute('/')({
       'popular',
     ).slice(0, 24)
     const slugs = new Set([...popular, ...recent].map((e) => e.slug))
-    for (const c of CATEGORIES) slugs.add(c.symbol)
-    for (const s of STYLE_SAMPLE) slugs.add(s)
+    const byCategory: Record<string, string[]> = {}
+    for (const c of CATEGORIES) {
+      const list = sortEntries(manifest.filter((e) => e.category === c.id), 'popular').slice(0, MOSAIC_PER_CATEGORY).map((e) => e.slug)
+      byCategory[c.id] = list
+      list.forEach((s) => slugs.add(s))
+    }
+    for (const s of [...SPECIMEN_SLUGS, ...ANATOMY_SLUGS, ...SCALE_SLUGS, ...CONTEXT_SLUGS]) slugs.add(s)
     for (const c of COLLECTIONS) c.icons.slice(0, 6).forEach((s) => slugs.add(s))
     const icons = Object.fromEntries((await loadIcons([...slugs])).map((i) => [i.slug, i])) as Record<string, ShardIcon>
-    return { popular, recent, icons }
+    return { popular, recent, icons, byCategory }
   },
   head: () =>
     pageHead({
@@ -43,17 +51,55 @@ export const Route = createFileRoute('/')({
 })
 
 function HomePage() {
-  const { popular, recent, icons } = Route.useLoaderData()
+  const { popular, recent, icons, byCategory } = Route.useLoaderData()
   const settings = useSettings()
   const gridOptions = { appearance: settings.appearance, showNames: true, density: 'comfortable' as const }
 
   return (
     <div>
-      <Hero icons={icons} popular={popular} />
+      <Hero icons={icons} />
 
       <div className="mx-auto max-w-[1440px] px-4 sm:px-6">
+        <section className="mt-24" aria-labelledby="anatomy-title">
+          <Chapter index="01 · Estilos" id="anatomy-title" title="Um desenho, três leituras.">
+            Cada conceito é desenhado uma vez. Sólido e Duotone são derivados das formas do desenho-mestre, então uma correção no Contorno chega a todos os estilos.
+          </Chapter>
+          <Anatomy icons={icons} slugs={ANATOMY_SLUGS} />
+        </section>
 
-        <section className="mt-20" aria-labelledby="popular-title">
+        <section className="mt-24" aria-labelledby="scale-title">
+          <Chapter index="02 · Medida" id="scale-title" title="Do 16 ao 48 sem perder a linha.">
+            Os ícones são desenhados para ler bem em 16 px e escalam sem retoques. O traço é um parâmetro, não uma decisão gravada no arquivo.
+          </Chapter>
+          <ScaleRuler icons={icons} slugs={SCALE_SLUGS} />
+        </section>
+
+        <section className="mt-24" aria-labelledby="context-title">
+          <Chapter index="03 · Aplicação" id="context-title" title="Onde o ícone trabalha.">
+            Ao lado do texto, na navegação, numa lista. Mude estilo, traço e cor e veja a mesma família se comportar numa tela.
+          </Chapter>
+          <InContext icons={icons} />
+        </section>
+
+        <section className="mt-24" aria-labelledby="mosaic-title">
+          <Chapter
+            index="04 · Biblioteca"
+            id="mosaic-title"
+            title={`${formatNumber(catalogInfo.icons)} desenhos, ${CATEGORIES.length} categorias.`}
+            aside={
+              <Link to="/categories">
+                <Button size="sm" variant="ghost">
+                  Todas as categorias
+                </Button>
+              </Link>
+            }
+          >
+            Os mais usados de cada categoria, lado a lado. A mesma pena em comida, finanças, mapas ou código.
+          </Chapter>
+          <Mosaic icons={icons} byCategory={byCategory} />
+        </section>
+
+        <section className="mt-24" aria-labelledby="popular-title">
           <SectionHeader
             id="popular-title"
             title="Populares"
@@ -69,40 +115,8 @@ function HomePage() {
           <StaticIconGrid entries={popular} icons={icons} options={gridOptions} label="Ícones populares" />
         </section>
 
-        <section className="mt-20" aria-labelledby="categories-title">
-          <SectionHeader
-            id="categories-title"
-            title="Categorias"
-            description="A biblioteca organizada pelo que cada ícone desenha."
-            action={
-              <Link to="/categories">
-                <Button size="sm" variant="ghost">
-                  Todas as categorias
-                </Button>
-              </Link>
-            }
-          />
-          <ul className="grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-6">
-            {CATEGORIES.map((c) => (
-              <li key={c.id}>
-                <Link
-                  to="/categories/$categoryId"
-                  params={{ categoryId: c.id }}
-                  className="group flex h-full flex-col gap-3 rounded-xl border border-border bg-surface p-4 transition-colors hover:border-border-strong"
-                >
-                  <span className="text-fg">{icons[c.symbol] ? <Glyph nodes={icons[c.symbol].nodes} size={22} /> : <span className="block size-[22px]" />}</span>
-                  <span className="text-sm leading-snug font-medium text-fg">{c.name.pt}</span>
-                  <span className="inscription mt-auto text-fg-subtle">{formatNumber(catalogInfo.categories[c.id] ?? 0)}</span>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </section>
-
-        <StylesShowcase icons={icons} />
-
         {recent.length > 0 && (
-          <section className="mt-20" aria-labelledby="recent-title">
+          <section className="mt-24" aria-labelledby="recent-title">
             <SectionHeader
               id="recent-title"
               title="Adicionados recentemente"
@@ -120,7 +134,7 @@ function HomePage() {
         )}
 
         {COLLECTIONS.length > 0 && (
-          <section className="mt-20" aria-labelledby="collections-title">
+          <section className="mt-24" aria-labelledby="collections-title">
             <SectionHeader
               id="collections-title"
               title="Coleções temáticas"
@@ -157,20 +171,30 @@ function HomePage() {
   )
 }
 
-function Hero({ icons, popular }: { icons: Record<string, ShardIcon>; popular: ManifestEntry[] }) {
+function Hero({ icons }: { icons: Record<string, ShardIcon> }) {
   const navigate = useNavigate()
   const palette = useCommandPalette()
   const mod = useModKey()
   const [query, setQuery] = useState('')
-  const specimen = popular.slice(0, 32)
+  const styles = STYLES.filter((s) => (catalogInfo.styles[s.id] ?? 0) > 0)
+  const facts = [
+    { value: formatNumber(catalogInfo.icons), label: 'ícones' },
+    { value: String(CATEGORIES.length), label: 'categorias' },
+    { value: String(styles.length), label: 'estilos' },
+    { value: '24 · 1,5', label: 'grid · traço' },
+  ]
   return (
     <section className="relative overflow-hidden border-b border-border">
-      <div aria-hidden className="canvas-grid pointer-events-none absolute inset-0 opacity-60 [mask-image:radial-gradient(ellipse_at_top,black,transparent_70%)]" style={{ backgroundSize: '48px 48px' }} />
-      <div className="relative mx-auto grid max-w-[1440px] items-center gap-12 px-4 pt-16 pb-20 sm:px-6 lg:grid-cols-[1.1fr_1fr] lg:pt-24 lg:pb-28">
-        <div>
-          <h1 className="text-3xl font-semibold tracking-tight text-fg sm:text-4xl">Ícones desenhados com a mesma pena.</h1>
-          <p className="mt-5 max-w-xl text-md text-fg-muted">
-            {formatNumber(catalogInfo.icons)} ícones SVG originais num grid de 24, com traço de 1,5. Busque em português ou em inglês, personalize e leve para o seu projeto em SVG, JSX, CSS ou PNG.
+      <div aria-hidden className="canvas-grid pointer-events-none absolute inset-0 opacity-70 [mask-image:radial-gradient(ellipse_at_70%_30%,black,transparent_70%)]" style={{ backgroundSize: '32px 32px' }} />
+      <div className="relative mx-auto grid max-w-[1440px] items-center gap-12 px-4 pt-14 pb-16 sm:px-6 lg:grid-cols-[1.15fr_1fr] lg:pt-20 lg:pb-24">
+        <div className="min-w-0">
+          <p className="inscription flex items-center gap-2 text-fg-muted">
+            <span aria-hidden className="size-2 bg-accent" />
+            Biblioteca de ícones SVG · licença MIT
+          </p>
+          <h1 className="mt-5 max-w-[14ch] text-3xl leading-none font-semibold tracking-tight text-fg sm:text-4xl">Ícones desenhados com a mesma pena.</h1>
+          <p className="mt-6 max-w-xl text-md text-fg-muted">
+            Desenhos originais num grid de 24, com traço de 1,5 e regras de construção que valem para todos. Busque em português ou em inglês, personalize e leve em SVG, JSX, CSS ou PNG.
           </p>
           <form
             role="search"
@@ -201,12 +225,20 @@ function Hero({ icons, popular }: { icons: Record<string, ShardIcon>; popular: M
           <div className="mt-4 flex flex-wrap items-center gap-1.5 text-xs text-fg-subtle">
             <span>Experimente:</span>
             {SUGGESTIONS.map((s) => (
-              <Link key={s} to="/icons" search={{ q: s }} className="rounded-full border border-border bg-surface px-2.5 py-1 text-fg-muted hover:border-border-strong hover:text-fg">
+              <Link key={s} to="/icons" search={{ q: s }} className="rounded-full border border-border bg-surface px-2.5 py-1 text-fg-muted transition-colors duration-fast hover:border-border-strong hover:text-fg">
                 {s}
               </Link>
             ))}
           </div>
-          <p className="mt-6 hidden items-center gap-1.5 text-xs text-fg-subtle sm:flex">
+          <dl className="mt-10 grid max-w-xl grid-cols-2 border-t border-border sm:grid-cols-4">
+            {facts.map((f) => (
+              <div key={f.label} className="py-3 pr-3">
+                <dt className="inscription text-fg-subtle">{f.label}</dt>
+                <dd className="mt-1 text-lg font-semibold tracking-tight text-fg tabular-nums">{f.value}</dd>
+              </div>
+            ))}
+          </dl>
+          <p className="mt-4 hidden items-center gap-1.5 text-xs text-fg-subtle sm:flex">
             Em qualquer página,{' '}
             <button type="button" onClick={() => palette.open()} className="inline-flex items-center gap-1 hover:text-fg">
               <Kbd>{mod}</Kbd>
@@ -215,54 +247,8 @@ function Hero({ icons, popular }: { icons: Record<string, ShardIcon>; popular: M
             abre a busca global.
           </p>
         </div>
-        <div aria-hidden className="relative hidden rounded-xl border border-border bg-surface p-6 sm:block">
-          <div className="grid grid-cols-8 gap-1 text-fg">
-            {specimen.map((e, i) => (
-              <span key={e.slug} className={cn('grid aspect-square place-items-center rounded-md', i === 10 && 'bg-fg text-background')}>
-                {icons[e.slug] ? <Glyph nodes={icons[e.slug].nodes} size={22} /> : null}
-              </span>
-            ))}
-          </div>
-          <div className="mt-5 flex items-center justify-between border-t border-border pt-4">
-            <span className="inscription text-fg-subtle">24 × 24 · traço 1,5 · currentColor</span>
-            <span className="inscription text-accent-emphasis">{specimen[10]?.slug}</span>
-          </div>
-        </div>
+        <Specimen icons={icons} />
       </div>
-    </section>
-  )
-}
-
-function StylesShowcase({ icons }: { icons: Record<string, ShardIcon> }) {
-  const styles = STYLES.filter((s) => (catalogInfo.styles[s.id] ?? 0) > 0)
-  return (
-    <section className="mt-20" aria-labelledby="styles-title">
-      <SectionHeader id="styles-title" title="Um desenho, vários estilos" description="Sólido e Duotone nascem do desenho-mestre: uma correção no Contorno chega a todos os estilos." />
-      <ul className="grid gap-3 md:grid-cols-3">
-        {styles.map((s) => (
-          <li key={s.id} className="rounded-xl border border-border bg-surface p-5">
-            <div className="grid grid-cols-4 gap-4 text-fg">
-              {STYLE_SAMPLE.map((slug) => {
-                const icon = icons[slug]
-                if (!icon) return null
-                const style: StyleId = icon.styles.includes(s.id) ? s.id : 'outline'
-                return (
-                  <span key={slug} className="grid aspect-square place-items-center rounded-lg bg-background-subtle">
-                    <Glyph nodes={icon.nodes} override={icon.overrides?.[style]} style={style} size={24} />
-                  </span>
-                )
-              })}
-            </div>
-            <div className="mt-4 flex items-baseline justify-between gap-2">
-              <h3 className="font-medium text-fg">{s.name.pt}</h3>
-              <Link to="/icons" search={{ style: s.id === 'outline' ? undefined : s.id }} className="inscription text-fg-subtle hover:text-fg">
-                {formatNumber(catalogInfo.styles[s.id] ?? 0)} ícones
-              </Link>
-            </div>
-            <p className="mt-1 text-sm text-fg-muted">{s.description}</p>
-          </li>
-        ))}
-      </ul>
     </section>
   )
 }
@@ -274,7 +260,7 @@ function HowTo() {
     { icon: 'copy' as const, title: 'Leve para o projeto', text: 'Copie o SVG, um componente React (JSX ou TSX) ou uma classe CSS, ou baixe em SVG e PNG.' },
   ]
   return (
-    <section className="mt-20" aria-labelledby="howto-title">
+    <section className="mt-24" aria-labelledby="howto-title">
       <SectionHeader id="howto-title" title="Como usar" />
       <ol className="grid gap-x-10 gap-y-6 md:grid-cols-3">
         {steps.map((s) => (
