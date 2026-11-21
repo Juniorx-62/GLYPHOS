@@ -3,7 +3,9 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import { loadManifest } from '~/catalog'
 import type { ManifestEntry } from '~/catalog/types'
 import { clearAllData, createBackup, restoreBackup } from '~/data/backup'
-import { createCollection, deleteCollection, renameCollection, toggleInCollection, useCollections } from '~/data/stores/collections'
+import { createCollection, deleteCollection, renameCollection, toggleCreationInCollection, toggleInCollection, useCollections } from '~/data/stores/collections'
+import { useCreations } from '~/data/stores/creations'
+import { CreationBadge, CreationThumb, CreationsLibrary } from '~/features/editor/CreationsLibrary'
 import { clearFavorites, useFavorites } from '~/data/stores/favorites'
 import { clearHistory, useHistory } from '~/data/stores/history'
 import { useSettings } from '~/data/stores/settings'
@@ -16,12 +18,12 @@ import { pageHead } from '~/lib/seo'
 import { UiIcon } from '~/components/icons/UiIcon'
 import type { UiIconName } from '~/components/icons/ui-icon-names'
 
-type Tab = 'favorites' | 'recent' | 'collections' | 'data'
-const TABS: Tab[] = ['favorites', 'recent', 'collections', 'data']
+type Tab = 'favorites' | 'recent' | 'creations' | 'collections' | 'data'
+const TABS: Tab[] = ['favorites', 'recent', 'creations', 'collections', 'data']
 
 export const Route = createFileRoute('/library')({
   validateSearch: (raw: Record<string, unknown>): { tab?: Tab } => ({ tab: TABS.includes(raw.tab as Tab) ? (raw.tab as Tab) : undefined }),
-  head: () => pageHead({ title: 'Minha biblioteca · GLYPHOS', description: 'Seus ícones favoritos, vistos recentemente e coleções pessoais, salvos neste navegador.', path: '/library', noindex: true }),
+  head: () => pageHead({ title: 'Minha biblioteca · GLYPHOS', description: 'Seus ícones favoritos, vistos recentemente, criações próprias e coleções pessoais, salvos neste navegador.', path: '/library', noindex: true }),
   component: LibraryPage,
 })
 
@@ -44,10 +46,11 @@ function LibraryPage() {
   const favorites = useFavorites()
   const history = useHistory()
   const collections = useCollections()
+  const creations = useCreations()
   return (
     <div className="mx-auto max-w-[1440px] px-4 pt-10 sm:px-6">
       <h1 className="text-2xl font-medium text-fg sm:text-3xl">Minha biblioteca</h1>
-      <p className="mt-2 max-w-2xl text-base text-fg-muted">Favoritos, ícones vistos por último e suas coleções. Tudo fica neste navegador, sem cadastro; leve para outro aparelho com a cópia de segurança.</p>
+      <p className="mt-2 max-w-2xl text-base text-fg-muted">Favoritos, ícones vistos por último, os ícones que você criou e suas coleções. Tudo fica neste navegador, sem cadastro; leve para outro aparelho com a cópia de segurança.</p>
       <div className="mt-6 overflow-x-auto">
         <Segmented
           label="Seção da biblioteca"
@@ -56,6 +59,7 @@ function LibraryPage() {
           options={[
             { value: 'favorites', label: `Favoritos${hydrated ? ` (${favorites.length})` : ''}` },
             { value: 'recent', label: `Vistos por último${hydrated ? ` (${history.length})` : ''}` },
+            { value: 'creations', label: `Criações${hydrated ? ` (${creations.length})` : ''}` },
             { value: 'collections', label: `Coleções${hydrated ? ` (${collections.length})` : ''}` },
             { value: 'data', label: 'Dados e backup' },
           ]}
@@ -66,10 +70,12 @@ function LibraryPage() {
           <SlugList icon="heart" slugs={favorites.map((f) => f.slug)} empty="Nenhum favorito ainda" hint="Toque no coração de um ícone para guardá-lo aqui." onClear={favorites.length ? () => clearFavorites() : undefined} clearLabel="Limpar favoritos" />
         ) : tab === 'recent' ? (
           <SlugList icon="history" slugs={history.map((h) => h.slug)} empty="Nenhum ícone visto ainda" hint="Os ícones que você abrir, na grade ou na página de cada um, aparecem aqui, do mais recente para o mais antigo." onClear={history.length ? () => clearHistory() : undefined} clearLabel="Limpar histórico" />
+        ) : tab === 'creations' ? (
+          <CreationsLibrary />
         ) : tab === 'collections' ? (
           <Collections />
         ) : (
-          <DataPanel counts={{ favorites: favorites.length, history: history.length, collections: collections.length }} />
+          <DataPanel counts={{ favorites: favorites.length, history: history.length, collections: collections.length, creations: creations.length }} />
         )}
       </div>
     </div>
@@ -109,6 +115,7 @@ function SlugList({ icon, slugs, empty, hint, onClear, clearLabel }: { icon: UiI
 
 function Collections() {
   const collections = useCollections()
+  const creations = useCreations()
   const map = useManifestMap()
   const settings = useSettings()
   const [name, setName] = useState('')
@@ -144,7 +151,10 @@ function Collections() {
             <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
               <div>
                 <h2 className="text-md font-medium text-fg">{c.name}</h2>
-                <p className="text-xs text-fg-subtle">{plural(c.icons.length, 'ícone', 'ícones')}</p>
+                <p className="text-xs text-fg-subtle">
+                  {plural(c.icons.length, 'ícone', 'ícones')}
+                  {c.creations.length > 0 && ` · ${plural(c.creations.length, 'criação', 'criações')}`}
+                </p>
               </div>
               <div className="flex gap-1">
                 <IconButton
@@ -164,6 +174,31 @@ function Collections() {
                 />
               </div>
             </div>
+            {(() => {
+              const own = c.creations.map((id) => creations.find((x) => x.id === id)).filter((x): x is NonNullable<typeof x> => !!x)
+              if (!own.length) return null
+              return (
+                <ul className="mb-3 grid grid-cols-[repeat(auto-fill,minmax(96px,1fr))] gap-1" aria-label={`Criações em ${c.name}`}>
+                  {own.map((cr) => (
+                    <li key={cr.id} className="group relative">
+                      <Link to="/create" search={{ project: cr.id }} className="grid h-24 place-items-center gap-1 rounded-lg p-2 text-fg hover:bg-muted" title={`Editar "${cr.name}"`}>
+                        <CreationThumb doc={cr.doc} size={28} style={settings.appearance.style} />
+                        <span className="w-full truncate text-center text-xs text-fg-muted">{cr.name}</span>
+                      </Link>
+                      <CreationBadge className="pointer-events-none absolute top-1 left-1" />
+                      <button
+                        type="button"
+                        onClick={() => toggleCreationInCollection(c.id, cr.id)}
+                        aria-label={`Tirar "${cr.name}" de "${c.name}"`}
+                        className="absolute top-1 right-1 hidden size-6 place-items-center rounded-md bg-surface-overlay text-fg-muted shadow-xs group-focus-within:grid group-hover:grid hover:text-fg"
+                      >
+                        ×
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              )
+            })()}
             {entries.length ? (
               <ul className="grid grid-cols-[repeat(auto-fill,minmax(96px,1fr))] gap-1">
                 {entries.map((e) => (
@@ -180,8 +215,8 @@ function Collections() {
                   </li>
                 ))}
               </ul>
-            ) : (
-              <p className="text-sm text-fg-muted">Vazia. Abra um ícone e use o botão "Coleção" para incluir.</p>
+            ) : c.creations.length ? null : (
+              <p className="text-sm text-fg-muted">Vazia. Abra um ícone e use o botão "Coleção" para incluir; suas criações entram pelo botão de coleção do cartão em Criações.</p>
             )}
           </section>
         )
@@ -190,12 +225,13 @@ function Collections() {
   )
 }
 
-function DataPanel({ counts }: { counts: { favorites: number; history: number; collections: number } }) {
+function DataPanel({ counts }: { counts: { favorites: number; history: number; collections: number; creations: number } }) {
   const fileRef = useRef<HTMLInputElement>(null)
   const settings = useSettings()
   const saved: Array<{ icon: UiIconName; label: string; value: string }> = [
     { icon: 'heart', label: 'Favoritos', value: plural(counts.favorites, 'ícone', 'ícones') },
     { icon: 'history', label: 'Vistos por último', value: plural(counts.history, 'ícone', 'ícones') },
+    { icon: 'pen-tool', label: 'Criações (projetos do editor)', value: plural(counts.creations, 'ícone', 'ícones') },
     { icon: 'bookmark', label: 'Coleções pessoais', value: plural(counts.collections, 'coleção', 'coleções') },
     { icon: 'sliders', label: 'Preferências', value: `Tema ${settings.theme === 'dark' ? 'escuro' : 'claro'}, traço ${String(settings.appearance.strokeWidth).replace('.', ',')}` },
   ]
@@ -222,7 +258,7 @@ function DataPanel({ counts }: { counts: { favorites: number; history: number; c
         <h2 id="backup-title" className="text-md font-medium text-fg">
           Cópia de segurança
         </h2>
-        <p className="mt-1 text-sm text-fg-muted">Um arquivo JSON com favoritos, histórico, coleções e preferências. Use para levar seus dados a outro navegador ou aparelho.</p>
+        <p className="mt-1 text-sm text-fg-muted">Um arquivo JSON com favoritos, histórico, criações, coleções e preferências. Use para levar seus dados a outro navegador ou aparelho.</p>
         <div className="mt-4 flex flex-wrap gap-2">
           <Button
             variant="primary"
@@ -264,7 +300,7 @@ function DataPanel({ counts }: { counts: { favorites: number; history: number; c
         <h2 id="erase-title" className="text-md font-medium text-fg">
           Apagar dados deste navegador
         </h2>
-        <p className="mt-1 text-sm text-fg-muted">Remove favoritos, histórico, coleções e preferências. Não dá para desfazer: exporte uma cópia antes.</p>
+        <p className="mt-1 text-sm text-fg-muted">Remove favoritos, histórico, criações, coleções e preferências. Não dá para desfazer: exporte uma cópia antes.</p>
         <Button
           className="mt-4 text-error hover:border-error/60"
           icon="trash"

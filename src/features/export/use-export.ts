@@ -14,7 +14,7 @@ function resolvedTextColor() {
 }
 
 /** Export actions for one icon with the person's current customisation. */
-export function useIconExport(icon: Pick<ShardIcon, 'slug' | 'nodes' | 'styles' | 'overrides' | 'name' | 'id'> | undefined, overrides: Partial<ExportOptions> = {}) {
+export function useIconExport(icon: (Pick<ShardIcon, 'slug' | 'nodes' | 'styles' | 'overrides' | 'name' | 'id'> & { box?: number }) | undefined, overrides: Partial<ExportOptions> = {}) {
   const appearance = useAppearance()
   const options: ExportOptions = { ...appearance, ...overrides }
   const style = icon ? effectiveStyle(icon, options.style) : options.style

@@ -41,6 +41,8 @@ try {
     '/icons?q=carrinho%20de%20compras',
     '/icons?category=weather&style=solid',
     '/library',
+    '/library?tab=creations',
+    '/create?from=house',
     '/rota-que-nao-existe',
     ...icons.filter((_, i) => i % step === 0).slice(0, sample),
   ]

@@ -132,6 +132,50 @@ try {
     await until(page, `document.querySelector('a[href="/icons/mail"]')`)
   })
 
+  const shapesLabel = `(document.querySelector('svg[role=application]')?.getAttribute('aria-label') ?? '')`
+  /** Drags on the editor canvas, from and to fractions of its box. */
+  const drag = async (page, from, to) => {
+    const r = await page.eval(`(() => { const b = document.querySelector('svg[role=application]').getBoundingClientRect(); return [b.left, b.top, b.width, b.height] })()`)
+    const at = ([fx, fy]) => ({ x: r[0] + r[2] * fx, y: r[1] + r[3] * fy })
+    const a = at(from)
+    const b = at(to)
+    await page.call('Input.dispatchMouseEvent', { type: 'mousePressed', x: a.x, y: a.y, button: 'left', buttons: 1, clickCount: 1 })
+    for (let i = 1; i <= 6; i++) await page.call('Input.dispatchMouseEvent', { type: 'mouseMoved', x: a.x + ((b.x - a.x) * i) / 6, y: a.y + ((b.y - a.y) * i) / 6, button: 'left', buttons: 1 })
+    await page.call('Input.dispatchMouseEvent', { type: 'mouseReleased', x: b.x, y: b.y, button: 'left', buttons: 0, clickCount: 1 })
+  }
+
+  await flow('Editor: desenhar, desfazer, salvar e reabrir pela biblioteca', async () => {
+    await page.goto(`${origin}/create`, { waitMs: 1800 })
+    await until(page, `document.querySelector('svg[role=application]')`)
+    await click(page, 'button[aria-label="Retângulo (R)"]')
+    await drag(page, [0.35, 0.35], [0.65, 0.65])
+    await until(page, `${shapesLabel}.includes('1 forma')`)
+    await click(page, 'button[aria-label="Elipse (O)"]')
+    await drag(page, [0.42, 0.42], [0.58, 0.58])
+    await until(page, `${shapesLabel}.includes('2 formas')`)
+    await click(page, 'button[aria-label^="Desfazer"]')
+    await until(page, `${shapesLabel}.includes('1 forma')`)
+    await click(page, 'button[aria-label^="Refazer"]')
+    await until(page, `${shapesLabel}.includes('2 formas')`)
+    await clickText(page, 'button', 'Salvar na biblioteca')
+    const id = await until(page, `new URLSearchParams(location.search).get('project')`)
+    await sleep(400)
+    await page.goto(`${origin}/library?tab=creations`, { waitMs: 1500 })
+    await until(page, `[...document.querySelectorAll('h3')].some((h) => h.textContent === 'Ícone sem nome')`)
+    await page.goto(`${origin}/create?project=${id}`, { waitMs: 1800 })
+    await until(page, `${shapesLabel}.includes('2 formas')`)
+  })
+
+  await flow('Editor: abrir uma cópia de um ícone da biblioteca e exportar SVG válido', async () => {
+    await page.goto(`${origin}/icons/house`, { waitMs: 1500 })
+    await clickText(page, 'button', 'Editar uma cópia')
+    await until(page, `location.pathname === '/create' && ${shapesLabel}.includes('formas')`)
+    await clickText(page, 'button', 'Exportar')
+    await until(page, `document.querySelector('dialog[open]')?.textContent.includes('Copiar SVG')`)
+    const ok = await until(page, `(() => { const t = [...document.querySelectorAll('dialog[open] pre, dialog[open] code')].map(e => e.textContent).find(t => t.startsWith('<svg')); return t && !new DOMParser().parseFromString(t, 'image/svg+xml').querySelector('parsererror') && t.includes('viewBox="0 0 24 24"') })()`)
+    if (!ok) throw new Error('SVG exportado inválido')
+  })
+
   await flow('Ícone renomeado ou inexistente: 404 com caminho de volta', async () => {
     await page.goto(`${origin}/icons/nao-existe-este-icone`, { waitMs: 1200 })
     await until(page, `document.querySelector('h1')?.textContent.includes('não encontrada')`)

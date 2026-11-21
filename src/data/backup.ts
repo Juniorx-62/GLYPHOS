@@ -1,11 +1,12 @@
 /**
  * Backup of the visitor's data as one JSON file: favourites, history,
- * personal collections and settings. Restoring checks the whole file first
+ * personal collections, own creations and settings. Restoring checks the whole file first
  * (every store through its own migrate); if any part is invalid, nothing
  * changes.
  */
 import { allStores, type PersistentStore } from './store'
 import { collectionsStore } from './stores/collections'
+import { creationsStore } from './stores/creations'
 import { favoritesStore } from './stores/favorites'
 import { historyStore } from './stores/history'
 import { THEME_STORAGE_KEY, settingsStore } from './stores/settings'
@@ -14,7 +15,7 @@ import { isRecord } from './validate'
 export const BACKUP_APP = 'glyphos'
 export const BACKUP_VERSION = 1
 
-const STORES = [favoritesStore, historyStore, collectionsStore, settingsStore] as unknown as PersistentStore<unknown>[]
+const STORES = [favoritesStore, historyStore, collectionsStore, creationsStore, settingsStore] as unknown as PersistentStore<unknown>[]
 
 export interface BackupFile {
   app: typeof BACKUP_APP

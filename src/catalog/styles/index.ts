@@ -95,6 +95,8 @@ export interface RenderOptions {
   uid?: string
   /** Hand-drawn replacement for this style, if any. */
   override?: IconNode[]
+  /** Side of the drawing area in units (viewBox). Omitted → 24, the GLYPHOS grid. Editor artboards can differ. */
+  box?: number
 }
 
 const shape = (n: IconNode, extra: Record<string, string> = {}): SvgElement => ({ tag: n.tag, attrs: { ...n.attrs, ...extra } })
@@ -103,13 +105,13 @@ const round = (v: number) => String(Math.round(v * 1000) / 1000)
 
 /** Builds the SVG of an icon in a style. Never mutates the nodes. */
 export function renderIcon(nodes: IconNode[], options: RenderOptions): SvgElement {
-  const { style, strokeWidth = DEFAULT_STROKE, size = 24, color = 'currentColor', opacity, uid } = options
+  const { style, strokeWidth = DEFAULT_STROKE, size = 24, color = 'currentColor', opacity, uid, box = 24 } = options
   const def = styleById(style)
   const root: Record<string, string> = {
     xmlns: 'http://www.w3.org/2000/svg',
     width: String(size),
     height: String(size),
-    viewBox: '0 0 24 24',
+    viewBox: `0 0 ${round(box)} ${round(box)}`,
     fill: 'none',
     stroke: color,
     'stroke-width': round(strokeWidth),
@@ -155,9 +157,9 @@ export function renderIcon(nodes: IconNode[], options: RenderOptions): SvgElemen
         children: [
           {
             tag: 'mask',
-            attrs: { id, maskUnits: 'userSpaceOnUse', x: '0', y: '0', width: '24', height: '24' },
+            attrs: { id, maskUnits: 'userSpaceOnUse', x: '0', y: '0', width: round(box), height: round(box) },
             children: [
-              { tag: 'rect', attrs: { width: '24', height: '24', fill: '#fff', stroke: 'none' } },
+              { tag: 'rect', attrs: { width: round(box), height: round(box), fill: '#fff', stroke: 'none' } },
               ...cuts.map((n) =>
                 shape(n, n.attrs.fill === 'currentColor' ? { fill: '#000', stroke: n.attrs.stroke === 'none' ? 'none' : '#000' } : { stroke: '#000' }),
               ),

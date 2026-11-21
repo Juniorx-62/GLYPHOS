@@ -1,6 +1,7 @@
 import { createPersistentStore, useStoreSelector } from '../store'
 import type { PersonalCollection } from '../types'
 import { isIso, isRecord, isSlug } from '../validate'
+import { CREATION_ID } from './creations'
 
 const MAX_COLLECTIONS = 200
 const MAX_ICONS = 1000
@@ -15,6 +16,7 @@ function clean(data: unknown): PersonalCollection[] | undefined {
       id: c.id,
       name: c.name.trim().slice(0, 80),
       icons: [...new Set(c.icons.filter(isSlug))].slice(0, MAX_ICONS),
+      creations: Array.isArray(c.creations) ? [...new Set(c.creations.filter((v): v is string => typeof v === 'string' && CREATION_ID.test(v)))].slice(0, MAX_ICONS) : [],
       createdAt: isIso(c.createdAt) ? c.createdAt : new Date().toISOString(),
       updatedAt: isIso(c.updatedAt) ? c.updatedAt : new Date().toISOString(),
     })
@@ -36,7 +38,7 @@ export function createCollection(name: string, icons: string[] = []): string {
   const id = newId()
   const now = new Date().toISOString()
   const title = name.trim().slice(0, 80) || 'Nova coleção'
-  collectionsStore.set((list) => [{ id, name: title, icons: [...new Set(icons)], createdAt: now, updatedAt: now }, ...list].slice(0, MAX_COLLECTIONS))
+  collectionsStore.set((list) => [{ id, name: title, icons: [...new Set(icons)], creations: [], createdAt: now, updatedAt: now }, ...list].slice(0, MAX_COLLECTIONS))
   return id
 }
 
@@ -65,3 +67,23 @@ export function toggleInCollection(id: string, slug: string) {
 }
 
 export const useCollections = () => useStoreSelector(collectionsStore, (list) => list)
+
+/** Adds or removes one of the visitor's creations from a collection. */
+export function toggleCreationInCollection(id: string, creationId: string) {
+  collectionsStore.set((list) =>
+    list.map((c) =>
+      c.id !== id
+        ? c
+        : {
+            ...c,
+            creations: c.creations.includes(creationId) ? c.creations.filter((s) => s !== creationId) : [...c.creations, creationId].slice(0, MAX_ICONS),
+            updatedAt: new Date().toISOString(),
+          },
+    ),
+  )
+}
+
+/** Forgets a deleted creation in every collection. */
+export function dropCreationFromCollections(creationId: string) {
+  collectionsStore.set((list) => (list.some((c) => c.creations.includes(creationId)) ? list.map((c) => ({ ...c, creations: c.creations.filter((s) => s !== creationId) })) : list))
+}

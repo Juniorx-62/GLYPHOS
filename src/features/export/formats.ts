@@ -21,6 +21,8 @@ export interface ExportIcon {
   nodes: PackedNode[]
   styles: StyleId[]
   overrides?: Partial<Record<StyleId, PackedNode[]>>
+  /** Drawing area in units (editor artboards); omitted → 24. */
+  box?: number
 }
 
 export interface ExportOptions {
@@ -47,6 +49,7 @@ export function renderTree(icon: ExportIcon, o: ExportOptions, { uid, size }: { 
     opacity: o.opacity,
     uid: uid ?? icon.slug,
     override: override ? unpack(override) : undefined,
+    box: icon.box,
   })
 }
 

@@ -6,13 +6,14 @@ import { useId, useState } from 'react'
 import type { ShardIcon } from '~/catalog/types'
 import { CodeBlock } from '~/components/code/CodeBlock'
 import { Button, Segmented, Select } from '~/components/ui/primitives'
-import type { ExportFormat } from './formats'
+import type { ExportFormat, ExportOptions } from './formats'
 import { useIconExport } from './use-export'
 
-type ExportableIcon = Pick<ShardIcon, 'slug' | 'nodes' | 'styles' | 'overrides' | 'name' | 'id'>
+/** A library icon, or a creation of the editor (which carries its artboard size). */
+export type ExportableIcon = Pick<ShardIcon, 'slug' | 'nodes' | 'styles' | 'overrides' | 'name' | 'id'> & { box?: number }
 
-export function QuickExportActions({ icon, compact = false }: { icon: ExportableIcon; compact?: boolean }) {
-  const ex = useIconExport(icon)
+export function QuickExportActions({ icon, compact = false, options }: { icon: ExportableIcon; compact?: boolean; options?: Partial<ExportOptions> }) {
+  const ex = useIconExport(icon, options)
   return (
     <div className={compact ? 'grid grid-cols-2 gap-2' : 'flex flex-wrap gap-2'}>
       <Button variant="primary" icon="copy" onClick={() => ex.copy('svg')}>
@@ -39,9 +40,9 @@ const FORMATS: Array<{ value: ExportFormat; label: string; hint: string }> = [
   { value: 'dataUri', label: 'Data URI', hint: 'O SVG como endereço, para <img src="…"> ou background-image.' },
 ]
 
-export function CodePanel({ icon }: { icon: ExportableIcon }) {
+export function CodePanel({ icon, options }: { icon: ExportableIcon; options?: Partial<ExportOptions> }) {
   const [format, setFormat] = useState<ExportFormat>('svg')
-  const ex = useIconExport(icon)
+  const ex = useIconExport(icon, options)
   const code = ex.text(format)
   const current = FORMATS.find((f) => f.value === format)!
   return (
@@ -65,11 +66,11 @@ export function CodePanel({ icon }: { icon: ExportableIcon }) {
 
 const PNG_SIZES = [16, 24, 32, 48, 64, 96, 128, 256, 512, 1024]
 
-export function PngExport({ icon }: { icon: ExportableIcon }) {
+export function PngExport({ icon, options, sizes = PNG_SIZES, defaultBackground = 'transparent' }: { icon: ExportableIcon; options?: Partial<ExportOptions>; sizes?: number[]; defaultBackground?: 'transparent' | 'white' | 'black' }) {
   const id = useId()
-  const ex = useIconExport(icon)
+  const ex = useIconExport(icon, options)
   const [size, setSize] = useState(128)
-  const [bg, setBg] = useState<'transparent' | 'white' | 'black'>('transparent')
+  const [bg, setBg] = useState<'transparent' | 'white' | 'black'>(defaultBackground)
   return (
     <div className="flex flex-wrap items-end gap-3">
       <div className="grid gap-1.5">
@@ -77,7 +78,7 @@ export function PngExport({ icon }: { icon: ExportableIcon }) {
           Tamanho do PNG
         </label>
         <Select id={`${id}-size`} value={size} onChange={(e) => setSize(Number(e.target.value))} className="w-32">
-          {PNG_SIZES.map((s) => (
+          {sizes.map((s) => (
             <option key={s} value={s}>
               {s} × {s} px
             </option>

@@ -17,3 +17,4 @@ Registros curtos das escolhas que dão forma ao GLYPHOS: contexto, problema, alt
 | [0011](0011-identidade.md) | Nome GLYPHOS e a rubrica como cor própria |
 | [0012](0012-apresentacao-pelo-proprio-sistema.md) | O produto se apresenta pelo próprio sistema de desenho |
 | [0013](0013-tipografia-e-composicao.md) | IBM Plex e composição por espaço, não por caixas |
+| [0014](0014-editor-de-icones.md) | Editor de ícones sobre o mesmo modelo de desenho e exportação |

@@ -16,6 +16,7 @@ const NAV = [
   { to: '/icons', label: 'Ícones' },
   { to: '/categories', label: 'Categorias' },
   { to: '/collections', label: 'Coleções' },
+  { to: '/create', label: 'Criar' },
   { to: '/about', label: 'Sobre' },
 ] as const
 
@@ -31,7 +32,7 @@ export function AppShell({ children }: { children: ReactNode }) {
         <main id="conteudo" className="flex-1">
           {children}
         </main>
-        <Footer />
+        <FooterUnlessEditor />
       </div>
       <Toaster />
     </CommandPaletteProvider>
@@ -160,6 +161,12 @@ function Header() {
   )
 }
 
+/** The editor fills the screen below the header: no footer there. */
+function FooterUnlessEditor() {
+  const path = useActivePath()
+  return path === '/create' || path.startsWith('/create/') ? null : <Footer />
+}
+
 function Footer() {
   return (
     <footer className="mt-24 border-t border-border bg-background-subtle">
@@ -177,6 +184,7 @@ function Footer() {
             ['/categories', 'Categorias'],
             ['/collections', 'Coleções'],
             ['/library', 'Minha biblioteca'],
+            ['/create', 'Criar um ícone'],
           ]}
         />
         <FooterColumn

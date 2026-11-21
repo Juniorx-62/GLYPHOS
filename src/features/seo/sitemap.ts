@@ -16,6 +16,7 @@ export async function indexablePaths(): Promise<Array<{ path: string; lastmod?: 
     ...CATEGORIES.map((c) => ({ path: `/categories/${c.id}`, lastmod: day })),
     { path: '/collections', lastmod: day },
     ...COLLECTIONS.map((c) => ({ path: `/collections/${c.id}`, lastmod: day })),
+    { path: '/create' },
     { path: '/about' },
     ...manifest.map((e) => ({ path: `/icons/${e.slug}`, lastmod: e.added })),
   ]

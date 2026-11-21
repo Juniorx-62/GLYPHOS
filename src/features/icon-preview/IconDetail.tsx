@@ -186,6 +186,9 @@ export function IconDetail({ data }: { data: IconDetailData }) {
           <div className="flex flex-wrap gap-2">
             <FavoriteButton slug={icon.slug} name={icon.name.pt} withLabel />
             <CollectionMenu slug={icon.slug} name={icon.name.pt} />
+            <Link to="/create" search={{ from: icon.slug }} title="Abre uma cópia editável no editor. O ícone da biblioteca não muda.">
+              <Button icon="pen-tool">Editar uma cópia</Button>
+            </Link>
           </div>
 
           <div className="border-t border-border pt-6">

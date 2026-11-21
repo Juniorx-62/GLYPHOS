@@ -10,6 +10,11 @@ export const UI_ICON_NAMES = [
   'chevron-down', 'chevron-up', 'chevron-left', 'chevron-right', 'arrow-right', 'arrow-left', 'arrow-up-right', 'arrows-up-down', 'rotate-cw',
   'layout-grid', 'layers', 'list', 'file', 'folder', 'download', 'upload', 'image', 'code', 'clock', 'history', 'lock', 'user',
   'mail', 'monitor', 'keyboard', 'command', 'sun', 'moon', 'heart', 'star', 'share', 'shopping-cart', 'tag', 'map-pin', 'house',
+  // Editor (/create)
+  'mouse-pointer', 'bezier-curve', 'square', 'circle', 'line-segment', 'pentagon', 'pencil', 'pen-tool', 'hand', 'undo', 'redo', 'zoom-in',
+  'zoom-out', 'maximize', 'magnet', 'grid-3x3', 'group', 'ungroup', 'eye-off', 'lock-open', 'union', 'subtract-shape', 'intersect',
+  'exclude-shape', 'bring-to-front', 'send-to-back', 'bring-forward', 'send-backward', 'align-left-edge', 'align-center-horizontal',
+  'align-right-edge', 'align-top', 'align-middle', 'align-bottom', 'flip-horizontal', 'flip-vertical', 'sparkles', 'floppy-disk', 'crosshair',
 ] as const
 
 export type UiIconName = (typeof UI_ICON_NAMES)[number]

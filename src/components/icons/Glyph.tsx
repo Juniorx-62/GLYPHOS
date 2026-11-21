@@ -36,16 +36,18 @@ export interface GlyphProps {
   opacity?: number
   className?: string
   cssStyle?: CSSProperties
+  /** Drawing area in units (editor artboards); omitted → 24. */
+  box?: number
   /** Accessible name. Without it the icon is decorative (aria-hidden). */
   label?: string
 }
 
-export const Glyph = memo(function Glyph({ nodes, style = 'outline', override, size = 24, strokeWidth, color, opacity, className, cssStyle, label }: GlyphProps) {
+export const Glyph = memo(function Glyph({ nodes, style = 'outline', override, size = 24, strokeWidth, color, opacity, className, cssStyle, label, box }: GlyphProps) {
   const rawId = useId()
   const uid = rawId.replace(/[^a-zA-Z0-9]/g, '')
   const tree = useMemo(
-    () => renderIcon(unpack(nodes), { style, size, strokeWidth, color, opacity, uid, override: override ? unpack(override) : undefined }),
-    [nodes, style, size, strokeWidth, color, opacity, uid, override],
+    () => renderIcon(unpack(nodes), { style, size, strokeWidth, color, opacity, uid, override: override ? unpack(override) : undefined, box }),
+    [nodes, style, size, strokeWidth, color, opacity, uid, override, box],
   )
   const props: Record<string, unknown> = {}
   for (const [k, v] of Object.entries(tree.attrs)) if (k !== 'xmlns') props[PROP[k] ?? k] = v

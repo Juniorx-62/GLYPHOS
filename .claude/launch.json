@@ -1,7 +1,71 @@
 {
   "version": "0.0.1",
   "configurations": [
-    { "name": "glyphos-dev", "runtimeExecutable": "npm", "runtimeArgs": ["run", "dev"], "port": 3100 },
-    { "name": "glyphos-preview", "runtimeExecutable": "npx", "runtimeArgs": ["vite", "preview", "--port", "3101"], "port": 3101 }
+    {
+      "name": "glyphos-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "dev"
+      ],
+      "port": 3100
+    },
+    {
+      "name": "glyphos-preview",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": [
+        "vite",
+        "preview",
+        "--port",
+        "3101"
+      ],
+      "port": 3101
+    },
+    {
+      "name": "refino-dev",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": [
+        "vite",
+        "dev",
+        "--port",
+        "3110"
+      ],
+      "cwd": ".claude/worktrees/refino",
+      "port": 3110
+    },
+    {
+      "name": "refino-preview",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": [
+        "vite",
+        "preview",
+        "--port",
+        "3111"
+      ],
+      "cwd": ".claude/worktrees/refino",
+      "port": 3111
+    },
+    {
+      "name": "editor-dev",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": [
+        "vite",
+        "dev",
+        "--port",
+        "3120"
+      ],
+      "port": 3120
+    },
+    {
+      "name": "editor-preview",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": [
+        "vite",
+        "preview",
+        "--port",
+        "3121"
+      ],
+      "port": 3121
+    }
   ]
 }

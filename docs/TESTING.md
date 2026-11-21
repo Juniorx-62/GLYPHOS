@@ -7,7 +7,7 @@
 | Portão completo | `npm run verify` | Antes de cada push | 1 a 2 min |
 | Unitários + integração | `npm test` | Durante o desenvolvimento | segundos |
 | Catálogo | `npm run catalog:validate` | Ao mexer em ícones | segundos |
-| Ponta a ponta | `npm run test:e2e` | Mudou um fluxo (busca, exploração, exportação, biblioteca) | ~30 s |
+| Ponta a ponta | `npm run test:e2e` | Mudou um fluxo (busca, exploração, exportação, biblioteca, editor) | ~30 s |
 | Páginas | `npm run check:pages` | Mudou algo visível | alguns minutos |
 | SEO | `npm run check:seo` | Depois de cada publicação | ~1 min |
 
@@ -59,8 +59,10 @@ Contra um servidor rodando (`npm run dev`, `npm run start` ou um deploy):
 6. Personalização: o traço muda a prévia e o código.
 7. Download de SVG e PNG.
 8. Favoritar e ver na biblioteca.
-9. 404 de ícone inexistente.
-10. Celular (375 px): painel inferior e nenhuma rolagem lateral.
+9. Editor: desenhar retângulo e elipse, desfazer e refazer, salvar, achar na aba Criações e reabrir.
+10. Editor: "Editar uma cópia" de um ícone da biblioteca e SVG exportado válido.
+11. 404 de ícone inexistente.
+12. Celular (375 px): painel inferior e nenhuma rolagem lateral.
 
 ## Testes de responsividade
 
