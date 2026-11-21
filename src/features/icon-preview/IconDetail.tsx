@@ -117,8 +117,8 @@ export function IconDetail({ data }: { data: IconDetailData }) {
             <div>
               <h2 className="text-sm text-fg-muted">Em escala</h2>
               <ul className="mt-4 flex flex-wrap items-end gap-x-6 gap-y-3 text-fg">
-                {SCALES.map((s) => (
-                  <li key={s} className="flex flex-col items-center gap-2">
+                {SCALES.map((s, i) => (
+                  <li key={s} className={cn('flex-col items-center gap-2', i === SCALES.length - 1 ? 'hidden sm:flex' : 'flex')}>
                     {glyph(s)}
                     <span className="inscription text-fg-subtle">{s}</span>
                   </li>
@@ -157,9 +157,7 @@ export function IconDetail({ data }: { data: IconDetailData }) {
             {(['light', 'dark'] as const).map((t) => (
               <div key={t} data-theme={t} className="flex items-center gap-3 bg-background px-4 py-3 text-fg">
                 {glyph(20)}
-                <p className="min-w-0 truncate text-sm">
-                  {icon.name.pt} <span className="text-fg-subtle">· tema {t === 'light' ? 'claro' : 'escuro'}</span>
-                </p>
+                <p className="min-w-0 truncate text-sm text-fg-muted">Tema {t === 'light' ? 'claro' : 'escuro'}</p>
               </div>
             ))}
           </div>
@@ -173,11 +171,11 @@ export function IconDetail({ data }: { data: IconDetailData }) {
             </h1>
             <p className="mt-1 text-base text-fg-muted">{icon.name.en}</p>
             <div className="mt-3 flex flex-wrap items-center gap-x-5 gap-y-2">
-              <button type="button" onClick={() => ex.copyIdentifier('slug')} className="inscription inline-flex items-center gap-1.5 text-fg-muted hover:text-fg" title="Copiar o nome técnico">
+              <button type="button" onClick={() => ex.copyIdentifier('slug')} className="inscription inline-flex min-h-7 items-center gap-1.5 text-fg-muted hover:text-fg" title="Copiar o nome técnico">
                 {icon.slug}
                 <UiIcon name="copy" size={12} />
               </button>
-              <button type="button" onClick={() => ex.copyIdentifier('id')} className="inscription inline-flex items-center gap-1.5 text-fg-subtle hover:text-fg" title="Copiar o identificador estável">
+              <button type="button" onClick={() => ex.copyIdentifier('id')} className="inscription inline-flex min-h-7 items-center gap-1.5 text-fg-subtle hover:text-fg" title="Copiar o identificador estável">
                 id {icon.id}
                 <UiIcon name="copy" size={12} />
               </button>

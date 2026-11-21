@@ -200,7 +200,7 @@ function Hero({ icons }: { icons: Record<string, ShardIcon> }) {
               <UiIcon name="arrow-right" size={16} />
             </button>
           </form>
-          <p className="mt-4 max-w-lg text-sm text-fg-muted">
+          <p className="mt-4 max-w-lg text-sm leading-7 text-fg-muted">
             Experimente{' '}
             {SUGGESTIONS.map((s, i) => (
               <span key={s}>

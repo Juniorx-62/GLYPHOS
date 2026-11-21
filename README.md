@@ -35,11 +35,13 @@
 
 ## Sobre o projeto
 
-O GLYPHOS é uma plataforma de descoberta, consulta, personalização e exportação de ícones. Todos os ícones são desenhos próprios, num grid de 24 unidades com traço de 1,5 e pontas redondas, organizados por categoria e descritos com nomes, sinônimos e tags em português e em inglês.
+O GLYPHOS é um conjunto de ícones feito para funcionar como família. Todos os desenhos são próprios e seguem as mesmas regras de construção: grid de 24 unidades, área viva com 2 de margem, traço de 1,5 com pontas e cantos redondos, formas-chave comuns. Colocados lado a lado numa interface, um ícone de comida, um de finanças e um de código parecem ter saído da mesma mão.
 
-Cada conceito tem um desenho-mestre (Contorno). Os estilos Sólido e Duotone são derivados dele pelo papel de cada forma, então uma correção no desenho chega a todos os estilos. A arquitetura também aceita estilos desenhados à mão (Reto, Arredondado, Preenchido).
+Cada conceito é desenhado uma vez, no Contorno. Sólido e Duotone saem desse desenho-mestre pelo papel de cada forma (contorno, corpo, recorte), de modo que uma correção chega a todos os estilos sem retoque. A arquitetura também aceita estilos desenhados à mão (Reto, Arredondado, Preenchido).
 
-- **Para quem:** quem desenvolve e desenha interfaces, de quem está começando a quem precisa de um ícone pronto, acessível e portátil.
+O catálogo é a fonte de verdade: cada ícone tem nome, sinônimos e tags em português e em inglês, categoria, autoria e licença, versionados junto com o desenho. O site existe para usar a biblioteca: encontrar o ícone pela palavra que vier à cabeça, ajustar estilo, traço e cor e levar o arquivo pronto.
+
+- **Para quem:** quem desenha e desenvolve interfaces e precisa de ícones que combinem entre si, não de um ícone avulso.
 - **Sem cadastro:** favoritos, histórico, coleções e preferências ficam no navegador, com cópia de segurança em JSON.
 - **Livre:** os ícones são distribuídos sob a licença MIT, inclusive para uso comercial.
 
@@ -47,7 +49,7 @@ Cada conceito tem um desenho-mestre (Contorno). Os estilos Sólido e Duotone sã
 
 | Área | Rota | O que oferece |
 | --- | --- | --- |
-| Início | `/` | Busca em destaque, populares, categorias, estilos, novidades, coleções temáticas e como usar |
+| Início | `/` | Busca, um ícone sobre o grid de construção com estilo e traço ajustáveis, a biblioteca por categoria, os três estilos lado a lado, a régua de tamanhos, uma tela de exemplo, os mais usados e os novos, e as coleções |
 | Explorar | `/icons` | Grade virtual com busca instantânea, filtros por categoria e estilo, ordenação por popularidade, nome ou novidade, filtros ativos e painel rápido do ícone. A URL guarda a vista |
 | Ícone | `/icons/:slug` | Prévia ampliada sobre o grid, escalas reais, temas claro e escuro, personalização, estilos, código (SVG, JSX, TSX, CSS, data URI), PNG, metadados, família e relacionados |
 | Categorias | `/categories`, `/categories/:id` | Todas as categorias e, em cada uma, todos os ícones por subcategoria |

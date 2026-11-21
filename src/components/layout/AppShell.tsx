@@ -206,10 +206,10 @@ function FooterColumn({ title, links }: { title: string; links: Array<[string, s
   return (
     <div>
       <h2 className="text-sm font-medium text-fg">{title}</h2>
-      <ul className="mt-3 grid gap-2">
+      <ul className="mt-3 grid">
         {links.map(([href, label]) => (
           <li key={href}>
-            <a href={href} className="text-sm text-fg-muted hover:text-fg">
+            <a href={href} className="inline-block py-1 text-sm text-fg-muted hover:text-fg">
               {label}
             </a>
           </li>

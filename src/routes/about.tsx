@@ -62,7 +62,7 @@ function AboutPage() {
   const license = LICENSES.MIT
   return (
     <div className="mx-auto max-w-[1080px] px-4 pt-12 sm:px-6">
-      <div className="flex items-center gap-4">
+      <div className="flex flex-col items-start gap-4 sm:flex-row sm:items-center">
         <LogoMark size={44} className="text-fg" />
         <div>
           <h1 className="text-2xl font-medium text-fg sm:text-3xl">Sobre o GLYPHOS</h1>

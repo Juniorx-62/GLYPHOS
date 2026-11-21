@@ -181,8 +181,8 @@ export function Anatomy({ icons, slugs, scaleSlugs }: { icons: IconMap; slugs: s
             <Slider id="scale-stroke" label="Traço" value={stroke} onChange={setStroke} min={STROKE_RANGE.min} max={STROKE_RANGE.max} step={STROKE_RANGE.step} format={strokeLabel} />
           </div>
         </div>
-        <div className="-mx-4 overflow-x-auto px-4">
-          <table className="w-full min-w-[30rem] border-collapse text-fg">
+        <div className="min-w-0">
+          <table className="w-full border-collapse text-fg sm:min-w-[30rem]">
             <caption className="sr-only">Os mesmos ícones em cinco tamanhos, com o traço escolhido</caption>
             <tbody>
               {SIZES.map((size) => (
@@ -190,8 +190,8 @@ export function Anatomy({ icons, slugs, scaleSlugs }: { icons: IconMap; slugs: s
                   <th scope="row" className="inscription w-12 pr-4 text-left align-middle font-normal text-fg-subtle">
                     {size}
                   </th>
-                  {scale.map((s) => (
-                    <td key={s} className="text-center align-middle" style={{ height: size + 24 }}>
+                  {scale.map((s, i) => (
+                    <td key={s} className={cn('text-center align-middle', i >= 4 && 'hidden sm:table-cell')} style={{ height: size + 24 }}>
                       <span className="inline-grid place-items-center">
                         <Draw icon={icons[s]} style="outline" size={size} strokeWidth={stroke} />
                       </span>
@@ -266,8 +266,8 @@ export function InContext({ icons }: { icons: IconMap }) {
             <div className="flex items-center justify-between gap-3">
               <p className="truncate font-medium text-fg">{NAV[active]?.label}</p>
               <div className="flex text-fg-muted">
-                {TOOLBAR.map((s) => (
-                  <span key={s} className="grid size-8 place-items-center">
+                {TOOLBAR.map((s, i) => (
+                  <span key={s} className={cn('size-8 place-items-center', i >= 2 ? 'hidden sm:grid' : 'grid')}>
                     <Draw icon={icons[s]} style={style} size={18} strokeWidth={strokeFor} />
                   </span>
                 ))}
