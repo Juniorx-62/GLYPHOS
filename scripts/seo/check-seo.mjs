@@ -6,13 +6,15 @@
  * without running JavaScript.
  *
  *   npm run check:seo                                  against http://localhost:3100
- *   npm run check:seo -- https://glyphos.vercel.app    after a deploy
+ *   npm run check:seo -- https://glyphos-eight.vercel.app    after a deploy
  *   npm run check:seo -- --limit=200                   at most N pages (default: all)
  *
- * Canonicals point to VITE_SITE_URL; against localhost only the path is compared.
+ * Canonicals point to VITE_SITE_URL: against localhost only the path is compared;
+ * against a deploy the domain must match too.
  */
 const args = process.argv.slice(2)
 const origin = (args.find((a) => /^https?:/.test(a)) ?? 'http://localhost:3100').replace(/\/$/, '')
+const local = /localhost|127\.0\.0\.1/.test(origin)
 const limit = Number(args.find((a) => a.startsWith('--limit='))?.slice(8) ?? Infinity)
 
 const sitemap = await (await fetch(`${origin}/sitemap.xml`)).text()
@@ -42,6 +44,8 @@ async function worker() {
     if (description.length < 50 || description.length > 160) p(`descrição com ${description.length} caracteres`)
     if (!canonical) p('sem canonical')
     else if (new URL(canonical).pathname !== path) p(`canonical aponta para ${canonical}`)
+    // Against a deploy, the canonical must also be on the same site (a wrong VITE_SITE_URL sends crawlers elsewhere).
+    else if (!local && new URL(canonical).origin !== new URL(origin).origin) p(`canonical em outro domínio: ${canonical}`)
     if (!/index, follow/.test(meta(html, 'robots'))) p('robots não permite indexar')
     for (const k of ['og:title', 'og:description', 'og:image', 'og:url']) if (!meta(html, k, 'property')) p(`sem ${k}`)
     const h1 = (html.match(/<h1[\s>]/g) ?? []).length

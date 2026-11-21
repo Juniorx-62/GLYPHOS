@@ -5,7 +5,7 @@
  * content wider than the screen and missing <h1>.
  *
  *   npm run check:pages                                  against http://localhost:3100
- *   npm run check:pages -- https://glyphos.vercel.app    against a deploy
+ *   npm run check:pages -- https://glyphos-eight.vercel.app    against a deploy
  *   npm run check:pages -- --only=/icons,/about --shots=tmp/shots
  *   npm run check:pages -- --sample=60                   icon pages sampled (default 24)
  */

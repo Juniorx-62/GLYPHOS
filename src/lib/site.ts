@@ -5,7 +5,7 @@
  */
 const envUrl = (import.meta.env?.VITE_SITE_URL as string | undefined)?.trim()
 
-export const SITE_URL = (envUrl || 'https://glyphos.vercel.app').replace(/\/+$/, '')
+export const SITE_URL = (envUrl || 'https://glyphos-eight.vercel.app').replace(/\/+$/, '')
 export const SITE_NAME = 'GLYPHOS'
 export const SITE_LANGUAGE = 'pt-BR'
 export const SITE_LOCALE = 'pt_BR'

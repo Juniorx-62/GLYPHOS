@@ -46,7 +46,7 @@ Cada `/icons/:slug` é renderizada no servidor com:
 | `robots` | `index, follow, max-image-preview:large` ou `noindex, follow` |
 | Open Graph / Twitter | título, descrição, URL e a imagem `public/images/og-glyphos.png` (1200 × 630, gerada por `npm run brand -- --png`) |
 
-O endereço vem de `VITE_SITE_URL` (padrão `https://glyphos.vercel.app`).
+O endereço vem de `VITE_SITE_URL` (padrão `https://glyphos-eight.vercel.app`).
 
 ## Sitemap e robots
 
@@ -78,7 +78,7 @@ npm run check:seo
 Lê o HTML do servidor (o que um rastreador vê, sem JavaScript) de todas as páginas do sitemap e confere: status 200, título e descrição (tamanho e unicidade), canonical igual ao endereço, robots, Open Graph, JSON-LD válido e exatamente um `<h1>`. Contra um deploy:
 
 ```bash
-npm run check:seo -- https://glyphos.vercel.app
+npm run check:seo -- https://glyphos-eight.vercel.app
 ```
 
 Rode depois de cada publicação e registre o resultado nas [auditorias](audits/README.md).
