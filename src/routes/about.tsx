@@ -62,12 +62,10 @@ function AboutPage() {
   const license = LICENSES.MIT
   return (
     <div className="mx-auto max-w-[1080px] px-4 pt-12 sm:px-6">
-      <div className="flex flex-col items-start gap-4 sm:flex-row sm:items-center">
-        <LogoMark size={44} className="text-fg" />
-        <div>
-          <h1 className="text-2xl font-medium text-fg sm:text-3xl">Sobre o GLYPHOS</h1>
-          <p className="text-sm text-fg-muted">Biblioteca de ícones SVG originais.</p>
-        </div>
+      <div className="grid grid-cols-[auto_1fr] items-start gap-x-3 sm:gap-x-4">
+        <LogoMark size={32} className="mt-1.5 text-fg sm:mt-2 sm:size-10" />
+        <h1 className="text-2xl font-medium text-fg sm:text-3xl">Sobre o GLYPHOS</h1>
+        <p className="col-start-2 mt-1 text-sm text-fg-muted">Biblioteca de ícones SVG originais.</p>
       </div>
       <div className="mt-8 grid max-w-3xl gap-4 text-base text-fg-muted">
         <p>
